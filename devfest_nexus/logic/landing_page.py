@@ -495,4 +495,4 @@ def render_landing_page():
             footer {visibility: hidden;}
             .stDeployButton {display:none;}
         </style>
-    """, unsafe_allow_html=True)1080, scrolling=False)
+    """, unsafe_allow_html=True)
