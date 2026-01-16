@@ -463,4 +463,4 @@ def render_landing_page():
     """
     
     # Render the HTML component with appropriate height
-    components.html(html_code, height=900, scrolling=False)
+    components.html(html_code, height=1000, scrolling=False)
