@@ -11,6 +11,13 @@ from logic.dashboard import render_dashboard
 # Page config
 st.set_page_config(page_title="NEXUS", layout="wide", initial_sidebar_state="collapsed")
 
+# Check query parameters for navigation
+query_params = st.query_params
+if 'page' in query_params and query_params['page'] == 'dashboard':
+    if 'page' not in st.session_state or st.session_state.page != 'dashboard':
+        st.session_state.page = 'dashboard'
+        st.rerun()
+
 # Session state for page routing
 if 'page' not in st.session_state:
     st.session_state.page = 'landing'  # 'landing' or 'dashboard'
