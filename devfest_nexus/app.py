@@ -32,6 +32,7 @@ from logic.scoring import (
     detect_intent_signals,
     run_win_probability_simulation
 )
+from logic.landing_page import render_landing_page
 
 # ============================================================================
 # PAGE CONFIGURATION
@@ -124,6 +125,9 @@ st.markdown("""
 # SESSION STATE INITIALIZATION
 # ============================================================================
 
+if 'show_landing' not in st.session_state:
+    st.session_state.show_landing = True  # Show landing page on first load
+
 if 'current_user_id' not in st.session_state:
     st.session_state.current_user_id = None
 
@@ -139,6 +143,32 @@ if 'chat_history' not in st.session_state:
 # ============================================================================
 # UI LAYOUT STARTS HERE
 # ============================================================================
+
+# Check if we should show landing page
+if st.session_state.show_landing:
+    # Hide sidebar for landing page
+    st.markdown("""
+    <style>
+        section[data-testid="stSidebar"] {
+            display: none;
+        }
+    </style>
+    """, unsafe_allow_html=True)
+    
+    render_landing_page()
+    
+    # Note: In a full implementation, the landing page cards would
+    # set st.session_state.show_landing = False and set user context
+    # For demo purposes, add a button to continue
+    st.markdown("---")
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col2:
+        if st.button("🚀 Enter Dashboard", key="enter_dashboard", use_container_width=True):
+            st.session_state.show_landing = False
+            st.rerun()
+    
+    # Stop execution here - don't show the rest of the app
+    st.stop()
 
 # Sidebar: User Context & Navigation
 with st.sidebar:
