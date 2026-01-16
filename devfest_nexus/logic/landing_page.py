@@ -116,9 +116,11 @@ def render_landing_page():
             flex-direction: column;
             width: 100%;
             height: 100vh;
+            max-height: 100vh;
+            overflow: hidden;
             opacity: 0;
             animation: fade-in 1.5s ease-out 6.0s forwards;
-            padding-top: 80px; 
+            padding-top: 70px;
         }
         @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
         /* --- Header --- */
@@ -136,8 +138,7 @@ def render_landing_page():
             justify-content: space-between; 
             padding: 0 40px; 
             z-index: 50;
-        }
-        .header-brand {
+        }        .header-brand {
             font-family: 'Inter', sans-serif;
             font-weight: 700;
             font-size: 1.1rem;
@@ -154,10 +155,11 @@ def render_landing_page():
         /* --- Hero --- */
         .hero-section {
             text-align: center;
-            padding: 60px 20px;
+            padding: 40px 20px 30px 20px;
             max-width: 800px;
             margin: 0 auto;
             z-index: 10;
+            flex-shrink: 0;
         }
         .hero-title {
             font-family: 'Inter', sans-serif;
@@ -166,7 +168,7 @@ def render_landing_page():
             color: var(--text-secondary);
             letter-spacing: 3px;
             text-transform: uppercase;
-            margin-bottom: 20px;
+            margin-bottom: 16px;
             opacity: 0.8;
         }
         .hero-desc {
@@ -175,7 +177,7 @@ def render_landing_page():
             font-size: 2.5rem;
             line-height: 1.2;
             color: var(--text-primary);
-            margin-bottom: 24px;
+            margin-bottom: 20px;
             letter-spacing: -1px;
         }
         .hero-sub {
@@ -193,8 +195,10 @@ def render_landing_page():
             display: flex;
             align-items: center; 
             justify-content: center;
-            padding: 20px 40px;
+            padding: 0px 40px 40px 40px;
             width: 100%;
+            min-height: 0;
+            overflow: hidden;
         }
         .cards-container {
             display: flex;
@@ -202,7 +206,7 @@ def render_landing_page():
             width: 100%;
             max-width: 900px;
             z-index: 10;
-            height: 350px;
+            height: min(320px, 40vh);
         }
         .monolith-card {
             background: var(--glass-bg);
