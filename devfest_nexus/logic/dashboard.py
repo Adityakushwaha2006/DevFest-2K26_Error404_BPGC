@@ -669,8 +669,8 @@ def render_dashboard():
     
     st.markdown("""
         <style>
-            .block-container {{ padding: 0 !important; }}
-            iframe {{ 
+            .block-container { padding: 0 !important; }
+            iframe { 
                 position: fixed; 
                 top: 0; 
                 left: 0; 
@@ -678,7 +678,7 @@ def render_dashboard():
                 height: 100vh; 
                 border: none; 
                 z-index: 99999; 
-            }}
-            header, footer, .stDeployButton {{ visibility: hidden; }}
+            }
+            header, footer, .stDeployButton { visibility: hidden; }
         </style>
     """, unsafe_allow_html=True)
