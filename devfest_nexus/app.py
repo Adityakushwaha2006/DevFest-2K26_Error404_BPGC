@@ -157,16 +157,6 @@ if st.session_state.show_landing:
     
     render_landing_page()
     
-    # Note: In a full implementation, the landing page cards would
-    # set st.session_state.show_landing = False and set user context
-    # For demo purposes, add a button to continue
-    st.markdown("---")
-    col1, col2, col3 = st.columns([1, 1, 1])
-    with col2:
-        if st.button("🚀 Enter Dashboard", key="enter_dashboard", use_container_width=True):
-            st.session_state.show_landing = False
-            st.rerun()
-    
     # Stop execution here - don't show the rest of the app
     st.stop()
 

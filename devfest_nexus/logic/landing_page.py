@@ -42,16 +42,24 @@ def render_landing_page():
             --glass-bg: rgba(15, 15, 15, 0.8); 
             --header-bg: rgba(18, 18, 18, 0.8);
         }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
         body {
             background-color: var(--bg-dark);
             color: var(--text-primary);
             font-family: 'Inter', sans-serif;
-            overflow: hidden; /* Prevent scroll within iframe */
             margin: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 100vh;
         }
         /* --- Interactive Background --- */
         #bg-canvas {
