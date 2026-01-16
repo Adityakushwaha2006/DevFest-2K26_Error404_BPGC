@@ -1,0 +1,176 @@
+# NEXUS: The Intelligent Networking Engine
+### DevFest 5.0 Project Masterplan
+**Team:** Aditya Kushwaha, Aditya Melinkeri, Aksh Shah, Bhuvanesh
+**Track:** AI & Real-World Solutions
+**Status:** In Development
+
+---
+
+## 1. Executive Summary & Vision
+**The Problem:** Current networking tools (LinkedIn, Twitter) are **static**. They tell you *who* someone is, but fail to answer the critical questions: *Why* should I connect now? *How* should I approach them? and *Is this the right moment?*
+
+**The Solution:** **Nexus** is an AI-powered relationship intelligence system. It moves beyond "profile matching" to **"Intent & Momentum Analysis."** By synthesizing social graphs, real-time activity bursts, and semantic context, Nexus identifies the **Path of Least Resistance** to high-value connections.
+
+**The "Winning" Factor:**
+* **Dynamic Context:** We don't just read bios; we read "digital body language" (activity spikes, sentiment).
+* **Graph Theory:** We visualize the "hidden chains" (User → Alumni → Target).
+* **Timing:** We use Time Series Analysis to predict the perfect moment to send a message.
+
+---
+
+## 2. The Core Workflow (User Journey)
+The application follows a strict 3-Phase Pipeline: **Explore → Strategize → Execute.**
+
+### Phase 1: The Exploration & Web (Search)
+*User Goal: "Who should I connect with?"*
+
+The user enters a broad goal (e.g., "Software Internship") or a specific target. The system generates a **Context Window** populated by multiple entities.
+
+* **Feature 1.1: The "Warmth" Heatmap (Visual Graph)**
+    * **Concept:** A force-directed interactive web.
+    * **Function:** You are the center node. Potential connections float closer to you based on a **Relevance Score**.
+    * **Innovation:** The graph is *dynamic*. Toggle "Alumni Mode," and BITS Goa seniors pull closer. Toggle "Research Mode," and professors pull closer.
+* **Feature 1.2: Tertiary Chain Analysis (The "Path")**
+    * **Concept:** Don't just show the target; show the path.
+    * **Logic:** Calculates the shortest, "warmest" path through the network.
+    * **Visual:** `You` --(High Trust)--> `Prof. Sharma` --(Medium Trust)--> `Target Researcher`.
+    * **Value:** It identifies "Hidden Bridges"—people you didn't know could introduce you.
+
+### Phase 2: The Sniper Scope (Deep Analysis)
+*User Goal: "Is this the right time and person?"*
+
+Once a target is selected, Nexus builds a specific **"Dossier"** for that person.
+
+* **Feature 2.1: Sentiment Momentum Tracker (Time Series)**
+    * **Concept:** A stock-market style chart tracking the user's digital energy.
+    * **Logic:**
+        * *High Activity + Positive Sentiment:* "Building Phase" (Good for collaboration).
+        * *Low Activity:* "Dormant" (Low response probability).
+        * *High Activity + Negative Sentiment:* "Crunch Time" (Do not disturb).
+* **Feature 2.2: Win Probability Simulator**
+    * **Concept:** Before you act, the AI runs Monte Carlo simulations on your approach.
+    * **Output:** "Current Probability: 12%. Recommendation: Wait 3 days until their product launch is over to increase probability to 65%."
+
+### Phase 3: The War Room (Execution)**
+*User Goal: "How do I close the deal?"*
+
+* **Feature 3.1: The "Mirroring" Draft Engine**
+    * **Concept:** AI analyzes the target's writing style (lexicon, formality, emoji usage) and generates a message that *subconsciously* mimics them to build rapport.
+* **Feature 3.2: Dynamic Context Chat (RAG)**
+    * **Concept:** A chatbot interface where the "Context Window" is the target's entire digital life.
+    * **Usage:** "Draft a follow-up message referencing his last commit on the `aeon` library."
+
+---
+
+## 3. Technical Architecture (The Pipeline)
+
+### Layer A: Data Ingestion (The "Eyes")
+*We use a Hybrid Data Strategy to balance feasibility and realism.*
+
+1.  **Real-Time Data (APIs):**
+    * **GitHub API:** Fetches Commits, PRs, Stars. (Proxy for "Work Intent").
+    * **NewsAPI:** Fetches company news/funding rounds. (Proxy for "Business Intent").
+    * **ArXiv API:** Fetches research papers. (Proxy for "Academic Intent").
+2.  **Simulated Data (The "Black Box"):**
+    * **LinkedIn/Twitter Mock:** We use a `mock_profiles.json` schema to simulate "Posts," "Job Updates," and "Mutual Connections."
+    * **The Alumni Database:** A static dataset of 500 "BITS Alumni" to power the Tertiary Chain feature.
+
+### Layer B: The Processing Core (The "Brain")
+* **Vector Database (ChromaDB):** Stores user profiles as vector embeddings. This allows **Semantic Matching** (e.g., matching "Computer Vision" with "Face ID").
+* **Time Series Engine (Custom Python Logic):**
+    * Input: Timestamps of events.
+    * Function: `calculate_momentum_score(events, decay_factor=0.8)`
+    * Output: A score (0-100) representing "Current Availability."
+* **LLM Integration (Gemini/OpenAI):**
+    * Task 1: **Summarization** (Turning 50 tweets into a "Current Focus" tag).
+    * Task 2: **Drafting** (Generating the cold DM).
+
+### Layer C: The Frontend (The "Face")
+* **Framework:** Streamlit (for speed) or React (for complex graphs).
+* **Visualization:** `React-Force-Graph` or `Cytoscape.js` for the network web.
+* **Components:**
+    * **Sidebar:** User Context & Goal Input.
+    * **Main Canvas:** The Interactive Network Graph.
+    * **Right Panel:** The "Dossier" (Momentum Charts & Chat).
+
+---
+
+## 4. Implementation Roadmap (48-Hour Sprint)
+
+| Phase | Timeframe | Task | Owner |
+| :--- | :--- | :--- | :--- |
+| **I. Setup** | Fri Night | Define JSON Schema for `User` object. Initialize Repo. | **Aditya K** |
+| **II. Data** | Sat Morning | Build `MockDataGenerator` & Connect GitHub API. | **Aksh/Bhuvanesh** |
+| **III. Logic** | Sat Noon | Implement "Momentum Score" & "Pathfinding" Algo. | **Aditya K** |
+| **IV. UI** | Sat Evening | Build Streamlit Dashboard + Graph Viz. | **Aditya M** |
+| **V. Integration**| Sun Morning | Connect Logic to UI. Refine LLM Prompts. | **All** |
+| **VI. Pitch** | Sun Noon | Create "Perfect Scenario" Demo. | **All** |
+
+---
+
+## 5. Hackathon Strategy: How to Win
+
+1.  **The "Live" Factor:** During the demo, show **Real GitHub Data**. It proves the tech is real. Then switch to the simulated "LinkedIn" data for the complex social graph.
+2.  **Focus on "Why Now":** Judges see "Connect" buttons all the time. They rarely see a **"Do NOT Connect (Wait 2 Days)"** button. Highlight this feature—it shows deep thoughtfulness.
+3.  **Visuals Over Text:** The **Force-Directed Graph** (The Web) must be the centerpiece. It looks complex, technical, and impressive on a projector.
+
+---
+
+## 6. Appendix: Data Structure (JSON Schema)
+*Use this structure for all simulated data to ensure the Graph and AI can read it.*
+
+```json
+{
+  "user_id": "target_001",
+  "name": "Dr. Rohit Verma",
+  "role": "Senior Researcher @ DeepMind",
+  "alumni_status": "BITS Pilani (2018)",
+  "connection_path": ["You", "Prof. S. Rao", "Dr. Rohit Verma"],
+  "momentum_metrics": {
+    "last_active": "2 hours ago",
+    "activity_volume_7d": "High",
+    "sentiment": "Frustrated"
+  },
+  "recent_context": [
+    {"source": "GitHub", "event": "Push", "repo": "alpha-fold-3", "timestamp": "2026-01-16T14:30:00"},
+    {"source": "Twitter", "event": "Post", "text": "Struggling with GPU allocation today.", "timestamp": "2026-01-16T15:00:00"}
+  ]
+}
+```
+# PROMPT I HAD GIVEN TO GEMINI : MY THINKING OF WHAT WE SHOULD DO:
+
+LETS DEFINE ALL THE FEATURES THAT OUR APPRAOCH CAN TAKE:
+THIS IS THE IDEATION PHASE
+
+Firstly we'll make a context profile for the user and have the ability to add multiple users - this will make a context window for all users and ability to switch to family members /users remains.
+
+We'll have the following things that people can do with this tool:
+1)For a particular task, opportunity -who to connect to , when to connect to , how to connect, what to send, maximisation of win probability , relevance of contact.
+
+For this we shall also have multiple contacts showed as a interlinked web (if correlated), and multiple probable best sources to contact .
+
+In case there is any over lap of such as college based alumni tertiary connects with someone who you wish to contact then the web should show that, it should account for all these factors creating tertiary and secondary chains, not longer. It will be interactive and we can check different chains of approach and rank the best one for us.
+THis wont be too big , we dont wanna overwhelm the person , we'll just have what is relevant to connect. - this is to find who TO CONNECT TO . - THIS IS GENERAL SEARCH , THIS WILL FUNNEL TO STEP 2 FOR THE CHOSEN PERSON
+
+2) HOW TO CONNECT TO A SPECIFIC SOMEONE: (THIS IS AVAIABLE DIRECTLY ASWELL AND AS A CONTINUATION OF STEP 1 ASWELL)
+-> Updates here and imporatnt info does get added to the web structure that we've created so we can track progress and leads nicely.
+
+Here , it does a social analysis of all the profiles avaiabale for the person, HERE LIST ALL THE DATA SOURCES WE MUST USE.
+We'll ask the user for the linkedin /github for the person to be connected to unless we have that context from step 1.
+With that we shall cause a draft of all the datapoints that are actually feasible for this specific person and then use those to build a specialised context for this with all the info we have.
+
+Then we'll perfom a user - person context match and then formalise all the strategy.
+
+3)Maintain a window for context for the chat from stage 2- this will be set as a SPECIFIC CHAT FOR A SPECIFIC PERSON , this can even have multiple people if needed , but we'll maintain different context windows for different connections.
+
+I NEED YOU TO DO AN EXTENSIVE OVERVIEW OF HOW INLINE THIS APPROACH IS WITH THE PROBLEM STATEMENT, ADD FEATURES TO IT THAT WOULD BLOW YOUR MIND. CURATE EVERYTHING TO SCORE THE HIGHEST ON THE HACKATHON METRICS OF JUDGEMENT. 
+ADD FEATURES , AS MANY GOOD FEATURES AS YOU CAN.
+
+PUT IT IN A WELL DESIGNED EASY TO UNDERSTAND ,EXPANSIVE PIPELINE , DO NOT MISS ANY DETAIL , THE FLOW SHOULD BE TEXTUAL AND VISUAL , YOU CAN PROCESS DIFFERENT CHUNKS IN DIFFERENT REPLIES BUT YOU SHOULD NOT MISS ANYTHING.
+
+USE ALREADY AVAIABLE TOOLS OVER THE INTERNET THAT DO THIS AND MAKE SURE THAT WE TAKE INSPIRATION FROM THEM AND BUILD ON TOP OF IT.
+THIS MUST BE THE BEST VERSION OF THE AGGREGATE FUNCTIONALITIES EVEN POSSIBLE FOR THIS HACKATHON. TAKE YOU TIME.
+
+NOTE: THIS SHOULD BE WELL DIVIDED INTO CHUNKS EASY TO UNDERSTAND WHERE WHAT WILL BE.
+
+ALSO INCLUDE ALL THE PUBLIC SOURCES OF DATA WE SHOULD USE API KEYS FOR AND ALL THE ONES WE SHOULD SIMULATE TO GET FULL CONTEXT
