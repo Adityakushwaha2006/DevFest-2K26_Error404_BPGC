@@ -1,0 +1,38 @@
+# NEXUS - AI-Powered Network Intelligence System
+# Python Dependencies
+
+# Core
+python>=3.9
+
+# HTTP Requests
+requests>=2.31.0
+
+# Data Processing
+pandas>=2.0.0
+
+# Vector Database
+chromadb>=0.4.0
+
+# LLM Integration
+google-generativeai>=0.3.0
+openai>=1.0.0  # Backup LLM option
+
+# Web Framework (choose one)
+fastapi>=0.104.0
+uvicorn>=0.24.0
+
+# Frontend (Streamlit - Recommended)
+streamlit>=1.28.0
+streamlit-agraph>=0.0.45  # For force-directed graphs
+plotly>=5.17.0  # For visualization
+
+# Utilities
+python-dotenv>=1.0.0  # Environment variables
+pydantic>=2.0.0  # Data validation
+beautifulsoup4>=4.12.0  # HTML parsing for Nitter scraping
+lxml>=4.9.0  # HTML parser backend for BeautifulSoup
+
+# Optional: Advanced features
+# scikit-learn>=1.3.0  # For additional ML features
+# numpy>=1.24.0
+# sentence-transformers>=2.2.0  # For embeddings
