@@ -155,7 +155,7 @@ def render_landing_page():
         /* --- Hero --- */
         .hero-section {
             text-align: center;
-            padding: 40px 20px 30px 20px;
+            padding: 30px 20px 20px 20px;
             max-width: 800px;
             margin: 0 auto;
             z-index: 10;
@@ -164,28 +164,28 @@ def render_landing_page():
         .hero-title {
             font-family: 'Inter', sans-serif;
             font-weight: 400;
-            font-size: 0.75rem; 
+            font-size: 0.7rem; 
             color: var(--text-secondary);
             letter-spacing: 3px;
             text-transform: uppercase;
-            margin-bottom: 16px;
+            margin-bottom: 12px;
             opacity: 0.8;
         }
         .hero-desc {
             font-family: 'Inter', sans-serif;
             font-weight: 300;
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             line-height: 1.2;
             color: var(--text-primary);
-            margin-bottom: 20px;
+            margin-bottom: 16px;
             letter-spacing: -1px;
         }
         .hero-sub {
             font-family: 'Inter', sans-serif;
             font-weight: 300;
-            font-size: 1rem;
+            font-size: 0.9rem;
             color: #666;
-            line-height: 1.6;
+            line-height: 1.5;
             max-width: 450px;
             margin: 0 auto;
         }
@@ -195,24 +195,24 @@ def render_landing_page():
             display: flex;
             align-items: center; 
             justify-content: center;
-            padding: 0px 40px 40px 40px;
+            padding: 0px 40px 30px 40px;
             width: 100%;
             min-height: 0;
             overflow: hidden;
         }
         .cards-container {
             display: flex;
-            gap: 16px;
+            gap: 14px;
             width: 100%;
             max-width: 900px;
             z-index: 10;
-            height: min(320px, 40vh);
+            height: 280px;
         }
         .monolith-card {
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
             border-radius: 4px;
-            padding: 30px;
+            padding: 24px;
             flex: 1;
             cursor: pointer;
             transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
@@ -250,19 +250,19 @@ def render_landing_page():
         .card-title {
             font-family: 'Inter', sans-serif;
             font-weight: 500;
-            font-size: 1.1rem;
+            font-size: 1rem;
             color: var(--text-primary);
             letter-spacing: -0.5px;
-            margin-bottom: 20px;
+            margin-bottom: 16px;
         }
         .target-list {
             display: flex;
             flex-direction: column;
-            gap: 8px;
+            gap: 6px;
         }
         .target-item {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.65rem;
+            font-size: 0.62rem;
             color: var(--text-secondary);
             display: flex;
             align-items: center;
@@ -462,5 +462,5 @@ def render_landing_page():
 </html>
     """
     
-    # Render the HTML component with appropriate height
-    components.html(html_code, height=1000, scrolling=False)
+    # Render the HTML component with appropriate height (scaled to fit all content)
+    components.html(html_code, height=800, scrolling=False)
