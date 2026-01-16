@@ -32,6 +32,7 @@ def render_landing_page():
     <script src="https://unpkg.com/lucide@latest"></script>
     <style>
         :root {
+            /* Matte Black / Charcoal Theme */
             --bg-dark: #121212; 
             --text-primary: #EDEDED;
             --text-secondary: #888888;
@@ -42,24 +43,17 @@ def render_landing_page():
             --glass-bg: rgba(15, 15, 15, 0.8); 
             --header-bg: rgba(18, 18, 18, 0.8);
         }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        html, body {
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
+        * { box-sizing: border-box; }
         body {
             background-color: var(--bg-dark);
             color: var(--text-primary);
             font-family: 'Inter', sans-serif;
+            overflow: hidden; /* Prevent scroll within iframe */
             margin: 0;
             display: flex;
             flex-direction: column;
             align-items: center;
+            height: 100vh;
         }
         /* --- Interactive Background --- */
         #bg-canvas {
@@ -110,17 +104,15 @@ def render_landing_page():
             90% { opacity: 0; transform: scale(1.05); pointer-events: none; } 
             100% { opacity: 0; visibility: hidden; pointer-events: none; } 
         }
-        /* --- Layout --- */
+        /* --- Layout Sizing (CRITICAL) --- */
         #main-wrapper {
             display: flex;
             flex-direction: column;
             width: 100%;
             height: 100vh;
-            max-height: 100vh;
-            overflow: hidden;
             opacity: 0;
             animation: fade-in 1.5s ease-out 6.0s forwards;
-            padding-top: 70px;
+            padding-top: 70px; /* Reduced to fix shift */
         }
         @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
         /* --- Header --- */
@@ -138,12 +130,16 @@ def render_landing_page():
             justify-content: space-between; 
             padding: 0 40px; 
             z-index: 50;
-        }        .header-brand {
+        }
+        .header-brand {
             font-family: 'Inter', sans-serif;
             font-weight: 700;
             font-size: 1.1rem;
             letter-spacing: -0.2px;
             color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
         .header-version {
             font-family: 'JetBrains Mono', monospace;
@@ -155,37 +151,36 @@ def render_landing_page():
         /* --- Hero --- */
         .hero-section {
             text-align: center;
-            padding: 30px 20px 20px 20px;
+            padding: 20px 20px 40px 20px; /* Top padding reduced */
             max-width: 800px;
             margin: 0 auto;
             z-index: 10;
-            flex-shrink: 0;
         }
         .hero-title {
             font-family: 'Inter', sans-serif;
             font-weight: 400;
-            font-size: 0.7rem; 
+            font-size: 0.75rem; 
             color: var(--text-secondary);
             letter-spacing: 3px;
             text-transform: uppercase;
-            margin-bottom: 12px;
+            margin-bottom: 20px;
             opacity: 0.8;
         }
         .hero-desc {
             font-family: 'Inter', sans-serif;
             font-weight: 300;
-            font-size: 2.2rem;
+            font-size: 2.5rem;
             line-height: 1.2;
             color: var(--text-primary);
-            margin-bottom: 16px;
+            margin-bottom: 24px;
             letter-spacing: -1px;
         }
         .hero-sub {
             font-family: 'Inter', sans-serif;
             font-weight: 300;
-            font-size: 0.9rem;
+            font-size: 1rem;
             color: #666;
-            line-height: 1.5;
+            line-height: 1.6;
             max-width: 450px;
             margin: 0 auto;
         }
@@ -193,26 +188,24 @@ def render_landing_page():
         .content-area {
             flex: 1;
             display: flex;
-            align-items: center; 
+            align-items: flex-start; /* Fixes vertical centering issue */
             justify-content: center;
-            padding: 0px 40px 30px 40px;
+            padding: 0 40px;
             width: 100%;
-            min-height: 0;
-            overflow: hidden;
         }
         .cards-container {
             display: flex;
-            gap: 14px;
+            gap: 16px;
             width: 100%;
             max-width: 900px;
             z-index: 10;
-            height: 280px;
+            height: 350px;
         }
         .monolith-card {
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
             border-radius: 4px;
-            padding: 24px;
+            padding: 30px;
             flex: 1;
             cursor: pointer;
             transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
@@ -250,19 +243,19 @@ def render_landing_page():
         .card-title {
             font-family: 'Inter', sans-serif;
             font-weight: 500;
-            font-size: 1rem;
+            font-size: 1.1rem;
             color: var(--text-primary);
             letter-spacing: -0.5px;
-            margin-bottom: 16px;
+            margin-bottom: 20px;
         }
         .target-list {
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 8px;
         }
         .target-item {
             font-family: 'JetBrains Mono', monospace;
-            font-size: 0.62rem;
+            font-size: 0.65rem;
             color: var(--text-secondary);
             display: flex;
             align-items: center;
@@ -462,5 +455,5 @@ def render_landing_page():
 </html>
     """
     
-    # Render the HTML component with appropriate height (scaled to fit all content)
-    components.html(html_code, height=800, scrolling=False)
+    # Render with 1080px height for full viewport on most screens
+    components.html(html_code, height=1080, scrolling=False)
