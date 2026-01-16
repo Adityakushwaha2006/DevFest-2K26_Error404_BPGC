@@ -1,25 +1,22 @@
 """
-Landing Page Component - High-End Matte Charcoal Aesthetic
-===========================================================
-This module renders the custom landing page with particle physics background
-and SVG intro animations using Streamlit's HTML component injection.
+Landing Page Component
+======================
+High-fidelity landing page with custom HTML/CSS/JS featuring:
+- Animated SVG logo intro sequence
+- Interactive particle physics background
+- Matte charcoal aesthetic with glassmorphism
+- Three context selection cards (Student/Founder/Researcher)
 """
 
 import streamlit as st
 import streamlit.components.v1 as components
 
-
 def render_landing_page():
     """
-    Render the landing page with custom HTML/CSS/JS.
-    
-    Features:
-    - Fluid-physics particle background (mouse-interactive)
-    - SVG letter-by-letter animation for "NEXUS"
-    - Three monolith cards for user context selection
-    - Matte charcoal aesthetic with glassmorphism
+    Renders the Nexus landing page with full custom HTML/CSS/JS.
+    Uses st.components.v1.html() to inject raw code for advanced animations
+    that cannot be achieved with native Streamlit elements.
     """
-    
     html_code = """
 <!DOCTYPE html>
 <html lang="en">
@@ -40,6 +37,7 @@ def render_landing_page():
             --neon-purple: #8b5cf6;
             --neon-green: #10b981;
             --glass-border: rgba(255, 255, 255, 0.04);
+            /* Darker, Matte Glass */
             --glass-bg: rgba(15, 15, 15, 0.8); 
             --header-bg: rgba(18, 18, 18, 0.8);
         }
@@ -109,10 +107,11 @@ def render_landing_page():
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: 100vh;
+            height: 100%;
             opacity: 0;
             animation: fade-in 1.5s ease-out 6.0s forwards;
             padding-top: 70px; /* Reduced to fix shift */
+            justify-content: center;
         }
         @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
         /* --- Header --- */
@@ -151,10 +150,11 @@ def render_landing_page():
         /* --- Hero --- */
         .hero-section {
             text-align: center;
-            padding: 20px 20px 40px 20px; /* Top padding reduced */
+            padding: 0 20px;
             max-width: 800px;
-            margin: 0 auto;
+            margin: 0 auto 4vh auto; /* Responsive bottom margin */
             z-index: 10;
+            flex-shrink: 0;
         }
         .hero-title {
             font-family: 'Inter', sans-serif;
@@ -163,7 +163,7 @@ def render_landing_page():
             color: var(--text-secondary);
             letter-spacing: 3px;
             text-transform: uppercase;
-            margin-bottom: 20px;
+            margin-bottom: 1.5vh;
             opacity: 0.8;
         }
         .hero-desc {
@@ -172,7 +172,7 @@ def render_landing_page():
             font-size: 2.5rem;
             line-height: 1.2;
             color: var(--text-primary);
-            margin-bottom: 24px;
+            margin-bottom: 2vh;
             letter-spacing: -1px;
         }
         .hero-sub {
@@ -186,12 +186,13 @@ def render_landing_page():
         }
         /* --- Monolith Cards --- */
         .content-area {
-            flex: 1;
             display: flex;
             align-items: flex-start; /* Fixes vertical centering issue */
             justify-content: center;
             padding: 0 40px;
             width: 100%;
+            flex-grow: 0;
+            padding-bottom: 5vh;
         }
         .cards-container {
             display: flex;
@@ -199,7 +200,9 @@ def render_landing_page():
             width: 100%;
             max-width: 900px;
             z-index: 10;
-            height: 350px;
+            height: 35vh;
+            min-height: 280px;
+            max-height: 400px;
         }
         .monolith-card {
             background: var(--glass-bg);
@@ -454,6 +457,4 @@ def render_landing_page():
 </body>
 </html>
     """
-    
-    # Render with 1080px height for full viewport on most screens
     components.html(html_code, height=1080, scrolling=False)
