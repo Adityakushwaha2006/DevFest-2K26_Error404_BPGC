@@ -5,17 +5,58 @@ The Strategy Console view featuring:
 - Chat interface with AI strategist
 - Target profile sidebar
 - Activity timeline and context panel
-- Mock data structure for backend integration
+- Live Gemini AI chat integration
 """
 
 import streamlit as st
 import streamlit.components.v1 as components
+from logic.chat_engine import create_chat_engine
+
+
+def initialize_chat():
+    """Initialize chat engine in session state (runs once per session)"""
+    if 'chat_engine' not in st.session_state:
+        try:
+            st.session_state.chat_engine = create_chat_engine()
+            st.session_state.chat_history = []
+            
+            if st.session_state.chat_engine:
+                # Get initial greeting from chat engine
+                st.session_state.chat_history = st.session_state.chat_engine.get_history()
+                st.session_state.chat_initialized = True
+            else:
+                # Fallback if API key missing
+                st.session_state.chat_initialized = False
+                st.session_state.chat_history = [
+                    {
+                        "role": "assistant",
+                        "content": "⚠️ Chat unavailable: GEMINI_API_KEY not configured. Please add your API key to the .env file."
+                    }
+                ]
+        except Exception as e:
+            st.session_state.chat_initialized = False
+            st.session_state.chat_history = [
+                {
+                    "role": "assistant",
+                    "content": f"⚠️ Chat initialization failed: {str(e)}"
+                }
+            ]
+
+
+
 
 def render_dashboard():
     """
     Renders the Nexus Strategy Console dashboard.
     Uses fullscreen overlay hack to bypass Streamlit layout.
     """
+    
+    # SIMPLIFIED - Chat integration disabled for now
+    # TODO: Implement chat properly later
+    
+    
+    # Message handling removed - keeping UI simple
+    
     
     # --- 1. THE DATA INTERFACE (Backend Contract) ---
     # This dictionary defines exactly what the Backend Team needs to provide.
@@ -35,6 +76,39 @@ def render_dashboard():
         "ai_insight": "Target is in 'Builder Mode' (12 commits in 3h). Technical engagement recommended.",
         "draft_message": "Hey Aditya, saw your GPU allocation fix on aeon-toolkit. I'm facing a similar bottleneck—did you find the memory overhead reduced significantly after the patch?"
     }
+    
+    
+    # Generate chat messages from history
+    chat_messages_html = ""
+    chat_history = st.session_state.get('chat_history', [])
+    
+    for msg in chat_history:
+        if msg.get('role') == 'assistant':
+            content = msg.get('content', '').replace('\n', '<br>')
+            chat_messages_html += f"""
+        <div class="message">
+            <div class="icon-box icon-ai">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 3v18" />
+                    <path d="M18 3v18" />
+                    <path d="M6 3l12 18" />
+                </svg>
+            </div>
+            <div class="msg-bubble ai-bubble">
+                <div style="line-height: 1.5;">{content}</div>
+            </div>
+        </div>
+            """
+        elif msg.get('role') == 'user':
+            content = msg.get('content', '')
+            chat_messages_html += f"""
+        <div class="message" style="justify-content: flex-end;">
+            <div class="msg-bubble" style="background: rgba(59, 130, 246, 0.1); border-color: rgba(59, 130, 246, 0.2);">
+                <p>{content}</p>
+            </div>
+        </div>
+            """
+
 
     # --- 2. THE FRONTEND (HTML/CSS/JS) ---
     # Note: Double curly braces {{ }} are used for CSS/JS to avoid f-string conflicts.
@@ -255,13 +329,14 @@ def render_dashboard():
                 background: var(--bg-dark);
             }}
             
-            .chat-history {{
+            .messages {{
                 flex: 1;
                 overflow-y: auto;
-                padding: 30px;
+                padding: 20px;
+                padding-bottom: 80px;
                 display: flex;
                 flex-direction: column;
-                gap: 20px;
+                gap: 16px;
             }}
             
             .message {{
@@ -552,57 +627,11 @@ def render_dashboard():
             <!-- MAIN CONSOLE -->
             <div class="main-console">
                 <section class="chat-section">
-                    <div class="chat-history">
-                        <!-- AI Insight -->
-                        <div class="message">
-                            <div class="icon-box icon-ai">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M6 3v18" />
-                                    <path d="M18 3v18" />
-                                    <path d="M6 3l12 18" />
-                                </svg>
-                            </div>
-                            <div class="msg-bubble ai-bubble">
-                                <p style="color:#666; font-size:0.7rem; margin-bottom:8px; font-family:'JetBrains Mono', monospace; letter-spacing:1px; font-weight:500;">SYSTEM INSIGHT • {data['target_name'].upper()}</p>
-                                <p>{data['ai_insight']}</p>
-                            </div>
-                        </div>
-                        
-                        <!-- Draft -->
-                        <div class="message">
-                            <div class="icon-box icon-ai">
-                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                                    <path d="M6 3v18" />
-                                    <path d="M18 3v18" />
-                                    <path d="M6 3l12 18" />
-                                </svg>
-                            </div>
-                            <div class="msg-bubble ai-bubble" style="width:100%; max-width:none;">
-                                <p>Here is a concise draft referencing the specific commit:</p>
-                                <div class="draft-container">
-                                    <div class="draft-header">
-                                        <span class="draft-title">LINKEDIN / DM</span>
-                                        <i data-lucide="copy" width="12" color="#666" style="cursor:pointer"></i>
-                                    </div>
-                                    <div class="draft-content">
-                                        {data['draft_message']}
-                                    </div>
-                                </div>
-                                <div class="suggestions">
-                                    <div class="chip">Make it Formal</div>
-                                    <div class="chip">Ask for Call</div>
-                                    <div class="chip">Add Context</div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="messages" id="chat-history">
+                        <!-- Dynamic chat messages from session state -->
+                        {chat_messages_html}
                     </div>
-                    
-                    <div class="input-area">
-                        <div class="input-wrapper">
-                            <input type="text" class="chat-input" placeholder="Message Nexus Strategist...">
-                            <i data-lucide="arrow-right" width="16" color="#444" style="cursor:pointer"></i>
-                        </div>
-                    </div>
+                    <!-- Input handled by Streamlit widget positioned via CSS -->
                 </section>
 
                 <aside class="context-panel">
@@ -658,6 +687,12 @@ def render_dashboard():
         </div>
         <script>
             lucide.createIcons();
+            
+            // Auto-scroll chat to bottom on load
+            const chatHistory = document.getElementById('chat-history');
+            if (chatHistory) {{
+                chatHistory.scrollTop = chatHistory.scrollHeight;
+            }}
         </script>
     </body>
     </html>
@@ -666,6 +701,19 @@ def render_dashboard():
     # --- 3. RENDER FULLSCREEN ---
     components.html(html_code, height=0, scrolling=False)
     
+    # --- 4. ADD CHAT FUNCTIONALITY (SIMPLE APPROACH) ---
+    # Initialize chat engine once
+    if 'chat_engine' not in st.session_state:
+        try:
+            from logic.chat_engine import create_chat_engine
+            st.session_state.chat_engine = create_chat_engine()
+            if st.session_state.chat_engine:
+                st.session_state.chat_history = st.session_state.chat_engine.get_history()
+        except:
+            st.session_state.chat_engine = None
+            st.session_state.chat_history = []
+    
+    # CSS to position input exactly where HTML input was
     st.markdown("""
         <style>
             .block-container { padding: 0 !important; }
@@ -674,10 +722,88 @@ def render_dashboard():
                 top: 0; 
                 left: 0; 
                 width: 100vw; 
-                height: 100vh; 
+                height: 100vh;
                 border: none; 
-                z-index: 99999; 
+                z-index: 99999;
             }
             header, footer, .stDeployButton { visibility: hidden; }
+            
+            /* Position text area where HTML input was */
+            div[data-testid="stTextArea"] {
+                position: fixed !important;
+                bottom: 22px !important;
+                left: 310px !important;
+                width: calc(100vw - 660px) !important;
+                z-index: 999999 !important;
+                margin: 0 !important;
+                padding: 0 !important;
+                box-sizing: border-box !important;
+            }
+            
+            /* Style textarea to match dashboard with wrapping */
+            div[data-testid="stTextArea"] textarea {
+                background: rgba(255, 255, 255, 0.03) !important;
+                border: 1px solid rgba(255, 255, 255, 0.06) !important;
+                border-radius: 10px !important;
+                padding: 12px 16px !important;
+                color: #EDEDED !important;
+                font-size: 0.9rem !important;
+                font-family: 'Inter', sans-serif !important;
+                resize: none !important;
+                overflow-wrap: break-word !important;
+                word-wrap: break-word !important;
+                white-space: pre-wrap !important;
+                width: 100% !important;
+                min-height: 44px !important;
+                max-height: 200px !important;
+                overflow-y: auto !important;
+                box-sizing: border-box !important;
+            }
+            
+            div[data-testid="stTextArea"] textarea:focus {
+                border-color: rgba(59, 130, 246, 0.4) !important;
+                outline: none !important;
+                box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1) !important;
+            }
+            
+            /* Hide label */
+            div[data-testid="stTextArea"] label {
+                display: none !important;
+            }
         </style>
     """, unsafe_allow_html=True)
+    
+    # Add text input with callback to prevent infinite loop
+    # Callback to handle message sending
+    def handle_input():
+        user_msg = st.session_state.get('chat_input_text', '').strip()
+        if user_msg and user_msg != st.session_state.get('last_processed_msg', ''):
+            try:
+                # Send message to chat engine
+                response = st.session_state.chat_engine.send_message(user_msg)
+                
+                # Update history from engine
+                st.session_state.chat_history = st.session_state.chat_engine.get_history()
+                
+                # Track last processed message
+                st.session_state.last_processed_msg = user_msg
+                
+                # Clear the input by resetting the value
+                st.session_state.chat_input_text = ''
+                
+            except Exception as e:
+                st.error(f"Error: {str(e)}")
+    
+    # Initialize input text in session state
+    if 'chat_input_text' not in st.session_state:
+        st.session_state.chat_input_text = ''
+    
+    # Use text_area for multi-line support with auto-wrapping
+    st.text_area(
+        "Message",
+        key='chat_input_text',
+        placeholder="Message Nexus Strategist...",
+        height=60,
+        label_visibility="collapsed",
+        on_change=handle_input
+    )
