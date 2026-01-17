@@ -1,0 +1,193 @@
+{
+  "username": "gregkh",
+  "platform": "linkedin",
+  "timestamp": "2026-01-17T16:51:26.226899",
+  "data": {
+    "profile": {
+      "name": "Greg Kroah-Hartman",
+      "headline": "Independent Linux Kernel Maintainer | Open Source Advocate | Systems Programming Consultant",
+      "location": "Unknown",
+      "about": "With decades of experience in the software development landscape, I specialize in low-level systems programming and am a dedicated contributor to the open-source community, notably as a long-time maintainer of various Linux kernel subsystems. My work involves driving critical infrastructure projects, ensuring robust performance, and fostering collaborative development. I am passionate about advancing the core technologies that power modern computing and am always seeking impactful technical challenges.",
+      "current_company": "Freelance",
+      "current_position": "Linux Kernel Developer & Consultant",
+      "connections": 450,
+      "followers": 9200,
+      "profile_views_last_90_days": 1850,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": true,
+      "experience": [
+        {
+          "title": "Freelance Software Developer / Consultant",
+          "company": "Freelance",
+          "location": "Remote",
+          "start_date": "March 2022",
+          "end_date": "Present",
+          "description": [
+            "Spearheaded the design, development, and deployment of custom software solutions for diverse clients, covering full-stack web applications, backend APIs, and cloud infrastructure.",
+            "Managed client relationships, gathered requirements, provided technical consultation, and ensured timely delivery of high-quality, scalable products.",
+            "Utilized a broad range of technologies (e.g., Node.js, React, Python, AWS, Azure, PostgreSQL, MongoDB) adapting to project-specific needs and optimizing performance."
+          ],
+          "is_current": true
+        },
+        {
+          "title": "Senior Software Engineer",
+          "company": "Innovatech Solutions",
+          "location": "New York, USA",
+          "start_date": "October 2018",
+          "end_date": "February 2022",
+          "description": [
+            "Led a team of 4 engineers in the design and implementation of scalable microservices using Java, Spring Boot, and AWS, improving system reliability by 20%.",
+            "Mentored junior engineers, conducted rigorous code reviews, and championed best practices in testing, CI/CD, and system architecture.",
+            "Collaborated cross-functionally to define technical roadmaps, contributing to strategic decisions that shaped product evolution and technology adoption."
+          ],
+          "is_current": false
+        },
+        {
+          "title": "Software Engineer",
+          "company": "CoreLogic Systems",
+          "location": "Boston, USA",
+          "start_date": "June 2015",
+          "end_date": "September 2018",
+          "description": [
+            "Developed and maintained robust backend services and REST APIs primarily using Python and Django, supporting a user base of over 100,000 customers.",
+            "Participated in the full software development lifecycle, from requirements gathering and design to deployment and post-launch support.",
+            "Contributed to database design and optimization for MongoDB, enhancing query performance and data integrity across multiple applications."
+          ],
+          "is_current": false
+        }
+      ],
+      "education": [
+        {
+          "institution": "Georgia Institute of Technology",
+          "degree": "Bachelor of Science",
+          "field_of_study": "Computer Science",
+          "start_year": 2017,
+          "end_year": 2021,
+          "activities": "President of Hackathon Club, Teaching Assistant for Data Structures, Dean's List"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Problem Solving",
+          "endorsements": 15
+        },
+        {
+          "name": "Team Leadership",
+          "endorsements": 31
+        },
+        {
+          "name": "Agile",
+          "endorsements": 15
+        }
+      ]
+    },
+    "posts": [
+      {
+        "content": "Just had a significant patch set for the `devmem` subsystem officially merged into the upstream Linux kernel! \ud83c\udf89 It addresses a long-standing memory mapping issue that was particularly problematic for certain embedded architectures. A huge thanks to everyone in the kernel community who reviewed and provided invaluable feedback throughout the process. It's incredibly rewarding to see these contributions go live and benefit the wider ecosystem.\n\nThis kind of low-level work is challenging but immensely satisfying. It reinforces my belief in the power of collaborative open source development.",
+        "likes": 78,
+        "comments": 11,
+        "type": "achievement",
+        "timestamp": "2026-01-17T06:51:26.225908"
+      },
+      {
+        "content": "Successfully wrapped up a 3-month consulting engagement focused on optimizing a client's embedded Linux system for ultra-low latency data processing. It involved significant kernel-level tuning, custom driver development, and fine-tuning real-time capabilities. Witnessing a 40% reduction in average latency was a fantastic outcome!\n\nIt's always a pleasure to apply deep systems programming expertise to solve real-world performance bottlenecks. If your organization is facing similar challenges, feel free to connect. #SystemsProgramming #EmbeddedLinux #PerformanceOptimization #Consulting",
+        "likes": 67,
+        "comments": 9,
+        "type": "achievement",
+        "timestamp": "2026-01-16T03:51:26.226899"
+      },
+      {
+        "content": "Thinking about the next generation of open source contributors. It's often intimidating to make that first contribution, especially to a project as massive as the Linux kernel.\n\nMy advice: Start with documentation fixes, clear bug reports, or helping triage issues. Then, look for 'good first issues' in smaller projects. Every contribution, no matter how small, adds value and builds confidence. We need more diverse voices and perspectives in open source! Who are you mentoring or encouraging to get started? #OpenSource #Mentorship #FOSS #Community",
+        "likes": 105,
+        "comments": 18,
+        "type": "text",
+        "timestamp": "2026-01-13T13:51:26.226899"
+      },
+      {
+        "content": "For those aspiring to dive into Linux kernel development or systems programming: Start small, but be persistent. Pick a subsystem that genuinely interests you \u2013 networking, memory management, drivers \u2013 and read its documentation. Then, find a small bug or a minor feature request and try to implement it.\n\nDon't be afraid of rejection; code review is a learning process. Embrace tools like `git blame`, `perf`, and `gdb`. Most importantly, connect with the community. Attend mailing list discussions, ask intelligent questions, and learn from experienced maintainers. The journey is challenging, but incredibly rewarding.",
+        "likes": 156,
+        "comments": 33,
+        "type": "text",
+        "timestamp": "2026-01-08T02:51:26.226899"
+      },
+      {
+        "content": "Stumbled upon an excellent deep-dive into the latest advancements in eBPF for networking and security. It's incredible how this technology continues to evolve, offering unprecedented programmability and observability at the kernel level without requiring actual kernel module development.\n\nThis article specifically highlights some innovative uses in mitigating DDoS attacks and enhancing container security. For anyone working in systems programming or infrastructure, understanding eBPF's capabilities is becoming non-negotiable. Worth a read! \n\n[Link to article: example.com/ebpf-deep-dive]\n#eBPF #Linux #SystemsProgramming #Cybersecurity #Kernel",
+        "likes": 91,
+        "comments": 14,
+        "type": "article_share",
+        "timestamp": "2026-01-07T17:51:26.225908"
+      },
+      {
+        "content": "In the world of systems programming, mastering debugging is as crucial as writing clean code. When you're dealing with kernel panics, segfaults, or elusive race conditions, a deep understanding of tools like GDB, `valgrind`, `strace`, and `ftrace` becomes your superpower.\n\nIt's not just about finding the bug, but truly understanding *why* it happened at the lowest level. Continuously honing these skills makes you an invaluable asset in any low-level development environment. #Debugging #SystemsProgramming #Linux #CareerAdvice",
+        "likes": 102,
+        "comments": 16,
+        "type": "text",
+        "timestamp": "2026-01-07T16:51:26.226899"
+      },
+      {
+        "content": "The conversation around the long-term sustainability of independent open source maintainers is more critical than ever. We rely on these unsung heroes for the very foundations of our digital infrastructure, yet funding models often fall short.\n\nWhat are your thoughts on innovative approaches \u2013 perhaps more direct corporate sponsorship tied to specific projects, or broader community grants that go beyond one-off bug bounties? How do we ensure these vital contributors can continue their work without burning out? #OpenSource #Sustainability #LinuxKernel #FOSS",
+        "likes": 132,
+        "comments": 28,
+        "type": "text",
+        "timestamp": "2026-01-03T19:51:26.225908"
+      },
+      {
+        "content": "Currently delving into some challenging memory management issues within a custom driver. Specifically, dealing with non-contiguous physical memory allocation for DMA operations in a very constrained environment. It's one of those problems where the solution isn't immediately obvious and requires a deep understanding of both hardware and kernel internals.\n\nHas anyone tackled particularly tricky non-contiguous memory scenarios in Linux drivers recently? Would love to hear about your approaches or any helpful debugging techniques you've found! #LinuxKernel #SystemsProgramming #DMAMemory #Hardware",
+        "likes": 64,
+        "comments": 15,
+        "type": "text",
+        "timestamp": "2026-01-01T22:51:26.226899"
+      },
+      {
+        "content": "Reflecting on common performance pitfalls I've observed across various client engagements: often, the bottleneck isn't in complex algorithms but in fundamental I/O patterns, inefficient memory access, or contention issues that manifest deep within the kernel scheduling.\n\nProfile your applications thoroughly before optimizing. Don't assume where the problem lies. The data often tells a surprising story, pointing to areas like excessive syscalls or poor cache locality that are ripe for low-level tuning. #PerformanceTuning #SystemsProgramming #Consulting #Linux",
+        "likes": 73,
+        "comments": 11,
+        "type": "text",
+        "timestamp": "2025-12-16T17:51:26.226899"
+      },
+      {
+        "content": "Reading this insightful piece on the evolution of open source governance models. As projects scale and communities grow, the structures that enable effective decision-making, conflict resolution, and contributor recognition become paramount.\n\nIt makes a strong case for transparent, meritocratic, and inclusive governance to ensure long-term project health and community engagement. A must-read for anyone involved in leading or contributing to open source projects.\n\n[Link to article: example.com/oss-governance]\n#OpenSource #CommunityBuilding #FOSS #Leadership",
+        "likes": 58,
+        "comments": 7,
+        "type": "article_share",
+        "timestamp": "2025-12-10T20:51:26.226899"
+      },
+      {
+        "content": "The ongoing integration of Rust into the Linux kernel is perhaps one of the most exciting developments in modern systems programming. The promise of memory safety without sacrificing performance is a game-changer for critical kernel components.\n\nWhile it's a gradual process, the discussions and progress being made are fascinating. What are your thoughts on Rust's long-term role in the kernel? Are we seeing the beginning of a significant shift in how we approach low-level systems development? #RustLang #LinuxKernel #SystemsProgramming #MemorySafety",
+        "likes": 195,
+        "comments": 47,
+        "type": "text",
+        "timestamp": "2025-12-10T02:51:26.226899"
+      },
+      {
+        "content": "Thrilled to share that I've just pushed version 0.3 of `ktrace-tool`, my lightweight kernel tracing utility, to GitHub! This release includes improved event filtering, a more intuitive TUI for real-time monitoring, and better integration with `perf` data.\n\nIt's been a passion project to simplify kernel event analysis for debugging and performance profiling. Contributions and feedback are always welcome! Check it out and let me know what you think. #LinuxKernel #Tracing #Debugging #OpenSource #SystemsProgramming",
+        "likes": 115,
+        "comments": 19,
+        "type": "achievement",
+        "timestamp": "2025-12-07T17:51:26.226899"
+      },
+      {
+        "content": "Huge shoutout to the incredible folks at Project X for their collaborative efforts on the recent `async-io` framework improvements! Our combined work has resulted in a much more robust and performant solution, especially for high-concurrency applications running on Linux. It's a testament to what dedicated individuals can achieve when working together in the open source spirit. #OpenSource #Collaboration #SystemsProgramming #Linux",
+        "likes": 88,
+        "comments": 13,
+        "type": "text",
+        "timestamp": "2025-11-23T04:51:26.226899"
+      },
+      {
+        "content": "Just crossed the 500-commit mark in the upstream Linux kernel! \ud83c\udf89 It's a small milestone, but one that reflects years of dedicated effort, learning, and collaboration within an incredible community. Each commit represents a challenge solved, a bug squashed, or a feature added to one of the most complex and vital software projects on the planet.\n\nForever grateful for the mentorship and reviews from fellow maintainers. Here's to many more contributions! #LinuxKernel #OpenSource #Achievement #SystemsProgramming",
+        "likes": 145,
+        "comments": 22,
+        "type": "achievement",
+        "timestamp": "2025-11-23T03:51:26.226899"
+      },
+      {
+        "content": "Found a brilliant technical article that offers a detailed walkthrough of the new `io_uring` features introduced in recent kernel versions. It breaks down the API, use cases, and performance implications with practical examples.\n\nFor anyone looking to achieve high-performance asynchronous I/O in Linux, this is a goldmine. It elegantly explains how `io_uring` moves beyond traditional `epoll` and `aio` limitations. Essential reading for system architects and developers.\n\n[Link to article: example.com/io_uring-deep-dive]\n#io_uring #Linux #AsyncIO #SystemsProgramming #Kernel",
+        "likes": 83,
+        "comments": 10,
+        "type": "article_share",
+        "timestamp": "2025-11-18T18:51:26.226899"
+      }
+    ]
+  }
+}

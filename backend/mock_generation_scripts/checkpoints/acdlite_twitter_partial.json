@@ -1,0 +1,21 @@
+{
+  "username": "acdlite",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:33:56.347155",
+  "data": {
+    "profile": {
+      "name": "Andrew Clark",
+      "username": "andyclarkdev",
+      "bio": "React core team member. Building & scaling the web with Next.js @Vercel. Passionate about UI/UX, dev experience, and the future of React. Learning in public. \u269b\ufe0f",
+      "location": "New York",
+      "website": "https://andrewclark.dev",
+      "followers": 78912,
+      "following": 850,
+      "tweets_count": 11234,
+      "joined_date": "November 2010",
+      "is_verified": false,
+      "github_username": "Andrew Clark"
+    },
+    "tweets": []
+  }
+}

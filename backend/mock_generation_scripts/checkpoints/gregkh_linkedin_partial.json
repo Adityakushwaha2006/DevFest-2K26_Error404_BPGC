@@ -1,0 +1,21 @@
+{
+  "username": "gregkh",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T16:50:50.553140",
+  "data": {
+    "profile": {
+      "name": "Greg Kroah-Hartman",
+      "headline": "Independent Linux Kernel Maintainer | Open Source Advocate | Systems Programming Consultant",
+      "location": "Unknown",
+      "about": "With decades of experience in the software development landscape, I specialize in low-level systems programming and am a dedicated contributor to the open-source community, notably as a long-time maintainer of various Linux kernel subsystems. My work involves driving critical infrastructure projects, ensuring robust performance, and fostering collaborative development. I am passionate about advancing the core technologies that power modern computing and am always seeking impactful technical challenges.",
+      "current_company": "Freelance",
+      "current_position": "Linux Kernel Developer & Consultant",
+      "connections": 450,
+      "followers": 9200,
+      "profile_views_last_90_days": 1850,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

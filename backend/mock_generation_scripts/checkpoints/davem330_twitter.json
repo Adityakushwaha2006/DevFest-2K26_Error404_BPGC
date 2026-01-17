@@ -1,0 +1,158 @@
+{
+  "username": "davem330",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T16:52:01.888122",
+  "data": {
+    "profile": {
+      "name": "David S. Miller",
+      "username": "ds_miller_dev",
+      "bio": "Software Developer @RedHat. Passionate about building robust systems & #opensource. Learning & sharing thoughts on #Linux, #GoLang & distributed tech. Occasionally dropping a hot take on software architecture. London \ud83c\uddec\ud83c\udde7",
+      "location": "London, UK",
+      "website": "https://davidmiller.dev",
+      "followers": 9876,
+      "following": 1234,
+      "tweets_count": 8765,
+      "joined_date": "April 2012",
+      "is_verified": false,
+      "github_username": "David S. Miller"
+    },
+    "tweets": [
+      {
+        "content": "My git commit messages are either 'fix: critical bug' or 'feat: added a thing' or just 'asdf'. There is no in-between, and I am not ashamed. (Mostly not ashamed).",
+        "likes": 27,
+        "retweets": 5,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-15T22:52:01.888122"
+      },
+      {
+        "content": "Unpopular opinion: Microservices are often just distributed monoliths with extra network latency, complex debugging, and operational overhead. Fight me.",
+        "likes": 28,
+        "retweets": 4,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-14T03:52:01.888122"
+      },
+      {
+        "content": "Stumbled upon an incredible deep dive into memory management in C today. Always fascinating to peel back the layers and understand how things *really* work under the hood. Link in replies for anyone interested!",
+        "likes": 10,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-10T15:52:01.888122"
+      },
+      {
+        "content": "Submitted a tiny patch to a dependency I use daily. It's just a documentation fix, but feels good to give back to #OpenSource in some small way. Every little bit counts.",
+        "likes": 8,
+        "retweets": 0,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-09T17:52:01.888122"
+      },
+      {
+        "content": "Yet another supply chain attack targeting package managers. This is why strict dependency auditing and vulnerability scanning aren't just 'nice-to-haves' anymore. They're essential. Stay vigilant out there.",
+        "likes": 17,
+        "retweets": 4,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-08T18:52:01.888122"
+      },
+      {
+        "content": "Just spent an hour debugging a 'bug' only to realize it was a missing semicolon. My brain cells are requesting immediate reboot. Send help (and maybe a linter). #DevLife",
+        "likes": 35,
+        "retweets": 6,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-07T16:52:01.888122"
+      },
+      {
+        "content": "Diving into WASM for a new project. The promise of near-native performance in the browser and beyond is compelling. Anyone got good resources for getting started beyond the basics, especially for Rust + WASM?",
+        "likes": 9,
+        "retweets": 1,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-06T14:52:01.888122"
+      },
+      {
+        "content": "Just wrapped up a productive sprint planning session. Feeling good about the next couple of weeks. Time to turn ideas into robust, well-tested code. Let's do this.",
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-05T02:52:01.888122"
+      },
+      {
+        "content": "Finally got that pesky race condition squashed in my little CLI tool. So satisfying when the test suite goes green. Time for coffee and maybe a brief moment of self-congratulation.",
+        "likes": 12,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-01T14:52:01.888122"
+      },
+      {
+        "content": "People who run their build tools in a VM within a container on a cloud instance... just compile it on your dev machine, FFS. The layers of abstraction are getting truly wild. When does it stop?",
+        "likes": 22,
+        "retweets": 3,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-27T08:52:01.888122"
+      },
+      {
+        "content": "If your CI/CD pipeline takes longer to run than it takes to manually deploy, you're doing it wrong. Automation should accelerate, not hinder your development flow. Optimise ruthlessly.",
+        "likes": 19,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-26T15:52:01.888122"
+      },
+      {
+        "content": "It's wild how many 'AI-powered' tools are just glorified regex or tree-sitter wrappers with a slick UI. Not that it's bad, but let's be realistic about the 'intelligence' part. Still useful, just not sentient.",
+        "likes": 25,
+        "retweets": 5,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-23T08:52:01.888122"
+      },
+      {
+        "content": "Spent some time today triaging bugs for an open source project I follow. Found a few duplicates and helped narrow down another. Small efforts add up and keep the project healthy! #Community",
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-22T17:52:01.888122"
+      },
+      {
+        "content": "Reflecting on yesterday's code review. It's amazing how much you can learn by explaining your choices and listening to others' perspectives. Collaboration genuinely makes us better engineers.",
+        "likes": 7,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-21T13:52:01.888122"
+      },
+      {
+        "content": "Why was the JavaScript developer sad? Because he didn't Node how to Express himself. Ba dum tss. #DevHumor",
+        "likes": 30,
+        "retweets": 7,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-21T11:52:01.888122"
+      },
+      {
+        "content": "Another day, another major cloud provider experiencing 'elevated error rates'. Just reminds you that nobody is immune to the laws of distributed systems. Always have a plan B (and C). Resilience is key.",
+        "likes": 15,
+        "retweets": 2,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-20T06:52:01.888122"
+      },
+      {
+        "content": "The best code isn't always the most 'clever' or 'optimized', but the one that's easiest to read, maintain, and debug by another human being six months down the line. Future you will always thank current you.",
+        "likes": 42,
+        "retweets": 10,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-18T09:52:01.888122"
+      }
+    ]
+  }
+}

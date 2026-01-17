@@ -1,0 +1,279 @@
+{
+  "platform": "twitter",
+  "identifier": "Rich-Harris",
+  "profile": {
+    "name": "Rich Harris",
+    "username": "RichHarrisDev",
+    "bio": "NYC-based software dev 💻 | Building & breaking things, learning loudly 🚀 | JS, React, Go, Cloud. Occasional hot takes on frontend. #SoftwareDevelopment",
+    "location": "NYC",
+    "website": "github.com/richharrisdev",
+    "followers": 28456,
+    "following": 1234,
+    "tweets_count": 7890,
+    "joined_date": "July 2012",
+    "is_verified": false,
+    "github_username": "Rich Harris"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Is it really debugging if you're just staring at the screen hoping the bug will feel awkward and leave?",
+      "timestamp": "2026-01-14T19:20:57.236773",
+      "date": "2026-01-14",
+      "time": "19:20:57",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/Rich-Harris/status/7263992072",
+      "engagement": {
+        "likes": 310,
+        "retweets": 75,
+        "replies": 40
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Huge thanks to everyone who contributes to open source, even the smallest typo fix or docs improvement. It all adds up and makes a difference. You're appreciated!",
+      "timestamp": "2026-01-13T10:20:57.236773",
+      "date": "2026-01-13",
+      "time": "10:20:57",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/Rich-Harris/status/8235684541",
+      "engagement": {
+        "likes": 180,
+        "retweets": 30,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just checked out Bun's new test runner. Looks incredibly promising for fast feedback loops in dev. Excited to see where this goes. #JavaScript #DevTools",
+      "timestamp": "2026-01-12T23:20:57.236773",
+      "date": "2026-01-12",
+      "time": "23:20:57",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/Rich-Harris/status/1500719126",
+      "engagement": {
+        "likes": 160,
+        "retweets": 35,
+        "replies": 20
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The next 'disruption' in frontend might not be a new framework, but a build tool so optimized it makes current dev servers feel sluggish. The compiler is the new runtime.",
+      "timestamp": "2026-01-10T00:20:57.236773",
+      "date": "2026-01-10",
+      "time": "00:20:57",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/Rich-Harris/status/4071817047",
+      "engagement": {
+        "likes": 680,
+        "retweets": 150,
+        "replies": 80
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just spent an hour debugging a build error only to realize I was on the wrong branch. My brain needs a `git checkout --my-brain` command.",
+      "timestamp": "2026-01-09T01:20:57.236773",
+      "date": "2026-01-09",
+      "time": "01:20:57",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/Rich-Harris/status/8129781104",
+      "engagement": {
+        "likes": 189,
+        "retweets": 35,
+        "replies": 18
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Looking back at old code, it's easy to cringe. But it's also a reminder of how much we learn and grow. Continuous improvement isn't just for software.",
+      "timestamp": "2026-01-07T10:20:57.236773",
+      "date": "2026-01-07",
+      "time": "10:20:57",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/Rich-Harris/status/5466110185",
+      "engagement": {
+        "likes": 65,
+        "retweets": 8,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Reading up on CRDTs again. Fascinating how robust distributed systems can be built with such elegant mathematical foundations. My head hurts in a good way.",
+      "timestamp": "2026-01-05T14:20:57.236773",
+      "date": "2026-01-05",
+      "time": "14:20:57",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/Rich-Harris/status/8195471288",
+      "engagement": {
+        "likes": 38,
+        "retweets": 6,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Playing around with some new CSS Houdini features today. The possibilities for animating custom properties are really interesting. Definitely worth diving deeper.",
+      "timestamp": "2026-01-04T22:20:57.236773",
+      "date": "2026-01-04",
+      "time": "22:20:57",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/Rich-Harris/status/2035001561",
+      "engagement": {
+        "likes": 23,
+        "retweets": 3,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Sometimes I think the biggest advancements in dev tooling aren't new features, but the subtle improvements in error messages and feedback loops. DX is everything.",
+      "timestamp": "2026-01-04T14:20:57.236773",
+      "date": "2026-01-04",
+      "time": "14:20:57",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/Rich-Harris/status/8481911674",
+      "engagement": {
+        "likes": 87,
+        "retweets": 12,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Reminder to take breaks. The code will still be there, but your brain might not be if you push too hard. Step away, recharge. Your future self will thank you.",
+      "timestamp": "2026-01-01T01:20:57.236773",
+      "date": "2026-01-01",
+      "time": "01:20:57",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/Rich-Harris/status/5547576777",
+      "engagement": {
+        "likes": 130,
+        "retweets": 25,
+        "replies": 12
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Saw the news about `:has()` landing in stable in more browsers. Love seeing continued innovation in core web platform features. It's the bedrock we build on. #CSS",
+      "timestamp": "2025-12-26T03:20:57.236773",
+      "date": "2025-12-26",
+      "time": "03:20:57",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/Rich-Harris/status/8369100315",
+      "engagement": {
+        "likes": 112,
+        "retweets": 20,
+        "replies": 10
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Good API design is like a well-written sentence: clear, concise, and unambiguous. Bad API design is like a compiler error in Klingon.",
+      "timestamp": "2025-12-26T01:20:57.236773",
+      "date": "2025-12-26",
+      "time": "01:20:57",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/Rich-Harris/status/7229129415",
+      "engagement": {
+        "likes": 90,
+        "retweets": 18,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "We've settled into a rhythm with frameworks, but I still believe the next big leap will come from rethinking core compilation and reactivity paradigms, not just more syntactic sugar.",
+      "timestamp": "2025-12-24T10:20:57.236773",
+      "date": "2025-12-24",
+      "time": "10:20:57",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/Rich-Harris/status/4453965803",
+      "engagement": {
+        "likes": 450,
+        "retweets": 98,
+        "replies": 55
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Often, the best performance optimization isn't clever code, but avoiding work entirely. Think about *why* you're doing something, not just *how*.",
+      "timestamp": "2025-12-21T19:20:57.236773",
+      "date": "2025-12-21",
+      "time": "19:20:57",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/Rich-Harris/status/9846285330",
+      "engagement": {
+        "likes": 150,
+        "retweets": 28,
+        "replies": 14
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My favorite part of any standup is the moment someone inevitably says 'I just need to fix one small thing...' and then disappears for the rest of the day.",
+      "timestamp": "2025-12-21T07:20:57.236773",
+      "date": "2025-12-21",
+      "time": "07:20:57",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/Rich-Harris/status/2204563521",
+      "engagement": {
+        "likes": 250,
+        "retweets": 60,
+        "replies": 30
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Experimenting with WebAssembly for a tiny utility today. The startup costs are still a hurdle for some use cases, but the potential is undeniable for others. #WebAssembly",
+      "timestamp": "2025-12-21T02:20:57.236773",
+      "date": "2025-12-21",
+      "time": "02:20:57",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/Rich-Harris/status/7084510950",
+      "engagement": {
+        "likes": 55,
+        "retweets": 7,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Interesting read on the economics of OSS. The sustainability challenge is real and complex, no easy answers. We need more models than just 'volunteers and corporate sponsorship'.",
+      "timestamp": "2025-12-19T18:20:57.236773",
+      "date": "2025-12-19",
+      "time": "18:20:57",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/Rich-Harris/status/5425751326",
+      "engagement": {
+        "likes": 95,
+        "retweets": 15,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The challenge of open source isn't just writing code, it's writing documentation, triaging issues, and saying 'no' gracefully. It's a marathon, not a sprint.",
+      "timestamp": "2025-12-18T17:20:57.236773",
+      "date": "2025-12-18",
+      "time": "17:20:57",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/Rich-Harris/status/8021232244",
+      "engagement": {
+        "likes": 210,
+        "retweets": 45,
+        "replies": 22
+      }
+    }
+  ],
+  "tweet_count": 18,
+  "cross_references": {
+    "github": "rich-harris_github.json",
+    "linkedin": "rich-harris_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:21:40.192269",
+  "is_simulated": true
+}

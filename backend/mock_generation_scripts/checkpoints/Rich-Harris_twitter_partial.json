@@ -1,0 +1,21 @@
+{
+  "username": "Rich-Harris",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:20:33.719233",
+  "data": {
+    "profile": {
+      "name": "Rich Harris",
+      "username": "RichHarrisDev",
+      "bio": "NYC-based software dev \ud83d\udcbb | Building & breaking things, learning loudly \ud83d\ude80 | JS, React, Go, Cloud. Occasional hot takes on frontend. #SoftwareDevelopment",
+      "location": "NYC",
+      "website": "github.com/richharrisdev",
+      "followers": 28456,
+      "following": 1234,
+      "tweets_count": 7890,
+      "joined_date": "July 2012",
+      "is_verified": false,
+      "github_username": "Rich Harris"
+    },
+    "tweets": []
+  }
+}

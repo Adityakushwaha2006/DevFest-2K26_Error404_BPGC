@@ -1,0 +1,21 @@
+{
+  "username": "gaearon",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:00:14.876753",
+  "data": {
+    "profile": {
+      "name": "dan",
+      "username": "dan_builds",
+      "bio": "\ud83d\udc68\u200d\ud83d\udcbb Go + React dev, dabbling in AI. Always building, always learning. Sharing thoughts on code, tech, & the future. Let's talk systems! \ud83d\ude80",
+      "location": "Unknown",
+      "website": "https://github.com/danbuilds",
+      "followers": 2850,
+      "following": 680,
+      "tweets_count": 4120,
+      "joined_date": "March 2017",
+      "is_verified": false,
+      "github_username": "dan"
+    },
+    "tweets": []
+  }
+}

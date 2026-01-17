@@ -1,0 +1,21 @@
+{
+  "username": "brauner",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T16:52:59.182022",
+  "data": {
+    "profile": {
+      "name": "Christian Brauner",
+      "username": "cbrauner",
+      "bio": "Software developer in Berlin. Core contributor to @lxc & Linux kernel. Passionate about containers, virtualization & system programming. Learning in public. \ud83d\udc27\u2601\ufe0f",
+      "location": "Berlin",
+      "website": "github.com/brauner",
+      "followers": 4892,
+      "following": 876,
+      "tweets_count": 7543,
+      "joined_date": "March 2015",
+      "is_verified": false,
+      "github_username": "Christian Brauner"
+    },
+    "tweets": []
+  }
+}

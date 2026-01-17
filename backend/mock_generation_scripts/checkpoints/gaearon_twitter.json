@@ -1,0 +1,182 @@
+{
+  "username": "gaearon",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:00:32.699557",
+  "data": {
+    "profile": {
+      "name": "dan",
+      "username": "dan_builds",
+      "bio": "\ud83d\udc68\u200d\ud83d\udcbb Go + React dev, dabbling in AI. Always building, always learning. Sharing thoughts on code, tech, & the future. Let's talk systems! \ud83d\ude80",
+      "location": "Unknown",
+      "website": "https://github.com/danbuilds",
+      "followers": 2850,
+      "following": 680,
+      "tweets_count": 4120,
+      "joined_date": "March 2017",
+      "is_verified": false,
+      "github_username": "dan"
+    },
+    "tweets": [
+      {
+        "content": "Stuck on a tricky async/await issue in JS. Promises are fun until they're not. Time to grab more coffee and consult the docs (again). \u2615 #javascript #async",
+        "likes": 8,
+        "retweets": 0,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-16T06:00:32.698560"
+      },
+      {
+        "content": "Discovered a neat little open-source tool for visualizing dependencies in my project. Might even contribute a small bug fix if I get some free time this weekend. #opensource #devtools",
+        "likes": 9,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-14T17:00:32.698560"
+      },
+      {
+        "content": "Had a really productive pairing session today. Solved a tricky performance bottleneck that had been nagging us for a while. Love those 'aha!' moments with colleagues. \u2728 #softwaredevelopment",
+        "likes": 14,
+        "retweets": 1,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-12T19:00:32.698560"
+      },
+      {
+        "content": "Been tinkering with a small CLI tool in Rust to manage my dotfiles. Learning so much about memory management and borrowing. Rustaceans, any recommended beginner crates for CLI parsing? #rustlang #cli",
+        "likes": 5,
+        "retweets": 0,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-10T14:00:32.698560"
+      },
+      {
+        "content": "Dynamic typing is great for rapid prototyping, but static typing makes refactoring a joy and catches so many errors early. I swing back and forth on this daily. #typesafety #programming",
+        "likes": 19,
+        "retweets": 4,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-10T11:00:32.698560"
+      },
+      {
+        "content": "Unpopular opinion: Writing good tests is often more satisfying than shipping the feature itself. Catches errors, ensures reliability, pure chef's kiss. \ud83e\uddea #devlife #testing",
+        "likes": 18,
+        "retweets": 3,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-07T08:00:32.698560"
+      },
+      {
+        "content": "That moment when you deploy to production on a Friday afternoon and immediately question all your life choices. Wish me luck. \ud83e\udd1e #deployment #devops #fridayfeeling",
+        "likes": 38,
+        "retweets": 10,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2026-01-04T07:00:32.698560"
+      },
+      {
+        "content": "Really enjoying diving into Domain-Driven Design principles for our new project. It feels like it forces a much clearer understanding of the business logic early on. #DDD #softwarearchitecture",
+        "likes": 12,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-03T19:00:32.698560"
+      },
+      {
+        "content": "Read an interesting article on new CSS container queries. Looks incredibly powerful for responsive design, but also a potential minefield. Exciting times for frontend! #frontend #css",
+        "likes": 11,
+        "retweets": 2,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-03T11:00:32.698560"
+      },
+      {
+        "content": "Huge shoutout to the maintainers of @shadcn for their amazing UI components! Their documentation and flexibility saved me so much time today. Good docs are a blessing. \ud83d\ude4f #opensource #react",
+        "likes": 15,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-01T11:00:32.698560"
+      },
+      {
+        "content": "Currently exploring serverless functions with AWS Lambda. The abstraction is great, but figuring out state management across invocations is a whole new puzzle. Any pro tips? #cloud #serverless",
+        "likes": 6,
+        "retweets": 0,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-30T03:00:32.698560"
+      },
+      {
+        "content": "My git commit messages usually start strong, then devolve into 'fix stuff' and 'more fixes'. Anyone else? Or is it just me? \ud83d\ude05 #git #devhumor",
+        "likes": 28,
+        "retweets": 7,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2025-12-29T12:00:32.698560"
+      },
+      {
+        "content": "Attended a great webinar on accessibility best practices today. So important to remember our users and build inclusive experiences from the start. A good reminder for every project. #a11y #webdevelopment",
+        "likes": 13,
+        "retweets": 2,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-29T06:00:32.699557"
+      },
+      {
+        "content": "Experimenting with Docker Compose for local dev environments. So much cleaner than managing multiple services manually. Why didn't I do this sooner? #docker #devops",
+        "likes": 10,
+        "retweets": 1,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-29T00:00:32.698560"
+      },
+      {
+        "content": "Just read about the latest security vulnerability in [popular library]. Reminder to always keep your dependencies updated! It's not just about getting new features. #infosec #dependencies",
+        "likes": 10,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-26T01:00:32.698560"
+      },
+      {
+        "content": "Microservices have their place, but a well-designed monolith can often be simpler, faster to develop, and easier to operate for many teams. Change my mind. #architecture #softwareengineering",
+        "likes": 45,
+        "retweets": 12,
+        "replies": 18,
+        "type": "original",
+        "timestamp": "2025-12-25T17:00:32.698560"
+      },
+      {
+        "content": "Diving into WebAssembly this week. The performance potential for certain applications is absolutely wild. Any favorite starter projects or resources for Wasm beginners? #webdev #wasm",
+        "likes": 7,
+        "retweets": 1,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-24T22:00:32.698560"
+      },
+      {
+        "content": "Hot take: Low-code/no-code tools are not a threat to developers, they're an accelerant. They free us up to solve harder, more interesting problems. The future is hybrid. #futureofdev #nocode",
+        "likes": 21,
+        "retweets": 4,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-19T01:00:32.698560"
+      },
+      {
+        "content": "Just spent an hour debugging a 'bug' that turned out to be a misplaced semicolon. My brain is officially soup. \ud83e\udee0 #programming #devhumor",
+        "likes": 32,
+        "retweets": 8,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2025-12-18T07:00:32.698560"
+      },
+      {
+        "content": "My favorite part of debugging is adding console.logs, then removing them, then adding them again in slightly different places. It's a journey, not a destination. #debugging #programming",
+        "likes": 25,
+        "retweets": 6,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-18T07:00:32.698560"
+      }
+    ]
+  }
+}

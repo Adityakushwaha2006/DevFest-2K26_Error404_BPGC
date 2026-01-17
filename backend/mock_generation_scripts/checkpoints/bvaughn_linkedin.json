@@ -1,0 +1,201 @@
+{
+  "username": "bvaughn",
+  "platform": "linkedin",
+  "timestamp": "2026-01-17T17:39:47.539618",
+  "data": {
+    "profile": {
+      "name": "Brian Vaughn",
+      "headline": "Staff Software Engineer at Citadel | Go, React, Distributed Systems",
+      "location": "Brooklyn, NY",
+      "about": "As a Staff Software Engineer at Citadel, I leverage my deep expertise in high-performance computing and distributed systems to build critical financial infrastructure. My background includes significant contributions to developer tooling at Replay, core React development at Facebook, and foundational engineering at Google. I am passionate about transforming complex challenges into robust, scalable software solutions using technologies like Go and React.",
+      "current_company": "Citadel",
+      "current_position": "Staff Software Engineer",
+      "connections": 487,
+      "followers": 3123,
+      "profile_views_last_90_days": 987,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": false,
+      "experience": [
+        {
+          "title": "Lead Software Engineer",
+          "company": "Citadel",
+          "location": "New York, NY, USA",
+          "start_date": "March 2021",
+          "end_date": "Present",
+          "description": [
+            "Led the design and implementation of high-frequency trading components using Go, significantly reducing latency by 20% and improving throughput for critical market operations.",
+            "Developed complex interactive dashboards and real-time data visualization tools with React, enhancing trader decision-making and operational efficiency across multiple asset classes.",
+            "Mentored junior and mid-level engineers, conducted rigorous code reviews, and championed best practices in concurrent programming and scalable system design within a demanding financial environment."
+          ],
+          "is_current": true
+        },
+        {
+          "title": "Senior Software Engineer",
+          "company": "QuantView Financial",
+          "location": "San Francisco, CA, USA",
+          "start_date": "October 2018",
+          "end_date": "February 2021",
+          "description": [
+            "Designed and built scalable microservices in Python for processing large volumes of financial transaction data, supporting new product features and regulatory compliance.",
+            "Contributed significantly to the frontend architecture using React, improving user experience for internal financial analytics platforms and client-facing dashboards.",
+            "Implemented robust testing strategies and managed CI/CD pipelines, leading to a 15% reduction in production incidents and improved deployment reliability."
+          ],
+          "is_current": false
+        },
+        {
+          "title": "Software Engineer",
+          "company": "DataCo Solutions",
+          "location": "Austin, TX, USA",
+          "start_date": "June 2016",
+          "end_date": "September 2018",
+          "description": [
+            "Developed and maintained robust RESTful APIs using Java Spring Boot for data ingestion and transformation services, handling petabytes of client data.",
+            "Collaborated on building user-facing features with Angular.js, significantly improving client data visualization capabilities and reporting tools.",
+            "Participated in all phases of the software development lifecycle, from requirements gathering and architectural design to deployment and post-launch support."
+          ],
+          "is_current": false
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Illinois Urbana-Champaign",
+          "degree": "Bachelor of Science",
+          "field_of_study": "Computer Science",
+          "start_year": 2017,
+          "end_year": 2021,
+          "activities": "Dean's List (6 Semesters), President of ACM Student Chapter, Undergraduate Research Assistant (Distributed Systems)"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Go",
+          "endorsements": 59
+        },
+        {
+          "name": "React",
+          "endorsements": 92
+        },
+        {
+          "name": "Problem Solving",
+          "endorsements": 14
+        },
+        {
+          "name": "Team Leadership",
+          "endorsements": 31
+        },
+        {
+          "name": "Agile",
+          "endorsements": 42
+        }
+      ]
+    },
+    "posts": [
+      {
+        "content": "Been contemplating the evolving landscape of client-side architecture in high-frequency data applications. While micro-frontends offer modularity, the integration complexity and bundle size challenges are real. Are we seeing a pendulum swing back towards more consolidated, yet highly optimized, React applications? Or are server-side components (like RSCs) the true path forward for performance-critical UIs? Curious to hear fellow React devs' thoughts.",
+        "likes": 85,
+        "comments": 19,
+        "type": "text",
+        "timestamp": "2026-01-09T18:39:47.539618"
+      },
+      {
+        "content": "Spent the last few weeks diving deep into a particularly tricky deadlock scenario in one of our core distributed Go services. After extensive debugging and profiling, we identified a subtle interaction between two independent goroutines during high contention. Implementing a refined mutex strategy and introducing structured concurrency patterns finally resolved it. Nothing beats the satisfaction of squashing a really challenging bug! #GoLang #Concurrency #Debugging #DistributedSystems",
+        "likes": 92,
+        "comments": 15,
+        "type": "achievement",
+        "timestamp": "2026-01-09T02:39:47.539618"
+      },
+      {
+        "content": "Massive congratulations to the \"Project Hydra\" team for successfully deploying our new global messaging fabric last night! This complex distributed system, built primarily with Go, is now handling billions of messages daily, providing unparalleled reliability and speed. Truly a testament to incredible collaboration, meticulous planning, and brilliant engineering. So proud of what we achieved together! #TeamWork #GoLang #DistributedSystems #EngineeringExcellence",
+        "likes": 138,
+        "comments": 20,
+        "type": "achievement",
+        "timestamp": "2026-01-03T17:39:47.539618"
+      },
+      {
+        "content": "One aspect of distributed systems I believe is often underestimated is the human element. No matter how robust your tech stack (Go, Kubernetes, etc.), clear communication, shared understanding of system boundaries, and disciplined incident response processes are paramount. Tech is only as good as the people building and operating it. Thoughts?",
+        "likes": 110,
+        "comments": 25,
+        "type": "text",
+        "timestamp": "2025-12-31T12:39:47.539618"
+      },
+      {
+        "content": "Incredibly proud to see a junior engineer I've been mentoring successfully lead their first medium-sized feature from inception to production. Witnessing their growth in system design, coding best practices, and ownership has been one of the most rewarding experiences this quarter. Remember to always pay it forward! #Mentorship #SoftwareEngineering #CareerDevelopment #Leadership",
+        "likes": 180,
+        "comments": 30,
+        "type": "achievement",
+        "timestamp": "2025-12-30T11:39:47.539618"
+      },
+      {
+        "content": "With the increasing demands on latency and throughput in financial markets, the focus on bare-metal performance and kernel bypass techniques for distributed systems is becoming even more critical. While cloud offers flexibility, there's a unique frontier in optimizing for absolute speed at the hardware level. Fascinating challenges ahead! #LowLatency #DistributedSystems #GoLang #Performance #FinTech",
+        "likes": 95,
+        "comments": 14,
+        "type": "text",
+        "timestamp": "2025-12-29T21:39:47.539618"
+      },
+      {
+        "content": "Stumbled upon this fantastic deep dive into optimizing React rendering performance by minimizing re-renders through memoization and useMemo/useCallback hooks. While these are common practices, the article provides some nuanced examples and benchmarks that highlight their real impact in complex UIs. Essential reading for anyone building performant React applications. Link: https://www.developer.com/react/react-performance-optimization-memoization/ (or similar tutorial) #ReactJS #PerformanceOptimization #Frontend #WebDev",
+        "likes": 75,
+        "comments": 10,
+        "type": "article_share",
+        "timestamp": "2025-12-29T12:39:47.539618"
+      },
+      {
+        "content": "Celebrating a fantastic milestone with my team today! We successfully integrated a complex third-party data feed into our core trading platform, entirely via new Go microservices. This project required seamless collaboration across multiple engineering teams and meticulous API design. Huge props to everyone involved for their dedication and ingenuity! #TeamCollaboration #GoLang #Microservices #FinTech",
+        "likes": 105,
+        "comments": 16,
+        "type": "achievement",
+        "timestamp": "2025-12-20T23:39:47.539618"
+      },
+      {
+        "content": "In the fast-paced world of tech, continuous learning isn't just a buzzword, it's essential. For me, that means regularly diving into new Go libraries, experimenting with React's latest features, and keeping up with the evolving landscape of distributed system patterns. Make time for side projects, read whitepapers, and engage with the community. What's one thing you're currently learning? #ContinuousLearning #TechSkills #SoftwareDevelopment #GoLang #React",
+        "likes": 155,
+        "comments": 40,
+        "type": "text",
+        "timestamp": "2025-12-18T21:39:47.539618"
+      },
+      {
+        "content": "Excited to share the latest post on the Citadel Engineering blog! Our team dove into the challenges and solutions of building a high-throughput, low-latency data aggregation service using Go and Apache Kafka. It offers a glimpse into the sophisticated infrastructure we operate. Check it out: [Citadel Engineering Blog Post URL] #CitadelEngineering #GoLang #Kafka #DistributedSystems #TechBlog",
+        "likes": 115,
+        "comments": 18,
+        "type": "article_share",
+        "timestamp": "2025-12-15T10:39:47.539618"
+      },
+      {
+        "content": "For engineers looking to level up to Staff+ roles, my key takeaway is to pivot your focus from solely individual contribution to systemic impact. That means identifying and solving broad organizational problems, championing best practices, mentoring junior colleagues, and owning the long-term health of critical systems. It's less about lines of code, and more about influencing outcomes. #CareerGrowth #SoftwareEngineering #Leadership #Mentorship",
+        "likes": 167,
+        "comments": 35,
+        "type": "text",
+        "timestamp": "2025-12-06T23:39:47.539618"
+      },
+      {
+        "content": "Preparing for a Staff Software Engineer interview? Don't just practice algorithms. Spend significant time on system design. Think about scale, reliability, fault tolerance, and trade-offs. Be ready to discuss past projects where you solved complex, ambiguous problems and led technical initiatives. It's about demonstrating breadth and depth of impact. #InterviewTips #SystemDesign #CareerAdvice #StaffEngineer",
+        "likes": 230,
+        "comments": 55,
+        "type": "text",
+        "timestamp": "2025-12-05T00:39:47.539618"
+      },
+      {
+        "content": "Just wrapped up a complex optimization project for our real-time trading platform. Migrated a critical data pipeline component to Go, slashing end-to-end latency by 30% and significantly boosting throughput. Immensely proud of the team's dedication and the tangible impact this will have on our trading strategies. A huge win for performance and scalability! #GoLang #PerformanceEngineering #DistributedSystems #Citadel",
+        "likes": 125,
+        "comments": 28,
+        "type": "achievement",
+        "timestamp": "2025-11-30T16:39:47.539618"
+      },
+      {
+        "content": "Exciting news! As Citadel continues to innovate and expand, we're actively looking for exceptional Software Engineers to join our teams. If you're passionate about building high-performance, low-latency systems using Go, React, and advanced distributed technologies, and thrive in a challenging, collaborative environment, we want to hear from you. Explore our opportunities: [Citadel Careers Page URL] #Hiring #FinTech #GoLang #ReactJS #SoftwareJobs",
+        "likes": 190,
+        "comments": 22,
+        "type": "text",
+        "timestamp": "2025-11-23T15:39:47.539618"
+      },
+      {
+        "content": "This article from Martin Fowler on \"Designing Event-Driven Architectures for Scale and Resilience\" really resonated with me. It beautifully articulates the trade-offs between eventual consistency and immediate feedback, a balance we constantly fine-tune in our distributed systems at Citadel. The patterns for dead-letter queues and retry mechanisms are particularly well-explained. Highly recommend a read! Link: https://martinfowler.com/articles/microservices.html (or similar deep dive) #EventDriven #DistributedSystems #SoftwareArchitecture #Scalability",
+        "likes": 68,
+        "comments": 12,
+        "type": "article_share",
+        "timestamp": "2025-11-18T16:39:47.539618"
+      }
+    ]
+  }
+}

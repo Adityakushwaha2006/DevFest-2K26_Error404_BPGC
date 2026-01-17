@@ -1,0 +1,279 @@
+{
+  "platform": "twitter",
+  "identifier": "sophiebits",
+  "profile": {
+    "name": "Sophie Alpert",
+    "username": "sophiealpert",
+    "bio": "Principal engineer. Powered by dumplings! 🥟 Building & shipping with Go, React, & AI. Sharing learnings, hot takes & tech insights from SF. Always optimizing! 🚀",
+    "location": "San Francisco, CA",
+    "website": "https://github.com/sophiealpert",
+    "followers": 7245,
+    "following": 987,
+    "tweets_count": 3128,
+    "joined_date": "June 2015",
+    "is_verified": false,
+    "github_username": "Sophie Alpert"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Finally got my head around `useEffect` cleanup functions in React without causing infinite re-renders. It's the small victories, people! 🎉",
+      "timestamp": "2026-01-17T06:37:32.343834",
+      "date": "2026-01-17",
+      "time": "06:37:32",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/sophiebits/status/8107277129",
+      "engagement": {
+        "likes": 10,
+        "retweets": 0,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "If your IDE doesn't have a 'dumpling break reminder' plugin, are we even innovating anymore?",
+      "timestamp": "2026-01-16T08:37:32.343834",
+      "date": "2026-01-16",
+      "time": "08:37:32",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/sophiebits/status/2220478487",
+      "engagement": {
+        "likes": 18,
+        "retweets": 3,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just spent an hour deep-diving into Rust's async ecosystem. The learning curve is real, but the elegance of `Pin` and `Poll` is starting to click. What a beautiful beast! #RustLang",
+      "timestamp": "2026-01-15T13:37:32.343834",
+      "date": "2026-01-15",
+      "time": "13:37:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/sophiebits/status/4359213182",
+      "engagement": {
+        "likes": 12,
+        "retweets": 1,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The only thing more satisfying than solving a complex bug is realizing it was a typo in a variable name all along. My past self is a menace.",
+      "timestamp": "2026-01-11T01:37:32.343834",
+      "date": "2026-01-11",
+      "time": "01:37:32",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/sophiebits/status/3676517497",
+      "engagement": {
+        "likes": 30,
+        "retweets": 5,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My commit message standards oscillate wildly between 'feat: add user auth' and 'fixed that thing that was broken for some reason idk lol'.",
+      "timestamp": "2026-01-06T13:37:32.343834",
+      "date": "2026-01-06",
+      "time": "13:37:32",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/sophiebits/status/2872100172",
+      "engagement": {
+        "likes": 28,
+        "retweets": 4,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "What's everyone's go-to comfort food after a long week of complex distributed systems thinking? Mine involves wrappers filled with deliciousness.",
+      "timestamp": "2026-01-04T10:37:32.343834",
+      "date": "2026-01-04",
+      "time": "10:37:32",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/sophiebits/status/4396253285",
+      "engagement": {
+        "likes": 19,
+        "retweets": 1,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Update on the dotfiles CLI: Cobra is amazing for command parsing. Already have `config init` and `config sync` commands sketched out. Next, figure out encrypted secrets handling. #devdiary",
+      "timestamp": "2026-01-01T07:37:32.343834",
+      "date": "2026-01-01",
+      "time": "07:37:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/sophiebits/status/8418285416",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Another major cloud outage reported. This is why robust multi-region strategies aren't just 'nice to haves' anymore, they're table stakes for principal engineers designing resilient systems.",
+      "timestamp": "2025-12-31T22:37:32.343834",
+      "date": "2025-12-31",
+      "time": "22:37:32",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/sophiebits/status/6547479973",
+      "engagement": {
+        "likes": 7,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "We spend so much time optimizing for developer experience but often overlook the cognitive load placed on *maintainers* years down the line. Future-proofing isn't just about performance.",
+      "timestamp": "2025-12-31T05:37:32.343834",
+      "date": "2025-12-31",
+      "time": "05:37:32",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/sophiebits/status/2285376789",
+      "engagement": {
+        "likes": 10,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just finished a fantastic mentoring session with one of our junior engineers. So rewarding to see them grasp complex concepts and grow. Always makes my day!",
+      "timestamp": "2025-12-31T05:37:32.343834",
+      "date": "2025-12-31",
+      "time": "05:37:32",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/sophiebits/status/7548551235",
+      "engagement": {
+        "likes": 14,
+        "retweets": 0,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My brain is currently 80% SQL query optimization, 20% trying to decide which type of dumpling for lunch. The 20% is definitely more critical.",
+      "timestamp": "2025-12-26T20:37:32.343834",
+      "date": "2025-12-26",
+      "time": "20:37:32",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/sophiebits/status/2674018790",
+      "engagement": {
+        "likes": 25,
+        "retweets": 2,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Presented our Q3 architecture roadmap to leadership today. Feeling good about the direction we're taking. Now, time for more dumplings to celebrate this mental marathon.",
+      "timestamp": "2025-12-26T16:37:32.343834",
+      "date": "2025-12-26",
+      "time": "16:37:32",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/sophiebits/status/1585107189",
+      "engagement": {
+        "likes": 15,
+        "retweets": 0,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Agreed! It's less about the specific framework and more about understanding the underlying principles of good software design. Abstractions come and go, fundamentals are eternal. https://twitter.com/some_dev/status/123456789",
+      "timestamp": "2025-12-25T23:37:32.343834",
+      "date": "2025-12-25",
+      "time": "23:37:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/sophiebits/status/3453771138",
+      "engagement": {
+        "likes": 6,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Thinking about contributing to an open source project this weekend. Any suggestions for a good first issue in a #typescript or #rustlang project? Bonus points for good documentation!",
+      "timestamp": "2025-12-25T08:37:32.343834",
+      "date": "2025-12-25",
+      "time": "08:37:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/sophiebits/status/6908769486",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Finally got around to submitting that small docs fix for `my-favorite-utility-lib`. It's just a few lines, but every little bit helps open source thrive! #OSS",
+      "timestamp": "2025-12-23T15:37:32.343834",
+      "date": "2025-12-23",
+      "time": "15:37:32",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/sophiebits/status/6103168774",
+      "engagement": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: Microservices are great for selling consulting gigs, but often introduce more complexity than value for 90% of companies until they hit *massive* scale. Monoliths are underrated.",
+      "timestamp": "2025-12-23T14:37:32.343834",
+      "date": "2025-12-23",
+      "time": "14:37:32",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/sophiebits/status/2169219112",
+      "engagement": {
+        "likes": 18,
+        "retweets": 3,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Starting a small side project to build a custom CLI tool for managing my dotfiles. Goal: learn more about Go's cobra library and clean up my config chaos. Wish me luck! #golang",
+      "timestamp": "2025-12-22T22:37:32.343834",
+      "date": "2025-12-22",
+      "time": "22:37:32",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/sophiebits/status/3866459840",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Code reviews shouldn't just be about finding bugs or enforcing style. They're a fantastic opportunity for knowledge transfer and collective ownership. Let's make them more collaborative, less adversarial.",
+      "timestamp": "2025-12-18T09:37:32.343834",
+      "date": "2025-12-18",
+      "time": "09:37:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/sophiebits/status/8378481072",
+      "engagement": {
+        "likes": 16,
+        "retweets": 2,
+        "replies": 2
+      }
+    }
+  ],
+  "tweet_count": 18,
+  "cross_references": {
+    "github": "sophiebits_github.json",
+    "linkedin": "sophiebits_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:38:24.558096",
+  "is_simulated": true
+}

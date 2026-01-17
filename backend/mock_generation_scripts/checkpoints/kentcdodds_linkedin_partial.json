@@ -1,0 +1,21 @@
+{
+  "username": "kentcdodds",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:02:04.775885",
+  "data": {
+    "profile": {
+      "name": "Kent C. Dodds",
+      "headline": "Founder & CEO at EpicWeb.dev | Dev Educator & Consultant | React & AI Expert | Microsoft MVP | Empowering Developers Worldwide",
+      "location": "Salt Lake City, Utah, USA",
+      "about": "I am passionate about improving the world through high-quality software, empowering developers with the knowledge and tools they need to build exceptional web applications. As the founder of EpicWeb.dev and EpicReact.dev, I dedicate myself to creating comprehensive educational content focusing on modern web development, React, and emerging AI applications. My goal is to foster growth and excellence within the developer community, guiding them towards more robust, scalable, and delightful user experiences.",
+      "current_company": "EpicWeb.dev",
+      "current_position": "Founder & CEO",
+      "connections": 487,
+      "followers": 125432,
+      "profile_views_last_90_days": 8215,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

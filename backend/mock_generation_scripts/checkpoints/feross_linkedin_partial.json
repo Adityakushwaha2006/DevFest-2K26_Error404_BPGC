@@ -1,0 +1,21 @@
+{
+  "username": "feross",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:27:48.734486",
+  "data": {
+    "profile": {
+      "name": "Feross Aboukhadijeh",
+      "headline": "Founder & CEO at Socket | Creator of WebTorrent & Standard | Web Security Lecturer at Stanford",
+      "location": "Stanford, CA",
+      "about": "I am the Founder and CEO of Socket, dedicated to enhancing software supply chain security. With a deep commitment to open source, I've developed and maintained over 100 npm packages, including widely-adopted projects like WebTorrent and Standard. I also share my expertise by lecturing on Web Security at Stanford University.",
+      "current_company": "@SocketDev, @WebTorrent, @Standard",
+      "current_position": "Founder & CEO",
+      "connections": 478,
+      "followers": 8500,
+      "profile_views_last_90_days": 1250,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

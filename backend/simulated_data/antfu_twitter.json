@@ -1,0 +1,265 @@
+{
+  "platform": "twitter",
+  "identifier": "antfu",
+  "profile": {
+    "name": "Anthony Fu",
+    "username": "antfu",
+    "bio": "🚢 A ship in harbor is safe, but that's not what ships are built for. Building with @vercel, @nuxt. Deep diving into #AI. Passionate about OSS & learning in public. Let's build!",
+    "location": "undefined",
+    "website": "https://antfu.me",
+    "followers": 28500,
+    "following": 1200,
+    "tweets_count": 5876,
+    "joined_date": "March 2012",
+    "is_verified": false,
+    "github_username": "Anthony Fu"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Finally got that tricky animation smooth across all browsers! Used `motion` library, and it's just butter. Sometimes the small wins are the most satisfying. Here's a quick demo: [imagine a GIF link] #frontend #animation",
+      "timestamp": "2026-01-16T03:22:13.124687",
+      "date": "2026-01-16",
+      "time": "03:22:13",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/antfu/status/4207932660",
+      "engagement": {
+        "likes": 7,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: If writing tests feels like pulling teeth, maybe your architecture is too rigid. Good design should invite testability, not fight it. #softwareengineering #testing",
+      "timestamp": "2026-01-15T00:22:13.124687",
+      "date": "2026-01-15",
+      "time": "00:22:13",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/antfu/status/8397677600",
+      "engagement": {
+        "likes": 20,
+        "retweets": 6,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Stuck on a tricky CSS flexbox issue for the last hour. My brain is officially melting. Anyone got a secret trick for perfectly centering a dynamically sized image inside a variable-width container? #css #webdevhelp",
+      "timestamp": "2026-01-14T14:22:13.124687",
+      "date": "2026-01-14",
+      "time": "14:22:13",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/antfu/status/1928032011",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Copilot is a fantastic assistant, but it's not a replacement for understanding fundamentals. It's like having a co-pilot on your ship – great for navigation, but you still need to know how to steer when the storm hits. #AI #coding",
+      "timestamp": "2026-01-14T13:22:13.124687",
+      "date": "2026-01-14",
+      "time": "13:22:13",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/antfu/status/6427674006",
+      "engagement": {
+        "likes": 16,
+        "retweets": 4,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Diving into the new WebGPU API today. The learning curve is steep, but the potential for truly native-level graphics on the web is mind-blowing. Time to build something small and shiny! ✨ #WebGPU #learninginpublic",
+      "timestamp": "2026-01-10T00:22:13.124687",
+      "date": "2026-01-10",
+      "time": "00:22:13",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/antfu/status/1684961566",
+      "engagement": {
+        "likes": 8,
+        "retweets": 1,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Me at a tech conference: 'Wow, that's an amazing talk, I'm going to implement all these best practices!' Me back at my desk Monday: `npm install && coffee.exe` #developerhumor #techconference",
+      "timestamp": "2026-01-07T15:22:13.124687",
+      "date": "2026-01-07",
+      "time": "15:22:13",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/antfu/status/5003855723",
+      "engagement": {
+        "likes": 35,
+        "retweets": 10,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Another day, another JavaScript framework. Sometimes I feel like we're building elaborate ships just to cross a puddle. Is the innovation truly improving DX or just adding more layers of abstraction? #frontend #webdev",
+      "timestamp": "2026-01-05T17:22:13.124687",
+      "date": "2026-01-05",
+      "time": "17:22:13",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/antfu/status/5707588419",
+      "engagement": {
+        "likes": 12,
+        "retweets": 3,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Excited to see more adoption of the `popover` API in browsers! This is one of those small, but incredibly powerful additions that will simplify a ton of common UI patterns. Less JavaScript, more native browser magic. #webstandards #html #css",
+      "timestamp": "2026-01-04T12:22:13.124687",
+      "date": "2026-01-04",
+      "time": "12:22:13",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/antfu/status/6913075893",
+      "engagement": {
+        "likes": 11,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "React just dropped a major alpha for hooks improvements. Seems like they're really leaning into server components and better hydration. The future of frontend is going to be wild. What are your first impressions? #React #webdev",
+      "timestamp": "2026-01-04T10:22:13.124687",
+      "date": "2026-01-04",
+      "time": "10:22:13",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/antfu/status/1450288371",
+      "engagement": {
+        "likes": 15,
+        "retweets": 4,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My code after 6 months: 'Who wrote this mess?!' *git blame* 'Oh... it was me.' Every. Single. Time. 🤦‍♂️ #developerhumor #coding",
+      "timestamp": "2026-01-02T05:22:13.124687",
+      "date": "2026-01-02",
+      "time": "05:22:13",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/antfu/status/7109540899",
+      "engagement": {
+        "likes": 28,
+        "retweets": 7,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just completed a deep dive into WebAssembly. My brain hurts, but the possibilities are incredible. Feeling like I'm equipping my ship for deeper waters. 🌊 #WebAssembly #wasm #learning",
+      "timestamp": "2026-01-01T21:22:13.124687",
+      "date": "2026-01-01",
+      "time": "21:22:13",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/antfu/status/3170287121",
+      "engagement": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My Friday ritual: Staring at the deployment logs, silently pleading with the universe not to break production just before the weekend. 🙏 #deployfriday #webdev",
+      "timestamp": "2025-12-29T18:22:13.124687",
+      "date": "2025-12-29",
+      "time": "18:22:13",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/antfu/status/4634555337",
+      "engagement": {
+        "likes": 22,
+        "retweets": 5,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "We spend so much time optimizing our builds and bundles, but how much time do we spend optimizing our dev tools pipeline? A slow feedback loop kills productivity faster than anything. #devtools #performance",
+      "timestamp": "2025-12-28T08:22:13.124687",
+      "date": "2025-12-28",
+      "time": "08:22:13",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/antfu/status/9226531979",
+      "engagement": {
+        "likes": 9,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Big thanks to @some_oss_org for merging my PR fixing a nasty memory leak in their dev tooling! Felt good to contribute back to a project I use daily. 🙌 #opensource #community",
+      "timestamp": "2025-12-28T04:22:13.124687",
+      "date": "2025-12-28",
+      "time": "04:22:13",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/antfu/status/8080463555",
+      "engagement": {
+        "likes": 18,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just finished a pretty intense sprint. Feeling drained but also proud of what the team shipped. Sometimes it's easy to forget the journey when you're focused on the destination. Time to recharge. 🔋 #worklife #developer",
+      "timestamp": "2025-12-24T06:22:13.124687",
+      "date": "2025-12-24",
+      "time": "06:22:13",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/antfu/status/4156887857",
+      "engagement": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Pushed a small patch to my tiny utility library `anthony-utils` fixing a subtle edge case. If you're using it, update soon! Every little bit helps the ship stay afloat. 🚢 #opensource #javascript",
+      "timestamp": "2025-12-18T13:22:13.124687",
+      "date": "2025-12-18",
+      "time": "13:22:13",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/antfu/status/2439839930",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Experimenting with Bun as a replacement for Node for a microservice. So far, the speedup is noticeable for installs and script execution. Still early days, but I'm cautiously optimistic. #BunJS #javascript",
+      "timestamp": "2025-12-17T21:22:13.124687",
+      "date": "2025-12-17",
+      "time": "21:22:13",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/antfu/status/3622956936",
+      "engagement": {
+        "likes": 14,
+        "retweets": 3,
+        "replies": 3
+      }
+    }
+  ],
+  "tweet_count": 17,
+  "cross_references": {
+    "github": "antfu_github.json",
+    "linkedin": "antfu_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:23:12.003825",
+  "is_simulated": true
+}

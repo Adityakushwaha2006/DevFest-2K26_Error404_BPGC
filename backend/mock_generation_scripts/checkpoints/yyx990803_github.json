@@ -1,0 +1,86 @@
+{
+  "username": "yyx990803",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:14:24.023806",
+  "data": {
+    "profile": {
+      "login": "yyx990803",
+      "id": 499550,
+      "node_id": "MDQ6VXNlcjQ5OTU1MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/499550?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yyx990803",
+      "html_url": "https://github.com/yyx990803",
+      "followers_url": "https://api.github.com/users/yyx990803/followers",
+      "following_url": "https://api.github.com/users/yyx990803/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yyx990803/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yyx990803/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yyx990803/subscriptions",
+      "organizations_url": "https://api.github.com/users/yyx990803/orgs",
+      "repos_url": "https://api.github.com/users/yyx990803/repos",
+      "events_url": "https://api.github.com/users/yyx990803/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yyx990803/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Evan You",
+      "company": "VoidZero",
+      "blog": "http://evanyou.me",
+      "location": "Singapore",
+      "email": null,
+      "hireable": null,
+      "bio": "Founder @voidzero-dev, author of @vuejs and @vitejs. Connoisseur of sushi.",
+      "twitter_username": "youyuxi",
+      "public_repos": 198,
+      "public_gists": 73,
+      "followers": 106487,
+      "following": 100,
+      "created_at": "2010-11-28T01:05:40Z",
+      "updated_at": "2026-01-13T03:36:23Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": "fixed by bumping theme to 4.2.1 in https://github.com/vitejs/devtools/commit/7990a9328626cd4104a5e80604a79c0a14ae016d",
+        "timestamp": "2026-01-16T10:32:03+00:00",
+        "url": "https://github.com/vitejs/devtools/pull/165#issuecomment-3759335434",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Update: the search box looks different in prod because the theme is importing `@docsearch/css` even when using local search. Will release a fix from the theme soon.",
+        "timestamp": "2026-01-16T09:39:59+00:00",
+        "url": "https://github.com/vitejs/devtools/pull/165#issuecomment-3759043436",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Looks like the search box styling has issues",
+        "timestamp": "2026-01-16T08:38:05+00:00",
+        "url": "https://github.com/vitejs/devtools/pull/165#issuecomment-3758778706",
+        "metadata": {}
+      },
+      {
+        "type": "create_branch",
+        "content": "Created branch: new-theme",
+        "timestamp": "2026-01-16T08:22:25+00:00",
+        "url": "https://github.com/yyx990803",
+        "metadata": {}
+      },
+      {
+        "type": "create_branch",
+        "content": "Created branch: update-readme-logo",
+        "timestamp": "2026-01-13T09:38:32+00:00",
+        "url": "https://github.com/yyx990803",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "> Landing doesn't have a dark/light theme toggle, but other pages have it\r\n> \r\n> <img alt=\"Screenshot 2025-12-26 at 13 58 44\" width=\"552\" height=\"90\" src=\"https://private-user-images.githubusercontent",
+        "timestamp": "2025-12-26T13:00:23+00:00",
+        "url": "https://github.com/vitest-dev/vitest/pull/9345#issuecomment-3692836467",
+        "metadata": {}
+      }
+    ]
+  }
+}

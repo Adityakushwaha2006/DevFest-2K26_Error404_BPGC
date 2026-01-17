@@ -1,0 +1,158 @@
+{
+  "username": "antfu",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:22:13.124687",
+  "data": {
+    "profile": {
+      "name": "Anthony Fu",
+      "username": "antfu",
+      "bio": "\ud83d\udea2 A ship in harbor is safe, but that's not what ships are built for. Building with @vercel, @nuxt. Deep diving into #AI. Passionate about OSS & learning in public. Let's build!",
+      "location": "undefined",
+      "website": "https://antfu.me",
+      "followers": 28500,
+      "following": 1200,
+      "tweets_count": 5876,
+      "joined_date": "March 2012",
+      "is_verified": false,
+      "github_username": "Anthony Fu"
+    },
+    "tweets": [
+      {
+        "content": "Finally got that tricky animation smooth across all browsers! Used `motion` library, and it's just butter. Sometimes the small wins are the most satisfying. Here's a quick demo: [imagine a GIF link] #frontend #animation",
+        "likes": 7,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-16T03:22:13.124687"
+      },
+      {
+        "content": "Unpopular opinion: If writing tests feels like pulling teeth, maybe your architecture is too rigid. Good design should invite testability, not fight it. #softwareengineering #testing",
+        "likes": 20,
+        "retweets": 6,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-15T00:22:13.124687"
+      },
+      {
+        "content": "Stuck on a tricky CSS flexbox issue for the last hour. My brain is officially melting. Anyone got a secret trick for perfectly centering a dynamically sized image inside a variable-width container? #css #webdevhelp",
+        "likes": 6,
+        "retweets": 0,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-14T14:22:13.124687"
+      },
+      {
+        "content": "Copilot is a fantastic assistant, but it's not a replacement for understanding fundamentals. It's like having a co-pilot on your ship \u2013 great for navigation, but you still need to know how to steer when the storm hits. #AI #coding",
+        "likes": 16,
+        "retweets": 4,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-14T13:22:13.124687"
+      },
+      {
+        "content": "Diving into the new WebGPU API today. The learning curve is steep, but the potential for truly native-level graphics on the web is mind-blowing. Time to build something small and shiny! \u2728 #WebGPU #learninginpublic",
+        "likes": 8,
+        "retweets": 1,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-10T00:22:13.124687"
+      },
+      {
+        "content": "Me at a tech conference: 'Wow, that's an amazing talk, I'm going to implement all these best practices!' Me back at my desk Monday: `npm install && coffee.exe` #developerhumor #techconference",
+        "likes": 35,
+        "retweets": 10,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-07T15:22:13.124687"
+      },
+      {
+        "content": "Another day, another JavaScript framework. Sometimes I feel like we're building elaborate ships just to cross a puddle. Is the innovation truly improving DX or just adding more layers of abstraction? #frontend #webdev",
+        "likes": 12,
+        "retweets": 3,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-05T17:22:13.124687"
+      },
+      {
+        "content": "Excited to see more adoption of the `popover` API in browsers! This is one of those small, but incredibly powerful additions that will simplify a ton of common UI patterns. Less JavaScript, more native browser magic. #webstandards #html #css",
+        "likes": 11,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-04T12:22:13.124687"
+      },
+      {
+        "content": "React just dropped a major alpha for hooks improvements. Seems like they're really leaning into server components and better hydration. The future of frontend is going to be wild. What are your first impressions? #React #webdev",
+        "likes": 15,
+        "retweets": 4,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-04T10:22:13.124687"
+      },
+      {
+        "content": "My code after 6 months: 'Who wrote this mess?!' *git blame* 'Oh... it was me.' Every. Single. Time. \ud83e\udd26\u200d\u2642\ufe0f #developerhumor #coding",
+        "likes": 28,
+        "retweets": 7,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-02T05:22:13.124687"
+      },
+      {
+        "content": "Just completed a deep dive into WebAssembly. My brain hurts, but the possibilities are incredible. Feeling like I'm equipping my ship for deeper waters. \ud83c\udf0a #WebAssembly #wasm #learning",
+        "likes": 10,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-01T21:22:13.124687"
+      },
+      {
+        "content": "My Friday ritual: Staring at the deployment logs, silently pleading with the universe not to break production just before the weekend. \ud83d\ude4f #deployfriday #webdev",
+        "likes": 22,
+        "retweets": 5,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-29T18:22:13.124687"
+      },
+      {
+        "content": "We spend so much time optimizing our builds and bundles, but how much time do we spend optimizing our dev tools pipeline? A slow feedback loop kills productivity faster than anything. #devtools #performance",
+        "likes": 9,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-28T08:22:13.124687"
+      },
+      {
+        "content": "Big thanks to @some_oss_org for merging my PR fixing a nasty memory leak in their dev tooling! Felt good to contribute back to a project I use daily. \ud83d\ude4c #opensource #community",
+        "likes": 18,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-28T04:22:13.124687"
+      },
+      {
+        "content": "Just finished a pretty intense sprint. Feeling drained but also proud of what the team shipped. Sometimes it's easy to forget the journey when you're focused on the destination. Time to recharge. \ud83d\udd0b #worklife #developer",
+        "likes": 10,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-24T06:22:13.124687"
+      },
+      {
+        "content": "Pushed a small patch to my tiny utility library `anthony-utils` fixing a subtle edge case. If you're using it, update soon! Every little bit helps the ship stay afloat. \ud83d\udea2 #opensource #javascript",
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-18T13:22:13.124687"
+      },
+      {
+        "content": "Experimenting with Bun as a replacement for Node for a microservice. So far, the speedup is noticeable for installs and script execution. Still early days, but I'm cautiously optimistic. #BunJS #javascript",
+        "likes": 14,
+        "retweets": 3,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-17T21:22:13.124687"
+      }
+    ]
+  }
+}

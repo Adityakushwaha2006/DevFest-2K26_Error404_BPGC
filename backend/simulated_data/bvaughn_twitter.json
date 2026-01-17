@@ -1,0 +1,279 @@
+{
+  "platform": "twitter",
+  "identifier": "bvaughn",
+  "profile": {
+    "name": "Brian Vaughn",
+    "username": "brianvaughn",
+    "bio": "Turning coffee into software. ☕️ Currently building cool stuff at @Citadel. Ex-@replayio, React core @facebook, @google. Passionate about #go, #react, #javascript. Learning in public. Occasional hot takes. 💡",
+    "location": "Brooklyn, NY",
+    "website": "https://github.com/bvaughn",
+    "followers": 28500,
+    "following": 1250,
+    "tweets_count": 7800,
+    "joined_date": "August 2012",
+    "is_verified": false,
+    "github_username": "Brian Vaughn"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Just discovered a neat trick with `IntersectionObserver` for optimizing off-screen component rendering without complex third-party libs. Love finding elegant browser-native solutions!",
+      "timestamp": "2026-01-17T00:38:58.055632",
+      "date": "2026-01-17",
+      "time": "00:38:58",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/bvaughn/status/6899027147",
+      "engagement": {
+        "likes": 30,
+        "retweets": 5,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My main programming language is coffee. JavaScript is just the side hustle.",
+      "timestamp": "2026-01-14T22:38:58.055632",
+      "date": "2026-01-14",
+      "time": "22:38:58",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/bvaughn/status/6818153837",
+      "engagement": {
+        "likes": 112,
+        "retweets": 18,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Seeing a lot of discussion around the latest React Labs update. The direction they're heading with Server Components and Asset Loading is incredibly promising for bundle sizes and initial load performance. 🔥 #React",
+      "timestamp": "2026-01-12T20:38:58.055632",
+      "date": "2026-01-12",
+      "time": "20:38:58",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/bvaughn/status/8320314912",
+      "engagement": {
+        "likes": 78,
+        "retweets": 15,
+        "replies": 8
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Debugging a tricky hydration mismatch error in a Next.js app. The server rendering a slightly different tree than the client. Classic problem, always a pain to track down. Wish me luck! ☕",
+      "timestamp": "2026-01-10T19:38:58.055632",
+      "date": "2026-01-10",
+      "time": "19:38:58",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/bvaughn/status/8598687145",
+      "engagement": {
+        "likes": 22,
+        "retweets": 3,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Had a great chat with some former colleagues from @replayio today. Always good to catch up and hear about the amazing things they're building. Such a talented team!",
+      "timestamp": "2026-01-10T04:38:58.055632",
+      "date": "2026-01-10",
+      "time": "04:38:58",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/bvaughn/status/2063216716",
+      "engagement": {
+        "likes": 28,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just pushed a small but important fix to my `react-performance-utils` library. Nothing groundbreaking, but hoping it smooths out some edge cases for folks tracking component renders. Small wins! #OpenSource",
+      "timestamp": "2026-01-06T20:38:58.055632",
+      "date": "2026-01-06",
+      "time": "20:38:58",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/bvaughn/status/4526131098",
+      "engagement": {
+        "likes": 18,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "TypeScript is non-negotiable for any serious JavaScript project nowadays. The productivity and maintainability gains far outweigh the initial learning curve. Don't @ me.",
+      "timestamp": "2026-01-06T20:38:58.055632",
+      "date": "2026-01-06",
+      "time": "20:38:58",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/bvaughn/status/8676065944",
+      "engagement": {
+        "likes": 130,
+        "retweets": 28,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Playing around with WebAssembly for a small compute-heavy task. The potential for performance gains in the browser is huge, but the ergonomics are still quite a journey. Fascinating tech though!",
+      "timestamp": "2026-01-06T19:38:58.055632",
+      "date": "2026-01-06",
+      "time": "19:38:58",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/bvaughn/status/7879803570",
+      "engagement": {
+        "likes": 42,
+        "retweets": 6,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Browsers keep pushing the boundaries. The new CSS features landed in Chrome and Firefox are incredibly powerful. It's an exciting time to be a web developer, honestly.",
+      "timestamp": "2026-01-05T04:38:58.055632",
+      "date": "2026-01-05",
+      "time": "04:38:58",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/bvaughn/status/7513414492",
+      "engagement": {
+        "likes": 45,
+        "retweets": 6,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "One of the biggest lessons from my time on React core: empathy for the developer using your APIs is everything. A powerful feature is useless if it's confusing or hard to adopt.",
+      "timestamp": "2025-12-30T12:38:58.055632",
+      "date": "2025-12-30",
+      "time": "12:38:58",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/bvaughn/status/7490129202",
+      "engagement": {
+        "likes": 90,
+        "retweets": 18,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Thinking back to my time at Google. The sheer scale of engineering challenges was mind-boggling, but also incredibly rewarding. Learned so much about robust systems design there. Formative years.",
+      "timestamp": "2025-12-25T01:38:58.055632",
+      "date": "2025-12-25",
+      "time": "01:38:58",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/bvaughn/status/6795793901",
+      "engagement": {
+        "likes": 60,
+        "retweets": 7,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: Modern frontend frameworks, while powerful, have sometimes abstracted away core browser APIs to a fault. Understanding the DOM and native browser events is still paramount, not just a 'legacy' skill.",
+      "timestamp": "2025-12-24T22:38:58.055632",
+      "date": "2025-12-24",
+      "time": "22:38:58",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/bvaughn/status/2177853975",
+      "engagement": {
+        "likes": 48,
+        "retweets": 9,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "I firmly believe that good developer tooling isn't just a convenience; it's a force multiplier for productivity and code quality. Investing in DX pays dividends for the entire engineering org.",
+      "timestamp": "2025-12-23T13:38:58.055632",
+      "date": "2025-12-23",
+      "time": "13:38:58",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/bvaughn/status/9475092985",
+      "engagement": {
+        "likes": 98,
+        "retweets": 25,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Spent the morning deep diving into the React scheduler's internals again. Always fascinating how much complexity goes into making things feel simple for the user. Might put together a small demo this week.",
+      "timestamp": "2025-12-21T17:38:58.055632",
+      "date": "2025-12-21",
+      "time": "17:38:58",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/bvaughn/status/7218878094",
+      "engagement": {
+        "likes": 35,
+        "retweets": 5,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Good architecture isn't about solving for every possible future use case, but about building systems that are adaptable and easy to change. Premature optimization is the root of all evil, but so is premature abstraction.",
+      "timestamp": "2025-12-21T06:38:58.055632",
+      "date": "2025-12-21",
+      "time": "06:38:58",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/bvaughn/status/3461546971",
+      "engagement": {
+        "likes": 75,
+        "retweets": 12,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Working on a proposal for a small API improvement in a popular React utility library. Thinking about opening an RFC. Anyone have strong opinions on declarative vs imperative approaches for memoization hooks?",
+      "timestamp": "2025-12-19T14:38:58.055632",
+      "date": "2025-12-19",
+      "time": "14:38:58",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/bvaughn/status/8337688285",
+      "engagement": {
+        "likes": 25,
+        "retweets": 4,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Me: *writes 100 lines of code in an hour*\nAlso me: *spends 3 hours trying to perfectly center a div*",
+      "timestamp": "2025-12-18T22:38:58.055632",
+      "date": "2025-12-18",
+      "time": "22:38:58",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/bvaughn/status/6891720933",
+      "engagement": {
+        "likes": 156,
+        "retweets": 34,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My weekend plans involve debugging my own life choices, probably with a side of actual debugging on a personal project. Ah, the developer life.",
+      "timestamp": "2025-12-18T14:38:58.055632",
+      "date": "2025-12-18",
+      "time": "14:38:58",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/bvaughn/status/7446226286",
+      "engagement": {
+        "likes": 68,
+        "retweets": 8,
+        "replies": 2
+      }
+    }
+  ],
+  "tweet_count": 18,
+  "cross_references": {
+    "github": "bvaughn_github.json",
+    "linkedin": "bvaughn_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:39:47.857913",
+  "is_simulated": true
+}

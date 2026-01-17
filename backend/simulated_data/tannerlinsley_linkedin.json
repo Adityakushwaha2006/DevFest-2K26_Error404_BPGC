@@ -1,0 +1,283 @@
+{
+  "platform": "linkedin",
+  "identifier": "tannerlinsley",
+  "profile": {
+    "name": "Tanner Linsley",
+    "headline": "Co-Founder @Nozzle.io | Owner @TanStack (React Query, React Table) | Open Source Software Engineer | TypeScript & React Specialist",
+    "location": "Utah",
+    "about": "As a Co-Founder at Nozzle.io and the owner of TanStack, I am deeply involved in creating innovative solutions and empowering the developer community through widely adopted open-source projects. I specialize in crafting high-performance, intuitive user experiences using TypeScript and React, driven by a passion for clean architecture and powerful developer tooling. My work on libraries like React Query, React Table, React Location, and React Charts aims to simplify complex data management and UI challenges for millions of developers worldwide.",
+    "current_company": "@tanstack & @nozzle",
+    "current_position": "Co-Founder & Owner",
+    "connections": 480,
+    "followers": 15200,
+    "profile_views_last_90_days": 875,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Lead Frontend Engineer",
+        "company": "TanStack & Nozzle",
+        "location": "Remote",
+        "start_date": "May 2021",
+        "end_date": "Present",
+        "description": [
+          "Architected and led the development of complex, high-performance web applications using TypeScript, React, and various TanStack libraries (Query, Table, Form).",
+          "Contributed directly to TanStack open-source projects, including feature development, bug fixes, and documentation, influencing core library direction and best practices.",
+          "Mentored a team of 4+ engineers, fostering expertise in modern frontend architecture, state management patterns, and performance optimization."
+        ],
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "InnovateTech Solutions",
+        "location": "San Francisco, CA",
+        "start_date": "March 2017",
+        "end_date": "April 2021",
+        "description": [
+          "Developed and maintained scalable enterprise-level applications with React, Redux, and TypeScript, improving component reusability and developer velocity by 30%.",
+          "Collaborated closely with product management and design teams to translate intricate business requirements into intuitive and robust user interfaces.",
+          "Led the initiative to migrate legacy JavaScript codebases to TypeScript, significantly enhancing code quality, maintainability, and reducing production bugs."
+        ],
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Digital Ascent Agency",
+        "location": "Austin, TX",
+        "start_date": "January 2014",
+        "end_date": "February 2017",
+        "description": [
+          "Implemented responsive and interactive user interfaces for diverse client projects using React.js and modern frontend tooling.",
+          "Participated in full-stack development, contributing to RESTful API design and integration, and managing database interactions.",
+          "Optimized application performance and resolved critical bugs, contributing to a 15% reduction in page load times for key client applications."
+        ],
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "State University of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2016,
+        "end_year": 2020,
+        "activities": "Programming Club (President), Dean's List (6 semesters), Hackathon Team Lead"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Typescript",
+        "endorsements": 22
+      },
+      {
+        "name": "React",
+        "endorsements": 43
+      },
+      {
+        "name": "Problem Solving",
+        "endorsements": 20
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 34
+      },
+      {
+        "name": "Agile",
+        "endorsements": 15
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Mind-blowing milestone for TanStack Query: over 15 million npm downloads last month! This incredible number is a powerful reminder of the global community that trusts and uses our libraries every single day. It's humbling and deeply motivating.\n\nThis phenomenal adoption fuels our passion to keep innovating and providing the best tools for data fetching in JavaScript ecosystems. Thank you, everyone, for being part of this amazing journey! #TanStack #ReactQuery #OpenSource",
+      "timestamp": "2026-01-14T20:08:11.444865",
+      "date": "2026-01-14",
+      "time": "20:08:11",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/tannerlinsley-1049",
+      "engagement": {
+        "likes": 300,
+        "comments": 50
+      }
+    },
+    {
+      "type": "post",
+      "content": "Had a fantastic time speaking at #ReactConf about the future of declarative data fetching with TanStack Query. It's always a privilege to connect with fellow developers and share insights from the open-source world. The energy and questions from the audience were incredibly engaging.\n\nHuge thanks to the organizers for a wonderfully run event and everyone who attended! Looking forward to applying some of the new ideas shared by others.",
+      "timestamp": "2026-01-14T00:08:11.444865",
+      "date": "2026-01-14",
+      "time": "00:08:11",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/tannerlinsley-5347",
+      "engagement": {
+        "likes": 180,
+        "comments": 30
+      }
+    },
+    {
+      "type": "post",
+      "content": "Balancing the demands of a growing startup like Nozzle.io with the extensive responsibilities of maintaining popular open-source libraries like TanStack can be challenging, but incredibly rewarding. It's a constant lesson in prioritization, delegation, and building strong, autonomous teams.\n\nGrateful for the passion and talent around me in both endeavors. The synergy between commercial and open-source work often leads to unexpected innovations. What's your secret to juggling multiple impactful roles?",
+      "timestamp": "2025-12-30T17:08:11.444865",
+      "date": "2025-12-30",
+      "time": "17:08:11",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/tannerlinsley-1913",
+      "engagement": {
+        "likes": 105,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge congratulations to the Nozzle.io sales and customer success teams! We've just closed our best quarter yet, hitting some ambitious growth targets. This achievement is a testament to their dedication, our incredible product, and the trust our customers place in us.\n\nProud to be part of such a driven and passionate group. This growth directly translates to more resources for product innovation and customer support. Well done, team! #TeamWork #SaaSGrowth #Nozzle",
+      "timestamp": "2025-12-26T20:08:11.444865",
+      "date": "2025-12-26",
+      "time": "20:08:11",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/tannerlinsley-3360",
+      "engagement": {
+        "likes": 130,
+        "comments": 20
+      }
+    },
+    {
+      "type": "post",
+      "content": "The landscape of SEO continues to evolve rapidly, moving beyond mere keywords to truly understanding complex user intent and embracing data-driven content strategies. I believe future success hinges on integrating deep technical SEO with sophisticated analytics to interpret complex user journeys and anticipate search engine shifts.\n\nWhat are your predictions for the next big shift in SEO and digital marketing over the next 1-2 years?",
+      "timestamp": "2025-12-26T17:08:11.444865",
+      "date": "2025-12-26",
+      "time": "17:08:11",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/tannerlinsley-4726",
+      "engagement": {
+        "likes": 60,
+        "comments": 8
+      }
+    },
+    {
+      "type": "post",
+      "content": "For aspiring open-source contributors: start small, be curious, and don't be afraid to ask questions. Your first PR doesn't have to be a groundbreaking feature; it could be a documentation fix, a minor bug, or even improving a test case. The journey of understanding a codebase and collaborating is invaluable.\n\nEmbrace the learning process, and the community will often welcome your efforts with open arms. It's more about participation than perfection. #OpenSource #CareerAdvice #Developer",
+      "timestamp": "2025-12-19T05:08:11.444865",
+      "date": "2025-12-19",
+      "time": "05:08:11",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/tannerlinsley-7735",
+      "engagement": {
+        "likes": 95,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Developer Experience (DX) isn't just a buzzword; it's the bedrock of successful libraries and frameworks. From intuitive APIs to comprehensive documentation and robust type definitions, every detail contributes to a developer's productivity and enjoyment. A great DX makes complex tasks feel simple and empowers developers to build faster and with more confidence.\n\nThis philosophy guides much of our work at TanStack. What's one DX feature you wish more libraries prioritized?",
+      "timestamp": "2025-12-15T11:08:11.444865",
+      "date": "2025-12-15",
+      "time": "11:08:11",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/tannerlinsley-8018",
+      "engagement": {
+        "likes": 75,
+        "comments": 13
+      }
+    },
+    {
+      "type": "post",
+      "content": "Nozzle.io is growing! We're actively looking for a talented Senior Full-Stack Engineer to join our product team. If you're passionate about building scalable web applications, working with cutting-edge data analytics, and making a real impact in the SEO space, we'd love to hear from you.\n\nThis role is crucial as we expand our platform capabilities and deliver even more value to our enterprise clients. Check out the job description on our careers page. Come build the future of SEO intelligence with us! #Hiring #TechJobs #SaaS",
+      "timestamp": "2025-12-14T20:08:11.444865",
+      "date": "2025-12-14",
+      "time": "20:08:11",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/tannerlinsley-6715",
+      "engagement": {
+        "likes": 90,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "The ongoing advancements in TypeScript's type inference and utility types continue to impress me. It's truly transformative for building robust, scalable applications, especially within complex React ecosystems. The level of safety and developer confidence it provides is unparalleled.\n\nWhat new TS features have you found most impactful in your recent projects? Always keen to hear how others are leveraging its power beyond the basics.",
+      "timestamp": "2025-12-13T00:08:11.444865",
+      "date": "2025-12-13",
+      "time": "00:08:11",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/tannerlinsley-8823",
+      "engagement": {
+        "likes": 85,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to share a significant product update from Nozzle.io! We've just rolled out enhanced SERP feature tracking, providing even deeper insights into your organic visibility. This allows our users to not just see rankings, but truly understand *how* they appear in search results, giving a critical edge in competitive markets.\n\nA huge thank you to the entire Nozzle team for their tireless work in delivering such valuable features to our customers. Stay tuned for more innovations!",
+      "timestamp": "2025-12-09T20:08:11.444865",
+      "date": "2025-12-09",
+      "time": "20:08:11",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/tannerlinsley-6739",
+      "engagement": {
+        "likes": 110,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "For early-stage founders: obsess over your customers. Seriously. Their feedback is gold, even when it's tough to hear. It's not about building *what you think they need*, but *what they truly need* based on their pain points and workflows. This customer-centricity has been a core principle for us at Nozzle.io and has driven much of our product evolution and success.\n\nListen, learn, and iterate relentlessly based on their insights. #StartupLife #Founders #ProductManagement",
+      "timestamp": "2025-12-01T07:08:11.444865",
+      "date": "2025-12-01",
+      "time": "07:08:11",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/tannerlinsley-7726",
+      "engagement": {
+        "likes": 70,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read an excellent piece on optimizing React rendering performance by [Link to Author/Article Title]. It dives deep into memoization strategies and the nuances of Context API re-renders, which aligns perfectly with some of the challenges we tackle in TanStack Query. While frameworks handle a lot, understanding these fundamentals is still crucial for building truly efficient UIs.\n\nWhat are your go-to performance optimization techniques in React? [Link to Article: e.g., 'https://medium.com/some-react-performance-article']",
+      "timestamp": "2025-11-30T05:08:11.444865",
+      "date": "2025-11-30",
+      "time": "05:08:11",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/tannerlinsley-6718",
+      "engagement": {
+        "likes": 70,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "An insightful read on the sustainable funding models for open-source projects. This is a topic close to my heart, given the immense effort that goes into maintaining TanStack and other critical public goods in software. It highlights the delicate balance between community contribution, corporate sponsorship, and direct user support.\n\nWe need more innovation in this space to ensure the longevity of critical infrastructure that the modern web relies on. What models do you think work best for long-term sustainability? [Link to Article: e.g., 'https://www.oss.capital/blog/sustainable-oss-models']",
+      "timestamp": "2025-11-25T17:08:11.444865",
+      "date": "2025-11-25",
+      "time": "17:08:11",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/tannerlinsley-7575",
+      "engagement": {
+        "likes": 80,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to announce the official release of TanStack Query v5! This major update brings a host of performance improvements, a more streamlined API, and even better type inference, making data fetching in React applications smoother than ever.\n\nA massive shoutout to the incredible community and contributors whose dedication made this possible. Your feedback and contributions are what truly drive these projects forward. Check out the release notes – link in comments! What's your favorite new feature?",
+      "timestamp": "2025-11-23T23:08:11.444865",
+      "date": "2025-11-23",
+      "time": "23:08:11",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/tannerlinsley-8038",
+      "engagement": {
+        "likes": 250,
+        "comments": 45
+      }
+    }
+  ],
+  "post_count": 14,
+  "cross_references": {
+    "github": "tannerlinsley_github.json",
+    "twitter": "tannerlinsley_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:08:11.501808",
+  "is_simulated": true
+}

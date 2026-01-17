@@ -1,0 +1,114 @@
+{
+  "username": "mrdoob",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:32:08.545096",
+  "data": {
+    "profile": {
+      "login": "mrdoob",
+      "id": 97088,
+      "node_id": "MDQ6VXNlcjk3MDg4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/97088?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mrdoob",
+      "html_url": "https://github.com/mrdoob",
+      "followers_url": "https://api.github.com/users/mrdoob/followers",
+      "following_url": "https://api.github.com/users/mrdoob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mrdoob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mrdoob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mrdoob/subscriptions",
+      "organizations_url": "https://api.github.com/users/mrdoob/orgs",
+      "repos_url": "https://api.github.com/users/mrdoob/repos",
+      "events_url": "https://api.github.com/users/mrdoob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mrdoob/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": null,
+      "company": null,
+      "blog": "https://mrdoob.com",
+      "location": null,
+      "email": null,
+      "hireable": null,
+      "bio": null,
+      "twitter_username": "mrdoob",
+      "public_repos": 49,
+      "public_gists": 72,
+      "followers": 24719,
+      "following": 194,
+      "created_at": "2009-06-19T16:54:00Z",
+      "updated_at": "2026-01-09T05:58:55Z"
+    },
+    "activities": [
+      {
+        "type": "create_branch",
+        "content": "Created branch: gltf-pivot",
+        "timestamp": "2026-01-17T08:40:51+00:00",
+        "url": "https://github.com/mrdoob",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "https://github.com/mrdoob/three.js/pull/32771",
+        "timestamp": "2026-01-16T12:00:10+00:00",
+        "url": "https://github.com/mrdoob/three.js/pull/27759#issuecomment-3759718490",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "https://github.com/mrdoob/three.js/pull/32771",
+        "timestamp": "2026-01-16T11:58:47+00:00",
+        "url": "https://github.com/mrdoob/three.js/issues/27893#issuecomment-3759714152",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "https://github.com/mrdoob/three.js/pull/32771",
+        "timestamp": "2026-01-16T11:58:37+00:00",
+        "url": "https://github.com/mrdoob/three.js/issues/29650#issuecomment-3759713641",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "https://github.com/mrdoob/three.js/pull/32771",
+        "timestamp": "2026-01-16T11:58:24+00:00",
+        "url": "https://github.com/mrdoob/three.js/issues/30458#issuecomment-3759712988",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "https://github.com/mrdoob/three.js/pull/32771",
+        "timestamp": "2026-01-16T11:58:05+00:00",
+        "url": "https://github.com/mrdoob/three.js/issues/30481#issuecomment-3759712017",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "> [#32758 (comment)](https://github.com/mrdoob/three.js/pull/32758#issuecomment-3755022664)\n\nWeird, that link no longer works.",
+        "timestamp": "2026-01-16T11:43:16+00:00",
+        "url": "https://github.com/mrdoob/three.js/issues/32702#issuecomment-3759665592",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "How would have a human solved it? \ud83d\ude43",
+        "timestamp": "2026-01-16T11:36:12+00:00",
+        "url": "https://github.com/mrdoob/three.js/pull/32769#issuecomment-3759643084",
+        "metadata": {}
+      },
+      {
+        "type": "create_branch",
+        "content": "Created branch: playground",
+        "timestamp": "2026-01-16T11:28:22+00:00",
+        "url": "https://github.com/mrdoob",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Thanks! I'll see if I can get some progress today.",
+        "timestamp": "2026-01-16T09:02:41+00:00",
+        "url": "https://github.com/mrdoob/three.js/pull/32730#issuecomment-3758860741",
+        "metadata": {}
+      }
+    ]
+  }
+}

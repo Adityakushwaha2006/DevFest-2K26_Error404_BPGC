@@ -1,0 +1,135 @@
+{
+  "username": "ljharb",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:11:09.892994",
+  "data": {
+    "profile": {
+      "login": "ljharb",
+      "id": 45469,
+      "node_id": "MDQ6VXNlcjQ1NDY5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45469?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ljharb",
+      "html_url": "https://github.com/ljharb",
+      "followers_url": "https://api.github.com/users/ljharb/followers",
+      "following_url": "https://api.github.com/users/ljharb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ljharb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ljharb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ljharb/subscriptions",
+      "organizations_url": "https://api.github.com/users/ljharb/orgs",
+      "repos_url": "https://api.github.com/users/ljharb/repos",
+      "events_url": "https://api.github.com/users/ljharb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ljharb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Jordan Harband",
+      "company": "@socketdev @tc39 ",
+      "blog": "https://linkedin.com/in/ljharb",
+      "location": "Hillsborough, CA",
+      "email": null,
+      "hireable": null,
+      "bio": "software engineer/nerd/teacher/will try anything once; surgeon with git rebase. @TC39 ex @Coinbase @Airbnb @Twitter @MobBase. Fav punctuation \u2e2e, scent petrichor",
+      "twitter_username": "LJHarb",
+      "public_repos": 271,
+      "public_gists": 11,
+      "followers": 7891,
+      "following": 420,
+      "created_at": "2009-01-10T01:28:02Z",
+      "updated_at": "2026-01-07T03:41:03Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": "because once enough people do it, that will just delay discovery of the problem by a week.",
+        "timestamp": "2026-01-16T21:56:37+00:00",
+        "url": "https://github.com/npm/cli/pull/8825#issuecomment-3761959190",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "tbqh a rebase would have been a far more impressive choice than a close",
+        "timestamp": "2026-01-16T21:48:56+00:00",
+        "url": "https://github.com/tj/node-querystring/pull/20#issuecomment-3761940229",
+        "metadata": {}
+      },
+      {
+        "type": "create_branch",
+        "content": "Created branch: ljharb-GHSA-j6p2-cx3w-6jcp",
+        "timestamp": "2026-01-16T21:41:07+00:00",
+        "url": "https://github.com/ljharb",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "I'm a bit confused why, in a world with syntax highlighting, a comment is helpful to differentiate between imports and regular code?",
+        "timestamp": "2026-01-16T21:33:11+00:00",
+        "url": "https://github.com/import-js/eslint-plugin-import/issues/3226#issuecomment-3761884696",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "gotcha. in that case you just have to wait until the npm team updates their dependencies and publishes a new release of npm, which is queued up here: https://github.com/npm/cli/pull/8853",
+        "timestamp": "2026-01-16T21:29:44+00:00",
+        "url": "https://github.com/npm/cli/issues/8911#issuecomment-3761875478",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "what does `npm explain diff` output? I'd be pretty confident it's pulled in via a dependency of your own project.",
+        "timestamp": "2026-01-16T21:18:41+00:00",
+        "url": "https://github.com/npm/cli/issues/8911#issuecomment-3761846212",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Then there's nothing you can do; still doesn't have anything to do with npm.",
+        "timestamp": "2026-01-16T21:15:12+00:00",
+        "url": "https://github.com/npm/cli/issues/8911#issuecomment-3761836538",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "That's complaining about an issue in your application, which you can fix by running `npm audit fix`. It's got nothing to do with npm.",
+        "timestamp": "2026-01-16T21:12:30+00:00",
+        "url": "https://github.com/npm/cli/issues/8911#issuecomment-3761829320",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "@jabranr there's no way to do that - you have to publish it first with a token, probably locally, and then you can set up trusted publishing.",
+        "timestamp": "2026-01-16T21:11:44+00:00",
+        "url": "https://github.com/npm/cli/issues/8910#issuecomment-3761827337",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "@danieltroger you don't have the first item as a guarantee anyways - keys that are numeric indexes will be ordered differently when reserialized, because JS objects use a combination of sorting and in",
+        "timestamp": "2026-01-16T21:04:34+00:00",
+        "url": "https://github.com/tc39/proposal-composites/issues/1#issuecomment-3761807334",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "It doesn't look good to me either. Using a \"minimum age\" policy is foolish and will not meaningfully protect anyone, and if enough people do it, will worsen things for the ecosystem.\r\n\r\n\"in decadence\"",
+        "timestamp": "2026-01-16T21:03:13+00:00",
+        "url": "https://github.com/npm/cli/pull/8825#issuecomment-3761803426",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "I wasn't aware @jridgewell was no longer championing \"destructuring private fields\"; it'd be great to confirm that. The others I'm aware of.",
+        "timestamp": "2026-01-16T20:09:43+00:00",
+        "url": "https://github.com/tc39/proposals/pull/581#issuecomment-3761622711",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "aha, good point on that one, thanks :-) i'll account for it.",
+        "timestamp": "2026-01-16T19:55:56+00:00",
+        "url": "https://github.com/tc39/proposals/pull/581#issuecomment-3761574842",
+        "metadata": {}
+      }
+    ]
+  }
+}

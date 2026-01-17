@@ -1,0 +1,21 @@
+{
+  "username": "torvalds",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T05:29:50.650800",
+  "data": {
+    "profile": {
+      "name": "Linus Torvalds",
+      "headline": "Lead Developer & Maintainer of the Linux Kernel at The Linux Foundation",
+      "location": "Portland, OR",
+      "about": "As the original creator and ongoing lead developer of the Linux kernel, I am deeply committed to crafting robust, efficient, and open-source operating system foundations. My passion lies in low-level software development, distributed systems, and fostering the collaborative power of the open-source community. I continue to drive the evolution of the Linux kernel, contributing to its stability, performance, and widespread adoption across diverse platforms.",
+      "current_company": "Linux Foundation",
+      "current_position": "Chief Architect, Linux Kernel",
+      "connections": 387,
+      "followers": 250000,
+      "profile_views_last_90_days": 35000,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

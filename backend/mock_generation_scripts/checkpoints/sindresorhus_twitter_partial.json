@@ -1,0 +1,21 @@
+{
+  "username": "sindresorhus",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:08:22.459520",
+  "data": {
+    "profile": {
+      "name": "Sindre Sorhus",
+      "username": "sindresorhus",
+      "bio": "Full-time Open-Sourcerer \ud83e\uddd1\u200d\ud83d\udcbb. Building cool stuff with #JavaScript, #Swift, #Node.js & #GoLang. Creating macOS apps, CLI tools & npm packages. Sharing learnings & hot takes. #OSS",
+      "location": "Unknown",
+      "website": "https://sindresorhus.com",
+      "followers": 45123,
+      "following": 1289,
+      "tweets_count": 9478,
+      "joined_date": "November 2009",
+      "is_verified": false,
+      "github_username": "Sindre Sorhus"
+    },
+    "tweets": []
+  }
+}

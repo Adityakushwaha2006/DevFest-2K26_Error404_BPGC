@@ -1,0 +1,114 @@
+{
+  "username": "getify",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:20:23.209069",
+  "data": {
+    "profile": {
+      "login": "getify",
+      "id": 150330,
+      "node_id": "MDQ6VXNlcjE1MDMzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150330?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/getify",
+      "html_url": "https://github.com/getify",
+      "followers_url": "https://api.github.com/users/getify/followers",
+      "following_url": "https://api.github.com/users/getify/following{/other_user}",
+      "gists_url": "https://api.github.com/users/getify/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/getify/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/getify/subscriptions",
+      "organizations_url": "https://api.github.com/users/getify/orgs",
+      "repos_url": "https://api.github.com/users/getify/repos",
+      "events_url": "https://api.github.com/users/getify/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/getify/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Kyle Simpson",
+      "company": "Getify Solutions",
+      "blog": "http://getify.me",
+      "location": "Austin, TX",
+      "email": "getify@gmail.com",
+      "hireable": true,
+      "bio": "Kyle Simpson is a Human-Centric Technologist. He's fighting for the people behind the pixels.",
+      "twitter_username": null,
+      "public_repos": 75,
+      "public_gists": 411,
+      "followers": 45007,
+      "following": 3,
+      "created_at": "2009-11-08T06:56:21Z",
+      "updated_at": "2025-12-24T03:38:42Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": "Sorry, I do not have any information beyond the comments in the various discussion threads on that WICG repo.\n\nPart of the reason I am hoping for this feature entry is to bring more visibility (from t",
+        "timestamp": "2026-01-09T23:03:31+00:00",
+        "url": "https://github.com/web-platform-dx/web-features/issues/3629#issuecomment-3730875804",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "amazing work, @ChrisBQu! way to go!",
+        "timestamp": "2026-01-06T21:47:01+00:00",
+        "url": "https://github.com/sourcenetwork/defradb/pull/4273#issuecomment-3716484302",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "On the topic of whether this change constitutes a \"semver breaking change\" or not, I had a little conversation with chatgpt about this, and I believe its responses are helpful context for this discuss",
+        "timestamp": "2026-01-04T18:30:09+00:00",
+        "url": "https://github.com/sourcenetwork/defradb/issues/4303#issuecomment-3708316085",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "On the topic of whether this change constitutes a \"semver breaking change\" or not, I had a little conversation with chatgpt about this, and I believe its responses are helpful context for this discuss",
+        "timestamp": "2026-01-04T18:29:56+00:00",
+        "url": "https://github.com/sourcenetwork/defradb/issues/4302#issuecomment-3708315969",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "On the topic of whether this change constitutes a \"semver breaking change\" or not, I had a little conversation with chatgpt about this, and I believe its responses are helpful context for this discuss",
+        "timestamp": "2026-01-04T18:29:45+00:00",
+        "url": "https://github.com/sourcenetwork/defradb/issues/4304#issuecomment-3708315848",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "I had a little conversation with chatgpt about this, and I believe its responses are helpful context for this discussion:\n\nhttps://chatgpt.com/share/695ab112-a318-8001-89a2-759d79fc842f",
+        "timestamp": "2026-01-04T18:28:55+00:00",
+        "url": "https://github.com/sourcenetwork/defradb/issues/4305#issuecomment-3708315402",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "NOTE: there's a significant performance improvement inherent to this, even without any new caching/indexing capability: if you know in advance you want a bunch of cids (like a range, likely), if you s",
+        "timestamp": "2026-01-04T18:01:56+00:00",
+        "url": "https://github.com/sourcenetwork/defradb/issues/4304#issuecomment-3708296041",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Related to #4215\n\nRelated to #4302",
+        "timestamp": "2026-01-01T16:51:25+00:00",
+        "url": "https://github.com/sourcenetwork/defradb/issues/4305#issuecomment-3703894245",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "NOTE: I'm not sure if fixing this constitutes a breaking change or not -- depends on how you think about it. It's relaxing an error to not be an error, so that's not typically a breaking change. but i",
+        "timestamp": "2026-01-01T16:45:24+00:00",
+        "url": "https://github.com/sourcenetwork/defradb/issues/4305#issuecomment-3703889029",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "@hybrist just curious, has this yet been backported to v24 branch?",
+        "timestamp": "2025-12-30T21:38:44+00:00",
+        "url": "https://github.com/nodejs/node/pull/60864#issuecomment-3700618361",
+        "metadata": {}
+      }
+    ]
+  }
+}

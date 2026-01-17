@@ -1,0 +1,279 @@
+{
+  "platform": "twitter",
+  "identifier": "kentcdodds",
+  "profile": {
+    "name": "Kent C. Dodds",
+    "username": "kentcdodds",
+    "bio": "Improving 🌎 with quality software. Husband, 5x Dad, Latter-day Saint. Dev Educator, MVP. Creator of @EpicWebDev & @EpicReactDev. Exploring #React, #AI. Learn in public! 🚀",
+    "location": "Salt Lake City, Utah, USA",
+    "website": "https://epicweb.dev",
+    "followers": 48500,
+    "following": 1250,
+    "tweets_count": 15200,
+    "joined_date": "April 2011",
+    "is_verified": false,
+    "github_username": "Kent C. Dodds"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Just pushed a massive update to the 'Data Fetching Patterns' module on EpicWeb.dev! We're diving deep into Remix loaders, server components, and client-side strategies. So much goodness to unpack! 🚀 #EpicWeb #RemixRun",
+      "timestamp": "2026-01-17T06:01:56.061503",
+      "date": "2026-01-17",
+      "time": "06:01:56",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/kentcdodds/status/4154676683",
+      "engagement": {
+        "likes": 280,
+        "retweets": 35,
+        "replies": 18
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The argument against `strict` mode in TypeScript often boils down to 'it's too much work.' But that 'work' is exactly where you catch bugs and solidify your understanding. Pay the tax upfront, save huge later. #TypeScript",
+      "timestamp": "2026-01-16T15:01:56.061503",
+      "date": "2026-01-16",
+      "time": "15:01:56",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/kentcdodds/status/1258398318",
+      "engagement": {
+        "likes": 290,
+        "retweets": 40,
+        "replies": 25
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just spent 30 minutes debugging an issue only to realize I had a typo in an environment variable name. It's not a bug, it's a feature... of my personal error log. 🤦‍♂️ #DebuggingLife",
+      "timestamp": "2026-01-16T02:01:56.061503",
+      "date": "2026-01-16",
+      "time": "02:01:56",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/kentcdodds/status/6882297953",
+      "engagement": {
+        "likes": 160,
+        "retweets": 20,
+        "replies": 8
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Huge thanks to @community_member for their recent PR to `some-utility-library`! Open source thrives on these contributions. Remember, every little bit helps improve the ecosystem for everyone. Keep building! ✨ #OpenSource",
+      "timestamp": "2026-01-10T06:01:56.061503",
+      "date": "2026-01-10",
+      "time": "06:01:56",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/kentcdodds/status/3699645728",
+      "engagement": {
+        "likes": 98,
+        "retweets": 12,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Had a great time chatting with the team at [Fictional Company] about building resilient React apps yesterday. Always energizing to share knowledge and learn from others' perspectives. Grateful for opportunities to connect! 🙏",
+      "timestamp": "2026-01-06T10:01:56.061503",
+      "date": "2026-01-06",
+      "time": "10:01:56",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/kentcdodds/status/3165304578",
+      "engagement": {
+        "likes": 75,
+        "retweets": 8,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The React ecosystem moves fast, but the core principles of component composition and state management remain timeless. Don't chase every shiny new thing; master the fundamentals, then explore. #React #WebDev",
+      "timestamp": "2026-01-03T17:01:56.061503",
+      "date": "2026-01-03",
+      "time": "17:01:56",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/kentcdodds/status/5627597985",
+      "engagement": {
+        "likes": 260,
+        "retweets": 32,
+        "replies": 19
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "It's incredible to see how many people are using EpicWeb.dev and EpicReact.dev to grow their skills. Witnessing your 'aha!' moments is the greatest reward. Thank you for being on this journey with me! 🙏",
+      "timestamp": "2026-01-03T02:01:56.061503",
+      "date": "2026-01-03",
+      "time": "02:01:56",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/kentcdodds/status/4690058788",
+      "engagement": {
+        "likes": 310,
+        "retweets": 45,
+        "replies": 20
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Today's reminder: 'We can lift ourselves and others by living a consecrated life.' - Elder Ulisses Soares. Simple, powerful truth that resonates in all aspects of life. Happy Sunday, friends. #LDS #SundayThoughts",
+      "timestamp": "2026-01-02T13:01:56.061503",
+      "date": "2026-01-02",
+      "time": "13:01:56",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/kentcdodds/status/1386717740",
+      "engagement": {
+        "likes": 85,
+        "retweets": 7,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Curious about how AI can genuinely boost your dev workflow, not just generate boilerplate? My new material on EpicAI.pro covers practical, hands-on strategies. Stop guessing, start building smarter! 💡 #EpicAI #AIforDevs",
+      "timestamp": "2026-01-01T03:01:56.061503",
+      "date": "2026-01-01",
+      "time": "03:01:56",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/kentcdodds/status/2089296651",
+      "engagement": {
+        "likes": 130,
+        "retweets": 18,
+        "replies": 11
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "If your testing strategy doesn't actively help you refactor with confidence, it's not a *good* testing strategy. It's just busywork. Focus on integration tests that mimic user behavior. #Testing #DevX",
+      "timestamp": "2025-12-29T07:01:56.061503",
+      "date": "2025-12-29",
+      "time": "07:01:56",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/kentcdodds/status/8575168714",
+      "engagement": {
+        "likes": 345,
+        "retweets": 48,
+        "replies": 22
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "One of the best ways to learn a new concept? Teach it. Even if it's just explaining it to your rubber duck. Articulating your understanding reveals gaps and solidifies knowledge. Try it! #DevEducation",
+      "timestamp": "2025-12-29T02:01:56.061503",
+      "date": "2025-12-29",
+      "time": "02:01:56",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/kentcdodds/status/1143975716",
+      "engagement": {
+        "likes": 210,
+        "retweets": 30,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Early morning coding session before the house wakes up. There's a special kind of peace in these hours. Prioritizing family time means finding these pockets of focus. 👨‍💻❤️ #WorkLifeBalance #Dad",
+      "timestamp": "2025-12-27T06:01:56.061503",
+      "date": "2025-12-27",
+      "time": "06:01:56",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/kentcdodds/status/6080393309",
+      "engagement": {
+        "likes": 110,
+        "retweets": 10,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My kids asked me what I do for work. I told them I spend all day explaining things to a really stubborn computer. They nodded. They get it. 😂 #DevLife #DadJokes",
+      "timestamp": "2025-12-25T15:01:56.061503",
+      "date": "2025-12-25",
+      "time": "15:01:56",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/kentcdodds/status/6281145824",
+      "engagement": {
+        "likes": 187,
+        "retweets": 25,
+        "replies": 10
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Stop copy-pasting code without understanding it. Seriously. It's a technical debt generator, not a productivity hack. Invest 5 minutes to learn, save 5 hours debugging later. #CodeQuality #BestPractices",
+      "timestamp": "2025-12-24T00:01:56.061503",
+      "date": "2025-12-24",
+      "time": "00:01:56",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/kentcdodds/status/5066489025",
+      "engagement": {
+        "likes": 380,
+        "retweets": 60,
+        "replies": 30
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Working on some fresh exercises for EpicReact.dev that challenge common assumptions about hooks and state. Get ready to level up your mental model! Who's excited for advanced patterns? ✨ #EpicReact #ReactHooks",
+      "timestamp": "2025-12-23T19:01:56.061503",
+      "date": "2025-12-23",
+      "time": "19:01:56",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/kentcdodds/status/7037412926",
+      "engagement": {
+        "likes": 195,
+        "retweets": 28,
+        "replies": 14
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Saw the latest dev tool leveraging AI for code suggestions. While impressive, it reinforces the need for strong fundamentals. AI augments, it doesn't replace understanding *why* your code works. Still, very cool! #AI #DevTools",
+      "timestamp": "2025-12-22T16:01:56.061503",
+      "date": "2025-12-22",
+      "time": "16:01:56",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/kentcdodds/status/6071258696",
+      "engagement": {
+        "likes": 155,
+        "retweets": 15,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Think about contributing to open source, but feel intimidated? Start small! Fix a typo, update docs, or even just open a thoughtful issue. Every interaction makes the project better. Your input matters! #OpenSource #Community",
+      "timestamp": "2025-12-20T22:01:56.061503",
+      "date": "2025-12-20",
+      "time": "22:01:56",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/kentcdodds/status/8319786737",
+      "engagement": {
+        "likes": 140,
+        "retweets": 18,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Me: *writes 100 lines of complex logic*\nMy compiler: 'Expected ;'\nMe: 🤦‍♂️ #DeveloperHumor #CodingLife",
+      "timestamp": "2025-12-19T13:01:56.061503",
+      "date": "2025-12-19",
+      "time": "13:01:56",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/kentcdodds/status/7441358907",
+      "engagement": {
+        "likes": 220,
+        "retweets": 30,
+        "replies": 12
+      }
+    }
+  ],
+  "tweet_count": 18,
+  "cross_references": {
+    "github": "kentcdodds_github.json",
+    "linkedin": "kentcdodds_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:02:50.464343",
+  "is_simulated": true
+}

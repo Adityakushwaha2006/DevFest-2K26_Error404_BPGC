@@ -1,0 +1,65 @@
+{
+  "username": "kees",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:00:02.283183",
+  "data": {
+    "profile": {
+      "login": "kees",
+      "id": 1110841,
+      "node_id": "MDQ6VXNlcjExMTA4NDE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1110841?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kees",
+      "html_url": "https://github.com/kees",
+      "followers_url": "https://api.github.com/users/kees/followers",
+      "following_url": "https://api.github.com/users/kees/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kees/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kees/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kees/subscriptions",
+      "organizations_url": "https://api.github.com/users/kees/orgs",
+      "repos_url": "https://api.github.com/users/kees/repos",
+      "events_url": "https://api.github.com/users/kees/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kees/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Kees Cook",
+      "company": null,
+      "blog": "https://hachyderm.io/@kees",
+      "location": "Portland, OR, USA",
+      "email": null,
+      "hireable": null,
+      "bio": "Free Software Hacker\r\n\r\n",
+      "twitter_username": null,
+      "public_repos": 95,
+      "public_gists": 6,
+      "followers": 295,
+      "following": 3,
+      "created_at": "2011-10-07T18:06:46Z",
+      "updated_at": "2025-12-23T03:34:06Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": "I may be misunderstanding what you're saying about -fdiagnostics-show-inlining-chain. Do you mean enable its functionality by default so it is not necessary to specify the flag, or do you mean remove ",
+        "timestamp": "2026-01-15T15:20:25+00:00",
+        "url": "https://github.com/llvm/llvm-project/pull/174892#issuecomment-3755375968",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "> For __counted_by to work on a union, one of the following must be true:\r\n> \r\n> Homogeneous Sizes: All members of the union must have the exact same sizeof(). Byte-Size Semantics: The attribute would",
+        "timestamp": "2026-01-14T19:22:11+00:00",
+        "url": "https://github.com/llvm/llvm-project/pull/171996#issuecomment-3751210022",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "This bug is still present. I appreciate the work-around, but the referenced commit doesn't solve the problem.",
+        "timestamp": "2025-12-20T00:23:41+00:00",
+        "url": "https://github.com/anthropics/claude-code/issues/12172#issuecomment-3677073559",
+        "metadata": {}
+      }
+    ]
+  }
+}

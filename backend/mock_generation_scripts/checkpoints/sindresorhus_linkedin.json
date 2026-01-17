@@ -1,0 +1,178 @@
+{
+  "username": "sindresorhus",
+  "platform": "linkedin",
+  "timestamp": "2026-01-17T17:09:34.968679",
+  "data": {
+    "profile": {
+      "name": "Sindre Sorhus",
+      "headline": "Open Source Software Engineer | Swift & JavaScript Specialist | Building macOS Apps, CLI Tools, & npm Packages",
+      "location": "Unknown",
+      "about": "As a dedicated full-time open-sourcerer, I specialize in crafting robust software solutions with a focus on Swift and JavaScript. My expertise extends to developing a wide range of applications, including intuitive macOS apps, powerful CLI tools, and widely-used npm packages. I am passionate about contributing to the developer community and building high-quality, impactful tools.",
+      "current_company": "Freelance",
+      "current_position": "Independent Software Engineer & Open Source Contributor",
+      "connections": 420,
+      "followers": 12500,
+      "profile_views_last_90_days": 1850,
+      "open_to_work": false,
+      "open_to_hiring": false,
+      "creator_mode": true,
+      "experience": [
+        {
+          "title": "Freelance JavaScript Developer / Consultant",
+          "company": "Freelance",
+          "location": "Remote",
+          "start_date": "March 2022",
+          "end_date": "Present",
+          "description": "Led full-stack development for multiple client projects, leveraging React, Next.js, and Node.js to deliver scalable web applications.\nProvided technical consulting on architecture design, performance optimization, and best practices for JavaScript ecosystems.\nManaged project timelines, client communications, and codebase quality, ensuring successful project delivery within scope.",
+          "is_current": true
+        },
+        {
+          "title": "Senior Software Engineer",
+          "company": "InnovateTech Solutions",
+          "location": "San Francisco, USA",
+          "start_date": "October 2018",
+          "end_date": "February 2022",
+          "description": "Spearheaded the design and implementation of core features for a high-traffic SaaS platform using React, Redux, and Node.js microservices.\nMentored junior developers, conducted code reviews, and contributed to defining technical standards and best practices for the engineering team.\nOptimized application performance and responsiveness, leading to a 20% reduction in load times for key user flows.",
+          "is_current": false
+        },
+        {
+          "title": "Software Engineer",
+          "company": "Voyager Labs",
+          "location": "Seattle, USA",
+          "start_date": "June 2015",
+          "end_date": "September 2018",
+          "description": "Developed and maintained robust web applications using Angular.js and later React, integrating with RESTful APIs on a Node.js backend.\nCollaborated closely with product managers and UX/UI designers to translate requirements into functional and user-friendly features.\nParticipated in full software development lifecycle, including testing, deployment, and post-launch support.",
+          "is_current": false
+        }
+      ],
+      "education": [
+        {
+          "institution": "State University of Technology",
+          "degree": "Bachelor of Science",
+          "field_of_study": "Computer Science",
+          "start_year": 2017,
+          "end_year": 2021,
+          "activities": "Dean's List (7 semesters), Lead Developer for University Coding Club projects, Participant in regional hackathons"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Javascript",
+          "endorsements": 86
+        },
+        {
+          "name": "Problem Solving",
+          "endorsements": 19
+        },
+        {
+          "name": "Team Leadership",
+          "endorsements": 6
+        },
+        {
+          "name": "Agile",
+          "endorsements": 49
+        }
+      ]
+    },
+    "posts": [
+      {
+        "content": "Had a fantastic time last night speaking at the local Swift Developers Meetup! My talk on 'Building Cross-Platform CLI Tools with Swift Package Manager' sparked some great discussions and even led to a few new contributors joining one of my open-source projects.\n\nHuge thanks to the organizers for having me and to everyone who attended. Always a pleasure to connect with fellow developers and share insights. Looking forward to the next one! #SwiftCommunity #CLITools #DeveloperMeetup #PublicSpeaking",
+        "likes": 85,
+        "comments": 15,
+        "type": "achievement",
+        "timestamp": "2026-01-13T15:09:34.967707"
+      },
+      {
+        "content": "If you're feeling stuck or uninspired, remember the power of side projects. They're not just for building a portfolio; they're a playground for learning new technologies without production pressure, experimenting with ideas, and reigniting your passion. My macOS apps and CLI tools often start as small side projects before evolving into something bigger.\n\nDedicate even an hour a week to something you're genuinely curious about. That consistent effort makes a huge difference over time! #SideProjects #DeveloperLife #Innovation #ContinuousLearning",
+        "likes": 105,
+        "comments": 20,
+        "type": "text",
+        "timestamp": "2025-12-30T11:09:34.967707"
+      },
+      {
+        "content": "Been experimenting with some advanced animations in SwiftUI for a new macOS app feature, and the level of control and expressiveness you get is astounding. From implicit animations to custom transitions, SwiftUI makes building fluid and engaging user interfaces a joy. It really pushes the boundaries of what's possible natively.\n\nWhat are some of your favorite SwiftUI animation tricks or libraries? I'm always looking for inspiration!",
+        "likes": 70,
+        "comments": 12,
+        "type": "text",
+        "timestamp": "2025-12-26T11:09:34.968679"
+      },
+      {
+        "content": "Currently deep into a new macOS app project that aims to simplify data synchronization across devices for independent creators. It's been a challenging but incredibly rewarding experience diving deeper into SwiftUI's capabilities for complex data visualization and interaction. The learning curve is steep but the results are promising!\n\nCan't wait to share more as it progresses and perhaps even open-source some of the components. What exciting projects are you all tackling these days?",
+        "likes": 80,
+        "comments": 14,
+        "type": "text",
+        "timestamp": "2025-12-25T18:09:34.967707"
+      },
+      {
+        "content": "Stumbled upon an excellent guide today: 'Best Practices for Maintaining Production-Ready npm Packages.' It covers everything from semantic versioning to robust testing strategies and CI/CD pipelines. As someone who builds and maintains several npm packages, these insights are gold.\n\nHighly recommend a read for anyone in the JavaScript ecosystem, whether you're building a small utility or a large library. Link: [example.com/npm-best-practices-guide] #JavaScript #npm #PackageManagement #DevOps",
+        "likes": 55,
+        "comments": 7,
+        "type": "article_share",
+        "timestamp": "2025-12-23T16:09:34.967707"
+      },
+      {
+        "content": "In an age of sophisticated GUIs and web interfaces, why do CLI tools continue to thrive and remain essential for developers? I believe it's their unparalleled efficiency, scriptability, and ability to integrate seamlessly into automated workflows. Building powerful CLI tools in Swift has shown me just how much untapped potential there is in this space.\n\nWhat makes a great CLI tool in your opinion? Is it speed, robust error handling, or perhaps a clear, concise help menu?",
+        "likes": 95,
+        "comments": 16,
+        "type": "text",
+        "timestamp": "2025-12-18T17:09:34.968679"
+      },
+      {
+        "content": "The evolution of Swift concurrency with `async/await` has truly revolutionized how we build responsive and efficient macOS apps. Moving from callback hell to structured concurrency improves readability and maintainability dramatically. It's a game-changer not just for performance, but for developer experience too.\n\nWhat are your favorite aspects of the new concurrency model, or any tricky bits you've navigated in your projects? I'm particularly enjoying the simplified error handling.",
+        "likes": 98,
+        "comments": 18,
+        "type": "text",
+        "timestamp": "2025-12-01T15:09:34.967707"
+      },
+      {
+        "content": "For junior developers looking to break into the industry or level up their skills: seriously consider contributing to open source. It's not just about coding; it's about learning collaboration, version control, code review, and problem-solving in a real-world context. Start small, fix a typo, improve documentation \u2013 every contribution matters. It's how I learned some of my most valuable lessons.\n\nDon't be intimidated by large projects; many have 'good first issue' tags. Dive in!",
+        "likes": 115,
+        "comments": 26,
+        "type": "text",
+        "timestamp": "2025-11-29T01:09:34.967707"
+      },
+      {
+        "content": "Just read an insightful article on the 'Future of macOS App Development' and it really resonated with my current work. The emphasis on SwiftUI, Swift Concurrency, and the growing importance of native desktop experiences is spot on. It's exciting to be building in an ecosystem that's constantly innovating.\n\nWhat trends are you seeing in desktop software that you're most excited about, or perhaps concerned by? Article link: [example.com/macos-dev-future] #macOSDev #SwiftUI #AppleDevelopment #TechTrends",
+        "likes": 62,
+        "comments": 9,
+        "type": "article_share",
+        "timestamp": "2025-11-26T10:09:34.967707"
+      },
+      {
+        "content": "Excited to announce the public release of `SwiftFlowCLI`, a new command-line interface tool I've been developing! This utility is designed to streamline common Swift development tasks, from project scaffolding to dependency management, making your workflow smoother and faster.\n\nBuilt entirely in Swift, it\u2019s cross-platform and blazing fast. I've focused heavily on a clean, intuitive UX for the command line. Check it out on GitHub \u2013 your feedback is incredibly valuable as I continue to refine it! Link: [github.com/yourusername/swiftflow-cli] #Swift #CLI #OpenSource #DeveloperTools",
+        "likes": 78,
+        "comments": 14,
+        "type": "achievement",
+        "timestamp": "2025-11-24T15:09:34.967707"
+      },
+      {
+        "content": "Huge milestone for `my-js-utility-package`! We just crossed 100,000 weekly downloads on npm! \ud83c\udf89 This started as a small tool to solve a personal pain point in my JavaScript projects, and seeing it adopted by so many developers globally is incredibly humbling.\n\nA massive thank you to everyone who has used, contributed to, and supported the project. The open-source community is truly amazing! Here's to continued growth and making development a little bit easier for everyone. #npm #JavaScript #OpenSourceSuccess #DeveloperTools",
+        "likes": 255,
+        "comments": 48,
+        "type": "achievement",
+        "timestamp": "2025-11-23T15:09:34.967707"
+      },
+      {
+        "content": "Excited to collaborate with @CommunityPartner on an upcoming educational series focused on 'Modern JavaScript Tooling for Backend Developers'. We'll be diving deep into npm package creation, Node.js CLI development, and leveraging TypeScript for robust server-side applications.\n\nStay tuned for more details on dates and topics! We believe sharing knowledge is key to community growth. #JavaScript #NodeJS #TypeScript #Education #Collaboration",
+        "likes": 120,
+        "comments": 22,
+        "type": "achievement",
+        "timestamp": "2025-11-23T10:09:34.968679"
+      },
+      {
+        "content": "The JavaScript ecosystem is a fascinating beast \u2013 constantly evolving, sometimes overwhelmingly so! From the rise of Vite to the continued dominance of React/Vue/Angular, keeping up can be a challenge. But what truly excites me is the innovation happening in tooling and build processes. It's making development faster, more robust, and ultimately, more enjoyable.\n\nWhat's your current favorite JavaScript tool or library that's significantly improved your workflow? I'm always on the lookout for new gems!",
+        "likes": 70,
+        "comments": 10,
+        "type": "text",
+        "timestamp": "2025-11-21T12:09:34.967707"
+      },
+      {
+        "content": "Thrilled to see a significant contribution land in `macOSUtilityApp` from a new community member today! Their PR not only fixed a long-standing bug but also introduced a much-needed accessibility improvement. This is what open source is all about \u2013 collective effort making projects better for everyone.\n\nA massive shoutout to @OpenSourceEnthusiast for their excellent work! It's truly inspiring to see the community grow and thrive. #OpenSourceCommunity #Collaboration #SoftwareEngineering #Gratitude",
+        "likes": 90,
+        "comments": 11,
+        "type": "achievement",
+        "timestamp": "2025-11-19T15:09:34.967707"
+      }
+    ]
+  }
+}

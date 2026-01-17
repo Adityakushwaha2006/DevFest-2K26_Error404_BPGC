@@ -1,0 +1,166 @@
+{
+  "username": "jarred-sumner",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:41:33.401779",
+  "data": {
+    "profile": {
+      "name": "Jarred Sumner",
+      "username": "JarredSumner",
+      "bio": "Software engineer building the future of web. \ud83d\udcbb Passionate about open source, sharing insights, and learning in public. Sometimes hot takes on dev ops & DX. SF based. \u2615",
+      "location": "San Francisco, CA",
+      "website": "jarredsumner.dev",
+      "followers": 7890,
+      "following": 1234,
+      "tweets_count": 5678,
+      "joined_date": "May 2012",
+      "is_verified": false,
+      "github_username": "Jarred Sumner"
+    },
+    "tweets": [
+      {
+        "content": "Thread: Saw the new release notes for [hypothetical popular library]. The performance improvements look incredible, especially for [specific feature]. Might be time for an upgrade. #techupdate",
+        "likes": 9,
+        "retweets": 1,
+        "replies": 0,
+        "type": "thread",
+        "timestamp": "2026-01-09T19:41:33.401779"
+      },
+      {
+        "content": "My git commit messages swing wildly between 'feat: implement user auth' and 'fixed it, mostly'. No in-between.",
+        "likes": 20,
+        "retweets": 5,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-09T13:41:33.401779"
+      },
+      {
+        "content": "The amount of boilerplate code people accept in some languages just blows my mind. There *has* to be a better way than writing the same 5 lines 100 times. #softwaredevelopment",
+        "likes": 18,
+        "retweets": 4,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-08T00:41:33.401779"
+      },
+      {
+        "content": "Saw that article about [hypothetical major tech company] deprecating [tool]. Not surprised, but still feels like a lot of migration overhead for many. Hope they provide a smooth transition path. #tech #devops",
+        "likes": 6,
+        "retweets": 0,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-06T18:41:33.401779"
+      },
+      {
+        "content": "Opened a small PR to fix a minor bug in a project I've been following. Always rewarding to contribute even a tiny bit to something you appreciate. #FOSS #bugfix",
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-05T19:41:33.401779"
+      },
+      {
+        "content": "Is it just me, or does the 'learn in public' trend often devolve into 'performative learning' rather than genuine sharing? There's a fine line. #developer #community",
+        "likes": 14,
+        "retweets": 3,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-05T04:41:33.401779"
+      },
+      {
+        "content": "Excited to be diving deep into a new distributed systems project at work this quarter. Lots to learn, but the challenge is invigorating. Wish me luck! \ud83d\ude80",
+        "likes": 7,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-03T19:41:33.401779"
+      },
+      {
+        "content": "Hot take: Microservices are often over-engineered solutions to organizational problems, not technical ones. Convince me otherwise. #architecture #backend",
+        "likes": 25,
+        "retweets": 7,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2026-01-03T16:41:33.401779"
+      },
+      {
+        "content": "WIP: Building a small CLI tool to help manage my dotfiles across machines. It's surprisingly fun to dive into Rust for this. Screenshot soon! \u2699\ufe0f #rustlang #buildinpublic",
+        "likes": 5,
+        "retweets": 0,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-03T14:41:33.401779"
+      },
+      {
+        "content": "Just merged my first small PR to an open-source library I use daily. It was just a docs fix, but it's a start! Feeling good about contributing back. #opensource #contribute",
+        "likes": 10,
+        "retweets": 1,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-31T10:41:33.401779"
+      },
+      {
+        "content": "Unpopular opinion: If your `package.json` has more lines than your actual app code, maybe rethink your dependencies. Just saying. #webdev #javascript",
+        "likes": 12,
+        "retweets": 2,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-29T20:41:33.401779"
+      },
+      {
+        "content": "Me: *spends 3 hours debugging a typo*\nMy code: *works perfectly after changing one character*\nMe: 'I am a genius.'",
+        "likes": 15,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-28T17:41:33.401779"
+      },
+      {
+        "content": "Been playing around with WebAssembly for a proof-of-concept. It's surprisingly powerful for certain computations. Anyone else experimenting with WASM beyond the hype? What are your use cases?",
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-26T19:41:33.401779"
+      },
+      {
+        "content": "Just spent an hour refactoring a particularly gnarly piece of legacy code. It now makes sense! The feeling of untangling complexity is truly unmatched. My future self will thank me. #softwareengineering",
+        "likes": 11,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-25T08:41:33.401779"
+      },
+      {
+        "content": "The speed at which new JS frameworks appear vs. how quickly they actually solve *new* problems is... interesting. Sometimes the old reliable is just fine. #javascript #frameworks",
+        "likes": 10,
+        "retweets": 2,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-25T01:41:33.401779"
+      },
+      {
+        "content": "Considering spinning up a new open-source project around [hypothetical niche area]. Does anyone have experience with [specific tech] for project bootstrapping? Looking for advice on initial tooling.",
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-23T01:41:33.401779"
+      },
+      {
+        "content": "Finally got the custom hook for lazy-loading images working perfectly in this side project. Huge win for performance! \u2728 Small steps but it feels good. #react #frontend",
+        "likes": 8,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-22T21:41:33.401779"
+      },
+      {
+        "content": "Debugging in production at 2 AM is my cardio.",
+        "likes": 22,
+        "retweets": 6,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-21T02:41:33.401779"
+      }
+    ]
+  }
+}

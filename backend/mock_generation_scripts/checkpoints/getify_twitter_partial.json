@@ -1,0 +1,21 @@
+{
+  "username": "getify",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:19:14.926218",
+  "data": {
+    "profile": {
+      "name": "Kyle Simpson",
+      "username": "KyleSimpsonTX",
+      "bio": "Human-Centric Technologist fighting for the people behind the pixels. Building @GetifySolutions. Deep dive into #golang & distributed systems. Always learning in public! \ud83d\udccdAustin, TX",
+      "location": "Austin, TX",
+      "website": "https://kylesimpson.dev",
+      "followers": 7892,
+      "following": 1234,
+      "tweets_count": 5432,
+      "joined_date": "March 2012",
+      "is_verified": false,
+      "github_username": "Kyle Simpson"
+    },
+    "tweets": []
+  }
+}

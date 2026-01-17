@@ -1,0 +1,265 @@
+{
+  "platform": "twitter",
+  "identifier": "getify",
+  "profile": {
+    "name": "Kyle Simpson",
+    "username": "KyleSimpsonTX",
+    "bio": "Human-Centric Technologist fighting for the people behind the pixels. Building @GetifySolutions. Deep dive into #golang & distributed systems. Always learning in public! 📍Austin, TX",
+    "location": "Austin, TX",
+    "website": "https://kylesimpson.dev",
+    "followers": 7892,
+    "following": 1234,
+    "tweets_count": 5432,
+    "joined_date": "March 2012",
+    "is_verified": false,
+    "github_username": "Kyle Simpson"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "The most complex part of any project isn't the code. It's figuring out what the product manager *actually* meant. 😂 #HumanProblems #DevHumor",
+      "timestamp": "2026-01-16T01:19:37.866511",
+      "date": "2026-01-16",
+      "time": "01:19:37",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/getify/status/4373843417",
+      "engagement": {
+        "likes": 72,
+        "retweets": 11,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Wrote a function that handles all edge cases perfectly... in my head. In reality, it probably just catches fire and calls for help. 🔥 #CodingFail",
+      "timestamp": "2026-01-09T17:19:37.866511",
+      "date": "2026-01-09",
+      "time": "17:19:37",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/getify/status/2919854737",
+      "engagement": {
+        "likes": 10,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Software complexity isn't a badge of honor. It's often a failure of empathy. For the next developer, for the user, for ourselves six months from now. Think human first. #CodeQuality",
+      "timestamp": "2026-01-07T08:19:37.866511",
+      "date": "2026-01-07",
+      "time": "08:19:37",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/getify/status/4622108120",
+      "engagement": {
+        "likes": 123,
+        "retweets": 28,
+        "replies": 12
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Every abstraction leaks. And when it leaks, it's usually the human on the keyboard who has to mop it up. We owe it to our future selves to understand the layers beneath.",
+      "timestamp": "2026-01-01T05:19:37.866511",
+      "date": "2026-01-01",
+      "time": "05:19:37",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/getify/status/8471851512",
+      "engagement": {
+        "likes": 105,
+        "retweets": 22,
+        "replies": 11
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Taking some time this week to reflect on where my energy is best spent to advocate for humane technology. Always looking for ways to make a tangible difference.",
+      "timestamp": "2025-12-31T14:19:37.866511",
+      "date": "2025-12-31",
+      "time": "14:19:37",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/getify/status/8000463389",
+      "engagement": {
+        "likes": 15,
+        "retweets": 3,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My debugging process often involves an ancient ritual: explaining the code out loud to an inanimate object, then realizing the obvious flaw halfway through the explanation. Works every time. #DevLife",
+      "timestamp": "2025-12-31T02:19:37.866511",
+      "date": "2025-12-31",
+      "time": "02:19:37",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/getify/status/3527278936",
+      "engagement": {
+        "likes": 68,
+        "retweets": 10,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Heartbreaking to see another round of layoffs. Behind every job title is a person, a family. We need to build a tech industry that values human contribution and provides more stability.",
+      "timestamp": "2025-12-31T01:19:37.866511",
+      "date": "2025-12-31",
+      "time": "01:19:37",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/getify/status/2567087352",
+      "engagement": {
+        "likes": 150,
+        "retweets": 40,
+        "replies": 25
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Thinking a lot about 'sustainable software development' beyond just environmental impact. What about the human sustainability? The burnout, the constant churn? #DevWellbeing",
+      "timestamp": "2025-12-30T22:19:37.866511",
+      "date": "2025-12-30",
+      "time": "22:19:37",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/getify/status/6209697273",
+      "engagement": {
+        "likes": 80,
+        "retweets": 18,
+        "replies": 8
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Had a fantastic discussion today with a team passionate about improving DX. It's energizing to see others fighting for the people behind the pixels. Keeps me motivated!",
+      "timestamp": "2025-12-29T12:19:37.866511",
+      "date": "2025-12-29",
+      "time": "12:19:37",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/getify/status/6280718909",
+      "engagement": {
+        "likes": 55,
+        "retweets": 9,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The best code isn't just functional, it's considerate. Considerate of the developer who will read it, the user who will interact with it, and the future self who will maintain it. Empathy in every line.",
+      "timestamp": "2025-12-27T04:19:37.866511",
+      "date": "2025-12-27",
+      "time": "04:19:37",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/getify/status/1549594035",
+      "engagement": {
+        "likes": 95,
+        "retweets": 19,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The unsung heroes of open source are often the maintainers doing triage, documentation, and community building. Their work directly supports the 'people behind the pixels'. Thank you!",
+      "timestamp": "2025-12-24T23:19:37.866511",
+      "date": "2025-12-24",
+      "time": "23:19:37",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/getify/status/3730909138",
+      "engagement": {
+        "likes": 60,
+        "retweets": 12,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Diving deep into socio-technical systems design today. How do we build software that fosters collaboration and minimizes human friction, not just technical friction? Fascinating stuff.",
+      "timestamp": "2025-12-23T04:19:37.866511",
+      "date": "2025-12-23",
+      "time": "04:19:37",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/getify/status/4009963950",
+      "engagement": {
+        "likes": 7,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "We spend so much time optimizing for machines, but who's optimizing for the human doing the coding? DX isn't just about syntax, it's about flow, cognitive load, and mental health. #HumanCentricTech",
+      "timestamp": "2025-12-21T07:19:37.866511",
+      "date": "2025-12-21",
+      "time": "07:19:37",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/getify/status/7830243106",
+      "engagement": {
+        "likes": 87,
+        "retweets": 15,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Exploring how to better articulate the 'why' behind architectural decisions, not just the 'what'. It's all about communicating intent to future humans. #DevAdvocacy",
+      "timestamp": "2025-12-21T00:19:37.866511",
+      "date": "2025-12-21",
+      "time": "00:19:37",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/getify/status/5356464837",
+      "engagement": {
+        "likes": 12,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Spent some time reviewing PRs on an open-source project this weekend. Contributing isn't just about code, it's about fostering a welcoming environment for all developers. #OpenSource",
+      "timestamp": "2025-12-20T19:19:37.866511",
+      "date": "2025-12-20",
+      "time": "19:19:37",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/getify/status/1983338966",
+      "engagement": {
+        "likes": 9,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Another tool promising 10x productivity. But does it truly ease the cognitive burden, or just shift it around? My focus remains on human well-being, not just output metrics.",
+      "timestamp": "2025-12-19T18:19:37.866511",
+      "date": "2025-12-19",
+      "time": "18:19:37",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/getify/status/9470476685",
+      "engagement": {
+        "likes": 75,
+        "retweets": 14,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The push for 'AI to write all code' misses the point. Technology should augment human creativity & problem-solving, not replace the thinking that gives work meaning. Let's build tools that empower, not disempower.",
+      "timestamp": "2025-12-17T22:19:37.866511",
+      "date": "2025-12-17",
+      "time": "22:19:37",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/getify/status/1866721787",
+      "engagement": {
+        "likes": 98,
+        "retweets": 20,
+        "replies": 10
+      }
+    }
+  ],
+  "tweet_count": 17,
+  "cross_references": {
+    "github": "getify_github.json",
+    "linkedin": "getify_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:20:23.177360",
+  "is_simulated": true
+}

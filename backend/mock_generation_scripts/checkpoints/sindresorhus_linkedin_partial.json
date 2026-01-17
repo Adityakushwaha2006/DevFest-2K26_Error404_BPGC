@@ -1,0 +1,21 @@
+{
+  "username": "sindresorhus",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:08:54.924436",
+  "data": {
+    "profile": {
+      "name": "Sindre Sorhus",
+      "headline": "Open Source Software Engineer | Swift & JavaScript Specialist | Building macOS Apps, CLI Tools, & npm Packages",
+      "location": "Unknown",
+      "about": "As a dedicated full-time open-sourcerer, I specialize in crafting robust software solutions with a focus on Swift and JavaScript. My expertise extends to developing a wide range of applications, including intuitive macOS apps, powerful CLI tools, and widely-used npm packages. I am passionate about contributing to the developer community and building high-quality, impactful tools.",
+      "current_company": "Freelance",
+      "current_position": "Independent Software Engineer & Open Source Contributor",
+      "connections": 420,
+      "followers": 12500,
+      "profile_views_last_90_days": 1850,
+      "open_to_work": false,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

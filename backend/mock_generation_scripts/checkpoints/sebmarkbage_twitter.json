@@ -1,0 +1,166 @@
+{
+  "username": "sebmarkbage",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:32:45.190741",
+  "data": {
+    "profile": {
+      "name": "Sebastian Markb\u00e5ge",
+      "username": "sebmarkbage",
+      "bio": "Engineer @Vercel. Crafting fast web experiences. Deep dives into #React & #GoLang internals. Learning in public, occasionally hot takes. NYC.",
+      "location": "New York City",
+      "website": "https://github.com/sebastianmarkbage",
+      "followers": 38521,
+      "following": 987,
+      "tweets_count": 14210,
+      "joined_date": "October 2012",
+      "is_verified": false,
+      "github_username": "Sebastian Markb\u00e5ge"
+    },
+    "tweets": [
+      {
+        "content": "Seeing a lot of discussion around no-code/low-code platforms. While they won't replace traditional development, they're undeniably empowering a new wave of creators. That's a net positive for innovation. #nocode #lowcode #innovation",
+        "likes": 40,
+        "retweets": 8,
+        "replies": 11,
+        "type": "original",
+        "timestamp": "2026-01-16T07:32:45.190741"
+      },
+      {
+        "content": "Just spent 3 hours debugging a CSS issue only to realize I had a typo in `display: flex;`. My brain is now on a coffee break. Send help (and espresso). #webdev #debugging #developerhumor",
+        "likes": 62,
+        "retweets": 15,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-15T12:32:45.190741"
+      },
+      {
+        "content": "My therapist told me to stop dwelling on the past. My code's git blame says otherwise. #developerhumor #git #coding",
+        "likes": 110,
+        "retweets": 30,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2026-01-13T13:32:45.190741"
+      },
+      {
+        "content": "Diving deep into WebAssembly modules today. The potential for performance-critical client-side operations is truly exciting. Anyone built anything production-grade with it yet? #WebAssembly #wasm #webdev",
+        "likes": 18,
+        "retweets": 3,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-13T11:32:45.190741"
+      },
+      {
+        "content": "To that recent thread about developer burnout: It's a real issue. Companies need to focus on sustainable pace, not just output metrics. Our craft requires deep focus, which is easily depleted. #developerlife #burnout #worklifebalance",
+        "likes": 55,
+        "retweets": 10,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-05T08:32:45.190741"
+      },
+      {
+        "content": "Had a great sync with the team today. Feels good to be aligning on the next quarter's roadmap. Prioritization is always a beast, but clarity is king. #worklife #softwaredevelopment #productdevelopment",
+        "likes": 12,
+        "retweets": 1,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-03T07:32:45.190741"
+      },
+      {
+        "content": "Unpopular opinion: Microservices are great for scaling *teams*, not just *applications*. If your team isn't growing substantially, you're probably adding unnecessary complexity. #softwarearchitecture #microservices #devops",
+        "likes": 35,
+        "retweets": 7,
+        "replies": 12,
+        "type": "original",
+        "timestamp": "2026-01-01T16:32:45.190741"
+      },
+      {
+        "content": "If your developer onboarding process takes more than a week to get to a production deployment, it's broken. Good DX starts day one. #DeveloperExperience #DX #onboarding",
+        "likes": 88,
+        "retweets": 21,
+        "replies": 18,
+        "type": "original",
+        "timestamp": "2025-12-30T02:32:45.190741"
+      },
+      {
+        "content": "Just refactored a function that was 300 lines long into 5 functions, each 20 lines. Now I can finally understand what it *actually* does. Future me thanks past me. #refactoring #cleancode #developerlife",
+        "likes": 90,
+        "retweets": 25,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2025-12-30T02:32:45.190741"
+      },
+      {
+        "content": "Working on a small CLI tool to manage my dotfiles more efficiently. Currently figuring out how to handle cross-platform symlinks gracefully. Any seasoned shell scripters have tips? #clitools #devtools #dotfiles",
+        "likes": 20,
+        "retweets": 5,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-29T11:32:45.190741"
+      },
+      {
+        "content": "Discovered a new open-source library for creating beautiful, accessible color palettes for UI. Huge shoutout to the maintainers! Definitely integrating this into my next project. #opensource #uidesign #webdev",
+        "likes": 25,
+        "retweets": 6,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-29T00:32:45.190741"
+      },
+      {
+        "content": "Spent the morning reviewing architecture proposals. Always interesting to see different approaches to the same problem. The devil truly is in the details when you're thinking about long-term maintainability. #softwarearchitecture #career #devlife",
+        "likes": 15,
+        "retweets": 2,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-23T21:32:45.190741"
+      },
+      {
+        "content": "AI code generation tools are incredible for boilerplate, but they push the mental model up a layer. We still need to understand the underlying principles, perhaps even more deeply, to effectively prompt and verify. #AI #codeAI #softwaredevelopment",
+        "likes": 60,
+        "retweets": 15,
+        "replies": 20,
+        "type": "original",
+        "timestamp": "2025-12-20T15:32:45.190741"
+      },
+      {
+        "content": "The 'best' tech stack is the one your team knows best and can maintain effectively. Shiny new toys are fun, but sometimes stability and familiarity win. #techstack #pragmatism #softwareengineering",
+        "likes": 70,
+        "retweets": 18,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2025-12-20T12:32:45.190741"
+      },
+      {
+        "content": "Just finished reading 'Designing Data-Intensive Applications' by Martin Kleppmann. My brain feels both full and expanded. Essential reading for anyone serious about backend systems. Highly recommend! #books #softwareengineering #databases",
+        "likes": 48,
+        "retweets": 12,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-19T18:32:45.190741"
+      },
+      {
+        "content": "Reading about the new TC39 proposal for `Array.prototype.group()`. This would be a welcome addition! Far too many times I've written a custom reduce for this. Small wins make a big difference for developer ergonomics. #JavaScript #ECMAScript #webstandards",
+        "likes": 27,
+        "retweets": 4,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-19T08:32:45.190741"
+      },
+      {
+        "content": "Just submitted my first small PR to a project I've been using for years. It's just a docs fix, but it feels good to finally give back! Highly recommend contributing, even in a small way. #opensource #community",
+        "likes": 45,
+        "retweets": 9,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-18T23:32:45.190741"
+      },
+      {
+        "content": "Experimenting with a Rust backend for a personal project. The compile times are a bit of a shock coming from JS, but the type safety and performance are really compelling. Learning curve is real! #RustLang #backend #learning",
+        "likes": 30,
+        "retweets": 6,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2025-12-18T01:32:45.190741"
+      }
+    ]
+  }
+}

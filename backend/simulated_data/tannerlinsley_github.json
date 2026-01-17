@@ -1,0 +1,84 @@
+{
+  "platform": "github",
+  "identifier": "tannerlinsley",
+  "profile": {
+    "login": "tannerlinsley",
+    "id": 5580297,
+    "node_id": "MDQ6VXNlcjU1ODAyOTc=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5580297?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/tannerlinsley",
+    "html_url": "https://github.com/tannerlinsley",
+    "followers_url": "https://api.github.com/users/tannerlinsley/followers",
+    "following_url": "https://api.github.com/users/tannerlinsley/following{/other_user}",
+    "gists_url": "https://api.github.com/users/tannerlinsley/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/tannerlinsley/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/tannerlinsley/subscriptions",
+    "organizations_url": "https://api.github.com/users/tannerlinsley/orgs",
+    "repos_url": "https://api.github.com/users/tannerlinsley/repos",
+    "events_url": "https://api.github.com/users/tannerlinsley/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/tannerlinsley/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "name": "Tanner Linsley",
+    "company": "@tanstack & @nozzle",
+    "blog": "https://tanstack.com",
+    "location": "Utah",
+    "email": null,
+    "hireable": null,
+    "bio": "🎉TypeScript + React ⚛️Open Source💡UI/UX 💼Co-Founder \r\n@NozzleIO\r\n 🛠Owner @TanStack - #ReactQuery #ReactTable #ReactLocation #ReactCharts",
+    "twitter_username": "tannerlinsley",
+    "public_repos": 124,
+    "public_gists": 70,
+    "followers": 14026,
+    "following": 13,
+    "created_at": "2013-09-30T21:34:41Z",
+    "updated_at": "2025-11-12T02:51:58Z"
+  },
+  "activities": [
+    {
+      "type": "create_branch",
+      "content": "Created branch: claude/implement-tool-search-pqvzK",
+      "timestamp": "2026-01-16T05:07:36+00:00",
+      "date": "2026-01-16",
+      "time": "05:07:36",
+      "url": "https://github.com/tannerlinsley",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: fix/deployment",
+      "timestamp": "2026-01-15T20:59:37+00:00",
+      "date": "2026-01-15",
+      "time": "20:59:37",
+      "url": "https://github.com/tannerlinsley",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: feat/builder-cta",
+      "timestamp": "2026-01-15T20:15:45+00:00",
+      "date": "2026-01-15",
+      "time": "20:15:45",
+      "url": "https://github.com/tannerlinsley",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: feat/vue-adapter",
+      "timestamp": "2026-01-14T22:55:31+00:00",
+      "date": "2026-01-14",
+      "time": "22:55:31",
+      "url": "https://github.com/tannerlinsley",
+      "metadata": {}
+    }
+  ],
+  "cross_references": {
+    "twitter": "tannerlinsley_twitter.json",
+    "linkedin": "tannerlinsley_linkedin.json"
+  },
+  "confidence_score": 1.0,
+  "exported_at": "2026-01-17T17:08:11.476782",
+  "fetch_status": "success"
+}

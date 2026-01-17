@@ -1,0 +1,21 @@
+{
+  "username": "paulirish",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:16:03.108384",
+  "data": {
+    "profile": {
+      "name": "Paul Irish",
+      "username": "paulirish",
+      "bio": "Staff Eng @GoogleChrome. Building a better web. Exploring #GoLang & #AI. Sharing thoughts, learning in public. Occasionally controversial, always curious. \u2665z",
+      "location": "Unknown",
+      "website": "https://paulirish.com",
+      "followers": 38765,
+      "following": 875,
+      "tweets_count": 18230,
+      "joined_date": "July 2009",
+      "is_verified": false,
+      "github_username": "Paul Irish"
+    },
+    "tweets": []
+  }
+}

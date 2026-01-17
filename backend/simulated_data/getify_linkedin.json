@@ -1,0 +1,237 @@
+{
+  "platform": "linkedin",
+  "identifier": "getify",
+  "profile": {
+    "name": "Kyle Simpson",
+    "headline": "Founder & Principal Technologist at Getify Solutions | Human-Centric Software Development Advocate | Author of 'You Don't Know JS'",
+    "location": "Austin, TX",
+    "about": "As a Human-Centric Technologist, I am dedicated to fighting for the people behind the pixels, ensuring that technology serves humanity with intention and integrity. At Getify Solutions, I lead initiatives to craft innovative software solutions, applying advanced software development principles to create robust, user-friendly, and impactful products. My mission is to empower developers and improve the overall human experience within the digital landscape.",
+    "current_company": "Getify Solutions",
+    "current_position": "Founder & Principal Technologist",
+    "connections": 487,
+    "followers": 52893,
+    "profile_views_last_90_days": 1345,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Lead Software Engineer",
+        "company": "Getify Solutions",
+        "location": "Austin, TX (Remote)",
+        "start_date": "March 2021",
+        "end_date": "Present",
+        "description": "Led the design and implementation of critical backend services and API endpoints using Node.js, TypeScript, and AWS Lambda, improving system scalability by 30%. Mentored junior engineers, conducted comprehensive code reviews, and established best practices for secure and performant code, resulting in a 15% reduction in production incidents. Collaborated cross-functionally to define technical roadmaps and integrate new technologies like GraphQL and Kafka, enhancing data processing capabilities and developer experience.",
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "InnovateX Solutions",
+        "location": "San Francisco, CA",
+        "start_date": "August 2018",
+        "end_date": "February 2021",
+        "description": "Developed and maintained core features for a high-traffic SaaS platform using Python/Django and React, contributing to a 20% increase in user engagement and subscription renewals. Designed and implemented robust RESTful APIs, ensuring secure and efficient data communication, and integrated with various third-party services like Stripe and Twilio. Optimized database queries and application performance, reducing average page load times by 10% through PostgreSQL tuning and strategic caching strategies.",
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Fusion Tech",
+        "location": "Seattle, WA",
+        "start_date": "June 2016",
+        "end_date": "July 2018",
+        "description": "Contributed to full-stack web application development using Java (Spring Boot) for backend services and Angular for the front-end, implementing user-facing features and business logic. Participated actively in daily stand-ups and sprint planning sessions, collaborating closely with product managers and UI/UX designers to deliver incremental software improvements. Wrote comprehensive unit and integration tests, ensuring code quality and reducing post-deployment bugs by 25% across multiple product cycles.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "Metropolitan University of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2022,
+        "activities": "Dean's List (6 semesters); President, Software Development Club; Lead Developer, Senior Capstone Project: AI-powered Recommendation Engine"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 32
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 41
+      },
+      {
+        "name": "Agile",
+        "endorsements": 5
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Honored to have been invited to speak at the upcoming JSConf next quarter! I'll be diving into some advanced concepts around JavaScript's type coercion and the underlying specifications, aiming to demystify some of the language's more 'quirky' behaviors.\n\nPreparing these talks is always a great opportunity to revisit my own understanding and find new ways to explain complex topics. Looking forward to sharing insights and connecting with fellow JS enthusiasts!",
+      "timestamp": "2026-01-17T12:20:23.134284",
+      "date": "2026-01-17",
+      "time": "12:20:23",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/getify-2333",
+      "engagement": {
+        "likes": 160,
+        "comments": 25
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to announce that Getify Solutions is expanding our consulting services to include dedicated workshops on 'Ethical AI & Human-Centric Design Principles.' As AI becomes more integrated into every aspect of our lives, it's more crucial than ever to build these systems responsibly and with a deep understanding of their societal impact.\n\nOur goal is to help organizations not just leverage AI's power, but to do so in a way that prioritizes user trust, fairness, and accessibility. Drop us a line if your team is looking to navigate this evolving landscape with a human-first approach!",
+      "timestamp": "2026-01-11T11:20:23.134284",
+      "date": "2026-01-11",
+      "time": "11:20:23",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/getify-2380",
+      "engagement": {
+        "likes": 78,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to share a significant milestone for Getify Solutions! We recently celebrated our 5th anniversary. It's been an incredible journey building a team dedicated to human-centric software development and helping our clients craft truly impactful digital experiences.\n\nFrom our early days focused on deep-dive JavaScript consulting to our current work spanning full-stack architecture, accessibility, and performance, our core mission has remained constant: prioritizing the human element in every line of code. Immensely proud of the team and grateful to all our clients and partners who've trusted us along the way. Here's to many more years of building better software, together!",
+      "timestamp": "2026-01-01T20:20:23.134284",
+      "date": "2026-01-01",
+      "time": "20:20:23",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/getify-8705",
+      "engagement": {
+        "likes": 185,
+        "comments": 37
+      }
+    },
+    {
+      "type": "post",
+      "content": "I recently participated in a fantastic panel discussion on the future of web development, and one theme kept emerging: the increasing convergence of design and development. The lines are blurring, and I believe this is a positive trend for creating more cohesive, user-friendly experiences.\n\nDevelopers who understand design principles and designers who grasp technical constraints are invaluable. At Getify Solutions, we actively foster this cross-disciplinary thinking to ensure our solutions are not just functional, but also delightful and intuitive. How are you seeing this convergence play out in your teams?",
+      "timestamp": "2025-12-16T02:20:23.134284",
+      "date": "2025-12-16",
+      "time": "02:20:23",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/getify-5489",
+      "engagement": {
+        "likes": 88,
+        "comments": 14
+      }
+    },
+    {
+      "type": "post",
+      "content": "Fantastic to see a new proposal gaining traction within TC39 for enhancing JavaScript's module system. As someone who's spent years advocating for robust language features, it's encouraging to see the continuous effort to refine JS for the next generation of web applications. \n\nThese seemingly small additions often have a ripple effect, improving developer ergonomics and enabling more sophisticated architectures. It's a testament to the open-source community's commitment to evolving the web. What upcoming JS features are you most excited about?",
+      "timestamp": "2025-12-15T11:20:23.134284",
+      "date": "2025-12-15",
+      "time": "11:20:23",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/getify-1086",
+      "engagement": {
+        "likes": 72,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up an insightful deep-dive with a client on optimizing their legacy frontend for accessibility. It's often viewed as an 'add-on,' but truly baking accessibility into the development process from the start not only improves user experience for everyone but also enhances code quality and reduces long-term maintenance costs.\n\nAt Getify Solutions, we see accessibility as a fundamental pillar of human-centric design, not a compliance checkbox. It's about ensuring digital inclusivity, and the benefits extend far beyond the legal requirements. If your team is struggling with making your applications accessible, it's a conversation worth having sooner rather than later.",
+      "timestamp": "2025-12-13T12:20:23.134284",
+      "date": "2025-12-13",
+      "time": "12:20:23",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/getify-9443",
+      "engagement": {
+        "likes": 95,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "Reflecting on the 'You Don't Know JS' series, what I've consistently found most rewarding are the stories from developers who tell me the books helped them 'unstick' a concept or finally feel confident in their understanding of JavaScript. It's a reminder that deep learning often comes from challenging assumptions and digging beyond the surface.\n\nIn a world obsessed with speed, taking the time to truly grasp fundamentals can feel like a luxury, but it's an investment that pays dividends for years. What's one concept in your field that, once you truly understood it, unlocked a new level of proficiency for you?",
+      "timestamp": "2025-12-13T07:20:23.134284",
+      "date": "2025-12-13",
+      "time": "07:20:23",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/getify-3757",
+      "engagement": {
+        "likes": 140,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge shoutout to the Getify Solutions team for an outstanding sprint on our latest client project! We tackled some particularly tricky integration challenges this past week, and everyone stepped up, collaborating seamlessly to deliver ahead of schedule and with incredible quality. \n\nIt’s moments like these that truly highlight the power of a dedicated and collaborative team. Proud to work alongside such talented individuals who embody our human-centric values every single day. Keep up the fantastic work, folks!",
+      "timestamp": "2025-12-10T06:20:23.134284",
+      "date": "2025-12-10",
+      "time": "06:20:23",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/getify-7788",
+      "engagement": {
+        "likes": 105,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read an excellent piece on the challenges of maintaining large-scale frontend applications over time. It really resonated with our approach at Getify Solutions, where we emphasize architectural foresight and sustainable practices from day one. The article highlights how technical debt isn't just about 'bad code,' but often a symptom of unclear requirements, rushed timelines, and a lack of investment in long-term health.\n\nThis reinforces my belief that human-centric software development isn't just about the end-user, but also about the developers who have to live with, maintain, and evolve the codebase for years to come. Investing in good architecture and clean code is an investment in your team's sanity and your product's longevity. \n\nWhat are your go-to strategies for keeping large frontend projects maintainable?",
+      "timestamp": "2025-12-05T09:20:23.134284",
+      "date": "2025-12-05",
+      "time": "09:20:23",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/getify-2153",
+      "engagement": {
+        "likes": 68,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "The JavaScript ecosystem continues its rapid evolution, and it's easy to get caught up in the hype cycles of new frameworks and tools. But I often find myself advocating for a return to fundamentals. Understanding the 'why' behind JS, how the language truly works, and the underlying web standards, empowers developers far more than memorizing the latest API.\n\nIt's not about rejecting new tools, but about using them with a deeper, more informed perspective. That's where true innovation and robust, maintainable solutions are built. What are your thoughts on balancing foundational knowledge with keeping up with new trends?",
+      "timestamp": "2025-12-05T02:20:23.134284",
+      "date": "2025-12-05",
+      "time": "02:20:23",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/getify-4827",
+      "engagement": {
+        "likes": 92,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "A common question I get from aspiring technologists is about the 'best' path to becoming a senior developer or a technical leader. While technical prowess is essential, I always stress the importance of cultivating soft skills: communication, empathy, mentoring, and active listening.\n\nIn our increasingly complex technical landscape, the ability to clearly articulate ideas, understand different perspectives, and guide a team through challenges is just as critical as writing elegant code. Don't neglect these muscles! They'll be the ones that truly elevate your career and allow you to make a broader impact.",
+      "timestamp": "2025-11-23T07:20:23.134284",
+      "date": "2025-11-23",
+      "time": "07:20:23",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/getify-2506",
+      "engagement": {
+        "likes": 115,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "For those just starting their journey in software development, the sheer volume of information can be overwhelming. My advice: focus on building things, even small ones. Practical application solidifies theoretical knowledge like nothing else. Don't be afraid to break things, debug, and learn from mistakes.\n\nAlso, find a community. Whether online or in-person, having peers to share knowledge with, ask questions, and even just commiserate with, is invaluable. Remember, everyone started somewhere!",
+      "timestamp": "2025-11-18T17:20:23.134284",
+      "date": "2025-11-18",
+      "time": "17:20:23",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/getify-7130",
+      "engagement": {
+        "likes": 65,
+        "comments": 9
+      }
+    }
+  ],
+  "post_count": 12,
+  "cross_references": {
+    "github": "getify_github.json",
+    "twitter": "getify_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:20:23.187417",
+  "is_simulated": true
+}

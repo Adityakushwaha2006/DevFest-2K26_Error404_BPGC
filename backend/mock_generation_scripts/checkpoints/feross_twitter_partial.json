@@ -1,0 +1,21 @@
+{
+  "username": "feross",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:27:16.363774",
+  "data": {
+    "profile": {
+      "name": "Feross Aboukhadijeh",
+      "username": "feross",
+      "bio": "Founder/CEO @SocketDev. Building a safer future for open source \ud83d\udee1\ufe0f. Started @webtorrent & @standard. 100+ npm packages. Stanford lecturer on Web Security. Learning & shipping always!",
+      "location": "Stanford, CA",
+      "website": "https://feross.org",
+      "followers": 42500,
+      "following": 850,
+      "tweets_count": 8500,
+      "joined_date": "March 2010",
+      "is_verified": false,
+      "github_username": "Feross Aboukhadijeh"
+    },
+    "tweets": []
+  }
+}

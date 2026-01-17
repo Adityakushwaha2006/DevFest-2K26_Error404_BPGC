@@ -1,0 +1,21 @@
+{
+  "username": "davem330",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T16:51:36.775116",
+  "data": {
+    "profile": {
+      "name": "David S. Miller",
+      "username": "ds_miller_dev",
+      "bio": "Software Developer @RedHat. Passionate about building robust systems & #opensource. Learning & sharing thoughts on #Linux, #GoLang & distributed tech. Occasionally dropping a hot take on software architecture. London \ud83c\uddec\ud83c\udde7",
+      "location": "London, UK",
+      "website": "https://davidmiller.dev",
+      "followers": 9876,
+      "following": 1234,
+      "tweets_count": 8765,
+      "joined_date": "April 2012",
+      "is_verified": false,
+      "github_username": "David S. Miller"
+    },
+    "tweets": []
+  }
+}

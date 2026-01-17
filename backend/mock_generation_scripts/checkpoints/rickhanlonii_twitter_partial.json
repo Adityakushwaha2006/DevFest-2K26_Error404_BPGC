@@ -1,0 +1,21 @@
+{
+  "username": "rickhanlonii",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:39:59.539739",
+  "data": {
+    "profile": {
+      "name": "Ricky",
+      "username": "@RickyReacts",
+      "bio": "React Core @facebook. \u269b\ufe0f Building the next gen of UI, dabbling in #AI. Passionate about developer experience & open source. Sometimes I tweet hot takes. Learning out loud.",
+      "location": "EST. AKRON",
+      "website": "github.com/rickyreacts",
+      "followers": 12500,
+      "following": 850,
+      "tweets_count": 4876,
+      "joined_date": "March 2017",
+      "is_verified": false,
+      "github_username": "Ricky"
+    },
+    "tweets": []
+  }
+}

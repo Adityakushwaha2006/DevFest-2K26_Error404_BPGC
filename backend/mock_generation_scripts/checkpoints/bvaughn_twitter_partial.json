@@ -1,0 +1,21 @@
+{
+  "username": "bvaughn",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:38:34.904616",
+  "data": {
+    "profile": {
+      "name": "Brian Vaughn",
+      "username": "brianvaughn",
+      "bio": "Turning coffee into software. \u2615\ufe0f Currently building cool stuff at @Citadel. Ex-@replayio, React core @facebook, @google. Passionate about #go, #react, #javascript. Learning in public. Occasional hot takes. \ud83d\udca1",
+      "location": "Brooklyn, NY",
+      "website": "https://github.com/bvaughn",
+      "followers": 28500,
+      "following": 1250,
+      "tweets_count": 7800,
+      "joined_date": "August 2012",
+      "is_verified": false,
+      "github_username": "Brian Vaughn"
+    },
+    "tweets": []
+  }
+}

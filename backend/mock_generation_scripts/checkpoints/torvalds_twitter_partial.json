@@ -1,0 +1,21 @@
+{
+  "username": "torvalds",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T16:49:05.326055",
+  "data": {
+    "profile": {
+      "name": "Linus Torvalds",
+      "username": "@Linus_Torvalds",
+      "bio": "Creator of Linux & Git. Still contributing to open source. Fascinated by #AI and its real-world impact. Living in Portland, OR. @LinuxFoundation. Expect direct opinions.",
+      "location": "Portland, OR",
+      "website": "kernel.org",
+      "followers": 49500,
+      "following": 450,
+      "tweets_count": 6200,
+      "joined_date": "July 2009",
+      "is_verified": false,
+      "github_username": "Linus Torvalds"
+    },
+    "tweets": []
+  }
+}

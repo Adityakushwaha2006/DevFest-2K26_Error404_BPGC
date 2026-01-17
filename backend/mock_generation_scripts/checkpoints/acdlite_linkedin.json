@@ -1,0 +1,183 @@
+{
+  "username": "acdlite",
+  "platform": "linkedin",
+  "timestamp": "2026-01-17T17:35:16.230181",
+  "data": {
+    "profile": {
+      "name": "Andrew Clark",
+      "headline": "Staff Software Engineer at Vercel | React Core Team | Next.js Contributor",
+      "location": "New York",
+      "about": "As a Staff Software Engineer at Vercel, I focus on advancing modern web development, with a particular emphasis on the React ecosystem. My work involves contributing to the React core team and enhancing the capabilities of Next.js, shaping the tools developers use to build dynamic and performant applications. I am passionate about improving developer experience and pushing the boundaries of what's possible on the web.",
+      "current_company": "Vercel",
+      "current_position": "Staff Software Engineer",
+      "connections": 487,
+      "followers": 27500,
+      "profile_views_last_90_days": 1820,
+      "open_to_work": false,
+      "open_to_hiring": false,
+      "creator_mode": true,
+      "experience": [
+        {
+          "title": "Staff Software Engineer",
+          "company": "Vercel",
+          "location": "Remote",
+          "start_date": "January 2022",
+          "end_date": "Present",
+          "description": [
+            "Led the design and implementation of critical features for the Vercel platform's developer experience, leveraging Next.js, React, and TypeScript.",
+            "Architected and optimized scalable frontend solutions, contributing significantly to the performance and reliability of core services serving millions of users.",
+            "Mentored engineers across multiple teams, established best practices for modern web development, and championed accessibility standards."
+          ],
+          "is_current": true
+        },
+        {
+          "title": "Senior Frontend Engineer",
+          "company": "Aperture Labs",
+          "location": "San Francisco, CA",
+          "start_date": "September 2018",
+          "end_date": "December 2021",
+          "description": [
+            "Developed and maintained complex, data-driven web applications using React, Redux, and GraphQL, directly impacting user engagement and retention for key product lines.",
+            "Spearheaded the refactoring and modernization of legacy UI components to a scalable React-based design system, improving developer velocity by 25%.",
+            "Collaborated closely with product managers and UX designers to translate requirements into technical specifications and deliver high-quality, user-centric features."
+          ],
+          "is_current": false
+        },
+        {
+          "title": "Software Developer",
+          "company": "Innovate Solutions Group",
+          "location": "Austin, TX",
+          "start_date": "March 2016",
+          "end_date": "August 2018",
+          "description": [
+            "Built and launched responsive web applications for various clients using React.js, Node.js, and RESTful APIs.",
+            "Implemented frontend features and components, ensuring cross-browser compatibility and adherence to design specifications.",
+            "Participated in agile development cycles, including daily stand-ups, sprint planning, and code reviews to maintain high code quality."
+          ],
+          "is_current": false
+        }
+      ],
+      "education": [
+        {
+          "institution": "State University of Technology",
+          "degree": "Bachelor of Science",
+          "field_of_study": "Computer Science",
+          "start_year": 2017,
+          "end_year": 2021,
+          "activities": "Dean's List, President of Programming Club, Participated in annual Hackathon"
+        }
+      ],
+      "skills": [
+        {
+          "name": "React",
+          "endorsements": 89
+        },
+        {
+          "name": "Problem Solving",
+          "endorsements": 43
+        },
+        {
+          "name": "Team Leadership",
+          "endorsements": 42
+        },
+        {
+          "name": "Agile",
+          "endorsements": 5
+        }
+      ]
+    },
+    "posts": [
+      {
+        "content": "Thrilled to announce a significant milestone for Next.js! We've just shipped the new 'Server Actions on the Edge' feature, which I've had the privilege of contributing to as part of the React Core Team and Next.js effort. This enables incredibly performant mutations directly within your React components, pushing the boundaries of what's possible with server-side logic in a highly distributed environment. A huge thank you to everyone on the team and in the community who provided feedback and helped bring this to life. Excited to see what developers build with it! #Nextjs #React #ServerActions #EdgeComputing #WebDev",
+        "likes": 280,
+        "comments": 75,
+        "type": "achievement",
+        "timestamp": "2026-01-04T07:35:16.230181"
+      },
+      {
+        "content": "Huge news from Vercel! Next.js 15 Beta is officially out, packed with significant improvements for both developers and users. We've focused heavily on improving build performance, reducing bundle sizes, and making the developer experience even smoother. Check out the release notes to explore all the new features and start experimenting! [Link to Next.js Blog Post] Super proud of the entire team for pushing the boundaries once again. #Nextjs #Vercel #WebDevelopment #React",
+        "likes": 350,
+        "comments": 80,
+        "type": "company_announcement",
+        "timestamp": "2025-12-28T10:35:16.230181"
+      },
+      {
+        "content": "Excited to share that I'll be speaking at Next.js Conf this year! I'll be diving deep into the architecture of React's new memoization strategies and how they unlock even greater performance in large-scale Next.js applications. Hope to see many of you there! More details on my talk to follow soon. #NextjsConf #React #Performance #WebDevelopment",
+        "likes": 180,
+        "comments": 30,
+        "type": "achievement",
+        "timestamp": "2025-12-27T23:35:16.230181"
+      },
+      {
+        "content": "The impact of good tooling cannot be overstated. As someone deeply involved with Next.js, I constantly think about how we can remove friction for developers. From fast refresh to detailed error overlays, every small improvement aggregates into a significantly better developer experience. It's often the unsung hero of successful projects. What's one piece of tooling that dramatically improved your workflow?",
+        "likes": 110,
+        "comments": 20,
+        "type": "text",
+        "timestamp": "2025-12-23T02:35:16.230181"
+      },
+      {
+        "content": "The debate around the ideal balance of client-side vs. server-side rendering is as old as the web, but with React Server Components (RSC) and Next.js, we're seeing a powerful new paradigm emerge. RSCs offer an elegant solution for performance and reducing client-side bundle size, but they do require a shift in mental model for many developers. What are some of the biggest challenges or 'aha!' moments you've experienced while adopting or exploring RSCs in your projects?",
+        "likes": 150,
+        "comments": 45,
+        "type": "text",
+        "timestamp": "2025-12-19T06:35:16.230181"
+      },
+      {
+        "content": "For anyone looking to level up their career in frontend engineering, don't underestimate the power of contributing to open source. It's not just about writing code; it's about learning collaboration, understanding large codebases, and seeing real-world impact. Start by finding a project you use daily, look for 'good first issue' tags, and don't be afraid to ask questions. My journey with Next.js began with small bug fixes and docs improvements, and it profoundly shaped my path. #CareerAdvice #OpenSource #React #Nextjs #SoftwareEngineering",
+        "likes": 120,
+        "comments": 25,
+        "type": "text",
+        "timestamp": "2025-12-19T02:35:16.230181"
+      },
+      {
+        "content": "Thought for the day: In the rapidly evolving world of web development, staying current often feels like a full-time job in itself. How do you prioritize what to learn? For me, it's about understanding fundamental computer science principles AND keeping an eye on disruptive shifts like WebAssembly's growing potential or new declarative UI patterns. What's your strategy for continuous learning without getting overwhelmed? #WebDev #LifelongLearning #FrontendEngineering #TechCareer",
+        "likes": 75,
+        "comments": 15,
+        "type": "text",
+        "timestamp": "2025-12-13T09:35:16.230181"
+      },
+      {
+        "content": "Reflecting on the past quarter, one of the most rewarding aspects has been collaborating with the React Core team on shaping the future of hydration and suspense. These foundational pieces are complex, but seeing them come together to enable richer, faster web experiences for everyone is incredibly motivating. Proud of the progress we're making! #React #FrontendEngineering #WebPlatform #Innovation",
+        "likes": 130,
+        "comments": 22,
+        "type": "achievement",
+        "timestamp": "2025-12-06T23:35:16.230181"
+      },
+      {
+        "content": "A recent article I read explored the challenges of migrating legacy applications to modern React/Next.js stacks. It brought up an interesting point: often, the biggest hurdles aren't technical, but organizational and cultural. Getting buy-in, managing expectations, and incremental migration strategies are key. [Link to insightful article on large-scale refactors] What are your best tips for leading a successful tech modernization project?",
+        "likes": 70,
+        "comments": 12,
+        "type": "article_share",
+        "timestamp": "2025-12-03T17:35:16.230181"
+      },
+      {
+        "content": "Just read a fantastic article by @AuthorName on 'The Art of Hydration in Modern React Applications.' It breaks down the nuances of selective hydration and progressive rendering in a way that's incredibly clear and insightful. Highly recommend this for anyone deep-diving into performance optimization for complex UIs. [Link to article] It really reinforces how crucial understanding the render pipeline is for truly fast user experiences. #React #Performance #WebDevelopment #Frontend",
+        "likes": 90,
+        "comments": 18,
+        "type": "article_share",
+        "timestamp": "2025-11-29T06:35:16.230181"
+      },
+      {
+        "content": "Are component libraries becoming too opinionated? While they offer incredible speed and consistency, I've noticed a trend where they can sometimes enforce certain design patterns or architectural choices that don't always fit unique project requirements. Finding that sweet spot between utility and flexibility is crucial. What are your thoughts on balancing these trade-offs when choosing or building a component library?",
+        "likes": 95,
+        "comments": 35,
+        "type": "text",
+        "timestamp": "2025-11-26T04:35:16.230181"
+      },
+      {
+        "content": "Shoutout to my incredible colleagues @AliceSmith and @BobJohnson on the Vercel Platform team for their outstanding work on the new build caching system! Their dedication significantly cut down build times for hundreds of thousands of projects, directly impacting developer productivity globally. It's inspiring to work alongside such talented and committed individuals. #Vercel #Teamwork #Engineering #DevOps",
+        "likes": 65,
+        "comments": 10,
+        "type": "text",
+        "timestamp": "2025-11-19T17:35:16.230181"
+      },
+      {
+        "content": "Vercel is growing, and we're looking for passionate engineers to join our mission of making the web faster and more accessible! Specifically, our Next.js Framework team has some exciting roles open. If you're keen on pushing the boundaries of frontend performance and developer experience, check out our careers page. [Link to Vercel Careers Page] Would love to connect with potential candidates! #Hiring #Vercel #Nextjs #SoftwareJobs #React",
+        "likes": 160,
+        "comments": 28,
+        "type": "company_announcement",
+        "timestamp": "2025-11-18T08:35:16.230181"
+      }
+    ]
+  }
+}

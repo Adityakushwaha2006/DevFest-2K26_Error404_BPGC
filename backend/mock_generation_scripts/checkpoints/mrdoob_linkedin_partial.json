@@ -1,0 +1,21 @@
+{
+  "username": "mrdoob",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:31:31.271111",
+  "data": {
+    "profile": {
+      "name": "mrdoob",
+      "headline": "Independent Software Engineer | WebGL & 3D Graphics Specialist | Creator of Three.js | Open Source Contributor",
+      "location": "Unknown",
+      "about": "I am an independent software developer with a profound passion for pushing the boundaries of interactive web experiences, particularly in 3D graphics. As the creator of Three.js, I have extensive hands-on experience in WebGL, JavaScript, and building high-performance, accessible libraries. My work focuses on developing innovative solutions, contributing to the open-source community, and exploring new frontiers in digital creativity.",
+      "current_company": "Freelance",
+      "current_position": "Independent Software Engineer",
+      "connections": 480,
+      "followers": 15345,
+      "profile_views_last_90_days": 876,
+      "open_to_work": false,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

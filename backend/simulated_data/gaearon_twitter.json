@@ -1,0 +1,307 @@
+{
+  "platform": "twitter",
+  "identifier": "gaearon",
+  "profile": {
+    "name": "dan",
+    "username": "dan_builds",
+    "bio": "👨‍💻 Go + React dev, dabbling in AI. Always building, always learning. Sharing thoughts on code, tech, & the future. Let's talk systems! 🚀",
+    "location": "Unknown",
+    "website": "https://github.com/danbuilds",
+    "followers": 2850,
+    "following": 680,
+    "tweets_count": 4120,
+    "joined_date": "March 2017",
+    "is_verified": false,
+    "github_username": "dan"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Stuck on a tricky async/await issue in JS. Promises are fun until they're not. Time to grab more coffee and consult the docs (again). ☕ #javascript #async",
+      "timestamp": "2026-01-16T06:00:32.698560",
+      "date": "2026-01-16",
+      "time": "06:00:32",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/gaearon/status/1333693446",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Discovered a neat little open-source tool for visualizing dependencies in my project. Might even contribute a small bug fix if I get some free time this weekend. #opensource #devtools",
+      "timestamp": "2026-01-14T17:00:32.698560",
+      "date": "2026-01-14",
+      "time": "17:00:32",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/gaearon/status/6091618970",
+      "engagement": {
+        "likes": 9,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Had a really productive pairing session today. Solved a tricky performance bottleneck that had been nagging us for a while. Love those 'aha!' moments with colleagues. ✨ #softwaredevelopment",
+      "timestamp": "2026-01-12T19:00:32.698560",
+      "date": "2026-01-12",
+      "time": "19:00:32",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/gaearon/status/2567791622",
+      "engagement": {
+        "likes": 14,
+        "retweets": 1,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Been tinkering with a small CLI tool in Rust to manage my dotfiles. Learning so much about memory management and borrowing. Rustaceans, any recommended beginner crates for CLI parsing? #rustlang #cli",
+      "timestamp": "2026-01-10T14:00:32.698560",
+      "date": "2026-01-10",
+      "time": "14:00:32",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/gaearon/status/1130946042",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Dynamic typing is great for rapid prototyping, but static typing makes refactoring a joy and catches so many errors early. I swing back and forth on this daily. #typesafety #programming",
+      "timestamp": "2026-01-10T11:00:32.698560",
+      "date": "2026-01-10",
+      "time": "11:00:32",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/gaearon/status/4527225791",
+      "engagement": {
+        "likes": 19,
+        "retweets": 4,
+        "replies": 8
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: Writing good tests is often more satisfying than shipping the feature itself. Catches errors, ensures reliability, pure chef's kiss. 🧪 #devlife #testing",
+      "timestamp": "2026-01-07T08:00:32.698560",
+      "date": "2026-01-07",
+      "time": "08:00:32",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/gaearon/status/1664334395",
+      "engagement": {
+        "likes": 18,
+        "retweets": 3,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "That moment when you deploy to production on a Friday afternoon and immediately question all your life choices. Wish me luck. 🤞 #deployment #devops #fridayfeeling",
+      "timestamp": "2026-01-04T07:00:32.698560",
+      "date": "2026-01-04",
+      "time": "07:00:32",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/gaearon/status/5556669686",
+      "engagement": {
+        "likes": 38,
+        "retweets": 10,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Really enjoying diving into Domain-Driven Design principles for our new project. It feels like it forces a much clearer understanding of the business logic early on. #DDD #softwarearchitecture",
+      "timestamp": "2026-01-03T19:00:32.698560",
+      "date": "2026-01-03",
+      "time": "19:00:32",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/gaearon/status/5847491537",
+      "engagement": {
+        "likes": 12,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Read an interesting article on new CSS container queries. Looks incredibly powerful for responsive design, but also a potential minefield. Exciting times for frontend! #frontend #css",
+      "timestamp": "2026-01-03T11:00:32.698560",
+      "date": "2026-01-03",
+      "time": "11:00:32",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/gaearon/status/6184336668",
+      "engagement": {
+        "likes": 11,
+        "retweets": 2,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Huge shoutout to the maintainers of @shadcn for their amazing UI components! Their documentation and flexibility saved me so much time today. Good docs are a blessing. 🙏 #opensource #react",
+      "timestamp": "2026-01-01T11:00:32.698560",
+      "date": "2026-01-01",
+      "time": "11:00:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/gaearon/status/5572004053",
+      "engagement": {
+        "likes": 15,
+        "retweets": 3,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Currently exploring serverless functions with AWS Lambda. The abstraction is great, but figuring out state management across invocations is a whole new puzzle. Any pro tips? #cloud #serverless",
+      "timestamp": "2025-12-30T03:00:32.698560",
+      "date": "2025-12-30",
+      "time": "03:00:32",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/gaearon/status/9133924728",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My git commit messages usually start strong, then devolve into 'fix stuff' and 'more fixes'. Anyone else? Or is it just me? 😅 #git #devhumor",
+      "timestamp": "2025-12-29T12:00:32.698560",
+      "date": "2025-12-29",
+      "time": "12:00:32",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/gaearon/status/6802452765",
+      "engagement": {
+        "likes": 28,
+        "retweets": 7,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Attended a great webinar on accessibility best practices today. So important to remember our users and build inclusive experiences from the start. A good reminder for every project. #a11y #webdevelopment",
+      "timestamp": "2025-12-29T06:00:32.699557",
+      "date": "2025-12-29",
+      "time": "06:00:32",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/gaearon/status/8570102543",
+      "engagement": {
+        "likes": 13,
+        "retweets": 2,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Experimenting with Docker Compose for local dev environments. So much cleaner than managing multiple services manually. Why didn't I do this sooner? #docker #devops",
+      "timestamp": "2025-12-29T00:00:32.698560",
+      "date": "2025-12-29",
+      "time": "00:00:32",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/gaearon/status/4831531191",
+      "engagement": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just read about the latest security vulnerability in [popular library]. Reminder to always keep your dependencies updated! It's not just about getting new features. #infosec #dependencies",
+      "timestamp": "2025-12-26T01:00:32.698560",
+      "date": "2025-12-26",
+      "time": "01:00:32",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/gaearon/status/7881782989",
+      "engagement": {
+        "likes": 10,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Microservices have their place, but a well-designed monolith can often be simpler, faster to develop, and easier to operate for many teams. Change my mind. #architecture #softwareengineering",
+      "timestamp": "2025-12-25T17:00:32.698560",
+      "date": "2025-12-25",
+      "time": "17:00:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/gaearon/status/2695138296",
+      "engagement": {
+        "likes": 45,
+        "retweets": 12,
+        "replies": 18
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Diving into WebAssembly this week. The performance potential for certain applications is absolutely wild. Any favorite starter projects or resources for Wasm beginners? #webdev #wasm",
+      "timestamp": "2025-12-24T22:00:32.698560",
+      "date": "2025-12-24",
+      "time": "22:00:32",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/gaearon/status/7167573328",
+      "engagement": {
+        "likes": 7,
+        "retweets": 1,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Hot take: Low-code/no-code tools are not a threat to developers, they're an accelerant. They free us up to solve harder, more interesting problems. The future is hybrid. #futureofdev #nocode",
+      "timestamp": "2025-12-19T01:00:32.698560",
+      "date": "2025-12-19",
+      "time": "01:00:32",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/gaearon/status/4450165796",
+      "engagement": {
+        "likes": 21,
+        "retweets": 4,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just spent an hour debugging a 'bug' that turned out to be a misplaced semicolon. My brain is officially soup. 🫠 #programming #devhumor",
+      "timestamp": "2025-12-18T07:00:32.698560",
+      "date": "2025-12-18",
+      "time": "07:00:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/gaearon/status/3564999503",
+      "engagement": {
+        "likes": 32,
+        "retweets": 8,
+        "replies": 10
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My favorite part of debugging is adding console.logs, then removing them, then adding them again in slightly different places. It's a journey, not a destination. #debugging #programming",
+      "timestamp": "2025-12-18T07:00:32.698560",
+      "date": "2025-12-18",
+      "time": "07:00:32",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/gaearon/status/4829681082",
+      "engagement": {
+        "likes": 25,
+        "retweets": 6,
+        "replies": 7
+      }
+    }
+  ],
+  "tweet_count": 20,
+  "cross_references": {
+    "github": "gaearon_github.json",
+    "linkedin": "gaearon_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:01:20.764282",
+  "is_simulated": true
+}

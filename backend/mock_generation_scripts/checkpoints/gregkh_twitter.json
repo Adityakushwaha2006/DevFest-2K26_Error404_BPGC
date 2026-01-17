@@ -1,0 +1,166 @@
+{
+  "username": "gregkh",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T16:50:40.742263",
+  "data": {
+    "profile": {
+      "name": "Greg Kroah-Hartman",
+      "username": "gregkh",
+      "bio": "Linux kernel dev & maintainer. USB, drivers, stable updates. Passionate about FOSS & low-level systems. Sharing code insights, occasional hot takes, and what I'm learning daily. \ud83d\udc27\u2699\ufe0f",
+      "location": "Unknown",
+      "website": "https://github.com/gregkh",
+      "followers": 35500,
+      "following": 850,
+      "tweets_count": 15321,
+      "joined_date": "March 2009",
+      "is_verified": false,
+      "github_username": "Greg Kroah-Hartman"
+    },
+    "tweets": [
+      {
+        "content": "Simple, readable C code that does one thing well is infinitely preferable to overly clever, obfuscated 'optimized' code that breaks easily. Elegance is clarity. #CodeRefactoring #CProgramming",
+        "likes": 102,
+        "retweets": 25,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2026-01-12T02:50:40.742263"
+      },
+      {
+        "content": "Exciting to see the progress with Rust in the kernel, but let's be pragmatic. C isn't going anywhere for the vast majority of existing code. It's an additive, not a replacement. #RustLang #Linux #Kernel",
+        "likes": 210,
+        "retweets": 60,
+        "replies": 45,
+        "type": "original",
+        "timestamp": "2026-01-10T17:50:40.741268"
+      },
+      {
+        "content": "Reviewed a fantastic patch series for a new driver today. The quality of submissions keeps improving. This is what makes open source thrive! #OpenSource #LinuxKernel #Community",
+        "likes": 67,
+        "retweets": 15,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-10T09:50:40.741268"
+      },
+      {
+        "content": "Still baffled by projects that re-implement basic linked list functionality instead of using existing kernel primitives. We have good reasons for those. #Linux #KernelDev #CProgramming",
+        "likes": 58,
+        "retweets": 12,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-09T19:50:40.741268"
+      },
+      {
+        "content": "If your \"cutting edge\" build system takes longer to compile a simple `hello world` than my laptop takes to build an entire kernel, we need to talk. #DeveloperExperience #Tooling",
+        "likes": 134,
+        "retweets": 38,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2026-01-05T11:50:40.741268"
+      },
+      {
+        "content": "Spent an hour tracking down a bug only to find it was a typo in a comment. The comment, not the code. I need more coffee. Or less sleep. Can't tell anymore. #DevHumor #Debugging",
+        "likes": 92,
+        "retweets": 21,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-02T07:50:40.741268"
+      },
+      {
+        "content": "The sheer elegance of a perfectly crafted `struct` and its accompanying low-level helper functions often goes unappreciated. It's poetry in bytes. #CProgramming #KernelDev",
+        "likes": 44,
+        "retweets": 9,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-31T22:50:40.741268"
+      },
+      {
+        "content": "Another week, another few hundred patches merged upstream. The pipeline never stops! Keeping the kernel healthy is a full-time job (and then some). #Linux #KernelMaintainer",
+        "likes": 88,
+        "retweets": 18,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-30T20:50:40.741268"
+      },
+      {
+        "content": "Static analysis tools are invaluable, but they're a supplement, not a substitute, for careful human review and deep understanding of the code's intent. #CodeQuality #SoftwareEngineering",
+        "likes": 65,
+        "retweets": 11,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-30T09:50:40.742263"
+      },
+      {
+        "content": "Seeing a lot of buzz about the new 'AI-powered code generation' tools. Interesting, but let's see how they handle kernel-level concurrency issues before we declare C dead. #TechNews #AI #Kernel",
+        "likes": 187,
+        "retweets": 45,
+        "replies": 28,
+        "type": "original",
+        "timestamp": "2025-12-28T22:50:40.741268"
+      },
+      {
+        "content": "Diving deep into a new architecture's memory management unit spec this week. Always something new to learn, even after decades. The complexity is fascinating. #LearningInPublic #KernelDev #Hardware",
+        "likes": 31,
+        "retweets": 6,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-27T19:50:40.741268"
+      },
+      {
+        "content": "Had a great discussion with a vendor about upstreaming their out-of-tree patches. Collaboration is key to ensuring long-term maintainability and stability for everyone. #OpenSource #Linux #Collaboration",
+        "likes": 70,
+        "retweets": 14,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-25T15:50:40.742263"
+      },
+      {
+        "content": "Diving into some historical driver code today. Fascinating to see the evolution of approaches to hardware interaction over the decades. Lessons learned, forgotten, and relearned. #LinuxHistory #CodeArchaeology",
+        "likes": 28,
+        "retweets": 5,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-24T17:50:40.741268"
+      },
+      {
+        "content": "My bug detector is mostly powered by caffeine and sheer stubbornness. And a debugger, sometimes. #Debugging #DevHumor",
+        "likes": 48,
+        "retweets": 8,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-24T03:50:40.742263"
+      },
+      {
+        "content": "\"It works on my machine\" takes on a whole new meaning when \"my machine\" is a specific test rig running a custom kernel config on obscure hardware. #DevLife #KernelDev",
+        "likes": 75,
+        "retweets": 17,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-22T15:50:40.741268"
+      },
+      {
+        "content": "Just wrapped up another round of stable kernel updates. Always satisfying to push fixes out to millions of users. On to the next batch! #Linux #KernelMaintainer #FOSS",
+        "likes": 115,
+        "retweets": 30,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-21T01:50:40.741268"
+      },
+      {
+        "content": "Spent some time understanding the intricacies of page table walks on a new CPU architecture. The details under the hood are truly mind-boggling. #Architecture #CPU #MemoryManagement",
+        "likes": 35,
+        "retweets": 7,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-18T14:50:40.742263"
+      },
+      {
+        "content": "Really impressed with a new contributor's first patch series. Clear communication, well-tested, and clean code. This is how new maintainers are born! #OpenSource #Community",
+        "likes": 50,
+        "retweets": 10,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-18T08:50:40.741268"
+      }
+    ]
+  }
+}

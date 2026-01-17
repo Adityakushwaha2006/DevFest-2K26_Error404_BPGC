@@ -1,0 +1,265 @@
+{
+  "platform": "twitter",
+  "identifier": "davem330",
+  "profile": {
+    "name": "David S. Miller",
+    "username": "ds_miller_dev",
+    "bio": "Software Developer @RedHat. Passionate about building robust systems & #opensource. Learning & sharing thoughts on #Linux, #GoLang & distributed tech. Occasionally dropping a hot take on software architecture. London 🇬🇧",
+    "location": "London, UK",
+    "website": "https://davidmiller.dev",
+    "followers": 9876,
+    "following": 1234,
+    "tweets_count": 8765,
+    "joined_date": "April 2012",
+    "is_verified": false,
+    "github_username": "David S. Miller"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "My git commit messages are either 'fix: critical bug' or 'feat: added a thing' or just 'asdf'. There is no in-between, and I am not ashamed. (Mostly not ashamed).",
+      "timestamp": "2026-01-15T22:52:01.888122",
+      "date": "2026-01-15",
+      "time": "22:52:01",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/davem330/status/7807209042",
+      "engagement": {
+        "likes": 27,
+        "retweets": 5,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: Microservices are often just distributed monoliths with extra network latency, complex debugging, and operational overhead. Fight me.",
+      "timestamp": "2026-01-14T03:52:01.888122",
+      "date": "2026-01-14",
+      "time": "03:52:01",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/davem330/status/5958963237",
+      "engagement": {
+        "likes": 28,
+        "retweets": 4,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Stumbled upon an incredible deep dive into memory management in C today. Always fascinating to peel back the layers and understand how things *really* work under the hood. Link in replies for anyone interested!",
+      "timestamp": "2026-01-10T15:52:01.888122",
+      "date": "2026-01-10",
+      "time": "15:52:01",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/davem330/status/6111034739",
+      "engagement": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Submitted a tiny patch to a dependency I use daily. It's just a documentation fix, but feels good to give back to #OpenSource in some small way. Every little bit counts.",
+      "timestamp": "2026-01-09T17:52:01.888122",
+      "date": "2026-01-09",
+      "time": "17:52:01",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/davem330/status/5550807637",
+      "engagement": {
+        "likes": 8,
+        "retweets": 0,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Yet another supply chain attack targeting package managers. This is why strict dependency auditing and vulnerability scanning aren't just 'nice-to-haves' anymore. They're essential. Stay vigilant out there.",
+      "timestamp": "2026-01-08T18:52:01.888122",
+      "date": "2026-01-08",
+      "time": "18:52:01",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/davem330/status/4106868874",
+      "engagement": {
+        "likes": 17,
+        "retweets": 4,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just spent an hour debugging a 'bug' only to realize it was a missing semicolon. My brain cells are requesting immediate reboot. Send help (and maybe a linter). #DevLife",
+      "timestamp": "2026-01-07T16:52:01.888122",
+      "date": "2026-01-07",
+      "time": "16:52:01",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/davem330/status/7679010744",
+      "engagement": {
+        "likes": 35,
+        "retweets": 6,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Diving into WASM for a new project. The promise of near-native performance in the browser and beyond is compelling. Anyone got good resources for getting started beyond the basics, especially for Rust + WASM?",
+      "timestamp": "2026-01-06T14:52:01.888122",
+      "date": "2026-01-06",
+      "time": "14:52:01",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/davem330/status/2482030858",
+      "engagement": {
+        "likes": 9,
+        "retweets": 1,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just wrapped up a productive sprint planning session. Feeling good about the next couple of weeks. Time to turn ideas into robust, well-tested code. Let's do this.",
+      "timestamp": "2026-01-05T02:52:01.888122",
+      "date": "2026-01-05",
+      "time": "02:52:01",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/davem330/status/6478836089",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Finally got that pesky race condition squashed in my little CLI tool. So satisfying when the test suite goes green. Time for coffee and maybe a brief moment of self-congratulation.",
+      "timestamp": "2026-01-01T14:52:01.888122",
+      "date": "2026-01-01",
+      "time": "14:52:01",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/davem330/status/8981567403",
+      "engagement": {
+        "likes": 12,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "People who run their build tools in a VM within a container on a cloud instance... just compile it on your dev machine, FFS. The layers of abstraction are getting truly wild. When does it stop?",
+      "timestamp": "2025-12-27T08:52:01.888122",
+      "date": "2025-12-27",
+      "time": "08:52:01",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/davem330/status/8320919995",
+      "engagement": {
+        "likes": 22,
+        "retweets": 3,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "If your CI/CD pipeline takes longer to run than it takes to manually deploy, you're doing it wrong. Automation should accelerate, not hinder your development flow. Optimise ruthlessly.",
+      "timestamp": "2025-12-26T15:52:01.888122",
+      "date": "2025-12-26",
+      "time": "15:52:01",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/davem330/status/3229548701",
+      "engagement": {
+        "likes": 19,
+        "retweets": 3,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "It's wild how many 'AI-powered' tools are just glorified regex or tree-sitter wrappers with a slick UI. Not that it's bad, but let's be realistic about the 'intelligence' part. Still useful, just not sentient.",
+      "timestamp": "2025-12-23T08:52:01.888122",
+      "date": "2025-12-23",
+      "time": "08:52:01",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/davem330/status/1331276539",
+      "engagement": {
+        "likes": 25,
+        "retweets": 5,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Spent some time today triaging bugs for an open source project I follow. Found a few duplicates and helped narrow down another. Small efforts add up and keep the project healthy! #Community",
+      "timestamp": "2025-12-22T17:52:01.888122",
+      "date": "2025-12-22",
+      "time": "17:52:01",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/davem330/status/7163115491",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Reflecting on yesterday's code review. It's amazing how much you can learn by explaining your choices and listening to others' perspectives. Collaboration genuinely makes us better engineers.",
+      "timestamp": "2025-12-21T13:52:01.888122",
+      "date": "2025-12-21",
+      "time": "13:52:01",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/davem330/status/9216252377",
+      "engagement": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Why was the JavaScript developer sad? Because he didn't Node how to Express himself. Ba dum tss. #DevHumor",
+      "timestamp": "2025-12-21T11:52:01.888122",
+      "date": "2025-12-21",
+      "time": "11:52:01",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/davem330/status/4694031724",
+      "engagement": {
+        "likes": 30,
+        "retweets": 7,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Another day, another major cloud provider experiencing 'elevated error rates'. Just reminds you that nobody is immune to the laws of distributed systems. Always have a plan B (and C). Resilience is key.",
+      "timestamp": "2025-12-20T06:52:01.888122",
+      "date": "2025-12-20",
+      "time": "06:52:01",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/davem330/status/2682303894",
+      "engagement": {
+        "likes": 15,
+        "retweets": 2,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The best code isn't always the most 'clever' or 'optimized', but the one that's easiest to read, maintain, and debug by another human being six months down the line. Future you will always thank current you.",
+      "timestamp": "2025-12-18T09:52:01.888122",
+      "date": "2025-12-18",
+      "time": "09:52:01",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/davem330/status/6691093622",
+      "engagement": {
+        "likes": 42,
+        "retweets": 10,
+        "replies": 2
+      }
+    }
+  ],
+  "tweet_count": 17,
+  "cross_references": {
+    "github": "davem330_github.json",
+    "linkedin": "davem330_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T16:52:47.185668",
+  "is_simulated": true
+}

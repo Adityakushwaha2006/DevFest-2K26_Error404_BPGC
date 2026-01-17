@@ -1,0 +1,21 @@
+{
+  "username": "patak-dev",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:25:09.063910",
+  "data": {
+    "profile": {
+      "name": "patak",
+      "headline": "Core Team @vitejs | @vitest-dev & @elk-zone Contributor | Freelance Software Developer",
+      "location": "Unknown",
+      "about": "As a core team member of Vite.js, I am deeply involved in developing cutting-edge web tooling and fostering a vibrant open-source community. My work extends to contributing to Vitest and Elk, focusing on modern web development practices and robust testing solutions. Currently, I leverage my expertise as a freelance software developer, passionate about building performant and scalable applications.",
+      "current_company": "Freelance",
+      "current_position": "Freelance Software Developer & Open Source Contributor",
+      "connections": 387,
+      "followers": 2850,
+      "profile_views_last_90_days": 1345,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

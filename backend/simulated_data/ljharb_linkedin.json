@@ -1,0 +1,280 @@
+{
+  "platform": "linkedin",
+  "identifier": "ljharb",
+  "profile": {
+    "name": "Jordan Harband",
+    "headline": "Staff Software Engineer at Socket.dev | TC39 Delegate & JavaScript Standards Contributor | AI & Web Development | Ex-Coinbase, Airbnb, Twitter",
+    "location": "Hillsborough, CA",
+    "about": "I am a dedicated software engineer with a passion for architecting robust and scalable systems across the JavaScript ecosystem. As a TC39 delegate, I actively contribute to the evolution of web standards, alongside hands-on development leveraging modern AI technologies. I thrive on tackling complex challenges, sharing knowledge, and drawing on extensive experience from high-growth environments at companies like Coinbase, Airbnb, and Twitter.",
+    "current_company": "@socketdev @tc39 ",
+    "current_position": "Staff Software Engineer",
+    "connections": 480,
+    "followers": 1500,
+    "profile_views_last_90_days": 350,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Senior AI Systems Engineer",
+        "company": "Socketdev",
+        "location": "Remote, USA",
+        "start_date": "January 2021",
+        "end_date": "Present",
+        "description": "•   Architected and developed high-performance AI inference systems leveraging large language models (LLMs) for security analysis and code generation, processing millions of API calls daily.\n•   Contributed to the design and implementation of ECMAScript proposals and runtime enhancements (@tc39 context), improving JavaScript engine performance for AI-driven applications.\n•   Led cross-functional teams in integrating advanced machine learning capabilities into core product offerings, resulting in a 30% reduction in false positives for vulnerability detection.",
+        "is_current": true
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company": "CogniTech Solutions",
+        "location": "San Francisco, CA",
+        "start_date": "August 2017",
+        "end_date": "December 2020",
+        "description": "•   Developed and deployed scalable machine learning models for natural language understanding (NLU) to improve customer service chatbots, increasing resolution rates by 15%.\n•   Built and maintained robust data pipelines using Python, SQL, and Apache Spark to prepare and process large datasets for model training and evaluation.\n•   Collaborated with product teams to translate business requirements into technical specifications for ML-driven features, ensuring alignment with user needs.",
+        "is_current": false
+      },
+      {
+        "title": "Software Developer",
+        "company": "InnovateX Technologies",
+        "location": "Seattle, WA",
+        "start_date": "June 2014",
+        "end_date": "July 2017",
+        "description": "•   Designed and implemented RESTful APIs for a cloud-based SaaS platform using Java and Spring Boot, supporting millions of daily transactions.\n•   Developed front-end components with React.js and Redux, improving user experience and application responsiveness by 20%.\n•   Participated in agile development cycles, including sprint planning, daily stand-ups, and code reviews, contributing to timely feature delivery.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of California, Berkeley",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2017,
+        "end_year": 2021,
+        "activities": "Dean's List (6 semesters), Member of Computer Science Honor Society (Upsilon Pi Epsilon), Project Lead for open-source initiative in EECS student group"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Ai",
+        "endorsements": 28
+      },
+      {
+        "name": "Problem Solving",
+        "endorsements": 12
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 19
+      },
+      {
+        "name": "Agile",
+        "endorsements": 6
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Huge shoutout to the incredible engineering team at Socket.dev! 🎉 We just hit a major milestone on our new dependency visualization tool, bringing unprecedented clarity to complex package graphs. The collaborative spirit and dedication shown by everyone made this possible. It's truly inspiring to work alongside such brilliant minds who are passionate about making the web safer. \n\n#TeamWork #SocketDev #Engineering #StartupCulture #SoftwareDevelopment",
+      "timestamp": "2026-01-17T01:11:09.804710",
+      "date": "2026-01-17",
+      "time": "01:11:09",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/ljharb-5491",
+      "engagement": {
+        "likes": 105,
+        "comments": 19
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to announce a major leap forward in software supply chain security! At Socket.dev, we've just launched our real-time behavioral analysis engine for open-source packages. This isn't just static scanning; we're actively monitoring package behavior to detect malicious activity before it impacts your projects.\n\nThis has been a massive effort by the team, and I couldn't be prouder. Check out the details in our latest blog post! \n\n#SocketDev #SoftwareSecurity #SupplyChainSecurity #OpenSource #InfoSec",
+      "timestamp": "2026-01-13T23:11:09.804710",
+      "date": "2026-01-13",
+      "time": "23:11:09",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/ljharb-6577",
+      "engagement": {
+        "likes": 287,
+        "comments": 41
+      }
+    },
+    {
+      "type": "post",
+      "content": "Reflecting on my journey from large enterprises like Coinbase, Airbnb, and Twitter to diving deep into JavaScript standards at TC39 and building innovative security solutions at Socket.dev. The shift from contributing to massive codebases to influencing the language itself, and then applying that expertise in a focused startup environment, has been incredibly rewarding.\n\nFor anyone considering a similar path: find where your passion for impact truly lies, whether it's scaling systems for millions or shaping the foundational tools for all. \n\n#CareerAdvice #TechCareer #StartupLife #BigTech #JavaScript",
+      "timestamp": "2026-01-13T12:11:09.804710",
+      "date": "2026-01-13",
+      "time": "12:11:09",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/ljharb-4762",
+      "engagement": {
+        "likes": 210,
+        "comments": 48
+      }
+    },
+    {
+      "type": "post",
+      "content": "The intersection of AI and web development continues to fascinate me. Beyond obvious applications like content generation, I see immense potential in AI-driven tools for code optimization, accessibility auditing, and even automated performance tuning directly in the browser. Imagine a future where your frontend framework intelligently adapts to user behavior in real-time. \n\nWhat are your thoughts on AI's next big impact on the web? \n\n#AI #WebDevelopment #Frontend #DeveloperTools #FutureOfTech",
+      "timestamp": "2026-01-05T14:11:09.804710",
+      "date": "2026-01-05",
+      "time": "14:11:09",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/ljharb-2613",
+      "engagement": {
+        "likes": 165,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "Intrigued by this recent paper on self-improving AI agents [link to a hypothetical research paper on Arxiv/Medium]. While still in research, the potential for these models to augment developer productivity, perhaps even assisting in complex problem-solving or architectural design, is immense. It's a reminder that AI is rapidly moving beyond mere code generation.\n\nWhat are your most ambitious predictions for AI in software engineering? #AI #MachineLearning #SoftwareEngineering #Research #FutureTech",
+      "timestamp": "2025-12-31T08:11:09.804710",
+      "date": "2025-12-31",
+      "time": "08:11:09",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/ljharb-9827",
+      "engagement": {
+        "likes": 102,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "The constant battle between developer velocity and frontend performance is real. With richer user experiences and more complex applications, bundle sizes and load times are perpetual challenges. Are we doing enough to prioritize performance at the architectural level, or is it often an afterthought? \n\nLove to hear thoughts on how teams are tackling this, especially with emerging patterns like Island Architecture or server components. #WebPerformance #FrontendDevelopment #JavaScript #WebDev #Optimization",
+      "timestamp": "2025-12-28T10:11:09.804710",
+      "date": "2025-12-28",
+      "time": "10:11:09",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/ljharb-9393",
+      "engagement": {
+        "likes": 130,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "The recent uptick in sophisticated software supply chain attacks highlights a critical gap: trust in transitive dependencies. Many organizations still lack visibility into the true risk profile of their indirect dependencies. It’s not just about what you install, but what *they* install. \n\nProactive dependency integrity checks and behavioral analysis are no longer optional—they're paramount. #SupplyChainSecurity #CyberThreats #InfoSec #SoftwareDevelopment #RiskManagement",
+      "timestamp": "2025-12-26T22:11:09.804710",
+      "date": "2025-12-26",
+      "time": "22:11:09",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/ljharb-5483",
+      "engagement": {
+        "likes": 195,
+        "comments": 38
+      }
+    },
+    {
+      "type": "post",
+      "content": "Had a fantastic time speaking at DevConf 2024 last week on 'Securing the Modern JavaScript Supply Chain.' It was great to connect with so many passionate developers and share insights on how we can collectively build a more resilient web. Special thanks to the organizers for a wonderfully run event! Looking forward to sharing the talk recording soon.\n\n#DevConf #Speaking #Cybersecurity #JavaScript #WebSecurity",
+      "timestamp": "2025-12-26T04:11:09.804710",
+      "date": "2025-12-26",
+      "time": "04:11:09",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/ljharb-7588",
+      "engagement": {
+        "likes": 140,
+        "comments": 20
+      }
+    },
+    {
+      "type": "post",
+      "content": "At Socket.dev, we tackle some fascinating challenges in analyzing package behavior without executing malicious code. This often involves leveraging advanced static analysis techniques combined with sandboxed dynamic checks. One area I'm particularly excited about is how we're building a 'behavioral fingerprint' for packages. It's complex, but vital work.\n\nMore to come in an upcoming blog post! #SocketDev #TechDeepDive #SoftwareSecurity #StaticAnalysis #JavaScriptSecurity",
+      "timestamp": "2025-12-24T03:11:09.804710",
+      "date": "2025-12-24",
+      "time": "03:11:09",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/ljharb-5487",
+      "engagement": {
+        "likes": 155,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Spent some time this weekend contributing a small utility function to a popular JavaScript data library. It's always a good reminder of the power of open source and the collective effort that goes into building the tools we all rely on daily. Even small contributions add up!\n\nWhat's an open-source project you've contributed to recently, or one you admire? #OpenSource #JavaScript #WebDev #Community #SideProject",
+      "timestamp": "2025-12-15T14:11:09.804710",
+      "date": "2025-12-15",
+      "time": "14:11:09",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/ljharb-3359",
+      "engagement": {
+        "likes": 76,
+        "comments": 14
+      }
+    },
+    {
+      "type": "post",
+      "content": "Exciting progress at the recent TC39 meeting! We're moving closer to Stage 3 for the 'Array Grouping' proposal. This feature is going to bring so much ergonomic power to data manipulation in JavaScript, making common patterns cleaner and more intuitive. Big thanks to everyone contributing to the spec and sharing feedback. The future of JS is bright! ✨\n\n#JavaScript #TC39 #WebDevelopment #Standards",
+      "timestamp": "2025-12-07T06:11:09.804710",
+      "date": "2025-12-07",
+      "time": "06:11:09",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/ljharb-1439",
+      "engagement": {
+        "likes": 112,
+        "comments": 23
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just finished reading this insightful piece on the rising sophistication of software supply chain attacks [link to a recent security blog post or article]. It underscores the critical need for proactive, continuous monitoring rather than reactive vulnerability patching. This is precisely why our work at Socket.dev is so vital. We can't afford to be complacent when the integrity of our software ecosystem is at stake.\n\n#SoftwareSecurity #SupplyChainAttacks #Cybersecurity #JavaScript",
+      "timestamp": "2025-12-05T09:11:09.804710",
+      "date": "2025-12-05",
+      "time": "09:11:09",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/ljharb-6511",
+      "engagement": {
+        "likes": 98,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "In the fast-paced world of web development, continuous learning isn't just a buzzword; it's essential for longevity. My involvement with TC39 isn't just about contributing; it's also a fantastic way to stay ahead of the curve, understanding the 'why' behind language evolution. \n\nI encourage every engineer to dive deeper than just the framework du jour. Understanding fundamentals and standards pays dividends for years to come. #ContinuousLearning #DeveloperGrowth #JavaScript #TechCareer #LifelongLearning",
+      "timestamp": "2025-12-04T13:11:09.804710",
+      "date": "2025-12-04",
+      "time": "13:11:09",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/ljharb-1523",
+      "engagement": {
+        "likes": 178,
+        "comments": 33
+      }
+    },
+    {
+      "type": "post",
+      "content": "A quick JS observation for a Monday: `Map` vs. `Object` for key-value pairs. While `Object` is convenient, `Map` offers predictable iteration order, allows non-string keys, and performs better for frequent additions/deletions. Small choices, big impacts! \n\nWhat's your go-to for dynamic key-value storage? #JavaScriptTips #WebDev #Programming #CodingBestPractices",
+      "timestamp": "2025-11-23T16:11:09.804710",
+      "date": "2025-11-23",
+      "time": "16:11:09",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/ljharb-7791",
+      "engagement": {
+        "likes": 85,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Working at hyper-growth companies like Coinbase, Airbnb, and Twitter taught me invaluable lessons about scale, resilience, and rapid iteration. Each experience brought unique engineering challenges, from distributed systems at scale to navigating intense product cycles. \n\nThese foundational experiences continue to inform how I approach problem-solving, build teams, and contribute to standards work today. Grateful for those chapters that shaped my perspective. #CareerJourney #TechLeadership #Engineering #ScalingSystems #LessonsLearned",
+      "timestamp": "2025-11-18T11:11:09.804710",
+      "date": "2025-11-18",
+      "time": "11:11:09",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/ljharb-6990",
+      "engagement": {
+        "likes": 260,
+        "comments": 55
+      }
+    }
+  ],
+  "post_count": 15,
+  "cross_references": {
+    "github": "ljharb_github.json",
+    "twitter": "ljharb_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:11:09.868680",
+  "is_simulated": true
+}

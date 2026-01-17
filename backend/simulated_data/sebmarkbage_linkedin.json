@@ -1,0 +1,263 @@
+{
+  "platform": "linkedin",
+  "identifier": "sebmarkbage",
+  "profile": {
+    "name": "Sebastian Markbåge",
+    "headline": "Principal Software Engineer at Vercel | Core Contributor to React & Next.js | Web Standards Enthusiast",
+    "location": "New York City",
+    "about": "I am a Principal Software Engineer at Vercel, dedicated to advancing the state of web development through innovative framework design and implementation. With a deep background in JavaScript and web standards, I've played a significant role in developing technologies that empower millions of developers worldwide, including contributions to React and Next.js. My passion lies in building scalable, performant, and developer-friendly tools that shape the future of the web.",
+    "current_company": "Vercel",
+    "current_position": "Principal Software Engineer",
+    "connections": 500,
+    "followers": 15400,
+    "profile_views_last_90_days": 850,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Staff Software Engineer",
+        "company": "Vercel",
+        "location": "Remote, Global",
+        "start_date": "January 2022",
+        "end_date": "Present",
+        "description": "• Led the design and implementation of core infrastructure for Vercel Functions, significantly improving cold start times and resource utilization across multiple cloud providers.\n• Mentored a team of software engineers, contributing to technical roadmap planning and advocating for best practices in performance, scalability, and developer experience.\n• Spearheaded the integration of new features within the Next.js runtime environment, directly impacting the framework's capabilities for millions of developers.",
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Datadog",
+        "location": "New York, NY",
+        "start_date": "July 2018",
+        "end_date": "December 2021",
+        "description": "• Developed and maintained high-throughput data ingestion pipelines for monitoring metrics and logs, processing petabytes of data daily using Go, Kafka, and Kubernetes.\n• Optimized critical API endpoints for the Datadog platform, reducing average response times by 25% and ensuring high availability for enterprise customers.\n• Contributed to the architectural design and implementation of a new distributed tracing service, focusing on latency reduction and fault tolerance in a microservices environment.",
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "InnovateFlow",
+        "location": "Boston, MA",
+        "start_date": "September 2015",
+        "end_date": "June 2018",
+        "description": "• Full-stack development of a SaaS analytics platform using Node.js, React, and PostgreSQL, delivering key features for user management, data visualization, and reporting.\n• Implemented robust RESTful APIs and integrated with various third-party services, ensuring secure data synchronization and scalable interactions.\n• Participated in agile development cycles, including sprint planning, code reviews, and continuous deployment processes within AWS infrastructure.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of California, Berkeley",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2016,
+        "end_year": 2020,
+        "activities": "Dean's List, Member of ACM Student Chapter, Participated in multiple collegiate hackathons"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 12
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 38
+      },
+      {
+        "name": "Agile",
+        "endorsements": 17
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Came across a fascinating research paper today on 'Optimizing JavaScript Engine Compilation for Modern Web Workloads'. It dives into the heuristics and trade-offs made by browser engines like V8 to balance startup performance with peak execution speed.\n\nFor anyone interested in the incredibly complex world beneath our JavaScript, it's an eye-opening read. It really puts into perspective the incredible engineering that allows our web applications to run as fast as they do. Highly recommend if you're a true web standards nerd!\n\nLink to paper: [https://example.com/javascript-engine-research-paper](https://example.com/another-example-article-link)\n\n#JavaScript #WebStandards #BrowserInternals #Performance #Engineering #DeepDive",
+      "timestamp": "2026-01-11T05:33:43.155287",
+      "date": "2026-01-11",
+      "time": "05:33:43",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/sebmarkbage-6264",
+      "engagement": {
+        "likes": 48,
+        "comments": 7
+      }
+    },
+    {
+      "type": "post",
+      "content": "Quick poll for the React and Next.js community! What's currently your biggest challenge or frustration when it comes to state management or data fetching in your applications?\n\nAre you struggling with client-side vs. server-side data, cache invalidation, prop drilling, or something else entirely? Curious to hear what patterns, libraries, or approaches you're exploring to tackle these complexities. Let's discuss!\n\n#React #Nextjs #StateManagement #DataFetching #WebDev #Frontend",
+      "timestamp": "2026-01-05T05:33:43.155287",
+      "date": "2026-01-05",
+      "time": "05:33:43",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/sebmarkbage-8835",
+      "engagement": {
+        "likes": 95,
+        "comments": 30
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just published a new blog post diving deep into optimizing image loading strategies with Next.js 14 and beyond. I cover everything from responsive sizing and modern formats like AVIF to advanced caching techniques and priority hints.\n\nImage optimization is often overlooked but has a massive impact on Core Web Vitals and overall user experience. This post shares practical tips and code examples to ensure your Next.js apps are delivering images as efficiently as possible. Let me know what you think!\n\nRead the post here: [https://yourblog.com/nextjs-image-optimization](https://example.com/a-self-written-article-link)\n\n#Nextjs #Performance #WebDev #ImageOptimization #CoreWebVitals #Frontend",
+      "timestamp": "2025-12-28T02:33:43.155287",
+      "date": "2025-12-28",
+      "time": "02:33:43",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/sebmarkbage-2134",
+      "engagement": {
+        "likes": 215,
+        "comments": 38
+      }
+    },
+    {
+      "type": "post",
+      "content": "Let's talk about the often-underestimated power of `output: 'export'` in Next.js for certain types of projects. While the App Router and Server Components get a lot of attention for dynamic applications, `static HTML export` remains an incredibly powerful tool for maximum performance and cost efficiency for static-first sites.\n\nIt removes the need for a Node.js server at runtime, resulting in unbeatable cold start times and simplified deployment. Knowing when to choose this output option (and how to optimize for it) is a key skill for any Next.js developer. Are you using it for any of your projects?\n\n#Nextjs #StaticSites #Performance #WebDev #Deployment #Frontend",
+      "timestamp": "2025-12-24T04:33:43.155287",
+      "date": "2025-12-24",
+      "time": "04:33:43",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/sebmarkbage-5992",
+      "engagement": {
+        "likes": 130,
+        "comments": 20
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read a fantastic deep-dive on the new CSS View Transitions API. This is, in my opinion, one of the most exciting developments in web standards for creating fluid, app-like experiences directly in the browser without complex JavaScript workarounds.\n\nThe ability to smoothly transition between different DOM states with declarative CSS is a massive leap forward for user experience and developer productivity. No more fighting with `position: absolute` and manual animation libraries for simple page transitions! What are your first thoughts on this API and its potential impact?\n\nLink to article: [https://example.com/css-view-transitions-deep-dive](https://example.com/an-example-article-link)\n\n#WebStandards #CSS #Frontend #WebDev #UX #BrowserAPIs",
+      "timestamp": "2025-12-21T21:33:43.155287",
+      "date": "2025-12-21",
+      "time": "21:33:43",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/sebmarkbage-9280",
+      "engagement": {
+        "likes": 92,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "For junior engineers looking to make a mark in the web development space, I often advise focusing on the fundamentals, but with a twist. Don't just learn syntax; learn *why* things work the way they do.\n\nDive deep into browser rendering, JavaScript's event loop, and network protocols. Understanding the 'why' behind performance bottlenecks or tricky bugs will not only make you a stronger problem-solver but also elevate your contributions beyond just writing code. And don't shy away from reading the source code of your favorite libraries – it's an education in itself!\n\n#CareerAdvice #SoftwareEngineering #WebDev #JuniorDev #LearnToCode #TechCareer",
+      "timestamp": "2025-12-21T06:33:43.155287",
+      "date": "2025-12-21",
+      "time": "06:33:43",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/sebmarkbage-5869",
+      "engagement": {
+        "likes": 145,
+        "comments": 27
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to share that a significant RFC I've been working on for better error handling within Next.js Server Components has officially been merged! This was a collaborative effort to improve the resilience and debuggability of complex applications built with RSC.\n\nIt involved a lot of design discussions, RFC iterations, and careful consideration of edge cases, and I'm incredibly proud of the outcome. A huge thank you to the core Next.js team and the community contributors who provided invaluable feedback throughout the process. Open source collaboration at its finest!\n\n#Nextjs #React #ServerComponents #OpenSource #SoftwareEngineering #Vercel",
+      "timestamp": "2025-12-17T02:33:43.155287",
+      "date": "2025-12-17",
+      "time": "02:33:43",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/sebmarkbage-7020",
+      "engagement": {
+        "likes": 356,
+        "comments": 58
+      }
+    },
+    {
+      "type": "post",
+      "content": "The debate around 'full-stack frameworks' vs. 'separate backend/frontend' has been reignited with the rise of Server Components and frameworks like Next.js App Router. My take? The distinction is blurring, and that's a good thing for many teams.\n\nCo-locating data fetching and rendering logic can simplify mental models, reduce waterfalls, and enhance performance significantly. It's not about abandoning APIs, but rather choosing the right abstraction for the right problem. The future isn't about eliminating backend engineers, but empowering frontend engineers with more control over the entire user journey. What are your thoughts on this evolution?\n\n#Nextjs #React #ServerComponents #WebDev #FullStack #Architecture",
+      "timestamp": "2025-12-15T18:33:43.155287",
+      "date": "2025-12-15",
+      "time": "18:33:43",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/sebmarkbage-5759",
+      "engagement": {
+        "likes": 110,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge shout-out to the Vercel DX team for their incredible work on the new build output improvements! Shipping this required navigating some complex engineering challenges, especially around incremental builds and caching strategies, but the result is a noticeably faster and more informative build process for all Vercel users.\n\nIt's a testament to their dedication to making the developer experience as seamless and performant as possible. Keep up the amazing work, team! 💪\n\n#Vercel #DeveloperExperience #Teamwork #Engineering #Nextjs #BuildTools",
+      "timestamp": "2025-12-12T12:33:43.155287",
+      "date": "2025-12-12",
+      "time": "12:33:43",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/sebmarkbage-2962",
+      "engagement": {
+        "likes": 78,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "One of the things I truly appreciate about the engineering culture at Vercel is our unwavering commitment to Developer Experience (DX). It's not just a buzzword here; it's ingrained in how we build and ship.\n\nEvery decision, every new feature, and every bug fix is evaluated through the lens of 'how does this empower developers?' This focus cultivates a unique environment where innovation flourishes because engineers are always thinking about the impact on the end-user – who often is another developer. It’s challenging, rewarding, and deeply impactful work.\n\n#Vercel #EngineeringCulture #DeveloperExperience #TechJobs #SoftwareEngineering #Culture",
+      "timestamp": "2025-12-09T01:33:43.155287",
+      "date": "2025-12-09",
+      "time": "01:33:43",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/sebmarkbage-9448",
+      "engagement": {
+        "likes": 85,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Been thinking a lot about the nuances of `useTransition` and `useDeferredValue` in React 18, especially when dealing with large, interactive datasets. While the concepts can feel abstract initially, understanding how they enable a smoother, more responsive UI, even under heavy load, is a game-changer.\n\nIt's not just about avoiding jank; it's about crafting experiences that feel inherently more fluid and user-friendly. The mental model shift from synchronous updates to thinking about 'interruptible rendering' opens up so many possibilities for complex applications. What patterns are you finding most effective for integrating these into your React apps?\n\n#React #React18 #Frontend #JavaScript #WebDev #Performance",
+      "timestamp": "2025-12-05T03:33:43.155287",
+      "date": "2025-12-05",
+      "time": "03:33:43",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/sebmarkbage-9188",
+      "engagement": {
+        "likes": 198,
+        "comments": 31
+      }
+    },
+    {
+      "type": "post",
+      "content": "Reflecting on a particularly gnarly performance bug we tracked down last week. It involved a subtle interaction between a third-party script, a large component tree re-render, and an unexpected browser reflow. It felt like solving a complex puzzle.\n\nThese are the moments that truly sharpen your debugging skills and deepen your understanding of the entire web stack. It reminded me that even with the best tools, a deep intuition for how the browser and JavaScript engine operate is irreplaceable. Always learning!\n\n#Debugging #WebDev #SoftwareEngineering #Learning #Performance #Frontend",
+      "timestamp": "2025-11-20T03:33:43.155287",
+      "date": "2025-11-20",
+      "time": "03:33:43",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/sebmarkbage-9524",
+      "engagement": {
+        "likes": 65,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "Absolutely thrilled to announce the latest iteration of Vercel Functions! We've made significant advancements in cold start times and execution environments, pushing the boundaries of what's possible with serverless at the edge. This is a massive win for developer experience and end-user performance across the board.\n\nBig kudos to the entire Vercel engineering team who poured their passion into making this happen. It's truly inspiring to work alongside such dedicated individuals focused on pushing the web forward. Check out the full details and benchmarks on the Vercel blog – the improvements are truly remarkable.\n\n#Vercel #Serverless #EdgeComputing #WebDev #Performance #DeveloperExperience",
+      "timestamp": "2025-11-19T05:33:43.155287",
+      "date": "2025-11-19",
+      "time": "05:33:43",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/sebmarkbage-5696",
+      "engagement": {
+        "likes": 287,
+        "comments": 45
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to announce I'll be speaking at React Conf this year! My talk will delve into the challenges and triumphs of scaling large-scale React applications, specifically focusing on how we leverage advanced patterns and Next.js features at Vercel.\n\nIt's always a privilege to share insights and learn from the incredible React community. Looking forward to connecting with many of you there and discussing the future of web development! More details on the exact topic and schedule to follow soon.\n\n#ReactConf #React #Nextjs #Vercel #Speaking #TechConference",
+      "timestamp": "2025-11-18T06:33:43.155287",
+      "date": "2025-11-18",
+      "time": "06:33:43",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/sebmarkbage-2557",
+      "engagement": {
+        "likes": 160,
+        "comments": 25
+      }
+    }
+  ],
+  "post_count": 14,
+  "cross_references": {
+    "github": "sebmarkbage_github.json",
+    "twitter": "sebmarkbage_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:33:43.178947",
+  "is_simulated": true
+}

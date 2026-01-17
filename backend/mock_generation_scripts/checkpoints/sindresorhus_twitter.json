@@ -1,0 +1,166 @@
+{
+  "username": "sindresorhus",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:08:44.992819",
+  "data": {
+    "profile": {
+      "name": "Sindre Sorhus",
+      "username": "sindresorhus",
+      "bio": "Full-time Open-Sourcerer \ud83e\uddd1\u200d\ud83d\udcbb. Building cool stuff with #JavaScript, #Swift, #Node.js & #GoLang. Creating macOS apps, CLI tools & npm packages. Sharing learnings & hot takes. #OSS",
+      "location": "Unknown",
+      "website": "https://sindresorhus.com",
+      "followers": 45123,
+      "following": 1289,
+      "tweets_count": 9478,
+      "joined_date": "November 2009",
+      "is_verified": false,
+      "github_username": "Sindre Sorhus"
+    },
+    "tweets": [
+      {
+        "content": "That new Apple M4 chip reveal is wild. The potential for on-device AI acceleration in future macOS apps is genuinely exciting. My gears are already turning. \u2699\ufe0f #AppleEvent #M4",
+        "likes": 130,
+        "retweets": 35,
+        "replies": 20,
+        "type": "original",
+        "timestamp": "2026-01-12T23:08:44.992819"
+      },
+      {
+        "content": "Been experimenting with a new macOS utility idea \u2013 something to simplify managing window layouts across multiple displays. Screenshot soon\u2122 when it's not a complete mess. \ud83d\udc40 #macOSApps #Swift",
+        "likes": 35,
+        "retweets": 5,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-10T06:08:44.992819"
+      },
+      {
+        "content": "Pro-tip for Swift: when dealing with optional unwrapping, prefer `guard let` or `if let` over force unwrapping (`!`). It leads to safer, more readable code and fewer crashes. Your future self will thank you. #SwiftTips #iOSDev",
+        "likes": 40,
+        "retweets": 8,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-09T08:08:44.992819"
+      },
+      {
+        "content": "Just released `p-throttle@3.0.0` with improved type definitions and better error handling. It's a small but critical update for anyone doing rate-limited async operations. Check it out! #JavaScript #TypeScript #npm #OpenSource",
+        "likes": 65,
+        "retweets": 12,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-06T12:08:44.992819"
+      },
+      {
+        "content": "Quick demo of `macos-wallpaper` CLI. Change your wallpaper in a flash from the terminal. Perfect for automation or just showing off. \u2728 `npx macos-wallpaper random` #CLITools #macOS #JavaScript",
+        "likes": 55,
+        "retweets": 9,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-06T09:08:44.992819"
+      },
+      {
+        "content": "Open source isn't just about coding; it's about bug triaging, documentation, community management, and saying 'no' nicely to feature requests that don't align with the project vision. It's a marathon. \ud83d\udc22 #OpenSource",
+        "likes": 70,
+        "retweets": 15,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-06T01:08:44.992819"
+      },
+      {
+        "content": "Unpopular opinion: SwiftUI is incredible for rapid prototyping and simple apps, but for truly complex, performant macOS apps, AppKit still feels like home. The control is just unparalleled. #SwiftLang #macOSDev",
+        "likes": 112,
+        "retweets": 28,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2026-01-03T16:08:44.991782"
+      },
+      {
+        "content": "Another day, another 10 PRs reviewed across different repos. Sometimes I wonder if my main job is debugging or just navigating GitHub notifications. #OpenSourceLife",
+        "likes": 25,
+        "retweets": 3,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-02T12:08:44.991782"
+      },
+      {
+        "content": "For users of `Do Not Disturb Controller` (my macOS app), I'm considering adding custom scheduling options. Is this something you'd find useful, or does the existing logic suffice? Let me know your thoughts! \ud83d\udc47 #macOS #AppFeedback",
+        "likes": 30,
+        "retweets": 4,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-01T22:08:44.992819"
+      },
+      {
+        "content": "Spent way too long trying to figure out why my Swift async/await code was deadlocking. Turns out it was a subtle `DispatchQueue` interaction. Always read the docs (again)! \ud83e\udd26\u200d\u2642\ufe0f #SwiftLang #LearningInPublic",
+        "likes": 28,
+        "retweets": 4,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-31T20:08:44.992819"
+      },
+      {
+        "content": "It's 2 AM. I'm staring at a blinking cursor, convinced I've just invented a revolutionary new algorithm. Tomorrow morning I'll realize it's a `for` loop. Goodnight, world. \ud83d\ude34 #DeveloperLife #Coding",
+        "likes": 62,
+        "retweets": 11,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-31T19:08:44.992819"
+      },
+      {
+        "content": "Saw a debate about `console.log` vs. debugger. For quick checks, `console.log` wins on speed. For complex state inspection and stepping through logic, nothing beats a proper debugger. Both have their place! #Debugging #DevTools",
+        "likes": 38,
+        "retweets": 6,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-29T11:08:44.992819"
+      },
+      {
+        "content": "The argument for static types vs. dynamic types in JavaScript is increasingly moot. With TypeScript, you get the best of both worlds. The real debate should be how to minimize build times. #TypeScript #JavaScript",
+        "likes": 95,
+        "retweets": 20,
+        "replies": 18,
+        "type": "original",
+        "timestamp": "2025-12-27T21:08:44.992819"
+      },
+      {
+        "content": "Small but mighty update to `fix-path-cli`: added a new `--env` flag to preview changes before applying. Super useful for debugging PATH issues. Get it: `npm i -g fix-path-cli` #CLITools #OpenSource",
+        "likes": 45,
+        "retweets": 7,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-25T00:08:44.992819"
+      },
+      {
+        "content": "Just updated `my-awesome-js-tool` and suddenly I have a 300MB `node_modules` folder again. The npm ecosystem is a beautiful nightmare. \ud83e\udee0 #JavaScript #npm",
+        "likes": 58,
+        "retweets": 10,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2025-12-23T14:08:44.991782"
+      },
+      {
+        "content": "Thrilled to announce that I've been accepted into the @GitHubSponsors program! This will greatly help me continue dedicating full-time effort to my open-source projects. Huge thanks to everyone who supports my work! \ud83d\ude4f #OpenSource #GitHubSponsors",
+        "likes": 210,
+        "retweets": 45,
+        "replies": 25,
+        "type": "original",
+        "timestamp": "2025-12-21T01:08:44.992819"
+      },
+      {
+        "content": "My brain trying to remember variable names from a project I worked on 3 months ago vs. my brain remembering the exact syntax for a niche JavaScript array method I used once in 2017. #DevHumor #Programming",
+        "likes": 78,
+        "retweets": 15,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-19T11:08:44.992819"
+      },
+      {
+        "content": "Me watching the JS ecosystem introduce yet another framework/bundler/meta-framework this week: 'Is it too late to become a COBOL programmer?' \ud83d\ude02 #JavaScript #WebDev",
+        "likes": 88,
+        "retweets": 18,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2025-12-19T06:08:44.992819"
+      }
+    ]
+  }
+}

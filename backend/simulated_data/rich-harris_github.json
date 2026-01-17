@@ -1,0 +1,75 @@
+{
+  "platform": "github",
+  "identifier": "Rich-Harris",
+  "profile": {
+    "login": "Rich-Harris",
+    "id": 1162160,
+    "node_id": "MDQ6VXNlcjExNjIxNjA=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1162160?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Rich-Harris",
+    "html_url": "https://github.com/Rich-Harris",
+    "followers_url": "https://api.github.com/users/Rich-Harris/followers",
+    "following_url": "https://api.github.com/users/Rich-Harris/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Rich-Harris/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Rich-Harris/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Rich-Harris/subscriptions",
+    "organizations_url": "https://api.github.com/users/Rich-Harris/orgs",
+    "repos_url": "https://api.github.com/users/Rich-Harris/repos",
+    "events_url": "https://api.github.com/users/Rich-Harris/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Rich-Harris/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "name": "Rich Harris",
+    "company": null,
+    "blog": "",
+    "location": "NYC",
+    "email": null,
+    "hireable": null,
+    "bio": null,
+    "twitter_username": null,
+    "public_repos": 393,
+    "public_gists": 109,
+    "followers": 20252,
+    "following": 0,
+    "created_at": "2011-10-31T10:36:05Z",
+    "updated_at": "2026-01-08T13:53:16Z"
+  },
+  "activities": [
+    {
+      "type": "comment",
+      "content": "I get a hydration mismatch in Chrome with [this code](https://svelte.dev/playground/hello-world?version=pr-17429#H4sIAAAAAAAAE22QT2uEMBDFv0qYy-6CW--pCKWXXnraY-0ha0YaGpOQjLUifvcSY6jI3ia_917mzwxG9Agc3lB",
+      "timestamp": "2026-01-16T22:09:14+00:00",
+      "date": "2026-01-16",
+      "time": "22:09:14",
+      "url": "https://github.com/sveltejs/svelte/pull/17429#issuecomment-3761993364",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "> exporting `parseCss` means users can't fix the SvelteKit bug without updating Svelte to latest\r\n\r\nnot true IIUC, we can basically do ``parseCss ? parseCss(css) : parse(`<style>${css}</style>`)`` unt",
+      "timestamp": "2026-01-16T21:01:53+00:00",
+      "date": "2026-01-16",
+      "time": "21:01:53",
+      "url": "https://github.com/sveltejs/svelte/pull/17470#issuecomment-3761799773",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: security.txt",
+      "timestamp": "2026-01-16T19:44:30+00:00",
+      "date": "2026-01-16",
+      "time": "19:44:30",
+      "url": "https://github.com/Rich-Harris",
+      "metadata": {}
+    }
+  ],
+  "cross_references": {
+    "twitter": "rich-harris_twitter.json",
+    "linkedin": "rich-harris_linkedin.json"
+  },
+  "confidence_score": 1.0,
+  "exported_at": "2026-01-17T17:21:40.183250",
+  "fetch_status": "success"
+}

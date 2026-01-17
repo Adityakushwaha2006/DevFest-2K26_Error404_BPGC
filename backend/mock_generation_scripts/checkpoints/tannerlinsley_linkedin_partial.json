@@ -1,0 +1,21 @@
+{
+  "username": "tannerlinsley",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:07:29.967395",
+  "data": {
+    "profile": {
+      "name": "Tanner Linsley",
+      "headline": "Co-Founder @Nozzle.io | Owner @TanStack (React Query, React Table) | Open Source Software Engineer | TypeScript & React Specialist",
+      "location": "Utah",
+      "about": "As a Co-Founder at Nozzle.io and the owner of TanStack, I am deeply involved in creating innovative solutions and empowering the developer community through widely adopted open-source projects. I specialize in crafting high-performance, intuitive user experiences using TypeScript and React, driven by a passion for clean architecture and powerful developer tooling. My work on libraries like React Query, React Table, React Location, and React Charts aims to simplify complex data management and UI challenges for millions of developers worldwide.",
+      "current_company": "@tanstack & @nozzle",
+      "current_position": "Co-Founder & Owner",
+      "connections": 480,
+      "followers": 15200,
+      "profile_views_last_90_days": 875,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

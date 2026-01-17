@@ -1,0 +1,79 @@
+{
+  "username": "sindresorhus",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:09:35.036657",
+  "data": {
+    "profile": {
+      "login": "sindresorhus",
+      "id": 170270,
+      "node_id": "MDQ6VXNlcjE3MDI3MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/170270?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sindresorhus",
+      "html_url": "https://github.com/sindresorhus",
+      "followers_url": "https://api.github.com/users/sindresorhus/followers",
+      "following_url": "https://api.github.com/users/sindresorhus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sindresorhus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sindresorhus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sindresorhus/subscriptions",
+      "organizations_url": "https://api.github.com/users/sindresorhus/orgs",
+      "repos_url": "https://api.github.com/users/sindresorhus/repos",
+      "events_url": "https://api.github.com/users/sindresorhus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sindresorhus/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Sindre Sorhus",
+      "company": null,
+      "blog": "https://sindresorhus.com/apps",
+      "location": null,
+      "email": "sindresorhus@gmail.com",
+      "hireable": null,
+      "bio": "Full-Time Open-Sourcerer. Focused on Swift & JavaScript. Makes macOS apps, CLI tools, npm packages.",
+      "twitter_username": "sindresorhus",
+      "public_repos": 1131,
+      "public_gists": 99,
+      "followers": 76901,
+      "following": 31,
+      "created_at": "2009-12-20T22:57:02Z",
+      "updated_at": "2025-12-20T02:20:38Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": "https://github.com/sindresorhus/serialize-error/releases/tag/v13.0.0",
+        "timestamp": "2026-01-16T14:48:17+00:00",
+        "url": "https://github.com/sindresorhus/serialize-error/issues/115#issuecomment-3760357134",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "\ud83d\udc4e I'm not keen on adding a second \u201cpreset\u201d export.\n\n* It contradicts Ky\u2019s core positioning: one of the headline benefits is \u201ctreat non-2xx status codes as errors\u201d. Shipping a blessed \u201cdon\u2019t treat them",
+        "timestamp": "2026-01-16T14:43:35+00:00",
+        "url": "https://github.com/sindresorhus/ky/issues/816#issuecomment-3760332358",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "This is being discussed in https://github.com/sindresorhus/ky/pull/606",
+        "timestamp": "2026-01-16T14:03:42+00:00",
+        "url": "https://github.com/sindresorhus/ky/issues/817#issuecomment-3760171750",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "This change was actually introduced in 7.0.0 (not 7.0.2) when `NodeEventEmitter` overloads were added. In 6.x, the return type was inferred as `any`, which is assignable to anything including `void`. ",
+        "timestamp": "2026-01-15T18:10:42+00:00",
+        "url": "https://github.com/sindresorhus/p-event/issues/51#issuecomment-3756209612",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "This is an Xcode problem and not caused by this package. There is nothing this package can do about it. It's also the first I'm hearing about it, so I don't think it's a wide-spread problem.\n\nI'm goin",
+        "timestamp": "2026-01-15T17:56:53+00:00",
+        "url": "https://github.com/sindresorhus/Defaults/issues/220#issuecomment-3756160162",
+        "metadata": {}
+      }
+    ]
+  }
+}

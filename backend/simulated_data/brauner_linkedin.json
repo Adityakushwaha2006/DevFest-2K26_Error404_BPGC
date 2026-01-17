@@ -1,0 +1,284 @@
+{
+  "platform": "linkedin",
+  "identifier": "brauner",
+  "profile": {
+    "name": "Christian Brauner",
+    "headline": "Freelance Software Engineer | Linux Systems | Open Source Contributor",
+    "location": "Berlin",
+    "about": "I am a passionate software engineer with a strong focus on Linux systems and open source development. With a background in building robust and efficient software solutions, I specialize in low-level programming and system architecture. Currently, I work as a freelancer, collaborating on diverse projects that challenge and expand my expertise, particularly within the Linux container ecosystem.",
+    "current_company": "Freelance",
+    "current_position": "Freelance Software Engineer",
+    "connections": 387,
+    "followers": 1250,
+    "profile_views_last_90_days": 115,
+    "open_to_work": true,
+    "open_to_hiring": false,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Freelance Software Developer",
+        "company": "Freelance",
+        "location": "Remote",
+        "start_date": "July 2022",
+        "end_date": "Present",
+        "description": "Provided full-stack development expertise to various clients, designing and implementing custom web applications, APIs, and data solutions using diverse technologies like Python (Django/Flask), Node.js (Express), React, AWS, Docker, and PostgreSQL.\nManaged end-to-end project lifecycles from initial requirements gathering and solution architecture to development, deployment, and ongoing support.\nAdvised clients on technology strategy, best practices, and scalable architectures, ensuring robust and maintainable software products tailored to specific business needs.",
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "InnovateCore Technologies",
+        "location": "San Francisco, CA",
+        "start_date": "March 2019",
+        "end_date": "June 2022",
+        "description": "Led the design and implementation of highly scalable microservices for a core platform using Java, Spring Boot, and Kafka, contributing to a 25% improvement in processing efficiency.\nMentored junior and mid-level developers, conducted thorough code reviews, and contributed significantly to architectural discussions and system design proposals.\nCollaborated with product managers and other engineering teams to define requirements, estimate efforts, and deliver complex features that enhanced user engagement and expanded platform capabilities.",
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Digital Ascent Inc.",
+        "location": "San Francisco, CA",
+        "start_date": "August 2016",
+        "end_date": "February 2019",
+        "description": "Developed and maintained critical features for a B2B SaaS application using Python (Django) and React, including robust REST APIs and responsive front-end components.\nParticipated actively in agile development methodologies, contributing to sprint planning, stand-ups, and retrospectives to continuously improve team efficiency and product quality.\nWrote comprehensive unit, integration, and end-to-end tests, significantly reducing production bugs and ensuring high code quality and system stability.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "State University of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2016,
+        "end_year": 2020,
+        "activities": "Dean's List (multiple semesters), Software Development Club (Project Lead), Annual Hackathon participant"
+      },
+      {
+        "institution": "State University of Technology",
+        "degree": "Master of Science",
+        "field_of_study": "Software Engineering",
+        "start_year": 2020,
+        "end_year": 2022,
+        "activities": "Graduate Teaching Assistant (Data Structures), Thesis: 'Optimizing Distributed Systems for Scalability'"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 15
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 14
+      },
+      {
+        "name": "Agile",
+        "endorsements": 45
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "If you're working with Linux systems, you *have* to know `strace`. Found this fantastic deep-dive article that explains its nuances, advanced filtering options, and how to effectively use it for debugging system calls and process interactions. It's an indispensable tool in my arsenal for understanding what a program is *really* doing.\n\nHighly recommend giving it a read to level up your debugging game! [Link to a detailed strace tutorial]",
+      "timestamp": "2026-01-10T13:54:03.348335",
+      "date": "2026-01-10",
+      "time": "13:54:03",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/brauner-3603",
+      "engagement": {
+        "likes": 115,
+        "comments": 13
+      }
+    },
+    {
+      "type": "post",
+      "content": "For aspiring freelance software engineers: don't underestimate the power of a strong personal brand and a well-maintained portfolio. Showcasing your skills through personal projects, open-source contributions, and clear case studies makes all the difference when potential clients are evaluating your expertise.\n\nIt's your digital handshake, demonstrating not just what you can do, but how you think and deliver. Start building it today!",
+      "timestamp": "2026-01-02T23:54:03.348335",
+      "date": "2026-01-02",
+      "time": "23:54:03",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/brauner-6425",
+      "engagement": {
+        "likes": 95,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Big shoutout to the contributors of the `AwesomeLinuxTools` project! We just pushed out release `2.5.0`, which includes significant performance improvements to the `perf-analyzer` module and a much-requested feature for real-time `io_uring` monitoring. \n\nProud to be a small part of this incredible community effort. The power of collective intelligence and collaboration is truly amazing in open source. #OpenSource #Community #Linux",
+      "timestamp": "2025-12-31T03:54:03.348335",
+      "date": "2025-12-31",
+      "time": "03:54:03",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/brauner-5850",
+      "engagement": {
+        "likes": 110,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "As a freelance software engineer, setting clear boundaries between work and personal life is absolutely essential. It's easy to blur the lines when your office is also your home, leading to burnout.\n\nI've found success by scheduling specific work hours, taking regular breaks, and having a dedicated workspace that I can 'leave' at the end of the day. What are your best tips for maintaining work-life balance in a flexible career?",
+      "timestamp": "2025-12-31T02:54:03.348335",
+      "date": "2025-12-31",
+      "time": "02:54:03",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/brauner-1716",
+      "engagement": {
+        "likes": 85,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to announce the beta launch of `SystemWatchd`, a lightweight, open-source Linux system monitoring tool I've been developing in my spare time! It's built with Rust for performance and aims for minimal overhead while providing actionable insights into system performance metrics.\n\nCheck it out on GitHub and let me know your feedback – contributions and ideas are always welcome! [Link to GitHub Repo] #Rust #Linux #OpenSource",
+      "timestamp": "2025-12-29T01:54:03.348335",
+      "date": "2025-12-29",
+      "time": "01:54:03",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/brauner-6204",
+      "engagement": {
+        "likes": 150,
+        "comments": 25
+      }
+    },
+    {
+      "type": "post",
+      "content": "Spent the better part of yesterday wrestling with a tricky segmentation fault in a legacy C application running on an embedded Linux system. Turned out to be a subtle memory corruption issue related to an ancient, third-party library's resource management.\n\nNothing beats the satisfaction of tracking down and squashing a deep-seated bug like that! It was a true masterclass in using `gdb`, `valgrind`, and a lot of patience. Always a learning experience in the trenches. #Debugging #Linux #SoftwareDevelopment",
+      "timestamp": "2025-12-27T23:54:03.348335",
+      "date": "2025-12-27",
+      "time": "23:54:03",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/brauner-2159",
+      "engagement": {
+        "likes": 90,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "Been thinking a lot about the rise of eBPF and its potential to revolutionize Linux system observability and security. The ability to dynamically extend kernel functionality without recompiling is a game-changer for performance tuning and incident response.\n\nWhat are your thoughts on its broader adoption in production environments, especially given the learning curve involved? Are you leveraging eBPF in your stack yet?",
+      "timestamp": "2025-12-20T12:54:03.348335",
+      "date": "2025-12-20",
+      "time": "12:54:03",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/brauner-3564",
+      "engagement": {
+        "likes": 88,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up attending the virtual Linux Plumbers Conference! The sessions on BPF improvements, io_uring optimizations, and the ongoing work in the kernel's scheduler were particularly illuminating. \n\nAlways great to connect with fellow kernel developers and stay updated on the cutting edge of Linux systems. Feeling inspired and ready to experiment with some new ideas in my next project! #Linux #LPC #KernelDevelopment",
+      "timestamp": "2025-12-19T11:54:03.348335",
+      "date": "2025-12-19",
+      "time": "11:54:03",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/brauner-2652",
+      "engagement": {
+        "likes": 105,
+        "comments": 7
+      }
+    },
+    {
+      "type": "post",
+      "content": "A common thread I'm seeing across many projects: while cloud platforms abstract away a lot of complexity, a solid grasp of core Linux OS concepts remains incredibly valuable. Understanding process management, inter-process communication, and system calls can be the differentiator.\n\nIt helps in efficiently troubleshooting complex issues, optimizing resource usage, and truly understanding the 'why' behind performance bottlenecks. Don't skip those Linux fundamentals, even in a serverless world!",
+      "timestamp": "2025-12-08T03:54:03.348335",
+      "date": "2025-12-08",
+      "time": "03:54:03",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/brauner-3249",
+      "engagement": {
+        "likes": 98,
+        "comments": 19
+      }
+    },
+    {
+      "type": "post",
+      "content": "Hit a personal milestone today: my latest pull request to the `systemd` project was merged! It addresses a minor bug in the unit file parser and improves error handling for edge cases. \n\nSmall contributions add up, and it's always satisfying to give back to the foundational tools that power so much of the digital world. Feeling good about contributing to something so widely used. #OpenSource #Linux #Contribution",
+      "timestamp": "2025-12-06T07:54:03.348335",
+      "date": "2025-12-06",
+      "time": "07:54:03",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/brauner-2039",
+      "engagement": {
+        "likes": 120,
+        "comments": 16
+      }
+    },
+    {
+      "type": "post",
+      "content": "With the continuous evolution of cloud-native architectures, the importance of deep Linux systems knowledge remains paramount. Understanding kernel-level operations, networking stacks, and file systems is crucial for debugging complex issues and optimizing performance in any cloud environment. \n\nAbstractions are great, but the fundamentals are what allow you to truly master the stack. Are you seeing this need for deeper Linux knowledge in your day-to-day work?",
+      "timestamp": "2025-12-05T02:54:03.348335",
+      "date": "2025-12-05",
+      "time": "02:54:03",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/brauner-8315",
+      "engagement": {
+        "likes": 80,
+        "comments": 14
+      }
+    },
+    {
+      "type": "post",
+      "content": "Had a great discussion this week with a fellow open-source enthusiast about the challenges of building and maintaining community around a niche project. It's more than just code; it's about communication, mentorship, shared vision, and actively inviting participation.\n\nWhat strategies have you found most effective for fostering a vibrant and welcoming open-source community around your projects or contributions?",
+      "timestamp": "2025-11-30T23:54:03.348335",
+      "date": "2025-11-30",
+      "time": "23:54:03",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/brauner-5030",
+      "engagement": {
+        "likes": 75,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "Read a really insightful piece this morning about the art of effective debugging in complex distributed systems. It emphasizes the importance of systematic approaches over frantic trial-and-error, a lesson I've learned the hard way more than once!\n\nThe article highlighted the 'scientific method' of debugging: observe, hypothesize, test, and iterate. What's your favorite debugging methodology or tool? [Link to a relevant tech article on debugging]",
+      "timestamp": "2025-11-29T14:54:03.348335",
+      "date": "2025-11-29",
+      "time": "14:54:03",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/brauner-6560",
+      "engagement": {
+        "likes": 70,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "Found a fantastic article on the long-term sustainability of open-source projects, particularly concerning maintainer burnout and funding models. It really resonates with my experience contributing to various FOSS initiatives; the passion is there, but the resources can be scarce.\n\nAs a community, how do we better support the individuals who pour their time and expertise into these vital projects? It's a critical discussion for the future of tech. #OpenSource #CommunitySupport",
+      "timestamp": "2025-11-25T16:54:03.348335",
+      "date": "2025-11-25",
+      "time": "16:54:03",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/brauner-5420",
+      "engagement": {
+        "likes": 72,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up a challenging freelance project involving optimizing a containerized application on a custom Linux distro. Loved diving deep into kernel-level networking optimization and ensuring seamless integration within the client's existing infrastructure. Huge thanks to the team for the great collaboration and trust. Always rewarding to see a project through from concept to deployment and deliver tangible performance gains!",
+      "timestamp": "2025-11-20T00:54:03.348335",
+      "date": "2025-11-20",
+      "time": "00:54:03",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/brauner-1386",
+      "engagement": {
+        "likes": 65,
+        "comments": 8
+      }
+    }
+  ],
+  "post_count": 15,
+  "cross_references": {
+    "github": "brauner_github.json",
+    "twitter": "brauner_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T16:54:03.390652",
+  "is_simulated": true
+}

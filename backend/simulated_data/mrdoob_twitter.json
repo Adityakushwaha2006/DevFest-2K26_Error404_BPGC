@@ -1,0 +1,279 @@
+{
+  "platform": "twitter",
+  "identifier": "mrdoob",
+  "profile": {
+    "name": "mrdoob",
+    "username": "mrdoob",
+    "bio": "Building things for the web. Creator of @threejs. Exploring new frontiers in 3D & immersive experiences. Always learning, always shipping. 🚀 WebGL enthusiast.",
+    "location": "Unknown",
+    "website": "https://mrdoob.com",
+    "followers": 48765,
+    "following": 2137,
+    "tweets_count": 9876,
+    "joined_date": "October 2009",
+    "is_verified": false,
+    "github_username": "mrdoob"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Diving deep into WebGPU compute shaders this week. The power is incredible, but oh boy, debugging feels like talking directly to the metal sometimes. #WebGPU #graphicsdev",
+      "timestamp": "2026-01-17T08:31:21.325774",
+      "date": "2026-01-17",
+      "time": "08:31:21",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/mrdoob/status/8714683706",
+      "engagement": {
+        "likes": 45,
+        "retweets": 8,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just merged a small PR for a community fix on a component in my side project. Always appreciate thoughtful contributions, no matter the size! Keep the PRs coming. #opensource",
+      "timestamp": "2026-01-17T08:31:21.325774",
+      "date": "2026-01-17",
+      "time": "08:31:21",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/mrdoob/status/7196670036",
+      "engagement": {
+        "likes": 31,
+        "retweets": 5,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Huge respect for maintainers who take the time to write excellent documentation. It's often overlooked but makes such a massive difference for adoption and community engagement.",
+      "timestamp": "2026-01-16T23:31:21.325774",
+      "date": "2026-01-16",
+      "time": "23:31:21",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/mrdoob/status/8948644772",
+      "engagement": {
+        "likes": 112,
+        "retweets": 20,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "We keep chasing the 'perfect' DX with new build tools and frameworks, but often overlook how complex we make the end product for users. Simplicity scales better than layers of abstraction.",
+      "timestamp": "2026-01-15T15:31:21.325774",
+      "date": "2026-01-15",
+      "time": "15:31:21",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/mrdoob/status/8775351032",
+      "engagement": {
+        "likes": 87,
+        "retweets": 15,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Building a small interactive demo using WebGL2 compute shaders for fluid dynamics. Pretty raw, but seeing the particles flow is mesmerizing. Still need to optimize a lot. #gamedev #webgl",
+      "timestamp": "2026-01-11T11:31:21.326758",
+      "date": "2026-01-11",
+      "time": "11:31:21",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/mrdoob/status/3186223197",
+      "engagement": {
+        "likes": 82,
+        "retweets": 14,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Glad to see more companies actively supporting open source maintainers. A healthy ecosystem benefits everyone. It's more than just using the code; it's investing in the community. 🙏",
+      "timestamp": "2026-01-06T18:31:21.326758",
+      "date": "2026-01-06",
+      "time": "18:31:21",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/mrdoob/status/5281072002",
+      "engagement": {
+        "likes": 95,
+        "retweets": 18,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just introduced a bug that only manifests itself on Tuesdays, when the moon is waxing crescent, and the user has exactly 3 tabs open. Peak dev moment.",
+      "timestamp": "2026-01-06T14:31:21.326758",
+      "date": "2026-01-06",
+      "time": "14:31:21",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/mrdoob/status/7156113247",
+      "engagement": {
+        "likes": 48,
+        "retweets": 7,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Experimenting with a custom shader for procedural texture generation. The iterative process of tweaking values and seeing the immediate visual feedback is addictive. #creativecoding",
+      "timestamp": "2026-01-06T04:31:21.325774",
+      "date": "2026-01-06",
+      "time": "04:31:21",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/mrdoob/status/4704509403",
+      "engagement": {
+        "likes": 62,
+        "retweets": 12,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Successfully refactored a particularly gnarly section of legacy code today. The feeling of untangling spaghetti is uniquely satisfying. Time for a celebratory coffee.",
+      "timestamp": "2026-01-04T07:31:21.325774",
+      "date": "2026-01-04",
+      "time": "07:31:21",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/mrdoob/status/8827133729",
+      "engagement": {
+        "likes": 58,
+        "retweets": 10,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Every major tech shift feels like a return to fundamental principles but with new tools. From assembly to high-level, then back to web assembly. The cycle continues.",
+      "timestamp": "2026-01-01T15:31:21.326758",
+      "date": "2026-01-01",
+      "time": "15:31:21",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/mrdoob/status/3626944067",
+      "engagement": {
+        "likes": 52,
+        "retweets": 9,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Another new JavaScript runtime announced? Don't get me wrong, competition is good, but the ecosystem feels like it's perpetually in beta. Still, curious to see what it brings.",
+      "timestamp": "2025-12-30T04:31:21.325774",
+      "date": "2025-12-30",
+      "time": "04:31:21",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/mrdoob/status/2189491126",
+      "engagement": {
+        "likes": 91,
+        "retweets": 17,
+        "replies": 11
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: Sometimes, a well-written `if/else` block is clearer and more maintainable than a hyper-abstracted, functional-pipeline-magical-monad chain. Readability > cleverness.",
+      "timestamp": "2025-12-28T13:31:21.325774",
+      "date": "2025-12-28",
+      "time": "13:31:21",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/mrdoob/status/7759435873",
+      "engagement": {
+        "likes": 189,
+        "retweets": 42,
+        "replies": 28
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My code works perfectly on my machine. *My machine* being a highly optimized, custom setup with half the browser extensions disabled and a direct LAN connection. YMMV.",
+      "timestamp": "2025-12-27T08:31:21.325774",
+      "date": "2025-12-27",
+      "time": "08:31:21",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/mrdoob/status/4776368125",
+      "engagement": {
+        "likes": 124,
+        "retweets": 28,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My brain when trying to remember a specific CSS property vs. my brain when remembering a random meme from 2012. Priorities, right?",
+      "timestamp": "2025-12-24T08:31:21.326758",
+      "date": "2025-12-24",
+      "time": "08:31:21",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/mrdoob/status/8207186496",
+      "engagement": {
+        "likes": 60,
+        "retweets": 11,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Debugging JavaScript feels like being a detective in a house where everything is technically labeled 'undefined' and the culprit keeps changing its disguise.",
+      "timestamp": "2025-12-22T22:31:21.325774",
+      "date": "2025-12-22",
+      "time": "22:31:21",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/mrdoob/status/2392986676",
+      "engagement": {
+        "likes": 73,
+        "retweets": 13,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The push for everything-as-a-service sometimes abstracts away too much. Understanding the underlying infrastructure is crucial, even if you don't *always* need to manage it yourself.",
+      "timestamp": "2025-12-22T17:31:21.326758",
+      "date": "2025-12-22",
+      "time": "17:31:21",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/mrdoob/status/2665110187",
+      "engagement": {
+        "likes": 77,
+        "retweets": 13,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Good design isn't just about aesthetics; it's about building systems that are intuitive to use and maintain. That applies equally to APIs and user interfaces, maybe even more so to code.",
+      "timestamp": "2025-12-18T18:31:21.326758",
+      "date": "2025-12-18",
+      "time": "18:31:21",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/mrdoob/status/1406480896",
+      "engagement": {
+        "likes": 35,
+        "retweets": 6,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The pendulum of full-stack vs. specialized roles swings constantly. I think hybrid developers with deep expertise in *one* area, but broad understanding across the stack, are becoming the most valuable.",
+      "timestamp": "2025-12-18T13:31:21.325774",
+      "date": "2025-12-18",
+      "time": "13:31:21",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/mrdoob/status/5197712699",
+      "engagement": {
+        "likes": 67,
+        "retweets": 11,
+        "replies": 8
+      }
+    }
+  ],
+  "tweet_count": 18,
+  "cross_references": {
+    "github": "mrdoob_github.json",
+    "linkedin": "mrdoob_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:32:08.539097",
+  "is_simulated": true
+}

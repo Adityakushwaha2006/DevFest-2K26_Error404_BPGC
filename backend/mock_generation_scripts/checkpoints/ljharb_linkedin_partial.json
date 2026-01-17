@@ -1,0 +1,21 @@
+{
+  "username": "ljharb",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:10:20.745280",
+  "data": {
+    "profile": {
+      "name": "Jordan Harband",
+      "headline": "Staff Software Engineer at Socket.dev | TC39 Delegate & JavaScript Standards Contributor | AI & Web Development | Ex-Coinbase, Airbnb, Twitter",
+      "location": "Hillsborough, CA",
+      "about": "I am a dedicated software engineer with a passion for architecting robust and scalable systems across the JavaScript ecosystem. As a TC39 delegate, I actively contribute to the evolution of web standards, alongside hands-on development leveraging modern AI technologies. I thrive on tackling complex challenges, sharing knowledge, and drawing on extensive experience from high-growth environments at companies like Coinbase, Airbnb, and Twitter.",
+      "current_company": "@socketdev @tc39 ",
+      "current_position": "Staff Software Engineer",
+      "connections": 480,
+      "followers": 1500,
+      "profile_views_last_90_days": 350,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

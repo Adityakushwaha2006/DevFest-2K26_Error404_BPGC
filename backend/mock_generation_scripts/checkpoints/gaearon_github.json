@@ -1,0 +1,93 @@
+{
+  "username": "gaearon",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:01:21.248038",
+  "data": {
+    "profile": {
+      "login": "gaearon",
+      "id": 810438,
+      "node_id": "MDQ6VXNlcjgxMDQzOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/810438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gaearon",
+      "html_url": "https://github.com/gaearon",
+      "followers_url": "https://api.github.com/users/gaearon/followers",
+      "following_url": "https://api.github.com/users/gaearon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gaearon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gaearon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gaearon/subscriptions",
+      "organizations_url": "https://api.github.com/users/gaearon/orgs",
+      "repos_url": "https://api.github.com/users/gaearon/repos",
+      "events_url": "https://api.github.com/users/gaearon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gaearon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "dan",
+      "company": null,
+      "blog": "https://tangled.org/@danabra.mov",
+      "location": null,
+      "email": "dan.abramov@gmail.com",
+      "hireable": null,
+      "bio": null,
+      "twitter_username": null,
+      "public_repos": 293,
+      "public_gists": 81,
+      "followers": 90264,
+      "following": 174,
+      "created_at": "2011-05-25T18:18:31Z",
+      "updated_at": "2026-01-07T18:24:52Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": ">Don't feedgens usually get parameters via the URL?\r\n\r\nFor officially documented params, I think so, but this isn't in the Lexicon. It's how Discover works today though. So this is just opening up the",
+        "timestamp": "2026-01-09T21:11:53+00:00",
+        "url": "https://github.com/bluesky-social/social-app/pull/9674#issuecomment-3730588053",
+        "metadata": {}
+      },
+      {
+        "type": "create_branch",
+        "content": "Created branch: send-interests",
+        "timestamp": "2026-01-09T18:10:47+00:00",
+        "url": "https://github.com/gaearon",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "this was slightly overly complicated but seems good, i had claude make some edits",
+        "timestamp": "2026-01-05T15:06:30+00:00",
+        "url": "https://github.com/gaearon/rscexplorer/pull/9#issuecomment-3710813763",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Does this work on mobile? If not, should it?",
+        "timestamp": "2026-01-04T14:18:12+00:00",
+        "url": "https://github.com/gaearon/rscexplorer/pull/9#issuecomment-3708125801",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "React Helmet is also unmaintained and unsupported, I\u2019d recommend either React 19 built-in `<head>` support or some newer library.\r\n\r\nThis particular library relies on a technique that doesn\u2019t work ver",
+        "timestamp": "2025-12-26T02:19:42+00:00",
+        "url": "https://github.com/gaearon/react-side-effect/pull/88#issuecomment-3691939702",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Implemented in https://github.com/gaearon/rscexplorer/commit/6350e23578ec49971d0d57a2fdb6f42524a38060.\n\nNew example: https://rscexplorer.dev/?s=binary",
+        "timestamp": "2025-12-25T09:01:23+00:00",
+        "url": "https://github.com/gaearon/rscexplorer/issues/8#issuecomment-3691182732",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "What are you using this for? This project should probably be marked as deprecated.",
+        "timestamp": "2025-12-25T07:08:17+00:00",
+        "url": "https://github.com/gaearon/react-side-effect/pull/88#issuecomment-3691048120",
+        "metadata": {}
+      }
+    ]
+  }
+}

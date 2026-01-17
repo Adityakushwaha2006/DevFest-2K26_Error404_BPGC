@@ -1,0 +1,166 @@
+{
+  "username": "tannerlinsley",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:07:20.605342",
+  "data": {
+    "profile": {
+      "name": "Tanner Linsley",
+      "username": "tannerlinsley",
+      "bio": "Building @TanStack components (#ReactQuery #ReactTable) for #TypeScript & #React. Co-Founder @NozzleIO. Open Source addict. Exploring UI/UX. Learning in public! \u2728",
+      "location": "Utah",
+      "website": "https://tanstack.com/",
+      "followers": 48500,
+      "following": 850,
+      "tweets_count": 6700,
+      "joined_date": "April 2012",
+      "is_verified": false,
+      "github_username": "Tanner Linsley"
+    },
+    "tweets": [
+      {
+        "content": "It's wild to think how far the React ecosystem has come. From class components to hooks, and now server components and Suspense. Always evolving, always challenging. Love being part of this journey. #ReactJS",
+        "likes": 142,
+        "retweets": 20,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2026-01-16T14:07:20.605342"
+      },
+      {
+        "content": "Just crossed 250k weekly downloads for `tanstack/react-query`! \ud83c\udf89 Absolutely blown away by the community's support. Thank you for making it a fundamental part of your stack! #OpenSource #ReactQuery",
+        "likes": 412,
+        "retweets": 55,
+        "replies": 22,
+        "type": "original",
+        "timestamp": "2026-01-16T12:07:20.605342"
+      },
+      {
+        "content": "Reminder: Good UX is often invisible. Bad UX screams. Pay attention to those small friction points \u2013 keyboard navigation, loading states, error messages. They make or break an experience. #UIUX #Frontend",
+        "likes": 163,
+        "retweets": 23,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-16T07:07:20.605342"
+      },
+      {
+        "content": "My brain trying to debug a `useEffect` dependency array: 'Is it the prop? Is it the state? Is it the memoized callback that isn't memoized enough? Send help. Or coffee.' \u2615 #DevHumor #React",
+        "likes": 88,
+        "retweets": 12,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2026-01-13T11:07:20.605342"
+      },
+      {
+        "content": "Wrestling with a tricky `overscan` implementation for TanStack Virtual. Getting the scroll synchronization *just right* across different browsers is always a fun challenge. #WebDev #Performance",
+        "likes": 78,
+        "retweets": 9,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-13T08:07:20.605342"
+      },
+      {
+        "content": "Hot take: Fullstack frameworks that try to be everything to everyone often end up being hard to customize for specific edge cases. Prefer focused tools that do one thing exceptionally well. #WebDevelopment #Architecture",
+        "likes": 215,
+        "retweets": 34,
+        "replies": 19,
+        "type": "original",
+        "timestamp": "2026-01-11T02:07:20.605342"
+      },
+      {
+        "content": "The amount of magic Vite brings to the table for dev experience is still astounding. Instant starts, HMR, optimized builds. If you're not using it, you're missing out on serious dev velocity. #Vite #JavaScript",
+        "likes": 201,
+        "retweets": 30,
+        "replies": 16,
+        "type": "original",
+        "timestamp": "2026-01-09T17:07:20.605342"
+      },
+      {
+        "content": "If your React component is a mess of `useState` and `useEffect` for data management, you're building a state machine without the machine. Time to abstract, or better yet, use a dedicated library. \ud83d\ude09 #React #TypeScript",
+        "likes": 127,
+        "retweets": 18,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2026-01-08T09:07:20.605342"
+      },
+      {
+        "content": "Looking for contributors! If you're comfortable with TypeScript and React, `tanstack/table` has some great issues for new contributors. Dive in, learn, and help improve a widely used library! Link in bio. #OpenSource #FirstTimers",
+        "likes": 98,
+        "retweets": 13,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-07T11:07:20.605342"
+      },
+      {
+        "content": "That new `useFormStatus` hook in React 19 looks like a total game-changer for form accessibility and loading states. Less manual boilerplate, more declarative UI. Loving the direction! #React19 #WebDev",
+        "likes": 381,
+        "retweets": 51,
+        "replies": 27,
+        "type": "original",
+        "timestamp": "2026-01-07T00:07:20.605342"
+      },
+      {
+        "content": "Pro-tip for TypeScript + React: Don't fear generics! They unlock so much type safety and flexibility, especially when building reusable hooks or component libraries. Start small, iterate. #TypeScript #React",
+        "likes": 102,
+        "retweets": 13,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-06T22:07:20.605342"
+      },
+      {
+        "content": "Primitives over prescriptions. That's why I advocate for the headless approach in TanStack libraries. Gives you 100% control over UI, 0% over logic. Build *your* UI, not ours. #SoftwareDesign #OpenSource",
+        "likes": 195,
+        "retweets": 28,
+        "replies": 11,
+        "type": "original",
+        "timestamp": "2026-01-05T08:07:20.605342"
+      },
+      {
+        "content": "Still hand-rolling data fetching and caching logic in your React apps? Stop the madness! #ReactQuery handles all that for you, letting you focus on your UI. Check out the docs at TanStack.com! #FrontendDev",
+        "likes": 178,
+        "retweets": 25,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2026-01-05T00:07:20.605342"
+      },
+      {
+        "content": "Deep in the trenches at @NozzleIO this week, optimizing our data pipeline for even faster reporting. It's amazing how much performance you can squeeze out when you really dig into the details. #NozzleIO #Performance",
+        "likes": 71,
+        "retweets": 7,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-31T14:07:20.605342"
+      },
+      {
+        "content": "Excited to share a sneak peek of the upcoming `useInfiniteQuery` improvements in TanStack Query v5! Easier cursor management, better DX for infinite lists. Expect a pre-release next week! #ReactQuery #OpenSource",
+        "likes": 265,
+        "retweets": 33,
+        "replies": 14,
+        "type": "original",
+        "timestamp": "2025-12-29T21:07:20.605342"
+      },
+      {
+        "content": "Still seeing debates about `useEffect` vs. 'server components'. They solve fundamentally different problems. `useEffect` handles client-side lifecycle; RSCs optimize server-side rendering. Not an either/or. #React #Frontend",
+        "likes": 233,
+        "retweets": 38,
+        "replies": 21,
+        "type": "original",
+        "timestamp": "2025-12-27T07:07:20.605342"
+      },
+      {
+        "content": "Thinking about where TanStack goes next. More frameworks? More primitives? What's the biggest data or UI challenge you're facing that isn't solved well today? Let's brainstorm! #OpenSource #FutureTech",
+        "likes": 118,
+        "retweets": 17,
+        "replies": 12,
+        "type": "original",
+        "timestamp": "2025-12-22T16:07:20.605342"
+      },
+      {
+        "content": "One thing I've learned: block out dedicated 'deep work' time. Close Slack, turn off notifications. That's when real progress happens, especially in complex problem-solving. #Productivity #DevLife",
+        "likes": 105,
+        "retweets": 16,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-20T10:07:20.605342"
+      }
+    ]
+  }
+}

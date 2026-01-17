@@ -1,0 +1,21 @@
+{
+  "username": "antfu",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:21:50.474201",
+  "data": {
+    "profile": {
+      "name": "Anthony Fu",
+      "username": "antfu",
+      "bio": "\ud83d\udea2 A ship in harbor is safe, but that's not what ships are built for. Building with @vercel, @nuxt. Deep diving into #AI. Passionate about OSS & learning in public. Let's build!",
+      "location": "undefined",
+      "website": "https://antfu.me",
+      "followers": 28500,
+      "following": 1200,
+      "tweets_count": 5876,
+      "joined_date": "March 2012",
+      "is_verified": false,
+      "github_username": "Anthony Fu"
+    },
+    "tweets": []
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "platform": "linkedin",
+  "identifier": "yyx990803",
+  "profile": {
+    "name": "Evan You",
+    "headline": "Founder & CEO at VoidZero | Creator of Vue.js & Vite | Open Source Innovator",
+    "location": "Singapore",
+    "about": "As the creator of Vue.js and Vite, I've dedicated my career to building powerful and intuitive tools that empower developers worldwide. My journey continues at VoidZero, where I'm focused on innovating new solutions to streamline development workflows and enhance the modern web experience. I am passionate about open source and fostering a collaborative community to advance the state of front-end development.",
+    "current_company": "VoidZero",
+    "current_position": "Founder & CEO",
+    "connections": 483,
+    "followers": 156200,
+    "profile_views_last_90_days": 27500,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Lead Software Engineer",
+        "company": "VoidZero",
+        "location": "Remote",
+        "start_date": "January 2021",
+        "end_date": "Present",
+        "description": [
+          "Led the design and implementation of highly scalable microservices using Go, Python, and Node.js across AWS and Azure cloud platforms.",
+          "Architected and oversaw the development of critical system components, improving overall system resilience and performance by 30%.",
+          "Mentored junior and mid-level engineers, fostering best practices in software development, code quality, and system design principles."
+        ],
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Innovate Solutions",
+        "location": "Seattle, USA",
+        "start_date": "August 2017",
+        "end_date": "December 2020",
+        "description": [
+          "Designed and implemented core features for a high-traffic SaaS platform using Java, Spring Boot, and PostgreSQL, serving over 500,000 daily active users.",
+          "Contributed significantly to the migration from a monolithic architecture to a distributed microservices environment on AWS, reducing deployment times by 40%.",
+          "Conducted thorough code reviews, ensuring adherence to coding standards, performance optimization, and robust error handling."
+        ],
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "TechBright LLC",
+        "location": "San Francisco, USA",
+        "start_date": "June 2014",
+        "end_date": "July 2017",
+        "description": [
+          "Developed and maintained RESTful APIs and backend services using Ruby on Rails and MySQL, integrating with third-party payment gateways.",
+          "Collaborated closely with product managers and front-end developers to deliver new features and improve existing functionalities.",
+          "Implemented unit and integration tests (RSpec) for all developed features, achieving over 85% code coverage."
+        ],
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "Midwestern State University",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2016,
+        "end_year": 2020,
+        "activities": "Dean's List (6 semesters), President of Computer Science Club, Lead Developer for Senior Capstone Project"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 48
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 39
+      },
+      {
+        "name": "Agile",
+        "endorsements": 19
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "A massive shoutout to the global Vue.js community for its unwavering support and incredible contributions. Your passion, bug reports, feature suggestions, and countless PRs are the lifeblood of the project. Every success we celebrate, from framework updates to ecosystem growth, is truly a collective achievement.\n\nLet's keep fostering this vibrant, inclusive environment where ideas flourish and developers thrive. Thank you for being such an integral part of this journey!\n\n#Vuejs #CommunityPower #OpenSource #Gratitude #DeveloperCommunity",
+      "timestamp": "2026-01-17T00:14:23.974624",
+      "date": "2026-01-17",
+      "time": "00:14:23",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/yyx990803-1519",
+      "engagement": {
+        "likes": 489,
+        "comments": 78
+      }
+    },
+    {
+      "type": "post",
+      "content": "The tech landscape is constantly shifting, and one of the most valuable skills you can cultivate is continuous learning and adaptability. It’s less about mastering a single technology and more about understanding underlying principles and being able to pick up new tools quickly.\n\nWhat are your go-to resources or strategies for staying current and expanding your skillset? I find hands-on experimentation and diving into new project documentation incredibly effective.\n\n#LifelongLearning #CareerGrowth #TechSkills #Adaptability #DeveloperMindset",
+      "timestamp": "2026-01-04T15:14:23.974624",
+      "date": "2026-01-04",
+      "time": "15:14:23",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/yyx990803-2250",
+      "engagement": {
+        "likes": 88,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "What truly makes a developer tool great isn't just its features, but how it makes you *feel*. It's that moment of 'aha!' when something just clicks, or the flow state you enter when the tooling melts away and you're just creating. It's about reducing cognitive load and maximizing creative output.\n\nThis philosophy is at the core of everything we're building at VoidZero. We believe developer tools should be an extension of your mind, not a barrier.\n\n#DeveloperExperience #Tooling #ProductPhilosophy #SoftwareDesign #Simplicity",
+      "timestamp": "2026-01-04T07:14:23.974624",
+      "date": "2026-01-04",
+      "time": "07:14:23",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/yyx990803-8270",
+      "engagement": {
+        "likes": 115,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thinking about career growth, one of the most impactful things I did was get involved in open source early on. It's not just about coding; it's about problem-solving, collaboration, communication, and seeing how large projects evolve.\n\nWhether it's reporting a bug, improving documentation, or contributing a small feature, every bit helps, and the learning experience is invaluable. It’s also a fantastic way to build a portfolio and connect with talented people. Don't underestimate the power of giving back and learning in the open.\n\n#CareerAdvice #OpenSource #DeveloperLife #GrowthMindset #TechCareer",
+      "timestamp": "2026-01-02T12:14:23.974624",
+      "date": "2026-01-02",
+      "time": "12:14:23",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/yyx990803-9453",
+      "engagement": {
+        "likes": 215,
+        "comments": 48
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge congratulations to the VoidZero R&D team for successfully delivering a challenging internal prototype last week! Their dedication to pushing technical boundaries and collaborative spirit was truly inspiring to witness. This kind of foundational work is critical as we develop our core offerings.\n\nIt's moments like these that reinforce the strength of a focused, passionate team. Celebrating every win, big or small, helps fuel our collective journey forward.\n\n#TeamWins #VoidZero #EngineeringExcellence #Innovation #StartupLife",
+      "timestamp": "2025-12-24T21:14:23.974624",
+      "date": "2025-12-24",
+      "time": "21:14:23",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/yyx990803-5086",
+      "engagement": {
+        "likes": 74,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "In a world of increasing complexity, the pursuit of simplicity often feels like an uphill battle. Yet, it's precisely in simplicity that true elegance and long-term maintainability lie. From API design to architectural choices, striving for clarity and reducing cognitive load is paramount.\n\nIt's a principle I've always held close with Vue and Vite, and one that guides our design philosophy at VoidZero. Making the complex simple is perhaps the most challenging, yet rewarding, aspect of building great software.\n\n#SoftwareDesign #Simplicity #Complexity #DeveloperExperience #EngineeringPrinciples",
+      "timestamp": "2025-12-20T09:14:23.974624",
+      "date": "2025-12-20",
+      "time": "09:14:23",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/yyx990803-5666",
+      "engagement": {
+        "likes": 165,
+        "comments": 30
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to announce I'll be participating in a panel discussion at [Conference Name] on [Date]! We'll be diving deep into 'The Future of Frontend Frameworks: Navigating Complexity and Performance.' Always a great opportunity to connect with peers and discuss the exciting challenges ahead.\n\nLooking forward to sharing some insights and learning from other innovators in the space. If you're attending, please say hello!\n\n#Conference #SpeakingEngagement #Frontend #WebDev #TechEvents",
+      "timestamp": "2025-12-13T02:14:23.974624",
+      "date": "2025-12-13",
+      "time": "02:14:23",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/yyx990803-4917",
+      "engagement": {
+        "likes": 62,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "Came across this insightful piece on the evolving role of AI in the developer workflow: [Link to article about AI coding assistants/copilots]. The article raises some excellent points about augmentation versus replacement, and the need for developers to adapt.\n\nMy take? AI is set to be an incredible co-pilot, not a replacement for human creativity and critical thinking. The real skill will be in leveraging these tools effectively to amplify our productivity and focus on higher-level problem-solving. It's an exciting, complex challenge to navigate.\n\n#AI #DeveloperTools #FutureOfWork #TechInnovation #SoftwareDevelopment",
+      "timestamp": "2025-12-06T23:14:23.974624",
+      "date": "2025-12-06",
+      "time": "23:14:23",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/yyx990803-3703",
+      "engagement": {
+        "likes": 98,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "The team at VoidZero is growing! We're actively seeking passionate and talented engineers to join us in building the next generation of developer tools. If you're excited by challenges at the intersection of performance, user experience, and open-source innovation, we'd love to hear from you.\n\nWe're specifically looking for roles in [mention 1-2 key areas, e.g., Compiler Engineering, Frontend Infrastructure]. Our culture values curiosity, collaboration, and a relentless pursuit of excellence. Check out our careers page or drop me a DM if you're interested in being part of this journey!\n\n#Hiring #TechJobs #VoidZero #DeveloperCareers #JoinOurTeam",
+      "timestamp": "2025-12-04T22:14:23.974624",
+      "date": "2025-12-04",
+      "time": "22:14:23",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/yyx990803-2469",
+      "engagement": {
+        "likes": 278,
+        "comments": 55
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to officially unveil VoidZero! For years, I've been driven by the pursuit of delightful developer experiences, building tools that empower creators worldwide. With VoidZero, our mission is to push that boundary even further, bridging cutting-edge research with practical, performant solutions that redefine how developers build for the modern web.\n\nWe're just getting started, but the vision is clear: to create an ecosystem where innovation and productivity coexist seamlessly. Stay tuned for more updates as we build the future of developer tooling, rooted in open-source principles and a passion for craftsmanship.\n\n#VoidZero #DeveloperExperience #WebDev #OpenSource #Innovation",
+      "timestamp": "2025-12-03T23:14:23.974624",
+      "date": "2025-12-03",
+      "time": "23:14:23",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/yyx990803-5966",
+      "engagement": {
+        "likes": 875,
+        "comments": 123
+      }
+    },
+    {
+      "type": "post",
+      "content": "Something exciting is brewing at VoidZero... We're putting the finishing touches on a project that I believe will significantly streamline how developers approach a common, yet often frustrating, aspect of web development. We've focused heavily on performance and an incredibly intuitive experience.\n\nNo spoilers yet, but let's just say we're aiming to make a certain class of problems dramatically simpler. Can't wait to share more soon! #VoidZero #ProductLaunch #DeveloperTools #Innovation #Teaser",
+      "timestamp": "2025-11-25T23:14:23.974624",
+      "date": "2025-11-25",
+      "time": "23:14:23",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/yyx990803-9203",
+      "engagement": {
+        "likes": 312,
+        "comments": 68
+      }
+    },
+    {
+      "type": "post",
+      "content": "Read an excellent piece today on the long-term sustainability of open-source projects: [Link to article about OSS funding/models]. It's a topic deeply important to me, given my history with Vue and Vite, and now with VoidZero.\n\nFinding equitable and effective models to support maintainers and ensure project longevity is crucial for the health of our entire industry. At VoidZero, we're exploring ways to contribute back to the open-source ecosystem that fuels so much innovation. It's a collective responsibility.\n\n#OpenSource #Sustainability #TechIndustry #CommunitySupport #Innovation",
+      "timestamp": "2025-11-24T01:14:23.974624",
+      "date": "2025-11-24",
+      "time": "01:14:23",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/yyx990803-5856",
+      "engagement": {
+        "likes": 145,
+        "comments": 33
+      }
+    },
+    {
+      "type": "post",
+      "content": "Incredibly proud of the continued momentum for Vue.js and Vite! We recently crossed a significant milestone for Vite's weekly downloads, cementing its position as a go-to tool for modern web development. This growth is a direct result of the incredible contributions from our global community.\n\nThank you to every contributor, user, and advocate who helps make these projects thrive. Your feedback and engagement are what truly drive innovation. Let's keep building amazing things together! #Vuejs #Vite #OpenSource #Community #WebDevTools",
+      "timestamp": "2025-11-23T21:14:23.974624",
+      "date": "2025-11-23",
+      "time": "21:14:23",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/yyx990803-7101",
+      "engagement": {
+        "likes": 1124,
+        "comments": 189
+      }
+    },
+    {
+      "type": "post",
+      "content": "The pace of front-end development continues to accelerate, and it's fascinating to watch how the ecosystem adapts. We're seeing a stronger focus on compile-time optimizations, granular reactivity, and a blurring of lines between client and server. It's a testament to the community's relentless pursuit of better performance and developer ergonomics.\n\nWhat are you most excited about in the future of web development? Is it WebAssembly adoption, new paradigms for state management, or something else entirely?\n\n#WebDevelopment #Frontend #DX #Performance #TechTrends",
+      "timestamp": "2025-11-22T00:14:23.974624",
+      "date": "2025-11-22",
+      "time": "00:14:23",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/yyx990803-9691",
+      "engagement": {
+        "likes": 182,
+        "comments": 37
+      }
+    }
+  ],
+  "post_count": 14,
+  "cross_references": {
+    "github": "yyx990803_github.json",
+    "twitter": "yyx990803_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:14:24.009123",
+  "is_simulated": true
+}

@@ -1,0 +1,263 @@
+{
+  "platform": "linkedin",
+  "identifier": "davem330",
+  "profile": {
+    "name": "David S. Miller",
+    "headline": "Principal Software Engineer at Red Hat Inc. | Cloud Native, Open Source & Distributed Systems",
+    "location": "London, UK",
+    "about": "As a Principal Software Engineer at Red Hat, I specialize in building robust, scalable open-source solutions for cloud-native environments. With a strong background in distributed systems and a passion for contributing to the developer community, I leverage languages like Go and Python to drive innovation and solve complex technical challenges. I am committed to fostering collaboration and delivering high-quality software that empowers users and organizations.",
+    "current_company": "Red Hat Inc.",
+    "current_position": "Principal Software Engineer",
+    "connections": 421,
+    "followers": 583,
+    "profile_views_last_90_days": 156,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": false,
+    "experience": [
+      {
+        "title": "Principal Software Engineer",
+        "company": "Red Hat Inc.",
+        "location": "Raleigh, NC, USA",
+        "start_date": "May 2021",
+        "end_date": "Present",
+        "description": "Led architectural design and implementation of critical components for open-source cloud-native platforms, enhancing scalability and reliability of distributed systems.\nMentored and guided a team of engineers in best practices for software development, code reviews, and system design in a Kubernetes-centric environment.\nDrove cross-functional initiatives to integrate new technologies and improve developer experience across multiple Red Hat products.",
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "VMware",
+        "location": "Palo Alto, CA, USA",
+        "start_date": "August 2017",
+        "end_date": "April 2021",
+        "description": "Designed and developed high-performance backend services in Java for enterprise virtualization and cloud management platforms, supporting millions of daily transactions.\nOptimized data processing pipelines and API endpoints, resulting in a 25% reduction in latency and improved system responsiveness.\nCollaborated with product management to define technical requirements and deliver features from inception to production deployment.",
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "AccuWeather",
+        "location": "State College, PA, USA",
+        "start_date": "June 2014",
+        "end_date": "July 2017",
+        "description": "Developed and maintained Python-based microservices for real-time weather data ingestion and processing, ensuring high availability and data accuracy.\nContributed to frontend development using JavaScript and React, enhancing user interface and data visualization features for web applications.\nParticipated in agile ceremonies, contributing to feature planning, sprint reviews, and retrospective improvements.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "Northwood University",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2022,
+        "activities": "Dean's List (6 semesters), President of Programming Club, Capstone Project: AI-powered Recommendation Engine"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 7
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 22
+      },
+      {
+        "name": "Agile",
+        "endorsements": 22
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "The power of open source continues to be the bedrock of innovation in cloud-native computing. From the kernel to Kubernetes, the collaborative spirit and transparent development cycles are what drive rapid evolution and robust solutions. Proprietary systems often struggle to keep pace with the collective genius of a global community. It's why Red Hat's commitment to upstream-first development isn't just a philosophy, it's a strategic advantage.\n\nWhat are your thoughts on the most impactful open-source project in the last 5 years?\n\n#OpenSource #CloudNative #Innovation #Kubernetes #RedHat #TechOpinion",
+      "timestamp": "2026-01-13T12:52:47.164961",
+      "date": "2026-01-13",
+      "time": "12:52:47",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/davem330-1871",
+      "engagement": {
+        "likes": 92,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge congratulations to the entire team for the successful launch of Project 'Stratos'! This complex initiative, spanning multiple distributed services and integrations, truly tested our limits but also showcased our collective resilience and innovation. Seeing it go live without a hitch is a testament to countless late nights, meticulous planning, and brilliant collaboration across time zones. Proud to be part of such an amazing group of engineers!\n\n#TeamWin #ProjectLaunch #DistributedSystems #RedHat #EngineeringSuccess #CloudNative",
+      "timestamp": "2026-01-11T01:52:47.164961",
+      "date": "2026-01-11",
+      "time": "01:52:47",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/davem330-3731",
+      "engagement": {
+        "likes": 88,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Reflecting on a truly rewarding quarter of mentorship. It's incredibly fulfilling to guide and support junior engineers as they navigate complex problems and grow their skills. Seeing a mentee have that 'aha!' moment or successfully deploy a challenging feature they initially struggled with is one of the greatest joys of being a Principal Engineer. Investing in the next generation is crucial for innovation.\n\n#Mentorship #CareerDevelopment #TechLeadership #EngineeringLife #RedHat #Growth",
+      "timestamp": "2026-01-10T20:52:47.164961",
+      "date": "2026-01-10",
+      "time": "20:52:47",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/davem330-4951",
+      "engagement": {
+        "likes": 62,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read an excellent deep dive on the latest advancements in Kubernetes networking from the Red Hat blog. It highlights some of the clever optimizations and security enhancements being built into OpenShift. It's a fantastic read for anyone curious about how we're making inter-service communication faster and more secure by default. Always impressed by the intricate engineering behind these foundational components. Highly recommend checking it out!\n\n[Link to a hypothetical Red Hat Blog Post: 'Understanding Advanced Networking in OpenShift 4.x']\n\n#Kubernetes #OpenShift #Networking #CloudNative #RedHat #ArticleShare",
+      "timestamp": "2026-01-05T04:52:47.164961",
+      "date": "2026-01-05",
+      "time": "04:52:47",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/davem330-2035",
+      "engagement": {
+        "likes": 55,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "In our fast-paced tech world, continuous learning isn't just a bonus, it's essential. Whether it's diving into a new programming language, understanding emerging architectural patterns, or contributing to an open-source project, staying curious keeps your skills sharp and your mind engaged. At Red Hat, we're fortunate to have access to incredible resources and a culture that encourages constant growth. Never stop learning!\n\nWhat's something new you're learning right now?\n\n#ContinuousLearning #TechSkills #CareerGrowth #OpenSource #RedHat #SoftwareEngineering",
+      "timestamp": "2025-12-28T21:52:47.164961",
+      "date": "2025-12-28",
+      "time": "21:52:47",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/davem330-4010",
+      "engagement": {
+        "likes": 98,
+        "comments": 19
+      }
+    },
+    {
+      "type": "post",
+      "content": "Celebrating a truly heroic effort by the team last night! A particularly elusive race condition manifested in production, causing intermittent data inconsistencies. Through incredible teamwork, methodical debugging, and relentless collaboration across multiple squads, we identified the root cause and deployed a fix within hours. Moments like these remind me of the sheer talent and dedication of my colleagues at Red Hat. #TeamworkMakesTheDreamWork\n\n#Troubleshooting #ProductionEngineering #DistributedSystems #RedHat #TeamWin #SRE",
+      "timestamp": "2025-12-26T11:52:47.164961",
+      "date": "2025-12-26",
+      "time": "11:52:47",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/davem330-6901",
+      "engagement": {
+        "likes": 73,
+        "comments": 14
+      }
+    },
+    {
+      "type": "post",
+      "content": "The integration of AI/ML into cloud-native operations is rapidly moving beyond hype to practical application. From intelligent auto-scaling based on predictive analytics to anomaly detection in distributed logs, AI has the potential to significantly enhance the resilience and efficiency of complex systems. The challenge lies in building robust, explainable, and ethical AI systems that seamlessly integrate with existing cloud infrastructure without adding new layers of opacity. It's an exciting frontier!\n\n#AIML #CloudNative #DevOps #SRE #DistributedSystems #TechInnovation",
+      "timestamp": "2025-12-23T07:52:47.164961",
+      "date": "2025-12-23",
+      "time": "07:52:47",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/davem330-7964",
+      "engagement": {
+        "likes": 83,
+        "comments": 16
+      }
+    },
+    {
+      "type": "post",
+      "content": "For engineers aspiring to make the leap to Principal: it's less about writing more code and more about amplifying your impact. Focus on mentorship, technical leadership, driving cross-team initiatives, and simplifying complex architectural challenges. Your scope of influence becomes as important as your technical depth. It's a shift from 'how do I build this?' to 'how do we enable others to build this effectively and sustainably?'\n\nWhat's one piece of advice you wish you had received earlier in your career progression?\n\n#CareerAdvice #TechLeadership #EngineeringManagement #PrincipalEngineer #RedHat #SoftwareDevelopment",
+      "timestamp": "2025-12-18T19:52:47.164961",
+      "date": "2025-12-18",
+      "time": "19:52:47",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/davem330-3832",
+      "engagement": {
+        "likes": 125,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "Stumbled upon an insightful report from the CNCF on the state of the cloud-native landscape. It's incredible to see the sheer breadth and depth of projects, from service mesh to serverless functions, all contributing to a vibrant ecosystem. It underscores the importance of open standards and interoperability. Staying on top of this rapidly evolving space is a challenge, but endlessly fascinating. The future of cloud is truly distributed!\n\n[Link to a hypothetical CNCF Annual Report or Landscape Overview]\n\n#CNCF #CloudNative #OpenSource #Kubernetes #TechTrends #DistributedSystems",
+      "timestamp": "2025-12-14T06:52:47.164961",
+      "date": "2025-12-14",
+      "time": "06:52:47",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/davem330-9207",
+      "engagement": {
+        "likes": 65,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Proud to have landed a significant upstream contribution to the Kubernetes project this week! After a few rounds of design discussions and review, the new `EphemeralContainer` field for better debugging in production pods has been merged. It's a small change with a big impact for operators and developers. Contributing to the core open-source projects that power our work is one of the most fulfilling parts of my role at Red Hat.\n\n#Kubernetes #OpenSource #UpstreamFirst #CloudNative #RedHat #Achievement",
+      "timestamp": "2025-12-14T02:52:47.164961",
+      "date": "2025-12-14",
+      "time": "02:52:47",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/davem330-4112",
+      "engagement": {
+        "likes": 105,
+        "comments": 21
+      }
+    },
+    {
+      "type": "post",
+      "content": "The debate between 'serverless-first' and 'Kubernetes-native' approaches for cloud applications continues to evolve. While serverless offers fantastic developer experience and scalability for event-driven workloads, Kubernetes provides unparalleled control, portability, and flexibility for complex microservices architectures. Often, the best solution involves a hybrid approach, leveraging the strengths of both where appropriate. Understanding the trade-offs is key to making informed architectural decisions.\n\nWhat's your take? When do you lean one way versus the other?\n\n#CloudNative #Serverless #Kubernetes #Architecture #TechDebate #DistributedSystems",
+      "timestamp": "2025-12-08T15:52:47.164961",
+      "date": "2025-12-08",
+      "time": "15:52:47",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/davem330-3831",
+      "engagement": {
+        "likes": 68,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Building resilient distributed systems is a constant dance between simplicity and complexity. The CAP theorem is a fundamental concept, but truly understanding how to design for eventual consistency, handle network partitions gracefully, and ensure data integrity in the face of failures requires deep architectural thought. It's not just about picking the right tools, but designing for the inevitable chaos of a distributed environment. Chaos engineering is your friend!\n\nWhat's been your biggest challenge in building resilient systems?\n\n#DistributedSystems #Resilience #CloudNative #Engineering #ChaosEngineering #RedHat",
+      "timestamp": "2025-12-04T22:52:47.164961",
+      "date": "2025-12-04",
+      "time": "22:52:47",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/davem330-3090",
+      "engagement": {
+        "likes": 79,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just finished a fascinating session on the future of enterprise open source at Red Hat Summit. It's clear that the convergence of AI/ML with cloud-native platforms like OpenShift is going to be transformative. The focus on enabling intelligent applications while maintaining security and stability within open ecosystems is a huge challenge, but one Red Hat is uniquely positioned to address. Always energizing to see the vision for where technology is headed!\n\n#RedHatSummit #OpenSource #AIML #CloudNative #EnterpriseTech #Innovation",
+      "timestamp": "2025-12-02T22:52:47.164961",
+      "date": "2025-12-02",
+      "time": "22:52:47",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/davem330-2077",
+      "engagement": {
+        "likes": 47,
+        "comments": 6
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to announce that the new distributed caching feature our team has been working on for OpenShift is now officially rolled out! It was a complex journey, leveraging advanced CRDs and operators to provide seamless, scalable caching for cloud-native applications. Huge shoutout to the incredible team for their dedication and brilliant problem-solving. It's truly rewarding to see our work directly empower developers to build even more performant and resilient systems.\n\n#CloudNative #OpenShift #Kubernetes #DistributedSystems #RedHat #Engineering",
+      "timestamp": "2025-11-22T07:52:47.164961",
+      "date": "2025-11-22",
+      "time": "07:52:47",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/davem330-1013",
+      "engagement": {
+        "likes": 78,
+        "comments": 13
+      }
+    }
+  ],
+  "post_count": 14,
+  "cross_references": {
+    "github": "davem330_github.json",
+    "twitter": "davem330_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T16:52:47.191729",
+  "is_simulated": true
+}

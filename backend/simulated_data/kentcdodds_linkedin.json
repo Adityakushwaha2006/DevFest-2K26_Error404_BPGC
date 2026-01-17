@@ -1,0 +1,258 @@
+{
+  "platform": "linkedin",
+  "identifier": "kentcdodds",
+  "profile": {
+    "name": "Kent C. Dodds",
+    "headline": "Founder & CEO at EpicWeb.dev | Dev Educator & Consultant | React & AI Expert | Microsoft MVP | Empowering Developers Worldwide",
+    "location": "Salt Lake City, Utah, USA",
+    "about": "I am passionate about improving the world through high-quality software, empowering developers with the knowledge and tools they need to build exceptional web applications. As the founder of EpicWeb.dev and EpicReact.dev, I dedicate myself to creating comprehensive educational content focusing on modern web development, React, and emerging AI applications. My goal is to foster growth and excellence within the developer community, guiding them towards more robust, scalable, and delightful user experiences.",
+    "current_company": "EpicWeb.dev",
+    "current_position": "Founder & CEO",
+    "connections": 487,
+    "followers": 125432,
+    "profile_views_last_90_days": 8215,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Senior Software Engineer",
+        "company": "@epicweb-dev",
+        "location": "Remote",
+        "start_date": "October 2021",
+        "end_date": "Present",
+        "description": "Led the development of AI-driven features for web applications, integrating large language models (LLMs) and machine learning APIs into user-facing React applications.\nArchitected and implemented scalable frontend solutions using React, TypeScript, and modern state management patterns to support complex AI workflows.\nCollaborated closely with product, design, and AI research teams to translate innovative concepts into robust, production-ready systems.",
+        "is_current": true
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Synapse Solutions",
+        "location": "San Francisco, USA",
+        "start_date": "March 2018",
+        "end_date": "September 2021",
+        "description": "Developed and maintained core features for a high-traffic SaaS platform, focusing on user experience and performance using React, Node.js, and AWS services.\nOptimized application performance and user experience, leading to a 15% reduction in page load times and improved user engagement metrics.\nParticipated in agile development cycles, contributing to code reviews, system design discussions, and mentoring junior team members.",
+        "is_current": false
+      },
+      {
+        "title": "Junior Software Developer",
+        "company": "InnovateX Labs",
+        "location": "Austin, USA",
+        "start_date": "June 2016",
+        "end_date": "February 2018",
+        "description": "Implemented frontend components and user interfaces for various client projects using React and other modern web technologies.\nAssisted in migrating legacy systems to modern React-based architectures, improving maintainability and scalability.\nCollaborated with senior developers on debugging, testing, and deploying features across multiple applications.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Illinois Urbana-Champaign",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2022,
+        "activities": "Dean's List (6 semesters), ACM Programming Team, Undergraduate Teaching Assistant (Data Structures)"
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "endorsements": 31
+      },
+      {
+        "name": "Ai",
+        "endorsements": 20
+      },
+      {
+        "name": "Problem Solving",
+        "endorsements": 49
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 30
+      },
+      {
+        "name": "Agile",
+        "endorsements": 8
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Your personal brand as a developer isn't just about getting a job; it's about establishing your expertise, building a network, and creating opportunities.\n\nStart small: contribute to open source, write a blog post about a problem you solved, or share insights on LinkedIn (like this!). Consistency and authenticity are key. People want to connect with real humans who are passionate about their craft.\n\nWhat's one thing you've done recently to build your personal brand?\n\n#PersonalBranding #DeveloperCareer #Networking #OpenSource #TechTips",
+      "timestamp": "2026-01-14T02:02:50.443956",
+      "date": "2026-01-14",
+      "time": "02:02:50",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/kentcdodds-4882",
+      "engagement": {
+        "likes": 155,
+        "comments": 20
+      }
+    },
+    {
+      "type": "post",
+      "content": "Developer burnout is a real challenge, and it's often exacerbated by the constant pressure to 'do more.' I'm a firm believer in working smarter, not just harder.\n\nLately, I've been experimenting with AI-powered code assistants more deeply than ever before, not for writing full features, but for mundane tasks like generating boilerplate, writing tests, or refactoring suggestions. The time saved is substantial, freeing up mental bandwidth for complex problem-solving and creative design.\n\nWhat tools or strategies are helping you optimize your workflow and prevent burnout?\n\n#DeveloperProductivity #AItools #WorkLifeBalance #TechWellness #SoftwareDevelopment",
+      "timestamp": "2026-01-09T22:02:50.443956",
+      "date": "2026-01-09",
+      "time": "22:02:50",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/kentcdodds-6574",
+      "engagement": {
+        "likes": 118,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge shoutout to Sarah T. (a fantastic EpicWeb.dev community member) for crushing her recent interview and landing a Senior Frontend Developer role! She shared how the patterns and strategies from our 'Testing React Apps' module gave her the confidence and expertise to ace the technical round.\n\nSeeing our community members succeed is truly the most rewarding part of running EpicWeb.dev. Keep inspiring, Sarah! 💪\n\n#DeveloperSuccess #CommunityWins #EpicWebDev #ReactDeveloper #CareerGrowth",
+      "timestamp": "2026-01-09T20:02:50.443956",
+      "date": "2026-01-09",
+      "time": "20:02:50",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/kentcdodds-2745",
+      "engagement": {
+        "likes": 95,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled and honored to announce my renewal as a Microsoft MVP for another year! 🎉\n\nThis recognition means the world to me. It's a testament to the incredible community we're building around #React, #AI, and empowering developers worldwide through EpicWeb.dev.\n\nThank you to Microsoft for this continued support, and a massive thank you to everyone who engages with my content, courses, and consultancies. Your curiosity and drive inspire me every day. Let's keep pushing the boundaries of what's possible in web development!\n\n#MicrosoftMVP #DeveloperCommunity #EpicWebDev #ReactJS #AIforDevs",
+      "timestamp": "2026-01-09T08:02:50.443956",
+      "date": "2026-01-09",
+      "time": "08:02:50",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/kentcdodds-1680",
+      "engagement": {
+        "likes": 285,
+        "comments": 37
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read an excellent deep-dive into #React's new useFormState hook RFC. This is exactly the kind of innovation that keeps the React ecosystem fresh and powerful.\n\nWhile still an RFC, the push towards better server component integration and streamlined form handling is a game-changer for many common patterns. I particularly appreciate the focus on error handling and revalidation built right in.\n\nArticle link: [Imagine a link to a React blog post or RFC here]\n\nWhat are your initial thoughts? Are you excited about what this could mean for your server-side React development?\n\n#ReactJS #FrontendDev #WebDev #StateManagement #DeveloperInsights",
+      "timestamp": "2026-01-03T13:02:50.443956",
+      "date": "2026-01-03",
+      "time": "13:02:50",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/kentcdodds-7975",
+      "engagement": {
+        "likes": 88,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to announce I'll be speaking at the upcoming Global Dev Summit! My session will be on 'Building Resilient AI-Powered UIs with React and Edge Functions.'\n\nWe'll cover practical approaches to designing performant, scalable, and fault-tolerant user interfaces that leverage the power of AI at the edge. Expect live coding, architectural insights, and actionable takeaways.\n\nHope to see many of you there! Details and registration: [Link to conference or webinar registration]\n\n#SpeakingEngagement #ReactJS #AIforDevs #EdgeComputing #GlobalDevSummit",
+      "timestamp": "2026-01-02T10:02:50.443956",
+      "date": "2026-01-02",
+      "time": "10:02:50",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/kentcdodds-9117",
+      "engagement": {
+        "likes": 78,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "The conversation around #AIEthics in software development is becoming increasingly critical. We, as developers, are on the front lines of building these systems, and our choices have significant societal implications.\n\nThis article highlights the importance of 'explainability' and 'fairness' in AI models, especially when integrated into user-facing applications. It's not just about accuracy; it's about trust and responsible innovation.\n\nLink: [Imagine an article on AI ethics here]\n\nHow are you incorporating ethical considerations into your AI-powered projects?\n\n#ArtificialIntelligence #ResponsibleAI #DeveloperResponsibility #TechEthics #MachineLearning",
+      "timestamp": "2026-01-02T10:02:50.443956",
+      "date": "2026-01-02",
+      "time": "10:02:50",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/kentcdodds-7624",
+      "engagement": {
+        "likes": 130,
+        "comments": 30
+      }
+    },
+    {
+      "type": "post",
+      "content": "Big news from EpicWeb.dev! 🎉\n\nWe've just rolled out a major update to our 'Advanced React Patterns' course, incorporating the latest best practices for React 19 (where applicable, focusing on stable features and forward-looking concepts) and a brand new module on integrating server-side logic efficiently.\n\nOur mission at EpicWeb.dev has always been to empower developers with practical, cutting-edge knowledge. This update is a direct response to community feedback and the rapidly evolving React landscape. Dive in and elevate your skills!\n\nCheck out the updated course here: [Link to EpicWeb.dev course]\n\n#EpicWebDev #ReactJS #DeveloperEducation #WebDevelopment #CourseLaunch",
+      "timestamp": "2025-12-29T23:02:50.443956",
+      "date": "2025-12-29",
+      "time": "23:02:50",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/kentcdodds-2552",
+      "engagement": {
+        "likes": 167,
+        "comments": 25
+      }
+    },
+    {
+      "type": "post",
+      "content": "The synergy between #React and #AI is evolving faster than ever. We're moving beyond simple integrations to truly intelligent user experiences.\n\nMy take? Developers who understand how to orchestrate AI models (both client-side via WebAssembly/on-device and server-side via APIs) within a robust React architecture will be indispensable. Think about personalized content delivery, intelligent forms, or even AI-driven component generation.\n\nIt's not just about using an AI API; it's about designing systems where AI enhances the user journey seamlessly. What are your favorite emerging patterns for AI in React apps?\n\n#WebDevelopment #ReactJS #ArtificialIntelligence #FrontendDevelopment #DeveloperSkills",
+      "timestamp": "2025-12-21T18:02:50.443956",
+      "date": "2025-12-21",
+      "time": "18:02:50",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/kentcdodds-8574",
+      "engagement": {
+        "likes": 124,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "In our fast-paced tech world, 'staying relevant' isn't just a buzzword – it's crucial for career longevity. For developers, this means more than just learning the next hot framework.\n\nIt's about understanding fundamental principles, developing strong problem-solving skills, and, critically, cultivating a growth mindset. Spend 15-30 minutes each day on deliberate learning: read an article, watch a tutorial, experiment with a new concept. Consistency beats intensity every time.\n\nWhat's your go-to strategy for continuous learning?\n\n#CareerAdvice #DeveloperLife #LifelongLearning #TechSkills #WebDevelopment",
+      "timestamp": "2025-12-08T01:02:50.443956",
+      "date": "2025-12-08",
+      "time": "01:02:50",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/kentcdodds-8341",
+      "engagement": {
+        "likes": 105,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Big moves at EpicWeb.dev! We're expanding our team and looking for a passionate Senior Content Developer to help us create even more impactful learning experiences for the global dev community.\n\nIf you live and breathe #React, love teaching, and have a knack for explaining complex concepts clearly, we want to hear from you. This is an opportunity to directly shape the skills of thousands of developers worldwide.\n\nLearn more and apply here: [Link to EpicWeb.dev careers page]\n\n#Hiring #DeveloperJobs #EpicWebDev #ReactDeveloper #ContentCreator",
+      "timestamp": "2025-12-07T04:02:50.443956",
+      "date": "2025-12-07",
+      "time": "04:02:50",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/kentcdodds-2471",
+      "engagement": {
+        "likes": 140,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up a deeply rewarding consulting engagement helping a rapidly scaling startup re-architect their core #React application for improved performance and maintainability.\n\nThe biggest lesson learned (again!): early investment in a robust, testable architecture pays dividends exponentially as complexity grows. Tackling technical debt proactively isn't just good practice; it's a strategic business advantage.\n\nProud of the team's dedication and the immediate impact we've seen. On to the next challenge! #Consulting #WebDev #SoftwareArchitecture #ReactJS #Performance",
+      "timestamp": "2025-11-20T20:02:50.443956",
+      "date": "2025-11-20",
+      "time": "20:02:50",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/kentcdodds-5061",
+      "engagement": {
+        "likes": 98,
+        "comments": 14
+      }
+    },
+    {
+      "type": "post",
+      "content": "What's the single most significant paradigm shift you anticipate in web development over the next 5 years?\n\nMy bet is on even deeper integration of AI throughout the entire development lifecycle, from code generation and testing to intelligent deployment and monitoring. This, coupled with advancements in WASM and edge computing, will redefine 'full-stack' as we know it.\n\nWill it simplify things, or introduce new complexities? I'm eager to hear your predictions!\n\n#FutureOfTech #WebDevelopment #AI #WASM #DeveloperDebate",
+      "timestamp": "2025-11-19T22:02:50.443956",
+      "date": "2025-11-19",
+      "time": "22:02:50",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/kentcdodds-5719",
+      "engagement": {
+        "likes": 190,
+        "comments": 45
+      }
+    }
+  ],
+  "post_count": 13,
+  "cross_references": {
+    "github": "kentcdodds_github.json",
+    "twitter": "kentcdodds_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:02:50.472386",
+  "is_simulated": true
+}

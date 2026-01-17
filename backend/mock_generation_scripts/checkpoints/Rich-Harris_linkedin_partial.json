@@ -1,0 +1,21 @@
+{
+  "username": "Rich-Harris",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:21:04.609150",
+  "data": {
+    "profile": {
+      "name": "Rich Harris",
+      "headline": "Freelance Software Engineer | Web Development & System Architecture | Building Robust Applications",
+      "location": "NYC",
+      "about": "I am a dedicated freelance software engineer based in NYC, specializing in full-stack development and system architecture. My passion lies in crafting efficient, scalable, and intuitive software solutions that solve real-world problems. I partner with clients to bring their visions to life, leveraging modern technologies and a commitment to quality from concept to deployment.",
+      "current_company": "Freelance",
+      "current_position": "Freelance Software Engineer",
+      "connections": 387,
+      "followers": 1250,
+      "profile_views_last_90_days": 550,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "username": "antfu",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:22:24.591708",
+  "data": {
+    "profile": {
+      "name": "Anthony Fu",
+      "headline": "Staff Software Engineer at Vercel | Nuxt Core Team Member | Open Source Contributor & Developer Tools Specialist",
+      "location": "undefined",
+      "about": "I am a Staff Software Engineer at Vercel, dedicated to enhancing the developer experience and contributing to the Nuxt.js ecosystem. With a passion for open-source and modern web technologies, I focus on building robust, scalable tools that empower developers worldwide. I believe in continuously pushing the boundaries of what's possible, always navigating towards new challenges and innovative solutions.",
+      "current_company": "@vercel / @nuxt",
+      "current_position": "Staff Software Engineer",
+      "connections": 387,
+      "followers": 12500,
+      "profile_views_last_90_days": 4800,
+      "open_to_work": false,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

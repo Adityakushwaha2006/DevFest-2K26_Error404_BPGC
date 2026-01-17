@@ -1,0 +1,79 @@
+{
+  "username": "rickhanlonii",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:41:05.261799",
+  "data": {
+    "profile": {
+      "login": "rickhanlonii",
+      "id": 2440089,
+      "node_id": "MDQ6VXNlcjI0NDAwODk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2440089?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rickhanlonii",
+      "html_url": "https://github.com/rickhanlonii",
+      "followers_url": "https://api.github.com/users/rickhanlonii/followers",
+      "following_url": "https://api.github.com/users/rickhanlonii/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rickhanlonii/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rickhanlonii/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rickhanlonii/subscriptions",
+      "organizations_url": "https://api.github.com/users/rickhanlonii/orgs",
+      "repos_url": "https://api.github.com/users/rickhanlonii/repos",
+      "events_url": "https://api.github.com/users/rickhanlonii/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rickhanlonii/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Ricky",
+      "company": "@facebook ",
+      "blog": "https://rickhanlon.codes",
+      "location": "EST. AKRON",
+      "email": null,
+      "hireable": null,
+      "bio": "React Core @facebook",
+      "twitter_username": "rickhanlonii",
+      "public_repos": 132,
+      "public_gists": 19,
+      "followers": 2650,
+      "following": 9,
+      "created_at": "2012-09-27T20:40:22Z",
+      "updated_at": "2026-01-12T23:04:37Z"
+    },
+    "activities": [
+      {
+        "type": "create_branch",
+        "content": "Created branch: rh/ff-event-effect",
+        "timestamp": "2026-01-16T22:36:42+00:00",
+        "url": "https://github.com/rickhanlonii",
+        "metadata": {}
+      },
+      {
+        "type": "create_branch",
+        "content": "Created branch: rh/use-id-caveat",
+        "timestamp": "2026-01-16T17:45:11+00:00",
+        "url": "https://github.com/rickhanlonii",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Hey all, we're tracking this in https://github.com/facebook/react/issues/35399.\n\nCan you check to see if https://github.com/facebook/react/pull/35518 (available in latest canary) fixes this?",
+        "timestamp": "2026-01-16T17:29:10+00:00",
+        "url": "https://github.com/radix-ui/primitives/issues/3700#issuecomment-3761074491",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "\nTo add some additional context on Seb's comment:\n\n**There were two separate issues being discussed in this thread:**\n\n## 1. The Original Issue (Expected Behavior)\n\nThe original issue was a \"bug\" that",
+        "timestamp": "2026-01-16T17:26:42+00:00",
+        "url": "https://github.com/facebook/react/issues/24669#issuecomment-3761064054",
+        "metadata": {}
+      },
+      {
+        "type": "create_branch",
+        "content": "Created branch: fix-reactflight-test-flaky-time-values",
+        "timestamp": "2026-01-15T01:39:03+00:00",
+        "url": "https://github.com/rickhanlonii",
+        "metadata": {}
+      }
+    ]
+  }
+}

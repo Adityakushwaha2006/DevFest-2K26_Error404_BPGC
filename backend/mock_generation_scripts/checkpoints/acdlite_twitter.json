@@ -1,0 +1,182 @@
+{
+  "username": "acdlite",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:34:26.642349",
+  "data": {
+    "profile": {
+      "name": "Andrew Clark",
+      "username": "andyclarkdev",
+      "bio": "React core team member. Building & scaling the web with Next.js @Vercel. Passionate about UI/UX, dev experience, and the future of React. Learning in public. \u269b\ufe0f",
+      "location": "New York",
+      "website": "https://andrewclark.dev",
+      "followers": 78912,
+      "following": 850,
+      "tweets_count": 11234,
+      "joined_date": "November 2010",
+      "is_verified": false,
+      "github_username": "Andrew Clark"
+    },
+    "tweets": [
+      {
+        "content": "Just spent 3 hours debugging a CSS issue only to find out it was a typo in a class name. My brain cells are requesting a refund. \ud83e\udd26\u200d\u2642\ufe0f #webdevlife",
+        "likes": 98,
+        "retweets": 11,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-16T13:34:26.642349"
+      },
+      {
+        "content": "Excited to see the progress on the new React Forget compiler RFC! Been a long time coming. This is going to fundamentally change how we think about memoization. Huge thanks to everyone contributing!",
+        "likes": 512,
+        "retweets": 85,
+        "replies": 42,
+        "type": "original",
+        "timestamp": "2026-01-13T15:34:26.642349"
+      },
+      {
+        "content": "Big shoutout to @oss_contributor for their incredible work on the recent Next.js router bug fix. Community contributions are what make open source thrive! \ud83d\ude4f",
+        "likes": 110,
+        "retweets": 13,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-13T15:34:26.642349"
+      },
+      {
+        "content": "Is your 'design system' actually slowing down your feature velocity? Sometimes, simpler CSS modules or Tailwind utility classes + component-level styling is faster than chasing perfect abstraction.",
+        "likes": 295,
+        "retweets": 38,
+        "replies": 27,
+        "type": "original",
+        "timestamp": "2026-01-12T21:34:26.642349"
+      },
+      {
+        "content": "The push for greater interoperability between client-side frameworks and server-side rendering solutions is critical. We're still too fragmented. Unified component models are the future.",
+        "likes": 210,
+        "retweets": 28,
+        "replies": 20,
+        "type": "original",
+        "timestamp": "2026-01-12T17:34:26.642349"
+      },
+      {
+        "content": "Just saw the news about the new WebAssembly GC proposal gaining traction. This could be a game-changer for high-performance web applications, especially those bridging native code. Exciting times!",
+        "likes": 160,
+        "retweets": 27,
+        "replies": 12,
+        "type": "original",
+        "timestamp": "2026-01-12T04:34:26.642349"
+      },
+      {
+        "content": "Unpopular opinion: If your 'full-stack' app isn't truly leveraging the edge for data *and* rendering, you're missing out on serious performance gains. Think beyond just serverless functions.",
+        "likes": 357,
+        "retweets": 53,
+        "replies": 31,
+        "type": "original",
+        "timestamp": "2026-01-10T08:34:26.642349"
+      },
+      {
+        "content": "Just finished setting up a new monorepo for a side project using Turborepo + pnpm. The build times are insane! Highly recommend if you're dealing with multiple packages. #devtools",
+        "likes": 115,
+        "retweets": 15,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2026-01-08T01:34:26.642349"
+      },
+      {
+        "content": "Diving deep into a new server components pattern for data mutations in Next.js. Thinking about how to elegantly handle optimistic UI updates with revalidation. So many interesting challenges!",
+        "likes": 135,
+        "retweets": 16,
+        "replies": 11,
+        "type": "original",
+        "timestamp": "2026-01-05T15:34:26.642349"
+      },
+      {
+        "content": "Experimenting with a new approach to state management for global app preferences without context hell. Thinking about using Jotai/Zustand but with a focus on server-side initialisation. #webdev",
+        "likes": 95,
+        "retweets": 11,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2026-01-04T06:34:26.642349"
+      },
+      {
+        "content": "Presented on some of the upcoming React features at an internal Vercel summit today. The energy in the room was palpable. So much potential to unlock even better user experiences. \ud83d\ude80",
+        "likes": 390,
+        "retweets": 58,
+        "replies": 33,
+        "type": "original",
+        "timestamp": "2026-01-02T19:34:26.642349"
+      },
+      {
+        "content": "We need to stop treating 'hydration' as a dirty word. It's a fundamental part of delivering interactive user experiences on the web. The focus should be on *efficient* hydration, not its elimination.",
+        "likes": 415,
+        "retweets": 62,
+        "replies": 55,
+        "type": "original",
+        "timestamp": "2026-01-01T22:34:26.642349"
+      },
+      {
+        "content": "My laptop fan sounds like it's trying to achieve lift-off whenever I run `npm install` on a fresh project. A true test of its will to live.",
+        "likes": 50,
+        "retweets": 6,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-31T14:34:26.642349"
+      },
+      {
+        "content": "Spent the morning experimenting with `useDeferredValue` and `useTransition` for a complex UI. The mental model click is *so* satisfying when you get it right. Building a little demo, will share later!",
+        "likes": 182,
+        "retweets": 21,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2025-12-30T13:34:26.642349"
+      },
+      {
+        "content": "Just wrapped up a fantastic internal dev meeting at Vercel discussing the future of developer tooling. The innovations coming down the pipeline are truly mind-blowing. Can't wait for y'all to see it!",
+        "likes": 310,
+        "retweets": 45,
+        "replies": 22,
+        "type": "original",
+        "timestamp": "2025-12-29T11:34:26.642349"
+      },
+      {
+        "content": "The advancements in browser developer tools lately are incredible. Firefox DevTools, Chrome DevTools... they keep pushing each other. Such a win for all developers. \ud83d\udc4f",
+        "likes": 78,
+        "retweets": 10,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-29T05:34:26.642349"
+      },
+      {
+        "content": "Reading through the latest @vercel blog post on improving cold starts for Edge Functions. The attention to detail around infrastructure and runtime optimization is incredible. This is why I love working here. \ud83d\udd25",
+        "likes": 265,
+        "retweets": 32,
+        "replies": 13,
+        "type": "original",
+        "timestamp": "2025-12-24T07:34:26.642349"
+      },
+      {
+        "content": "My GitHub commit history from 2 AM looks like a cryptic message from an alien civilization. Mostly 'fix stuff' or 'oops'. Good times.",
+        "likes": 75,
+        "retweets": 9,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-23T21:34:26.642349"
+      },
+      {
+        "content": "Me: I'll just write a quick script.\nAlso me, 4 hours later, trying to debug a regex in Bash while surrounded by 17 open tabs of Stack Overflow.\nEvery. Single. Time.",
+        "likes": 65,
+        "retweets": 8,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-21T06:34:26.642349"
+      },
+      {
+        "content": "Thrilled to share that we've merged the latest batch of React 19 RFCs into main! Expect more details and exciting updates soon. The team has been working incredibly hard. \u2728",
+        "likes": 720,
+        "retweets": 155,
+        "replies": 88,
+        "type": "original",
+        "timestamp": "2025-12-20T12:34:26.642349"
+      }
+    ]
+  }
+}

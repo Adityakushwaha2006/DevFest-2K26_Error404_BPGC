@@ -1,0 +1,102 @@
+{
+  "platform": "github",
+  "identifier": "paulirish",
+  "profile": {
+    "login": "paulirish",
+    "id": 39191,
+    "node_id": "MDQ6VXNlcjM5MTkx",
+    "avatar_url": "https://avatars.githubusercontent.com/u/39191?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/paulirish",
+    "html_url": "https://github.com/paulirish",
+    "followers_url": "https://api.github.com/users/paulirish/followers",
+    "following_url": "https://api.github.com/users/paulirish/following{/other_user}",
+    "gists_url": "https://api.github.com/users/paulirish/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/paulirish/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/paulirish/subscriptions",
+    "organizations_url": "https://api.github.com/users/paulirish/orgs",
+    "repos_url": "https://api.github.com/users/paulirish/repos",
+    "events_url": "https://api.github.com/users/paulirish/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/paulirish/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "name": "Paul Irish",
+    "company": "Google Chrome, ♥z",
+    "blog": "https://paul.irish",
+    "location": null,
+    "email": null,
+    "hireable": null,
+    "bio": null,
+    "twitter_username": null,
+    "public_repos": 379,
+    "public_gists": 120,
+    "followers": 31762,
+    "following": 334,
+    "created_at": "2008-12-09T00:39:23Z",
+    "updated_at": "2026-01-04T00:36:51Z"
+  },
+  "activities": [
+    {
+      "type": "comment",
+      "content": "nice. one of my favorites is about:discards, cuz of the fun DAG with physics.",
+      "timestamp": "2026-01-16T19:11:52+00:00",
+      "date": "2026-01-16",
+      "time": "19:11:52",
+      "url": "https://github.com/ChromeDevTools/awesome-chrome-devtools/pull/156#issuecomment-3761423896",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "> obv this is hacks on top of hacks. Presumably there's another fix that cleans all this up a bit. 🤷\r\n\r\nI ran a simplifier agent and got this: \r\n- https://github.com/rishikanthc/Scriberr/compare/auth-",
+      "timestamp": "2026-01-16T02:34:00+00:00",
+      "date": "2026-01-16",
+      "time": "02:34:00",
+      "url": "https://github.com/rishikanthc/Scriberr/pull/385#issuecomment-3757826037",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: auth-infinite-cleanup",
+      "timestamp": "2026-01-16T02:29:37+00:00",
+      "date": "2026-01-16",
+      "time": "02:29:37",
+      "url": "https://github.com/paulirish",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: auth-infinite",
+      "timestamp": "2026-01-16T01:16:06+00:00",
+      "date": "2026-01-16",
+      "time": "01:16:06",
+      "url": "https://github.com/paulirish",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "you dont need to do this.  all git-prefixed binaries are magically available via `git foo`.   just some magic that git does.\r\n\r\niirc  even `git-commit-foo` will also register as `git commit foo` ",
+      "timestamp": "2026-01-14T20:58:41+00:00",
+      "date": "2026-01-14",
+      "time": "20:58:41",
+      "url": "https://github.com/paulirish/git-open/pull/220#issuecomment-3751690185",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "> @paulirish I have updated the devtools-frontend dependency today so it should be ready to be rebased\r\n\r\nDanke! It's up to date now.",
+      "timestamp": "2026-01-14T01:58:29+00:00",
+      "date": "2026-01-14",
+      "time": "01:58:29",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp/pull/733#issuecomment-3747338085",
+      "metadata": {}
+    }
+  ],
+  "cross_references": {
+    "twitter": "paulirish_twitter.json",
+    "linkedin": "paulirish_linkedin.json"
+  },
+  "confidence_score": 1.0,
+  "exported_at": "2026-01-17T17:17:09.487375",
+  "fetch_status": "success"
+}

@@ -1,0 +1,262 @@
+{
+  "platform": "linkedin",
+  "identifier": "mrdoob",
+  "profile": {
+    "name": "mrdoob",
+    "headline": "Independent Software Engineer | WebGL & 3D Graphics Specialist | Creator of Three.js | Open Source Contributor",
+    "location": "Unknown",
+    "about": "I am an independent software developer with a profound passion for pushing the boundaries of interactive web experiences, particularly in 3D graphics. As the creator of Three.js, I have extensive hands-on experience in WebGL, JavaScript, and building high-performance, accessible libraries. My work focuses on developing innovative solutions, contributing to the open-source community, and exploring new frontiers in digital creativity.",
+    "current_company": "Freelance",
+    "current_position": "Independent Software Engineer",
+    "connections": 480,
+    "followers": 15345,
+    "profile_views_last_90_days": 876,
+    "open_to_work": false,
+    "open_to_hiring": false,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Lead Software Consultant",
+        "company": "Freelance",
+        "location": "Remote",
+        "start_date": "January 2021",
+        "end_date": "Present",
+        "description": [
+          "Spearheaded full-stack development for diverse clients, architecting scalable solutions using Python/Django, Node.js/React, and AWS/GCP services, leading to 15-20% performance improvements for key applications.",
+          "Managed end-to-end project lifecycles, from requirements gathering and technical design to deployment and post-launch support, consistently delivering projects on time and within budget.",
+          "Provided technical leadership and strategic guidance to client teams, implementing best practices in CI/CD, testing, and cloud infrastructure management across various industries."
+        ],
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Innovate Solutions Inc.",
+        "location": "London, UK",
+        "start_date": "January 2018",
+        "end_date": "December 2020",
+        "description": [
+          "Led the design and implementation of critical microservices in Java/Spring Boot for a high-traffic e-commerce platform, improving transaction processing speed by 25% and reducing error rates.",
+          "Mentored junior developers, conducted rigorous code reviews, and contributed significantly to architectural discussions, ensuring adherence to coding standards and system scalability for future growth.",
+          "Collaborated closely with product owners to translate complex business requirements into robust technical specifications, driving the successful launch of three major product features."
+        ],
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Synergy Tech Ltd.",
+        "location": "London, UK",
+        "start_date": "June 2015",
+        "end_date": "December 2017",
+        "description": [
+          "Developed and maintained RESTful APIs using Node.js and MongoDB for a SaaS application, supporting new feature development and seamless third-party integrations.",
+          "Contributed to frontend development with React.js, enhancing user interfaces and improving overall user experience by optimizing component rendering and implementing responsive designs.",
+          "Actively participated in agile development cycles, including sprint planning, daily stand-ups, and retrospectives, consistently meeting sprint goals and contributing to team velocity."
+        ],
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "Georgia Institute of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2017,
+        "end_year": 2021,
+        "activities": "Concentration in Software Engineering and AI, Dean's List, Member of Computing Club"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 30
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 19
+      },
+      {
+        "name": "Agile",
+        "endorsements": 36
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "My take on AI in 3D content creation: It's not about replacing artists and developers, but augmenting their capabilities. Tools leveraging AI can significantly reduce the grunt work – think procedural texture generation, intelligent asset creation, or even optimizing mesh geometry. This frees up human creativity to focus on higher-level design, artistic vision, and complex problem-solving. The synergy between human ingenuity and AI efficiency will define the next era of 3D development.\n\nAre you using any AI tools in your 3D workflow yet? #AI #3DGraphics #CreativeTech #FutureOfWork #SoftwareEngineering",
+      "timestamp": "2026-01-12T12:32:08.524134",
+      "date": "2026-01-12",
+      "time": "12:32:08",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/mrdoob-6611",
+      "engagement": {
+        "likes": 130,
+        "comments": 20
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just came across this fascinating research paper on advanced volumetric rendering techniques: [Link to a hypothetical research paper on volumetric rendering]. While highly academic, it provides a glimpse into the cutting-edge of realistic atmospheric and cloud rendering. It's a reminder of the continuous innovation happening in computer graphics and how these ideas, over time, trickle down into more accessible APIs and libraries. Always good to peek over the horizon! #ComputerGraphics #Research #VolumetricRendering #TechTrends",
+      "timestamp": "2026-01-11T19:32:08.524134",
+      "date": "2026-01-11",
+      "time": "19:32:08",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/mrdoob-6926",
+      "engagement": {
+        "likes": 45,
+        "comments": 4
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to share a small side project I've been tinkering with: a lightweight, browser-based glTF editor built on Three.js! My goal was to create a super-fast tool for quick model inspections and basic manipulations without needing heavy desktop software. It's still early, but I'm hoping it can be a useful utility for web 3D developers working with glTF assets. More details and a public demo coming soon! #Threejs #glTF #3DTools #OpenSource #WebDevelopment",
+      "timestamp": "2026-01-08T07:32:08.524134",
+      "date": "2026-01-08",
+      "time": "07:32:08",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/mrdoob-2820",
+      "engagement": {
+        "likes": 175,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read this fascinating article on the evolution of real-time global illumination techniques in games and simulations: [Link to a hypothetical article on real-time GI]. While it's primarily focused on native engines, the principles and challenges discussed are highly relevant to what we're striving for on the web with WebGL and WebGPU. Achieving truly convincing global illumination in a browser environment, even with advancements like denoising, remains a significant hurdle. It's inspiring to see the progress made and ponder how these techniques might be adapted for broader web use cases in the future. #3DGraphics #RealtimeRendering #GlobalIllumination #TechReview",
+      "timestamp": "2026-01-03T08:32:08.524134",
+      "date": "2026-01-03",
+      "time": "08:32:08",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/mrdoob-2000",
+      "engagement": {
+        "likes": 72,
+        "comments": 8
+      }
+    },
+    {
+      "type": "post",
+      "content": "The conversation around WebGPU is intensifying, and for good reason. As someone deeply invested in the future of web graphics, I believe it's going to be a game-changer, not just an incremental update. The low-level control and performance it offers will unlock entirely new classes of applications and experiences directly in the browser. It's a complex transition, but the long-term benefits for realism, interactivity, and developer flexibility are immense. \n\nAre you already experimenting with WebGPU, or still focusing on WebGL? What are your biggest hopes (or fears) for its widespread adoption? #WebGPU #WebGL #3DGraphics #FutureTech #Performance",
+      "timestamp": "2026-01-03T04:32:08.524134",
+      "date": "2026-01-03",
+      "time": "04:32:08",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/mrdoob-3716",
+      "engagement": {
+        "likes": 158,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "A huge thank you and shout-out to @[CommunityMemberA] and @[CommunityMemberB] for their outstanding contributions to the Three.js codebase this past month! Their dedication to tackling complex issues and implementing new features (specifically related to the new post-processing pipeline) has been invaluable. The strength of open-source projects lies in its community, and their work exemplifies that spirit. If you see them around, give them a virtual high-five! #OpenSourceCommunity #Threejs #Contributors #TeamWin #Acknowledgement",
+      "timestamp": "2025-12-29T21:32:08.524134",
+      "date": "2025-12-29",
+      "time": "21:32:08",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/mrdoob-4708",
+      "engagement": {
+        "likes": 115,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Looking back, it's incredible how much 3D on the web has evolved since I started working on Three.js in the early days of WebGL. What began as a somewhat experimental browser API has blossomed into a robust platform for everything from immersive product configurators to scientific visualizations and even full-fledged games. The initial challenges of performance and browser fragmentation feel distant now, replaced by exciting new frontiers like WebGPU and WebXR. It's been an amazing journey to be part of this transformation. #Threejs #WebGL #WebDevelopment #TechHistory #Innovation",
+      "timestamp": "2025-12-21T22:32:08.524134",
+      "date": "2025-12-21",
+      "time": "22:32:08",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/mrdoob-8426",
+      "engagement": {
+        "likes": 250,
+        "comments": 30
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to announce the latest Three.js release, r160! This iteration brings some exciting performance enhancements, better WebXR support, and a more robust material system. A huge shoutout to the incredible Three.js community and all the contributors who make this project continually evolve. Your passion and dedication are truly inspiring. Check out the release notes and start building something amazing!\n\nWhat are you most excited to try in r160? Let me know in the comments! #Threejs #WebGL #3DGraphics #OpenSource #WebDevelopment",
+      "timestamp": "2025-12-11T05:32:08.524134",
+      "date": "2025-12-11",
+      "time": "05:32:08",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/mrdoob-5047",
+      "engagement": {
+        "likes": 287,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to share a recent independent project I wrapped up: an interactive 3D data visualization for a client in the renewable energy sector. Using Three.js, we transformed complex energy consumption patterns into an intuitive, real-time visual model, allowing stakeholders to identify trends and make data-driven decisions more effectively. It's always incredibly rewarding to see how 3D graphics can bring abstract data to life and create a truly immersive analytical experience. #IndependentConsultant #3DVisualization #DataScience #Threejs #WebDevelopment",
+      "timestamp": "2025-12-09T19:32:08.524134",
+      "date": "2025-12-09",
+      "time": "19:32:08",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/mrdoob-5495",
+      "engagement": {
+        "likes": 98,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "For anyone looking to dive into the world of WebGL and 3D graphics, my best advice is to embrace the math early on. Understanding linear algebra, trigonometry, and vector math isn't just theoretical; it's the fundamental language of 3D. While libraries like Three.js abstract a lot of it away, a solid grasp of the underlying principles will empower you to debug complex issues, optimize performance, and create truly unique effects. Don't shy away from the textbooks – they're your friends!\n\nWhat resources helped you most when starting out in 3D graphics? #CareerAdvice #WebGL #Threejs #3DGraphics #LearnToCode",
+      "timestamp": "2025-12-02T23:32:08.524134",
+      "date": "2025-12-02",
+      "time": "23:32:08",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/mrdoob-2926",
+      "engagement": {
+        "likes": 85,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Maintaining an open-source project like Three.js over many years has been one of the most challenging yet rewarding journeys of my career. It's a constant balancing act between innovation, stability, community management, and personal time. The sheer volume of issues, pull requests, and discussions can be overwhelming, but seeing the incredible things people build with it makes every minute worthwhile. It truly is a community effort, and I'm eternally grateful for every single contribution.\n\nWhat are your thoughts on the sustainability of large open-source projects? #OpenSource #Threejs #Community #SoftwareDevelopment #Reflections",
+      "timestamp": "2025-12-02T18:32:08.524134",
+      "date": "2025-12-02",
+      "time": "18:32:08",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/mrdoob-8350",
+      "engagement": {
+        "likes": 210,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "A little-known Three.js tip for performance optimization: If you're instantiating many objects with the same geometry and material (e.g., a forest of trees, a swarm of particles), consider using `InstancedMesh`. It can dramatically reduce draw calls and improve frame rates by sending data to the GPU once for multiple instances. It's a powerful tool often overlooked for simpler loops. #Threejs #Performance #Optimization #WebGLTips #Gamedev",
+      "timestamp": "2025-12-01T04:32:08.524134",
+      "date": "2025-12-01",
+      "time": "04:32:08",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/mrdoob-1919",
+      "engagement": {
+        "likes": 90,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "Navigating the balance between client projects and contributing to open source as an independent engineer can be tricky. My strategy: dedicate a set percentage of my week to open-source contributions, even if it's just a few hours. This ensures I stay connected to the community, keep my skills sharp on passion projects, and contribute to tools I deeply believe in, without compromising client commitments. It's a long-term investment in both personal growth and the ecosystem. #IndependentEngineer #OpenSource #CareerGrowth #WorkLifeBalance #SoftwareDev",
+      "timestamp": "2025-11-30T12:32:08.524134",
+      "date": "2025-11-30",
+      "time": "12:32:08",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/mrdoob-3115",
+      "engagement": {
+        "likes": 65,
+        "comments": 7
+      }
+    }
+  ],
+  "post_count": 13,
+  "cross_references": {
+    "github": "mrdoob_github.json",
+    "twitter": "mrdoob_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:32:08.541097",
+  "is_simulated": true
+}

@@ -1,0 +1,21 @@
+{
+  "username": "patak-dev",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:24:42.029524",
+  "data": {
+    "profile": {
+      "name": "patak",
+      "username": "patakdev",
+      "bio": "Matias Capeletto | @vitejs Core Team \u26a1\ufe0f | Building @vitest-dev & @elk-zone. Passionate about web dev, open source, & DX. Sharing thoughts & learning in public. \ud83d\udcbb",
+      "location": "Unknown",
+      "website": "github.com/patak-dev",
+      "followers": 12500,
+      "following": 680,
+      "tweets_count": 4800,
+      "joined_date": "June 2014",
+      "is_verified": false,
+      "github_username": "patak"
+    },
+    "tweets": []
+  }
+}

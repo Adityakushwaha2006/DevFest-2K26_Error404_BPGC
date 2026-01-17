@@ -1,0 +1,21 @@
+{
+  "username": "sebmarkbage",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:32:56.744067",
+  "data": {
+    "profile": {
+      "name": "Sebastian Markb\u00e5ge",
+      "headline": "Principal Software Engineer at Vercel | Core Contributor to React & Next.js | Web Standards Enthusiast",
+      "location": "New York City",
+      "about": "I am a Principal Software Engineer at Vercel, dedicated to advancing the state of web development through innovative framework design and implementation. With a deep background in JavaScript and web standards, I've played a significant role in developing technologies that empower millions of developers worldwide, including contributions to React and Next.js. My passion lies in building scalable, performant, and developer-friendly tools that shape the future of the web.",
+      "current_company": "Vercel",
+      "current_position": "Principal Software Engineer",
+      "connections": 500,
+      "followers": 15400,
+      "profile_views_last_90_days": 850,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

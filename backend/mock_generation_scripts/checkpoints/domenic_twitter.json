@@ -1,0 +1,158 @@
+{
+  "username": "domenic",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:26:16.862607",
+  "data": {
+    "profile": {
+      "name": "Domenic Denicola",
+      "username": "domenicd",
+      "bio": "Software developer in Tokyo, Japan. \ud83c\udf8c Passionate about all things #ML and building intelligent systems. Learning out loud & sharing insights. \ud83e\udd16\ud83d\udca1",
+      "location": "Tokyo, Japan",
+      "website": "github.com/domenicdenicola",
+      "followers": 3456,
+      "following": 876,
+      "tweets_count": 5123,
+      "joined_date": "July 2018",
+      "is_verified": false,
+      "github_username": "Domenic Denicola"
+    },
+    "tweets": [
+      {
+        "content": "If your CI/CD pipeline takes longer than 15 minutes, you're doing it wrong. Fight me. #devops #cicd",
+        "likes": 35,
+        "retweets": 10,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2026-01-17T08:26:16.862607"
+      },
+      {
+        "content": "Saw that huge outage at [Hypothetical Cloud Provider]. This is why distributed systems are both a marvel and a nightmare. Always plan for failure. #cloudcomputing #devops",
+        "likes": 12,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-14T19:26:16.862607"
+      },
+      {
+        "content": "Big win today: finally refactored that legacy component that's been haunting us for months. The code feels so much cleaner now. Small victories! \u2728 #softwareengineer #refactoring",
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-11T04:26:16.862607"
+      },
+      {
+        "content": "Unpopular opinion: Microservices are great for scaling *teams*, not just applications. If your team communication breaks down over a monolith, you've already lost. #softwaredevelopment #microservices",
+        "likes": 18,
+        "retweets": 3,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-09T18:26:16.862607"
+      },
+      {
+        "content": "Managed to get basic user authentication working for my personal dashboard project. JWT tokens are tricky but powerful. Next up: data persistence! #learninginpublic #webdevelopment",
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-09T06:26:16.862607"
+      },
+      {
+        "content": "My brain trying to remember if it's `Array.prototype.map` or `Array.map` for the 1000th time. Send coffee. \u2615 #javascript #developerproblems",
+        "likes": 19,
+        "retweets": 5,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-05T22:26:16.862607"
+      },
+      {
+        "content": "Thinking about picking up a 'good first issue' from a library I use daily. Anyone have tips for getting started with larger codebases in open source? #opensource #contribute",
+        "likes": 6,
+        "retweets": 0,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-04T12:26:16.862607"
+      },
+      {
+        "content": "Diving into a new side project: building a tiny CLI tool to manage my dotfiles with Rust. Learning a ton about error handling and async patterns. Wish me luck! #RustLang #sideproject",
+        "likes": 7,
+        "retweets": 1,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-02T23:26:16.862607"
+      },
+      {
+        "content": "The new VS Code update with improved remote development features looks amazing. Might finally convince me to ditch my local dev environment for some projects. #vscode #devtools",
+        "likes": 8,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-01T15:26:16.862607"
+      },
+      {
+        "content": "Just submitted my first PR to a small open-source project! Fixed a tiny typo in the docs, but it feels good to contribute. Every little bit helps! #opensource #contribution",
+        "likes": 10,
+        "retweets": 1,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-31T18:26:16.862607"
+      },
+      {
+        "content": "Just spent 30 minutes debugging a feature only to realize I was on the wrong branch. Happens every time. \ud83e\udd26\u200d\u2642\ufe0f #developerlife #git",
+        "likes": 25,
+        "retweets": 7,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-30T11:26:16.862607"
+      },
+      {
+        "content": "Looking into state management libraries for a new React app. Torn between Zustand and React Query. Any recommendations or strong opinions for a medium-sized project? #reactjs #statemanagement",
+        "likes": 11,
+        "retweets": 2,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-30T10:26:16.862607"
+      },
+      {
+        "content": "Frontend frameworks are getting so complex these days, it feels like we're constantly building abstractions on top of abstractions. Sometimes I miss vanilla JS. \ud83e\udd14 #webdev #frontend",
+        "likes": 15,
+        "retweets": 4,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-29T18:26:16.862607"
+      },
+      {
+        "content": "Had a great brainstorming session with the team today about scaling our main API. Lots of challenging but exciting ideas on the table. Love when things click! #teambuilding #architecture",
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-27T05:26:16.862607"
+      },
+      {
+        "content": "The most impactful skill for a developer isn't just coding, it's learning how to learn. The tech landscape changes so fast, staying curious is key. #softwaredevelopment #lifelonglearning",
+        "likes": 22,
+        "retweets": 6,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-23T01:26:16.862607"
+      },
+      {
+        "content": "My computer fan noise is directly correlated to the complexity of the current function I'm debugging. It's a precise metric. #programming #laptoplife",
+        "likes": 17,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-20T07:26:16.862607"
+      },
+      {
+        "content": "Discovered a neat little trick today with CSS custom properties for theming. It's so much more powerful than I gave it credit for initially! #css #webdesign #frontend",
+        "likes": 9,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-18T03:26:16.862607"
+      }
+    ]
+  }
+}

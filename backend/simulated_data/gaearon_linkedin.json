@@ -1,0 +1,262 @@
+{
+  "platform": "linkedin",
+  "identifier": "gaearon",
+  "profile": {
+    "name": "dan",
+    "headline": "Freelance Software Developer | Building Robust & Scalable Solutions",
+    "location": "Unknown",
+    "about": "As a dedicated freelance software developer, I specialize in crafting efficient and robust solutions across various technical domains. I thrive on tackling complex challenges and delivering high-quality code that meets project objectives and client expectations. My focus is on creating impactful software that drives success for businesses and individuals.",
+    "current_company": "Freelance",
+    "current_position": "Freelance Software Developer",
+    "connections": 387,
+    "followers": 412,
+    "profile_views_last_90_days": 158,
+    "open_to_work": true,
+    "open_to_hiring": false,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Freelance Software Engineer & Consultant",
+        "company": "Freelance",
+        "location": "Remote",
+        "start_date": "Jan 2021",
+        "end_date": "Present",
+        "description": [
+          "Architected, developed, and deployed custom web applications and APIs for various clients, utilizing a diverse tech stack including Python (Django/Flask), Node.js, React, Next.js, and PostgreSQL.",
+          "Managed full project lifecycles from initial discovery and requirements gathering to deployment, maintenance, and technical consultation, ensuring robust and scalable solutions.",
+          "Provided expert advice on technology selection, cloud infrastructure (AWS, GCP), and CI/CD pipelines, optimizing client development workflows and system performance."
+        ],
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Nexus Innovations Inc.",
+        "location": "San Francisco, CA",
+        "start_date": "May 2017",
+        "end_date": "Dec 2020",
+        "description": [
+          "Led a team of 3 developers in building and scaling critical backend microservices using Java (Spring Boot) and Kafka, processing millions of transactions daily.",
+          "Mentored junior engineers, conducted thorough code reviews, and championed best practices for testing, performance, and security across the engineering department.",
+          "Collaborated cross-functionally with product management and DevOps to define technical roadmaps, implement new features, and significantly improve system reliability and uptime."
+        ],
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "BrightScale Tech",
+        "location": "Seattle, WA",
+        "start_date": "Jul 2014",
+        "end_date": "Apr 2017",
+        "description": [
+          "Developed and maintained core features for a SaaS platform using Ruby on Rails, React, and MySQL, contributing to a 25% increase in platform engagement.",
+          "Participated actively in an Agile Scrum environment, delivering high-quality code and participating in daily stand-ups, sprint planning, and retrospectives.",
+          "Implemented comprehensive unit and integration tests (RSpec, Jest) and set up continuous integration pipelines, reducing production bug frequency by 15%."
+        ],
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Washington",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2016,
+        "end_year": 2020,
+        "activities": "ACM Student Chapter Member, Undergraduate Research Assistant (Distributed Systems), Dean's List (multiple semesters)"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 36
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 23
+      },
+      {
+        "name": "Agile",
+        "endorsements": 42
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Came across this fantastic article by [Author Name/Publication] on 'The Art of API Design for Scalability and Developer Experience' [Link to a hypothetical article, e.g., Medium, Dev.to, InfoQ].\n\nIt beautifully articulates the balance between performance, security, and making your APIs intuitive for other developers. A must-read for anyone building robust backend systems. My key takeaway: clear documentation and consistent error handling are non-negotiable for true scalability.\n\n#APIDesign #BackendDevelopment #Scalability #DeveloperExperience #SoftwareEngineering",
+      "timestamp": "2026-01-17T00:01:20.735694",
+      "date": "2026-01-17",
+      "time": "00:01:20",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/gaearon-4715",
+      "engagement": {
+        "likes": 65,
+        "comments": 7
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thinking about the rise of AI in development tools. While tools like Copilot are undeniably powerful for boosting productivity, I believe the core skill of a developer will shift even more towards understanding systems, architectural design, and critical thinking. \n\nAI can write code, but we still need human ingenuity to design robust, scalable, and truly innovative solutions. What are your thoughts on the evolving role of developers? \n\n#AIDevelopment #FutureOfWork #SoftwareEngineering #DeveloperSkills #Innovation #TechTrends",
+      "timestamp": "2026-01-03T13:01:20.735694",
+      "date": "2026-01-03",
+      "time": "13:01:20",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/gaearon-2801",
+      "engagement": {
+        "likes": 95,
+        "comments": 20
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up an incredibly rewarding project developing a custom CRM integration for a rapidly growing e-commerce startup! We leveraged serverless architecture (AWS Lambda, DynamoDB) to ensure high scalability and cost-efficiency, handling peak traffic seamlessly.\n\nSeeing the immediate positive impact on their sales team's workflow and data accuracy makes all the late nights worth it. Love building solutions that truly empower businesses to grow! \n\n#FreelanceDeveloper #SoftwareDevelopment #AWS #Serverless #CRMIntegration #ScalableSolutions",
+      "timestamp": "2025-12-26T05:01:20.735694",
+      "date": "2025-12-26",
+      "time": "05:01:20",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/gaearon-6147",
+      "engagement": {
+        "likes": 88,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just completed a certification in Google Cloud Professional Cloud Architect! Always striving to deepen my knowledge in cloud infrastructure to better serve clients with cutting-edge, resilient, and scalable solutions. Excited to apply these advanced principles to upcoming projects. #GoogleCloud #CloudArchitect #Certification #ContinuousLearning #FreelanceDeveloper #GCP",
+      "timestamp": "2025-12-22T17:01:20.735694",
+      "date": "2025-12-22",
+      "time": "17:01:20",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/gaearon-1492",
+      "engagement": {
+        "likes": 70,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge shoutout to the amazing team at [Client Type/Name - e.g., 'a cutting-edge FinTech startup'] on the successful launch of their new data analytics platform! It was an absolute pleasure collaborating on the backend architecture and development, ensuring it could handle massive data volumes with speed and reliability.\n\nWitnessing a client's vision come to life and knowing the scalable foundation we built will support their future growth is incredibly fulfilling. Congrats!\n\n#ClientSuccess #SoftwareLaunch #FinTech #DataAnalytics #BackendDevelopment #Collaboration",
+      "timestamp": "2025-12-19T15:01:20.735694",
+      "date": "2025-12-19",
+      "time": "15:01:20",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/gaearon-8499",
+      "engagement": {
+        "likes": 130,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Exciting news! I'm officially opening up my calendar for new client engagements starting next month. If your team is grappling with complex system integrations, needs a high-performance API built from the ground up, or requires expert consultation on architecting scalable cloud solutions, let's connect.\n\nI'm passionate about transforming intricate requirements into clean, efficient, and robust software. \n\n#NewProjects #FreelanceAvailable #SoftwareConsulting #CloudSolutions #APIDevelopment #ScalableSoftware",
+      "timestamp": "2025-12-16T08:01:20.735694",
+      "date": "2025-12-16",
+      "time": "08:01:20",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/gaearon-8490",
+      "engagement": {
+        "likes": 55,
+        "comments": 5
+      }
+    },
+    {
+      "type": "post",
+      "content": "The debate around framework-agnostic development vs. sticking to one ecosystem is always fascinating. While frameworks offer speed and convention, a deep understanding of core principles (like HTTP, data structures, and algorithms) allows for truly robust and adaptable solutions, no matter the tech stack.\n\nI often find that a balanced approach, using frameworks intelligently but not becoming dependent on their specifics, leads to more maintainable and future-proof systems. What's your take? \n\n#SoftwareArchitecture #WebDevelopment #ProgrammingPrinciples #FreelanceLife #TechDebate",
+      "timestamp": "2025-12-05T15:01:20.735694",
+      "date": "2025-12-05",
+      "time": "15:01:20",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/gaearon-2190",
+      "engagement": {
+        "likes": 115,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "For aspiring freelance software developers, my biggest piece of advice is to build a strong portfolio and network relentlessly. Your personal projects are your best marketing tools, showcasing not just what you can do, but how you approach problems.\n\nDon't wait for the perfect project; start building, sharing, and connecting with others in the industry. The opportunities will follow. \n\n#CareerAdvice #FreelanceTips #SoftwareDeveloper #PortfolioBuilding #Networking",
+      "timestamp": "2025-11-30T09:01:20.735694",
+      "date": "2025-11-30",
+      "time": "09:01:20",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/gaearon-7392",
+      "engagement": {
+        "likes": 78,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Diving deep into WebAssembly (Wasm) lately and I'm consistently impressed by its potential beyond just browser applications. The ability to run high-performance code across various environments, coupled with its sandboxed nature, makes it a fascinating candidate for cloud-native applications and serverless functions.\n\nI believe we'll see Wasm playing a much larger role in building extremely efficient and portable microservices in the near future. What are your thoughts on its broader adoption? \n\n#WebAssembly #Wasm #CloudNative #Microservices #PerformanceOptimization #FutureOfTech",
+      "timestamp": "2025-11-29T17:01:20.735694",
+      "date": "2025-11-29",
+      "time": "17:01:20",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/gaearon-9322",
+      "engagement": {
+        "likes": 92,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Reflecting on a recent challenge where a client's legacy system was causing significant bottlenecks. Instead of a full, risky rewrite, we implemented a 'strangler fig' pattern, incrementally replacing components with modern, scalable services.\n\nThis approach not only minimized disruption but also delivered tangible improvements in performance and maintainability step-by-step. Sometimes, evolution beats revolution when it comes to robust systems. \n\n#LegacySystems #Refactoring #SoftwareArchitecture #ProblemSolving #FreelanceDeveloper #TechStrategy",
+      "timestamp": "2025-11-25T05:01:20.735694",
+      "date": "2025-11-25",
+      "time": "05:01:20",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/gaearon-6554",
+      "engagement": {
+        "likes": 70,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "One skill I've found invaluable as a freelance developer isn't purely technical: it's active listening. Understanding a client's true pain points and future aspirations beyond their initial request is crucial for delivering solutions that actually hit the mark and provide long-term value.\n\nIt's about being a problem-solver first, and a coder second. \n\n#SoftSkills #FreelanceSuccess #ClientRelations #ProblemSolving #SoftwareConsultant",
+      "timestamp": "2025-11-23T18:01:20.735694",
+      "date": "2025-11-23",
+      "time": "18:01:20",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/gaearon-5652",
+      "engagement": {
+        "likes": 105,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "Successfully migrated a client's monolithic backend to a microservices architecture on Kubernetes last week! The move significantly improved their system's resilience, scalability, and allowed for independent team deployments. \n\nThe journey had its complexities, especially around data consistency and distributed tracing, but the results are a testament to careful planning and execution. Thrilled to see their operations become more agile. \n\n#Microservices #Kubernetes #CloudMigration #DevOps #ScalableArchitecture #Achievement",
+      "timestamp": "2025-11-22T07:01:20.735694",
+      "date": "2025-11-22",
+      "time": "07:01:20",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/gaearon-1675",
+      "engagement": {
+        "likes": 180,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "Found this compelling piece on 'The hidden costs of technical debt in rapidly scaling startups' [Link to a blog post, e.g., from a VC firm, or a tech lead].\n\nIt's a fantastic reminder that while speed is crucial, neglecting clean code and proper architecture early on can lead to catastrophic slowdowns later. Investing in robust foundations pays dividends, especially when building scalable solutions. Highly recommend a read! \n\n#TechnicalDebt #StartupLife #SoftwareQuality #Scalability #EngineeringCulture",
+      "timestamp": "2025-11-19T06:01:20.735694",
+      "date": "2025-11-19",
+      "time": "06:01:20",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/gaearon-8035",
+      "engagement": {
+        "likes": 58,
+        "comments": 6
+      }
+    }
+  ],
+  "post_count": 13,
+  "cross_references": {
+    "github": "gaearon_github.json",
+    "twitter": "gaearon_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:01:21.211598",
+  "is_simulated": true
+}

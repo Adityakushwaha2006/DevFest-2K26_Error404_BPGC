@@ -1,0 +1,284 @@
+{
+  "platform": "linkedin",
+  "identifier": "antfu",
+  "profile": {
+    "name": "Anthony Fu",
+    "headline": "Staff Software Engineer at Vercel | Nuxt Core Team Member | Open Source Contributor & Developer Tools Specialist",
+    "location": "undefined",
+    "about": "I am a Staff Software Engineer at Vercel, dedicated to enhancing the developer experience and contributing to the Nuxt.js ecosystem. With a passion for open-source and modern web technologies, I focus on building robust, scalable tools that empower developers worldwide. I believe in continuously pushing the boundaries of what's possible, always navigating towards new challenges and innovative solutions.",
+    "current_company": "@vercel / @nuxt",
+    "current_position": "Staff Software Engineer",
+    "connections": 387,
+    "followers": 12500,
+    "profile_views_last_90_days": 4800,
+    "open_to_work": false,
+    "open_to_hiring": false,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Staff Software Engineer",
+        "company": "Vercel / Nuxt",
+        "location": "Remote, Global",
+        "start_date": "October 2022",
+        "end_date": "Present",
+        "description": "• Spearheaded the development and optimization of core features within the Nuxt ecosystem, significantly improving developer experience and build performance.\n• Contributed to the architecture and implementation of scalable Vercel platform services, leveraging serverless functions and edge computing paradigms.\n• Mentored junior engineers and collaborated with open-source contributors, fostering a vibrant and productive community around framework enhancements.",
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Quantum Leap Tech",
+        "location": "London, UK",
+        "start_date": "April 2019",
+        "end_date": "September 2022",
+        "description": "• Led the design and implementation of microservices for a high-traffic e-commerce platform using Node.js, TypeScript, and AWS cloud services.\n• Optimized database queries and API response times, resulting in a 25% reduction in latency for critical user journeys.\n• Developed and maintained robust CI/CD pipelines, integrating automated testing and deployment strategies for continuous delivery.",
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Innovate Labs",
+        "location": "Dublin, Ireland",
+        "start_date": "June 2016",
+        "end_date": "March 2019",
+        "description": "• Developed and maintained features for a large-scale enterprise SaaS application using React, Java Spring Boot, and PostgreSQL.\n• Participated in the full software development lifecycle, including requirements gathering, design, coding, testing, and deployment.\n• Collaborated with product managers and UX designers to translate user stories into technical specifications and deliver user-centric solutions.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "Georgia Institute of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2014,
+        "end_year": 2018,
+        "activities": "Dean's List (6 semesters), President of Competitive Programming Club, Undergraduate Research Assistant (Machine Learning)"
+      },
+      {
+        "institution": "University of Texas at Austin",
+        "degree": "Master of Science",
+        "field_of_study": "Computer Science (Specialization: Software Engineering)",
+        "start_year": 2018,
+        "end_year": 2020,
+        "activities": "Graduate Teaching Assistant (Data Structures), Capstone Project: Distributed Systems"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 10
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 33
+      },
+      {
+        "name": "Agile",
+        "endorsements": 28
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Super excited to announce the release of `v1.0.0` for `@my-org/my-nuxt-module`, a Nuxt module I've been passionately working on! This version brings full Nuxt 3 compatibility, improved type safety, and a much more streamlined API for integrating X functionality into your Nuxt apps.\n\nThis has been a labor of love, building on community feedback, and I'm incredibly proud of what we've achieved. Special thanks to everyone who contributed to testing and provided valuable insights! Give it a try and let me know your thoughts.\n\n#Nuxt #VueJS #OpenSource #DeveloperTools #ModuleDevelopment",
+      "timestamp": "2026-01-10T16:23:11.958307",
+      "date": "2026-01-10",
+      "time": "16:23:11",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/antfu-2985",
+      "engagement": {
+        "likes": 75,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "Want to start contributing to open source but don't know where to begin? My advice: Start small, pick a project you actually use, and don't be afraid to ask questions.\n\nLook for `good first issue` labels, improve documentation, or even just report clear bugs. The goal isn't immediate glory; it's about learning, collaborating, and gaining confidence. Every contribution, no matter how small, helps the project and builds your skills. Just jump in!\n\n#OpenSource #CareerAdvice #SoftwareDevelopment #Community #GetInvolved",
+      "timestamp": "2026-01-07T07:23:11.958307",
+      "date": "2026-01-07",
+      "time": "07:23:11",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/antfu-4372",
+      "engagement": {
+        "likes": 90,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "Big kudos to the Vercel Deployments team for their relentless focus on stability and speed! This week, we saw an all-time high in successful deployments and a significant reduction in average deployment times across the platform. \n\nThese are the unsung heroes who ensure that everything you push to Vercel just works, reliably and instantly. It's a massive effort that directly impacts millions of developers and users worldwide. Proud to be part of a team that prioritizes robust infrastructure.\n\n#Vercel #Teamwork #EngineeringExcellence #WebInfrastructure #DeveloperProductivity",
+      "timestamp": "2026-01-02T08:23:11.958307",
+      "date": "2026-01-02",
+      "time": "08:23:11",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/antfu-8120",
+      "engagement": {
+        "likes": 150,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "The evolution of serverless and Edge computing with Vercel's infrastructure continues to astound me. We're seeing unprecedented levels of performance and reliability, making it easier than ever for developers to deploy global-scale applications without worrying about infrastructure.\n\nIt's not just about speed; it's about developer empowerment. Shifting infrastructure concerns away from the developer means more focus on innovation and user experience. The future of the web is distributed, and it's exciting to be at the forefront of building that future.\n\n#Vercel #Serverless #EdgeComputing #WebPerformance #DeveloperTools",
+      "timestamp": "2025-12-25T02:23:11.958307",
+      "date": "2025-12-25",
+      "time": "02:23:11",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/antfu-5966",
+      "engagement": {
+        "likes": 140,
+        "comments": 21
+      }
+    },
+    {
+      "type": "post",
+      "content": "My personal open-source project, `nuxt-awesome-utils`, just hit 500 stars on GitHub! 🎉\n\nIt's a small collection of composables and utilities that grew from my daily Nuxt development, and seeing so many people find it useful is incredibly motivating. Thanks to everyone who starred, contributed, or even just used it in their projects. Every bit of community support fuels further development!\n\nIf you're building with Nuxt, check it out (link in comments) – you might find a handy helper!\n\n#OpenSource #Nuxt #VueJS #DeveloperTools #SideProject",
+      "timestamp": "2025-12-24T07:23:11.958307",
+      "date": "2025-12-24",
+      "time": "07:23:11",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/antfu-7464",
+      "engagement": {
+        "likes": 80,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Reflecting on the progress of Nuxt 3 and its foundation with Nitro. It's remarkable how much the ecosystem has matured, offering robust solutions for everything from static site generation to full-stack server-side rendering, all with incredible performance. \n\nNitro's server engine abstraction has truly been a game-changer, allowing Nuxt to deploy on virtually any JavaScript runtime – from Node.js to Deno to Cloudflare Workers. This flexibility future-proofs applications and empowers developers like never before.\n\n#Nuxt #VueJS #Nitro #SSR #WebArchitecture",
+      "timestamp": "2025-12-23T16:23:11.958307",
+      "date": "2025-12-23",
+      "time": "16:23:11",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/antfu-2028",
+      "engagement": {
+        "likes": 120,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to share that a project I've been deeply involved with at Vercel just hit general availability! We've been working tirelessly to enhance our Edge Functions cold start times, and the results are truly phenomenal. Seeing real-world performance gains for our users, shaving off critical milliseconds, is incredibly rewarding. \n\nThis wasn't just a technical challenge; it was a testament to amazing cross-functional collaboration. Huge shoutout to the entire Vercel team, especially the infrastructure and platform engineers who pushed the boundaries of what's possible at the Edge. \n\nCheck out the details in our latest blog post! #Vercel #EdgeFunctions #WebPerformance #DeveloperExperience",
+      "timestamp": "2025-12-19T06:23:11.958307",
+      "date": "2025-12-19",
+      "time": "06:23:11",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/antfu-6531",
+      "engagement": {
+        "likes": 285,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "This article on 'The Hidden Costs of Microfrontends' offers a really balanced perspective on a hot architectural topic. While microfrontends promise independent deployment and team autonomy, the overhead in tooling, cross-app communication, and consistent DX can be substantial if not managed carefully.\n\nIt reinforces my belief that architectural decisions should always be driven by specific problems and team context, not just trends. What are your experiences? Have you found a sweet spot for microfrontends, or have the complexities outweighed the benefits?\n\n#FrontendArchitecture #Microfrontends #WebDevelopment #SoftwareDesign #ScalingTeams",
+      "timestamp": "2025-12-07T04:23:11.958307",
+      "date": "2025-12-07",
+      "time": "04:23:11",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/antfu-7439",
+      "engagement": {
+        "likes": 65,
+        "comments": 13
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read an insightful piece on the latest advancements in Nuxt 3's module ecosystem. It really highlights the power and flexibility that Nitro and the new module hooks bring to the table for extending Nuxt applications.\n\nAs a Nuxt Core Team member, it's incredibly exciting to see the community embracing these tools and pushing the boundaries of what you can build. If you're looking to dive deeper into custom integrations or build powerful reusable features, this is a must-read. \n\nLink in comments! What's your favorite Nuxt module that you can't live without?\n\n#Nuxt #VueJS #OpenSource #WebDevelopment #DeveloperTools",
+      "timestamp": "2025-12-05T18:23:11.958307",
+      "date": "2025-12-05",
+      "time": "18:23:11",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/antfu-2399",
+      "engagement": {
+        "likes": 98,
+        "comments": 14
+      }
+    },
+    {
+      "type": "post",
+      "content": "A huge congratulations and thank you to the entire Nuxt community and core team! We've officially surpassed 200,000 weekly downloads for Nuxt 3 on npm. This milestone is a testament to the hard work, dedication, and incredible contributions from everyone involved – from core development to documentation, module creation, and bug reporting.\n\nIt's truly inspiring to be part of such a vibrant and growing open-source ecosystem. Let's keep building amazing things together!\n\n#Nuxt #VueJS #OpenSource #Community #WebDevelopment",
+      "timestamp": "2025-12-02T10:23:11.958307",
+      "date": "2025-12-02",
+      "time": "10:23:11",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/antfu-8728",
+      "engagement": {
+        "likes": 130,
+        "comments": 19
+      }
+    },
+    {
+      "type": "post",
+      "content": "Navigating the journey from Senior to Staff Software Engineer often feels less about writing more code and more about amplifying impact. For me, a significant part of that shift involved moving from 'solving problems' to 'identifying the right problems to solve' and empowering others to do so. \n\nIt's about technical vision, cross-team collaboration, and mentorship. If you're aiming for this path, focus on understanding the broader business context, improving communication, and proactively identifying systemic improvements, not just immediate fixes. Your impact multiplies when you enable others.\n\n#CareerAdvice #StaffEngineer #TechLeadership #SoftwareEngineering #Mentorship",
+      "timestamp": "2025-11-25T15:23:11.958307",
+      "date": "2025-11-25",
+      "time": "15:23:11",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/antfu-6758",
+      "engagement": {
+        "likes": 160,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "Developer Experience (DX) isn't just a nice-to-have; it's a critical component of productivity, team morale, and ultimately, business success. As a developer tools specialist, I constantly think about how to reduce friction, simplify complex workflows, and provide instant feedback.\n\nA great DX means less time debugging build steps, less context switching, and more time focused on delivering value. It's an investment that pays dividends. What's one developer tool that significantly improved your DX this year?\n\n#DeveloperExperience #DX #DeveloperTools #Productivity #SoftwareEngineering",
+      "timestamp": "2025-11-24T08:23:11.958307",
+      "date": "2025-11-24",
+      "time": "08:23:11",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/antfu-1088",
+      "engagement": {
+        "likes": 105,
+        "comments": 16
+      }
+    },
+    {
+      "type": "post",
+      "content": "Absolutely thrilled to announce a major upgrade to Vercel's Analytics dashboard! We've completely overhauled the UI/UX, introduced real-time data streaming, and added more granular insights into your site's performance and visitor behavior.\n\nThis was a huge effort across multiple teams, and the dedication to providing developers with actionable data to improve their sites was truly inspiring. Seeing this project go live and knowing the immediate value it brings to our users is a fantastic feeling. Check it out and let us know what you think!\n\n#Vercel #Analytics #DeveloperTools #ProductLaunch #WebDev",
+      "timestamp": "2025-11-22T16:23:11.958307",
+      "date": "2025-11-22",
+      "time": "16:23:11",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/antfu-6651",
+      "engagement": {
+        "likes": 210,
+        "comments": 30
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just had an incredible brainstorming session with our internal Vercel team regarding some upcoming DX improvements for our CLI. The ideas flowing were fantastic, and I'm really energized by the commitment to making every developer's interaction with Vercel as seamless and delightful as possible.\n\nSmall tweaks often lead to huge gains in productivity. Can't wait for you all to see what we're cooking up!\n\n#Vercel #DeveloperExperience #CLI #DeveloperTools #Teamwork",
+      "timestamp": "2025-11-18T22:23:11.958307",
+      "date": "2025-11-18",
+      "time": "22:23:11",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/antfu-4387",
+      "engagement": {
+        "likes": 88,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "The conversation around the 'backend for frontend' pattern continues to evolve, especially with the rise of the Edge. While the benefits of tailored APIs and improved DX are clear, I'm curious about how teams are navigating the operational complexities. \n\nAre you seeing a shift towards more unified 'full-stack' teams leveraging frameworks like Next.js and Nuxt for both frontend and API layers, or are traditional BFF teams still prevalent? What are the biggest challenges you've faced adopting this approach at scale?\n\n#Frontend #BackendForFrontend #EdgeComputing #DeveloperExperience #Architecture",
+      "timestamp": "2025-11-18T01:23:11.958307",
+      "date": "2025-11-18",
+      "time": "01:23:11",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/antfu-9270",
+      "engagement": {
+        "likes": 115,
+        "comments": 22
+      }
+    }
+  ],
+  "post_count": 15,
+  "cross_references": {
+    "github": "antfu_github.json",
+    "twitter": "antfu_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:23:12.018547",
+  "is_simulated": true
+}

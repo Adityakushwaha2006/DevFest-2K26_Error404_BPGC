@@ -1,0 +1,158 @@
+{
+  "username": "getify",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:19:37.866511",
+  "data": {
+    "profile": {
+      "name": "Kyle Simpson",
+      "username": "KyleSimpsonTX",
+      "bio": "Human-Centric Technologist fighting for the people behind the pixels. Building @GetifySolutions. Deep dive into #golang & distributed systems. Always learning in public! \ud83d\udccdAustin, TX",
+      "location": "Austin, TX",
+      "website": "https://kylesimpson.dev",
+      "followers": 7892,
+      "following": 1234,
+      "tweets_count": 5432,
+      "joined_date": "March 2012",
+      "is_verified": false,
+      "github_username": "Kyle Simpson"
+    },
+    "tweets": [
+      {
+        "content": "The most complex part of any project isn't the code. It's figuring out what the product manager *actually* meant. \ud83d\ude02 #HumanProblems #DevHumor",
+        "likes": 72,
+        "retweets": 11,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-16T01:19:37.866511"
+      },
+      {
+        "content": "Wrote a function that handles all edge cases perfectly... in my head. In reality, it probably just catches fire and calls for help. \ud83d\udd25 #CodingFail",
+        "likes": 10,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-09T17:19:37.866511"
+      },
+      {
+        "content": "Software complexity isn't a badge of honor. It's often a failure of empathy. For the next developer, for the user, for ourselves six months from now. Think human first. #CodeQuality",
+        "likes": 123,
+        "retweets": 28,
+        "replies": 12,
+        "type": "original",
+        "timestamp": "2026-01-07T08:19:37.866511"
+      },
+      {
+        "content": "Every abstraction leaks. And when it leaks, it's usually the human on the keyboard who has to mop it up. We owe it to our future selves to understand the layers beneath.",
+        "likes": 105,
+        "retweets": 22,
+        "replies": 11,
+        "type": "original",
+        "timestamp": "2026-01-01T05:19:37.866511"
+      },
+      {
+        "content": "Taking some time this week to reflect on where my energy is best spent to advocate for humane technology. Always looking for ways to make a tangible difference.",
+        "likes": 15,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-31T14:19:37.866511"
+      },
+      {
+        "content": "My debugging process often involves an ancient ritual: explaining the code out loud to an inanimate object, then realizing the obvious flaw halfway through the explanation. Works every time. #DevLife",
+        "likes": 68,
+        "retweets": 10,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-31T02:19:37.866511"
+      },
+      {
+        "content": "Heartbreaking to see another round of layoffs. Behind every job title is a person, a family. We need to build a tech industry that values human contribution and provides more stability.",
+        "likes": 150,
+        "retweets": 40,
+        "replies": 25,
+        "type": "original",
+        "timestamp": "2025-12-31T01:19:37.866511"
+      },
+      {
+        "content": "Thinking a lot about 'sustainable software development' beyond just environmental impact. What about the human sustainability? The burnout, the constant churn? #DevWellbeing",
+        "likes": 80,
+        "retweets": 18,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2025-12-30T22:19:37.866511"
+      },
+      {
+        "content": "Had a fantastic discussion today with a team passionate about improving DX. It's energizing to see others fighting for the people behind the pixels. Keeps me motivated!",
+        "likes": 55,
+        "retweets": 9,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-29T12:19:37.866511"
+      },
+      {
+        "content": "The best code isn't just functional, it's considerate. Considerate of the developer who will read it, the user who will interact with it, and the future self who will maintain it. Empathy in every line.",
+        "likes": 95,
+        "retweets": 19,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2025-12-27T04:19:37.866511"
+      },
+      {
+        "content": "The unsung heroes of open source are often the maintainers doing triage, documentation, and community building. Their work directly supports the 'people behind the pixels'. Thank you!",
+        "likes": 60,
+        "retweets": 12,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-24T23:19:37.866511"
+      },
+      {
+        "content": "Diving deep into socio-technical systems design today. How do we build software that fosters collaboration and minimizes human friction, not just technical friction? Fascinating stuff.",
+        "likes": 7,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-23T04:19:37.866511"
+      },
+      {
+        "content": "We spend so much time optimizing for machines, but who's optimizing for the human doing the coding? DX isn't just about syntax, it's about flow, cognitive load, and mental health. #HumanCentricTech",
+        "likes": 87,
+        "retweets": 15,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-21T07:19:37.866511"
+      },
+      {
+        "content": "Exploring how to better articulate the 'why' behind architectural decisions, not just the 'what'. It's all about communicating intent to future humans. #DevAdvocacy",
+        "likes": 12,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-21T00:19:37.866511"
+      },
+      {
+        "content": "Spent some time reviewing PRs on an open-source project this weekend. Contributing isn't just about code, it's about fostering a welcoming environment for all developers. #OpenSource",
+        "likes": 9,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-20T19:19:37.866511"
+      },
+      {
+        "content": "Another tool promising 10x productivity. But does it truly ease the cognitive burden, or just shift it around? My focus remains on human well-being, not just output metrics.",
+        "likes": 75,
+        "retweets": 14,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2025-12-19T18:19:37.866511"
+      },
+      {
+        "content": "The push for 'AI to write all code' misses the point. Technology should augment human creativity & problem-solving, not replace the thinking that gives work meaning. Let's build tools that empower, not disempower.",
+        "likes": 98,
+        "retweets": 20,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2025-12-17T22:19:37.866511"
+      }
+    ]
+  }
+}

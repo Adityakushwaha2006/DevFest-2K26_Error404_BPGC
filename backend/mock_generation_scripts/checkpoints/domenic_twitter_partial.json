@@ -1,0 +1,21 @@
+{
+  "username": "domenic",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:25:58.120039",
+  "data": {
+    "profile": {
+      "name": "Domenic Denicola",
+      "username": "domenicd",
+      "bio": "Software developer in Tokyo, Japan. \ud83c\udf8c Passionate about all things #ML and building intelligent systems. Learning out loud & sharing insights. \ud83e\udd16\ud83d\udca1",
+      "location": "Tokyo, Japan",
+      "website": "github.com/domenicdenicola",
+      "followers": 3456,
+      "following": 876,
+      "tweets_count": 5123,
+      "joined_date": "July 2018",
+      "is_verified": false,
+      "github_username": "Domenic Denicola"
+    },
+    "tweets": []
+  }
+}

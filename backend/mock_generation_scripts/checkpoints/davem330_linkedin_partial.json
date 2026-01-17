@@ -1,0 +1,21 @@
+{
+  "username": "davem330",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T16:52:10.550274",
+  "data": {
+    "profile": {
+      "name": "David S. Miller",
+      "headline": "Principal Software Engineer at Red Hat Inc. | Cloud Native, Open Source & Distributed Systems",
+      "location": "London, UK",
+      "about": "As a Principal Software Engineer at Red Hat, I specialize in building robust, scalable open-source solutions for cloud-native environments. With a strong background in distributed systems and a passion for contributing to the developer community, I leverage languages like Go and Python to drive innovation and solve complex technical challenges. I am committed to fostering collaboration and delivering high-quality software that empowers users and organizations.",
+      "current_company": "Red Hat Inc.",
+      "current_position": "Principal Software Engineer",
+      "connections": 421,
+      "followers": 583,
+      "profile_views_last_90_days": 156,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": false
+    }
+  }
+}

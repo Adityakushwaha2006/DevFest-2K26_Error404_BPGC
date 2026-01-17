@@ -1,0 +1,21 @@
+{
+  "username": "yyx990803",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:13:48.474461",
+  "data": {
+    "profile": {
+      "name": "Evan You",
+      "headline": "Founder & CEO at VoidZero | Creator of Vue.js & Vite | Open Source Innovator",
+      "location": "Singapore",
+      "about": "As the creator of Vue.js and Vite, I've dedicated my career to building powerful and intuitive tools that empower developers worldwide. My journey continues at VoidZero, where I'm focused on innovating new solutions to streamline development workflows and enhance the modern web experience. I am passionate about open source and fostering a collaborative community to advance the state of front-end development.",
+      "current_company": "VoidZero",
+      "current_position": "Founder & CEO",
+      "connections": 483,
+      "followers": 156200,
+      "profile_views_last_90_days": 27500,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

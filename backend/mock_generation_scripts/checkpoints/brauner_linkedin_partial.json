@@ -1,0 +1,21 @@
+{
+  "username": "brauner",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T16:53:24.256194",
+  "data": {
+    "profile": {
+      "name": "Christian Brauner",
+      "headline": "Freelance Software Engineer | Linux Systems | Open Source Contributor",
+      "location": "Berlin",
+      "about": "I am a passionate software engineer with a strong focus on Linux systems and open source development. With a background in building robust and efficient software solutions, I specialize in low-level programming and system architecture. Currently, I work as a freelancer, collaborating on diverse projects that challenge and expand my expertise, particularly within the Linux container ecosystem.",
+      "current_company": "Freelance",
+      "current_position": "Freelance Software Engineer",
+      "connections": 387,
+      "followers": 1250,
+      "profile_views_last_90_days": 115,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

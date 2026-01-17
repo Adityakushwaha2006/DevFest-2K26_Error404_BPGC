@@ -1,0 +1,21 @@
+{
+  "username": "sophiebits",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:37:06.778534",
+  "data": {
+    "profile": {
+      "name": "Sophie Alpert",
+      "username": "sophiealpert",
+      "bio": "Principal engineer. Powered by dumplings! \ud83e\udd5f Building & shipping with Go, React, & AI. Sharing learnings, hot takes & tech insights from SF. Always optimizing! \ud83d\ude80",
+      "location": "San Francisco, CA",
+      "website": "https://github.com/sophiealpert",
+      "followers": 7245,
+      "following": 987,
+      "tweets_count": 3128,
+      "joined_date": "June 2015",
+      "is_verified": false,
+      "github_username": "Sophie Alpert"
+    },
+    "tweets": []
+  }
+}

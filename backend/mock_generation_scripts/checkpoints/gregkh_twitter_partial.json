@@ -1,0 +1,21 @@
+{
+  "username": "gregkh",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T16:50:14.621506",
+  "data": {
+    "profile": {
+      "name": "Greg Kroah-Hartman",
+      "username": "gregkh",
+      "bio": "Linux kernel dev & maintainer. USB, drivers, stable updates. Passionate about FOSS & low-level systems. Sharing code insights, occasional hot takes, and what I'm learning daily. \ud83d\udc27\u2699\ufe0f",
+      "location": "Unknown",
+      "website": "https://github.com/gregkh",
+      "followers": 35500,
+      "following": 850,
+      "tweets_count": 15321,
+      "joined_date": "March 2009",
+      "is_verified": false,
+      "github_username": "Greg Kroah-Hartman"
+    },
+    "tweets": []
+  }
+}

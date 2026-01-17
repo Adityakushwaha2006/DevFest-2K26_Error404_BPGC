@@ -1,0 +1,279 @@
+{
+  "platform": "twitter",
+  "identifier": "paulirish",
+  "profile": {
+    "name": "Paul Irish",
+    "username": "paulirish",
+    "bio": "Staff Eng @GoogleChrome. Building a better web. Exploring #GoLang & #AI. Sharing thoughts, learning in public. Occasionally controversial, always curious. ♥z",
+    "location": "Unknown",
+    "website": "https://paulirish.com",
+    "followers": 38765,
+    "following": 875,
+    "tweets_count": 18230,
+    "joined_date": "July 2009",
+    "is_verified": false,
+    "github_username": "Paul Irish"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "My 'production-ready' code base often feels like a house of cards built on caffeine and Stack Overflow snippets. But hey, it ships! 😅 #devhumor #programming",
+      "timestamp": "2026-01-17T08:16:25.434905",
+      "date": "2026-01-17",
+      "time": "08:16:25",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/paulirish/status/6736430050",
+      "engagement": {
+        "likes": 48,
+        "retweets": 8,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Anyone else feel like the definition of 'full-stack' now requires you to be a DevOps engineer, a UX designer, and a machine learning expert, on top of front and back-end? The job reqs are getting wild. #developerlife",
+      "timestamp": "2026-01-16T03:16:25.434905",
+      "date": "2026-01-16",
+      "time": "03:16:25",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/paulirish/status/9652394276",
+      "engagement": {
+        "likes": 65,
+        "retweets": 15,
+        "replies": 18
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Saw the benchmarks for Bun 1.1 today. The speed improvements are genuinely impressive, especially for smaller projects and build times. Definitely keeping an eye on it. Node.js ecosystem is getting some serious competition. 🔥",
+      "timestamp": "2026-01-14T13:16:25.434905",
+      "date": "2026-01-14",
+      "time": "13:16:25",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/paulirish/status/5381468270",
+      "engagement": {
+        "likes": 35,
+        "retweets": 6,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Reading up on the latest Chrome DevTools updates. The new Recorder panel improvements look super useful for debugging complex user flows. Glad to see continued investment there. #devtools #webdevelopment",
+      "timestamp": "2026-01-11T21:16:25.434905",
+      "date": "2026-01-11",
+      "time": "21:16:25",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/paulirish/status/4900181035",
+      "engagement": {
+        "likes": 28,
+        "retweets": 5,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "One of my favorite refactoring rules: if you can't explain what a piece of code does to a non-technical person without hand-waving, it's probably too complex and needs simplifying. Clarity over cleverness, always. #codequality",
+      "timestamp": "2026-01-11T17:16:25.434905",
+      "date": "2026-01-11",
+      "time": "17:16:25",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/paulirish/status/2365105293",
+      "engagement": {
+        "likes": 30,
+        "retweets": 7,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Diving deep into the new `scroll-snap` CSS properties today for a personal project. It's surprisingly powerful but also surprisingly tricky to get just right across browsers. Anyone else wrestling with this one? #css #webstandards",
+      "timestamp": "2026-01-09T13:16:25.434905",
+      "date": "2026-01-09",
+      "time": "13:16:25",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/paulirish/status/6906395775",
+      "engagement": {
+        "likes": 15,
+        "retweets": 2,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just spent 20 minutes trying to understand why a test was failing, only to discover I hadn't saved the file. Peak developer moment. 🤦‍♂️ #tgif",
+      "timestamp": "2026-01-07T17:16:25.434905",
+      "date": "2026-01-07",
+      "time": "17:16:25",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/paulirish/status/3496374349",
+      "engagement": {
+        "likes": 20,
+        "retweets": 1,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just submitted a tiny PR to a library I use daily to fix a typo in the documentation. Small wins for open source! Every bit helps. #oss #javascript",
+      "timestamp": "2026-01-06T07:16:25.434905",
+      "date": "2026-01-06",
+      "time": "07:16:25",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/paulirish/status/8932277714",
+      "engagement": {
+        "likes": 11,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Thinking about reviving an old open source project of mine. It's been dormant for a while, but I think there's still a need for it. Maybe a quick rewrite with modern tooling? 🤔 #oss #sideproject",
+      "timestamp": "2026-01-03T02:16:25.434905",
+      "date": "2026-01-03",
+      "time": "02:16:25",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/paulirish/status/6249835986",
+      "engagement": {
+        "likes": 14,
+        "retweets": 1,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Is it just me, or is the 'micro-frontend' concept just fancy packaging for iframes with extra steps and more network requests? Discuss. #webdev #frontend",
+      "timestamp": "2026-01-01T01:16:25.434905",
+      "date": "2026-01-01",
+      "time": "01:16:25",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/paulirish/status/9176687170",
+      "engagement": {
+        "likes": 27,
+        "retweets": 3,
+        "replies": 12
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Spent the last hour debugging a phantom whitespace character in an SVG. The absolute joy (and frustration) of frontend development. Always something. 🤦‍♂️",
+      "timestamp": "2025-12-31T00:16:25.434905",
+      "date": "2025-12-31",
+      "time": "00:16:25",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/paulirish/status/9142145186",
+      "engagement": {
+        "likes": 19,
+        "retweets": 3,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just finished setting up Neovim with all my plugins. Now to spend the next 3 weeks tweaking dotfiles instead of actually coding. This is the way. ✨ #vim #devsetup",
+      "timestamp": "2025-12-30T07:16:25.434905",
+      "date": "2025-12-30",
+      "time": "07:16:25",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/paulirish/status/2304565786",
+      "engagement": {
+        "likes": 25,
+        "retweets": 6,
+        "replies": 4
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Been learning a lot about web components lately. The promise of truly reusable, framework-agnostic components is compelling. Still some rough edges, but the potential is huge. #webcomponents #standards",
+      "timestamp": "2025-12-27T22:16:25.434905",
+      "date": "2025-12-27",
+      "time": "22:16:25",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/paulirish/status/8585910167",
+      "engagement": {
+        "likes": 16,
+        "retweets": 3,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "That moment when you realize the bug isn't in your complex new feature, but in a 5-year-old utility function you wrote. Classic. #programminglife",
+      "timestamp": "2025-12-24T18:16:25.434905",
+      "date": "2025-12-24",
+      "time": "18:16:25",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/paulirish/status/6854132971",
+      "engagement": {
+        "likes": 31,
+        "retweets": 4,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Been thinking a lot about progressive enhancement lately. In an era of heavy JS frameworks, it feels more critical than ever to ensure a solid baseline user experience. #webperf #accessibility",
+      "timestamp": "2025-12-22T03:16:25.434905",
+      "date": "2025-12-22",
+      "time": "03:16:25",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/paulirish/status/8242105195",
+      "engagement": {
+        "likes": 22,
+        "retweets": 4,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Happy to announce I'm taking on a new challenge in a lead engineering role, focusing on developer experience and tooling! Excited for this next chapter and the opportunity to build great things. More details soon! #career #softwaredevelopment",
+      "timestamp": "2025-12-22T02:16:25.434905",
+      "date": "2025-12-22",
+      "time": "02:16:25",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/paulirish/status/1760045432",
+      "engagement": {
+        "likes": 78,
+        "retweets": 10,
+        "replies": 25
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Experimenting with WebGPU for some canvas animations. The learning curve is steep, but the potential performance gains are incredibly tempting. Definitely a weekend project for now. #webdev #graphics",
+      "timestamp": "2025-12-21T04:16:25.434905",
+      "date": "2025-12-21",
+      "time": "04:16:25",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/paulirish/status/6362906934",
+      "engagement": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The push for declarative UI has been amazing, but sometimes I miss the simple predictability of imperative DOM manipulation for very specific tasks. Is that a controversial take? #frontend #webdev",
+      "timestamp": "2025-12-17T20:16:25.434905",
+      "date": "2025-12-17",
+      "time": "20:16:25",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/paulirish/status/2074783160",
+      "engagement": {
+        "likes": 18,
+        "retweets": 2,
+        "replies": 8
+      }
+    }
+  ],
+  "tweet_count": 18,
+  "cross_references": {
+    "github": "paulirish_github.json",
+    "linkedin": "paulirish_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:17:09.498373",
+  "is_simulated": true
+}

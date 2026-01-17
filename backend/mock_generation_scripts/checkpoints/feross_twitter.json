@@ -1,0 +1,166 @@
+{
+  "username": "feross",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:27:41.864718",
+  "data": {
+    "profile": {
+      "name": "Feross Aboukhadijeh",
+      "username": "feross",
+      "bio": "Founder/CEO @SocketDev. Building a safer future for open source \ud83d\udee1\ufe0f. Started @webtorrent & @standard. 100+ npm packages. Stanford lecturer on Web Security. Learning & shipping always!",
+      "location": "Stanford, CA",
+      "website": "https://feross.org",
+      "followers": 42500,
+      "following": 850,
+      "tweets_count": 8500,
+      "joined_date": "March 2010",
+      "is_verified": false,
+      "github_username": "Feross Aboukhadijeh"
+    },
+    "tweets": [
+      {
+        "content": "My linter just yelled at me for using a semicolon. I chuckled. Then I fixed it. Some habits die hard, but `standard` keeps me honest. \ud83d\ude09 #javascript #eslint",
+        "likes": 55,
+        "retweets": 12,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2026-01-17T03:27:41.863716"
+      },
+      {
+        "content": "Unpopular opinion: The best way to learn modern JavaScript is to build something simple without a framework. Get comfortable with the DOM, fetch, and native browser APIs first. Frameworks are amazing, but they abstract away foundational knowledge too quickly.",
+        "likes": 70,
+        "retweets": 18,
+        "replies": 20,
+        "type": "original",
+        "timestamp": "2026-01-16T14:27:41.864718"
+      },
+      {
+        "content": "Just merged a PR that cleans up some legacy code in `simple-get`. Huge thanks to @contributor_x for the help! Always appreciate community contributions to these older projects. #npm #opensource",
+        "likes": 15,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-14T21:27:41.864718"
+      },
+      {
+        "content": "We're growing! @SocketDev is looking for talented engineers (front-end, back-end, security researchers) to join our team. If you're passionate about making the open source ecosystem safer, check out our careers page! #hiring #webdev #security",
+        "likes": 30,
+        "retweets": 10,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-12T21:27:41.864718"
+      },
+      {
+        "content": "Spent an hour today triaging issues on an old npm package I haven't touched in years. The long tail of open source maintenance is real, folks. Anyone else feel this pain? #opensource",
+        "likes": 40,
+        "retweets": 8,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2026-01-10T19:27:41.863716"
+      },
+      {
+        "content": "Modern web dev performance is a marathon, not a sprint. Every millisecond counts, especially on mobile. Keep profiling!",
+        "likes": 12,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-09T07:27:41.864718"
+      },
+      {
+        "content": "It's 2024 and I still occasionally `rm -rf node_modules && npm install` to fix an inexplicable build error. Some rituals are timeless.",
+        "likes": 65,
+        "retweets": 15,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-06T21:27:41.864718"
+      },
+      {
+        "content": "Prepping my Stanford Web Security lecture for next week. Thinking of adding a new segment on the emerging threats from AI-generated code vulnerabilities. It's a fascinating, scary frontier. Any good resources?",
+        "likes": 25,
+        "retweets": 4,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2026-01-06T12:27:41.864718"
+      },
+      {
+        "content": "The push for more secure defaults everywhere is crucial. From HTTPS to CSP to dependency sandboxing, we need systems that are secure by default, not by configuration. Developers have too much on their plate already. #websecurity",
+        "likes": 50,
+        "retweets": 10,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-05T06:27:41.864718"
+      },
+      {
+        "content": "This news about the recent supply chain attack targeting developer tooling is exactly why @SocketDev exists. We *have* to make it harder for attackers to compromise the software developers rely on daily. #SoftwareSupplyChain",
+        "likes": 45,
+        "retweets": 9,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-04T10:27:41.863716"
+      },
+      {
+        "content": "If your #OpenSource project isn't thinking about supply chain security from day one, you're building on quicksand. The ecosystem is too interconnected to ignore it anymore. It's not just *if* you'll be targeted, but *when*. #websecurity",
+        "likes": 35,
+        "retweets": 7,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-03T18:27:41.863716"
+      },
+      {
+        "content": "Just pushed a small update to our internal Socket engine. Getting closer to detecting a whole new class of malicious package behavior *before* it hits npm. The hunt for sneaky malware is endless, but we're making progress! @SocketDev #supplychainsecurity",
+        "likes": 28,
+        "retweets": 5,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-01T18:27:41.863716"
+      },
+      {
+        "content": "Excited to share that @SocketDev closed a new round of funding! This means more resources to scale our team and accelerate our mission to secure the open source ecosystem. Huge thanks to our investors and the incredible Socket team!",
+        "likes": 120,
+        "retweets": 25,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2025-12-30T00:27:41.863716"
+      },
+      {
+        "content": "Just spent 20 minutes trying to optimize a CSS animation nobody will ever notice. The small victories, right?",
+        "likes": 8,
+        "retweets": 0,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-28T14:27:41.864718"
+      },
+      {
+        "content": "Playing around with WebAssembly for a browser-based security scanner prototype. The performance gains are wild, but the debugging experience still feels like peering into the matrix. Fascinating tech though!",
+        "likes": 20,
+        "retweets": 3,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-24T22:27:41.864718"
+      },
+      {
+        "content": "Sometimes I look at my npm public packages list (over 100!) and wonder how I even did it. It's been a journey, from tiny utils to major projects. Grateful for everyone who's used and contributed to them over the years.",
+        "likes": 90,
+        "retweets": 20,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2025-12-24T01:27:41.864718"
+      },
+      {
+        "content": "My debugging process:\n1. Add `console.log` everywhere.\n2. Stare at output.\n3. Realize I'm an idiot.\n4. Fix typo.\n5. Repeat.",
+        "likes": 80,
+        "retweets": 20,
+        "replies": 12,
+        "type": "original",
+        "timestamp": "2025-12-20T21:27:41.863716"
+      },
+      {
+        "content": "Still believe the browser is the most powerful and underutilized platform for peer-to-peer tech. @webtorrent showed a glimpse of what's possible, and we've only scratched the surface. Decentralization on the edge!",
+        "likes": 60,
+        "retweets": 15,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-19T19:27:41.863716"
+      }
+    ]
+  }
+}

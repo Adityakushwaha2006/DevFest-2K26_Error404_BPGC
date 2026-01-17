@@ -1,0 +1,21 @@
+{
+  "username": "kentcdodds",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:01:33.837050",
+  "data": {
+    "profile": {
+      "name": "Kent C. Dodds",
+      "username": "kentcdodds",
+      "bio": "Improving \ud83c\udf0e with quality software. Husband, 5x Dad, Latter-day Saint. Dev Educator, MVP. Creator of @EpicWebDev & @EpicReactDev. Exploring #React, #AI. Learn in public! \ud83d\ude80",
+      "location": "Salt Lake City, Utah, USA",
+      "website": "https://epicweb.dev",
+      "followers": 48500,
+      "following": 1250,
+      "tweets_count": 15200,
+      "joined_date": "April 2011",
+      "is_verified": false,
+      "github_username": "Kent C. Dodds"
+    },
+    "tweets": []
+  }
+}

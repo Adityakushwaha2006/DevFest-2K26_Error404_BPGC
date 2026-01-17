@@ -1,0 +1,21 @@
+{
+  "username": "bvaughn",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:39:04.725059",
+  "data": {
+    "profile": {
+      "name": "Brian Vaughn",
+      "headline": "Staff Software Engineer at Citadel | Go, React, Distributed Systems",
+      "location": "Brooklyn, NY",
+      "about": "As a Staff Software Engineer at Citadel, I leverage my deep expertise in high-performance computing and distributed systems to build critical financial infrastructure. My background includes significant contributions to developer tooling at Replay, core React development at Facebook, and foundational engineering at Google. I am passionate about transforming complex challenges into robust, scalable software solutions using technologies like Go and React.",
+      "current_company": "Citadel",
+      "current_position": "Staff Software Engineer",
+      "connections": 487,
+      "followers": 3123,
+      "profile_views_last_90_days": 987,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": false
+    }
+  }
+}

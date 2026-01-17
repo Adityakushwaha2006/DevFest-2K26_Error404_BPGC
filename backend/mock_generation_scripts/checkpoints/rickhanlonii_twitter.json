@@ -1,0 +1,166 @@
+{
+  "username": "rickhanlonii",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:40:21.510271",
+  "data": {
+    "profile": {
+      "name": "Ricky",
+      "username": "@RickyReacts",
+      "bio": "React Core @facebook. \u269b\ufe0f Building the next gen of UI, dabbling in #AI. Passionate about developer experience & open source. Sometimes I tweet hot takes. Learning out loud.",
+      "location": "EST. AKRON",
+      "website": "github.com/rickyreacts",
+      "followers": 12500,
+      "following": 850,
+      "tweets_count": 4876,
+      "joined_date": "March 2017",
+      "is_verified": false,
+      "github_username": "Ricky"
+    },
+    "tweets": [
+      {
+        "content": "The beauty of a well-architected frontend system is how rarely you think about its architecture. It just... works. Striving for that invisible elegance every day. #SoftwareDesign #Frontend",
+        "likes": 28,
+        "retweets": 4,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-16T06:40:21.509454"
+      },
+      {
+        "content": "Just finished a small internal script to automate some repetitive test setup for the React repo. It's amazing how much time small quality-of-life improvements can save for the whole team. #DX #OpenSource",
+        "likes": 25,
+        "retweets": 4,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-14T08:40:21.510271"
+      },
+      {
+        "content": "Spent the morning discussing patterns for Concurrent React's server components interaction. The future of data fetching and rendering is going to be wildly different and incredibly powerful. #React #FrontendArchitecture",
+        "likes": 120,
+        "retweets": 25,
+        "replies": 18,
+        "type": "original",
+        "timestamp": "2026-01-13T15:40:21.509454"
+      },
+      {
+        "content": "Diving deep into WebAssembly modules for some experimental FFI work today. The potential for heavy compute tasks in the browser is fascinating. Any good resources for practical WASM+JS patterns? #WebAssembly #Frontend",
+        "likes": 32,
+        "retweets": 5,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2026-01-13T11:40:21.509454"
+      },
+      {
+        "content": "One thing I love about working on React Core is the constant challenge of balancing innovation with stability for millions of users. It's a high bar, and it makes you a better engineer. #Career #SoftwareEngineering",
+        "likes": 90,
+        "retweets": 18,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2026-01-12T16:40:21.509454"
+      },
+      {
+        "content": "The relentless pace of frontend tooling innovation is both exhilarating and exhausting. Is it time for a more stable, batteries-included standard for browser module loading, or do we love the churn too much? #Frontend #BuildTools",
+        "likes": 65,
+        "retweets": 11,
+        "replies": 20,
+        "type": "original",
+        "timestamp": "2026-01-06T02:40:21.509454"
+      },
+      {
+        "content": "Just merged a PR that cleans up some legacy `scheduler` API usage in a test file. Small win, but it makes the codebase incrementally better. Every contribution counts! #OpenSource #React",
+        "likes": 20,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-01T16:40:21.509454"
+      },
+      {
+        "content": "TypeScript is great, but sometimes I feel we're over-engineering type definitions for utility functions that could just be `any` or inferred. The cost/benefit curve isn't always linear. Discuss. #TypeScript #Frontend",
+        "likes": 98,
+        "retweets": 20,
+        "replies": 35,
+        "type": "original",
+        "timestamp": "2026-01-01T06:40:21.509454"
+      },
+      {
+        "content": "Just spent 30 minutes debugging why a button wasn't clicking, only to realize I had `pointer-events: none;` on its parent. Peak Monday. \ud83e\udd26\u200d\u2642\ufe0f #DeveloperLife #Frontend",
+        "likes": 45,
+        "retweets": 8,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-01T03:40:21.509454"
+      },
+      {
+        "content": "Another great week pushing some exciting improvements to React DevTools internally. So much thoughtful work goes into making the developer experience smoother. Proud to be part of it. \u2728 #React #DevTools",
+        "likes": 60,
+        "retweets": 10,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-31T22:40:21.509454"
+      },
+      {
+        "content": "Trying to grok the nuances of `display: contents` for accessibility. Seems powerful but has some tricky implications. Any a11y experts out there with pro-tips? #a11y #CSS",
+        "likes": 15,
+        "retweets": 2,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-31T19:40:21.509454"
+      },
+      {
+        "content": "Unpopular opinion: If your React app relies heavily on `useCallback` and `useMemo` for performance, you might be over-optimizing or have deeper architectural issues. Profile first, optimize second. #React #Performance",
+        "likes": 87,
+        "retweets": 15,
+        "replies": 28,
+        "type": "original",
+        "timestamp": "2025-12-30T14:40:21.509454"
+      },
+      {
+        "content": "My brain trying to parse legacy JS code without types vs. my brain trying to parse a new Rust macro: two different levels of 'what even is this'. \ud83d\ude02 #Programming",
+        "likes": 35,
+        "retweets": 6,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-23T02:40:21.509454"
+      },
+      {
+        "content": "Playing around with `@swc/core` for faster JS parsing and transformation. The Rust ecosystem tooling for frontend is seriously impressive. Might be time to port some internal build steps. #Rust #Frontend",
+        "likes": 40,
+        "retweets": 7,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-22T03:40:21.509454"
+      },
+      {
+        "content": "Me: 'I'll just refactor this small component.'\n*3 hours later, 5 files open, 3 coffee cups empty, existential dread creeping in*\n'Okay, maybe tomorrow.' #CodingHumor #DevLife",
+        "likes": 78,
+        "retweets": 15,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-21T07:40:21.509454"
+      },
+      {
+        "content": "If your CI takes longer than 5 minutes for a frontend project, it's time to invest in better caching or distributed builds. Developer iteration speed is king. \ud83d\udc51 #DevOps #Frontend",
+        "likes": 48,
+        "retweets": 7,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-20T23:40:21.510271"
+      },
+      {
+        "content": "Reviewing a few RFCs for upcoming React features. It's awesome to see the community's engagement and diverse perspectives shaping the future of the library. Keep those ideas coming! #ReactRFC #OpenSource",
+        "likes": 75,
+        "retweets": 12,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2025-12-20T02:40:21.509454"
+      },
+      {
+        "content": "Saw the latest Chrome dev release notes. Super excited about improved support for View Transitions API. Could be a game-changer for building fluid, single-page apps without complex animation libraries. #WebDev #Chrome",
+        "likes": 55,
+        "retweets": 9,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-18T07:40:21.509454"
+      }
+    ]
+  }
+}

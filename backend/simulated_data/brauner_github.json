@@ -1,0 +1,93 @@
+{
+  "platform": "github",
+  "identifier": "brauner",
+  "profile": {
+    "login": "brauner",
+    "id": 7353573,
+    "node_id": "MDQ6VXNlcjczNTM1NzM=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/7353573?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/brauner",
+    "html_url": "https://github.com/brauner",
+    "followers_url": "https://api.github.com/users/brauner/followers",
+    "following_url": "https://api.github.com/users/brauner/following{/other_user}",
+    "gists_url": "https://api.github.com/users/brauner/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/brauner/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/brauner/subscriptions",
+    "organizations_url": "https://api.github.com/users/brauner/orgs",
+    "repos_url": "https://api.github.com/users/brauner/repos",
+    "events_url": "https://api.github.com/users/brauner/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/brauner/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "name": "Christian Brauner",
+    "company": null,
+    "blog": "https://brauner.io",
+    "location": "Berlin",
+    "email": "christian@brauner.io",
+    "hireable": null,
+    "bio": "@lxc ",
+    "twitter_username": "brau_ner",
+    "public_repos": 84,
+    "public_gists": 7,
+    "followers": 420,
+    "following": 48,
+    "created_at": "2014-04-20T14:29:57Z",
+    "updated_at": "2026-01-09T11:58:58Z"
+  },
+  "activities": [
+    {
+      "type": "create_branch",
+      "content": "Created branch: work.dm-verity.keyring",
+      "timestamp": "2026-01-16T09:30:20+00:00",
+      "date": "2026-01-16",
+      "time": "09:30:20",
+      "url": "https://github.com/brauner",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: vfs-7.0.btrfs",
+      "timestamp": "2026-01-14T16:20:25+00:00",
+      "date": "2026-01-14",
+      "time": "16:20:25",
+      "url": "https://github.com/brauner",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: vfs-7.0.leases",
+      "timestamp": "2026-01-12T16:16:28+00:00",
+      "date": "2026-01-12",
+      "time": "16:16:28",
+      "url": "https://github.com/brauner",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: vfs-7.0.fserror",
+      "timestamp": "2026-01-12T16:16:26+00:00",
+      "date": "2026-01-12",
+      "time": "16:16:26",
+      "url": "https://github.com/brauner",
+      "metadata": {}
+    },
+    {
+      "type": "create_branch",
+      "content": "Created branch: vfs-7.0.nullfs",
+      "timestamp": "2026-01-12T16:09:46+00:00",
+      "date": "2026-01-12",
+      "time": "16:09:46",
+      "url": "https://github.com/brauner",
+      "metadata": {}
+    }
+  ],
+  "cross_references": {
+    "twitter": "brauner_twitter.json",
+    "linkedin": "brauner_linkedin.json"
+  },
+  "confidence_score": 1.0,
+  "exported_at": "2026-01-17T16:54:03.370939",
+  "fetch_status": "success"
+}

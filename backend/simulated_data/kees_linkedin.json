@@ -1,0 +1,250 @@
+{
+  "platform": "linkedin",
+  "identifier": "kees",
+  "profile": {
+    "name": "Kees Cook",
+    "headline": "Freelance Software Engineer | Open Source Contributor | Linux Kernel Developer",
+    "location": "Portland, OR, USA",
+    "about": "I am a dedicated and experienced software engineer specializing in open-source development and systems programming. With a background deeply rooted in the 'free software' ethos, I am passionate about solving complex technical challenges and contributing to impactful projects. Currently freelancing, I leverage my expertise in software architecture and development best practices to build robust, efficient, and maintainable solutions.",
+    "current_company": "Freelance",
+    "current_position": "Freelance Software Engineer",
+    "connections": 387,
+    "followers": 1450,
+    "profile_views_last_90_days": 521,
+    "open_to_work": true,
+    "open_to_hiring": false,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Independent Software Consultant / Senior Software Engineer",
+        "company": "Freelance",
+        "location": "Remote",
+        "start_date": "March 2021",
+        "end_date": "Present",
+        "description": "Developed and delivered tailored software solutions for diverse clients, spanning web applications, API development, and system integrations, utilizing various technologies (e.g., Python/Django, Node.js/React, Go, AWS, Docker).\nProvided technical consulting, architectural guidance, and code reviews, ensuring high-quality, scalable, and maintainable software implementations for multiple concurrent projects.\nManaged full project lifecycles from requirements gathering to deployment, collaborating directly with clients to translate business needs into technical specifications and deliver effective solutions.",
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "InnovateTech Solutions",
+        "location": "San Francisco, CA",
+        "start_date": "August 2017",
+        "end_date": "February 2021",
+        "description": "Led the design and implementation of critical backend microservices using Java/Spring Boot and Kafka, improving system scalability and reducing latency by 25% for high-throughput data processing.\nMentored junior developers, conducted rigorous code reviews, and contributed to defining engineering best practices and architectural standards for the team.\nCollaborated cross-functionally with product managers and QA to deliver new features and maintain existing enterprise applications within an Agile/Scrum environment.",
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "GlobalData Insights",
+        "location": "Seattle, WA",
+        "start_date": "June 2014",
+        "end_date": "July 2017",
+        "description": "Developed and maintained core components for a large-scale data analytics platform using Python, PostgreSQL, and AWS S3, handling petabytes of data.\nParticipated in the full software development lifecycle, including requirements analysis, design, coding, testing, and deployment of new features and system enhancements.\nImplemented robust RESTful APIs and integrated with third-party services, enhancing data ingestion and processing capabilities for client reporting.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "State University of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2022,
+        "activities": "Dean's List (6 semesters), President of University Computing Club, Lead Organizer for Annual Hackathon"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 14
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 19
+      },
+      {
+        "name": "Agile",
+        "endorsements": 36
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Spent the last few weeks diving deep into eBPF for dynamic tracing and performance analysis. The ability to observe and modify kernel behavior safely and efficiently, without recompiling or rebooting, is a game-changer for debugging and optimizing complex systems. Excited to apply this powerful tool in upcoming projects!",
+      "timestamp": "2026-01-17T00:00:02.236733",
+      "date": "2026-01-17",
+      "time": "00:00:02",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/kees-5577",
+      "engagement": {
+        "likes": 88,
+        "comments": 13
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up a complex embedded systems project for a client, focusing on real-time data processing and performance optimization at the kernel level. It was a challenging but incredibly rewarding deep dive into resource-constrained environments. Love the intricacies of making hardware and software sing in perfect harmony.",
+      "timestamp": "2026-01-14T20:00:02.236733",
+      "date": "2026-01-14",
+      "time": "20:00:02",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/kees-1736",
+      "engagement": {
+        "likes": 65,
+        "comments": 8
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up an inspiring few days at the Linux Plumbers Conference! The talks on next-gen virtualization and kernel security modules were particularly thought-provoking. Always great to connect with fellow developers and learn about the bleeding edge of systems engineering.",
+      "timestamp": "2026-01-12T20:00:02.236733",
+      "date": "2026-01-12",
+      "time": "20:00:02",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/kees-5137",
+      "engagement": {
+        "likes": 95,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read a compelling analysis (https://example.com/supply-chain-security-report) on the evolving landscape of software supply chain security in open-source projects. It highlights the critical need for robust vetting, transparency, and collaborative efforts across the entire ecosystem. A must-read for anyone involved in software development today.",
+      "timestamp": "2026-01-05T16:00:02.236733",
+      "date": "2026-01-05",
+      "time": "16:00:02",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/kees-5913",
+      "engagement": {
+        "likes": 60,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "For aspiring software engineers, especially those interested in systems programming, contributing to open source projects like the Linux Kernel offers an unparalleled learning curve. Start by reading code, fixing small bugs, and engaging with the community. It's not just about coding; it's about collaboration, peer review, and continuous improvement. It truly shapes your technical perspective.",
+      "timestamp": "2026-01-04T19:00:02.236733",
+      "date": "2026-01-04",
+      "time": "19:00:02",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/kees-5318",
+      "engagement": {
+        "likes": 120,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "With the explosion of edge computing and IoT devices, the demand for highly optimized, low-footprint software is escalating rapidly. This trend re-emphasizes the importance of efficient C programming, deep operating system knowledge, and resource management. It feels like a renewed era for systems-level engineers!",
+      "timestamp": "2026-01-01T06:00:02.236733",
+      "date": "2026-01-01",
+      "time": "06:00:02",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/kees-5948",
+      "engagement": {
+        "likes": 55,
+        "comments": 7
+      }
+    },
+    {
+      "type": "post",
+      "content": "Calling all C/systems programming enthusiasts! I'm exploring a new open-source project focused on building a lightweight, secure micro-kernel for embedded devices and would love to collaborate with like-minded individuals. If you're passionate about low-level coding and making a real impact, let's connect! DM me for details.",
+      "timestamp": "2025-12-24T12:00:02.236733",
+      "date": "2025-12-24",
+      "time": "12:00:02",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/kees-6950",
+      "engagement": {
+        "likes": 40,
+        "comments": 5
+      }
+    },
+    {
+      "type": "post",
+      "content": "As a freelance software engineer, the deep dives into complex technical challenges are exhilarating, but knowing when to step back is crucial. Taking a well-deserved break today to recharge, clear my head, and come back with fresh perspectives. Remember, sustainable productivity comes from prioritizing well-being!",
+      "timestamp": "2025-12-19T08:00:02.236733",
+      "date": "2025-12-19",
+      "time": "08:00:02",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/kees-3282",
+      "engagement": {
+        "likes": 80,
+        "comments": 6
+      }
+    },
+    {
+      "type": "post",
+      "content": "Three years ago, I took the leap into freelance software engineering, and it's been an incredible journey of growth and learning. My biggest advice for those considering it: focus on building a strong network, specialize in a niche where you excel, and consistently deliver exceptional value. The freedom and challenging projects are immensely rewarding.",
+      "timestamp": "2025-12-11T04:00:02.236733",
+      "date": "2025-12-11",
+      "time": "04:00:02",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/kees-6981",
+      "engagement": {
+        "likes": 110,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to share that my patch series for improving I/O throttling in a specific block layer subsystem has been merged into the main Linux kernel tree! A huge thank you to the maintainers for their invaluable feedback and guidance. It's incredibly rewarding to contribute to such a foundational project.",
+      "timestamp": "2025-12-02T11:00:02.236733",
+      "date": "2025-12-02",
+      "time": "11:00:02",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/kees-1029",
+      "engagement": {
+        "likes": 180,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "The discussions around Rust's integration into the Linux Kernel continue to evolve, and it's truly fascinating to observe. While C will undoubtedly remain the bedrock, the potential for safer, more robust new components written in Rust opens up exciting avenues for future kernel development. What are your thoughts on its long-term impact on the open-source ecosystem?",
+      "timestamp": "2025-11-27T11:00:02.236733",
+      "date": "2025-11-27",
+      "time": "11:00:02",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/kees-2326",
+      "engagement": {
+        "likes": 98,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Re-reading this insightful article on \"The Hidden Costs of Abstraction\" (https://example.com/hidden-costs-of-abstraction). It's a brilliant reminder that true performance optimization often means peeling back layers and understanding the underlying systems, right down to the CPU's cache behavior. Essential reading for anyone working on high-performance applications.",
+      "timestamp": "2025-11-27T10:00:02.236733",
+      "date": "2025-11-27",
+      "time": "10:00:02",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/kees-6324",
+      "engagement": {
+        "likes": 72,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "In high-performance computing, the line between hardware and software continues to blur. Optimizing for modern multi-core CPUs means an intimate understanding of microarchitecture, from cache coherence protocols to branch prediction. True performance breakthroughs often stem from this hardware-software co-design approach.",
+      "timestamp": "2025-11-23T17:00:02.236733",
+      "date": "2025-11-23",
+      "time": "17:00:02",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/kees-2713",
+      "engagement": {
+        "likes": 75,
+        "comments": 10
+      }
+    }
+  ],
+  "post_count": 13,
+  "cross_references": {
+    "github": "kees_github.json",
+    "twitter": "kees_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:00:02.270452",
+  "is_simulated": true
+}

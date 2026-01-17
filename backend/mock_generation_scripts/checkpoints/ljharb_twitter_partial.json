@@ -1,0 +1,21 @@
+{
+  "username": "ljharb",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:09:45.208759",
+  "data": {
+    "profile": {
+      "name": "Jordan Harband",
+      "username": "jharband",
+      "bio": "Software engineer & @TC39 delegate. Surgeon with git rebase. Diving deep into #AI, #Go, #Rust. Ex-@Coinbase, @Airbnb, @Twitter. Obsessed with \u2e2e & petrichor.",
+      "location": "Hillsborough, CA",
+      "website": "https://jordanharband.dev",
+      "followers": 28543,
+      "following": 1238,
+      "tweets_count": 18751,
+      "joined_date": "March 2009",
+      "is_verified": false,
+      "github_username": "Jordan Harband"
+    },
+    "tweets": []
+  }
+}

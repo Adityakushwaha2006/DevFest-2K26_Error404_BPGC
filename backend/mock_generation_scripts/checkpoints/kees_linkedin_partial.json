@@ -1,0 +1,21 @@
+{
+  "username": "kees",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T16:59:25.720169",
+  "data": {
+    "profile": {
+      "name": "Kees Cook",
+      "headline": "Freelance Software Engineer | Open Source Contributor | Linux Kernel Developer",
+      "location": "Portland, OR, USA",
+      "about": "I am a dedicated and experienced software engineer specializing in open-source development and systems programming. With a background deeply rooted in the 'free software' ethos, I am passionate about solving complex technical challenges and contributing to impactful projects. Currently freelancing, I leverage my expertise in software architecture and development best practices to build robust, efficient, and maintainable solutions.",
+      "current_company": "Freelance",
+      "current_position": "Freelance Software Engineer",
+      "connections": 387,
+      "followers": 1450,
+      "profile_views_last_90_days": 521,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

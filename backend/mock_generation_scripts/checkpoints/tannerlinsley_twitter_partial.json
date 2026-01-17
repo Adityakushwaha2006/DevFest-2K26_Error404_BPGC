@@ -1,0 +1,21 @@
+{
+  "username": "tannerlinsley",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:06:53.367699",
+  "data": {
+    "profile": {
+      "name": "Tanner Linsley",
+      "username": "tannerlinsley",
+      "bio": "Building @TanStack components (#ReactQuery #ReactTable) for #TypeScript & #React. Co-Founder @NozzleIO. Open Source addict. Exploring UI/UX. Learning in public! \u2728",
+      "location": "Utah",
+      "website": "https://tanstack.com/",
+      "followers": 48500,
+      "following": 850,
+      "tweets_count": 6700,
+      "joined_date": "April 2012",
+      "is_verified": false,
+      "github_username": "Tanner Linsley"
+    },
+    "tweets": []
+  }
+}

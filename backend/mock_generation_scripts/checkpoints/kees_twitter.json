@@ -1,0 +1,166 @@
+{
+  "username": "kees",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T16:59:18.733052",
+  "data": {
+    "profile": {
+      "name": "Kees Cook",
+      "username": "KeesCook",
+      "bio": "Free Software Hacker | Exploring the intersection of #AI, security & open source. Sharing learning, hot takes, and code from Portland, OR. \ud83d\udcbb\ud83e\udd16",
+      "location": "Portland, OR, USA",
+      "website": "github.com/keescook",
+      "followers": 8765,
+      "following": 1345,
+      "tweets_count": 12345,
+      "joined_date": "February 2010",
+      "is_verified": false,
+      "github_username": "Kees Cook"
+    },
+    "tweets": [
+      {
+        "content": "Deep dive into `seccomp` filters today. Realizing the nuanced power for process sandboxing. Thinking about a new project integrating this more robustly. #LinuxSecurity #eBPF",
+        "likes": 8,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-17T04:59:18.732031"
+      },
+      {
+        "content": "Excited to see the discussions around the new Rust in Linux kernel RFCs picking up steam. Gradual adoption, smart choices. This is how FOSS evolves. #LinuxKernel #RustLang",
+        "likes": 45,
+        "retweets": 10,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-16T17:59:18.732031"
+      },
+      {
+        "content": "Had a great discussion with some folks about the future of open hardware and software integration. The synergy is profound, especially in security. #OpenHardware #FOSS",
+        "likes": 10,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-15T15:59:18.733052"
+      },
+      {
+        "content": "The 'move fast and break things' mantra always felt irresponsible in critical infrastructure. For free software, it's 'move carefully and improve things, together.' #FOSSphilosophy",
+        "likes": 28,
+        "retweets": 7,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-13T20:59:18.733052"
+      },
+      {
+        "content": "Exploring some advanced `ptrace` techniques for a custom debugger. The syscall interface might be raw, but the power it grants is unparalleled for system-level introspection. #LowLevel #Linux",
+        "likes": 7,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-13T01:59:18.733052"
+      },
+      {
+        "content": "Just spent an hour fixing a bug only to realize it was in a dependency I installed 3 years ago and forgot about. The true 'supply chain' attack.",
+        "likes": 18,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-12T15:59:18.733052"
+      },
+      {
+        "content": "Are we over-abstracting everything? Sometimes, a simple, well-written script is far more maintainable and auditable than a complex framework with 100 dependencies. Discuss. #SoftwareDesign #Simplicity",
+        "likes": 24,
+        "retweets": 5,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2026-01-11T19:59:18.733052"
+      },
+      {
+        "content": "Just pushed a patch for `libvirt` addressing a minor memory leak in the network config parsing. Small fix, but every byte counts! #OpenSource #CProgramming",
+        "likes": 12,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-11T11:59:18.732031"
+      },
+      {
+        "content": "Saw a tweet about new proprietary 'AI-powered' dev tools. My take: fantastic for quick prototypes, but for anything critical, I'm sticking with tools I can audit, modify, and *understand*. Transparency matters. #FreeSoftware",
+        "likes": 20,
+        "retweets": 4,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-09T19:59:18.732031"
+      },
+      {
+        "content": "Another day, another 'cloud-native' stack that needs 15 layers of abstraction just to run a hello world. Give me a well-documented C library and a `make` file any day. #FOSS #KeepItSimple",
+        "likes": 15,
+        "retweets": 3,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-09T01:59:18.732031"
+      },
+      {
+        "content": "Reading about the new vulnerabilities found in a popular commercial OS. Reinforces why open source, with its eyes of many, is often inherently more secure in the long run. #AuditabilityMatters",
+        "likes": 22,
+        "retweets": 6,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-08T05:59:18.733052"
+      },
+      {
+        "content": "My code doesn't have bugs, it just has features that are currently under-documented and awaiting a full specification. #DevelopersLife",
+        "likes": 35,
+        "retweets": 9,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-07T19:59:18.733052"
+      },
+      {
+        "content": "My `git stash` is basically an archive of all the brilliant ideas I had at 2 AM that turned out to be terrible by morning. #devhumor #git",
+        "likes": 25,
+        "retweets": 5,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-05T18:59:18.732031"
+      },
+      {
+        "content": "Huge shoutout to the maintainers of `systemd-boot` for their quick response on my recent bug report. Community collaboration is what makes FOSS thrive! #Linux #OpenSourceCommunity",
+        "likes": 16,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-31T22:59:18.733052"
+      },
+      {
+        "content": "Just managed to compile and run my custom kernel module on a Raspberry Pi. Tiny victories fuel the soul. Now to get it to actually *do* something useful. #EmbeddedLinux #KernelDev",
+        "likes": 11,
+        "retweets": 2,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-27T22:59:18.733052"
+      },
+      {
+        "content": "Wrestling with a tricky race condition in a multi-threaded C application. Nothing beats staring at logs and `gdb` for hours. Send caffeine. #DebuggingLife",
+        "likes": 10,
+        "retweets": 0,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-24T12:59:18.732031"
+      },
+      {
+        "content": "Finished up a deep security review on an embedded Linux system this week. Always fascinating to peel back the layers and find those hidden corners. #InfoSec #Embedded",
+        "likes": 14,
+        "retweets": 2,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-22T11:59:18.733052"
+      },
+      {
+        "content": "Unpopular opinion: If your 'microservice' architecture requires 10 different YAML files just to deploy locally, you've optimized for complexity, not agility. #DevOps #KISS",
+        "likes": 30,
+        "retweets": 8,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-21T13:59:18.732031"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "username": "yyx990803",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:13:13.720747",
+  "data": {
+    "profile": {
+      "name": "Evan You",
+      "username": "_EvanYou",
+      "bio": "Founder @voidzero-dev, author of @vuejs & @vitejs. Building cool stuff with #GoLang. Sushi aficionado \ud83c\udf63. Learning something new every day.",
+      "location": "Singapore",
+      "website": "https://voidzero.dev",
+      "followers": 38500,
+      "following": 870,
+      "tweets_count": 7241,
+      "joined_date": "November 2011",
+      "is_verified": false,
+      "github_username": "Evan You"
+    },
+    "tweets": []
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "username": "ljharb",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:10:09.716561",
+  "data": {
+    "profile": {
+      "name": "Jordan Harband",
+      "username": "jharband",
+      "bio": "Software engineer & @TC39 delegate. Surgeon with git rebase. Diving deep into #AI, #Go, #Rust. Ex-@Coinbase, @Airbnb, @Twitter. Obsessed with \u2e2e & petrichor.",
+      "location": "Hillsborough, CA",
+      "website": "https://jordanharband.dev",
+      "followers": 28543,
+      "following": 1238,
+      "tweets_count": 18751,
+      "joined_date": "March 2009",
+      "is_verified": false,
+      "github_username": "Jordan Harband"
+    },
+    "tweets": [
+      {
+        "content": "Good API design isn't just about functionality; it's about ergonomics and developer experience. A technically perfect API that's a pain to use is still a failure. #APIDesign #DevEx",
+        "likes": 110,
+        "retweets": 15,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-17T00:10:09.716561"
+      },
+      {
+        "content": "If your rebase isn't interactive, are you even *living*? Embrace the surgical precision. The history of your project deserves it. #git #devtools",
+        "likes": 315,
+        "retweets": 55,
+        "replies": 30,
+        "type": "original",
+        "timestamp": "2026-01-15T15:10:09.716561"
+      },
+      {
+        "content": "Funny how many 'new' ideas in tech are just old ideas, re-packaged and re-branded with new tooling. The fundamentals remain, just the shiny wrapper changes. History repeats, even in software. \ud83d\udd01",
+        "likes": 70,
+        "retweets": 10,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-13T10:10:09.716561"
+      },
+      {
+        "content": "Are we *sure* we need another primitive for collection iteration, or is this just bikeshedding in disguise? Sometimes simplicity trumps theoretical completeness. \u2e2e #JavaScript #TC39",
+        "likes": 45,
+        "retweets": 7,
+        "replies": 12,
+        "type": "original",
+        "timestamp": "2026-01-11T22:10:09.716561"
+      },
+      {
+        "content": "Messing around with a Rust backend for a personal project. The compile times are a price worth paying for that type safety feeling. So far, so good. The borrow checker is my new best frenemy. \u2e2e #Rust #backend",
+        "likes": 88,
+        "retweets": 12,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-09T06:10:09.716561"
+      },
+      {
+        "content": "Current debugging state: Staring intensely at the screen, hoping the bug will feel my gaze and confess its sins. Any other techniques folks swear by \u2e2e #debugging #devlife",
+        "likes": 95,
+        "retweets": 15,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-06T19:10:09.716561"
+      },
+      {
+        "content": "Pushed a tiny but impactful fix to a module I use daily. It's amazing how much collective effort goes into the foundational tools we all rely on. #OpenSource #gratitude",
+        "likes": 35,
+        "retweets": 3,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-02T10:10:09.716561"
+      },
+      {
+        "content": "Reflecting on my journey from @MobBase to @Airbnb, @Twitter, @Coinbase, and #TC39. It's been a wild ride of learning, building, and breaking. What a privilege to contribute. What's next \u2e2e",
+        "likes": 210,
+        "retweets": 35,
+        "replies": 20,
+        "type": "original",
+        "timestamp": "2026-01-01T06:10:09.716561"
+      },
+      {
+        "content": "Huge news! CSS `has()` selector landing in stable soon. This is a bona fide game changer for component architecture and styling without JS. Prepare for cleaner markups! \ud83d\ude4c #webdev #CSS",
+        "likes": 280,
+        "retweets": 45,
+        "replies": 25,
+        "type": "original",
+        "timestamp": "2026-01-01T01:10:09.716561"
+      },
+      {
+        "content": "Spent the morning explaining async/await to a junior dev. Always a fun mental exercise to break down complex concepts simply. Any favorite analogies out there for JS concurrency?",
+        "likes": 63,
+        "retweets": 9,
+        "replies": 11,
+        "type": "original",
+        "timestamp": "2025-12-29T03:10:09.716561"
+      },
+      {
+        "content": "My 'git rebase --abort' count for the day is already higher than my coffee intake. Send help. Or more coffee. #devlife #git",
+        "likes": 187,
+        "retweets": 28,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2025-12-27T01:10:09.716561"
+      },
+      {
+        "content": "If you rely on open source, consider contributing back \u2013 even if it's just docs, bug reports, or a tiny PR. The ecosystem thrives on collective effort. It's not just for 'experts.' #OpenSource",
+        "likes": 55,
+        "retweets": 8,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-25T20:10:09.716561"
+      },
+      {
+        "content": "That fresh scent of petrichor after the rain just hits different. Nature's way of reminding us of simple pleasures amidst the chaos of `npm install`. \ud83c\udf27\ufe0f",
+        "likes": 50,
+        "retweets": 5,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-23T05:10:09.716561"
+      },
+      {
+        "content": "The pendulum swings. Today's 'elegant solution' is tomorrow's 'legacy burden.' It's just the cycle of software. The goal is to build something resilient enough to *become* legacy gracefully. #softwareengineering",
+        "likes": 150,
+        "retweets": 22,
+        "replies": 18,
+        "type": "original",
+        "timestamp": "2025-12-23T01:10:09.716561"
+      },
+      {
+        "content": "Just spent an hour diving into the WebAssembly component model. My brain hurts but in a good way. The future of modularity is looking very interesting. #WebAssembly #WASM",
+        "likes": 78,
+        "retweets": 10,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-22T19:10:09.716561"
+      },
+      {
+        "content": "Finished reviewing a Stage 2 proposal for #TC39 today. The devil truly is in the details when you're shaping the future of a language used by billions. Important work.",
+        "likes": 112,
+        "retweets": 18,
+        "replies": 9,
+        "type": "original",
+        "timestamp": "2025-12-20T21:10:09.716561"
+      },
+      {
+        "content": "Unpopular opinion: Sometimes, for truly small, self-contained scripts, vanilla JS without TypeScript feels *more* productive. The overhead can occasionally outweigh the safety for quick hacks. Fight me. #TypeScript #JavaScript",
+        "likes": 400,
+        "retweets": 80,
+        "replies": 60,
+        "type": "original",
+        "timestamp": "2025-12-20T16:10:09.716561"
+      },
+      {
+        "content": "Just sat through a meeting that absolutely, positively, 100% could have been an email. My brain cells are requesting a refund. #devlife #meetings",
+        "likes": 250,
+        "retweets": 40,
+        "replies": 20,
+        "type": "original",
+        "timestamp": "2025-12-20T09:10:09.716561"
+      }
+    ]
+  }
+}

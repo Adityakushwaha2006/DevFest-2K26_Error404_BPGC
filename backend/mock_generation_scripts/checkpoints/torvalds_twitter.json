@@ -1,0 +1,166 @@
+{
+  "username": "torvalds",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T05:29:42.049415",
+  "data": {
+    "profile": {
+      "name": "Linus Torvalds",
+      "username": "LinusTorvalds",
+      "bio": "Creator of Linux & Git. Kernel architect. Still passionate about performance & C. Exploring AI's potential and its impact on systems. Occasional rant. @LinuxFoundation | Portland, OR",
+      "location": "Portland, OR",
+      "website": "https://github.com/torvalds",
+      "followers": 48500,
+      "following": 850,
+      "tweets_count": 7200,
+      "joined_date": "March 2009",
+      "is_verified": false,
+      "github_username": "Linus Torvalds"
+    },
+    "tweets": [
+      {
+        "content": "The pace of front-end framework churn is astounding. It's easy to get caught up in the hype cycles, but true value comes from solving problems, not just using the latest tool. #WebDev",
+        "likes": 300,
+        "retweets": 60,
+        "replies": 35,
+        "type": "original",
+        "timestamp": "2026-01-17T00:29:42.049415"
+      },
+      {
+        "content": "Just spent an hour reviewing an obscure patch for an old tool I use. Small contributions matter, keeping the gears turning. Don't underestimate maintenance. #OpenSource",
+        "likes": 60,
+        "retweets": 10,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-16T20:29:42.049415"
+      },
+      {
+        "content": "Still convinced that the best code is the simplest code. If you can't explain your architecture in 5 minutes, it's too complex. #SoftwareDesign #Simplicity",
+        "likes": 450,
+        "retweets": 70,
+        "replies": 30,
+        "type": "original",
+        "timestamp": "2026-01-15T16:29:42.049415"
+      },
+      {
+        "content": "Had a good discussion today about technical debt. It's not just 'bad code,' it's strategic decisions that traded short-term velocity for long-term burden. Managing it is key. #TeamWork #TechDebt",
+        "likes": 100,
+        "retweets": 20,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-12T10:29:42.049415"
+      },
+      {
+        "content": "Been reading up on Rust's async story again. The compile-time guarantees are compelling, but the learning curve for advanced patterns... whew. Still worth it? #RustLang",
+        "likes": 80,
+        "retweets": 15,
+        "replies": 10,
+        "type": "original",
+        "timestamp": "2026-01-12T09:29:42.049415"
+      },
+      {
+        "content": "Exploring alternative database technologies beyond relational. Document stores, graph DBs... each with their own trade-offs. No one-size-fits-all, as always. What's your go-to for complex relationships? #Databases",
+        "likes": 90,
+        "retweets": 18,
+        "replies": 15,
+        "type": "original",
+        "timestamp": "2026-01-05T23:29:42.049415"
+      },
+      {
+        "content": "Dependency bloat is a real problem. Every new library pulls in N more, creating an unmanageable tree. Sometimes, just writing a few lines yourself is the more robust long-term solution. #SoftwareEngineering",
+        "likes": 200,
+        "retweets": 40,
+        "replies": 20,
+        "type": "original",
+        "timestamp": "2026-01-03T06:29:42.049415"
+      },
+      {
+        "content": "Finished a tricky refactor today. It felt like untangling a ball of yarn that had been through a shredder. The code is cleaner, the tests pass. Small wins keep you going. #SoftwareDevelopment",
+        "likes": 30,
+        "retweets": 7,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-03T02:29:42.049415"
+      },
+      {
+        "content": "Working on a small command-line utility for personal use. It's refreshing to build something simple, focused, and without a huge build system. Back to basics. #CLI #Programming",
+        "likes": 40,
+        "retweets": 6,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-01T06:29:42.049415"
+      },
+      {
+        "content": "Thinking about contributing to an older project that's still critical but less actively developed. The challenge of understanding legacy codebases is immense, but the impact could be huge. #FOSS",
+        "likes": 50,
+        "retweets": 9,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-31T22:29:42.049415"
+      },
+      {
+        "content": "My tests pass, my deployment succeeded, and my monitoring shows green. I feel an irrational sense of dread. What did I miss? #ImminentFailure",
+        "likes": 35,
+        "retweets": 7,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-29T11:29:42.049415"
+      },
+      {
+        "content": "Found a bug that only manifests on Tuesdays when Mercury is in retrograde. Guess I'll just wait for the planet to move. #DebuggingLife",
+        "likes": 20,
+        "retweets": 5,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-28T00:29:42.049415"
+      },
+      {
+        "content": "My code is like a toddler: I created it, I love it, but I have no idea why it does half the things it does sometimes. #DevLife",
+        "likes": 40,
+        "retweets": 8,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-26T09:29:42.049415"
+      },
+      {
+        "content": "Attended an online meetup discussing the health of a lesser-known but essential open-source library. The community efforts behind these projects are truly inspiring. Support your dependencies! #Community",
+        "likes": 25,
+        "retweets": 4,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-26T00:29:42.049415"
+      },
+      {
+        "content": "Unpopular opinion: Microservices aren't a silver bullet. Sometimes, a well-architected monolith is just... better. Simpler to deploy, easier to reason about. Prove me wrong. #Architecture #Monolith",
+        "likes": 700,
+        "retweets": 120,
+        "replies": 80,
+        "type": "original",
+        "timestamp": "2025-12-25T21:29:42.049415"
+      },
+      {
+        "content": "Performance still matters. A lot. We've optimized developer experience at the cost of user experience in too many places. Time to re-evaluate. #PerformanceMatters #WebPerformance",
+        "likes": 550,
+        "retweets": 90,
+        "replies": 50,
+        "type": "original",
+        "timestamp": "2025-12-25T17:29:42.049415"
+      },
+      {
+        "content": "Saw an article about the latest 'AI-powered code generator'. Remember when we thought auto-complete was magic? Now we're getting whole functions. The future is weird, and still needs human review. [link to tech news article]",
+        "likes": 150,
+        "retweets": 25,
+        "replies": 12,
+        "type": "original",
+        "timestamp": "2025-12-23T20:29:42.049415"
+      },
+      {
+        "content": "Just spent 30 minutes trying to figure out why my code wasn't working, only to realize I was on the wrong branch. Happens to the best of us, right? ...right? #GitFail",
+        "likes": 70,
+        "retweets": 12,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-20T21:29:42.049415"
+      }
+    ]
+  }
+}

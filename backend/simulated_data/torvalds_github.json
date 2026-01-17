@@ -1,0 +1,111 @@
+{
+  "platform": "github",
+  "identifier": "torvalds",
+  "profile": {
+    "login": "torvalds",
+    "id": 1024025,
+    "node_id": "MDQ6VXNlcjEwMjQwMjU=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1024025?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/torvalds",
+    "html_url": "https://github.com/torvalds",
+    "followers_url": "https://api.github.com/users/torvalds/followers",
+    "following_url": "https://api.github.com/users/torvalds/following{/other_user}",
+    "gists_url": "https://api.github.com/users/torvalds/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/torvalds/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/torvalds/subscriptions",
+    "organizations_url": "https://api.github.com/users/torvalds/orgs",
+    "repos_url": "https://api.github.com/users/torvalds/repos",
+    "events_url": "https://api.github.com/users/torvalds/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/torvalds/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false,
+    "name": "Linus Torvalds",
+    "company": "Linux Foundation",
+    "blog": "",
+    "location": "Portland, OR",
+    "email": null,
+    "hireable": null,
+    "bio": null,
+    "twitter_username": null,
+    "public_repos": 10,
+    "public_gists": 1,
+    "followers": 278316,
+    "following": 0,
+    "created_at": "2011-09-03T15:26:22Z",
+    "updated_at": "2026-01-13T07:10:05Z"
+  },
+  "activities": [
+    {
+      "type": "comment",
+      "content": "This breaks my \"SeymourDuncan\" test case, which is just \"repeat over some random mp3 samples of guitar pickups by Seymour Duncan\".\r\n\r\nThat's not a great test-case, but I don't have any actual reasonab",
+      "timestamp": "2026-01-16T17:46:36+00:00",
+      "date": "2026-01-16",
+      "time": "17:46:36",
+      "url": "https://github.com/torvalds/AudioNoise/pull/58#issuecomment-3761136243",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "You are of course correct. A lot of the pots are very random ranges, but this one in particular more random than some.\n\nI think I was messing with it in order to get a much clearer response with the t",
+      "timestamp": "2026-01-16T17:42:16+00:00",
+      "date": "2026-01-16",
+      "time": "17:42:16",
+      "url": "https://github.com/torvalds/AudioNoise/issues/59#issuecomment-3761120722",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "The guitar pedal hardware does that 52k sample rate simply because that way it has a integer multiplier from the system clock (150MHz) to the i2s PIO engine that runs at twice the i2s BCLK.\n\n(In fact,",
+      "timestamp": "2026-01-14T21:08:20+00:00",
+      "date": "2026-01-14",
+      "time": "21:08:20",
+      "url": "https://github.com/torvalds/AudioNoise/issues/43#issuecomment-3751722939",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "Cherry-picked as commit cc47b99 (\"Add a distortion/overdrive effect with clipping modes and tone control\")\r\n",
+      "timestamp": "2026-01-14T17:24:27+00:00",
+      "date": "2026-01-14",
+      "time": "17:24:27",
+      "url": "https://github.com/torvalds/AudioNoise/pull/47#issuecomment-3750686818",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "This is wrong. The quarter_sin[] array explicitly has an extra +1.0 entry at the end, and we do *not* want to wrap around (and get a zero instead).\r\n\r\nSee 'gensin.c', and that last  printf() outside t",
+      "timestamp": "2026-01-14T16:16:07+00:00",
+      "date": "2026-01-14",
+      "time": "16:16:07",
+      "url": "https://github.com/torvalds/AudioNoise/pull/54#issuecomment-3750352066",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "This is odd and doesn't even build. There is no \"biquad_init_lfp()\". Yes, I can see what is intended, but still..\r\n\r\nSmells of AI hallucination.",
+      "timestamp": "2026-01-14T07:56:22+00:00",
+      "date": "2026-01-14",
+      "time": "07:56:22",
+      "url": "https://github.com/torvalds/AudioNoise/pull/49#issuecomment-3748279246",
+      "metadata": {}
+    },
+    {
+      "type": "comment",
+      "content": "On Tue, 13 Jan 2026 at 17:30, Michael Keller ***@***.***> wrote:\n>\n> while Null island isn't the world's most popular dive destination, it seems to be loony to take perfectly valid coordinates\n\nNo. Th",
+      "timestamp": "2026-01-14T02:00:54+00:00",
+      "date": "2026-01-14",
+      "time": "02:00:54",
+      "url": "https://github.com/subsurface/libdc/pull/98#issuecomment-3747342783",
+      "metadata": {}
+    }
+  ],
+  "cross_references": {
+    "twitter": "torvalds_twitter.json",
+    "linkedin": "torvalds_linkedin.json"
+  },
+  "confidence_score": 1.0,
+  "exported_at": "2026-01-17T05:30:31.892069",
+  "fetch_status": "success"
+}

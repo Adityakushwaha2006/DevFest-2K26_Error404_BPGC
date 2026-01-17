@@ -1,0 +1,186 @@
+{
+  "username": "domenic",
+  "platform": "linkedin",
+  "timestamp": "2026-01-17T17:27:06.741354",
+  "data": {
+    "profile": {
+      "name": "Domenic Denicola",
+      "headline": "Freelance Software Developer | Full-Stack Engineer | Building Robust Solutions",
+      "location": "Tokyo, Japan",
+      "about": "As a passionate software developer based in Tokyo, I specialize in crafting elegant and efficient solutions to complex problems. With a focus on delivering high-quality code and user-centric experiences, I thrive on bringing innovative ideas from concept to reality. I am dedicated to continuous learning and leveraging cutting-edge technologies to drive impactful results for my clients.",
+      "current_company": "Freelance",
+      "current_position": "Freelance Software Developer",
+      "connections": 387,
+      "followers": 1250,
+      "profile_views_last_90_days": 350,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": false,
+      "experience": [
+        {
+          "title": "Freelance Software Engineer",
+          "company": "Self-employed",
+          "location": "Remote",
+          "start_date": "March 2022",
+          "end_date": "Present",
+          "description": [
+            "Developed and deployed full-stack web applications and backend services for diverse clients, utilizing technologies such as React, Node.js, Python/Django, and AWS.",
+            "Provided technical consulting, architectural design, and code review services, optimizing existing systems for performance, scalability, and maintainability.",
+            "Managed end-to-end project lifecycles, from requirements gathering and solution design to implementation and post-launch support, often integrating third-party APIs and services."
+          ],
+          "is_current": true
+        },
+        {
+          "title": "Senior Software Engineer",
+          "company": "Apex Innovations Inc.",
+          "location": "Seattle, USA",
+          "start_date": "January 2018",
+          "end_date": "February 2022",
+          "description": [
+            "Led the design and implementation of critical microservices in a high-traffic e-commerce platform using Java/Spring Boot and Kubernetes, improving system response times by 15%.",
+            "Mentored junior developers, conducted code reviews, and contributed to defining best practices for continuous integration/continuous delivery (CI/CD) pipelines.",
+            "Collaborated with product managers and cross-functional teams to translate business requirements into robust technical solutions, delivering key features ahead of schedule."
+          ],
+          "is_current": false
+        },
+        {
+          "title": "Software Engineer",
+          "company": "TechSolutions Ltd.",
+          "location": "Dublin, Ireland",
+          "start_date": "June 2014",
+          "end_date": "December 2017",
+          "description": [
+            "Developed and maintained features for a large-scale SaaS application using Ruby on Rails and PostgreSQL, enhancing user experience and data processing capabilities.",
+            "Participated in agile development sprints, contributing to all phases from requirement analysis to deployment and ongoing support.",
+            "Wrote comprehensive unit and and integration tests, ensuring code quality and reducing production bugs by 20%."
+          ],
+          "is_current": false
+        }
+      ],
+      "education": [
+        {
+          "institution": "University of Central Florida",
+          "degree": "Bachelor of Science",
+          "field_of_study": "Computer Science",
+          "start_year": 2017,
+          "end_year": 2021,
+          "activities": "ACM Student Chapter Member, Undergraduate Research Assistant (AI Lab), Hackathon Participant"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Problem Solving",
+          "endorsements": 19
+        },
+        {
+          "name": "Team Leadership",
+          "endorsements": 26
+        },
+        {
+          "name": "Agile",
+          "endorsements": 9
+        }
+      ]
+    },
+    "posts": [
+      {
+        "content": "Excited to announce the successful launch of a custom CRM and inventory management system for a client in the e-commerce sector! It was a challenging but incredibly rewarding journey, building out the full-stack solution from architecting scalable APIs with Node.js and Express to crafting a responsive and intuitive front-end with React. The primary focus was on optimizing order processing workflows and providing real-time inventory insights.\n\nSeeing the positive impact this will have on their daily operations and customer satisfaction is why I love what I do. Huge thanks to the client for their trust and collaborative spirit throughout the process. Onwards to the next challenge! #SoftwareDevelopment #FullStack #FreelanceDeveloper #WebDevelopment #ProjectLaunch #Tech",
+        "likes": 78,
+        "comments": 12,
+        "type": "achievement",
+        "timestamp": "2026-01-03T19:27:06.740348"
+      },
+      {
+        "content": "Just read a fantastic piece on 'The Art of Writing Clean Code' from Martin Fowler's blog (link in comments!). It's a great reminder that writing maintainable, readable code isn't just about functionality \u2013 it's about collaboration, future-proofing, and significantly reducing technical debt.\n\nI particularly resonated with the emphasis on meaningful variable names and keeping functions small and focused. As a freelance developer, clear code comments and well-structured projects are paramount for seamless handovers and long-term scalability. Definitely worth a read for any developer! #CleanCode #SoftwareEngineering #BestPractices #DeveloperLife #TechArticles",
+        "likes": 62,
+        "comments": 8,
+        "type": "article_share",
+        "timestamp": "2026-01-01T05:27:06.740348"
+      },
+      {
+        "content": "Code reviews: essential for maintaining quality, fostering learning, and ensuring team cohesion. But how do you make them truly effective and not just a bottleneck? I find focusing on constructive feedback, asking questions rather than making demands, and always aiming for a shared understanding of best practices are key.\n\nIt's not just about finding bugs; it's about spreading knowledge, elevating the entire codebase, and growing as developers. What are your golden rules for a successful and positive code review process? #CodeReview #SoftwareQuality #DeveloperCommunity #BestPractices #TechInsights",
+        "likes": 70,
+        "comments": 10,
+        "type": "text",
+        "timestamp": "2025-12-27T12:27:06.740348"
+      },
+      {
+        "content": "One of the biggest lessons I've learned as a freelance software developer is the paramount importance of clear communication and managing client expectations from day one. Detailed project scopes, regular progress updates, and transparent feedback loops don't just build trust \u2013 they ensure project success and client satisfaction.\n\nIt's not just about writing great code; it's about building strong, lasting professional relationships. What's your top tip for effective client management in the tech world? #FreelanceSuccess #ClientRelations #ProjectManagement #SoftwareDevelopment #BusinessTips",
+        "likes": 85,
+        "comments": 14,
+        "type": "text",
+        "timestamp": "2025-12-22T11:27:06.740348"
+      },
+      {
+        "content": "Exciting times ahead! I'm currently wrapping up a fantastic project and will have availability for new full-stack development engagements starting mid-October. If you're looking for a robust, scalable web solution built with a keen eye on performance and exceptional user experience, let's connect.\n\nMy expertise spans modern front-end frameworks like React and Vue, powerful back-ends with Node.js and Python (Django/Flask), and cloud deployment on AWS/GCP. Ready to bring your next big idea to life with a comprehensive and tailored approach! DM me or connect to discuss potential collaborations. #FreelanceDeveloper #FullStackEngineer #WebDevelopment #HireFreelancers #TechForBusiness",
+        "likes": 55,
+        "comments": 7,
+        "type": "text",
+        "timestamp": "2025-12-21T04:27:06.740348"
+      },
+      {
+        "content": "Always pushing to learn something new! This month, I've been diving deep into serverless architecture with AWS Lambda and DynamoDB. The power, scalability, and cost-efficiency these technologies offer for specific use cases are truly impressive, especially for event-driven applications.\n\nIt's been a fun challenge to refactor some personal projects to leverage these concepts and optimize their performance. The learning never stops in our field, and that's what keeps it exciting! What's the latest tech you've been exploring? #ContinuousLearning #Serverless #AWS #DeveloperSkills #TechJourney",
+        "likes": 88,
+        "comments": 15,
+        "type": "achievement",
+        "timestamp": "2025-12-20T03:27:06.740348"
+      },
+      {
+        "content": "Sharing an insightful article from Harvard Business Review titled '5 Habits of Highly Productive Developers' (link in comments). While personal workflows vary, the principles of focused work, effective time management, and continuous learning resonate universally across our industry.\n\nMy personal takeaway: blocking out 'deep work' sessions without distractions has been a game-changer for tackling complex coding tasks and architectural challenges. What's your go-to productivity hack as a developer, especially when facing tight deadlines? #Productivity #DeveloperLife #TimeManagement #TechTips #WorkSmarter",
+        "likes": 50,
+        "comments": 6,
+        "type": "article_share",
+        "timestamp": "2025-12-13T07:27:06.740348"
+      },
+      {
+        "content": "Found a thought-provoking article on 'The Evolving Landscape of Remote Work and Freelancing in Tech' (link in comments). It touches on the rise of highly specialized talent pools and the increasing demand for flexible, project-based expertise, particularly within software development.\n\nIt reinforces my belief that the freelance model is not just a trend but a powerful, sustainable force shaping the future of how businesses access top-tier technical talent efficiently and effectively. An interesting read for both freelancers and companies exploring flexible workforce models! #FutureOfWork #RemoteWork #Freelancing #GigEconomy #TechTrends",
+        "likes": 70,
+        "comments": 9,
+        "type": "article_share",
+        "timestamp": "2025-12-10T08:27:06.741354"
+      },
+      {
+        "content": "Had an incredibly productive week collaborating with Sarah Jenkins, an exceptional UI/UX designer, on a new client project! Her expertise in user research and intuitive interface design perfectly complemented my back-end and front-end development efforts. It's truly amazing how much more impactful a project can be when diverse skill sets come together seamlessly.\n\nShoutout to Sarah for the fantastic work, smooth communication, and bringing a fresh perspective. Looking forward to seeing this one go live soon! #Collaboration #FreelanceLife #WebDesign #SoftwareDevelopment #Teamwork #ClientSuccess",
+        "likes": 45,
+        "comments": 5,
+        "type": "text",
+        "timestamp": "2025-12-09T14:27:06.740348"
+      },
+      {
+        "content": "While technical prowess is foundational, the power of soft skills in software development cannot be overstated. Communication, empathy, adaptability, and critical thinking are often what differentiate good developers from truly great ones. Technical mastery gets you in the door, but these skills allow you to thrive.\n\nEspecially in a freelance context, being able to articulate complex technical concepts to non-technical stakeholders, negotiate requirements, and manage expectations is absolutely crucial for success. What soft skill do you find most impactful in your daily role? #SoftSkills #DeveloperLife #CareerDevelopment #TechSkills #Communication",
+        "likes": 95,
+        "comments": 20,
+        "type": "text",
+        "timestamp": "2025-12-05T21:27:06.741354"
+      },
+      {
+        "content": "The discussion around AI's role in software development is heating up. While tools like GitHub Copilot and ChatGPT are fantastic for accelerating development, automating boilerplate, and even debugging, I firmly believe human creativity, critical thinking, and the ability to understand complex business logic remain irreplaceable.\n\nAI will augment, not replace, skilled developers. It frees us up to focus on higher-level architecture, innovative problem-solving, and truly understanding deep user needs. What are your thoughts? How are you leveraging AI in your workflow to stay ahead? #AIinTech #SoftwareDevelopment #FutureOfWork #DeveloperTools #TechDiscussion",
+        "likes": 115,
+        "comments": 35,
+        "type": "text",
+        "timestamp": "2025-11-30T16:27:06.740348"
+      },
+      {
+        "content": "Wow, time flies! Officially celebrating 7 years as a freelance software developer today. It's been an incredible journey of continuous learning, challenging myself with diverse projects, and collaborating with amazing clients to bring their visions to life.\n\nGrateful for every opportunity, every problem solved, and every line of code written. Here's to many more years of building robust solutions, making a tangible impact, and growing within this dynamic industry! Thank you to everyone who has supported me along the way. #FreelanceAnniversary #SoftwareDeveloper #Entrepreneurship #Milestone #TechJourney",
+        "likes": 250,
+        "comments": 45,
+        "type": "achievement",
+        "timestamp": "2025-11-28T23:27:06.740348"
+      },
+      {
+        "content": "For aspiring freelance software developers or those just starting their journey: don't underestimate the power of building a strong network and consistently showcasing your work. Your portfolio isn't just code; it's a testament to your problem-solving abilities, your dedication, and your unique approach.\n\nBeyond technical skills, developing robust soft skills like communication, client empathy, and efficient project management will set you apart. It's a marathon, not a sprint, but incredibly rewarding when you see your impact. What's one piece of advice you wish you'd received earlier? #FreelanceTips #CareerAdvice #SoftwareDeveloper #TechCareers #Networking",
+        "likes": 98,
+        "comments": 18,
+        "type": "text",
+        "timestamp": "2025-11-23T19:27:06.740348"
+      },
+      {
+        "content": "Are you struggling with inefficient APIs, complex data integrations, or simply need a robust backend to power your next application? My expertise lies in designing and building highly performant, secure, and scalable RESTful and GraphQL APIs using Node.js, Python (Django/FastAPI), and deploying them efficiently on cloud platforms like AWS or Azure.\n\nWhether it's connecting disparate systems, powering demanding mobile apps, or building the resilient backbone for your web application, I can help streamline your backend architecture and ensure future scalability. Let's build something exceptional together! Drop me a DM or connect if this resonates with your project needs. #APIDevelopment #BackendDevelopment #NodeJS #Python #SoftwareArchitecture #FreelanceExpert",
+        "likes": 60,
+        "comments": 8,
+        "type": "text",
+        "timestamp": "2025-11-22T04:27:06.741354"
+      }
+    ]
+  }
+}

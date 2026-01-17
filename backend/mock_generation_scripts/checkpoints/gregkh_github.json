@@ -1,0 +1,51 @@
+{
+  "username": "gregkh",
+  "platform": "github",
+  "timestamp": "2026-01-17T16:51:26.285380",
+  "data": {
+    "profile": {
+      "login": "gregkh",
+      "id": 14953,
+      "node_id": "MDQ6VXNlcjE0OTUz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14953?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gregkh",
+      "html_url": "https://github.com/gregkh",
+      "followers_url": "https://api.github.com/users/gregkh/followers",
+      "following_url": "https://api.github.com/users/gregkh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gregkh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gregkh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gregkh/subscriptions",
+      "organizations_url": "https://api.github.com/users/gregkh/orgs",
+      "repos_url": "https://api.github.com/users/gregkh/repos",
+      "events_url": "https://api.github.com/users/gregkh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gregkh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Greg Kroah-Hartman",
+      "company": null,
+      "blog": "www.kroah.com/log",
+      "location": null,
+      "email": "greg@kroah.com",
+      "hireable": null,
+      "bio": null,
+      "twitter_username": null,
+      "public_repos": 77,
+      "public_gists": 2,
+      "followers": 4951,
+      "following": 0,
+      "created_at": "2008-06-25T05:46:49Z",
+      "updated_at": "2025-07-29T12:28:38Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": "If they are built, they will be installed, so they should be part of the sbom, so having them in the file should be fine.",
+        "timestamp": "2026-01-07T12:06:31+00:00",
+        "url": "https://github.com/TNG/KernelSbom/issues/114#issuecomment-3718569106",
+        "metadata": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "username": "feross",
+  "platform": "linkedin",
+  "timestamp": "2026-01-17T17:28:30.361591",
+  "data": {
+    "profile": {
+      "name": "Feross Aboukhadijeh",
+      "headline": "Founder & CEO at Socket | Creator of WebTorrent & Standard | Web Security Lecturer at Stanford",
+      "location": "Stanford, CA",
+      "about": "I am the Founder and CEO of Socket, dedicated to enhancing software supply chain security. With a deep commitment to open source, I've developed and maintained over 100 npm packages, including widely-adopted projects like WebTorrent and Standard. I also share my expertise by lecturing on Web Security at Stanford University.",
+      "current_company": "@SocketDev, @WebTorrent, @Standard",
+      "current_position": "Founder & CEO",
+      "connections": 478,
+      "followers": 8500,
+      "profile_views_last_90_days": 1250,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true,
+      "experience": [
+        {
+          "title": "Lead Distributed Systems Engineer",
+          "company": "Protocol Labs",
+          "location": "Remote",
+          "start_date": "February 2021",
+          "end_date": "Present",
+          "description": [
+            "Led development efforts for core components of decentralized web projects, including contributions to high-performance data transfer protocols and secure client-side module management (e.g., related to WebTorrent and SocketDev paradigms).",
+            "Architected and implemented robust, scalable solutions for distributed data synchronization and real-time communication, ensuring adherence to open standards and high security. ",
+            "Mentored junior engineers and collaborated with cross-functional teams to integrate new features and optimize existing systems, significantly improving overall project stability and performance."
+          ],
+          "is_current": true
+        },
+        {
+          "title": "Senior Full Stack Developer",
+          "company": "DataStream Innovations",
+          "location": "Berlin, Germany",
+          "start_date": "July 2018",
+          "end_date": "January 2021",
+          "description": [
+            "Designed and developed scalable microservices using Node.js and Go, managing large data pipelines for real-time analytics platforms on AWS.",
+            "Rebuilt legacy frontend applications with React and TypeScript, enhancing user experience and reducing page load times by 30%.",
+            "Implemented robust API integrations with third-party services and established comprehensive testing frameworks, improving system reliability and reducing production bugs by 25%."
+          ],
+          "is_current": false
+        },
+        {
+          "title": "Software Engineer",
+          "company": "NexGen Solutions",
+          "location": "London, UK",
+          "start_date": "September 2015",
+          "end_date": "June 2018",
+          "description": [
+            "Contributed to the development of enterprise-grade web applications using Python/Django and PostgreSQL, implementing new features and maintaining existing codebases.",
+            "Collaborated with product managers to translate requirements into technical specifications and delivered features on an agile development cycle.",
+            "Developed and maintained CI/CD pipelines using Jenkins, automating deployment processes and improving development efficiency."
+          ],
+          "is_current": false
+        }
+      ],
+      "education": [
+        {
+          "institution": "State University of Technology",
+          "degree": "Bachelor of Science",
+          "field_of_study": "Computer Science",
+          "start_year": 2018,
+          "end_year": 2022,
+          "activities": "Dean's List (6 semesters), Member of Competitive Programming Club, Undergraduate Research Assistant"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Problem Solving",
+          "endorsements": 23
+        },
+        {
+          "name": "Team Leadership",
+          "endorsements": 18
+        },
+        {
+          "name": "Agile",
+          "endorsements": 38
+        }
+      ]
+    },
+    "posts": [
+      {
+        "content": "A huge congratulations to our Customer Success team at Socket for helping a major enterprise customer significantly reduce their critical dependency vulnerabilities by 60% in just three months! Their dedication to onboarding, education, and proactive support is truly outstanding.\n\nCustomer success isn't just about problem-solving; it's about partnership and enabling our users to achieve tangible security outcomes. Well done, team!",
+        "likes": 105,
+        "comments": 17,
+        "type": "text",
+        "timestamp": "2026-01-15T15:28:30.361591"
+      },
+      {
+        "content": "Huge shoutout to the incredible engineering team at Socket for hitting a major performance milestone this week! Their relentless focus on optimizing our analysis engine has led to a 2x speed improvement for large codebases, making our platform even more powerful and responsive for our customers.\n\nThis kind of dedication to engineering excellence is what drives innovation. So proud to work alongside such brilliant minds who are constantly pushing the boundaries of what's possible in software supply chain security. Congrats team!",
+        "likes": 110,
+        "comments": 21,
+        "type": "text",
+        "timestamp": "2026-01-06T19:28:30.361591"
+      },
+      {
+        "content": "Reflecting on the early days of WebTorrent and the vision for a more decentralized web. While the mainstream internet continues its path towards centralization, the core ideas of peer-to-peer connectivity and user control remain more relevant than ever.\n\nIt's a constant tension between convenience and privacy, efficiency and resilience. What future web architecture truly excites you, and what role do you see decentralized technologies playing in the next decade?",
+        "likes": 189,
+        "comments": 38,
+        "type": "text",
+        "timestamp": "2026-01-03T10:28:30.361591"
+      },
+      {
+        "content": "One of the most common questions I get from my students at Stanford, and from early-career professionals, is about staying current in web security. My advice? Embrace continuous learning, but with a focus. Pick one area (e.g., app sec, network sec, crypto) and go deep, then broaden your horizons.\n\nRead research papers, contribute to open source, engage in CTFs, and most importantly, build things! Practical experience trumps theoretical knowledge every time in this field. What's your top tip for staying sharp?",
+        "likes": 78,
+        "comments": 14,
+        "type": "text",
+        "timestamp": "2025-12-29T04:28:30.361591"
+      },
+      {
+        "content": "Thrilled to announce that Socket has achieved SOC 2 Type II compliance! This milestone reflects our unwavering commitment to security, privacy, and operational excellence for our customers. It's a testament to the hard work and dedication of the entire team, especially our compliance and operations leads.\n\nBuilding trust is paramount in the security space, and this achievement reinforces our foundation. Onwards and upwards!",
+        "likes": 150,
+        "comments": 28,
+        "type": "achievement",
+        "timestamp": "2025-12-23T18:28:30.361591"
+      },
+      {
+        "content": "The landscape of software supply chain security is evolving at an incredible pace. It's no longer just about known vulnerabilities, but understanding the behavioral risk of every single dependency. We're seeing more sophisticated attacks targeting the 'build' stage and developer environments.\n\nAt Socket, we're deeply focused on shifting the paradigm from reactive vulnerability patching to proactive behavioral analysis. It's about knowing what your code *could* do, not just what it *has* done. This level of insight is crucial for truly securing modern applications. What are your biggest concerns in this space today?",
+        "likes": 68,
+        "comments": 12,
+        "type": "text",
+        "timestamp": "2025-12-20T05:28:30.361591"
+      },
+      {
+        "content": "Exciting news from Socket! We've just rolled out significant enhancements to our runtime analysis capabilities, giving developers even deeper visibility into how their dependencies are behaving in production. This update includes advanced detection for obfuscated code and dynamic behavior, helping identify stealthy threats before they escalate.\n\nOur team has poured countless hours into making this a reality, and I'm incredibly proud of their dedication. This is a big step forward in our mission to make supply chain security intelligent and effortless. Learn more in our latest blog post linked in comments!",
+        "likes": 92,
+        "comments": 18,
+        "type": "text",
+        "timestamp": "2025-12-18T12:28:30.361591"
+      },
+      {
+        "content": "Mentorship has been incredibly impactful throughout my career, both as a mentee and a mentor. The power of having someone to bounce ideas off, get candid feedback from, or simply listen, is invaluable. And conversely, seeing others grow with your guidance is immensely rewarding.\n\nIf you're not actively seeking mentorship or offering it, I highly encourage you to start. The tech community thrives on shared knowledge and support. Who has been a key mentor in your journey?",
+        "likes": 88,
+        "comments": 13,
+        "type": "text",
+        "timestamp": "2025-12-18T11:28:30.361591"
+      },
+      {
+        "content": "For aspiring founders, one of the toughest lessons is learning to prioritize ruthlessly. When you're building from scratch, there are a million things that *could* be done, but only a few that *must* be done to move the needle.\n\nFocus on your core problem, solve it exceptionally well for your initial customers, and say 'no' to everything else (for now). It's about conserving energy and resources for what truly matters. What's your best advice for early-stage startup leaders?",
+        "likes": 95,
+        "comments": 19,
+        "type": "text",
+        "timestamp": "2025-12-05T19:28:30.361591"
+      },
+      {
+        "content": "Excited to share that Socket has officially partnered with a leading cloud provider to integrate our supply chain security insights directly into their developer dashboards! This collaboration will make it even easier for teams to gain real-time visibility into dependency risks without leaving their existing workflows.\n\nStrategic partnerships like this are key to democratizing advanced security and making it accessible where developers already work. More details coming soon!",
+        "likes": 135,
+        "comments": 24,
+        "type": "text",
+        "timestamp": "2025-12-04T22:28:30.361591"
+      },
+      {
+        "content": "We're growing! Socket is on the lookout for talented engineers who are passionate about solving hard problems in software supply chain security. If you're a JavaScript wizard, a security enthusiast, or someone who thrives on building impactful products, we want to hear from you.\n\nJoin a mission-driven team dedicated to making the open-source ecosystem safer for everyone. Check out our open roles in the comments \u2013 let's build the future of secure software, together!",
+        "likes": 87,
+        "comments": 16,
+        "type": "text",
+        "timestamp": "2025-12-03T21:28:30.361591"
+      },
+      {
+        "content": "Delving into a fascinating research paper on 'invisible' supply chain attacks that exploit build tool vulnerabilities rather than direct package compromise. The subtlety of these attacks is truly chilling.\n\nIt underscores the need for continuous integrity verification across the entire CI/CD pipeline, not just at the dependency ingress point. We're integrating some of these insights into Socket's roadmap. The cat-and-mouse game never ends, but better tools make us smarter.",
+        "likes": 50,
+        "comments": 8,
+        "type": "article_share",
+        "timestamp": "2025-11-29T01:28:30.361591"
+      },
+      {
+        "content": "Just wrapped up another engaging lecture at Stanford on advanced web security topics. Today, we delved into the nuances of CSP bypasses and the evolving threat landscape for client-side attacks. Always a privilege to share knowledge and foster critical thinking among the next generation of security leaders.\n\nTheir insights and questions continue to challenge my own perspectives and remind me why teaching is such a vital part of my journey. Inspiring stuff!",
+        "likes": 123,
+        "comments": 25,
+        "type": "achievement",
+        "timestamp": "2025-11-28T02:28:30.361591"
+      },
+      {
+        "content": "Thinking back to the early days of JavaScript and how far we've come with security best practices. The journey from lax trust models to robust CSPs, SRI, and now advanced supply chain analysis has been incredible. Yet, new frameworks and paradigms constantly introduce new attack vectors.\n\nThe work on tools like `Standard.js` was always about improving code quality and consistency, which inherently contributes to better security. The battle for secure JS development is perpetual, but we're armed with better tools and knowledge than ever before.",
+        "likes": 98,
+        "comments": 16,
+        "type": "text",
+        "timestamp": "2025-11-24T10:28:30.361591"
+      },
+      {
+        "content": "Just read this insightful piece from The Register on the growing sophistication of open-source attacks. It highlights the often-overlooked area of post-install scripts and legitimate-looking packages that harbor malicious intent.\n\nThis resonates deeply with our work at Socket. It's not enough to simply check for known CVEs. You need a system that understands the *intent* and *behavior* of the code you're bringing into your projects. Trust is earned through transparency and continuous verification. What are your thoughts on protecting against these 'trojan horse' dependencies?",
+        "likes": 55,
+        "comments": 9,
+        "type": "article_share",
+        "timestamp": "2025-11-18T17:28:30.361591"
+      }
+    ]
+  }
+}

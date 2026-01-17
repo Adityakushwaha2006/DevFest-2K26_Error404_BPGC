@@ -1,0 +1,249 @@
+{
+  "platform": "linkedin",
+  "identifier": "Rich-Harris",
+  "profile": {
+    "name": "Rich Harris",
+    "headline": "Freelance Software Engineer | Web Development & System Architecture | Building Robust Applications",
+    "location": "NYC",
+    "about": "I am a dedicated freelance software engineer based in NYC, specializing in full-stack development and system architecture. My passion lies in crafting efficient, scalable, and intuitive software solutions that solve real-world problems. I partner with clients to bring their visions to life, leveraging modern technologies and a commitment to quality from concept to deployment.",
+    "current_company": "Freelance",
+    "current_position": "Freelance Software Engineer",
+    "connections": 387,
+    "followers": 1250,
+    "profile_views_last_90_days": 550,
+    "open_to_work": true,
+    "open_to_hiring": false,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Freelance Software Developer",
+        "company": "Self-employed",
+        "location": "Remote",
+        "start_date": "February 2022",
+        "end_date": "Present",
+        "description": [
+          "Developed and deployed custom web applications and APIs for diverse clients across various industries, utilizing technologies like React, Node.js, Python (Django, FastAPI), and Go.",
+          "Provided technical consulting, architectural design, and code review services, optimizing existing systems for performance, scalability, and maintainability on cloud platforms (AWS, GCP).",
+          "Managed full project lifecycles from requirements gathering to deployment, ensuring client satisfaction and timely delivery of solutions."
+        ],
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Innovatech Solutions",
+        "location": "Seattle, USA",
+        "start_date": "July 2018",
+        "end_date": "January 2022",
+        "description": [
+          "Led the design and implementation of critical microservices for a high-traffic SaaS platform using Java, Spring Boot, and Kafka, improving system responsiveness by 25%.",
+          "Mentored junior engineers, conducted thorough code reviews, and contributed to architectural decisions for cloud-native applications deployed on AWS EKS.",
+          "Collaborated with product teams to translate complex business requirements into robust technical specifications, driving the successful delivery of key features."
+        ],
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "NexusFlow",
+        "location": "San Francisco, USA",
+        "start_date": "April 2015",
+        "end_date": "June 2018",
+        "description": [
+          "Developed and maintained core backend services for a data analytics platform using Python, Django, and PostgreSQL, handling large datasets efficiently.",
+          "Implemented RESTful APIs and integrated various third-party services, significantly enhancing platform functionality and developer experience.",
+          "Participated in agile development cycles, contributing to feature development, bug fixes, and continuous integration/delivery pipelines."
+        ],
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Central Florida",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2022,
+        "activities": "President of KnightHacks (Hackathon Organization), Dean's List (7 semesters), Research Assistant in AI Lab"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 23
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 24
+      },
+      {
+        "name": "Agile",
+        "endorsements": 8
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Thrilled to announce the successful launch of the new e-commerce platform for [Client Name]! 🚀 We built this from the ground up, focusing on a robust #SystemArchitecture with a scalable microservices approach, integrated with a modern #React frontend and serverless backend services. It was an incredible journey collaborating with their team, tackling complex inventory management and payment gateway integrations. Seeing their vision come to life and already handling high traffic is incredibly rewarding. #WebDevelopment #SoftwareEngineering #LaunchDay #FreelanceSuccess",
+      "timestamp": "2026-01-11T00:21:40.154500",
+      "date": "2026-01-11",
+      "time": "00:21:40",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/Rich-Harris-5137",
+      "engagement": {
+        "likes": 87,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Looking forward to kicking off a new project with [New Client Name]! We'll be modernizing their legacy backend system, migrating to a serverless architecture, and refactoring their core APIs to improve performance and maintainability. This engagement perfectly aligns with my passion for building robust applications and system architecture. Can't wait to share updates as we progress! #NewProject #SystemModernization #BackendDevelopment #FreelanceLife #API",
+      "timestamp": "2026-01-06T06:21:40.154500",
+      "date": "2026-01-06",
+      "time": "06:21:40",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/Rich-Harris-8727",
+      "engagement": {
+        "likes": 92,
+        "comments": 14
+      }
+    },
+    {
+      "type": "post",
+      "content": "The debate around framework choice versus vanilla JavaScript/HTML/CSS for long-term project sustainability is an interesting one. While frameworks like React, Vue, Angular provide immense productivity boosts and structure, they also come with a learning curve, potential vendor lock-in, and frequent breaking changes. When do you decide to stick with the basics for longevity and maintainability, versus leveraging a powerful framework for speed? What factors weigh heaviest in your decision-making? #WebDevelopment #Frontend #Frameworks #VanillaJS #SoftwareEngineering",
+      "timestamp": "2025-12-26T16:21:40.154500",
+      "date": "2025-12-26",
+      "time": "16:21:40",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/Rich-Harris-6238",
+      "engagement": {
+        "likes": 88,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to share that I've just completed the AWS Certified Solutions Architect - Associate certification! ☁️ This was a fantastic journey to deepen my understanding of designing scalable, fault-tolerant, and cost-effective systems on AWS. It's directly applicable to my freelance work, allowing me to architect even more robust and efficient cloud solutions for my clients. Always learning, always growing! #AWSCertified #CloudComputing #SystemArchitecture #ContinuousLearning #SoftwareEngineer",
+      "timestamp": "2025-12-24T23:21:40.154500",
+      "date": "2025-12-24",
+      "time": "23:21:40",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/Rich-Harris-2327",
+      "engagement": {
+        "likes": 74,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "A recent project threw a curveball with an unexpected surge in real-time data processing requirements. We had initially designed for moderate throughput, but suddenly needed to handle 5x the load! Instead of a full re-architecture, we iterated on existing services, implementing message queuing with RabbitMQ and optimizing our database indexes, alongside some aggressive caching strategies. It was a steep learning curve in pressure, but a great reminder of the importance of anticipating scalability needs and building modular components that can be adapted. Always learning! #LessonsLearned #Scalability #SystemArchitecture #SoftwareDevelopment #ProblemSolving",
+      "timestamp": "2025-12-16T20:21:40.154500",
+      "date": "2025-12-16",
+      "time": "20:21:40",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/Rich-Harris-9048",
+      "engagement": {
+        "likes": 128,
+        "comments": 25
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited about the potential of WebAssembly (Wasm) moving beyond just browsers and into server-side and edge computing. Imagine the performance benefits and language flexibility for serverless functions or microservices! It feels like a significant shift that could democratize performance-critical system development even further. Definitely on my radar to explore deeper this year. What possibilities do you see with Wasm's broader adoption? #WebAssembly #Wasm #EdgeComputing #FutureOfTech #SoftwareEngineering",
+      "timestamp": "2025-12-16T00:21:40.154500",
+      "date": "2025-12-16",
+      "time": "00:21:40",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/Rich-Harris-4047",
+      "engagement": {
+        "likes": 98,
+        "comments": 19
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thinking about diving into freelancing as a software engineer? Here's my top advice:\n\n1. **Niche Down Early:** Don't try to be everything to everyone. Focus on a specific tech stack (e.g., Node.js & React) or a problem domain (e.g., SaaS platforms, real-time analytics). This helps you stand out.\n2. **Master Communication:** Technical skills are just half the battle. Clear, proactive communication with clients is paramount. Regular updates, setting expectations, and active listening build trust.\n3. **Build a Portfolio & Testimonials:** Show, don't just tell. Showcase past projects, even personal ones, and actively seek testimonials from satisfied clients. This is your social proof.\n\nIt's a challenging but incredibly rewarding path! What tips would you add for aspiring freelance developers? #CareerAdvice #FreelanceDeveloper #SoftwareEngineer #WebDevelopment #CareerJourney",
+      "timestamp": "2025-12-11T07:21:40.154500",
+      "date": "2025-12-11",
+      "time": "07:21:40",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/Rich-Harris-3162",
+      "engagement": {
+        "likes": 168,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "Quick tip for optimizing your local dev environment: If you're using Docker for local development, make sure to leverage multi-stage builds in your `Dockerfile` and regularly prune unused images and volumes. It can significantly speed up build times and free up precious disk space. A clean dev setup is a happy dev setup! 💻 #DevTips #Docker #SoftwareDevelopment #Productivity #CleanCode",
+      "timestamp": "2025-12-06T19:21:40.154500",
+      "date": "2025-12-06",
+      "time": "19:21:40",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/Rich-Harris-5717",
+      "engagement": {
+        "likes": 71,
+        "comments": 8
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read a fantastic article on 'The Hidden Costs of Technical Debt' by Martin Fowler. Link: [Example Article Link]\n\nIt's a crucial reminder that technical debt isn't just about 'bad code' but often strategic decisions with future implications. What really resonated with me was the emphasis on communication – explaining the 'why' behind architectural decisions and the impact of shortcuts to non-technical stakeholders. As a freelancer, managing client expectations around this balance is key to long-term project success. Highly recommend this read for any developer or project manager! #TechnicalDebt #SoftwareQuality #AgileDevelopment #MartinFowler #SoftwareEngineering",
+      "timestamp": "2025-12-02T16:21:40.154500",
+      "date": "2025-12-02",
+      "time": "16:21:40",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/Rich-Harris-6264",
+      "engagement": {
+        "likes": 63,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "Is the pendulum swinging back from microservices to modular monoliths for certain scales of projects? 🤔 While microservices offer unparalleled scalability and team independence, the operational overhead, distributed debugging, and inter-service communication complexity can be daunting for smaller to medium-sized teams. I'm increasingly seeing the value in well-architected modular monoliths as a starting point, especially for rapid iteration and managing initial complexity. What are your thoughts on this architectural debate? #SystemArchitecture #SoftwareDesign #TechTrends #Microservices #Monolith",
+      "timestamp": "2025-11-25T20:21:40.154500",
+      "date": "2025-11-25",
+      "time": "20:21:40",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/Rich-Harris-7806",
+      "engagement": {
+        "likes": 115,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "Stumbled upon an excellent guide on 'Designing for Scale: Database Sharding Strategies' by Google Cloud. Link: [Example Article Link]\n\nIt breaks down complex concepts like horizontal partitioning and various sharding keys in an accessible way. While not every project requires sharding, understanding these principles is fundamental for any #SystemArchitect. It’s a great resource for anyone building high-traffic applications and thinking ahead about database scalability. #DatabaseDesign #Scalability #CloudArchitecture #SoftwareEngineering #TechReads",
+      "timestamp": "2025-11-24T06:21:40.154500",
+      "date": "2025-11-24",
+      "time": "06:21:40",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/Rich-Harris-2324",
+      "engagement": {
+        "likes": 55,
+        "comments": 7
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge congratulations to the team at [Client Name] for hitting their user acquisition goals just two months after launching the new SaaS platform we helped them build! 🎉 It's incredibly satisfying to see the product not only function flawlessly but also drive tangible business results. This success is a testament to their clear vision and our collaborative effort in building a performant and user-friendly application. Onwards and upwards! #ClientSuccess #SaaS #WebDevelopment #ProductLaunch #TeamWork",
+      "timestamp": "2025-11-19T02:21:40.154500",
+      "date": "2025-11-19",
+      "time": "02:21:40",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/Rich-Harris-7696",
+      "engagement": {
+        "likes": 105,
+        "comments": 16
+      }
+    }
+  ],
+  "post_count": 12,
+  "cross_references": {
+    "github": "rich-harris_github.json",
+    "twitter": "rich-harris_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:21:40.205471",
+  "is_simulated": true
+}

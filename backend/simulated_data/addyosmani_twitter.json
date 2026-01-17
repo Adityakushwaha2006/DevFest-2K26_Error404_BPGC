@@ -1,0 +1,307 @@
+{
+  "platform": "twitter",
+  "identifier": "addyosmani",
+  "profile": {
+    "name": "Addy Osmani",
+    "username": "addyosmani",
+    "bio": "Engineering Lead @Google on Chrome & Web Platform. Passionate about #GoLang, performance, & DX. Sharing insights, learning in public. All opinions my own. ✨🚀",
+    "location": "Mountain View, California",
+    "website": "https://addyosmani.com",
+    "followers": 45000,
+    "following": 850,
+    "tweets_count": 12500,
+    "joined_date": "March 2009",
+    "is_verified": false,
+    "github_username": "Addy Osmani"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Me: 'It works on my machine!' My teammate: 'That's exactly the problem.' #DevHumor #Debugging",
+      "timestamp": "2026-01-16T04:14:57.658094",
+      "date": "2026-01-16",
+      "time": "04:14:57",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/addyosmani/status/5051043636",
+      "engagement": {
+        "likes": 110,
+        "retweets": 25,
+        "replies": 8
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Fantastic progress on @OpenWebDocs browser compatibility data for new CSS features. This collaborative effort is key to a healthier web ecosystem. Keep it up! #WebStandards #Interoperability",
+      "timestamp": "2026-01-14T22:14:57.658094",
+      "date": "2026-01-14",
+      "time": "22:14:57",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/addyosmani/status/1477453169",
+      "engagement": {
+        "likes": 170,
+        "retweets": 28,
+        "replies": 9
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just spent an hour hunting down a memory leak caused by an unclosed WebWorker. The smallest things can have the biggest impact! Always profile. #Debugging #WebDev",
+      "timestamp": "2026-01-13T05:14:57.658094",
+      "date": "2026-01-13",
+      "time": "05:14:57",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/addyosmani/status/7842985526",
+      "engagement": {
+        "likes": 90,
+        "retweets": 18,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Accessibility isn't a feature you tack on at the end; it's a fundamental principle woven into every stage of development. Build inclusively from day one. #A11y #WebDesign",
+      "timestamp": "2026-01-12T21:14:57.658094",
+      "date": "2026-01-12",
+      "time": "21:14:57",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/addyosmani/status/4292217354",
+      "engagement": {
+        "likes": 380,
+        "retweets": 60,
+        "replies": 25
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Discovered a neat trick with `scroll-snap-type` today for building highly performant carousels without much JS. Details in a small Codepen soon! #CSS #WebDevTips",
+      "timestamp": "2026-01-05T22:14:57.658094",
+      "date": "2026-01-05",
+      "time": "22:14:57",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/addyosmani/status/9837023867",
+      "engagement": {
+        "likes": 75,
+        "retweets": 15,
+        "replies": 8
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Exploring the `PerformanceObserver` API more deeply. Super powerful for catching long tasks and layout shifts in production. Need to write up a quick guide. #WebPerformance #JavaScript",
+      "timestamp": "2026-01-02T15:14:57.658094",
+      "date": "2026-01-02",
+      "time": "15:14:57",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/addyosmani/status/8203934933",
+      "engagement": {
+        "likes": 65,
+        "retweets": 12,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just saw the latest #ChromeDevTools update announcement! The new CSS overview panel looks incredibly useful for identifying perf bottlenecks. Big congrats to the team! 🎉 #WebPlatform",
+      "timestamp": "2026-01-02T00:14:57.658094",
+      "date": "2026-01-02",
+      "time": "00:14:57",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/addyosmani/status/8171962781",
+      "engagement": {
+        "likes": 210,
+        "retweets": 35,
+        "replies": 12
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just submitted a PR to the WICG Fenced Frames spec clarifying some edge cases around event propagation. Every little bit helps make the web more robust! #OpenSource #WebStandards",
+      "timestamp": "2025-12-29T21:14:57.658094",
+      "date": "2025-12-29",
+      "time": "21:14:57",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/addyosmani/status/4450082297",
+      "engagement": {
+        "likes": 112,
+        "retweets": 18,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: The complexity introduced by certain 'modern' build tools often outweighs the benefits for anything but the largest applications. Simpler setups deserve more love. #WebDev",
+      "timestamp": "2025-12-29T17:14:57.658094",
+      "date": "2025-12-29",
+      "time": "17:14:57",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/addyosmani/status/6690124507",
+      "engagement": {
+        "likes": 345,
+        "retweets": 55,
+        "replies": 89
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Had a great brainstorming session with the Chrome team today on optimizing JS engine startup. So many exciting challenges ahead! #Google #Chrome #V8",
+      "timestamp": "2025-12-28T07:14:57.658094",
+      "date": "2025-12-28",
+      "time": "07:14:57",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/addyosmani/status/6625426086",
+      "engagement": {
+        "likes": 130,
+        "retweets": 22,
+        "replies": 10
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "If your SPA bundle size is over 1MB *before* tree-shaking, you might need to rethink some dependencies. Performance starts at the first byte. #WebPerformance #JavaScript",
+      "timestamp": "2025-12-27T19:14:57.658094",
+      "date": "2025-12-27",
+      "time": "19:14:57",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/addyosmani/status/2830112452",
+      "engagement": {
+        "likes": 289,
+        "retweets": 45,
+        "replies": 38
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Progressive Enhancement is not dead, it's just sometimes harder to implement with highly interactive SPAs. But the core principles remain critical for resilience. #WebDev #Performance",
+      "timestamp": "2025-12-27T15:14:57.658094",
+      "date": "2025-12-27",
+      "time": "15:14:57",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/addyosmani/status/9739457632",
+      "engagement": {
+        "likes": 220,
+        "retweets": 35,
+        "replies": 28
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Blown away by the latest @nextjs release! The improvements to HMR and build times are truly game-changing. The ecosystem keeps innovating. #React #WebDev",
+      "timestamp": "2025-12-26T22:14:57.658094",
+      "date": "2025-12-26",
+      "time": "22:14:57",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/addyosmani/status/6584413396",
+      "engagement": {
+        "likes": 195,
+        "retweets": 30,
+        "replies": 18
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Found this gem of an article on optimizing font loading with `font-display` and critical CSS. Sharing because it's super actionable. #WebPerformance #CSS",
+      "timestamp": "2025-12-25T20:14:57.658094",
+      "date": "2025-12-25",
+      "time": "20:14:57",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/addyosmani/status/4388916521",
+      "engagement": {
+        "likes": 80,
+        "retweets": 15,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Been pondering the future of client-side architecture. Are we heading towards more fine-grained islands of interactivity, or a resurgence of full-stack monolithic frameworks? Probably both. #WebArchitecture",
+      "timestamp": "2025-12-24T20:14:57.658094",
+      "date": "2025-12-24",
+      "time": "20:14:57",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/addyosmani/status/2681183471",
+      "engagement": {
+        "likes": 150,
+        "retweets": 25,
+        "replies": 20
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Spent the afternoon diving deep into WebGPU shaders. The performance gains are wild, but the learning curve is real. Building a small particle simulation demo. #WebGPU #GraphicsDev",
+      "timestamp": "2025-12-22T09:14:57.658094",
+      "date": "2025-12-22",
+      "time": "09:14:57",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/addyosmani/status/8178742030",
+      "engagement": {
+        "likes": 187,
+        "retweets": 28,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My relationship status with CSS grid areas is 'It's complicated, but I still love you.' Every time I think I've mastered it, a new challenge appears. #CSS #WebDevHumor",
+      "timestamp": "2025-12-22T07:14:57.658094",
+      "date": "2025-12-22",
+      "time": "07:14:57",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/addyosmani/status/9332737401",
+      "engagement": {
+        "likes": 58,
+        "retweets": 10,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Excited to share I'll be speaking at @ChromeDevSummit (virtually!) this year on some upcoming #WebPlatform capabilities. Stay tuned for details! #Google #WebDev",
+      "timestamp": "2025-12-21T18:14:57.658094",
+      "date": "2025-12-21",
+      "time": "18:14:57",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/addyosmani/status/1248254162",
+      "engagement": {
+        "likes": 420,
+        "retweets": 78,
+        "replies": 22
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Huge shoutout to everyone contributing to the Lighthouse project! Your efforts make the web faster and more accessible for everyone. Thank you! 🙏 #OpenSource #Lighthouse",
+      "timestamp": "2025-12-21T07:14:57.658094",
+      "date": "2025-12-21",
+      "time": "07:14:57",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/addyosmani/status/5127174683",
+      "engagement": {
+        "likes": 250,
+        "retweets": 40,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My brain after spending 3 hours debugging a phantom CSS issue only to realize it was a missing semicolon: 🤯 #DevLife #WebDev",
+      "timestamp": "2025-12-18T22:14:57.658094",
+      "date": "2025-12-18",
+      "time": "22:14:57",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/addyosmani/status/1268270300",
+      "engagement": {
+        "likes": 98,
+        "retweets": 20,
+        "replies": 11
+      }
+    }
+  ],
+  "tweet_count": 20,
+  "cross_references": {
+    "github": "addyosmani_github.json",
+    "linkedin": "addyosmani_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:15:52.632706",
+  "is_simulated": true
+}

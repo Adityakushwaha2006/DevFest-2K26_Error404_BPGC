@@ -1,0 +1,265 @@
+{
+  "platform": "twitter",
+  "identifier": "domenic",
+  "profile": {
+    "name": "Domenic Denicola",
+    "username": "domenicd",
+    "bio": "Software developer in Tokyo, Japan. 🎌 Passionate about all things #ML and building intelligent systems. Learning out loud & sharing insights. 🤖💡",
+    "location": "Tokyo, Japan",
+    "website": "github.com/domenicdenicola",
+    "followers": 3456,
+    "following": 876,
+    "tweets_count": 5123,
+    "joined_date": "July 2018",
+    "is_verified": false,
+    "github_username": "Domenic Denicola"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "If your CI/CD pipeline takes longer than 15 minutes, you're doing it wrong. Fight me. #devops #cicd",
+      "timestamp": "2026-01-17T08:26:16.862607",
+      "date": "2026-01-17",
+      "time": "08:26:16",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/domenic/status/2821043359",
+      "engagement": {
+        "likes": 35,
+        "retweets": 10,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Saw that huge outage at [Hypothetical Cloud Provider]. This is why distributed systems are both a marvel and a nightmare. Always plan for failure. #cloudcomputing #devops",
+      "timestamp": "2026-01-14T19:26:16.862607",
+      "date": "2026-01-14",
+      "time": "19:26:16",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/domenic/status/4506884330",
+      "engagement": {
+        "likes": 12,
+        "retweets": 2,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Big win today: finally refactored that legacy component that's been haunting us for months. The code feels so much cleaner now. Small victories! ✨ #softwareengineer #refactoring",
+      "timestamp": "2026-01-11T04:26:16.862607",
+      "date": "2026-01-11",
+      "time": "04:26:16",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/domenic/status/1649583462",
+      "engagement": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: Microservices are great for scaling *teams*, not just applications. If your team communication breaks down over a monolith, you've already lost. #softwaredevelopment #microservices",
+      "timestamp": "2026-01-09T18:26:16.862607",
+      "date": "2026-01-09",
+      "time": "18:26:16",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/domenic/status/3662890478",
+      "engagement": {
+        "likes": 18,
+        "retweets": 3,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Managed to get basic user authentication working for my personal dashboard project. JWT tokens are tricky but powerful. Next up: data persistence! #learninginpublic #webdevelopment",
+      "timestamp": "2026-01-09T06:26:16.862607",
+      "date": "2026-01-09",
+      "time": "06:26:16",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/domenic/status/8612307995",
+      "engagement": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My brain trying to remember if it's `Array.prototype.map` or `Array.map` for the 1000th time. Send coffee. ☕ #javascript #developerproblems",
+      "timestamp": "2026-01-05T22:26:16.862607",
+      "date": "2026-01-05",
+      "time": "22:26:16",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/domenic/status/6095315423",
+      "engagement": {
+        "likes": 19,
+        "retweets": 5,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Thinking about picking up a 'good first issue' from a library I use daily. Anyone have tips for getting started with larger codebases in open source? #opensource #contribute",
+      "timestamp": "2026-01-04T12:26:16.862607",
+      "date": "2026-01-04",
+      "time": "12:26:16",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/domenic/status/2012185635",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Diving into a new side project: building a tiny CLI tool to manage my dotfiles with Rust. Learning a ton about error handling and async patterns. Wish me luck! #RustLang #sideproject",
+      "timestamp": "2026-01-02T23:26:16.862607",
+      "date": "2026-01-02",
+      "time": "23:26:16",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/domenic/status/8106396440",
+      "engagement": {
+        "likes": 7,
+        "retweets": 1,
+        "replies": 2
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The new VS Code update with improved remote development features looks amazing. Might finally convince me to ditch my local dev environment for some projects. #vscode #devtools",
+      "timestamp": "2026-01-01T15:26:16.862607",
+      "date": "2026-01-01",
+      "time": "15:26:16",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/domenic/status/5091153619",
+      "engagement": {
+        "likes": 8,
+        "retweets": 1,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just submitted my first PR to a small open-source project! Fixed a tiny typo in the docs, but it feels good to contribute. Every little bit helps! #opensource #contribution",
+      "timestamp": "2025-12-31T18:26:16.862607",
+      "date": "2025-12-31",
+      "time": "18:26:16",
+      "day_of_week": "Wednesday",
+      "url": "https://twitter.com/domenic/status/8762115717",
+      "engagement": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just spent 30 minutes debugging a feature only to realize I was on the wrong branch. Happens every time. 🤦‍♂️ #developerlife #git",
+      "timestamp": "2025-12-30T11:26:16.862607",
+      "date": "2025-12-30",
+      "time": "11:26:16",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/domenic/status/1458869508",
+      "engagement": {
+        "likes": 25,
+        "retweets": 7,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Looking into state management libraries for a new React app. Torn between Zustand and React Query. Any recommendations or strong opinions for a medium-sized project? #reactjs #statemanagement",
+      "timestamp": "2025-12-30T10:26:16.862607",
+      "date": "2025-12-30",
+      "time": "10:26:16",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/domenic/status/5295864245",
+      "engagement": {
+        "likes": 11,
+        "retweets": 2,
+        "replies": 6
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Frontend frameworks are getting so complex these days, it feels like we're constantly building abstractions on top of abstractions. Sometimes I miss vanilla JS. 🤔 #webdev #frontend",
+      "timestamp": "2025-12-29T18:26:16.862607",
+      "date": "2025-12-29",
+      "time": "18:26:16",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/domenic/status/1380515130",
+      "engagement": {
+        "likes": 15,
+        "retweets": 4,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Had a great brainstorming session with the team today about scaling our main API. Lots of challenging but exciting ideas on the table. Love when things click! #teambuilding #architecture",
+      "timestamp": "2025-12-27T05:26:16.862607",
+      "date": "2025-12-27",
+      "time": "05:26:16",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/domenic/status/1640691609",
+      "engagement": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The most impactful skill for a developer isn't just coding, it's learning how to learn. The tech landscape changes so fast, staying curious is key. #softwaredevelopment #lifelonglearning",
+      "timestamp": "2025-12-23T01:26:16.862607",
+      "date": "2025-12-23",
+      "time": "01:26:16",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/domenic/status/4281429191",
+      "engagement": {
+        "likes": 22,
+        "retweets": 6,
+        "replies": 3
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My computer fan noise is directly correlated to the complexity of the current function I'm debugging. It's a precise metric. #programming #laptoplife",
+      "timestamp": "2025-12-20T07:26:16.862607",
+      "date": "2025-12-20",
+      "time": "07:26:16",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/domenic/status/8815671480",
+      "engagement": {
+        "likes": 17,
+        "retweets": 3,
+        "replies": 1
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Discovered a neat little trick today with CSS custom properties for theming. It's so much more powerful than I gave it credit for initially! #css #webdesign #frontend",
+      "timestamp": "2025-12-18T03:26:16.862607",
+      "date": "2025-12-18",
+      "time": "03:26:16",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/domenic/status/7628327431",
+      "engagement": {
+        "likes": 9,
+        "retweets": 1,
+        "replies": 0
+      }
+    }
+  ],
+  "tweet_count": 17,
+  "cross_references": {
+    "github": "domenic_github.json",
+    "linkedin": "domenic_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:27:06.776584",
+  "is_simulated": true
+}

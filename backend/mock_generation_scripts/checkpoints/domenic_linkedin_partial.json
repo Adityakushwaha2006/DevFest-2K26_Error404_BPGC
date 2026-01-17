@@ -1,0 +1,21 @@
+{
+  "username": "domenic",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:26:23.211812",
+  "data": {
+    "profile": {
+      "name": "Domenic Denicola",
+      "headline": "Freelance Software Developer | Full-Stack Engineer | Building Robust Solutions",
+      "location": "Tokyo, Japan",
+      "about": "As a passionate software developer based in Tokyo, I specialize in crafting elegant and efficient solutions to complex problems. With a focus on delivering high-quality code and user-centric experiences, I thrive on bringing innovative ideas from concept to reality. I am dedicated to continuous learning and leveraging cutting-edge technologies to drive impactful results for my clients.",
+      "current_company": "Freelance",
+      "current_position": "Freelance Software Developer",
+      "connections": 387,
+      "followers": 1250,
+      "profile_views_last_90_days": 350,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": false
+    }
+  }
+}

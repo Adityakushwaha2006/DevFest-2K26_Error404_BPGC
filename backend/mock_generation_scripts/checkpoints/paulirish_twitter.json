@@ -1,0 +1,166 @@
+{
+  "username": "paulirish",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:16:25.434905",
+  "data": {
+    "profile": {
+      "name": "Paul Irish",
+      "username": "paulirish",
+      "bio": "Staff Eng @GoogleChrome. Building a better web. Exploring #GoLang & #AI. Sharing thoughts, learning in public. Occasionally controversial, always curious. \u2665z",
+      "location": "Unknown",
+      "website": "https://paulirish.com",
+      "followers": 38765,
+      "following": 875,
+      "tweets_count": 18230,
+      "joined_date": "July 2009",
+      "is_verified": false,
+      "github_username": "Paul Irish"
+    },
+    "tweets": [
+      {
+        "content": "My 'production-ready' code base often feels like a house of cards built on caffeine and Stack Overflow snippets. But hey, it ships! \ud83d\ude05 #devhumor #programming",
+        "likes": 48,
+        "retweets": 8,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-17T08:16:25.434905"
+      },
+      {
+        "content": "Anyone else feel like the definition of 'full-stack' now requires you to be a DevOps engineer, a UX designer, and a machine learning expert, on top of front and back-end? The job reqs are getting wild. #developerlife",
+        "likes": 65,
+        "retweets": 15,
+        "replies": 18,
+        "type": "original",
+        "timestamp": "2026-01-16T03:16:25.434905"
+      },
+      {
+        "content": "Saw the benchmarks for Bun 1.1 today. The speed improvements are genuinely impressive, especially for smaller projects and build times. Definitely keeping an eye on it. Node.js ecosystem is getting some serious competition. \ud83d\udd25",
+        "likes": 35,
+        "retweets": 6,
+        "replies": 7,
+        "type": "reply",
+        "timestamp": "2026-01-14T13:16:25.434905"
+      },
+      {
+        "content": "Reading up on the latest Chrome DevTools updates. The new Recorder panel improvements look super useful for debugging complex user flows. Glad to see continued investment there. #devtools #webdevelopment",
+        "likes": 28,
+        "retweets": 5,
+        "replies": 3,
+        "type": "reply",
+        "timestamp": "2026-01-11T21:16:25.434905"
+      },
+      {
+        "content": "One of my favorite refactoring rules: if you can't explain what a piece of code does to a non-technical person without hand-waving, it's probably too complex and needs simplifying. Clarity over cleverness, always. #codequality",
+        "likes": 30,
+        "retweets": 7,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2026-01-11T17:16:25.434905"
+      },
+      {
+        "content": "Diving deep into the new `scroll-snap` CSS properties today for a personal project. It's surprisingly powerful but also surprisingly tricky to get just right across browsers. Anyone else wrestling with this one? #css #webstandards",
+        "likes": 15,
+        "retweets": 2,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-09T13:16:25.434905"
+      },
+      {
+        "content": "Just spent 20 minutes trying to understand why a test was failing, only to discover I hadn't saved the file. Peak developer moment. \ud83e\udd26\u200d\u2642\ufe0f #tgif",
+        "likes": 20,
+        "retweets": 1,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-07T17:16:25.434905"
+      },
+      {
+        "content": "Just submitted a tiny PR to a library I use daily to fix a typo in the documentation. Small wins for open source! Every bit helps. #oss #javascript",
+        "likes": 11,
+        "retweets": 1,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-06T07:16:25.434905"
+      },
+      {
+        "content": "Thinking about reviving an old open source project of mine. It's been dormant for a while, but I think there's still a need for it. Maybe a quick rewrite with modern tooling? \ud83e\udd14 #oss #sideproject",
+        "likes": 14,
+        "retweets": 1,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-03T02:16:25.434905"
+      },
+      {
+        "content": "Is it just me, or is the 'micro-frontend' concept just fancy packaging for iframes with extra steps and more network requests? Discuss. #webdev #frontend",
+        "likes": 27,
+        "retweets": 3,
+        "replies": 12,
+        "type": "original",
+        "timestamp": "2026-01-01T01:16:25.434905"
+      },
+      {
+        "content": "Spent the last hour debugging a phantom whitespace character in an SVG. The absolute joy (and frustration) of frontend development. Always something. \ud83e\udd26\u200d\u2642\ufe0f",
+        "likes": 19,
+        "retweets": 3,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-31T00:16:25.434905"
+      },
+      {
+        "content": "Just finished setting up Neovim with all my plugins. Now to spend the next 3 weeks tweaking dotfiles instead of actually coding. This is the way. \u2728 #vim #devsetup",
+        "likes": 25,
+        "retweets": 6,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-30T07:16:25.434905"
+      },
+      {
+        "content": "Been learning a lot about web components lately. The promise of truly reusable, framework-agnostic components is compelling. Still some rough edges, but the potential is huge. #webcomponents #standards",
+        "likes": 16,
+        "retweets": 3,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-27T22:16:25.434905"
+      },
+      {
+        "content": "That moment when you realize the bug isn't in your complex new feature, but in a 5-year-old utility function you wrote. Classic. #programminglife",
+        "likes": 31,
+        "retweets": 4,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-24T18:16:25.434905"
+      },
+      {
+        "content": "Been thinking a lot about progressive enhancement lately. In an era of heavy JS frameworks, it feels more critical than ever to ensure a solid baseline user experience. #webperf #accessibility",
+        "likes": 22,
+        "retweets": 4,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-22T03:16:25.434905"
+      },
+      {
+        "content": "Happy to announce I'm taking on a new challenge in a lead engineering role, focusing on developer experience and tooling! Excited for this next chapter and the opportunity to build great things. More details soon! #career #softwaredevelopment",
+        "likes": 78,
+        "retweets": 10,
+        "replies": 25,
+        "type": "original",
+        "timestamp": "2025-12-22T02:16:25.434905"
+      },
+      {
+        "content": "Experimenting with WebGPU for some canvas animations. The learning curve is steep, but the potential performance gains are incredibly tempting. Definitely a weekend project for now. #webdev #graphics",
+        "likes": 9,
+        "retweets": 0,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-21T04:16:25.434905"
+      },
+      {
+        "content": "The push for declarative UI has been amazing, but sometimes I miss the simple predictability of imperative DOM manipulation for very specific tasks. Is that a controversial take? #frontend #webdev",
+        "likes": 18,
+        "retweets": 2,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2025-12-17T20:16:25.434905"
+      }
+    ]
+  }
+}

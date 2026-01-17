@@ -1,0 +1,21 @@
+{
+  "username": "acdlite",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:34:33.826983",
+  "data": {
+    "profile": {
+      "name": "Andrew Clark",
+      "headline": "Staff Software Engineer at Vercel | React Core Team | Next.js Contributor",
+      "location": "New York",
+      "about": "As a Staff Software Engineer at Vercel, I focus on advancing modern web development, with a particular emphasis on the React ecosystem. My work involves contributing to the React core team and enhancing the capabilities of Next.js, shaping the tools developers use to build dynamic and performant applications. I am passionate about improving developer experience and pushing the boundaries of what's possible on the web.",
+      "current_company": "Vercel",
+      "current_position": "Staff Software Engineer",
+      "connections": 487,
+      "followers": 27500,
+      "profile_views_last_90_days": 1820,
+      "open_to_work": false,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

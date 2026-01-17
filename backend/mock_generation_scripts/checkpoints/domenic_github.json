@@ -1,0 +1,65 @@
+{
+  "username": "domenic",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:27:06.803570",
+  "data": {
+    "profile": {
+      "login": "domenic",
+      "id": 617481,
+      "node_id": "MDQ6VXNlcjYxNzQ4MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/617481?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/domenic",
+      "html_url": "https://github.com/domenic",
+      "followers_url": "https://api.github.com/users/domenic/followers",
+      "following_url": "https://api.github.com/users/domenic/following{/other_user}",
+      "gists_url": "https://api.github.com/users/domenic/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/domenic/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/domenic/subscriptions",
+      "organizations_url": "https://api.github.com/users/domenic/orgs",
+      "repos_url": "https://api.github.com/users/domenic/repos",
+      "events_url": "https://api.github.com/users/domenic/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/domenic/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Domenic Denicola",
+      "company": null,
+      "blog": "https://domenic.me/",
+      "location": "Tokyo, Japan",
+      "email": "d@domenic.me",
+      "hireable": null,
+      "bio": null,
+      "twitter_username": "domenic",
+      "public_repos": 81,
+      "public_gists": 208,
+      "followers": 5574,
+      "following": 80,
+      "created_at": "2011-02-14T15:26:22Z",
+      "updated_at": "2025-10-22T08:46:41Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": "This might be PEBKAC, but I'm not sure exactly how. If I create the sample HTML file as `https://web-platform.test:9000/websockets/test-h2-ws.html` instead of on jsbin, I can connect. But WebSockets s",
+        "timestamp": "2026-01-17T07:17:24+00:00",
+        "url": "https://github.com/web-platform-tests/wpt/issues/57224#issuecomment-3762836308",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "This was not fixed, the PR just accidentally referenced it. I'm working on it though.",
+        "timestamp": "2026-01-16T06:17:14+00:00",
+        "url": "https://github.com/jsdom/jsdom/issues/3960#issuecomment-3758353925",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Here is where I ended up: https://github.com/jsdom/jsdom/pull/4022/changes/1648a8a2537842c6af7f9410ce8e9d9270ee1a2f\n\nMy suggestion is that you close this issue by clearly documenting `utf8.js`'s four ",
+        "timestamp": "2026-01-16T02:27:42+00:00",
+        "url": "https://github.com/ExodusOSS/bytes/issues/17#issuecomment-3757814375",
+        "metadata": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "username": "addyosmani",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:15:05.962338",
+  "data": {
+    "profile": {
+      "name": "Addy Osmani",
+      "headline": "Engineering Lead at Google | Driving Chrome & Web Platform Innovations | Go | Author & Speaker",
+      "location": "Mountain View, California",
+      "about": "As an Engineering Lead at Google, I specialize in evolving the Chrome browser and the broader Web Platform ecosystem. My work focuses on building performant and delightful web experiences for developers and users globally, leveraging cutting-edge technologies and fostering open-source collaboration. I am passionate about pushing the boundaries of what's possible on the web and empowering the next generation of web developers.",
+      "current_company": "Google",
+      "current_position": "Engineering Lead",
+      "connections": 500,
+      "followers": 28500,
+      "profile_views_last_90_days": 1200,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

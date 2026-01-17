@@ -1,0 +1,166 @@
+{
+  "username": "patak-dev",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T17:25:02.513274",
+  "data": {
+    "profile": {
+      "name": "patak",
+      "username": "patakdev",
+      "bio": "Matias Capeletto | @vitejs Core Team \u26a1\ufe0f | Building @vitest-dev & @elk-zone. Passionate about web dev, open source, & DX. Sharing thoughts & learning in public. \ud83d\udcbb",
+      "location": "Unknown",
+      "website": "github.com/patak-dev",
+      "followers": 12500,
+      "following": 680,
+      "tweets_count": 4800,
+      "joined_date": "June 2014",
+      "is_verified": false,
+      "github_username": "patak"
+    },
+    "tweets": [
+      {
+        "content": "New `skipIf` option landed in Vitest! Conditional test skipping just got a whole lot cleaner. Big thanks to the community for the feedback on this one. \ud83d\ude4f #Vitest #Testing",
+        "likes": 55,
+        "retweets": 8,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-17T04:25:02.512819"
+      },
+      {
+        "content": "Unpopular opinion: If your dev server takes more than 1 second to start, you're not trying hard enough. The future is instant. #Frontend #DX",
+        "likes": 110,
+        "retweets": 15,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-16T01:25:02.512819"
+      },
+      {
+        "content": "Just refactored a huge chunk of legacy code into something beautiful. Now I just need to remember why I wrote it that way in the first place... \ud83e\udd14 #Coding #LegacyCode",
+        "likes": 38,
+        "retweets": 6,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-12T11:25:02.513113"
+      },
+      {
+        "content": "Thinking about adding a new reporter option to Vitest for more granular test output. What kind of custom reports would you find most useful? Share your ideas! \ud83d\udc47 #Vitest #OpenSource",
+        "likes": 30,
+        "retweets": 5,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2026-01-10T15:25:02.513113"
+      },
+      {
+        "content": "@some_dev's blog post on 'The Unseen Costs of Microfrontends' is a must-read. It really articulates some of the trade-offs we often overlook in the hype cycle. Great insights! #Architecture #Frontend",
+        "likes": 60,
+        "retweets": 9,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-10T09:25:02.513113"
+      },
+      {
+        "content": "Hot Module Replacement (HMR) isn't just a feature, it's a philosophy. Instant feedback loops are paramount for developer happiness and productivity. Demand it from your tools! #HMR #DX",
+        "likes": 75,
+        "retweets": 11,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-08T00:25:02.512978"
+      },
+      {
+        "content": "Just merged a new optimization to Vite's asset handling! Should see slightly faster build times for larger projects. Small wins add up! \ud83d\udcaa #Vite #WebDev",
+        "likes": 35,
+        "retweets": 5,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-07T09:25:02.512694"
+      },
+      {
+        "content": "Saw the news about the latest JS spec proposal for decorators. Interesting direction! Definitely curious how this will integrate with existing tooling like Vite. Always exciting to see JavaScript evolve. #JavaScript",
+        "likes": 45,
+        "retweets": 7,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-03T10:25:02.512819"
+      },
+      {
+        "content": "The future of web development is all about balancing developer experience with end-user performance. Tools that can achieve both, like Vite, are defining the next era. #WebDev #Vite",
+        "likes": 95,
+        "retweets": 18,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-31T14:25:02.513113"
+      },
+      {
+        "content": "Me: 'I'll just refactor this one small function.'\n*4 hours later, the entire codebase is now a single monolithic file of pure chaos.*\nIt's a process. \ud83d\ude05 #DevLife",
+        "likes": 50,
+        "retweets": 9,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2025-12-30T23:25:02.512978"
+      },
+      {
+        "content": "Spent the morning profiling a lazy-loaded component in a client project. Found a small hydration mismatch that was causing unnecessary re-renders. Fixing it shaved off 20ms! Details matter. \ud83d\udcc8 #WebPerf #Frontend",
+        "likes": 32,
+        "retweets": 4,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-29T23:25:02.512978"
+      },
+      {
+        "content": "Experimenting with CSS `container-queries` in a personal project. This is going to unlock so many possibilities for truly responsive components without relying solely on viewport dimensions. So powerful! #CSS #WebDev",
+        "likes": 42,
+        "retweets": 6,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-29T11:25:02.512978"
+      },
+      {
+        "content": "Working on some UI/UX refinements for Elk's desktop experience. Getting those little interaction details just right makes a huge difference. What's your favorite small UI detail in an app? #ElkZone #UX",
+        "likes": 25,
+        "retweets": 2,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-25T19:25:02.512978"
+      },
+      {
+        "content": "The shift to fast, modern testing frameworks like Vitest isn't just about speed, it's about changing the dev mindset. Test often, test fast, get confidence. It's a game-changer for DX. #Vitest #Testing",
+        "likes": 88,
+        "retweets": 12,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-25T13:25:02.512819"
+      },
+      {
+        "content": "Sometimes I just pause and appreciate being able to work on projects like Vite, Vitest, and Elk, contributing to tools used by so many. It's incredibly rewarding. Feeling grateful for this journey. \ud83d\ude4f #OpenSource #DevLife",
+        "likes": 70,
+        "retweets": 10,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-25T05:25:02.513113"
+      },
+      {
+        "content": "Another great week collaborating with the Vite team! So much progress on some exciting features for the next minor release. Love the energy and dedication everyone brings. #Vite #OpenSource",
+        "likes": 40,
+        "retweets": 6,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-24T00:25:02.512978"
+      },
+      {
+        "content": "My debugging process:\n1. Add console.log\n2. Remove console.log\n3. Problem fixed?\n4. No -> Repeat from 1\n5. Yes -> Commit 'Fixed bug'\nClassic. #DevLife #Coding",
+        "likes": 67,
+        "retweets": 10,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-23T07:25:02.512819"
+      },
+      {
+        "content": "Diving deep into reactivity proxies for a new feature in Elk. So much power there, but also so many edge cases to consider for robust state management. Fascinating stuff! #ElkZone #WebDev",
+        "likes": 28,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-20T22:25:02.512819"
+      }
+    ]
+  }
+}

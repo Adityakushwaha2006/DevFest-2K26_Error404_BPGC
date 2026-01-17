@@ -1,0 +1,21 @@
+{
+  "username": "mrdoob",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:30:54.464114",
+  "data": {
+    "profile": {
+      "name": "mrdoob",
+      "username": "mrdoob",
+      "bio": "Building things for the web. Creator of @threejs. Exploring new frontiers in 3D & immersive experiences. Always learning, always shipping. \ud83d\ude80 WebGL enthusiast.",
+      "location": "Unknown",
+      "website": "https://mrdoob.com",
+      "followers": 48765,
+      "following": 2137,
+      "tweets_count": 9876,
+      "joined_date": "October 2009",
+      "is_verified": false,
+      "github_username": "mrdoob"
+    },
+    "tweets": []
+  }
+}

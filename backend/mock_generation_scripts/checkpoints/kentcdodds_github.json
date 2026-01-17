@@ -1,0 +1,72 @@
+{
+  "username": "kentcdodds",
+  "platform": "github",
+  "timestamp": "2026-01-17T17:02:50.482387",
+  "data": {
+    "profile": {
+      "login": "kentcdodds",
+      "id": 1500684,
+      "node_id": "MDQ6VXNlcjE1MDA2ODQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1500684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kentcdodds",
+      "html_url": "https://github.com/kentcdodds",
+      "followers_url": "https://api.github.com/users/kentcdodds/followers",
+      "following_url": "https://api.github.com/users/kentcdodds/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kentcdodds/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kentcdodds/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kentcdodds/subscriptions",
+      "organizations_url": "https://api.github.com/users/kentcdodds/orgs",
+      "repos_url": "https://api.github.com/users/kentcdodds/repos",
+      "events_url": "https://api.github.com/users/kentcdodds/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kentcdodds/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false,
+      "name": "Kent C. Dodds",
+      "company": "@epicweb-dev ",
+      "blog": "https://kentcdodds.com",
+      "location": "Salt Lake City, Utah, USA",
+      "email": "me+github@kentcdodds.com",
+      "hireable": null,
+      "bio": "Improving \ud83c\udf0e with quality software \u00b7 Husband, 5x Dad, Latter-day Saint, Dev Educator, MVP\r\n\r\n\u26a1\ufe0f EpicAI.pro\r\n\ud83c\udf0c EpicWeb.dev\r\n\ud83d\ude80 EpicReact.dev",
+      "twitter_username": "kentcdodds",
+      "public_repos": 739,
+      "public_gists": 260,
+      "followers": 34619,
+      "following": 49,
+      "created_at": "2012-03-04T22:32:01Z",
+      "updated_at": "2026-01-10T05:34:43Z"
+    },
+    "activities": [
+      {
+        "type": "comment",
+        "content": "Handled with the new Playground dialog. ",
+        "timestamp": "2026-01-17T00:59:39+00:00",
+        "url": "https://github.com/epicweb-dev/epicshop/issues/424#issuecomment-3762421910",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "Handled with the guide route. ",
+        "timestamp": "2026-01-17T00:59:27+00:00",
+        "url": "https://github.com/epicweb-dev/epicshop/issues/428#issuecomment-3762421673",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "We handled this with the guide route. ",
+        "timestamp": "2026-01-17T00:59:15+00:00",
+        "url": "https://github.com/epicweb-dev/epicshop/issues/429#issuecomment-3762421431",
+        "metadata": {}
+      },
+      {
+        "type": "comment",
+        "content": "@cursor, could you rebase this on main?\r\n",
+        "timestamp": "2026-01-17T00:44:24+00:00",
+        "url": "https://github.com/epicweb-dev/epicshop/pull/448#issuecomment-3762392026",
+        "metadata": {}
+      }
+    ]
+  }
+}

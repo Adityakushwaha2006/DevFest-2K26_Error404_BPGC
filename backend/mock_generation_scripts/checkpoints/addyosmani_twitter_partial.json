@@ -1,0 +1,21 @@
+{
+  "username": "addyosmani",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:14:35.482088",
+  "data": {
+    "profile": {
+      "name": "Addy Osmani",
+      "username": "addyosmani",
+      "bio": "Engineering Lead @Google on Chrome & Web Platform. Passionate about #GoLang, performance, & DX. Sharing insights, learning in public. All opinions my own. \u2728\ud83d\ude80",
+      "location": "Mountain View, California",
+      "website": "https://addyosmani.com",
+      "followers": 45000,
+      "following": 850,
+      "tweets_count": 12500,
+      "joined_date": "March 2009",
+      "is_verified": false,
+      "github_username": "Addy Osmani"
+    },
+    "tweets": []
+  }
+}

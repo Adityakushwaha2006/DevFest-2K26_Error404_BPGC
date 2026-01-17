@@ -1,0 +1,202 @@
+# List of 200 real GitHub usernames for data generation
+# These are real developers, open source contributors, and tech influencers
+# Format: one username per line (lines starting with # are comments)
+
+# Linux/Kernel Developers
+torvalds
+gregkh
+davem330
+brauner
+kees
+
+# JavaScript/TypeScript Ecosystem
+gaearon
+kentcdodds
+tannerlinsley
+sindresorhus
+ljharb
+yyx990803
+addyosmani
+paulirish
+getify
+Rich-Harris
+antfu
+patak-dev
+domenic
+feross
+mrdoob
+substack
+
+# React/Web Framework Maintainers
+sebmarkbage
+acdlite
+sophiebits
+bvaughn
+rickhanlonii
+jarred-sumner
+developit
+pmndrs
+diegohaz
+jaredpalmer
+dai-shi
+tkdodo
+
+# Python Ecosystem
+gvanrossum
+tiangolo
+willmcgugan
+samuelcolvin
+sdispater
+asottile
+hynek
+ambv
+davidhalter
+navdeep-G
+jakevdp
+wesm
+mitsuhiko
+
+# Rust/Systems Programming
+dtolnay
+BurntSushi
+matklad
+fasterthanlime
+yoshuawuyts
+Gankra
+carllerche
+seanmonstar
+withoutboats
+
+# Go Ecosystem
+rsc
+bradfitz
+robpike
+josharian
+mvdan
+dgryski
+FiloSottile
+davecheney
+
+# Cloud/DevOps
+kelseyhightower
+jessfraz
+brendanburns
+ahmetb
+wagoodman
+derailed
+loft-sh
+alexellis
+
+# AI/ML
+karpathy
+llSourcell
+fchollet
+soumith
+jcjohnson
+hardmaru
+dennybritz
+chiphuyen
+
+# Security
+albinowax
+infosec-au
+NahamSec
+nahamsec
+samcurry
+rez0h
+streaak
+pdelteil
+
+# Developer Advocates/Educators
+wesbos
+bradtraversy
+ThePrimeagen
+teaborgs
+jonasschmedtmann
+fireship-io
+benawad
+TheOdinProject
+
+# Mobile Development
+nicklockwood
+ericvillasenor
+gabrielemariotti
+JakeWharton
+chrisbanes
+romainguy
+Moya
+
+# Frameworks/Libraries
+thedaviddias
+necolas
+zloirock
+lodash
+HenrikJoreteg
+tj
+isaacs
+mikeal
+ry
+BrendanEich
+
+# Data/Analytics
+hadley
+wesmckinn
+jmcnamara
+rasbt
+ageron
+
+# Database/Storage
+antirez
+siddontang
+aphyr
+VictoriaMetrics
+
+# Gaming/Graphics
+ocornut
+raysan5
+bkaradzic
+id-Software
+
+# Misc Notable Developers
+mitchellh
+hashicorp
+fatih
+schacon
+defunkt
+mojombo
+pjhyett
+wycats
+dhh
+matz
+tenderlove
+schneems
+evanphx
+headius
+charliesome
+jeremyevans
+spastorino
+carlosantoniodasilva
+rafaelfranca
+javan
+sstephenson
+samphippen
+jonleighton
+mikel
+pixeltrix
+jeremy
+nzkoz
+fxn
+bitsweat
+NZKoz
+josevalim
+chrismccord
+dashbitco
+MSch
+joshkalderimis
+steveklabnik
+BurntSushi
+Manishearth
+aturon
+nikomatsakis
+eddyb
+pnkfelix

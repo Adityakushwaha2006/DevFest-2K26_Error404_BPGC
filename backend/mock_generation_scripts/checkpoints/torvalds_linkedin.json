@@ -1,0 +1,193 @@
+{
+  "username": "torvalds",
+  "platform": "linkedin",
+  "timestamp": "2026-01-17T05:30:31.877432",
+  "data": {
+    "profile": {
+      "name": "Linus Torvalds",
+      "headline": "Lead Developer & Maintainer of the Linux Kernel at The Linux Foundation",
+      "location": "Portland, OR",
+      "about": "As the original creator and ongoing lead developer of the Linux kernel, I am deeply committed to crafting robust, efficient, and open-source operating system foundations. My passion lies in low-level software development, distributed systems, and fostering the collaborative power of the open-source community. I continue to drive the evolution of the Linux kernel, contributing to its stability, performance, and widespread adoption across diverse platforms.",
+      "current_company": "Linux Foundation",
+      "current_position": "Chief Architect, Linux Kernel",
+      "connections": 387,
+      "followers": 250000,
+      "profile_views_last_90_days": 35000,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true,
+      "experience": [
+        {
+          "title": "Principal Software Engineer",
+          "company": "Linux Foundation",
+          "location": "Remote, Global",
+          "start_date": "October 2021",
+          "end_date": "Present",
+          "description": [
+            "Led architectural design and implementation for critical open-source projects, enhancing scalability, security, and maintainability across diverse ecosystems (e.g., cloud-native, edge computing).",
+            "Contributed extensively to multiple projects using Go, Rust, Python, and C++, focusing on infrastructure, CI/CD pipelines, and integrating with cloud platforms (AWS, Azure, GCP).",
+            "Mentored junior and senior developers, fostering a collaborative community environment and driving best practices in code quality, testing, and documentation for global contributors."
+          ],
+          "is_current": true
+        },
+        {
+          "title": "Senior Software Engineer",
+          "company": "CloudStream Innovations",
+          "location": "Seattle, USA",
+          "start_date": "January 2018",
+          "end_date": "September 2021",
+          "description": [
+            "Designed and implemented highly available and scalable microservices for a distributed data processing platform using Go and Java, handling millions of requests per second.",
+            "Developed and optimized APIs and data pipelines, significantly improving system performance and reducing latency by 25% through efficient algorithm design and database query optimization.",
+            "Collaborated with product management and DevOps teams to define system requirements, deploy applications on Kubernetes, and establish robust monitoring and alerting solutions."
+          ],
+          "is_current": false
+        },
+        {
+          "title": "Software Engineer",
+          "company": "Nexus Solutions",
+          "location": "San Francisco, USA",
+          "start_date": "August 2014",
+          "end_date": "December 2017",
+          "description": [
+            "Developed and maintained full-stack web applications using Python/Django and React, delivering new features and improvements based on user feedback and business requirements.",
+            "Implemented RESTful APIs and integrated with various third-party services, ensuring data consistency and system reliability for a growing user base.",
+            "Participated in agile development cycles, including sprint planning, daily stand-ups, and code reviews, contributing to a collaborative and efficient team environment."
+          ],
+          "is_current": false
+        }
+      ],
+      "education": [
+        {
+          "institution": "Georgia Institute of Technology",
+          "degree": "Bachelor of Science",
+          "field_of_study": "Computer Science",
+          "start_year": 2017,
+          "end_year": 2021,
+          "activities": "Dean's List (multiple semesters), Member of Computer Science Club, Teaching Assistant for Data Structures course"
+        }
+      ],
+      "skills": [
+        {
+          "name": "Problem Solving",
+          "endorsements": 14
+        },
+        {
+          "name": "Team Leadership",
+          "endorsements": 34
+        },
+        {
+          "name": "Agile",
+          "endorsements": 47
+        }
+      ]
+    },
+    "posts": [
+      {
+        "content": "Excited to share that a series of patches I've been working on for months, focused on improving cache coherency in the memory management subsystem, have finally been merged into `main`! It was a challenging journey involving countless iterations and valuable feedback from reviewers. Seeing this work integrated is incredibly rewarding, knowing it contributes to better performance and stability for future kernel releases.\n#LinuxKernel #MemoryManagement #KernelHacking #OpenSource #SoftwareEngineering",
+        "likes": 165,
+        "comments": 28,
+        "type": "achievement",
+        "timestamp": "2026-01-10T10:30:31.877432"
+      },
+      {
+        "content": "The Linux Foundation is extending the Call for Papers for the upcoming Kernel Summit! This is *the* place to present your groundbreaking work, discuss pressing challenges, and shape the future of the Linux kernel. If you're working on something innovative or have a key challenge to address, I strongly encourage you to submit. Let's keep the conversations vibrant and forward-thinking.\n[Hypothetical link to Linux Foundation CFP page]\n#LinuxFoundation #KernelSummit #CFP #TechEvents #KernelCommunity",
+        "likes": 62,
+        "comments": 6,
+        "type": "text",
+        "timestamp": "2026-01-04T01:30:31.877432"
+      },
+      {
+        "content": "Celebrating a significant security patch merge this week! Our team, in close coordination with security researchers and other maintainers, successfully addressed a critical vulnerability that could have impacted various systems. This wasn't a simple fix, requiring deep understanding of multiple kernel components and careful testing. Proud of the collaborative effort and rapid response that ensures the stability and security of Linux for millions. Well done, team!\n#Cybersecurity #LinuxSecurity #KernelTeam #OpenSourceCommunity #Achievement",
+        "likes": 210,
+        "comments": 31,
+        "type": "achievement",
+        "timestamp": "2026-01-03T14:30:31.877432"
+      },
+      {
+        "content": "Maintaining a project the size and complexity of the Linux kernel is a monumental task. It's not just about writing code; it's about managing a global community, navigating diverse hardware, ensuring backward compatibility, and constantly innovating. The discipline, collaboration, and sheer dedication required from thousands of individuals worldwide is truly inspiring. It's a continuous balancing act, and I'm immensely proud to be a part of it.\n#OpenSourceDevelopment #LinuxKernel #ProjectManagement #Community #SoftwareMaintainer",
+        "likes": 240,
+        "comments": 38,
+        "type": "text",
+        "timestamp": "2026-01-01T13:30:31.877432"
+      },
+      {
+        "content": "One of the most frequent questions I get asked is, \"How do I start contributing to the Linux kernel?\" My advice: start small, be patient, and embrace the learning curve. Pick a subsystem you're interested in, read the documentation, and try to understand existing code. Fixing a typo or a minor bug can be a great first step. The community is vast and supportive, but it requires dedication. Don't be afraid to ask questions, but do your homework first! Every journey starts with a single patch.\n#CareerAdvice #OpenSource #LinuxKernel #Mentorship #Developers",
+        "likes": 115,
+        "comments": 23,
+        "type": "text",
+        "timestamp": "2025-12-31T01:30:31.877432"
+      },
+      {
+        "content": "After months of rigorous development, testing, and countless reviews, a major new feature for improving real-time performance in critical applications has been successfully integrated into the kernel! This was a truly collaborative effort, spanning multiple teams and geographies, solving some incredibly intricate timing challenges. Huge congratulations to everyone involved in bringing this complex project to fruition. The impact will be felt across many industries relying on precise scheduling.\n#LinuxKernel #RealTime #SoftwareEngineering #TeamAchievement #Innovation",
+        "likes": 310,
+        "comments": 55,
+        "type": "achievement",
+        "timestamp": "2025-12-10T19:30:31.877432"
+      },
+      {
+        "content": "Caught this insightful article on how new hardware architectures, particularly those with heterogeneous computing units, are pushing the boundaries of kernel scheduling and resource management. It's a complex dance to ensure optimal performance and efficiency without sacrificing stability. The evolution of the kernel to adapt to these changes is a testament to its robust design. Food for thought on future development directions.\n[Hypothetical link to a tech journal or research paper summary]\n#HardwareArchitecture #KernelScheduling #LinuxKernel #TechTrends #SystemDesign",
+        "likes": 88,
+        "comments": 10,
+        "type": "article_share",
+        "timestamp": "2025-12-07T02:30:31.877432"
+      },
+      {
+        "content": "There's a constant tension in kernel development between maintaining stability and embracing innovation. On one hand, millions rely on Linux for critical infrastructure, demanding rock-solid reliability. On the other, we must adapt to new hardware, security threats, and performance demands. Striking this balance is a core part of our mission. It requires thoughtful design, rigorous testing, and an open mind to new ideas, always with an eye on the long-term health of the kernel. What are your thoughts on this balance?\n#LinuxKernel #StabilityVsInnovation #SoftwarePhilosophy #TechDebate #KernelDesign",
+        "likes": 130,
+        "comments": 20,
+        "type": "text",
+        "timestamp": "2025-12-05T16:30:31.877432"
+      },
+      {
+        "content": "Another major milestone for the Linux community! Kernel 6.10 has officially landed. This release is packed with critical security updates, performance enhancements across various architectures, and exciting new features for filesystems and networking. A huge shoutout to every single contributor, maintainer, and tester who poured their expertise and time into making this happen. The collaborative spirit of the open-source community truly powers the world. What are your favorite features in this release?\n#LinuxKernel #OpenSource #KernelDevelopment #LinuxFoundation #TechUpdate",
+        "likes": 387,
+        "comments": 78,
+        "type": "achievement",
+        "timestamp": "2025-12-04T04:30:31.877432"
+      },
+      {
+        "content": "Just read this excellent deep dive on LWN.net about the recent improvements in the `io_uring` subsystem. The performance gains and expanded capabilities are genuinely impressive, showcasing the continuous innovation happening at the very core of Linux. It's a reminder of how much goes into optimizing for modern hardware and workloads. Essential reading for anyone interested in high-performance I/O!\n[Hypothetical link to a LWN.net article about io_uring improvements]\n#LinuxKernel #IoUring #Performance #KernelHacking #LWN",
+        "likes": 95,
+        "comments": 12,
+        "type": "article_share",
+        "timestamp": "2025-11-29T09:30:31.877432"
+      },
+      {
+        "content": "Still buzzing from the insightful discussions at the recent Linux Plumbers Conference! It's always an invaluable opportunity to connect with fellow kernel developers, debate complex technical challenges, and align on future directions. The session on power management optimization particularly stood out for me \u2013 fascinating to see the cutting-edge work happening there. Looking forward to translating some of those ideas into actionable items.\n#LinuxPlumbers #LPC #KernelDevelopment #TechConference #Collaboration",
+        "likes": 78,
+        "comments": 9,
+        "type": "text",
+        "timestamp": "2025-11-27T02:30:31.877432"
+      },
+      {
+        "content": "Sharing a recent blog post from The Linux Foundation about new initiatives to enhance supply chain security for open-source projects, including the kernel. This is a topic of paramount importance, especially given the increasingly complex dependencies in modern software. It's great to see concerted efforts to strengthen the integrity and trustworthiness of the open-source ecosystem.\n[Hypothetical link to Linux Foundation blog post on supply chain security]\n#OpenSourceSecurity #SupplyChainSecurity #LinuxFoundation #Cybersecurity #SoftwareIntegrity",
+        "likes": 55,
+        "comments": 7,
+        "type": "article_share",
+        "timestamp": "2025-11-25T01:30:31.877432"
+      },
+      {
+        "content": "Been reflecting a lot on the ongoing discussions around integrating Rust into the Linux kernel. It's not just about a new language; it's about evaluating safety, performance, and the long-term maintainability for a project of this scale. The progress made so far is exciting, demonstrating how carefully and collaboratively the community approaches such significant changes. It's a testament to the kernel's adaptability while upholding its core principles. Curious to hear thoughts from others who've been following this closely!\n#RustLang #LinuxKernel #KernelDevelopment #OpenSourceSecurity #Programming",
+        "likes": 182,
+        "comments": 45,
+        "type": "text",
+        "timestamp": "2025-11-23T23:30:31.877432"
+      },
+      {
+        "content": "For anyone looking to contribute to open source, mastering the art of the code review is crucial \u2013 both giving and receiving. A good review isn't just about finding bugs; it's about improving clarity, ensuring consistency, and sharing knowledge. On the flip side, receiving criticism constructively and iterating on your work is a cornerstone of growth. It's how we collectively elevate the quality of our projects.\n#CodeReview #OpenSource #SoftwareDevelopment #CareerAdvice #BestPractices",
+        "likes": 75,
+        "comments": 8,
+        "type": "text",
+        "timestamp": "2025-11-21T03:30:31.877432"
+      },
+      {
+        "content": "As I look back on another year of intense development, I'm filled with gratitude for the incredible Linux community. From the seasoned maintainers to the newest contributors, the passion and commitment are unwavering. Your dedication to open source, your insightful feedback, and your willingness to collaborate across borders and time zones are what make the Linux kernel the success it is. Thank you for being an integral part of this amazing journey.\n#LinuxCommunity #OpenSource #Gratitude #KernelDevelopers #ThankYou",
+        "likes": 290,
+        "comments": 48,
+        "type": "text",
+        "timestamp": "2025-11-19T10:30:31.877432"
+      }
+    ]
+  }
+}

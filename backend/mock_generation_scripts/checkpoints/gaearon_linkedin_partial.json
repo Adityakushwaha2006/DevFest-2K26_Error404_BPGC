@@ -1,0 +1,21 @@
+{
+  "username": "gaearon",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:00:39.046265",
+  "data": {
+    "profile": {
+      "name": "dan",
+      "headline": "Freelance Software Developer | Building Robust & Scalable Solutions",
+      "location": "Unknown",
+      "about": "As a dedicated freelance software developer, I specialize in crafting efficient and robust solutions across various technical domains. I thrive on tackling complex challenges and delivering high-quality code that meets project objectives and client expectations. My focus is on creating impactful software that drives success for businesses and individuals.",
+      "current_company": "Freelance",
+      "current_position": "Freelance Software Developer",
+      "connections": 387,
+      "followers": 412,
+      "profile_views_last_90_days": 158,
+      "open_to_work": true,
+      "open_to_hiring": false,
+      "creator_mode": true
+    }
+  }
+}

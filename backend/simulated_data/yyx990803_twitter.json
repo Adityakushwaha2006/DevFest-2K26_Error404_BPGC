@@ -1,0 +1,279 @@
+{
+  "platform": "twitter",
+  "identifier": "yyx990803",
+  "profile": {
+    "name": "Evan You",
+    "username": "_EvanYou",
+    "bio": "Founder @voidzero-dev, author of @vuejs & @vitejs. Building cool stuff with #GoLang. Sushi aficionado 🍣. Learning something new every day.",
+    "location": "Singapore",
+    "website": "https://voidzero.dev",
+    "followers": 38500,
+    "following": 870,
+    "tweets_count": 7241,
+    "joined_date": "November 2011",
+    "is_verified": false,
+    "github_username": "Evan You"
+  },
+  "tweets": [
+    {
+      "type": "tweet",
+      "content": "Just spent an hour debugging a production issue only to realize I had a typo in a CSS variable name. My brain needs a `git revert --hard`. 🤦‍♂️",
+      "timestamp": "2026-01-17T09:13:40.885855",
+      "date": "2026-01-17",
+      "time": "09:13:40",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/yyx990803/status/4416351679",
+      "engagement": {
+        "likes": 290,
+        "retweets": 55,
+        "replies": 20
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Some days, the simplest things bring the most joy. Tonight, it's just really good toro and a quiet moment. Refueling for another week of building. 🍣 #gratitude",
+      "timestamp": "2026-01-17T09:13:40.885855",
+      "date": "2026-01-17",
+      "time": "09:13:40",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/yyx990803/status/9229856983",
+      "engagement": {
+        "likes": 110,
+        "retweets": 10,
+        "replies": 5
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "A perfect omakase experience is like a perfectly optimized build process: each component plays its part, leading to pure, unadulterated delight. Except less debugging. 🍣 #sushilife",
+      "timestamp": "2026-01-16T22:13:40.885855",
+      "date": "2026-01-16",
+      "time": "22:13:40",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/yyx990803/status/9586801168",
+      "engagement": {
+        "likes": 150,
+        "retweets": 15,
+        "replies": 8
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Unpopular opinion: The pendulum of web development always swings. We're past peak 'JavaScript everywhere' and are now seeing a healthy return to server-side rendering + hydration for a reason. DX & perf, folks.",
+      "timestamp": "2026-01-16T09:13:40.885855",
+      "date": "2026-01-16",
+      "time": "09:13:40",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/yyx990803/status/4465684061",
+      "engagement": {
+        "likes": 780,
+        "retweets": 130,
+        "replies": 70
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Working through some interesting RFCs for Vue 3.4. Community feedback has been invaluable in shaping the path forward. Keep an eye out for improved `<script setup>` ergonomics and better reactivity debugging! #vuejs",
+      "timestamp": "2026-01-16T02:13:40.885855",
+      "date": "2026-01-16",
+      "time": "02:13:40",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/yyx990803/status/6869034274",
+      "engagement": {
+        "likes": 380,
+        "retweets": 70,
+        "replies": 30
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Deep dive into Bun's native FFI capabilities today. The performance gains are intriguing for certain use cases, especially connecting with system libraries. Always exciting to see new approaches. #bunjs #javascript",
+      "timestamp": "2026-01-13T08:13:40.885855",
+      "date": "2026-01-13",
+      "time": "08:13:40",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/yyx990803/status/5153234004",
+      "engagement": {
+        "likes": 170,
+        "retweets": 30,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "So much gratitude for all the open source maintainers out there. The invisible labor of documentation, bug triaging, and community support is monumental. Thank you for making the web possible. 🙏",
+      "timestamp": "2026-01-12T15:13:40.885855",
+      "date": "2026-01-12",
+      "time": "15:13:40",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/yyx990803/status/1850398148",
+      "engagement": {
+        "likes": 420,
+        "retweets": 80,
+        "replies": 25
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Just saw the news about CSS `text-wrap: balance` reaching stable. This is a game-changer for typography and overall aesthetic. Excited to see how it improves the user experience across the web! Kudos to the browser teams.",
+      "timestamp": "2026-01-11T03:13:40.885855",
+      "date": "2026-01-11",
+      "time": "03:13:40",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/yyx990803/status/4678643578",
+      "engagement": {
+        "likes": 180,
+        "retweets": 30,
+        "replies": 12
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Vite 5.1 is out! Major thanks to all contributors for the continuous improvements. This release includes improved HMR stability & better dev server optimizations. Keep those PRs coming! #vitejs #webdev",
+      "timestamp": "2026-01-08T12:13:40.885855",
+      "date": "2026-01-08",
+      "time": "12:13:40",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/yyx990803/status/4411145453",
+      "engagement": {
+        "likes": 250,
+        "retweets": 45,
+        "replies": 15
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Early morning whiteboard session with the @voidzero_dev team sketching out the architecture for our next big feature. The energy is palpable, and the ideas are flowing! Feeling very optimistic. ✨",
+      "timestamp": "2026-01-06T05:13:40.885855",
+      "date": "2026-01-06",
+      "time": "05:13:40",
+      "day_of_week": "Tuesday",
+      "url": "https://twitter.com/yyx990803/status/5256721739",
+      "engagement": {
+        "likes": 160,
+        "retweets": 25,
+        "replies": 10
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "I firmly believe that the next significant leap in frontend performance won't come from faster JavaScript runtimes, but from a fundamental shift in how we bundle and deliver assets. Think beyond tree-shaking and client-side cascades.",
+      "timestamp": "2026-01-05T15:13:40.885855",
+      "date": "2026-01-05",
+      "time": "15:13:40",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/yyx990803/status/7718067036",
+      "engagement": {
+        "likes": 560,
+        "retweets": 110,
+        "replies": 60
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Interesting read from @smashingmag on the future of web components. I agree with the emphasis on interoperability and framework agnosticism. It's crucial for long-term sustainability. [Article link implied]",
+      "timestamp": "2026-01-04T11:13:40.885855",
+      "date": "2026-01-04",
+      "time": "11:13:40",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/yyx990803/status/1329474552",
+      "engagement": {
+        "likes": 90,
+        "retweets": 15,
+        "replies": 7
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Excited to announce that @voidzero_dev just closed a small seed round to accelerate our vision for next-gen developer tooling. Huge thanks to our investors and our incredible team! More updates coming soon. 🚀",
+      "timestamp": "2026-01-03T04:13:40.885855",
+      "date": "2026-01-03",
+      "time": "04:13:40",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/yyx990803/status/7239345348",
+      "engagement": {
+        "likes": 950,
+        "retweets": 180,
+        "replies": 80
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Experimenting with Rust for a CLI tool today. The borrow checker is an acquired taste, but the guarantees it provides are just *chef's kiss*. Still prefer TS for web, but Rust for infra is a joy. #rustlang",
+      "timestamp": "2025-12-28T11:13:40.885855",
+      "date": "2025-12-28",
+      "time": "11:13:40",
+      "day_of_week": "Sunday",
+      "url": "https://twitter.com/yyx990803/status/1625587755",
+      "engagement": {
+        "likes": 210,
+        "retweets": 40,
+        "replies": 18
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Is it really 'done' if I don't comment out a `console.log` right before pushing to production? Asking for a friend. 👀 #devhumor",
+      "timestamp": "2025-12-27T02:13:40.885855",
+      "date": "2025-12-27",
+      "time": "02:13:40",
+      "day_of_week": "Saturday",
+      "url": "https://twitter.com/yyx990803/status/4126470823",
+      "engagement": {
+        "likes": 220,
+        "retweets": 40,
+        "replies": 18
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "Spent the morning deep-diving into WebAssembly Component Model proposals for a new @voidzero_dev module. The potential for truly composable, language-agnostic primitives is immense. Mind-bending stuff. #webassembly #voidzerodev",
+      "timestamp": "2025-12-22T19:13:40.885855",
+      "date": "2025-12-22",
+      "time": "19:13:40",
+      "day_of_week": "Monday",
+      "url": "https://twitter.com/yyx990803/status/8506083563",
+      "engagement": {
+        "likes": 120,
+        "retweets": 20,
+        "replies": 10
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "The obsession with 'zero JS' for every single marketing page or static site misses the point. The goal should be *minimal, performant, and purposeful* JS, not necessarily zero. Pragmatism over dogmatism.",
+      "timestamp": "2025-12-19T10:13:40.885855",
+      "date": "2025-12-19",
+      "time": "10:13:40",
+      "day_of_week": "Friday",
+      "url": "https://twitter.com/yyx990803/status/8997559001",
+      "engagement": {
+        "likes": 650,
+        "retweets": 120,
+        "replies": 90
+      }
+    },
+    {
+      "type": "tweet",
+      "content": "My computer's fan after `npm install` is basically a jet engine. Might as well classify it as a home appliance at this point. 💨 #devlife",
+      "timestamp": "2025-12-18T23:13:40.885855",
+      "date": "2025-12-18",
+      "time": "23:13:40",
+      "day_of_week": "Thursday",
+      "url": "https://twitter.com/yyx990803/status/3285916980",
+      "engagement": {
+        "likes": 310,
+        "retweets": 60,
+        "replies": 25
+      }
+    }
+  ],
+  "tweet_count": 18,
+  "cross_references": {
+    "github": "yyx990803_github.json",
+    "linkedin": "yyx990803_linkedin.json"
+  },
+  "confidence_score": 0.85,
+  "exported_at": "2026-01-17T17:14:24.001121",
+  "is_simulated": true
+}

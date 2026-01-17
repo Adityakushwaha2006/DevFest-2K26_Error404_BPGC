@@ -1,0 +1,253 @@
+{
+  "platform": "linkedin",
+  "identifier": "rickhanlonii",
+  "profile": {
+    "name": "Ricky",
+    "headline": "Staff Software Engineer | React Core Contributor at @facebook",
+    "location": "EST. AKRON",
+    "about": "I'm a Staff Software Engineer at @facebook, deeply involved in the development and evolution of React's core libraries and infrastructure. My work focuses on building scalable and performant UI solutions that empower millions of developers globally. Passionate about open source and advancing the state of web development.",
+    "current_company": "@facebook ",
+    "current_position": "Staff Software Engineer",
+    "connections": 487,
+    "followers": 3250,
+    "profile_views_last_90_days": 980,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Senior Software Engineer",
+        "company": "Facebook",
+        "location": "Menlo Park, CA",
+        "start_date": "October 2020",
+        "end_date": "Present",
+        "description": [
+          "Led the development and optimization of critical user-facing features for a high-traffic React web application, significantly enhancing performance and user engagement metrics.",
+          "Architected scalable front-end solutions using React, TypeScript, and GraphQL, ensuring robust and maintainable code for a global user base.",
+          "Mentored junior engineers, conducted thorough code reviews, and championed best practices for front-end development and testing within a cross-functional team."
+        ],
+        "is_current": true
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Airbnb",
+        "location": "San Francisco, CA",
+        "start_date": "July 2017",
+        "end_date": "September 2020",
+        "description": [
+          "Developed and maintained responsive and accessible user interfaces for core booking and host management features using React.js, Redux, and modern CSS-in-JS solutions.",
+          "Collaborated closely with product managers and UX designers to translate complex requirements into intuitive and performant web experiences.",
+          "Contributed to the full-stack development process, including API integration, data modeling, and performance tuning of Node.js services."
+        ],
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "HubSpot",
+        "location": "Cambridge, MA",
+        "start_date": "January 2015",
+        "end_date": "June 2017",
+        "description": [
+          "Implemented new features and resolved bugs across multiple marketing automation tools, leveraging JavaScript, HTML, CSS, and contributing to early adoption of React components.",
+          "Participated actively in agile development cycles, including sprint planning, daily stand-ups, and peer code reviews to ensure high-quality software delivery.",
+          "Wrote comprehensive unit, integration, and end-to-end tests to guarantee the reliability and stability of web applications."
+        ],
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "State University of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2017,
+        "end_year": 2021,
+        "activities": "Dean's List (6 semesters), President of Programming Club, Lead Organizer for Annual Hackathon"
+      }
+    ],
+    "skills": [
+      {
+        "name": "React",
+        "endorsements": 26
+      },
+      {
+        "name": "Problem Solving",
+        "endorsements": 46
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 16
+      },
+      {
+        "name": "Agile",
+        "endorsements": 13
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Finding the right mentor can be a transformative experience in your career. I've been incredibly fortunate to have mentors who pushed me out of my comfort zone, offered candid feedback, and celebrated my successes. Their guidance was invaluable in navigating complex projects and making crucial career decisions.\n\nBut mentorship isn't just about receiving; it's also about giving back. Actively mentoring junior engineers, sharing knowledge, and helping others grow has been one of the most fulfilling parts of my journey as a Staff Engineer. If you're not already involved in mentorship, I highly encourage both seeking a mentor and becoming one.\n\n#Mentorship #CareerDevelopment #TechCommunity #Leadership #SoftwareEngineer",
+      "timestamp": "2026-01-15T02:41:05.231878",
+      "date": "2026-01-15",
+      "time": "02:41:05",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/rickhanlonii-8363",
+      "engagement": {
+        "likes": 55,
+        "comments": 6
+      }
+    },
+    {
+      "type": "post",
+      "content": "Recently tackled a particularly thorny bug involving subtle hydration mismatches in a large-scale React application, exacerbated by server-side rendering and client-side feature flags. It took days of debugging, deep dives into React's reconciliation process, and even a few custom Babel plugins to pinpoint the root cause.\n\nThe biggest lesson learned (or re-learned!): the importance of truly understanding your framework's lifecycle and rendering behavior, especially when pushing its boundaries. Also, having robust logging and excellent local replication steps are paramount. It was a tough one, but incredibly satisfying to finally squash!\n\n#React #Debugging #FrontendDevelopment #SoftwareEngineering #Learning",
+      "timestamp": "2026-01-13T19:41:05.231878",
+      "date": "2026-01-13",
+      "time": "19:41:05",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/rickhanlonii-6212",
+      "engagement": {
+        "likes": 42,
+        "comments": 7
+      }
+    },
+    {
+      "type": "post",
+      "content": "Stumbled upon this insightful HBR article today on 'The Hidden Traps of Technical Debt' (link in comments). It really resonated with my experience working at scale.\n\nTechnical debt isn't just about 'bad code'; it's often a strategic trade-off, a necessary evil, or an unforeseen consequence of rapid innovation. The key, as the article points out, is not to avoid it entirely (which is impossible), but to manage it proactively, understand its costs, and make informed decisions about when and how to pay it down. Neglecting it truly is like letting interest compound.\n\n#TechnicalDebt #SoftwareManagement #Leadership #EngineeringStrategy #HBR",
+      "timestamp": "2026-01-13T06:41:05.231878",
+      "date": "2026-01-13",
+      "time": "06:41:05",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/rickhanlonii-5932",
+      "engagement": {
+        "likes": 38,
+        "comments": 4
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to share that after months of collaborative effort, the new `useDeferredValue` API has officially landed in React! This was a significant RFC and a real testament to the power of the open-source community, particularly our amazing contributors and the React core team.\n\n`useDeferredValue` is a game-changer for UI responsiveness, allowing you to defer updates for less important parts of your UI, keeping the main thread free and your app feeling snappy. I'm incredibly proud to have played a part in bringing this to life and can't wait to see how developers leverage it in their applications. Huge shoutout to everyone involved in the RFC discussions and implementation!\n\n#React #FrontendDevelopment #OpenSource #WebDev #Performance",
+      "timestamp": "2026-01-09T13:41:05.231878",
+      "date": "2026-01-09",
+      "time": "13:41:05",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/rickhanlonii-2234",
+      "engagement": {
+        "likes": 185,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "One of the most challenging, yet rewarding, transitions in a tech career is often the leap from Senior to Staff Engineer. It's not just about writing more code; it's about shifting your impact from individual contributions to influencing an entire team, organization, or even the industry.\n\nMy biggest takeaway? Focus relentlessly on enabling others. This means deep dives into system design, mentoring junior engineers, identifying technical debt, and driving strategic initiatives that move the needle for your product or platform. It's about asking 'How can I make 10x impact through others?' rather than 'How can I write 10x more code?'.\n\nIf you're aspiring to Staff, start thinking about the problems no one else is solving, and take ownership. Your code becomes your ideas and leadership.\n\n#CareerAdvice #StaffEngineer #TechLeadership #SoftwareEngineering #CareerGrowth",
+      "timestamp": "2026-01-02T11:41:05.231878",
+      "date": "2026-01-02",
+      "time": "11:41:05",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/rickhanlonii-3298",
+      "engagement": {
+        "likes": 135,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Developer Experience (DX) is often talked about, but its profound impact on productivity and morale is sometimes underestimated. At a company the size of Facebook, robust internal tooling and a smooth DX are not just 'nice-to-haves' – they are absolutely critical.\n\nInvesting in build systems, consistent component libraries, reliable testing infrastructure, and instant feedback loops pays dividends by empowering engineers to focus on innovative product features rather than fighting their tools. It creates a virtuous cycle: happy developers build better products faster. What aspects of DX do you find most impactful in your daily work?\n\n#DeveloperExperience #DX #SoftwareEngineering #Productivity #InternalTools",
+      "timestamp": "2025-12-07T20:41:05.231878",
+      "date": "2025-12-07",
+      "time": "20:41:05",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/rickhanlonii-1860",
+      "engagement": {
+        "likes": 65,
+        "comments": 8
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read the latest React blog post, 'React 19 for Everyone: What to Expect' over on react.dev, and it's a fantastic overview of what's coming in the next major release. The focus on enhancing developer experience with new hooks and improved tooling is really exciting.\n\nI particularly enjoyed the deep dive into the new Compiler and its potential to optimize performance even further without requiring manual optimizations. It's a significant step towards making React even more accessible and performant for developers of all skill levels. If you're working with React, this is a must-read!\n\n#React #React19 #WebDev #Frontend #DeveloperTools",
+      "timestamp": "2025-12-05T20:41:05.231878",
+      "date": "2025-12-05",
+      "time": "20:41:05",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/rickhanlonii-2963",
+      "engagement": {
+        "likes": 115,
+        "comments": 14
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to see the latest enhancements to our Instagram Reels creation tools go live! My team at Facebook played a key role in architecting the core frontend infrastructure that enables these engaging new features, from improved audio sync to richer editing capabilities.\n\nIt's incredibly satisfying to work on products used by billions, knowing that our technical contributions directly empower creators and connect communities worldwide. The scale and complexity of delivering such features are immense, and it's a testament to the dedication and talent of every engineer, designer, and product manager involved. Onwards and upwards!\n\n#Meta #Instagram #Reels #ProductLaunch #SoftwareEngineering #Frontend",
+      "timestamp": "2025-12-02T08:41:05.231878",
+      "date": "2025-12-02",
+      "time": "08:41:05",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/rickhanlonii-1366",
+      "engagement": {
+        "likes": 88,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "After months of design, implementation, and rigorous testing, our new 'Hermes' internal analytics dashboard is now fully deployed! This system dramatically improves how product teams visualize user engagement and performance metrics, replacing several disparate legacy tools.\n\nThe challenge of migrating petabytes of data and building a highly performant, real-time dashboard at Facebook's scale was immense. Kudos to the dedicated backend, frontend, and infra teams who collaborated seamlessly to deliver this critical piece of internal infrastructure. Excited for the insights it will unlock!\n\n#InternalTools #DataAnalytics #SoftwareEngineering #TechAchievement #Meta",
+      "timestamp": "2025-12-01T12:41:05.231878",
+      "date": "2025-12-01",
+      "time": "12:41:05",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/rickhanlonii-3954",
+      "engagement": {
+        "likes": 48,
+        "comments": 5
+      }
+    },
+    {
+      "type": "post",
+      "content": "Been reflecting a lot lately on the future of React and the broader frontend landscape, especially with the ongoing discussions around React Server Components (RSCs).\n\nThe paradigm shift RSCs introduce, blurring the lines between client and server, feels like a natural evolution for web development, pushing us towards more efficient data fetching and rendering. While there are certainly complexities to navigate, the potential for vastly improved performance and simplified developer experience is immense. It's an exciting time to be building on the web, and I'm eager to see how the ecosystem adapts and innovates with these powerful new tools.\n\nWhat are your thoughts on the direction of server-side rendering and client-server integration in modern frameworks?\n\n#React #ReactServerComponents #WebDevelopment #FrontendEngineering #TechTrends",
+      "timestamp": "2025-11-30T02:41:05.231878",
+      "date": "2025-11-30",
+      "time": "02:41:05",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/rickhanlonii-5451",
+      "engagement": {
+        "likes": 92,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "Reflecting on my journey as a React Core Contributor – it's been an incredible ride, filled with both exhilarating wins and humbling challenges. Contributing to an open-source project used by millions, if not billions, comes with a unique set of responsibilities and rewards.\n\nThe initial learning curve was steep, understanding the existing codebase and the high standards of performance and stability required. But the satisfaction of seeing your code improve the experience for countless developers, and the camaraderie within the core team, is truly unparalleled. It teaches you deep empathy for users and an unwavering commitment to quality.\n\n#OpenSource #React #ReactCore #FrontendDevelopment #Community #SoftwareEngineer",
+      "timestamp": "2025-11-28T17:41:05.231878",
+      "date": "2025-11-28",
+      "time": "17:41:05",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/rickhanlonii-9140",
+      "engagement": {
+        "likes": 105,
+        "comments": 16
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge congratulations to the entire team on successfully rolling out Project 'Nebula' ahead of schedule! This was a monumental effort to refactor a critical internal data pipeline, significantly improving its reliability and reducing latency across multiple core services.\n\nThis wasn't just a technical win; it was a masterclass in cross-functional collaboration, thoughtful architectural design, and sheer perseverance. Every late night, every complex merge conflict, and every challenging debugging session was worth it. So proud to work alongside such brilliant and dedicated individuals! Let's celebrate this one!\n\n#TeamWins #EngineeringExcellence #SoftwareDevelopment #MetaLife",
+      "timestamp": "2025-11-24T05:41:05.231878",
+      "date": "2025-11-24",
+      "time": "05:41:05",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/rickhanlonii-9305",
+      "engagement": {
+        "likes": 75,
+        "comments": 9
+      }
+    }
+  ],
+  "post_count": 12,
+  "cross_references": {
+    "github": "rickhanlonii_github.json",
+    "twitter": "rickhanlonii_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:41:05.251802",
+  "is_simulated": true
+}

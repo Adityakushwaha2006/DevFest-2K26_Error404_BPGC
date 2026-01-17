@@ -1,0 +1,21 @@
+{
+  "username": "sebmarkbage",
+  "platform": "twitter_partial",
+  "timestamp": "2026-01-17T17:32:20.422894",
+  "data": {
+    "profile": {
+      "name": "Sebastian Markb\u00e5ge",
+      "username": "sebmarkbage",
+      "bio": "Engineer @Vercel. Crafting fast web experiences. Deep dives into #React & #GoLang internals. Learning in public, occasionally hot takes. NYC.",
+      "location": "New York City",
+      "website": "https://github.com/sebastianmarkbage",
+      "followers": 38521,
+      "following": 987,
+      "tweets_count": 14210,
+      "joined_date": "October 2012",
+      "is_verified": false,
+      "github_username": "Sebastian Markb\u00e5ge"
+    },
+    "tweets": []
+  }
+}

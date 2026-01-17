@@ -1,0 +1,166 @@
+{
+  "username": "brauner",
+  "platform": "twitter",
+  "timestamp": "2026-01-17T16:53:17.263065",
+  "data": {
+    "profile": {
+      "name": "Christian Brauner",
+      "username": "cbrauner",
+      "bio": "Software developer in Berlin. Core contributor to @lxc & Linux kernel. Passionate about containers, virtualization & system programming. Learning in public. \ud83d\udc27\u2601\ufe0f",
+      "location": "Berlin",
+      "website": "github.com/brauner",
+      "followers": 4892,
+      "following": 876,
+      "tweets_count": 7543,
+      "joined_date": "March 2015",
+      "is_verified": false,
+      "github_username": "Christian Brauner"
+    },
+    "tweets": [
+      {
+        "content": "I genuinely believe `systemd-nspawn` is an underappreciated gem for simple, robust containerization without the overhead. Great for quick tests or minimal environments. #Linux #Containers #systemd",
+        "likes": 25,
+        "retweets": 10,
+        "replies": 8,
+        "type": "original",
+        "timestamp": "2026-01-17T01:53:17.263065"
+      },
+      {
+        "content": "Reflecting on the progress of container technology over the last decade. From nascent ideas to ubiquitous infrastructure. Proud to have played a small part with #LXC. What an incredible journey. #TechHistory",
+        "likes": 30,
+        "retweets": 7,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-16T07:53:17.263065"
+      },
+      {
+        "content": "My relationship with `git blame` is complicated. Sometimes it's a diagnostic tool, sometimes it's a mirror reflecting my past self's questionable decisions. \ud83d\ude02 #DevLife #Git",
+        "likes": 28,
+        "retweets": 8,
+        "replies": 3,
+        "type": "original",
+        "timestamp": "2026-01-13T04:53:17.263065"
+      },
+      {
+        "content": "Sometimes I feel like my job is 90% understanding cryptic error messages and 10% writing code. And 100% consuming coffee. \u2615\ufe0f #DeveloperLife",
+        "likes": 19,
+        "retweets": 7,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-10T10:53:17.263065"
+      },
+      {
+        "content": "Reading about the latest Linux kernel merge window. Always incredible to see the sheer volume and quality of work. Special shout-out to the ongoing efforts in security and memory management. \ud83d\udc4f #Linux #KernelDev",
+        "likes": 22,
+        "retweets": 6,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-09T05:53:17.263065"
+      },
+      {
+        "content": "Finished reviewing a massive pull request for LXD. So much excellent work from the community! This is why open source is so powerful. Thanks to everyone contributing! \ud83d\ude4f #OpenSource #LXD",
+        "likes": 20,
+        "retweets": 5,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-07T14:53:17.263065"
+      },
+      {
+        "content": "Spent the afternoon mentoring a new contributor to LXC. Guiding them through the codebase and seeing their enthusiasm is one of the most rewarding parts of open source. \ud83c\udf31 #Mentorship #OpenSourceCommunity",
+        "likes": 23,
+        "retweets": 5,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2026-01-06T06:53:17.263065"
+      },
+      {
+        "content": "Thinking about the future of security in container runtimes. Sandboxing is key, but the attack surface with complex kernel interactions remains a huge challenge. Constant vigilance required! \ud83d\udee1\ufe0f #ContainerSecurity #InfoSec",
+        "likes": 11,
+        "retweets": 2,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2026-01-05T06:53:17.263065"
+      },
+      {
+        "content": "Just pushed a fix for that tricky cgroup v2 interaction bug in LXC. Should improve resource management for folks on newer kernels. Feels good to squash that one! \ud83d\udc1b #LXC #LinuxKernel #OpenSource",
+        "likes": 15,
+        "retweets": 3,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2026-01-03T12:53:17.263065"
+      },
+      {
+        "content": "Just wrestled with a subtle race condition in some C code for about 4 hours. The fix was a single `volatile` keyword. The absolute joy, and simultaneous frustration. \ud83e\udd2f #Programming #Debugging",
+        "likes": 35,
+        "retweets": 9,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2026-01-02T13:53:17.263065"
+      },
+      {
+        "content": "Excited to be submitting a talk proposal for #LinuxPlumbersConf! Thinking about the challenges of integrating modern kernel features into container runtimes. Wish me luck! \ud83e\udd1e #OpenSource #LXC",
+        "likes": 12,
+        "retweets": 2,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-31T05:53:17.263065"
+      },
+      {
+        "content": "Trying out a new editor setup today. It's amazing how much a fresh config can either boost productivity or completely break your flow for a few hours. Wish me luck on the latter! #Vim #Emacs #EditorWars (just kidding, mostly)",
+        "likes": 7,
+        "retweets": 1,
+        "replies": 4,
+        "type": "original",
+        "timestamp": "2025-12-31T00:53:17.263065"
+      },
+      {
+        "content": "The best documentation is written for the maintainer who will inevitably forget how their own code works in 6 months. That maintainer is usually me. \ud83d\ude05 #DevHumor #Docs",
+        "likes": 45,
+        "retweets": 15,
+        "replies": 6,
+        "type": "original",
+        "timestamp": "2025-12-28T10:53:17.263065"
+      },
+      {
+        "content": "Just got a bug report that involved a specific kernel version, a rare filesystem, and a full moon. Love these challenges! (Mostly kidding, mostly) \ud83c\udf15 #BugHunt #Linux",
+        "likes": 14,
+        "retweets": 3,
+        "replies": 1,
+        "type": "original",
+        "timestamp": "2025-12-27T16:53:17.263065"
+      },
+      {
+        "content": "Hot take: If your 'cloud-native' stack is slower and uses more resources than bare metal, you've missed a fundamental principle of engineering. Efficiency still matters, even with infinite cloud. \u26a1\ufe0f #SystemsProgramming #DevOps #TechOpinion",
+        "likes": 42,
+        "retweets": 12,
+        "replies": 7,
+        "type": "original",
+        "timestamp": "2025-12-27T10:53:17.263065"
+      },
+      {
+        "content": "Working on improving the snapshotting logic in LXC. It's always a delicate dance between consistency, performance, and user-friendliness. Any best practices for atomic operations on filesystems you'd recommend? #LXC #Containers",
+        "likes": 9,
+        "retweets": 1,
+        "replies": 2,
+        "type": "original",
+        "timestamp": "2025-12-22T11:53:17.263065"
+      },
+      {
+        "content": "Diving deep into `io_uring` this week for a potential LXC performance optimization. The API is gnarly but the potential throughput gains are \ud83d\udd25. Anyone else been playing with it? #LinuxKernel #io_uring #LXC",
+        "likes": 18,
+        "retweets": 4,
+        "replies": 5,
+        "type": "original",
+        "timestamp": "2025-12-19T12:53:17.263065"
+      },
+      {
+        "content": "The satisfaction of optimising a critical path by even a few milliseconds in a systems-level component is just unmatched. It's the small wins that keep you going. \u2728 #Performance #Optimization",
+        "likes": 16,
+        "retweets": 3,
+        "replies": 0,
+        "type": "original",
+        "timestamp": "2025-12-19T02:53:17.263065"
+      }
+    ]
+  }
+}

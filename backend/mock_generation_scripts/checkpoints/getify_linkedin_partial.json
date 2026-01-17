@@ -1,0 +1,21 @@
+{
+  "username": "getify",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:19:46.051923",
+  "data": {
+    "profile": {
+      "name": "Kyle Simpson",
+      "headline": "Founder & Principal Technologist at Getify Solutions | Human-Centric Software Development Advocate | Author of 'You Don't Know JS'",
+      "location": "Austin, TX",
+      "about": "As a Human-Centric Technologist, I am dedicated to fighting for the people behind the pixels, ensuring that technology serves humanity with intention and integrity. At Getify Solutions, I lead initiatives to craft innovative software solutions, applying advanced software development principles to create robust, user-friendly, and impactful products. My mission is to empower developers and improve the overall human experience within the digital landscape.",
+      "current_company": "Getify Solutions",
+      "current_position": "Founder & Principal Technologist",
+      "connections": 487,
+      "followers": 52893,
+      "profile_views_last_90_days": 1345,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}

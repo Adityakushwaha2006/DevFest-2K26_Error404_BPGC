@@ -1,0 +1,263 @@
+{
+  "platform": "linkedin",
+  "identifier": "sophiebits",
+  "profile": {
+    "name": "Sophie Alpert",
+    "headline": "Principal Software Engineer | Independent Consultant | Full-Stack Development & System Architecture",
+    "location": "San Francisco, CA",
+    "about": "As a Principal Software Engineer and independent consultant, I bring extensive experience in designing, developing, and deploying robust software solutions. I specialize in full-stack development and system architecture, helping clients build scalable and efficient applications. My passion lies in solving complex technical challenges and delivering high-quality, impactful results, powered by an endless supply of determination (and sometimes dumplings!).",
+    "current_company": "Freelance",
+    "current_position": "Principal Software Engineer",
+    "connections": 387,
+    "followers": 1250,
+    "profile_views_last_90_days": 350,
+    "open_to_work": true,
+    "open_to_hiring": false,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Freelance Software Engineer",
+        "company": "Freelance",
+        "location": "Remote",
+        "start_date": "May 2021",
+        "end_date": "Present",
+        "description": "Consulted with diverse clients to design, develop, and deploy full-stack web applications and API services using various technologies (e.g., Python/Django, Node.js/React, AWS Lambda).\nManaged end-to-end project lifecycles, from requirements gathering and technical specification to deployment, testing, and ongoing maintenance.\nImplemented scalable and robust solutions for unique business needs, consistently delivering projects on time and exceeding client expectations.",
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Engineer",
+        "company": "Apex Systems",
+        "location": "London, UK",
+        "start_date": "October 2018",
+        "end_date": "April 2021",
+        "description": "Led the development of critical backend services in Python/Go, improving system reliability by 25% and reducing latency for high-traffic microservices.\nMentored junior developers, conducted code reviews, and contributed to architectural decisions for scalable cloud-native applications on AWS.\nCollaborated cross-functionally with product and QA teams to define technical requirements and deliver complex features in an Agile environment.",
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Quantum Innovations",
+        "location": "London, UK",
+        "start_date": "August 2015",
+        "end_date": "September 2018",
+        "description": "Developed and maintained core features for a SaaS platform using Java Spring Boot and React.js, contributing to a 15% increase in user engagement.\nParticipated in the design and implementation of new RESTful APIs and database schemas (PostgreSQL) to support evolving product requirements.\nActively involved in debugging, performance optimization, and writing comprehensive unit and integration tests to ensure code quality.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "State University of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2022,
+        "activities": "Dean's List (6 semesters), President of Computer Science Club, Lead Developer for Senior Capstone Project, Hackathon Participant"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 45
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 44
+      },
+      {
+        "name": "Agile",
+        "endorsements": 38
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Thrilled to share that I've completed the AWS Certified Solutions Architect - Professional certification! It was an intensive but incredibly valuable experience, deepening my understanding of designing resilient, scalable, and cost-optimized architectures on AWS. This will undoubtedly enhance the value I bring to my clients as we navigate complex cloud transformations. Onwards and upwards! #AWSCertified #CloudArchitecture #ContinuousLearning",
+      "timestamp": "2026-01-11T20:38:24.546576",
+      "date": "2026-01-11",
+      "time": "20:38:24",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/sophiebits-2468",
+      "engagement": {
+        "likes": 140,
+        "comments": 25
+      }
+    },
+    {
+      "type": "post",
+      "content": "Exciting news! After a series of successful engagements, I'm formalizing and expanding my 'Architectural Health Check' service. This offering provides independent, comprehensive evaluations of existing system designs, identifies performance bottlenecks, security vulnerabilities, and scalability challenges, and delivers actionable recommendations. If your team is facing architectural hurdles or planning a major migration, let's connect for a confidential discussion! #SystemArchitecture #TechConsulting #SoftwareDesign",
+      "timestamp": "2026-01-03T00:38:24.546576",
+      "date": "2026-01-03",
+      "time": "00:38:24",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/sophiebits-7097",
+      "engagement": {
+        "likes": 75,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "Good documentation isn't a chore; it's an investment in your future self and your team's sanity. Whether it's API docs, architectural decision records (ADRs), or just well-commented code, clear and concise documentation accelerates onboarding, reduces tribal knowledge, and saves countless hours of debugging down the line. It's an often-underrated, yet critical, aspect of robust software development and system architecture. #Documentation #SoftwareQuality #DevBestPractices",
+      "timestamp": "2025-12-26T22:38:24.546576",
+      "date": "2025-12-26",
+      "time": "22:38:24",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/sophiebits-3985",
+      "engagement": {
+        "likes": 60,
+        "comments": 8
+      }
+    },
+    {
+      "type": "post",
+      "content": "Found a great read this morning on 'The Art of Refactoring Legacy Systems.' Link: https://medium.com/refactoring-legacy-systems (hypothetical link). This article really resonates with my experience as a consultant. Often, the most impactful work isn't building greenfield, but thoughtfully optimizing and modernizing existing systems. It's a delicate balance of understanding technical debt, business impact, and strategic refactoring. Highly recommend giving it a read! #Refactoring #LegacyCode #SoftwareEngineering",
+      "timestamp": "2025-12-25T04:38:24.546576",
+      "date": "2025-12-25",
+      "time": "04:38:24",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/sophiebits-3094",
+      "engagement": {
+        "likes": 68,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "The debate between monoliths, microservices, and now modular monoliths continues to evolve. While microservices offer undeniable benefits for scale and independent deployment, I've seen firsthand how a well-designed modular monolith can be incredibly effective for startups or teams needing rapid iteration, avoiding premature complexity. It's all about context and thoughtful design, not just blindly following the latest trend. What are your thoughts on finding that sweet spot for your projects?",
+      "timestamp": "2025-12-17T19:38:24.546576",
+      "date": "2025-12-17",
+      "time": "19:38:24",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/sophiebits-5364",
+      "engagement": {
+        "likes": 110,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "The rapid advancements in AI, especially in tools like GitHub Copilot and ChatGPT, are fundamentally reshaping how we approach software development. It's not just about code generation; it's about intelligent assistants augmenting our problem-solving, debugging, and even architectural design processes. While it certainly boosts productivity, it also highlights the increasing importance of critical thinking, prompt engineering, and verifying outputs. Are you integrating AI into your dev workflow yet?",
+      "timestamp": "2025-12-14T07:38:24.546576",
+      "date": "2025-12-14",
+      "time": "07:38:24",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/sophiebits-6923",
+      "engagement": {
+        "likes": 150,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "Cloud migrations are never just a lift-and-shift. They're complex transformations that touch every part of an organization, from infrastructure to security to team skill sets. I've found that success hinges on meticulous planning, a strong understanding of cost implications, and a phased approach that prioritizes quick wins while minimizing disruption. What's been your biggest lesson learned from a cloud migration project, and what advice would you give others?",
+      "timestamp": "2025-12-10T13:38:24.546576",
+      "date": "2025-12-10",
+      "time": "13:38:24",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/sophiebits-3662",
+      "engagement": {
+        "likes": 95,
+        "comments": 16
+      }
+    },
+    {
+      "type": "post",
+      "content": "There's a unique satisfaction in untangling a truly complex distributed system issue. You know, the kind where logs are scattered, traces are fragmented, and the root cause seems to be hiding in plain sight for days. It often boils down to methodical elimination, deep understanding of system interactions, and a touch of creative debugging. What's the most memorable 'aha!' moment you've had recently after a long debugging session?",
+      "timestamp": "2025-12-07T22:38:24.546576",
+      "date": "2025-12-07",
+      "time": "22:38:24",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/sophiebits-6416",
+      "engagement": {
+        "likes": 92,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to announce I'll be speaking at the upcoming 'Global Tech Summit 2024' on \"Building Resilient Full-Stack Applications with Event-Driven Architecture.\" I'll be sharing insights from recent client projects, practical tips for designing systems that can withstand the unexpected, and common pitfalls to avoid. If you're attending in October, come say hello! More details and session times to follow soon. #SpeakingEngagement #TechConference #EventDrivenArchitecture",
+      "timestamp": "2025-12-07T09:38:24.546576",
+      "date": "2025-12-07",
+      "time": "09:38:24",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/sophiebits-6557",
+      "engagement": {
+        "likes": 88,
+        "comments": 13
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read a fantastic piece on 'Leading High-Performing Engineering Teams in a Remote-First World' [hypothetical link: https://infoq.com/remote-leadership-insights]. As an independent consultant, I often work with distributed teams, and the principles of clear communication, asynchronous decision-making, and fostering psychological safety are more crucial than ever. It's not just about technical leadership, but empathetic leadership that truly empowers. Highly recommend this for any tech leader or aspiring leader. #Leadership #RemoteWork #TechManagement",
+      "timestamp": "2025-12-04T06:38:24.546576",
+      "date": "2025-12-04",
+      "time": "06:38:24",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/sophiebits-9366",
+      "engagement": {
+        "likes": 78,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up a fantastic project with a high-growth SaaS startup! We successfully architected and delivered a scalable multi-tenant platform that significantly improved data processing efficiency and reduced operational costs by 25%. It was a challenging but incredibly rewarding journey, leveraging serverless architecture on AWS and a modern React/TypeScript frontend. Huge shoutout to the client team for their exceptional collaboration and vision!",
+      "timestamp": "2025-12-02T21:38:24.546576",
+      "date": "2025-12-02",
+      "time": "21:38:24",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/sophiebits-4774",
+      "engagement": {
+        "likes": 85,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "For any Principal Engineers considering the leap to independent consulting: it's a journey of continuous learning, not just technically, but also in client management, sales, and business strategy. My biggest advice? Start networking *before* you need the work, build a strong portfolio of your past impact, and be crystal clear about the unique value you bring. It's challenging, but incredibly fulfilling to own your impact and guide diverse projects. #CareerAdvice #IndependentConsultant #TechConsulting",
+      "timestamp": "2025-11-27T18:38:24.546576",
+      "date": "2025-11-27",
+      "time": "18:38:24",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/sophiebits-3107",
+      "engagement": {
+        "likes": 130,
+        "comments": 22
+      }
+    },
+    {
+      "type": "post",
+      "content": "Moving from a senior individual contributor to a Principal Engineer or Architect often means shifting focus from *how* to build something to *what* to build and *why*. It requires a broader understanding of business context, trade-offs, and long-term vision. My tip? Start engaging with product teams early, mentor junior engineers, and actively seek out opportunities to contribute to cross-team design discussions. Your impact scales far beyond just your code. #CareerGrowth #TechLeadership #SoftwareArchitecture",
+      "timestamp": "2025-11-20T13:38:24.546576",
+      "date": "2025-11-20",
+      "time": "13:38:24",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/sophiebits-5395",
+      "engagement": {
+        "likes": 115,
+        "comments": 19
+      }
+    },
+    {
+      "type": "post",
+      "content": "Huge congratulations to the team at 'InnovateCorp' on the successful launch of their new global customer portal! It was a privilege to contribute to the architectural design and oversee critical aspects of the full-stack implementation, ensuring a robust, secure, and user-friendly experience. Seeing the positive user feedback come in is truly the best part of the job. Well done everyone for a fantastic effort and seamless execution! #ClientSuccess #SoftwareLaunch #Teamwork",
+      "timestamp": "2025-11-18T13:38:24.546576",
+      "date": "2025-11-18",
+      "time": "13:38:24",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/sophiebits-3217",
+      "engagement": {
+        "likes": 105,
+        "comments": 18
+      }
+    }
+  ],
+  "post_count": 14,
+  "cross_references": {
+    "github": "sophiebits_github.json",
+    "twitter": "sophiebits_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:38:24.561101",
+  "is_simulated": true
+}

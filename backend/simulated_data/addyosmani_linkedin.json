@@ -1,0 +1,280 @@
+{
+  "platform": "linkedin",
+  "identifier": "addyosmani",
+  "profile": {
+    "name": "Addy Osmani",
+    "headline": "Engineering Lead at Google | Driving Chrome & Web Platform Innovations | Go | Author & Speaker",
+    "location": "Mountain View, California",
+    "about": "As an Engineering Lead at Google, I specialize in evolving the Chrome browser and the broader Web Platform ecosystem. My work focuses on building performant and delightful web experiences for developers and users globally, leveraging cutting-edge technologies and fostering open-source collaboration. I am passionate about pushing the boundaries of what's possible on the web and empowering the next generation of web developers.",
+    "current_company": "Google",
+    "current_position": "Engineering Lead",
+    "connections": 500,
+    "followers": 28500,
+    "profile_views_last_90_days": 1200,
+    "open_to_work": false,
+    "open_to_hiring": true,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Senior Software Engineer",
+        "company": "Google",
+        "location": "Mountain View, CA, USA",
+        "start_date": "April 2021",
+        "end_date": "Present",
+        "description": "- Led the design and implementation of high-performance, fault-tolerant backend services in Go for critical Google Cloud infrastructure, supporting millions of requests per second.\n- Optimized existing systems, reducing latency by 18% and improving resource utilization by 12% through advanced Go profiling, concurrency patterns, and distributed caching strategies.\n- Mentored junior engineers, conducted rigorous code reviews, and significantly contributed to architectural discussions for large-scale distributed systems.",
+        "is_current": true
+      },
+      {
+        "title": "Software Engineer",
+        "company": "Stripe",
+        "location": "San Francisco, CA, USA",
+        "start_date": "July 2017",
+        "end_date": "March 2021",
+        "description": "- Developed and maintained core payment processing services and API endpoints using Go, ensuring high availability and low latency for financial transactions.\n- Contributed to the successful migration of several critical legacy Python services to Go microservices, resulting in improved performance and maintainability.\n- Collaborated closely with product teams to define technical requirements, scope projects, and deliver new features impacting millions of businesses worldwide.",
+        "is_current": false
+      },
+      {
+        "title": "Software Developer",
+        "company": "HashiCorp",
+        "location": "San Francisco, CA, USA",
+        "start_date": "June 2014",
+        "end_date": "June 2017",
+        "description": "- Implemented and enhanced features for backend infrastructure tools (e.g., Consul, Vault) primarily in Go, focusing on API design and core logic.\n- Participated in the full software development lifecycle, including requirements gathering, design, coding, testing, and deployment of critical open-source projects.\n- Wrote comprehensive unit and integration tests, debugged complex issues, and contributed to documentation for developer communities.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "State University of Technology",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2017,
+        "end_year": 2021,
+        "activities": "Dean's List (3 semesters), President of Robotics Club, Participated in multiple university hackathons"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Go",
+        "endorsements": 24
+      },
+      {
+        "name": "Problem Solving",
+        "endorsements": 21
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 46
+      },
+      {
+        "name": "Agile",
+        "endorsements": 24
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Thrilled to share that a project my team has been pouring their hearts into for the past year is finally rolling out in the latest Chrome stable build! We've significantly enhanced resource prioritization for complex web applications, leading to noticeable performance gains for end-users and a smoother experience for developers. Seeing our work positively impact millions of users is incredibly rewarding. Huge shoutout to the entire team for their relentless dedication, innovative thinking, and countless late nights. This was a true cross-functional effort!",
+      "timestamp": "2026-01-12T12:15:52.582065",
+      "date": "2026-01-12",
+      "time": "12:15:52",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/addyosmani-8992",
+      "engagement": {
+        "likes": 232,
+        "comments": 31
+      }
+    },
+    {
+      "type": "post",
+      "content": "One of the most impactful decisions I ever made in my career was actively seeking out mentors, and later, becoming one myself. The insights and guidance from those who've walked similar paths are invaluable, cutting years off your learning curve. If you're early in your career, don't hesitate to ask for advice. If you're senior, consider dedicating time to lift others up. The tech community thrives on shared knowledge and experience. Who was a pivotal mentor for you?",
+      "timestamp": "2026-01-11T14:15:52.582065",
+      "date": "2026-01-11",
+      "time": "14:15:52",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/addyosmani-5183",
+      "engagement": {
+        "likes": 135,
+        "comments": 21
+      }
+    },
+    {
+      "type": "post",
+      "content": "New blog post out on my personal site: 'The often-overlooked art of API design for developer ergonomics.' [Link to personal blog post, e.g., alexchen.dev/blog/api-design]. I dive into how thinking like a consumer of your own APIs can drastically improve the developer experience and reduce integration friction, using examples from the web platform. Would love to hear your thoughts and best practices!",
+      "timestamp": "2026-01-06T23:15:52.582065",
+      "date": "2026-01-06",
+      "time": "23:15:52",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/addyosmani-1322",
+      "engagement": {
+        "likes": 105,
+        "comments": 16
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just read through this excellent deep dive on optimizing JavaScript loading strategies from the Google Developers blog: [Link to hypothetical article, e.g., developers.google.com/blog/js-loading-strategies]. It provides practical, actionable insights that every web developer should consider. We often focus on bundle size, but how and when we deliver that JavaScript can have an even greater impact on Time To Interactive. What's your go-to strategy for improving initial page load performance?",
+      "timestamp": "2026-01-03T11:15:52.582065",
+      "date": "2026-01-03",
+      "time": "11:15:52",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/addyosmani-4852",
+      "engagement": {
+        "likes": 78,
+        "comments": 13
+      }
+    },
+    {
+      "type": "post",
+      "content": "Mark your calendars! Google I/O registration is just around the corner, and I'm looking forward to another year of groundbreaking announcements across Android, AI, and of course, the Web Platform. Always a fantastic opportunity to see what's next and connect with the developer community. What are you hoping to see announced this year?",
+      "timestamp": "2026-01-01T20:15:52.582065",
+      "date": "2026-01-01",
+      "time": "20:15:52",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/addyosmani-3714",
+      "engagement": {
+        "likes": 55,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "The web platform continues its incredible evolution. With advancements in WebAssembly, WebGPU, and the ongoing push for more powerful client-side capabilities, it's becoming clear that the browser is transforming into an even more robust application runtime. I'm particularly excited about the potential for truly immersive, high-performance experiences that were once confined to native apps. What are your predictions for the next big leap in web technology?",
+      "timestamp": "2025-12-26T11:15:52.582065",
+      "date": "2025-12-26",
+      "time": "11:15:52",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/addyosmani-4146",
+      "engagement": {
+        "likes": 118,
+        "comments": 23
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to share that the second edition of my book, 'Mastering Concurrent Go for Distributed Systems,' is officially out! I've updated it with the latest Go paradigms, added new chapters on observability and advanced testing, and incorporated feedback from hundreds of readers. A huge thank you to everyone who's supported this journey. Hope it helps even more engineers build resilient, high-performance systems.",
+      "timestamp": "2025-12-25T05:15:52.582065",
+      "date": "2025-12-25",
+      "time": "05:15:52",
+      "day_of_week": "Thursday",
+      "url": "https://linkedin.com/posts/addyosmani-2246",
+      "engagement": {
+        "likes": 88,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to announce I'll be speaking at GopherCon this fall! I'll be diving deep into 'Scalable Go Architectures for Modern Web Platforms' – sharing some of the lessons learned from building high-performance backend services at Google. Looking forward to connecting with fellow Gophers and web enthusiasts. More details on the talk content soon!",
+      "timestamp": "2025-12-17T19:15:52.582065",
+      "date": "2025-12-17",
+      "time": "19:15:52",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/addyosmani-8087",
+      "engagement": {
+        "likes": 93,
+        "comments": 16
+      }
+    },
+    {
+      "type": "post",
+      "content": "Go continues to impress with its simplicity, concurrency model, and robust standard library, making it an excellent choice for everything from microservices to critical infrastructure. For us, in the web platform space, its performance and developer experience have been key in driving some significant backend innovations. The ecosystem is maturing rapidly, and I'm excited to see where it goes next. Any other Go aficionados out there building cool stuff?",
+      "timestamp": "2025-12-15T00:15:52.582065",
+      "date": "2025-12-15",
+      "time": "00:15:52",
+      "day_of_week": "Monday",
+      "url": "https://linkedin.com/posts/addyosmani-7651",
+      "engagement": {
+        "likes": 172,
+        "comments": 29
+      }
+    },
+    {
+      "type": "post",
+      "content": "Celebrating a massive win for the team this week! We successfully integrated a complex new API into the Chrome ecosystem after navigating some truly intricate cross-browser compatibility challenges. It was a testament to our collaborative spirit, meticulous planning, and the sheer brilliance of the engineers involved. Moments like these remind me why I love working on the web platform. Cheers to the innovators!",
+      "timestamp": "2025-12-14T13:15:52.582065",
+      "date": "2025-12-14",
+      "time": "13:15:52",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/addyosmani-9369",
+      "engagement": {
+        "likes": 165,
+        "comments": 26
+      }
+    },
+    {
+      "type": "post",
+      "content": "In the fast-paced world of tech, continuous learning isn't just a bonus, it's a necessity. My personal strategy for picking up new tech like WebGPU or even a new language often starts with 'build something small and broken.' Don't aim for perfection; aim for understanding the core concepts by getting your hands dirty. What's your favorite way to onboard onto a new technology?",
+      "timestamp": "2025-12-07T15:15:52.582065",
+      "date": "2025-12-07",
+      "time": "15:15:52",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/addyosmani-1500",
+      "engagement": {
+        "likes": 98,
+        "comments": 17
+      }
+    },
+    {
+      "type": "post",
+      "content": "The open web wouldn't be what it is today without the incredible power of open source. Working on Chromium at Google gives me a unique perspective on the collaborative spirit that drives our platform forward. From contributing to web standards to sharing code, embracing open source accelerates innovation for everyone. It's more than just code; it's a community. What's your favorite open-source project that's impacting the web?",
+      "timestamp": "2025-12-07T04:15:52.582065",
+      "date": "2025-12-07",
+      "time": "04:15:52",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/addyosmani-5629",
+      "engagement": {
+        "likes": 125,
+        "comments": 19
+      }
+    },
+    {
+      "type": "post",
+      "content": "For any engineers hesitant to speak at conferences or write blog posts: just start! Your unique perspective and experiences are valuable. Sharing your knowledge not only helps others but also sharpens your own understanding and builds your personal brand. It's a fantastic way to give back to the community and grow professionally. What topic are you passionate enough to present on?",
+      "timestamp": "2025-12-06T11:15:52.582065",
+      "date": "2025-12-06",
+      "time": "11:15:52",
+      "day_of_week": "Saturday",
+      "url": "https://linkedin.com/posts/addyosmani-9197",
+      "engagement": {
+        "likes": 115,
+        "comments": 21
+      }
+    },
+    {
+      "type": "post",
+      "content": "Fascinating read from CSS-Tricks on the challenges and solutions for implementing declarative shadow DOM across browsers: [Link to hypothetical article, e.g., css-tricks.com/declarative-shadow-dom-cross-browser]. While the web platform is converging rapidly, these subtle differences are where the real engineering effort lies. It highlights the importance of open standards and robust testing. What cross-browser quirks have surprised you recently?",
+      "timestamp": "2025-12-03T12:15:52.582065",
+      "date": "2025-12-03",
+      "time": "12:15:52",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/addyosmani-7511",
+      "engagement": {
+        "likes": 68,
+        "comments": 11
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up a post-mortem for a particularly gnarly production incident we tackled last month. It was one of those 'all hands on deck' moments, but seeing the team come together, diagnose a deeply embedded issue across multiple layers, and deploy a robust fix was truly inspiring. It reinforced the importance of solid monitoring, clear communication, and an unwavering commitment to quality. Proud of this crew!",
+      "timestamp": "2025-11-18T05:15:52.582065",
+      "date": "2025-11-18",
+      "time": "05:15:52",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/addyosmani-5238",
+      "engagement": {
+        "likes": 145,
+        "comments": 24
+      }
+    }
+  ],
+  "post_count": 15,
+  "cross_references": {
+    "github": "addyosmani_github.json",
+    "twitter": "addyosmani_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:15:52.643652",
+  "is_simulated": true
+}

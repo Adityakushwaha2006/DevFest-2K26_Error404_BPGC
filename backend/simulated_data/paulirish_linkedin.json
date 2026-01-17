@@ -1,0 +1,250 @@
+{
+  "platform": "linkedin",
+  "identifier": "paulirish",
+  "profile": {
+    "name": "Paul Irish",
+    "headline": "Staff Software Engineer at Google Chrome | Web Development & Developer Experience (DX)",
+    "location": "Unknown",
+    "about": "As a Staff Software Engineer at Google Chrome, I am dedicated to pushing the boundaries of web technologies and enhancing the developer experience. I focus on building performant and impactful features that empower the global developer community and contribute to the evolution of the open web.",
+    "current_company": "Google Chrome, ♥z",
+    "current_position": "Staff Software Engineer",
+    "connections": "500+",
+    "followers": 9800,
+    "profile_views_last_90_days": 780,
+    "open_to_work": false,
+    "open_to_hiring": false,
+    "creator_mode": true,
+    "experience": [
+      {
+        "title": "Senior Staff Software Engineer",
+        "company": "Google Chrome, ♥z",
+        "location": "Mountain View, CA, USA",
+        "start_date": "May 2021",
+        "end_date": "Present",
+        "description": "• Led the architectural design and implementation of critical new features within the Chrome browser engine, significantly improving web rendering performance and security for hundreds of millions of users.\n• Mentored a team of 8+ engineers, fostering technical excellence and contributing to career development across multiple high-impact projects.\n• Drove cross-functional initiatives with product, UX, and security teams to define and execute strategic roadmap items for Chrome.",
+        "is_current": true
+      },
+      {
+        "title": "Senior Software Development Engineer",
+        "company": "Amazon Web Services (AWS)",
+        "location": "Seattle, WA, USA",
+        "start_date": "August 2017",
+        "end_date": "April 2021",
+        "description": "• Designed, developed, and maintained highly scalable and available distributed systems for a core AWS compute service, handling millions of requests per second.\n• Played a key role in a major service migration project, resulting in a 25% reduction in operational costs while ensuring zero downtime.\n• Contributed to on-call rotations, debugging complex production issues and implementing robust monitoring and alerting solutions.",
+        "is_current": false
+      },
+      {
+        "title": "Software Engineer",
+        "company": "InnovateTech Solutions",
+        "location": "San Francisco, CA, USA",
+        "start_date": "July 2014",
+        "end_date": "July 2017",
+        "description": "• Developed and maintained full-stack features for a flagship SaaS platform, utilizing modern web frameworks and database technologies.\n• Collaborated closely with product managers and designers to translate requirements into technical specifications and deliver user-centric solutions.\n• Implemented automated testing procedures (unit, integration, E2E) to improve code quality and reduce regression defects by 30%.",
+        "is_current": false
+      }
+    ],
+    "education": [
+      {
+        "institution": "University of Washington",
+        "degree": "Bachelor of Science",
+        "field_of_study": "Computer Science",
+        "start_year": 2018,
+        "end_year": 2022,
+        "activities": "Dean's List (multiple semesters), Member of ACM (Association for Computing Machinery), Participated in annual hackathons"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem Solving",
+        "endorsements": 25
+      },
+      {
+        "name": "Team Leadership",
+        "endorsements": 20
+      },
+      {
+        "name": "Agile",
+        "endorsements": 20
+      }
+    ]
+  },
+  "posts": [
+    {
+      "type": "post",
+      "content": "Reflecting on a challenging week debugging a performance regression in a core Chrome component. It involved diving deep into profiling tools, understanding complex interactions between rendering engines, and a lot of collaborative whiteboard sessions. It reminded me that even at Staff level, the most rewarding moments often come from solving truly gnarly technical puzzles. Never stop learning, and never underestimate the power of a great team.",
+      "timestamp": "2026-01-09T15:17:09.457376",
+      "date": "2026-01-09",
+      "time": "15:17:09",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/paulirish-5069",
+      "engagement": {
+        "likes": 75,
+        "comments": 5
+      }
+    },
+    {
+      "type": "post",
+      "content": "The discussion around the future of server-side rendering (SSR) vs. client-side rendering (CSR) with modern frameworks continues to evolve. While hydration continues to be a bottleneck for many, I'm increasingly optimistic about advancements like Partial Hydration and Islands Architecture. Striking the right balance for initial load performance and interactivity is key for a truly great user (and developer!) experience. What patterns are you seeing success with in your projects?",
+      "timestamp": "2026-01-02T06:17:09.457376",
+      "date": "2026-01-02",
+      "time": "06:17:09",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/paulirish-1731",
+      "engagement": {
+        "likes": 130,
+        "comments": 28
+      }
+    },
+    {
+      "type": "post",
+      "content": "For anyone looking to move into a Staff+ engineering role: beyond technical depth, focus on developing your ability to influence without direct authority. This means clear communication, understanding different perspectives, and building trust across teams. Your code might be excellent, but your leverage comes from elevating others and steering technical direction at a broader scale. What's one skill you wish you had developed earlier in your career?",
+      "timestamp": "2025-12-28T13:17:09.457376",
+      "date": "2025-12-28",
+      "time": "13:17:09",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/paulirish-1331",
+      "engagement": {
+        "likes": 210,
+        "comments": 35
+      }
+    },
+    {
+      "type": "post",
+      "content": "Thrilled to see the positive reception for the new experimental 'View Transitions API' in Chrome! This feature promises to unlock truly seamless and beautiful page navigations, a game-changer for single-page applications and multi-page sites alike. It's a testament to the innovation happening in the web platform space. Excited to see what developers build with it! #WebAnimation #UX #Chrome",
+      "timestamp": "2025-12-26T16:17:09.457376",
+      "date": "2025-12-26",
+      "time": "16:17:09",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/paulirish-4858",
+      "engagement": {
+        "likes": 170,
+        "comments": 15
+      }
+    },
+    {
+      "type": "post",
+      "content": "I recently read an insightful article by @frontendmasters on 'The State of CSS in 2024' (link: [hypothetical-article-link.com/state-of-css-2024]). It's a fantastic overview of emerging features like `has()` selector, Cascade Layers, and Container Queries. As someone working on the browser side, it's thrilling to see how quickly the web platform is expanding. My takeaway: stay curious, experiment early, and don't be afraid to challenge old CSS paradigms!",
+      "timestamp": "2025-12-23T16:17:09.457376",
+      "date": "2025-12-23",
+      "time": "16:17:09",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/paulirish-9297",
+      "engagement": {
+        "likes": 95,
+        "comments": 12
+      }
+    },
+    {
+      "type": "post",
+      "content": "Just wrapped up a major internal initiative to streamline our build pipeline for Chrome DevTools. We’ve managed to reduce average build times by over 20%, which translates directly into faster iteration cycles for the team. It's incredibly rewarding to see the impact of investing in foundational developer infrastructure. Huge thanks to everyone on the DX team who collaborated on this!",
+      "timestamp": "2025-12-12T03:17:09.457376",
+      "date": "2025-12-12",
+      "time": "03:17:09",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/paulirish-2864",
+      "engagement": {
+        "likes": 85,
+        "comments": 7
+      }
+    },
+    {
+      "type": "post",
+      "content": "Recently had a fantastic deep-dive session with a cross-functional team on enhancing accessibility features within Chrome DevTools. It's not just about compliance; it's about ensuring an inclusive web for everyone. Prioritizing DX means prioritizing _everyone's_ experience, including those using assistive technologies. Every small improvement makes a big difference.",
+      "timestamp": "2025-12-09T19:17:09.457376",
+      "date": "2025-12-09",
+      "time": "19:17:09",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/paulirish-9107",
+      "engagement": {
+        "likes": 90,
+        "comments": 8
+      }
+    },
+    {
+      "type": "post",
+      "content": "The ongoing debate about whether to use UI frameworks (React, Vue, Svelte) or stick closer to vanilla web components and platform features is fascinating. While frameworks offer immense productivity, understanding the underlying web platform gives you a superpower for optimization and problem-solving. There's no one-size-fits-all, but knowing when to abstract and when to embrace the native can make all the difference for DX. Where do you draw the line?",
+      "timestamp": "2025-12-05T22:17:09.457376",
+      "date": "2025-12-05",
+      "time": "22:17:09",
+      "day_of_week": "Friday",
+      "url": "https://linkedin.com/posts/paulirish-3872",
+      "engagement": {
+        "likes": 145,
+        "comments": 32
+      }
+    },
+    {
+      "type": "post",
+      "content": "Massive congratulations to the team behind the Interop 2024 effort! Seeing major browser vendors collaborate on solving key web compatibility issues, from CSS nesting to form controls, is a testament to our shared commitment to a more consistent web platform. This work directly benefits every developer and user. Proud to be part of an organization that champions open standards. #WebStandards #Interop2024 #OpenWeb",
+      "timestamp": "2025-12-03T05:17:09.457376",
+      "date": "2025-12-03",
+      "time": "05:17:09",
+      "day_of_week": "Wednesday",
+      "url": "https://linkedin.com/posts/paulirish-5678",
+      "engagement": {
+        "likes": 115,
+        "comments": 10
+      }
+    },
+    {
+      "type": "post",
+      "content": "A common mistake I see early-career engineers make is trying to solve every problem with code. Often, the best solution involves improving processes, documentation, or communication. As a Staff Engineer, part of your job is to identify and address these systemic issues, not just the technical ones. Think beyond the keyboard. #CareerGrowth #EngineeringLeadership #DevOps",
+      "timestamp": "2025-12-02T22:17:09.457376",
+      "date": "2025-12-02",
+      "time": "22:17:09",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/paulirish-2083",
+      "engagement": {
+        "likes": 195,
+        "comments": 20
+      }
+    },
+    {
+      "type": "post",
+      "content": "Excited to share that the latest stable release of Chrome (M123) includes significant improvements to our CSS Grid debugging tools in DevTools! We've listened to feedback and made it even easier to visualize complex layouts. Huge props to the entire @GoogleChrome team for continuing to push the boundaries of developer experience. Go check it out and let us know what you think!",
+      "timestamp": "2025-12-02T17:17:09.457376",
+      "date": "2025-12-02",
+      "time": "17:17:09",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/paulirish-5078",
+      "engagement": {
+        "likes": 160,
+        "comments": 18
+      }
+    },
+    {
+      "type": "post",
+      "content": "Sharing a great resource: 'Web Vitals Report Card' from @web.dev (link: [hypothetical-web-dev-link.com/vitals-report-card]). It's an excellent way to benchmark your site's performance against Core Web Vitals and get actionable advice. As we push the web forward, understanding and optimizing these metrics is non-negotiable for a good user experience. Every millisecond counts!",
+      "timestamp": "2025-11-25T15:17:09.457376",
+      "date": "2025-11-25",
+      "time": "15:17:09",
+      "day_of_week": "Tuesday",
+      "url": "https://linkedin.com/posts/paulirish-5374",
+      "engagement": {
+        "likes": 88,
+        "comments": 9
+      }
+    },
+    {
+      "type": "post",
+      "content": "Shoutout to the open-source contributors who have been instrumental in improving the Chromium project's performance monitoring tools. Their detailed reports and patches help us identify bottlenecks faster and ensure Chrome remains a leading browser for speed and efficiency. The power of community collaboration is truly incredible. #OpenSource #Chromium #WebPerformance",
+      "timestamp": "2025-11-23T22:17:09.457376",
+      "date": "2025-11-23",
+      "time": "22:17:09",
+      "day_of_week": "Sunday",
+      "url": "https://linkedin.com/posts/paulirish-8888",
+      "engagement": {
+        "likes": 100,
+        "comments": 6
+      }
+    }
+  ],
+  "post_count": 13,
+  "cross_references": {
+    "github": "paulirish_github.json",
+    "twitter": "paulirish_twitter.json"
+  },
+  "confidence_score": 0.75,
+  "exported_at": "2026-01-17T17:17:09.509384",
+  "is_simulated": true
+}

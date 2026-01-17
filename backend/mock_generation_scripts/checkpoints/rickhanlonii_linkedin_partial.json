@@ -1,0 +1,21 @@
+{
+  "username": "rickhanlonii",
+  "platform": "linkedin_partial",
+  "timestamp": "2026-01-17T17:40:29.265682",
+  "data": {
+    "profile": {
+      "name": "Ricky",
+      "headline": "Staff Software Engineer | React Core Contributor at @facebook",
+      "location": "EST. AKRON",
+      "about": "I'm a Staff Software Engineer at @facebook, deeply involved in the development and evolution of React's core libraries and infrastructure. My work focuses on building scalable and performant UI solutions that empower millions of developers globally. Passionate about open source and advancing the state of web development.",
+      "current_company": "@facebook ",
+      "current_position": "Staff Software Engineer",
+      "connections": 487,
+      "followers": 3250,
+      "profile_views_last_90_days": 980,
+      "open_to_work": false,
+      "open_to_hiring": true,
+      "creator_mode": true
+    }
+  }
+}
