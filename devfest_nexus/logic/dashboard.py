@@ -478,13 +478,20 @@ def render_dashboard():
             
             /* Style textarea to match dashboard with wrapping */
             div[data-testid="stTextArea"] textarea {
-                background: rgba(255, 255, 255, 0.03) !important;
+                background: #1e1e1e !important;
+                caret-color: #EDEDED !important;
                 border: 1px solid rgba(255, 255, 255, 0.06) !important;
                 border-radius: 10px !important;
                 padding: 12px 16px !important;
-                color: #EDEDED !important;
+                color: #FFFFFF !important;
                 font-size: 0.9rem !important;
                 font-family: 'Inter', sans-serif !important;
+            }
+
+            div[data-testid="stTextArea"] textarea::placeholder {
+                color: #888888 !important;
+                opacity: 1 !important;
+            }
                 resize: none !important;
                 overflow-wrap: break-word !important;
                 word-wrap: break-word !important;
