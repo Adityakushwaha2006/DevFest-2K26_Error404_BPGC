@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T04:10:53.002603",
+    "pipeline_version": "1.0",
+    "primary_identifier": "aditya",
+    "data_sources": [
+      "github_live"
+    ]
+  },
+  "identity": {
+    "primary_name": "Aditya Chadha",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "website",
+        "identifier": "http://4ditya.com"
+      }
+    ]
+  },
+  "profiles": {
+    "github": {
+      "username": "aditya",
+      "fetched_at": "2026-01-18T04:10:53.004604",
+      "profile": {
+        "login": "aditya",
+        "id": 248,
+        "node_id": "MDQ6VXNlcjI0OA==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/248?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/aditya",
+        "html_url": "https://github.com/aditya",
+        "followers_url": "https://api.github.com/users/aditya/followers",
+        "following_url": "https://api.github.com/users/aditya/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aditya/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/aditya/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aditya/subscriptions",
+        "organizations_url": "https://api.github.com/users/aditya/orgs",
+        "repos_url": "https://api.github.com/users/aditya/repos",
+        "events_url": "https://api.github.com/users/aditya/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/aditya/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false,
+        "name": "Aditya Chadha",
+        "company": null,
+        "blog": "http://4ditya.com",
+        "location": "New York",
+        "email": "achadha@glgroup.com",
+        "hireable": true,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 15,
+        "public_gists": 17,
+        "followers": 43,
+        "following": 8,
+        "created_at": "2008-02-13T19:55:41Z",
+        "updated_at": "2025-12-10T18:38:12Z"
+      },
+      "repositories": [
+        {
+          "name": "bluebird",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "rkflashkit",
+          "stars": 0,
+          "language": "Python"
+        },
+        {
+          "name": "commitments_ui",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "commitments",
+          "stars": 0,
+          "language": "CoffeeScript"
+        },
+        {
+          "name": "sinatra-bootstrap",
+          "stars": 0,
+          "language": "Ruby"
+        },
+        {
+          "name": "holla",
+          "stars": 1,
+          "language": "JavaScript"
+        },
+        {
+          "name": "feedzirra",
+          "stars": 1,
+          "language": "Ruby"
+        },
+        {
+          "name": "redis",
+          "stars": 1,
+          "language": "C"
+        },
+        {
+          "name": "phonymovie",
+          "stars": 1,
+          "language": "Ruby"
+        },
+        {
+          "name": "Cascadence",
+          "stars": 1,
+          "language": "Ruby"
+        },
+        {
+          "name": "sickcity",
+          "stars": 2,
+          "language": "JavaScript"
+        },
+        {
+          "name": "autotagger-py",
+          "stars": 2,
+          "language": null
+        },
+        {
+          "name": "boomer",
+          "stars": 4,
+          "language": "Ruby"
+        },
+        {
+          "name": "radiant-multi-site-extension",
+          "stars": 2,
+          "language": "Ruby"
+        },
+        {
+          "name": "fireeagle",
+          "stars": 3,
+          "language": "Ruby"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "comments": [],
+      "pull_requests": [],
+      "cross_references": [
+        {
+          "platform": "website",
+          "identifier": "http://4ditya.com"
+        }
+      ]
+    }
+  },
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {
+    "github": {}
+  },
+  "summary": {
+    "name": "Aditya Chadha",
+    "bio": null,
+    "location": "New York",
+    "company": null,
+    "top_languages": [],
+    "top_repos": []
+  }
+}

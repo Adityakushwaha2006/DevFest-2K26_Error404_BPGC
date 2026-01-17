@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T04:18:19.229853",
+    "target_name": "Paul Graham",
+    "sources_attempted": [
+      "stack_overflow",
+      "hackernews"
+    ],
+    "sources_successful": [
+      "stack_overflow",
+      "hackernews"
+    ]
+  },
+  "stack_overflow": {
+    "platform": "stackoverflow",
+    "user_id": 5937775,
+    "profile": {
+      "badge_counts": {
+        "bronze": 3,
+        "silver": 1,
+        "gold": 0
+      },
+      "account_id": 7855920,
+      "is_employee": false,
+      "last_modified_date": 1573679209,
+      "last_access_date": 1458194334,
+      "reputation_change_year": 0,
+      "reputation_change_quarter": 0,
+      "reputation_change_month": 0,
+      "reputation_change_week": 0,
+      "reputation_change_day": 0,
+      "reputation": 73,
+      "creation_date": 1455667611,
+      "user_type": "registered",
+      "user_id": 5937775,
+      "link": "https://stackoverflow.com/users/5937775/paul-graham",
+      "profile_image": "https://www.gravatar.com/avatar/fc8bce89d9b641fb887cdd4473e14b72?s=256&d=identicon&r=PG&f=y&so-version=2",
+      "display_name": "Paul Graham"
+    },
+    "fetch_status": "success",
+    "top_tags": []
+  },
+  "blog": null,
+  "medium": null,
+  "hackernews": {
+    "platform": "hackernews",
+    "username": "pg",
+    "fetched_at": "2026-01-18T04:18:21.775762",
+    "profile": {
+      "karma": 157316,
+      "about": "Bug fixer.",
+      "created": 1160418092,
+      "total_submissions": 15565
+    },
+    "submissions": [
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=34043420"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=37278578"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=39667625"
+      },
+      {
+        "title": "If you're interested in eye-tracking, I'm interested in funding you",
+        "type": "story",
+        "score": 374,
+        "url": "https://twitter.com/paulg/status/1695596853864321055"
+      },
+      {
+        "title": "The Social Radars: Conversations with Startup Founders",
+        "type": "story",
+        "score": 142,
+        "url": "https://www.thesocialradars.com"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=22654365"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=22654342"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=21256727"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=21505741"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=34042993"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=21256581"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=21239226"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=21239630"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=21239251"
+      },
+      {
+        "title": null,
+        "type": "comment",
+        "score": null,
+        "url": "https://news.ycombinator.com/item?id=21246823"
+      }
+    ],
+    "fetch_status": "success"
+  },
+  "expertise_summary": {
+    "top_technologies": [],
+    "expertise_indicators": [
+      "Stack Overflow User"
+    ]
+  },
+  "content_summary": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 15565
+  }
+}

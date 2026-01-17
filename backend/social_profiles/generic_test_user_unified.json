@@ -1,0 +1,27 @@
+{
+  "name": "Generic Test User",
+  "generated_at": "2026-01-18T03:32:49.397949",
+  "identity": {},
+  "platforms": {
+    "stackoverflow": null,
+    "blog": null,
+    "hackernews": null
+  },
+  "expertise": {
+    "top_technologies": [],
+    "expertise_indicators": []
+  },
+  "content": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0,
+    "recent_topics": []
+  },
+  "activity_timeline": [],
+  "recency_weighting": {},
+  "scoring_ready": true,
+  "discovery_metadata": {
+    "platforms_discovered": [],
+    "search_status": "success"
+  }
+}

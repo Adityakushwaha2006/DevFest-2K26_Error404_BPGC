@@ -1,0 +1,42 @@
+{
+  "kent c. dodds": {
+    "github": "kentcdodds",
+    "twitter": "kentcdodds",
+    "linkedin": "kentcdodds",
+    "blog": "https://kentcdodds.com/blog"
+  },
+  "dan abramov": {
+    "github": "gaearon",
+    "twitter": "dan_abramov",
+    "blog": "https://overreacted.io"
+  },
+  "linus torvalds": {
+    "github": "torvalds",
+    "linkedin": "linustorvalds"
+  },
+  "evan you": {
+    "github": "yyx990803",
+    "twitter": "youyuxi"
+  },
+  "sindre sorhus": {
+    "github": "sindresorhus",
+    "twitter": "sindresorhus",
+    "blog": "https://sindresorhus.com"
+  },
+  "guido van rossum": {
+    "github": "gvanrossum",
+    "twitter": "gvanrossum"
+  },
+  "tj holowaychuk": {
+    "github": "tj",
+    "twitter": "tjholowaychuk"
+  },
+  "rich harris": {
+    "github": "Rich-Harris",
+    "twitter": "Rich_Harris"
+  },
+  "aditya": {
+    "github": "aditya", 
+    "twitter": "aditya"
+  }
+}
