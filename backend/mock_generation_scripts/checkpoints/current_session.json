@@ -1,82 +1,8 @@
 {
-  "sophiebits": {
-    "twitter_partial": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:37:06.780541"
-    },
-    "twitter": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:37:32.345846"
-    },
-    "linkedin_partial": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:37:39.404863"
-    },
-    "linkedin": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:38:24.549096"
-    },
-    "github": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:38:24.693006"
-    }
-  },
-  "bvaughn": {
-    "twitter_partial": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:38:34.905650"
-    },
-    "twitter": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:38:58.058630"
-    },
-    "linkedin_partial": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:39:04.727055"
-    },
-    "linkedin": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:39:47.842618"
-    },
-    "github": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:39:47.876540"
-    }
-  },
-  "rickhanlonii": {
-    "twitter_partial": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:39:59.541747"
-    },
-    "twitter": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:40:21.511270"
-    },
-    "linkedin_partial": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:40:29.267467"
-    },
-    "linkedin": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:41:05.233887"
-    },
-    "github": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:41:05.271855"
-    }
-  },
   "jarred-sumner": {
     "twitter_partial": {
       "completed": true,
-      "timestamp": "2026-01-17T17:41:15.042668"
-    },
-    "twitter": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:41:33.403777"
-    },
-    "linkedin_partial": {
-      "completed": true,
-      "timestamp": "2026-01-17T17:41:43.668077"
+      "timestamp": "2026-01-17T19:10:06.084913"
     }
   }
 }
