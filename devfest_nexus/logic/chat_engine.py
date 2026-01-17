@@ -11,6 +11,8 @@ Features:
 """
 
 import os
+import json
+import uuid
 from typing import List, Dict, Optional
 from datetime import datetime
 from dotenv import load_dotenv
@@ -185,13 +187,14 @@ The following variables may be available for analysis:
 
 When these are not available, request them before strategizing."""
 
-    def __init__(self, system_prompt: Optional[str] = None, model_name: str = "models/gemini-3-flash-preview"):
+    def __init__(self, system_prompt: Optional[str] = None, model_name: str = "models/gemini-3-flash-preview", session_id: Optional[str] = None):
         """
         Initialize the Gemini chat engine.
         
         Args:
             system_prompt: Custom system prompt (uses default if None)
             model_name: Gemini model to use (default: gemini-1.0-pro)
+            session_id: ID of an existing session to resume
         
         Raises:
             ValueError: If GEMINI_API_KEY is not set in environment
@@ -213,29 +216,82 @@ When these are not available, request them before strategizing."""
         self.model_name = model_name
         self.model = genai.GenerativeModel(model_name)
         
-        # Build complete system prompt with Strategy Matrix
-        # If custom prompt provided, use it. Otherwise, build the God Prompt
+        # Build complete system prompt
         if system_prompt:
             self.system_prompt = system_prompt
         else:
-            # Generate complete NEXUS prompt with Strategy Matrix
-            # Initial context is empty - will be injected via set_context()
             self.system_prompt = get_nexus_system_prompt(
                 user_context=None,
                 target_context=None
             )
-        
-        # Initialize chat session
-        self.chat = self.model.start_chat(history=[])
-        
-        # Store conversation history (starts empty - no greeting)
-        # First message will appear only after user sends input
-        self.history: List[Dict[str, str]] = []
-        
+            
         # Context data for real-time injection
         self.context_data: Dict = {}
         self.user_context: Dict = {}
         self.target_context: Dict = {}
+        
+        # --- LOGGING & SESSION SETUP ---
+        import glob
+        
+        self.history: List[Dict[str, str]] = []
+        gemini_history = []
+        
+        # Directory for logs
+        self.conversations_dir = os.path.join(
+            os.path.dirname(os.path.dirname(os.path.dirname(__file__))), 
+            "backend", "data", "conversations"
+        )
+        os.makedirs(self.conversations_dir, exist_ok=True)
+        
+        if session_id:
+            # Try to find existing file
+            pattern = os.path.join(self.conversations_dir, f"chat_*_{session_id}.json")
+            matching_files = glob.glob(pattern)
+            
+            if matching_files:
+                # Load the most recent one (though ID should be unique)
+                self.log_file_path = matching_files[0]
+                try:
+                    with open(self.log_file_path, "r", encoding="utf-8") as f:
+                        data = json.load(f)
+                        self.session_id = data.get("session_id", session_id)
+                        self.history = data.get("messages", [])
+                        
+                        # Reconstruct compatible history for Gemini
+                        for msg in self.history:
+                            role = "user" if msg["role"] == "user" else "model"
+                            gemini_history.append({
+                                "role": role,
+                                "parts": [msg["content"]]
+                            })
+                except Exception as e:
+                    print(f"⚠️ Failed to restore session {session_id}: {e}")
+                    self.session_id = session_id
+            else:
+                self.session_id = session_id
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                self.log_file_path = os.path.join(self.conversations_dir, f"chat_{timestamp}_{self.session_id}.json")
+        else:
+            self.session_id = str(uuid.uuid4())[:8]
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            self.log_file_path = os.path.join(self.conversations_dir, f"chat_{timestamp}_{self.session_id}.json")
+            self._log_to_file()
+        
+        # Initialize chat session with restored history if any
+        self.chat = self.model.start_chat(history=gemini_history)
+        
+    def _log_to_file(self):
+        """Writes the current conversation state to the JSON log file."""
+        try:
+            log_data = {
+                "session_id": self.session_id,
+                "last_updated": datetime.now().isoformat(),
+                "messages": self.history
+            }
+            with open(self.log_file_path, "w", encoding="utf-8") as f:
+                json.dump(log_data, f, indent=2, ensure_ascii=False)
+        except Exception as e:
+            print(f"⚠️ Failed to log conversation: {e}")
     
     def send_message(self, user_message: str) -> str:
         """
@@ -254,8 +310,10 @@ When these are not available, request them before strategizing."""
             # Add user message to history
             self.history.append({
                 "role": "user",
-                "content": user_message
+                "content": user_message,
+                "timestamp": datetime.now().isoformat()
             })
+            self._log_to_file()  # Log immediately
             
             # Construct prompt with system context
             full_prompt = f"{self.system_prompt}\n\nUser: {user_message}"
@@ -269,8 +327,10 @@ When these are not available, request them before strategizing."""
             # Add assistant response to history
             self.history.append({
                 "role": "assistant",
-                "content": response_text
+                "content": response_text,
+                "timestamp": datetime.now().isoformat()
             })
+            self._log_to_file()  # Log response
             
             return response_text
             
@@ -280,8 +340,10 @@ When these are not available, request them before strategizing."""
             
             self.history.append({
                 "role": "assistant",
-                "content": error_msg
+                "content": error_msg,
+                "timestamp": datetime.now().isoformat()
             })
+            self._log_to_file()
             
             return error_msg
     
@@ -328,18 +390,19 @@ When these are not available, request them before strategizing."""
         return self.context_data.copy()
 
 
-def create_chat_engine(system_prompt: Optional[str] = None) -> Optional[GeminiChatEngine]:
+def create_chat_engine(system_prompt: Optional[str] = None, session_id: Optional[str] = None) -> Optional[GeminiChatEngine]:
     """
     Factory function to create a chat engine with error handling.
     
     Args:
         system_prompt: Custom system prompt (optional)
+        session_id: Existing session ID to resume (optional)
         
     Returns:
         GeminiChatEngine instance or None if API key is missing
     """
     try:
-        return GeminiChatEngine(system_prompt=system_prompt)
+        return GeminiChatEngine(system_prompt=system_prompt, session_id=session_id)
     except ValueError as e:
         print(f"❌ Chat engine initialization failed: {e}")
         return None

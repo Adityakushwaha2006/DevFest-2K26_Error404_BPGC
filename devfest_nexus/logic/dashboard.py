@@ -439,13 +439,30 @@ def render_dashboard():
     
     # --- 4. ADD CHAT FUNCTIONALITY (SIMPLE APPROACH) ---
     # Initialize chat engine once
+    # Initialize chat engine once
     if 'chat_engine' not in st.session_state:
         try:
             from logic.chat_engine import create_chat_engine
-            st.session_state.chat_engine = create_chat_engine()
+            
+            # --- STICKY SESSION LOGIC ---
+            # Check if session_id is in URL params
+            query_params = st.query_params
+            session_id = query_params.get("session", None)
+            
+            # Create engine, attempting to resume if session_id exists
+            st.session_state.chat_engine = create_chat_engine(session_id=session_id)
+            
             if st.session_state.chat_engine:
+                # If we got a valid engine, ensure URL matches its session ID
+                new_session_id = st.session_state.chat_engine.session_id
+                if session_id != new_session_id:
+                    st.query_params["session"] = new_session_id
+                    
+                # Load history into state
                 st.session_state.chat_history = st.session_state.chat_engine.get_history()
-        except:
+                
+        except Exception as e:
+            st.error(f"Failed to initialize chat: {e}")
             st.session_state.chat_engine = None
             st.session_state.chat_history = []
     
