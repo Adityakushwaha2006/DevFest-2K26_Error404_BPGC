@@ -18,9 +18,15 @@ chat = model.start_chat(history=[])
 
 print("🤖 Gemini is live. Type 'exit' to quit.\n")
 
-json_context = None # //TODO 
 
-user_context = ""
+while True:
+    user_input = input("You: ")
+    
+    if user_input.lower() in ["exit", "quit"]:
+        break
 
-total_input = f""""""
+    # 4. Send message and get response
+    response = chat.send_message(user_input)
+    
+    print(f"Gemini: {response.text}\n")
 
