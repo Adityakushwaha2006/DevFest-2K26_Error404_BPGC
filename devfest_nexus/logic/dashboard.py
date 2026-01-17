@@ -21,7 +21,7 @@ def render_dashboard():
     # This dictionary defines exactly what the Backend Team needs to provide.
     # Currently populated with static mock data for the UI demo.
     data = {
-        "selected_mode": "Student / Intern",  # Mode selected on landing page
+        "selected_mode": st.session_state.get('selected_mode', 'Student / Intern'),  # Mode selected on landing page
         "target_name": "Aditya Kushwaha",
         "target_role": "Software Engineer",
         "target_avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aditya",

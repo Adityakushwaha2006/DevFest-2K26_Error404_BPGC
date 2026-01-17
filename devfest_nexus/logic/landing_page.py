@@ -342,7 +342,7 @@ def render_landing_page():
         </div>
         <div class="content-area">
             <div class="cards-container">
-                <div class="monolith-card card-a group">
+                <div class="monolith-card card-a group" data-mode="Student / Intern">
                     <div class="monolith-status"></div>
                     <div class="card-index">01 // CONTEXT</div>
                     <div>
@@ -355,7 +355,7 @@ def render_landing_page():
                     </div>
                     <div class="action-text">INITIALIZE SYSTEM</div>
                 </div>
-                <div class="monolith-card card-b group">
+                <div class="monolith-card card-b group" data-mode="Founder">
                     <div class="monolith-status"></div>
                     <div class="card-index">02 // CONTEXT</div>
                     <div>
@@ -368,7 +368,7 @@ def render_landing_page():
                     </div>
                     <div class="action-text">INITIALIZE SYSTEM</div>
                 </div>
-                <div class="monolith-card card-c group">
+                <div class="monolith-card card-c group" data-mode="Researcher">
                     <div class="monolith-status"></div>
                     <div class="card-index">03 // CONTEXT</div>
                     <div>
@@ -456,13 +456,12 @@ def render_landing_page():
         init(); animate();
         lucide.createIcons();
         
-        // Click handlers for navigation to dashboard
+        // Click handlers for navigation to dashboard with mode selection
         document.querySelectorAll('.monolith-card').forEach(card => {
             card.addEventListener('click', function() {
-                // Notify parent Streamlit window to navigate to dashboard
-                window.parent.postMessage({type: 'streamlit:setComponentValue', value: 'dashboard'}, '*');
-                // Also use query parameters as fallback
-                window.location.href = window.location.origin + window.location.pathname + '?page=dashboard';
+                const selectedMode = this.getAttribute('data-mode');
+                // Navigate to dashboard with selected mode
+                window.location.href = window.location.origin + window.location.pathname + `?page=dashboard&mode=${encodeURIComponent(selectedMode)}`;
             });
         });
     </script>
