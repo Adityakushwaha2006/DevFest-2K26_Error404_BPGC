@@ -21,6 +21,7 @@ def render_dashboard():
     # This dictionary defines exactly what the Backend Team needs to provide.
     # Currently populated with static mock data for the UI demo.
     data = {
+        "selected_mode": "Student / Intern",  # Mode selected on landing page
         "target_name": "Aditya Kushwaha",
         "target_role": "Software Engineer",
         "target_avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aditya",
@@ -516,13 +517,7 @@ def render_dashboard():
         <div class="app-container">
             <!-- SIDEBAR -->
             <aside class="sidebar">
-                <div class="intent-header">
-                    <div class="intent-label">CURRENT INTENT</div>
-                    <div class="intent-select">
-                        <span class="intent-val">{data['current_intent'].upper()}</span>
-                        <i data-lucide="chevron-down" width="12" color="#666"></i>
-                    </div>
-                </div>
+
                 <div class="cmd-wrapper">
                     <i data-lucide="search" class="cmd-icon" width="14"></i>
                     <input type="text" class="cmd-input" placeholder="Jump to...">
@@ -612,6 +607,10 @@ def render_dashboard():
 
                 <aside class="context-panel">
                     <div class="panel-title">TARGET DATA</div>
+                    <div class="kv-row">
+                        <span class="kv-label">MODE</span>
+                        <span class="kv-val">{data['selected_mode']}</span>
+                    </div>
                     <div class="kv-row">
                         <span class="kv-label">INTENT</span>
                         <span class="kv-val">{data['current_intent']}</span>
