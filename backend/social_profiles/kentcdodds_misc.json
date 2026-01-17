@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T00:28:59.623724",
+    "target_name": "Kent C. Dodds",
+    "sources_attempted": [
+      "stack_overflow",
+      "blog"
+    ],
+    "sources_successful": [
+      "blog"
+    ]
+  },
+  "stack_overflow": null,
+  "blog": {
+    "feed_url": "https://kentcdodds.com/blog/rss.xml",
+    "fetched_at": "2026-01-18T00:29:03.525752",
+    "title": "Kent C. Dodds Blog",
+    "description": "The Kent C. Dodds Blog",
+    "posts": [
+      {
+        "title": "The Dow's Start on the Covenant Path",
+        "url": "https://kentcdodds.com/blog/the-dows-start-on-the-covenant-path",
+        "published": "2026-01-01T00:00:00",
+        "content_preview": "My experience sharing the gospel with Jeremiah and Beiyi Dow",
+        "tags": []
+      },
+      {
+        "title": "2025 in Review",
+        "url": "https://kentcdodds.com/blog/2025-in-review",
+        "published": "2025-12-03T00:00:00",
+        "content_preview": "Looking back over my 2025 and looking forward to my 2026",
+        "tags": []
+      },
+      {
+        "title": "The next chapter: EpicAI.pro",
+        "url": "https://kentcdodds.com/blog/the-next-chapter-epicai-pro",
+        "published": "2025-04-04T00:00:00",
+        "content_preview": "What I'm working on with AI education and why I think it's the future.",
+        "tags": []
+      },
+      {
+        "title": "AI is taking your job",
+        "url": "https://kentcdodds.com/blog/ai-is-taking-your-job",
+        "published": "2024-11-04T00:00:00",
+        "content_preview": "AI is changing how hiring works, and that makes in person connections even more important.",
+        "tags": []
+      },
+      {
+        "title": "How I increased my visibility",
+        "url": "https://kentcdodds.com/blog/how-i-increased-my-visibility",
+        "published": "2024-10-02T00:00:00",
+        "content_preview": "Someone asked me this and here's my answer.",
+        "tags": []
+      },
+      {
+        "title": "2023 in Review",
+        "url": "https://kentcdodds.com/blog/2023-in-review",
+        "published": "2023-12-03T00:00:00",
+        "content_preview": "A review of what happened in the life of Kent C. Dodds in 2023",
+        "tags": []
+      },
+      {
+        "title": "Launching Epic Web",
+        "url": "https://kentcdodds.com/blog/launching-epic-web",
+        "published": "2023-12-03T00:00:00",
+        "content_preview": "The story of how Epic Web came to be",
+        "tags": []
+      },
+      {
+        "title": "Stop Being a Junior",
+        "url": "https://kentcdodds.com/blog/stop-being-a-junior",
+        "published": "2023-05-02T00:00:00",
+        "content_preview": "Some advise for people who still consider themselves junior developers",
+        "tags": []
+      },
+      {
+        "title": "RSC with Dan Abramov and Joe Savona Live Stream",
+        "url": "https://kentcdodds.com/blog/rsc-with-dan-abramov-and-joe-savona-live-stream",
+        "published": "2023-03-02T00:00:00",
+        "content_preview": "I had a live streamed conversation with Joe Savona and Dan Abramov. Here's a summary of our discussion.",
+        "tags": []
+      },
+      {
+        "title": "Fixing a Memory Leak in a Production Node.js App",
+        "url": "https://kentcdodds.com/blog/fixing-a-memory-leak-in-a-production-node-js-app",
+        "published": "2023-01-04T00:00:00",
+        "content_preview": "How I found and fixed a memory leak on kentcdodds.com",
+        "tags": []
+      }
+    ],
+    "fetch_status": "success",
+    "link": "https://kentcdodds.com/blog",
+    "post_count": 10,
+    "blog_url": "https://kentcdodds.com/blog"
+  },
+  "medium": null,
+  "hackernews": null,
+  "expertise_summary": {
+    "top_technologies": [],
+    "expertise_indicators": []
+  },
+  "content_summary": {
+    "total_blog_posts": 10,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0,
+    "recent_topics": [
+      "The Dow's Start on the Covenant Path",
+      "2025 in Review",
+      "The next chapter: EpicAI.pro",
+      "AI is taking your job",
+      "How I increased my visibility"
+    ]
+  }
+}
