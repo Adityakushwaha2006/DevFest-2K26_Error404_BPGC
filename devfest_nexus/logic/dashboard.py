@@ -152,17 +152,33 @@ def render_dashboard():
                 font-weight: 300; 
             }}
             
+            /* --- Background Canvas --- */
+            #bg-canvas {{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                /* Removing opacity to control fully via JS for sharper dots */
+                opacity: 1; 
+            }}
+
             /* App Container */
             .app-container {{
                 display: flex;
                 width: 100%;
                 height: 100vh;
+                position: relative;
+                z-index: 1; 
             }}
             
             /* Sidebar */
             .sidebar {{
                 width: 280px;
-                background: var(--bg-panel);
+                background: rgba(18, 18, 18, 0.3); 
+                backdrop-filter: blur(12px);       
+                -webkit-backdrop-filter: blur(12px);
                 border-right: 1px solid rgba(255,255,255,0.04);
                 display: flex;
                 flex-direction: column;
@@ -170,425 +186,72 @@ def render_dashboard():
                 overflow-y: auto;
             }}
             
-            .intent-header {{
-                margin-bottom: 20px;
-            }}
+            /* ... (rest of CSS unchanged until script) ... */
             
-            .intent-label {{
-                font-family: 'JetBrains Mono', monospace;
-                font-size: 0.65rem;
-                color: var(--text-secondary);
-                letter-spacing: 1px;
-                margin-bottom: 8px;
-            }}
-            
-            .intent-select {{
-                background: var(--glass-bg);
-                border: 1px solid var(--glass-border);
-                border-radius: 6px;
-                padding: 10px 12px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                cursor: pointer;
-                transition: all 0.2s;
-            }}
-            
-            .intent-select:hover {{
-                background: var(--glass-highlight);
-            }}
-            
-            .intent-val {{
-                font-size: 0.75rem;
-                font-weight: 500;
-                letter-spacing: 0.5px;
-            }}
-            
-            .cmd-wrapper {{
-                position: relative;
-                margin-bottom: 24px;
-            }}
-            
-            .cmd-icon {{
-                position: absolute;
-                left: 12px;
-                top: 50%;
-                transform: translateY(-50%);
-                color: #666;
-            }}
-            
-            .cmd-input {{
-                width: 100%;
-                background: var(--glass-bg);
-                border: 1px solid var(--glass-border);
-                border-radius: 6px;
-                padding: 10px 12px 10px 36px;
-                color: var(--text-primary);
-                font-size: 0.8rem;
-                outline: none;
-                transition: all 0.2s;
-            }}
-            
-            .cmd-input:focus {{
-                border-color: var(--neon-blue);
-                background: rgba(59, 130, 246, 0.05);
-            }}
-            
-            .section-label {{
-                font-family: 'JetBrains Mono', monospace;
-                font-size: 0.65rem;
-                color: var(--text-secondary);
-                letter-spacing: 1px;
-                margin-bottom: 12px;
-                margin-top: 8px;
-            }}
-            
-            .signal-item {{
-                background: var(--glass-bg);
-                border: 1px solid var(--glass-border);
-                border-radius: 8px;
-                padding: 12px;
-                display: flex;
-                gap: 12px;
-                margin-bottom: 8px;
-                cursor: pointer;
-                transition: all 0.2s;
-            }}
-            
-            .signal-item:hover {{
-                background: var(--glass-highlight);
-                border-color: rgba(255,255,255,0.1);
-            }}
-            
-            .signal-item.active {{
-                border-color: var(--neon-green);
-                background: rgba(16, 185, 129, 0.05);
-            }}
-            
-            .monogram {{
-                width: 40px;
-                height: 40px;
-                border-radius: 8px;
-                background: linear-gradient(135deg, #444 0%, #222 100%);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                font-weight: 600;
-                font-size: 0.75rem;
-                position: relative;
-                flex-shrink: 0;
-            }}
-            
-            .status-pixel {{
-                position: absolute;
-                top: -2px;
-                right: -2px;
-                width: 8px;
-                height: 8px;
-                border-radius: 50%;
-                border: 2px solid var(--bg-panel);
-            }}
-            
-            .status-pixel.urgent {{
-                background: var(--neon-green);
-                box-shadow: 0 0 8px var(--neon-green);
-            }}
-            
-            .sig-info {{
-                flex: 1;
-                overflow: hidden;
-            }}
-            
-            .sig-name {{
-                font-size: 0.85rem;
-                font-weight: 500;
-                margin-bottom: 4px;
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }}
-            
-            .sig-meta {{
-                font-size: 0.7rem;
-                color: var(--text-secondary);
-                font-family: 'JetBrains Mono', monospace;
-            }}
-            
-            /* Main Console */
-            .main-console {{
-                flex: 1;
-                display: flex;
-                overflow: hidden;
-            }}
-            
-            /* Chat Section */
-            .chat-section {{
-                flex: 1;
-                display: flex;
-                flex-direction: column;
-                background: var(--bg-dark);
-            }}
-            
-            .messages {{
-                flex: 1;
-                overflow-y: auto;
-                padding: 20px;
-                padding-bottom: 80px;
-                display: flex;
-                flex-direction: column;
-                gap: 16px;
-            }}
-            
-            .message {{
-                display: flex;
-                gap: 12px;
-                align-items: flex-start;
-            }}
-            
-            .icon-box {{
-                width: 28px;
-                height: 28px;
-                border-radius: 6px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                flex-shrink: 0;
-            }}
-            
-            .icon-ai {{
-                background: rgba(59, 130, 246, 0.1);
-                border: 1px solid rgba(59, 130, 246, 0.2);
-                color: var(--neon-blue);
-            }}
-            
-            .msg-bubble {{
-                background: var(--glass-bg);
-                border: 1px solid var(--glass-border);
-                border-radius: 12px;
-                padding: 16px;
-                max-width: 85%;
-                font-size: 0.9rem;
-                line-height: 1.6;
-            }}
-            
-            .ai-bubble {{
-                border-color: rgba(59, 130, 246, 0.15);
-            }}
-            
-            .draft-container {{
-                background: rgba(0,0,0,0.3);
-                border: 1px solid rgba(255,255,255,0.08);
-                border-radius: 8px;
-                margin-top: 12px;
-                overflow: hidden;
-            }}
-            
-            .draft-header {{
-                padding: 10px 14px;
-                border-bottom: 1px solid rgba(255,255,255,0.06);
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                background: rgba(255,255,255,0.02);
-            }}
-            
-            .draft-title {{
-                font-family: 'JetBrains Mono', monospace;
-                font-size: 0.65rem;
-                letter-spacing: 1px;
-                color: var(--text-secondary);
-                font-weight: 500;
-            }}
-            
-            .draft-content {{
-                padding: 14px;
-                font-size: 0.85rem;
-                line-height: 1.6;
-                color: var(--text-primary);
-            }}
-            
-            .suggestions {{
-                display: flex;
-                gap: 8px;
-                margin-top: 12px;
-            }}
-            
-            .chip {{
-                background: rgba(255,255,255,0.05);
-                border: 1px solid rgba(255,255,255,0.1);
-                padding: 6px 12px;
-                border-radius: 20px;
-                font-size: 0.75rem;
-                cursor: pointer;
-                transition: all 0.2s;
-            }}
-            
-            .chip:hover {{
-                background: rgba(255,255,255,0.1);
-                border-color: var(--neon-blue);
-            }}
-            
-            .input-area {{
-                border-top: 1px solid rgba(255,255,255,0.04);
-                padding: 20px 30px;
-                background: var(--bg-panel);
-            }}
-            
-            .input-wrapper {{
-                background: var(--glass-bg);
-                border: 1px solid var(--glass-border);
-                border-radius: 10px;
-                padding: 12px 16px;
-                display: flex;
-                align-items: center;
-                gap: 12px;
-                transition: all 0.2s;
-            }}
-            
-            .input-wrapper:focus-within {{
-                border-color: var(--neon-blue);
-                background: rgba(59, 130, 246, 0.05);
-            }}
-            
-            .chat-input {{
-                flex: 1;
-                background: transparent;
-                border: none;
-                outline: none;
-                color: var(--text-primary);
-                font-size: 0.9rem;
-            }}
-            
-            .chat-input::placeholder {{
-                color: #555;
-            }}
-            
-            /* Context Panel */
-            .context-panel {{
-                width: 320px;
-                background: var(--bg-panel);
-                border-left: 1px solid rgba(255,255,255,0.04);
-                padding: 30px 20px;
-                overflow-y: auto;
-            }}
-            
-            .panel-title {{
-                font-family: 'JetBrains Mono', monospace;
-                font-size: 0.7rem;
-                color: var(--text-secondary);
-                letter-spacing: 1px;
-                margin-bottom: 16px;
-                font-weight: 500;
-            }}
-            
-            .kv-row {{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 10px 0;
-                border-bottom: 1px solid rgba(255,255,255,0.04);
-            }}
-            
-            .kv-label {{
-                font-family: 'JetBrains Mono', monospace;
-                font-size: 0.7rem;
-                color: var(--text-secondary);
-                letter-spacing: 0.5px;
-            }}
-            
-            .kv-val {{
-                font-size: 0.8rem;
-                font-weight: 500;
-            }}
-            
-            .timeline-wrapper {{
-                margin-top: 16px;
-            }}
-            
-            .tl-item {{
-                display: flex;
-                gap: 12px;
-                padding: 10px 0;
-                position: relative;
-            }}
-            
-            .tl-item:not(:last-child)::after {{
-                content: '';
-                position: absolute;
-                left: 5px;
-                top: 28px;
-                bottom: -10px;
-                width: 1px;
-                background: rgba(255,255,255,0.08);
-            }}
-            
-            .tl-dot {{
-                width: 10px;
-                height: 10px;
-                border-radius: 50%;
-                background: #333;
-                border: 2px solid var(--bg-panel);
-                flex-shrink: 0;
-                margin-top: 4px;
-            }}
-            
-            .tl-dot.active {{
-                background: var(--neon-green);
-                box-shadow: 0 0 10px var(--neon-green);
-            }}
-            
-            .tl-dot.future {{
-                background: transparent;
-                border-color: #333;
-            }}
-            
-            .tl-time {{
-                font-family: 'JetBrains Mono', monospace;
-                font-size: 0.65rem;
-                color: var(--text-secondary);
-                width: 60px;
-                flex-shrink: 0;
-            }}
-            
-            .tl-time.future {{
-                color: #444;
-            }}
-            
-            .tl-content {{
-                font-size: 0.8rem;
-                flex: 1;
-            }}
-            
-            .tl-content.future {{
-                color: #666;
-            }}
-            
-            .tl-highlight {{
-                color: var(--neon-blue);
-                font-weight: 500;
-            }}
-            
-            /* Scrollbar Styling */
-            ::-webkit-scrollbar {{
-                width: 6px;
-                height: 6px;
-            }}
-            
-            ::-webkit-scrollbar-track {{
-                background: transparent;
-            }}
-            
-            ::-webkit-scrollbar-thumb {{
-                background: rgba(255,255,255,0.1);
-                border-radius: 3px;
-            }}
-            
-            ::-webkit-scrollbar-thumb:hover {{
-                background: rgba(255,255,255,0.15);
-            }}
+            .intent-header {{ margin-bottom: 20px; }}
+            .intent-label {{ font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-secondary); letter-spacing: 1px; margin-bottom: 8px; }}
+            .intent-select {{ background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 6px; padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; transition: all 0.2s; }}
+            .intent-select:hover {{ background: var(--glass-highlight); }}
+            .intent-val {{ font-size: 0.75rem; font-weight: 500; letter-spacing: 0.5px; }}
+            .cmd-wrapper {{ position: relative; margin-bottom: 24px; }}
+            .cmd-icon {{ position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: #666; }}
+            .cmd-input {{ width: 100%; background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 6px; padding: 10px 12px 10px 36px; color: var(--text-primary); font-size: 0.8rem; outline: none; transition: all 0.2s; }}
+            .cmd-input:focus {{ border-color: var(--neon-blue); background: rgba(59, 130, 246, 0.05); }}
+            .section-label {{ font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-secondary); letter-spacing: 1px; margin-bottom: 12px; margin-top: 8px; }}
+            .signal-item {{ background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 8px; padding: 12px; display: flex; gap: 12px; margin-bottom: 8px; cursor: pointer; transition: all 0.2s; }}
+            .signal-item:hover {{ background: var(--glass-highlight); border-color: rgba(255,255,255,0.1); }}
+            .signal-item.active {{ border-color: var(--neon-green); background: rgba(16, 185, 129, 0.05); }}
+            .monogram {{ width: 40px; height: 40px; border-radius: 8px; background: linear-gradient(135deg, #444 0%, #222 100%); display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.75rem; position: relative; flex-shrink: 0; }}
+            .status-pixel {{ position: absolute; top: -2px; right: -2px; width: 8px; height: 8px; border-radius: 50%; border: 2px solid var(--bg-panel); }}
+            .status-pixel.urgent {{ background: var(--neon-green); box-shadow: 0 0 8px var(--neon-green); }}
+            .sig-info {{ flex: 1; overflow: hidden; }}
+            .sig-name {{ font-size: 0.85rem; font-weight: 500; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }}
+            .sig-meta {{ font-size: 0.7rem; color: var(--text-secondary); font-family: 'JetBrains Mono', monospace; }}
+            .main-console {{ flex: 1; display: flex; overflow: hidden; }}
+            .chat-section {{ flex: 1; display: flex; flex-direction: column; background: transparent; position: relative; }}
+            .chat-section::before {{ content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(18, 18, 18, 0.85); z-index: -1; }}
+            .messages {{ flex: 1; overflow-y: auto; padding: 20px; padding-bottom: 80px; display: flex; flex-direction: column; gap: 16px; }}
+            .message {{ display: flex; gap: 12px; align-items: flex-start; }}
+            .icon-box {{ width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
+            .icon-ai {{ background: rgba(59, 130, 246, 0.1); border: 1px solid rgba(59, 130, 246, 0.2); color: var(--neon-blue); }}
+            .msg-bubble {{ background: rgba(18, 18, 18, 0.92); border: 1px solid var(--glass-border); border-radius: 12px; padding: 16px; max-width: 85%; font-size: 0.9rem; line-height: 1.6; }}
+            .ai-bubble {{ border-color: rgba(59, 130, 246, 0.15); }}
+            .draft-container {{ background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; margin-top: 12px; overflow: hidden; }}
+            .draft-header {{ padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; align-items: center; justify-content: space-between; background: rgba(255,255,255,0.02); }}
+            .draft-title {{ font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; letter-spacing: 1px; color: var(--text-secondary); font-weight: 500; }}
+            .draft-content {{ padding: 14px; font-size: 0.85rem; line-height: 1.6; color: var(--text-primary); }}
+            .suggestions {{ display: flex; gap: 8px; margin-top: 12px; }}
+            .chip {{ background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 6px 12px; border-radius: 20px; font-size: 0.75rem; cursor: pointer; transition: all 0.2s; }}
+            .chip:hover {{ background: rgba(255,255,255,0.1); border-color: var(--neon-blue); }}
+            .input-area {{ border-top: 1px solid rgba(255,255,255,0.04); padding: 20px 30px; background: var(--bg-panel); }}
+            .input-wrapper {{ background: var(--glass-bg); border: 1px solid var(--glass-border); border-radius: 10px; padding: 12px 16px; display: flex; align-items: center; gap: 12px; transition: all 0.2s; }}
+            .input-wrapper:focus-within {{ border-color: var(--neon-blue); background: rgba(59, 130, 246, 0.05); }}
+            .chat-input {{ flex: 1; background: transparent; border: none; outline: none; color: var(--text-primary); font-size: 0.9rem; }}
+            .chat-input::placeholder {{ color: #555; }}
+            .context-panel {{ width: 320px; background: var(--bg-panel); border-left: 1px solid rgba(255,255,255,0.04); padding: 30px 20px; overflow-y: auto; }}
+            .panel-title {{ font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-secondary); letter-spacing: 1px; margin-bottom: 16px; font-weight: 500; }}
+            .kv-row {{ display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }}
+            .kv-label {{ font-family: 'JetBrains Mono', monospace; font-size: 0.7rem; color: var(--text-secondary); letter-spacing: 0.5px; }}
+            .kv-val {{ font-size: 0.8rem; font-weight: 500; }}
+            .timeline-wrapper {{ margin-top: 16px; }}
+            .tl-item {{ display: flex; gap: 12px; padding: 10px 0; position: relative; }}
+            .tl-item:not(:last-child)::after {{ content: ''; position: absolute; left: 5px; top: 28px; bottom: -10px; width: 1px; background: rgba(255,255,255,0.08); }}
+            .tl-dot {{ width: 10px; height: 10px; border-radius: 50%; background: #333; border: 2px solid var(--bg-panel); flex-shrink: 0; margin-top: 4px; }}
+            .tl-dot.active {{ background: var(--neon-green); box-shadow: 0 0 10px var(--neon-green); }}
+            .tl-dot.future {{ background: transparent; border-color: #333; }}
+            .tl-time {{ font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--text-secondary); width: 60px; flex-shrink: 0; }}
+            .tl-time.future {{ color: #444; }}
+            .tl-content {{ font-size: 0.8rem; flex: 1; }}
+            .tl-content.future {{ color: #666; }}
+            .tl-highlight {{ color: var(--neon-blue); font-weight: 500; }}
+            ::-webkit-scrollbar {{ width: 6px; height: 6px; }}
+            ::-webkit-scrollbar-track {{ background: transparent; }}
+            ::-webkit-scrollbar-thumb {{ background: rgba(255,255,255,0.1); border-radius: 3px; }}
+            ::-webkit-scrollbar-thumb:hover {{ background: rgba(255,255,255,0.15); }}
         </style>
     </head>
     <body>
+        <canvas id="bg-canvas"></canvas>
         <div class="app-container">
             <!-- SIDEBAR -->
             <aside class="sidebar">
@@ -597,6 +260,7 @@ def render_dashboard():
                     <i data-lucide="search" class="cmd-icon" width="14"></i>
                     <input type="text" class="cmd-input" placeholder="Jump to...">
                 </div>
+                <!-- ... sidebar content ... -->
                 <div class="section-label">PRIORITY</div>
                 <div class="signal-item active">
                     <div class="monogram">
@@ -628,13 +292,12 @@ def render_dashboard():
             <div class="main-console">
                 <section class="chat-section">
                     <div class="messages" id="chat-history">
-                        <!-- Dynamic chat messages from session state -->
                         {chat_messages_html}
                     </div>
-                    <!-- Input handled by Streamlit widget positioned via CSS -->
                 </section>
 
                 <aside class="context-panel">
+                     <!-- ... context panel content ... -->
                     <div class="panel-title">TARGET DATA</div>
                     <div class="kv-row">
                         <span class="kv-label">MODE</span>
@@ -688,11 +351,84 @@ def render_dashboard():
         <script>
             lucide.createIcons();
             
-            // Auto-scroll chat to bottom on load
             const chatHistory = document.getElementById('chat-history');
             if (chatHistory) {{
                 chatHistory.scrollTop = chatHistory.scrollHeight;
             }}
+
+            // --- Background Animation (Web/Constellation Effect) ---
+            const canvas = document.getElementById('bg-canvas');
+            const ctx = canvas.getContext('2d');
+            let width, height;
+            let particlesArray;
+            
+            class Particle {{
+                constructor(x, y, size) {{
+                    this.x = x; this.y = y; this.size = size;
+                    this.baseVx = (Math.random() * 0.2) - 0.1;
+                    this.baseVy = (Math.random() * 0.2) - 0.1;
+                    this.vx = this.baseVx; 
+                    this.vy = this.baseVy;
+                }}
+                draw() {{
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.8)'; /* 80% brightness (opacity) for dots */
+                    ctx.fill();
+                }}
+                update() {{
+                    this.x += this.vx;
+                    this.y += this.vy;
+                    if (this.x > width) this.x = 0;
+                    if (this.x < 0) this.x = width;
+                    if (this.y > height) this.y = 0;
+                    if (this.y < 0) this.y = height;
+                }}
+            }}
+            
+            function connect() {{
+                let opacityValue = 1;
+                for (let a = 0; a < particlesArray.length; a++) {{
+                    for (let b = a; b < particlesArray.length; b++) {{
+                        let distance = ((particlesArray[a].x - particlesArray[b].x) * (particlesArray[a].x - particlesArray[b].x))
+                                     + ((particlesArray[a].y - particlesArray[b].y) * (particlesArray[a].y - particlesArray[b].y));
+                        if (distance < (canvas.width/9) * (canvas.height/9)) {{ 
+                            // Opacity decreases as distance increases
+                            opacityValue = 1 - (distance / 25000); 
+                            if(opacityValue > 0) {{
+                                 ctx.strokeStyle = 'rgba(255, 255, 255,' + opacityValue * 0.15 + ')'; 
+                                 ctx.lineWidth = 1;
+                                 ctx.beginPath();
+                                 ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
+                                 ctx.lineTo(particlesArray[b].x, particlesArray[b].y);
+                                 ctx.stroke();
+                            }}
+                        }}
+                    }}
+                }}
+            }}
+
+            function init() {{
+                width = window.innerWidth; height = window.innerHeight;
+                canvas.width = width; canvas.height = height;
+                particlesArray = [];
+                let numberOfParticles = (width * height) / 9000; /* Slightly denser for better webs */
+                for (let i = 0; i < numberOfParticles; i++) {{
+                    particlesArray.push(new Particle(Math.random() * width, Math.random() * height, (Math.random() * 1.8) + 0.6));
+                }}
+            }}
+            
+            function animate() {{
+                requestAnimationFrame(animate);
+                ctx.clearRect(0, 0, width, height);
+                for (let i = 0; i < particlesArray.length; i++) {{
+                    particlesArray[i].update(); particlesArray[i].draw();
+                }}
+                connect(); /* Add connections */
+            }}
+            
+            window.addEventListener('resize', function(){{ init(); }});
+            init(); animate();
         </script>
     </body>
     </html>
