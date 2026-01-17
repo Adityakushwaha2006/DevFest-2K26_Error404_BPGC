@@ -51,11 +51,11 @@ class CITScore:
         """Calculate weighted total and execution state"""
         self.total = int(w_c * self.context + w_i * self.intent + w_t * self.timing)
         
-        if self.total >= 90:
+        if self.total >= 85:
             self.execution_state = "STRONG_GO"
-        elif self.total >= 75:
+        elif self.total >= 70:
             self.execution_state = "PROCEED"
-        elif self.total >= 55:
+        elif self.total >= 50:
             self.execution_state = "CAUTION"
         else:
             self.execution_state = "ABORT"
@@ -237,7 +237,7 @@ If no entities found, return: []"""
                           target_profile: Dict,
                           conversation_intent: str) -> CITScore:
         """
-        Compute Context, Intent, Timing scores.
+        Compute Context, Intent, Timing scores using Gemini.
         
         Args:
             user_context: User's mode, goals, skills
@@ -245,67 +245,78 @@ If no entities found, return: []"""
             conversation_intent: Inferred intent from chat
             
         Returns:
-            CITScore with calculated values
+            CITScore with Gemini-generated values
         """
         score = CITScore()
         
-        # --- Context Score (Semantic similarity) ---
-        # Compare user goals with target's recent activity
-        user_skills = user_context.get("skills", [])
-        target_skills = target_profile.get("skills", [])
-        target_topics = target_profile.get("topics", [])
-        
-        if user_skills and (target_skills or target_topics):
-            # Simple overlap calculation
-            all_target = set(s.lower() for s in target_skills + target_topics)
-            all_user = set(s.lower() for s in user_skills)
-            overlap = len(all_user & all_target)
-            total = len(all_user | all_target) or 1
-            score.context = min(100, int((overlap / total) * 100) + 30)  # Base 30 for having data
-        else:
-            score.context = 50  # Neutral if no data
-        
-        # --- Intent Score ---
-        intent_map = {
-            "mentorship": 80,
-            "hiring": 90,
-            "collaboration": 85,
-            "exploration": 60,
-            "networking": 70,
-            "unknown": 50
-        }
-        score.intent = intent_map.get(conversation_intent.lower(), 50)
-        
-        # Boost if target shows matching signals
-        target_signals = target_profile.get("signals", {})
-        if conversation_intent.lower() == "hiring" and target_signals.get("is_hiring"):
-            score.intent = min(100, score.intent + 20)
-        if conversation_intent.lower() == "collaboration" and target_signals.get("open_to_collab"):
-            score.intent = min(100, score.intent + 15)
-        
-        # --- Timing Score ---
-        last_activity = target_profile.get("last_activity_hours", 999)
-        
-        if last_activity < 1:
-            score.timing = 100  # Active right now
-        elif last_activity < 24:
-            score.timing = 85
-        elif last_activity < 72:
-            score.timing = 70
-        elif last_activity < 168:  # 1 week
+        # If Gemini not available, fall back to basic defaults
+        if not self.gemini_enabled:
+            print("⚠️ Gemini not available for CIT scoring, using defaults")
+            score.context = 50
+            score.intent = 50
             score.timing = 50
-        else:
-            score.timing = 20
+            score.calculate_total()
+            return score
         
-        # Time of day bonus (Tue-Thu 2-5pm is optimal)
-        now = datetime.now()
-        if now.weekday() in [1, 2, 3] and 14 <= now.hour < 17:
-            score.timing = min(100, score.timing + 10)
+        # Build prompt for Gemini
+        prompt = f"""Analyze this networking opportunity and generate CIT scores (0-100 each).
+
+USER CONTEXT:
+- Mode: {user_context.get('mode', 'Student')}
+- Skills: {', '.join(user_context.get('skills', ['general'])[:10])}
+- Goal: {conversation_intent}
+
+TARGET PROFILE:
+- Name: {target_profile.get('name', 'Unknown')}
+- Role/Bio: {target_profile.get('role', target_profile.get('bio', 'Unknown'))[:200]}
+- Skills/Topics: {', '.join((target_profile.get('skills', []) + target_profile.get('topics', []))[:10])}
+- GitHub: {target_profile.get('github_username', 'N/A')}
+- Last Activity: {target_profile.get('last_activity_hours', 'Unknown')} hours ago
+- Recent Activity: {json.dumps(target_profile.get('recent_activity', [])[:3], default=str)[:300]}
+
+SCORING CRITERIA:
+- CONTEXT (0-100): How well do user's skills/goals align with target's expertise? Consider semantic similarity, shared interests, and professional relevance.
+- INTENT (0-100): How likely is the target to respond to this type of outreach ({conversation_intent})? Consider their activity signals and openness.
+- TIMING (0-100): Is this a good time to reach out? Consider their recent activity level (active = high score, dormant = low score).
+
+Return ONLY a JSON object with this exact format:
+{{"context": <number>, "intent": <number>, "timing": <number>, "reasoning": "<brief 1-sentence explanation>"}}
+"""
         
-        # Calculate total
-        score.calculate_total()
-        
-        return score
+        try:
+            response = self.gemini_model.generate_content(prompt)
+            response_text = response.text.strip()
+            
+            # Clean markdown if present
+            if response_text.startswith("```"):
+                response_text = re.sub(r"```\w*\n?", "", response_text)
+                response_text = response_text.strip()
+            
+            result = json.loads(response_text)
+            
+            # Extract scores with validation
+            score.context = max(0, min(100, int(result.get("context", 50))))
+            score.intent = max(0, min(100, int(result.get("intent", 50))))
+            score.timing = max(0, min(100, int(result.get("timing", 50))))
+            
+            # Log the reasoning
+            reasoning = result.get("reasoning", "")
+            if reasoning:
+                print(f"🧠 CIT Reasoning: {reasoning}")
+            
+            score.calculate_total()
+            print(f"✅ Gemini CIT Score: C={score.context}, I={score.intent}, T={score.timing} → {score.total}/100 ({score.execution_state})")
+            
+            return score
+            
+        except Exception as e:
+            print(f"⚠️ Gemini CIT scoring failed: {e}")
+            # Fallback to basic algorithm
+            score.context = 50
+            score.intent = 70 if conversation_intent in ["mentorship", "hiring", "collaboration"] else 50
+            score.timing = 80 if target_profile.get("last_activity_hours", 999) < 24 else 40
+            score.calculate_total()
+            return score
     
     
     def infer_intent(self, conversation_history: List[Dict]) -> str:
