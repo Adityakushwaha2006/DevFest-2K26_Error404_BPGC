@@ -6,11 +6,69 @@ The Strategy Console view featuring:
 - Target profile sidebar
 - Activity timeline and context panel
 - Live Gemini AI chat integration
+- Dynamic data from Logistic Mind backend
 """
 
+import os
+import json
 import streamlit as st
 import streamlit.components.v1 as components
 from logic.chat_engine import create_chat_engine
+
+
+def load_frontend_state() -> dict:
+    """
+    Load frontend state from the Logistic Mind's state file.
+    Falls back to default mock data if file doesn't exist.
+    
+    Returns:
+        Dictionary with dashboard data
+    """
+    state_file = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
+        "backend", "data", "frontend_state.json"
+    )
+    
+    default_state = {
+        "active_person": {
+            "name": "Aditya Kushwaha",
+            "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aditya",
+            "role": "Software Engineer",
+            "github": ""
+        },
+        "cit_score": {
+            "context": 85,
+            "intent": 72,
+            "timing": 91,
+            "total": 83,
+            "execution_state": "PROCEED"
+        },
+        "focus_keywords": ["Optimization", "Machine Learning"],
+        "intent_classification": "Mentorship",
+        "activity_stream": [
+            {"time": "14:00", "type": "signal", "content": "Signal Detected: GitHub"},
+            {"time": "NOW", "type": "action", "content": "Drafting Outreach"}
+        ],
+        "tentative_strategy": [
+            {"date": "JAN 19", "action": "Schedule Follow-up Call"},
+            {"date": "JAN 21", "action": "Share Research Notes"}
+        ],
+        "conversations": []
+    }
+    
+    try:
+        if os.path.exists(state_file):
+            with open(state_file, "r", encoding="utf-8") as f:
+                loaded = json.load(f)
+                # Merge with defaults for missing keys
+                for key, value in default_state.items():
+                    if key not in loaded or not loaded[key]:
+                        loaded[key] = value
+                return loaded
+    except Exception as e:
+        print(f"⚠️ Could not load frontend state: {e}")
+    
+    return default_state
 
 
 def initialize_chat():
@@ -44,37 +102,137 @@ def initialize_chat():
 
 
 
+def _mode_to_intent(mode: str) -> str:
+    """Map user mode to their primary networking intent"""
+    mode_intents = {
+        "Student / Intern": "mentorship",
+        "Founder": "hiring",
+        "Researcher": "collaboration"
+    }
+    return mode_intents.get(mode, "networking")
+
+
+def _mode_to_goals(mode: str) -> str:
+    """Map user mode to their primary goals description"""
+    mode_goals = {
+        "Student / Intern": "Finding mentors, securing internships, getting career advice, building a professional network",
+        "Founder": "Recruiting talent, finding co-founders, connecting with investors, building strategic partnerships",
+        "Researcher": "Finding collaborators, discovering research opportunities, connecting with labs and academics"
+    }
+    return mode_goals.get(mode, "Building professional connections and exploring opportunities")
+
 
 def render_dashboard():
     """
     Renders the Nexus Strategy Console dashboard.
     Uses fullscreen overlay hack to bypass Streamlit layout.
+    Includes auto-refresh mechanism for real-time updates.
     """
     
-    # SIMPLIFIED - Chat integration disabled for now
-    # TODO: Implement chat properly later
+    # --- AUTO-REFRESH MECHANISM ---
+    # Check if frontend_state.json has been updated since last render
+    import time
+    state_file = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
+        "backend", "data", "frontend_state.json"
+    )
     
+    # Track last known modification time
+    if 'last_state_mtime' not in st.session_state:
+        st.session_state.last_state_mtime = 0
+        st.session_state.state_initialized = False
     
-    # Message handling removed - keeping UI simple
+    try:
+        if os.path.exists(state_file):
+            current_mtime = os.path.getmtime(state_file)
+            previous_mtime = st.session_state.last_state_mtime
+            
+            # Only trigger rerun if:
+            # 1. File was modified (current > previous)
+            # 2. This isn't the first load (we've seen the file before)
+            if current_mtime > previous_mtime and st.session_state.state_initialized:
+                st.session_state.last_state_mtime = current_mtime
+                time.sleep(0.1)  # Small delay to ensure file is fully written
+                st.rerun()
+            else:
+                # First load - just record the mtime
+                st.session_state.last_state_mtime = current_mtime
+                st.session_state.state_initialized = True
+    except Exception:
+        pass  # Ignore errors in auto-refresh
     
+    # --- CONTEXT INJECTION INTO CHAT ---
+    # Read active_context.json and inject into chat engine if updated
+    active_context_file = os.path.join(
+        os.path.dirname(os.path.dirname(os.path.dirname(__file__))),
+        "backend", "data", "active_context.json"
+    )
+    
+    if 'last_context_mtime' not in st.session_state:
+        st.session_state.last_context_mtime = 0
+    
+    try:
+        if os.path.exists(active_context_file) and 'chat_engine' in st.session_state and st.session_state.chat_engine:
+            context_mtime = os.path.getmtime(active_context_file)
+            
+            # Only inject if context file has been updated since last check
+            if context_mtime > st.session_state.last_context_mtime:
+                st.session_state.last_context_mtime = context_mtime
+                
+                with open(active_context_file, "r", encoding="utf-8") as f:
+                    context_data = json.load(f)
+                
+                # Extract components from context
+                target_profile = context_data.get("target_profile", {})
+                cit_score = context_data.get("cit_score", {})
+                intent = context_data.get("intent", "networking")
+                
+                # Call inject_context on chat engine
+                st.session_state.chat_engine.inject_context(
+                    cit_score=cit_score,
+                    target_profile=target_profile,
+                    intent=intent
+                )
+                print(f"✅ Context injected into chat: {target_profile.get('name', 'Unknown')}")
+    except Exception as e:
+        print(f"⚠️ Context injection error: {e}")
+    
+    # --- END CONTEXT INJECTION ---
     
     # --- 1. THE DATA INTERFACE (Backend Contract) ---
-    # This dictionary defines exactly what the Backend Team needs to provide.
-    # Currently populated with static mock data for the UI demo.
+    # Load dynamic state from Logistic Mind, with fallback to defaults
+    frontend_state = load_frontend_state()
+    
+    # Extract data from state
+    active_person = frontend_state.get("active_person", {})
+    cit_score = frontend_state.get("cit_score", {})
+    
+    # Map execution state to status label and color
+    exec_state = cit_score.get("execution_state", "PROCEED")
+    status_map = {
+        "STRONG_GO": ("STRONG GO", "neon-green"),
+        "PROCEED": ("PROCEED", "neon-blue"),
+        "CAUTION": ("CAUTION", "neon-purple"),
+        "ABORT": ("WATCHLIST", "neon-red")
+    }
+    status_label, status_color = status_map.get(exec_state, ("UNKNOWN", "neon-blue"))
+    
     data = {
-        "selected_mode": st.session_state.get('selected_mode', 'Student / Intern'),  # Mode selected on landing page
-        "target_name": "Aditya Kushwaha",
-        "target_role": "Software Engineer",
-        "target_avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aditya",
-        "status_label": "FLOW STATE",
-        "status_color": "neon-green",  # CSS variable mapping
-        "readiness_score": 94,
-        "current_intent": "Mentorship",
-        "focus_area": "Optimization",
-        "last_active": "2m ago",
-        "signal_source": "GitHub",
-        "ai_insight": "Target is in 'Builder Mode' (12 commits in 3h). Technical engagement recommended.",
-        "draft_message": "Hey Aditya, saw your GPU allocation fix on aeon-toolkit. I'm facing a similar bottleneck—did you find the memory overhead reduced significantly after the patch?"
+        "selected_mode": st.session_state.get('selected_mode', 'Student / Intern'),
+        "target_name": active_person.get("name", "Unknown Target"),
+        "target_role": active_person.get("role", ""),
+        "target_avatar": active_person.get("avatar", "https://api.dicebear.com/7.x/avataaars/svg?seed=User"),
+        "status_label": status_label,
+        "status_color": status_color,
+        "readiness_score": cit_score.get("total", 0),
+        "current_intent": frontend_state.get("intent_classification", "Exploration"),
+        "focus_area": (frontend_state.get("focus_keywords", ["General"]) or ["General"])[0],
+        "last_active": "Recent",
+        "signal_source": "GitHub" if active_person.get("github") else "Social",
+        "ai_insight": f"CIT Score: C={cit_score.get('context', 0)} I={cit_score.get('intent', 0)} T={cit_score.get('timing', 0)}",
+        "activity_stream": frontend_state.get("activity_stream", []),
+        "tentative_strategy": frontend_state.get("tentative_strategy", []),
+        "conversations": frontend_state.get("conversations", [])
     }
     
     
@@ -108,6 +266,46 @@ def render_dashboard():
             </div>
         </div>
             """
+
+
+    # Generate activity stream HTML from dynamic data
+    activity_stream_html = ""
+    for i, item in enumerate(data.get("activity_stream", [])[:5]):
+        is_active = item.get("time", "").upper() == "NOW"
+        dot_class = "active" if is_active else ""
+        time_style = 'style="color:var(--neon-green)"' if is_active else ""
+        activity_stream_html += f"""
+                        <div class="tl-item">
+                            <div class="tl-dot {dot_class}"></div>
+                            <div class="tl-time" {time_style}>{item.get('time', '')}</div>
+                            <div class="tl-content">{item.get('content', '')}</div>
+                        </div>"""
+    
+    # Generate strategy timeline HTML from dynamic data
+    strategy_html = ""
+    for item in data.get("tentative_strategy", [])[:4]:
+        strategy_html += f"""
+                        <div class="tl-item">
+                            <div class="tl-dot future"></div>
+                            <div class="tl-time future">{item.get('date', '')}</div>
+                            <div class="tl-content future">{item.get('action', '')}</div>
+                        </div>"""
+    
+    # Generate sidebar conversations HTML
+    sidebar_conversations_html = ""
+    for conv in data.get("conversations", [])[:5]:
+        # Generate initials from person name
+        name = conv.get("person", "UN")
+        initials = "".join([word[0].upper() for word in name.split()[:2]]) if name else "?"
+        preview = conv.get("preview", "")[:30]
+        sidebar_conversations_html += f"""
+                <div class="signal-item">
+                    <div class="monogram">{initials}</div>
+                    <div class="sig-info">
+                        <h4 class="sig-name">{name}</h4>
+                        <div class="sig-meta">{preview}</div>
+                    </div>
+                </div>"""
 
 
     # --- 2. THE FRONTEND (HTML/CSS/JS) ---
@@ -261,10 +459,10 @@ def render_dashboard():
                     <input type="text" class="cmd-input" placeholder="Jump to...">
                 </div>
                 <!-- ... sidebar content ... -->
-                <div class="section-label">PRIORITY</div>
+                <div class="section-label">CURRENT TARGET</div>
                 <div class="signal-item active">
                     <div class="monogram">
-                        AK
+                        {data['target_name'][:2].upper() if data['target_name'] else '??'}
                         <div class="status-pixel urgent"></div>
                     </div>
                     <div class="sig-info">
@@ -272,20 +470,9 @@ def render_dashboard():
                         <div class="sig-meta">{data['status_label']} • {data['last_active']}</div>
                     </div>
                 </div>
-                <div class="signal-item">
-                    <div class="monogram">PK</div>
-                    <div class="sig-info">
-                        <h4 class="sig-name">Priya Kumar</h4>
-                        <div class="sig-meta">ACTIVE • 1h ago</div>
-                    </div>
-                </div>
-                <div class="signal-item">
-                    <div class="monogram">RV</div>
-                    <div class="sig-info">
-                        <h4 class="sig-name">Rohit Verma</h4>
-                        <div class="sig-meta">DORMANT • 3d ago</div>
-                    </div>
-                </div>
+                
+                <div class="section-label" style="margin-top: 20px;">CONVERSATIONS</div>
+                {sidebar_conversations_html}
             </aside>
 
             <!-- MAIN CONSOLE -->
@@ -318,32 +505,12 @@ def render_dashboard():
                     
                     <div class="panel-title" style="margin-top: 30px;">ACTIVITY STREAM</div>
                     <div class="timeline-wrapper">
-                        <div class="tl-item">
-                            <div class="tl-dot"></div>
-                            <div class="tl-time">14:00</div>
-                            <div class="tl-content">
-                                Signal Detected: <span class="tl-highlight">{data['signal_source']}</span>
-                            </div>
-                        </div>
-                        <div class="tl-item">
-                            <div class="tl-dot active"></div>
-                            <div class="tl-time" style="color:var(--neon-green)">NOW</div>
-                            <div class="tl-content">Drafting Outreach</div>
-                        </div>
+                        {activity_stream_html}
                     </div>
                     
                     <div class="panel-title" style="margin-top: 30px;">TENTATIVE STRATEGY</div>
                     <div class="timeline-wrapper future">
-                        <div class="tl-item">
-                            <div class="tl-dot future"></div>
-                            <div class="tl-time future">JAN 19</div>
-                            <div class="tl-content future">Schedule Follow-up Call</div>
-                        </div>
-                        <div class="tl-item">
-                            <div class="tl-dot future"></div>
-                            <div class="tl-time future">JAN 21</div>
-                            <div class="tl-content future">Share Research Notes</div>
-                        </div>
+                        {strategy_html}
                     </div>
                 </aside>
             </div>
@@ -457,6 +624,25 @@ def render_dashboard():
                 new_session_id = st.session_state.chat_engine.session_id
                 if session_id != new_session_id:
                     st.query_params["session"] = new_session_id
+                
+                # --- INJECT USER MODE INTO CHAT CONTEXT ---
+                # This tells the AI what kind of user this is (Student, Founder, Researcher)
+                user_mode = st.session_state.get('selected_mode', 'Student / Intern')
+                st.session_state.chat_engine.set_context({
+                    "user_mode": user_mode,
+                    "user_intent": _mode_to_intent(user_mode)
+                })
+                
+                # Inject mode into the first system message if this is a new session
+                if not st.session_state.chat_engine.get_history():
+                    mode_context = f"""
+--- USER CONTEXT ---
+User Role: {user_mode}
+Primary Goals: {_mode_to_goals(user_mode)}
+Tailor all advice to this user's perspective.
+--- END USER CONTEXT ---
+"""
+                    st.session_state.chat_engine.system_prompt = mode_context + st.session_state.chat_engine.system_prompt
                     
                 # Load history into state
                 st.session_state.chat_history = st.session_state.chat_engine.get_history()

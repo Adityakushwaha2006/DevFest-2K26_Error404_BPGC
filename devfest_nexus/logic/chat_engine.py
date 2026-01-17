@@ -388,6 +388,55 @@ When these are not available, request them before strategizing."""
     def get_context(self) -> Dict:
         """Get current context data."""
         return self.context_data.copy()
+    
+    def inject_context(self, cit_score: Dict, target_profile: Dict, intent: str = ""):
+        """
+        Inject CIT score and target profile into the chat context.
+        Called by Logistic Mind when new profile data is available.
+        
+        Args:
+            cit_score: Dict with context, intent, timing, total scores
+            target_profile: Consolidated profile data
+            intent: Inferred user intent
+        """
+        # Store for reference
+        self.target_context = target_profile
+        self.user_context["intent"] = intent
+        
+        # Build context injection message for next prompt
+        context_injection = f"""
+--- REAL-TIME CONTEXT INJECTION ---
+Target: {target_profile.get('name', 'Unknown')}
+Role: {target_profile.get('role', target_profile.get('bio', '')[:50])}
+GitHub: {target_profile.get('github_username', 'N/A')}
+
+CIT SCORE BREAKDOWN:
+- Context: {cit_score.get('context', 0)}/100 (Skill/interest overlap)
+- Intent: {cit_score.get('intent', 0)}/100 (Goal alignment)
+- Timing: {cit_score.get('timing', 0)}/100 (Activity recency)
+- TOTAL: {cit_score.get('total', 0)}/100
+- Execution State: {cit_score.get('execution_state', 'UNKNOWN')}
+
+User's Inferred Intent: {intent}
+
+Skills/Topics: {', '.join(target_profile.get('skills', [])[:5]) or 'Unknown'}
+Recent Activity: {target_profile.get('last_activity_hours', 'Unknown')} hours ago
+
+Use this context to guide your recommendations.
+--- END CONTEXT ---
+"""
+        
+        # Add as system message to history for context
+        self.history.append({
+            "role": "system",
+            "content": context_injection,
+            "timestamp": datetime.now().isoformat(),
+            "type": "context_injection"
+        })
+        
+        # Log the injection
+        self._log_to_file()
+        print(f"✅ Context injected for: {target_profile.get('name', 'Unknown')} (CIT: {cit_score.get('total', 0)})")
 
 
 def create_chat_engine(system_prompt: Optional[str] = None, session_id: Optional[str] = None) -> Optional[GeminiChatEngine]:
