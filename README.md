@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/BITS-Pilani_Goa-green?style=for-the-badge" />
   <img src=".\additional_assets\logo_banner.png" alt="NEXUS" style="border-radius: 40px 40px 40px 40px;"  />
   <img src=".\additional_assets\image.png" alt="NEXUS" style="border-radius: 40px 40px 0 0;" />
-  <img src=" .\additional_assets\image copy.png" alt="NEXUS" />
+  <img src=".\additional_assets\image copy.png" alt="NEXUS" />
   <img src=".\additional_assets\image copy 2.png" alt="NEXUS" />
   <img src=".\additional_assets\image copy 3.png" alt="NEXUS" />
   <img src=".\additional_assets\image copy 5.png" alt="NEXUS" />
