@@ -460,8 +460,15 @@ def render_landing_page():
         document.querySelectorAll('.monolith-card').forEach(card => {
             card.addEventListener('click', function() {
                 const selectedMode = this.getAttribute('data-mode');
-                // Navigate to dashboard with selected mode
-                window.location.href = window.location.origin + window.location.pathname + `?page=dashboard&mode=${encodeURIComponent(selectedMode)}`;
+                // Navigate parent window (Streamlit) to dashboard with selected mode
+                // Use window.top to escape iframe context
+                try {
+                    const baseUrl = window.top.location.origin + window.top.location.pathname.replace(/\/$/, '');
+                    window.top.location.href = baseUrl + `?page=dashboard&mode=${encodeURIComponent(selectedMode)}`;
+                } catch (e) {
+                    // Fallback if cross-origin blocked
+                    window.location.href = `/?page=dashboard&mode=${encodeURIComponent(selectedMode)}`;
+                }
             });
         });
     </script>

@@ -39,11 +39,11 @@ def start_logistic_mind():
                     creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
                 )
                 st.session_state.logistic_mind_started = True
-                print("✅ Logistic Mind auto-started in background")
+                print("[OK] Logistic Mind auto-started in background")
             else:
-                print(f"⚠️ Logistic Mind not found at: {logistic_mind_path}")
+                print(f"[WARNING] Logistic Mind not found at: {logistic_mind_path}")
         except Exception as e:
-            print(f"⚠️ Failed to start Logistic Mind: {e}")
+            print(f"[WARNING] Failed to start Logistic Mind: {e}")
             st.session_state.logistic_mind_started = False
 
 
