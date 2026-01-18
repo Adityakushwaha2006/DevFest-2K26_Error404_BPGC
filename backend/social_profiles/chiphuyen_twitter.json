@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "chiphuyen",
+  "url": null,
+  "profile": {
+    "name": "Chip Huyen",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend: Rippling. As Rippling is a remote if relevant",
+    "location": "San Francisco",
+    "website": null,
+    "company": "Based on the provided information, I would recommend:\n\nRippling\n\nAs Rippling is a remote",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Machine Learning",
+      "Deep Learning",
+      "Feature Stores"
+    ],
+    "posting_style": "Asks deep architectural questions, Nitpicks code style, Supportive mentor.",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

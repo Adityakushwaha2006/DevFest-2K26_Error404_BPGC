@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "raysan5",
+  "url": null,
+  "profile": {
+    "name": "Ray",
+    "bio": "Game Dev | Raylib Tech Enthusiast | Sharing knowledge & experiences in Game Development, GUI Programming & more!",
+    "location": "Barcelona",
+    "website": null,
+    "company": "@raylibtech",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Game Development",
+      "Videogames Programming",
+      "GUI Development"
+    ],
+    "posting_style": "Informative and conversational",
+    "common_arguments": "Explaining technical concepts, sharing code snippets, and discussing industry trends."
+  },
+  "audience_insight": null
+}

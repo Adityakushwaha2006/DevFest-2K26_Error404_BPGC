@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "alexellis",
+  "url": null,
+  "profile": {
+    "name": "Alex Ellis",
+    "bio": "Helping devs scale with Kubernetes, OpenFaaS & Firecracker microVMs | Follow me for automation tips and cloud computing insights!",
+    "location": "United Kingdom",
+    "website": null,
+    "company": "@openfaas",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Cloud Computing",
+      "Automation Tools"
+    ],
+    "posting_style": "Informative and helpful",
+    "common_arguments": "Detailed explanations of technical concepts and best practices"
+  },
+  "audience_insight": null
+}

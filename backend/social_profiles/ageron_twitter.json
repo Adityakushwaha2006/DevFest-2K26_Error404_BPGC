@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "ageron",
+  "url": null,
+  "profile": {
+    "name": "Aur\u00e9lien Geron",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend the following employer: Lab126. This company is a leader in AI and machine learning, which aligns with their interests.",
+    "location": "Auckland",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer:\n\nLab126\n\nThis company is a",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Machine Learning",
+      "Python"
+    ],
+    "posting_style": "Informative and solution-focused",
+    "common_arguments": "The developer shares hands-on experiences and code examples to demonstrate concepts and provide solutions."
+  },
+  "audience_insight": null
+}

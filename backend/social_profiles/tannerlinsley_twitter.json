@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "tannerlinsley",
+  "url": null,
+  "profile": {
+    "name": "Tanner Linsley",
+    "bio": "A performance-driven dev | Optimizing frontend & backend for speed and scalability | @tanstack & @nozzle enthusiast",
+    "location": "Utah",
+    "website": null,
+    "company": "@tanstack & @nozzle",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Performance Optimization",
+      "Frontend Development"
+    ],
+    "posting_style": "Informative and solution-focused, with a dash of personality.",
+    "common_arguments": "Detailed explanations of optimization techniques, with examples from personal projects."
+  },
+  "audience_insight": null
+}

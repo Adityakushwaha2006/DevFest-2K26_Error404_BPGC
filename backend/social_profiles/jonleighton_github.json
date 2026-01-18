@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Jon Leighton",
+    "login": "jonleighton",
+    "bio": null,
+    "company": null,
+    "location": "Australia",
+    "email": null,
+    "twitter": null,
+    "followers": 430,
+    "public_repos": 91
+  },
+  "analysis": {
+    "career_trajectory": "Started with Ruby in 2018, explored JavaScript and React Native, then shifted to Python for Fava, before diving into Elixir for various projects including Phoenix, Selenium, and Netlify plugins. Recently worked on Rubyzip, base_x, phonelib, and good_job.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Elixir",
+        "Ruby",
+        "Python"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is also passionate about Elixir and Ruby, with a strong focus on testing and automation.",
+      "conversation_starters": [
+        "What inspired you to learn Elixir?",
+        "How do you approach database sharding in your projects?",
+        "Can you share an experience where you had to debug a complex issue in your codebase?"
+      ]
+    }
+  }
+}

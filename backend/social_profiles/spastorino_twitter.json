@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "spastorino",
+  "url": null,
+  "profile": {
+    "name": "Santiago Pastorino",
+    "bio": "Language enthusiast | Compiler dev | Standard lib aficionado | @wyeworks",
+    "location": "Montevideo, Uruguay",
+    "website": null,
+    "company": "@wyeworks",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Compiler Development",
+      "Standard Library"
+    ],
+    "posting_style": "Supportive and inquisitive",
+    "common_arguments": "Explaining language design decisions, discussing compiler development challenges, and summarizing debates on standard library APIs."
+  },
+  "audience_insight": null
+}

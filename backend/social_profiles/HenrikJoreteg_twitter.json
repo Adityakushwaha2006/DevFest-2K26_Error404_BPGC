@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "HenrikJoreteg",
+  "url": null,
+  "profile": {
+    "name": "Henrik Joreteg",
+    "bio": "A punchy bio mentioning custom GH actions and age determination expertise if relevant",
+    "location": "Spokane, WA",
+    "website": null,
+    "company": "Xchart, Inc.",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "Custom GH Actions"
+    ],
+    "posting_style": "Supportive mentorship with a dash of technical expertise",
+    "common_arguments": "Detailed explanations of database sharding strategies and the challenges of building custom GH actions"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "David S. Miller",
+    "login": "davem330",
+    "bio": null,
+    "company": "Red Hat Inc.",
+    "location": "London, UK",
+    "email": null,
+    "twitter": null,
+    "followers": 1488,
+    "public_repos": 4
+  },
+  "analysis": {
+    "career_trajectory": "Started with Linux kernel development in 2011, working on various projects including Sparc and networking components.",
+    "technical_obsessions": [
+      {
+        "topic": "Linux Kernel Development",
+        "evidence": "sparc: Linux Kernel Sparc (Lang: C)"
+      },
+      {
+        "topic": "Networking",
+        "evidence": "net-next: Linux Kernel Networking -next (Lang: C), net: Linux Kernel Networking (Lang: C)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Linux",
+        "Kernel",
+        "Networking"
+      ],
+      "communication_style": "Asks technical questions and provides code examples."
+    },
+    "match_profile": {
+      "similar_user_traits": "Similar to a Linux kernel developer with networking expertise.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing network protocols in the Linux kernel?",
+        "How do you approach debugging complex networking issues in the kernel?",
+        "Can you share an example of a recent project where you applied your knowledge of networking to solve a problem?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "profile": {
+    "name": "Kent C. Dodds",
+    "login": "kentcdodds",
+    "bio": "Improving \ud83c\udf0e with quality software \u00b7 Husband, 5x Dad, Latter-day Saint, Dev Educator, MVP\r\n\r\n\u26a1\ufe0f EpicAI.pro\r\n\ud83c\udf0c EpicWeb.dev\r\n\ud83d\ude80 EpicReact.dev",
+    "company": "@epicweb-dev ",
+    "location": "Salt Lake City, Utah, USA",
+    "email": "me+github@kentcdodds.com",
+    "twitter": "kentcdodds",
+    "followers": 34619,
+    "public_repos": 739
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been actively contributing to various open-source projects since 2025, with a focus on Cloudflare-related technologies. They have demonstrated expertise in TypeScript and JavaScript, as well as experience with tools like BugBot and CI/CD pipelines. Their work involves reviewing code, providing feedback, and collaborating with others to resolve issues.",
+    "technical_obsessions": [
+      {
+        "topic": "Cloudflare-related technologies",
+        "evidence": "Their extensive repository history shows a strong focus on Cloudflare-related projects, such as cloudflare-fastmcp, agents, and inspector."
+      },
+      {
+        "topic": "TypeScript and JavaScript",
+        "evidence": "Their code contributions demonstrate proficiency in TypeScript and JavaScript, with many projects utilizing these languages."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Cloudflare",
+        "TypeScript",
+        "JavaScript",
+        "CI/CD pipelines",
+        "BugBot"
+      ],
+      "communication_style": "This developer is active in discussions, often providing feedback and guidance to others. They seem to be detail-oriented and thorough in their reviews, with a focus on resolving issues efficiently."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is also interested in Cloudflare-related technologies and has experience with TypeScript and JavaScript.",
+      "conversation_starters": [
+        "What are some common challenges you face when working with CI/CD pipelines?",
+        "How do you approach bug fixing and code review in your open-source contributions?",
+        "Can you share an example of a particularly complex issue you've helped resolve in one of your projects?"
+      ]
+    }
+  }
+}

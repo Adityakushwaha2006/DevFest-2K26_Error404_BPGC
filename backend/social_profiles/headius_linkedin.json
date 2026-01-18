@@ -1,0 +1,89 @@
+{
+  "platform": "linkedin",
+  "public_id": "headius",
+  "url": null,
+  "profile": {
+    "name": "Charles Oliver Nutter",
+    "headline": "Senior Software Engineer at Headius Enterprises | Performance Optimization Expert",
+    "location": "Minneapolis",
+    "summary": "Highly experienced developer with a strong background in JRuby, TruffleRuby, and GraalVM. Proven track record of delivering high-performance solutions and ensuring compatibility across different Ruby versions.",
+    "website": null,
+    "company": "Headius Enterprises"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Headius Enterprises",
+      "company": "Headius Enterprises",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of a Java Foreign Function Interface (JFFI) for improved performance and compatibility with JRuby.",
+        "Collaborated with cross-functional teams to ensure seamless integration with other technologies, including TruffleRuby and GraalVM."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed high-performance solutions for clients using JRuby and other related technologies.",
+        "Provided expert advice on performance optimization, bug fixing, and compatibility with different Ruby versions."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "JRuby Project",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to the development of JRuby's performance optimization efforts, including the development of a Java DSL for binding method handles forward.",
+        "Ensured compatibility between JRuby and different Ruby versions, including Ruby 3.4 and Ruby 4.0."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Developed custom solutions for clients using JRuby and other related technologies.",
+        "Provided expert advice on performance optimization, bug fixing, and compatibility with different Ruby versions."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Java",
+        "Ruby",
+        "JRuby"
+      ]
+    },
+    {
+      "category": "Development Frameworks",
+      "points": [
+        "TruffleRuby",
+        "GraalVM"
+      ]
+    },
+    {
+      "category": "Performance Optimization",
+      "points": [
+        "Java Foreign Function Interface (JFFI)",
+        "Java DSL for binding method handles forward"
+      ]
+    },
+    {
+      "category": "Bug Fixing",
+      "points": [
+        "Method redefinition",
+        "Native memory use"
+      ]
+    },
+    {
+      "category": "Compatibility with Ruby Versions",
+      "points": [
+        "Ruby 3.4",
+        "Ruby 4.0"
+      ]
+    }
+  ]
+}

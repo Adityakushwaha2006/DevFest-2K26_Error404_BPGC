@@ -1,0 +1,77 @@
+{
+  "platform": "linkedin",
+  "public_id": "hynek",
+  "url": null,
+  "profile": {
+    "name": "Hynek Schlawack",
+    "headline": "Senior Software Engineer at Variomedia AG",
+    "location": "Berlin",
+    "summary": "Highly motivated and experienced software engineer with a strong passion for Python, security, and performance optimization. Proven track record of contributing to open-source projects and delivering high-quality solutions.",
+    "website": null,
+    "company": "Variomedia AG"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Variomedia AG",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained multiple large-scale Python applications using SQLAlchemy, Dash, and Argon2.",
+        "Collaborated with cross-functional teams to design and implement scalable architecture for high-performance data processing pipelines.",
+        "Conducted regular security audits and implemented measures to improve the overall security posture of the organization."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed multiple web applications using Python, Django, and React.js for various clients.",
+        "Conducted code reviews and ensured adherence to best practices and coding standards."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Projects",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to the development of multiple open-source projects, including SQLAlchemy and Dash.",
+        "Ensured code quality, security, and maintainability through regular reviews and testing."
+      ]
+    },
+    {
+      "title": "Erlang Developer",
+      "company": "Various Clients",
+      "date_range": "2009 - 2015",
+      "description": [
+        "Developed multiple Erlang applications for various clients.",
+        "Collaborated with teams to design and implement scalable architecture for high-performance systems."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Python",
+      "Erlang"
+    ],
+    "Frameworks": [
+      "SQLAlchemy",
+      "Dash",
+      "React.js"
+    ],
+    "Databases": [
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "Security": [
+      "Authentication",
+      "Authorization",
+      "Encryption"
+    ],
+    "Performance Optimization": [
+      "Caching",
+      "Database Sharding",
+      "Type Hints and Correctness"
+    ]
+  }
+}

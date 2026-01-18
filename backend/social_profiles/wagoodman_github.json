@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Alex Goodman",
+    "login": "wagoodman",
+    "bio": "www.linkedin.com/in/alexgoodman87",
+    "company": "@anchore ",
+    "location": "Alexandria, VA",
+    "email": null,
+    "twitter": "alexgoodman87",
+    "followers": 1653,
+    "public_repos": 107
+  },
+  "analysis": {
+    "career_trajectory": "This developer has shown a strong interest in Go programming language, with contributions to various projects such as anchore/syft, grype, and goreleaser. They have also demonstrated their ability to work on multiple projects simultaneously, handling different languages and technologies. Their experience with Go is evident in the number of projects they have contributed to, including those related to container images and filesystems.",
+    "technical_obsessions": [
+      {
+        "topic": "Container Image Security",
+        "evidence": "[2026-01-08] On anchore/syft: We want to do this, however, how this should be done is way out of date. [This PR](https://github.com/anchore/syft/pull/4317) added a new capabilities subcommand, which is driven by test observations and some parsing of golang code."
+      },
+      {
+        "topic": "Go Programming Language",
+        "evidence": "[2022-06-18] bubbles: TUI components for Bubble Tea \ud83c\udf61 (Lang: None)"
+      },
+      {
+        "topic": "Vulnerability Scanning",
+        "evidence": "[2026-01-09] On anchore/grype: Agreed, this looks to not be working as expected. The code path for product-subcomponent matching is [here](https://github.com/anchore/grype/blob/main/grype/vex/openvex/implementation.go) but I haven't thought through the specific changes needed."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Container Image Security",
+        "Go Programming Language",
+        "Vulnerability Scanning"
+      ],
+      "communication_style": "This developer is very communicative and collaborative, often leaving comments on PRs and engaging with other contributors. They also demonstrate a willingness to learn and adapt, as seen in their discussion about the capabilities subcommand in anchore/syft."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about container image security and Go programming language, with a strong focus on collaboration and communication.",
+      "conversation_starters": [
+        "What are some common vulnerabilities found in container images?",
+        "How do you approach testing for vulnerability scanning in Go-based projects?",
+        "Can you share your experience with anchore/syft and its capabilities subcommand?"
+      ]
+    }
+  }
+}

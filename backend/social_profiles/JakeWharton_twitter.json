@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "JakeWharton",
+  "url": null,
+  "profile": {
+    "name": "Jake Wharton",
+    "bio": "Expert developer | Kotlin & Java enthusiast | Sharing knowledge on Database Sharding and more!",
+    "location": "Pittsburgh, PA, USA",
+    "website": null,
+    "company": "Atlassian",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "Kotlin",
+      "Java"
+    ],
+    "posting_style": "Thoughtful and informative",
+    "common_arguments": "Providing insights, experiences, and opinions on various tech topics"
+  },
+  "audience_insight": null
+}

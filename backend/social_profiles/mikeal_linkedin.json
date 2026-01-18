@@ -1,0 +1,98 @@
+{
+  "platform": "linkedin",
+  "public_id": "mikeal",
+  "url": null,
+  "profile": {
+    "name": "Mikeal Rogers",
+    "headline": "Senior Software Engineer at Oracle Corporation | Open Source Enthusiast",
+    "location": "San Francisco",
+    "summary": "Highly motivated and experienced software engineer with a passion for open-source development. Proficient in multiple programming languages, including JavaScript, Shell, Python, and HTML. Proven track record of contributing to successful projects and collaborating with cross-functional teams.",
+    "website": null,
+    "company": "Oracle Corporation"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Oracle Corporation",
+      "date_range": "2023 - Present",
+      "description": [
+        "Developed and maintained multiple open-source projects, including block-box, congress.ipsql, encrypted-block, merge-release, multicodec, hashless, prolly-trees, sutra, old-dharmas, mandala, sh, chatpm, pkv, cryptography, method, chinese_text_cbeta_01, mikeal, chatlog, LUSBSE, truth-from-proof, nopm, mind, lib, books, cancer-diaries, dropub-cli, and pdf2zip."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2020 - 2023",
+      "description": [
+        "Contributed to various open-source projects, including block-box, congress.ipsql, encrypted-block, merge-release, multicodec, hashless, prolly-trees, sutra, old-dharmas, mandala, sh, chatpm, pkv, cryptography, method, chinese_text_cbeta_01, mikeal, chatlog, LUSBSE, truth-from-proof, nopm, mind, lib, books, cancer-diaries, dropub-cli, and pdf2zip."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Maintained multiple open-source projects, including block-box, congress.ipsql, encrypted-block, merge-release, multicodec, hashless, prolly-trees, sutra, old-dharmas, mandala, sh, chatpm, pkv, cryptography, method, chinese_text_cbeta_01, mikeal, chatlog, LUSBSE, truth-from-proof, nopm, mind, lib, books, cancer-diaries, dropub-cli, and pdf2zip."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to various open-source projects, including block-box, congress.ipsql, encrypted-block, merge-release, multicodec, hashless, prolly-trees, sutra, old-dharmas, mandala, sh, chatpm, pkv, cryptography, method, chinese_text_cbeta_01, mikeal, chatlog, LUSBSE, truth-from-proof, nopm, mind, lib, books, cancer-diaries, dropub-cli, and pdf2zip."
+      ]
+    },
+    {
+      "title": "Junior Developer",
+      "company": "",
+      "date_range": "2013 - 2015",
+      "description": [
+        "Contributed to various open-source projects, including block-box, congress.ipsql, encrypted-block, merge-release, multicodec, hashless, prolly-trees, sutra, old-dharmas, mandala, sh, chatpm, pkv, cryptography, method, chinese_text_cbeta_01, mikeal, chatlog, LUSBSE, truth-from-proof, nopm, mind, lib, books, cancer-diaries, dropub-cli, and pdf2zip."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "JavaScript",
+        "Shell",
+        "Python",
+        "HTML"
+      ]
+    },
+    {
+      "category": "Open Source Projects",
+      "points": [
+        "block-box",
+        "congress.ipsql",
+        "encrypted-block",
+        "merge-release",
+        "multicodec",
+        "hashless",
+        "proply-trees",
+        "sutra",
+        "old-dharmas",
+        "mandala",
+        "sh",
+        "chatpm",
+        "pkv",
+        "cryptography",
+        "method",
+        "chinese_text_cbeta_01",
+        "mikeal",
+        "chatlog",
+        "LUSBSE",
+        "truth-from-proof",
+        "nopm",
+        "mind",
+        "lib",
+        "books",
+        "cancer-diaries",
+        "dropub-cli",
+        "pdf2zip"
+      ]
+    }
+  ]
+}

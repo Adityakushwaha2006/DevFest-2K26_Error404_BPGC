@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "gabrielemariotti",
+  "url": null,
+  "profile": {
+    "name": "Gabriele Mariotti",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend:Gong.ioAs Gong.io is a remote if relevant",
+    "location": "Ancona, Italy",
+    "website": null,
+    "company": "Based on the provided information, I would recommend:\n\nGong.io\n\nAs Gong.io is a remote",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Design Patterns",
+      "Testing Frameworks",
+      "UI Components"
+    ],
+    "posting_style": "Technical explanations with occasional questions and feedback",
+    "common_arguments": "Detailed summaries of technical concepts, debates on best practices"
+  },
+  "audience_insight": null
+}

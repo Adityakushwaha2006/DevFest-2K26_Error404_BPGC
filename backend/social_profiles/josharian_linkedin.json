@@ -1,0 +1,77 @@
+{
+  "platform": "linkedin",
+  "public_id": "josharian",
+  "url": null,
+  "profile": {
+    "name": "Josh Bleecher Snyder",
+    "headline": "Senior Software Engineer at Startup | Open Source Enthusiast",
+    "location": "Bay Area",
+    "summary": "Highly motivated software engineer with a passion for open-source development and collaboration. Proven track record of delivering high-quality solutions while working on complex problems.",
+    "website": null,
+    "company": "Startup"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Startup",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained multiple open-source projects, including boldsoftware/exe.dev and boldsoftware/shelley.",
+        "Collaborated with cross-functional teams to design and implement software solutions.",
+        "Participated in code reviews and ensured adherence to best practices."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed custom software solutions for clients across various industries.",
+        "Worked on multiple personal projects, including tailscale/tailscale."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "boldsoftware",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Maintained and updated the boldsoftware/shelley project.",
+        "Contributed to discussions on golang/go, showcasing expertise in Go programming language."
+      ]
+    },
+    {
+      "title": "Open Source Developer",
+      "company": "Various Projects",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Contributed to multiple open-source projects, including boldsoftware/exe.dev.",
+        "Participated in code reviews and ensured adherence to best practices."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Go",
+          "JavaScript"
+        ]
+      },
+      {
+        "category": "Development Frameworks",
+        "points": [
+          "Golang",
+          "Node.js"
+        ]
+      },
+      {
+        "category": "Databases",
+        "points": [
+          "PostgreSQL",
+          "MongoDB"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "platform": "linkedin",
+  "public_id": "davidhalter",
+  "url": null,
+  "profile": {
+    "name": "Dave Halter",
+    "headline": "Senior Software Engineer at Grafana | Python Developer & Open Source Enthusiast",
+    "location": "Switzerland",
+    "summary": "Results-driven software engineer with over a decade of experience in Python development, focusing on parsing, type checking, and open source contributions.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for Dave Halter:\n\nGrafana"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Grafana",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained the Grafana Python parser, improving performance and accuracy.",
+        "Collaborated with cross-functional teams to integrate new features and plugins."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed custom solutions for clients using Python, Django, and IPython.",
+        "Contributed to open-source projects, including Django and PySide."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Django Project",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Maintained and improved the Django project's Python API.",
+        "Collaborated with other maintainers to resolve issues and implement new features."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2012 - 2015",
+      "description": [
+        "Developed custom solutions for clients using Python, Django, and IPython.",
+        "Contributed to open-source projects, including PySide."
+      ]
+    },
+    {
+      "title": "Researcher",
+      "company": "University of Zurich",
+      "date_range": "2011 - 2012",
+      "description": [
+        "Conducted research on image processing and computer vision using Python.",
+        "Presented findings at the EuroPython conference in 2014."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Python",
+        "Django",
+        "IPython"
+      ]
+    },
+    {
+      "category": "Development Frameworks",
+      "points": [
+        "PySide",
+        "Mypy",
+        "Pyright"
+      ]
+    },
+    {
+      "category": "Data Structures and Algorithms",
+      "points": [
+        "Parsing",
+        "Type Checking",
+        "Static Analysis"
+      ]
+    }
+  ]
+}

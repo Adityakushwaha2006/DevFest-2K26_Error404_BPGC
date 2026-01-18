@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Wes McKinney",
+    "login": "wesm",
+    "bio": "Principal Architect at https://posit.co. Creator of Python pandas and Ibis. Co-creator Apache Arrow. @apache Member and Apache Parquet PMC",
+    "company": "@posit-pbc",
+    "location": "Nashville, TN",
+    "email": null,
+    "twitter": "wesmckinn",
+    "followers": 15884,
+    "public_repos": 127
+  },
+  "analysis": {
+    "career_trajectory": "This developer has shown a wide range of technical interests, from low-level languages such as C++ and Rust to high-level languages like Python and CSS. They have also worked on various projects, including databases, benchmarking tools, and personal finance applications. Their recent work on Roborev, a background agent for reviewing git commits, suggests a strong interest in automation and workflow optimization.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "Their work on the arrow-datafusion repository suggests an understanding of data processing systems and query engines."
+      },
+      {
+        "topic": "Automation Tools",
+        "evidence": "Their involvement in Roborev, a background agent for reviewing git commits, demonstrates their interest in automation and workflow optimization."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Machine Learning",
+        "Automation",
+        "Database Systems"
+      ],
+      "communication_style": "This developer is known for being supportive and asking deep architectural questions. They also nitpick code style and are willing to provide detailed feedback."
+    },
+    "match_profile": {
+      "similar_user_traits": "They are most similar to a developer who is interested in automation, workflow optimization, and machine learning.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing database sharding?",
+        "How do you approach automating repetitive tasks in your workflow?",
+        "Can you walk me through your experience with Roborev?"
+      ]
+    }
+  }
+}

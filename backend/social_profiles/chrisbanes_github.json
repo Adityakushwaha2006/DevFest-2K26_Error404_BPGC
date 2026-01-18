@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Chris Banes",
+    "login": "chrisbanes",
+    "bio": null,
+    "company": "Android Engineer",
+    "location": "Bath, UK",
+    "email": null,
+    "twitter": "chrisbanes",
+    "followers": 18858,
+    "public_repos": 54
+  },
+  "analysis": {
+    "career_trajectory": "Started with Kotlin development in 2023, focusing on Android and multiplatform projects. Pivoted to Go programming in 2024, working on libraries for accessing Xtream-Codes servers and iptv-proxy. Continued to contribute to open-source projects, including Kotlin Multiplatform development documentation, Compose-driven architecture, and static code analysis tools.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Kotlin",
+        "Compose",
+        "Static Code Analysis"
+      ],
+      "communication_style": "Supportive mentor with a focus on explaining technical concepts"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about multiplatform development and open-source contributions.",
+      "conversation_starters": [
+        "What are some common challenges you face when working with Kotlin Multiplatform?",
+        "How do you approach static code analysis in your projects?",
+        "Can you share an experience where you had to troubleshoot a complex issue with Compose?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "vCluster",
+    "login": "loft-sh",
+    "bio": "Building Dev Tooling That Help Companies Scale Access To Kubernetes From 10 To 10,000 Engineers",
+    "company": null,
+    "location": "Your Kubernetes Cluster",
+    "email": "info@vcluster.com",
+    "twitter": "vcluster",
+    "followers": 643,
+    "public_repos": 152
+  },
+  "analysis": {
+    "career_trajectory": "Started with Shell scripting in 2025, moved to Go programming in late 2025, and then explored Kubernetes development with various projects including k8s-client-go, k8s-apiserver, vcluster-auto-nodes-gcp, vcluster-auto-nodes-azure, and vcluster-auto-nodes-aws. They also worked on Loft, a virtual cluster manager for Kubernetes, and developed a Go client for Kubernetes. Their recent work involves Terraform modules for Auto Nodes on GCP, Azure, and AWS.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Kubernetes",
+        "Terraform",
+        "Go programming"
+      ],
+      "communication_style": "Asks deep architectural questions and nitpicks code style."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is most similar to this user is likely a systems engineer or a cloud architect with experience in Kubernetes, Terraform, and Go programming.",
+      "conversation_starters": [
+        "What are some common challenges you face when deploying Kubernetes clusters?",
+        "How do you approach sharding databases for high availability?",
+        "Can you share an example of a successful Terraform deployment on GCP?"
+      ]
+    }
+  }
+}

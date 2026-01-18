@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Sam Stephenson",
+    "login": "sstephenson",
+    "bio": null,
+    "company": null,
+    "location": "Ciudad de M\u00e9xico",
+    "email": "sam@sls.name",
+    "twitter": null,
+    "followers": 0,
+    "public_repos": 25
+  },
+  "analysis": {
+    "career_trajectory": "Started with CoffeeScript in 2010, worked on various projects including a Rack application for serving static sites, a DNS server for Node.js, and a Ruby library for finding files in a set of paths. Pivoted to Ruby in the early 2010s, working on projects like a private group chat server, a bash profiler, and a Ruby interface to YUI Compressor. Continued to work with Ruby throughout the 2010s, exploring different libraries and tools like EJS template compiler, eco Embedded CoffeeScript templates, and bats Bash Automated Testing System. Recently started working with TypeScript in 2018.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Ruby",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about Ruby and its ecosystem, with a strong focus on automation and testing.",
+      "conversation_starters": [
+        "What are some common pitfalls when using database sharding in production?",
+        "How do you approach debugging complex issues in your Ruby applications?",
+        "Can you share an experience where you had to optimize the performance of a slow-running Ruby script?"
+      ]
+    }
+  }
+}

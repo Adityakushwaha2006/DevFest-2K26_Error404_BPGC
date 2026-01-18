@@ -1,0 +1,64 @@
+{
+  "platform": "linkedin",
+  "public_id": "sstephenson",
+  "url": null,
+  "profile": {
+    "name": "Sam Stephenson",
+    "headline": "Senior Software Engineer at Snowflake | Database Sharding Enthusiast",
+    "location": "Ciudad de M\u00e9xico",
+    "summary": "Highly motivated software engineer with a passion for database sharding and modern web development. Proficient in multiple programming languages, including Ruby, TypeScript, and JavaScript.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for Sam Stephenson:\n\nSnowflake"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Snowflake",
+      "company": "Snowflake",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and implemented a high-performance database sharding system for large-scale applications.",
+        "Collaborated with cross-functional teams to develop and deploy scalable web applications using modern technologies like TypeScript and React."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2015 - 2022",
+      "description": [
+        "Developed and maintained multiple open-source projects, including a DNS server for Node.js and a Ruby library for finding files in a set of paths.",
+        "Provided freelance services to clients, delivering high-quality software solutions on time and within budget."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2010 - 2015",
+      "description": [
+        "Contributed to the development and maintenance of multiple open-source projects, including a Rack application for serving static sites.",
+        "Participated in code reviews and ensured that all contributions adhered to high standards of quality and maintainability."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Ruby",
+      "TypeScript",
+      "JavaScript"
+    ],
+    "Database Management": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "Web Development Frameworks": [
+      "React",
+      "Angular",
+      "Vue.js"
+    ],
+    "Testing and Deployment Tools": [
+      "Jest",
+      "Cypress",
+      "Docker"
+    ]
+  }
+}

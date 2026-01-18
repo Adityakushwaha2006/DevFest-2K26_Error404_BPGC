@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "mikeal",
+  "url": null,
+  "profile": {
+    "name": "Mikeal Rogers",
+    "bio": "A developer passionate about language design, software development best practices, and open-source collaboration.",
+    "location": "San Francisco",
+    "website": null,
+    "company": "Oracle Corporation",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Language Design",
+      "Software Development Best Practices"
+    ],
+    "posting_style": "Informative and Engaging",
+    "common_arguments": "Explaining complex concepts in simple terms, providing context for code changes."
+  },
+  "audience_insight": null
+}

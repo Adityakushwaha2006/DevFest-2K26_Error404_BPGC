@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "kelseyhightower",
+  "url": null,
+  "profile": {
+    "name": "Kelsey Hightower",
+    "bio": "A punchy bio mentioning Based on Kelsey Hightower's tech stack and location, I would recommend: Insulet Corporation if relevant",
+    "location": "Washington",
+    "website": null,
+    "company": "Based on Kelsey Hightower's tech stack and location, I would recommend:\n\nInsulet Corporation",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Cloud Run",
+      "Kubernetes",
+      "HashiCorp's Vault"
+    ],
+    "posting_style": "Technical/Tutorial-focused with a dash of opinionated nitpicking on code style",
+    "common_arguments": "In-depth explanations and examples to help developers understand complex cloud-native concepts"
+  },
+  "audience_insight": null
+}

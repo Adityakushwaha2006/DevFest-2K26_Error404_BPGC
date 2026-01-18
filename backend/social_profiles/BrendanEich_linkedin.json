@@ -1,0 +1,54 @@
+{
+  "platform": "linkedin",
+  "public_id": "BrendanEich",
+  "url": null,
+  "profile": {
+    "name": "Brendan Eich",
+    "headline": "@brave Senior Software Engineer | Remote Developer | JavaScript Enthusiast",
+    "location": "Remote",
+    "summary": "Results-driven developer with a passion for JavaScript and its ecosystem. Proven track record of delivering high-quality projects, from open-source contributions to innovative solutions.",
+    "website": null,
+    "company": "@brave "
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer @brave",
+      "company": "@brave",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of a cutting-edge JavaScript project utilizing modern web technologies and best practices.",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions, ensuring timely delivery and meeting stakeholder expectations."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2015 - 2022",
+      "description": [
+        "Developed multiple projects for various clients, including a meta-circular interpreter (narcissus) and a falsey object for Node.js (nil).",
+        "Presented at Strange Loop 2012 and BrazilJS 2015 to share knowledge and experiences with the developer community."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Projects",
+      "date_range": "2010 - 2015",
+      "description": [
+        "Contributed to the development of the EcmaScript SIMD numeric type (ecmascript_simd) and worked on the website source code (website).",
+        "Maintained multiple open-source projects, ensuring their continued relevance and adoption in the developer community."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Technical Skills",
+      "points": [
+        "JavaScript (ES6+)",
+        "Node.js",
+        "Type Systems (ECMAScript)",
+        "Database Sharding",
+        "Web Development (HTML, CSS, React)"
+      ]
+    }
+  ]
+}

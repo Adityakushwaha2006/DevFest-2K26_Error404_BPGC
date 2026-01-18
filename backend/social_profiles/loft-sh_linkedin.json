@@ -1,0 +1,73 @@
+{
+  "platform": "linkedin",
+  "public_id": "loft-sh",
+  "url": null,
+  "profile": {
+    "name": "vCluster",
+    "headline": "Senior Software Engineer | Global Consulting Firm",
+    "location": "Your Kubernetes Cluster",
+    "summary": "Results-driven software engineer with expertise in Kubernetes development, Go programming, and shell scripting. Passionate about delivering high-quality solutions while staying up-to-date with the latest technologies.",
+    "website": null,
+    "company": "Based on the provided information, I recommend:\n\nAccenture\n\nAs Accenture is a global consulting firm"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Accenture",
+      "date_range": "2025 - Present",
+      "description": [
+        "Developed and maintained Terraform modules for Auto Nodes on GCP, Azure, and AWS.",
+        "Collaborated with cross-functional teams to deliver high-quality solutions for clients."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2023 - 2025",
+      "description": [
+        "Worked on various open-source projects, including k8s-client-go and Loft.",
+        "Developed a Go client for Kubernetes."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Contributed to the development and maintenance of various open-source projects.",
+        "Improved code quality, documentation, and community engagement."
+      ]
+    },
+    {
+      "title": "Shell Scripting Specialist",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed shell scripts for automating tasks and improving efficiency.",
+        "Collaborated with teams to implement scripting solutions."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Development Frameworks"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Go",
+          "Shell Scripting"
+        ]
+      },
+      {
+        "category": "Development Frameworks",
+        "points": [
+          "Kubernetes",
+          "Terraform"
+        ]
+      }
+    ]
+  }
+}

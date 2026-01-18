@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "David Tolnay",
+    "login": "dtolnay",
+    "bio": null,
+    "company": "0xF9BA143B95FF6D82",
+    "location": "Redwood City, California",
+    "email": "dtolnay@gmail.com",
+    "twitter": "davidtolnay",
+    "followers": 9078,
+    "public_repos": 121
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been actively contributing to Rust projects since 2025, with a focus on systems programming and compiler development. They have worked on various crates, including `typeid`, `threadbound`, `target-triple`, and `cxx`. Their contributions demonstrate their expertise in Rust's design principles and its applications.",
+    "technical_obsessions": [
+      {
+        "topic": "Rust Compiler Development",
+        "evidence": "Their comments on the Rust compiler's issues, such as #99301, show their involvement in shaping the language's direction."
+      },
+      {
+        "topic": "Systems Programming",
+        "evidence": "Their work on crates like `typeid` and `threadbound` showcases their expertise in systems programming."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Rust Compiler Development",
+        "Systems Programming",
+        "Compiler Internals"
+      ],
+      "communication_style": "This developer is known for asking insightful questions, providing thoughtful comments, and engaging in discussions about Rust's design principles and compiler development."
+    },
+    "match_profile": {
+      "similar_user_traits": "A systems programming enthusiast with a strong background in Rust compiler development.",
+      "conversation_starters": [
+        "What are your thoughts on the latest changes to Rust's ownership system?",
+        "How do you approach optimizing performance in Rust-based systems?",
+        "Can you walk me through your experience with Rust's compiler development process?"
+      ]
+    }
+  }
+}

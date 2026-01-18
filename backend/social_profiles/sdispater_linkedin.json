@@ -1,0 +1,69 @@
+{
+  "platform": "linkedin",
+  "public_id": "sdispater",
+  "url": null,
+  "profile": {
+    "name": "S\u00e9bastien Eustace",
+    "headline": "Senior Software Engineer at Sendgrid | Python Developer & Open Source Enthusiast",
+    "location": "France",
+    "summary": "Highly motivated and experienced software engineer with a passion for building scalable, efficient, and maintainable systems. Proficient in Python, with expertise in database sharding, command line interfaces, and timezone management.",
+    "website": null,
+    "company": "Sendgrid"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Sendgrid",
+      "company": "Sendgrid",
+      "date_range": "2023-Present",
+      "description": [
+        "Designed and implemented metadata-updater project using Python and CliKit.",
+        "Developed and maintained clikit projects, ensuring seamless integration with existing systems."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2020-2023",
+      "description": [
+        "Worked on various open-source projects, including [repo1], [repo2], and [repo3]."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2018-2020",
+      "description": [
+        "Maintained and updated [repo1] and [repo2]."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Python",
+        "JavaScript"
+      ]
+    },
+    {
+      "category": "Databases",
+      "points": [
+        "Redis",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "category": "Command Line Interfaces",
+      "points": [
+        "CliKit",
+        "Bash"
+      ]
+    },
+    {
+      "category": "Timezone Management",
+      "points": [
+        "pytzdata"
+      ]
+    }
+  ]
+}

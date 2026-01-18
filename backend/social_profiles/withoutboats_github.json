@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "srrrse",
+    "login": "withoutboats",
+    "bio": "In civilizations without boats, dreams dry up, espionage takes the place of adventure, and police take the place of pirates.",
+    "company": null,
+    "location": "Berlin",
+    "email": "saoirse@without.boats",
+    "twitter": "withoutboats",
+    "followers": 2033,
+    "public_repos": 71
+  },
+  "analysis": {
+    "career_trajectory": "Started with Rust in 2018, focusing on systems programming and concurrency. In 2020, began exploring async programming with libraries like async-std and async-h1. Later that year, delved into parser generation with lalrpop and concurrent data structures with dashmap. The following years saw a continued interest in Rust's unique features, such as garbage collection with shifgrethor and exception handling without fehler. In 2023, started exploring generators with propane.",
+    "technical_obsessions": [
+      {
+        "topic": "Zero-cost futures and streams",
+        "evidence": "[2018-11-14] futures-rs: Zero-cost futures and streams in Rust (Lang: Rust)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "async programming",
+        "concurrency",
+        "parser generation"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "Systems programmer with a focus on concurrency and async programming.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing concurrent systems in Rust?",
+        "How do you approach optimizing performance in async code?",
+        "Can you explain the design decisions behind lalrpop?"
+      ]
+    }
+  }
+}

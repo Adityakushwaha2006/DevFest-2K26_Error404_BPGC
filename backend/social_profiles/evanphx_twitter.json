@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "evanphx",
+  "url": null,
+  "profile": {
+    "name": "Evan Phoenix",
+    "bio": "@mirendev, Dev | Testing & Debugging Enthusiast",
+    "location": "Los Angeles, CA",
+    "website": null,
+    "company": "@mirendev ",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Testing and Debugging",
+      "Database Sharding"
+    ],
+    "posting_style": "Informative and conversational",
+    "common_arguments": "Sharing knowledge on testing methodologies, debugging techniques, and database sharding strategies."
+  },
+  "audience_insight": null
+}

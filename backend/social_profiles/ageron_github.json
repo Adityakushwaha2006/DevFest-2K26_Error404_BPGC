@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Aur\u00e9lien Geron",
+    "login": "ageron",
+    "bio": "Author of the book Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow. Former PM of YouTube video classification and founder & CTO of Wifirst.",
+    "company": null,
+    "location": "Auckland",
+    "email": null,
+    "twitter": null,
+    "followers": 16925,
+    "public_repos": 89
+  },
+  "analysis": {
+    "career_trajectory": "Started with Python in 2025, worked on various projects including Computer Vision and Machine Learning. Recently started learning Rust and its applications.",
+    "technical_obsessions": [
+      {
+        "topic": "Machine Learning",
+        "evidence": "handson-ml2: A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in Python using Scikit-Learn, Keras and TensorFlow 2."
+      },
+      {
+        "topic": "Computer Vision",
+        "evidence": "towards-data-science/tv-movie-recommendation-system: A Python-based implementation of a movie recommendation system"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Machine Learning",
+        "Python",
+        "Rust"
+      ],
+      "communication_style": "Supportive mentor, asks deep architectural questions"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about Machine Learning and Computer Vision, with a strong background in Python.",
+      "conversation_starters": [
+        "What's your approach to handling imbalanced datasets in machine learning?",
+        "Can you walk me through your experience with computer vision libraries like OpenCV?",
+        "How do you stay up-to-date with the latest developments in Rust and its applications?"
+      ]
+    }
+  }
+}

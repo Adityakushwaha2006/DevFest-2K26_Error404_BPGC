@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "ocornut",
+  "url": null,
+  "profile": {
+    "name": "omar",
+    "bio": "Highly technical C++ developer | GPU Programming enthusiast | Dear ImGui expert",
+    "location": "Paris, France",
+    "website": null,
+    "company": "Disco Hello / Lizardcube",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "C++",
+      "GPU Programming",
+      "Dear ImGui"
+    ],
+    "posting_style": "Technical explanations and discussions",
+    "common_arguments": "In-depth analysis of complex topics, with a focus on community engagement"
+  },
+  "audience_insight": null
+}

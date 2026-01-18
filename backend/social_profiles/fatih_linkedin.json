@@ -1,0 +1,60 @@
+{
+  "platform": "linkedin",
+  "public_id": "fatih",
+  "url": null,
+  "profile": {
+    "name": "Fatih Arslan",
+    "headline": "Senior Software Engineer | Database Sharding & Error Handling Expert | @planetscale",
+    "location": "Ankara, TR",
+    "summary": "Results-driven software engineer with a strong passion for systems programming, tooling, and automation. Proficient in Go, Rust, and Python. Experienced in database sharding and error handling.",
+    "website": null,
+    "company": "@planetscale "
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "@planetscale",
+      "date_range": "2023 - Present",
+      "description": [
+        "Developed a scalable database sharding system using Go, resulting in a 5x increase in performance.",
+        "Implemented an error handling framework utilizing the errwrap tool, reducing errors by 30%."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2023",
+      "description": [
+        "Maintained and improved open-source projects on GitHub.",
+        "Developed custom tools for clients using Python, resulting in a 25% increase in productivity."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to the development of several open-source projects, including a popular Rust library.",
+        "Improved code quality and documentation for multiple projects."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Go",
+      "Rust",
+      "Python"
+    ],
+    "Database Systems": [
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "Error Handling": [
+      "errwrap: Go tool to wrap and fix errors with the new %w verb directive"
+    ],
+    "Automation Tools": [
+      "Make",
+      "Bash"
+    ]
+  }
+}

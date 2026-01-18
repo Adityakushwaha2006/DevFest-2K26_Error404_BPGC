@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "streaak",
+  "url": null,
+  "profile": {
+    "name": null,
+    "bio": "Bug Bounty Hunter | Security Researcher | Passionate about pushing boundaries and finding vulnerabilities.",
+    "location": "Remote",
+    "website": null,
+    "company": "Mattermost",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Bug Bounty Hunting",
+      "Security Research"
+    ],
+    "posting_style": "Technical and informative, with a touch of humor",
+    "common_arguments": "In-depth analysis of exploit development and bug bounty hunting strategies"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Jason Miller",
+    "login": "developit",
+    "bio": "Creator of @preactjs. DX @Shopify.",
+    "company": "@Shopify",
+    "location": "Hamilton, Ontario, Canada",
+    "email": null,
+    "twitter": "_developit",
+    "followers": 12927,
+    "public_repos": 343
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been working with JavaScript for several years, starting with basic projects like an ES6 RESTful Express API and gradually moving on to more complex tools like Web Workers, Preact, and React Router. They have also explored other languages like Rust, using it for a suite of high-performance tools. Their recent work includes building microbundles, task worklets, and even creating their own blog.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": ""
+      },
+      {
+        "topic": "Web Workers",
+        "evidence": "\ud83d\udc77\u200d\u2640\ufe0f Use Web Workers in Jest / JSDOM \ud83c\udf08"
+      },
+      {
+        "topic": "Preact",
+        "evidence": ":guitar: Ready-to-rock Preact starter project, powered by Webpack."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Web Workers",
+        "Preact",
+        "JavaScript"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is also interested in JavaScript and has experience with Web Workers and Preact.",
+      "conversation_starters": [
+        "What inspired you to start using Web Workers?",
+        "How do you approach optimizing performance in your React applications?",
+        "Can you share any experiences with building microbundles?"
+      ]
+    }
+  }
+}

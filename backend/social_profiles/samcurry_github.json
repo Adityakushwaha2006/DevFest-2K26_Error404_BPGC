@@ -1,0 +1,25 @@
+{
+  "profile": {
+    "name": null,
+    "login": "SamCurry",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "email": null,
+    "twitter": null,
+    "followers": 0,
+    "public_repos": 0
+  },
+  "analysis": {
+    "career_trajectory": "",
+    "technical_obsessions": [],
+    "comment_analytics": {
+      "primary_interests": [],
+      "communication_style": ""
+    },
+    "match_profile": {
+      "similar_user_traits": "",
+      "conversation_starters": []
+    }
+  }
+}

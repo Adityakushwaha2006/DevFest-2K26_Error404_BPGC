@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "name": "Rafael Mendon\u00e7a Fran\u00e7a",
+    "login": "rafaelfranca",
+    "bio": null,
+    "company": "Shopify",
+    "location": "Ottawa, ON",
+    "email": "rafael@franca.dev",
+    "twitter": "rafaelfranca",
+    "followers": 3500,
+    "public_repos": 182
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been actively contributing to Ruby on Rails and other related projects since 2021. They have also explored various tools and technologies such as Dev Containers, Docker, and Crystal. Their experience with testing frameworks like Minitest and RSpec suggests a strong focus on quality assurance. The developer has shown interest in learning about new technologies and has participated in discussions on GitHub and Stack Overflow.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found, but the developer has contributed to projects that involve data distribution and caching."
+      },
+      {
+        "topic": "Testing Frameworks",
+        "evidence": "Contributed to Minitest and RSpec projects, demonstrating expertise in testing frameworks."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Dev Containers",
+        "Docker",
+        "Crystal",
+        "Testing Frameworks"
+      ],
+      "communication_style": "Engaging and informative, often providing context and explanations for their suggestions."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about quality assurance and testing frameworks, with a strong interest in learning new technologies.",
+      "conversation_starters": [
+        "What are some best practices for implementing Dev Containers in a Ruby on Rails project?",
+        "How do you approach testing complex systems?",
+        "Can you share your experience with Crystal?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "platform": "linkedin",
+  "public_id": "tannerlinsley",
+  "url": null,
+  "profile": {
+    "name": "Tanner Linsley",
+    "headline": "Senior Software Engineer | @tanstack & @nozzle",
+    "location": "Utah",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for building scalable, performant applications. Proficient in JavaScript, TypeScript, React, and Tailwind-in-JS.",
+    "website": null,
+    "company": "@tanstack & @nozzle"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer | @tanstack & @nozzle",
+      "company": "@tanstack & @nozzle",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and implemented global async server-state management for a high-traffic application.",
+        "Developed a concise API for exploratory data visualization, resulting in improved performance and user experience."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Built custom applications using React, TypeScript, and Tailwind-in-JS for clients across the globe.",
+        "Collaborated with teams to deliver high-quality solutions on time and within budget."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open Source Projects",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Contributed to the development of multiple open-source projects, including bug fixes and feature enhancements.",
+        "Engaged with the community through issues, pull requests, and discussions."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2021 - 2022",
+      "description": [
+        "Developed custom applications using JavaScript, React, and Tailwind-in-JS for clients.",
+        "Delivered high-quality solutions on time and within budget."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "points": [
+        "React",
+        "Tailwind-in-JS"
+      ]
+    },
+    {
+      "category": "Databases",
+      "points": [
+        "Database Sharding"
+      ]
+    },
+    {
+      "category": "Type Systems",
+      "points": [
+        "TypeScript"
+      ]
+    }
+  ]
+}

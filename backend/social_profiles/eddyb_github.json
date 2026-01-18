@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Eduard-Mihai Burtescu",
+    "login": "eddyb",
+    "bio": "@Rust-GPU compiler R&D at @vectorware-inc\r\n(previously: @rust-lang compiler team)",
+    "company": null,
+    "location": "Bucharest, Romania",
+    "email": "eddyb@lyken.rs",
+    "twitter": null,
+    "followers": 707,
+    "public_repos": 108
+  },
+  "analysis": {
+    "career_trajectory": "Started with Shell scripting in 2020, exploring Rust systems programming and contributing to various Rust projects such as rustc-guide, rust-log-analyzer, gll, llvm-project, fish-shell, highfive, measureme, glOOF, rfcs, rust-ar, odht, rust-reduce, bug-cargo-overlapping-crate-names, rust-gpu, sobek, unicode-general-category, rustybuzz, vkrunner, nixpkgs, makepad, abel465-rust-gpu-nixos-example, and cprep. Recently worked on Rust-specific projects like rust, a safe, concurrent, practical language, and made contributions to the Nix Packages collection.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found in their repo history."
+      },
+      {
+        "topic": "Concurrent Programming",
+        "evidence": "No specific evidence found in their repo history."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Rust",
+        "Systems programming",
+        "Contributing to open-source projects"
+      ],
+      "communication_style": "Asks deep architectural questions, Nitpicks code style, and Supportive mentor."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about Rust and systems programming, with a strong focus on contributing to open-source projects.",
+      "conversation_starters": [
+        "What inspired you to start working on the rustc project?",
+        "How do you approach concurrent programming in your daily work?",
+        "Can you share an experience where you had to debug a complex issue in one of your open-source contributions?"
+      ]
+    }
+  }
+}

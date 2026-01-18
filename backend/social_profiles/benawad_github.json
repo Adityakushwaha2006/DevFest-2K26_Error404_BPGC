@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Ben Awad",
+    "login": "benawad",
+    "bio": "Voidpet cofounder \u2022 ex-youtuber",
+    "company": "Voidpet",
+    "location": "San Francisco, CA",
+    "email": null,
+    "twitter": "benawad",
+    "followers": 29072,
+    "public_repos": 256
+  },
+  "analysis": {
+    "career_trajectory": "Started with JavaScript in 2023, explored GraphQL and React Native, then delved into TypeScript and Node.js, showcasing a versatile skillset from blogging to full-stack development.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "GraphQL",
+        "React Native",
+        "TypeScript"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "Full-stack developer with a passion for React Native and GraphQL",
+      "conversation_starters": [
+        "What inspired you to start building React Native apps?",
+        "How do you approach database sharding in your projects?",
+        "Can you share any challenges you've faced while working with TypeScript?"
+      ]
+    }
+  }
+}

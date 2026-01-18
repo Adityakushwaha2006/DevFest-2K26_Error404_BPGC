@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Will McGugan",
+    "login": "willmcgugan",
+    "bio": "I'm a full-stack software developer and Python expert. Creator and maintainer of @Textualize \r\n\r\nCreator of Rich, Textual, and @PyFilesystem. ",
+    "company": null,
+    "location": "Edinburgh, UK",
+    "email": "willmcgugan@gmail.com",
+    "twitter": "willmcgugan",
+    "followers": 4660,
+    "public_repos": 43
+  },
+  "analysis": {
+    "career_trajectory": "Started with Python in 2020, pivoted to Rust systems programming in late 2023, and has been actively contributing to open-source projects such as Textualize/textual and batrachianai/toad.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found, but the developer's experience with pydantic suggests they have a strong understanding of data structures and validation."
+      },
+      {
+        "topic": "Terminal Emulators",
+        "evidence": "The developer's discussion on Textualize/textual about terminal emulators and their limitations provides insight into their understanding of user interface and terminal interactions."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Textualize/textual",
+        "batrachianai/toad",
+        "pydantic"
+      ],
+      "communication_style": "Asks technical questions, provides detailed explanations, and engages in discussions about open-source projects and their limitations."
+    },
+    "match_profile": {
+      "similar_user_traits": "Similar to a developer who is detail-oriented, enjoys contributing to open-source projects, and has experience with Rust systems programming.",
+      "conversation_starters": [
+        "What challenges have you faced while working on Textualize/textual?",
+        "How do you approach debugging complex issues in batrachianai/toad?",
+        "Can you explain the trade-offs between using pydantic for data validation versus a custom solution?"
+      ]
+    }
+  }
+}

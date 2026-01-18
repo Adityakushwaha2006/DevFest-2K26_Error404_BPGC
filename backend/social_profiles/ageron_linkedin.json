@@ -1,0 +1,66 @@
+{
+  "platform": "linkedin",
+  "public_id": "ageron",
+  "url": null,
+  "profile": {
+    "name": "Aur\u00e9lien Geron",
+    "headline": "Senior Software Engineer at Lab126 | Machine Learning & Computer Vision Enthusiast",
+    "location": "Auckland",
+    "summary": "Highly motivated software engineer with a passion for machine learning and computer vision. Proficient in Python, Rust, and various deep learning frameworks.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer:\n\nLab126\n\nThis company is a"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Lab126",
+      "company": "Lab126",
+      "date_range": "2025 - Present",
+      "description": [
+        "Developed and maintained multiple projects utilizing computer vision and machine learning techniques, including a movie recommendation system.",
+        "Collaborated with cross-functional teams to design and implement software solutions for various clients."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2025",
+      "description": [
+        "Developed and maintained multiple open-source projects, including a Python-based implementation of a machine learning model.",
+        "Provided software development services to various clients, including data analysis and visualization."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Maintained multiple open-source projects, ensuring code quality and security.",
+        "Contributed to various bug fixes and feature enhancements."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Python",
+        "Rust"
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "points": [
+        "Scikit-Learn",
+        "Keras",
+        "TensorFlow 2"
+      ]
+    },
+    {
+      "category": "Computer Vision",
+      "points": [
+        "OpenCV",
+        "PyTorch"
+      ]
+    }
+  ]
+}

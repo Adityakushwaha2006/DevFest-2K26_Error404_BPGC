@@ -1,0 +1,21 @@
+{
+  "platform": "twitter",
+  "handle": "feross",
+  "url": null,
+  "profile": {
+    "name": "Feross Aboukhadijeh",
+    "bio": "A punchy bio mentioning @SocketDev, @WebTorrent, @Standard if relevant",
+    "location": "Stanford, CA",
+    "website": null,
+    "company": "@SocketDev, @WebTorrent, @Standard",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding"
+    ],
+    "posting_style": "Technical explanations with occasional debates and discussions",
+    "common_arguments": "Detailed summaries of the benefits and challenges of database sharding"
+  },
+  "audience_insight": null
+}

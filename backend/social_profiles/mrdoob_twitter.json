@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": null,
+  "url": null,
+  "profile": {
+    "name": null,
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend the following employer for the developer 'None' who is if relevant",
+    "location": "Remote",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for the developer 'None' who is",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Tag1",
+      "Tag2"
+    ],
+    "posting_style": "Tone description",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,59 @@
+{
+  "platform": "linkedin",
+  "public_id": "jessfraz",
+  "url": null,
+  "profile": {
+    "name": "Jess Frazelle",
+    "headline": "@KittyCAD Senior Software Engineer | Systems Programming & DevOps Expert",
+    "location": "PID 1",
+    "summary": "Highly skilled developer with a strong foundation in computer science principles, leveraging systems programming languages like Go and C, as well as containerization tools like Docker. Proficient in multiple languages including Python, Lua, and Rust.",
+    "website": null,
+    "company": "@KittyCAD "
+  },
+  "experience": [
+    {
+      "title": "@KittyCAD Senior Software Engineer",
+      "company": "@KittyCAD",
+      "date_range": "2022-Present",
+      "description": [
+        "Designed and implemented scalable systems using Go and Docker",
+        "Developed REST APIs with Rust for exposing data to clients"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020-2021",
+      "description": [
+        "Built custom software solutions using Python and C",
+        "Created Dockerfiles and worked with Kubernetes for containerization"
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open Source Projects",
+      "date_range": "2018-2020",
+      "description": [
+        "Contributed to multiple open source projects using Lua and Rust",
+        "Improved code quality and documentation for various repositories"
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Go",
+      "C",
+      "Python",
+      "Lua",
+      "Rust"
+    ],
+    "Containerization": [
+      "Dockerfile format and parser",
+      "Docker - the open-source application container engine"
+    ],
+    "Database Sharding": [],
+    "DevOps": [
+      "Kubernetes"
+    ]
+  }
+}

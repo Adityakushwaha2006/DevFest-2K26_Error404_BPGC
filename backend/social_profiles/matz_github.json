@@ -1,0 +1,37 @@
+{
+  "profile": {
+    "name": "Yukihiro \"Matz\" Matsumoto",
+    "login": "matz",
+    "bio": null,
+    "company": "Ruby Association,NaCl",
+    "location": "Matsue, Japan",
+    "email": "matz@ruby.or.jp",
+    "twitter": null,
+    "followers": 10193,
+    "public_repos": 10
+  },
+  "analysis": {
+    "career_trajectory": "Started with C programming in 2012, moved to Ruby development with the creation of a lightweight Ruby implementation in 2014. Continued working on various projects, including lock-free queue implementations and keyboard controller firmware for Atmel AVR and ARM USB families. In 2020, started exploring mini mruby compiler integrated with mruby/c VM for one-chip microcontroller. Recently worked on process module for mruby and a prototype of stream based programming language.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Ruby development",
+        "System programming"
+      ],
+      "communication_style": "Engaging and in-depth, often discussing the root cause of issues and exploring alternative solutions."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about system programming and Ruby development.",
+      "conversation_starters": [
+        "What inspired you to explore system programming?",
+        "How do you approach debugging complex issues in your codebase?",
+        "Can you share an experience where you had to optimize performance in a critical section of your code?"
+      ]
+    }
+  }
+}

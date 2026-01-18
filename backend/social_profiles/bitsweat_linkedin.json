@@ -1,0 +1,74 @@
+{
+  "platform": "linkedin",
+  "public_id": "BitSweat",
+  "url": null,
+  "profile": {
+    "name": "Neil Stanley",
+    "headline": "Senior Software Engineer at NetApp | Delivering innovative solutions with a passion for open-source development",
+    "location": "Bellevue, Washington USA",
+    "summary": "Highly motivated and detail-oriented software engineer with a strong background in computer science. Proficient in multiple programming languages, with a focus on collaboration and continuous learning.",
+    "website": null,
+    "company": "NetApp"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at NetApp",
+      "company": "NetApp",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and developed scalable software solutions for enterprise clients",
+        "Collaborated with cross-functional teams to deliver high-quality products on time",
+        "Mentored junior engineers and contributed to the growth of the team"
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Contributed to multiple open-source projects, including bug fixes and feature enhancements",
+        "Collaborated with community members to improve project visibility and adoption"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Developed custom software solutions for clients across various industries",
+        "Managed multiple projects simultaneously, meeting tight deadlines and delivering high-quality results"
+      ]
+    },
+    {
+      "title": "Software Engineer at XYZ Corporation",
+      "company": "XYZ Corporation",
+      "date_range": "2012 - 2015",
+      "description": [
+        "Designed and developed software applications for enterprise clients",
+        "Collaborated with the QA team to ensure high-quality products"
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript"
+    ],
+    "Development Frameworks": [
+      "Spring Boot",
+      "Django",
+      "React"
+    ],
+    "Database Management": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "Agile Methodologies": [
+      "Scrum",
+      "Kanban"
+    ]
+  }
+}

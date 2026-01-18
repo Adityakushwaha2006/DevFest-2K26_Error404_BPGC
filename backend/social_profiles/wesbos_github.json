@@ -1,0 +1,50 @@
+{
+  "profile": {
+    "name": "Wes Bos",
+    "login": "wesbos",
+    "bio": "I create courses that make learning things like JavaScript easy and fun \ud83d\udd25",
+    "company": "me",
+    "location": "Hamilton, Ontario",
+    "email": "wes@wesbos.com",
+    "twitter": "wesbos",
+    "followers": 35167,
+    "public_repos": 419
+  },
+  "analysis": {
+    "career_trajectory": "This developer has shown a wide range of skills and interests, from web components to 3D rendering and AI-powered projects. They have also demonstrated their ability to work with various programming languages, including TypeScript, JavaScript, CSS, and HTML. Their projects often involve creating tools and utilities for developers, showcasing their problem-solving skills and attention to detail.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      },
+      {
+        "topic": "Web Components",
+        "evidence": "[2025-05-01] media-chrome: Custom elements (web components) for making audio and video player controls that look great in your website or app. (Lang: TypeScript)"
+      },
+      {
+        "topic": "AI-powered projects",
+        "evidence": "[2025-11-10] eye-ballz: AI generated + 3D eyeball thing (Lang: TypeScript), [2025-11-10] sticker-dream: voice activated sticker dreamer and printer.  (Lang: TypeScript)"
+      },
+      {
+        "topic": "Low-boilerplate RPC systems",
+        "evidence": "[2025-09-23] capnweb: JavaScript/TypeScript-native, low-boilerplate, object-capability RPC system (Lang: None)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Mad CSS",
+        "Sentry",
+        "Web Components"
+      ],
+      "communication_style": "Asks deep architectural questions, Nitpicks code style"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented and interested in creating tools for developers.",
+      "conversation_starters": [
+        "What inspired you to create Mad CSS?",
+        "How do you approach debugging complex issues in your projects?",
+        "Can you share any experiences with low-boilerplate RPC systems?"
+      ]
+    }
+  }
+}

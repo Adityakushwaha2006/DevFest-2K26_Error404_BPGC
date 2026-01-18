@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "matz",
+  "url": null,
+  "profile": {
+    "name": "Yukihiro \"Matz\" Matsumoto",
+    "bio": "Expert Ruby developer & system programmer | Exploring the intersection of code and systems.",
+    "location": "Matsue, Japan",
+    "website": null,
+    "company": "Ruby Association,NaCl",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "System Programming"
+    ],
+    "posting_style": "In-depth analysis with a focus on root cause exploration",
+    "common_arguments": "Detailed summaries of debates around database sharding, system design, and performance optimization"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "omar",
+    "login": "ocornut",
+    "bio": null,
+    "company": "Disco Hello / Lizardcube",
+    "location": "Paris, France",
+    "email": null,
+    "twitter": "ocornut",
+    "followers": 3979,
+    "public_repos": 17
+  },
+  "analysis": {
+    "career_trajectory": "This developer has shown a strong interest in C++ programming, starting with various projects such as gpuvis, glfw, soloud, and stb. They have also worked on more complex projects like SDL, single_file_libs, and implot. Recently, they have been actively contributing to the Dear ImGui project, including fixing issues and pushing new commits. This suggests a strong technical foundation in C++ and a willingness to tackle complex problems.",
+    "technical_obsessions": [
+      {
+        "topic": "Viewports and Focus",
+        "evidence": "The developer has been actively discussing and fixing issues related to viewports and focus in the Dear ImGui project, including comments on GitHub and commits made to the repository."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "C++",
+        "Dear ImGui",
+        "GPU Programming"
+      ],
+      "communication_style": "This developer is highly technical and communicates complex ideas clearly. They are also willing to engage in discussions and provide detailed explanations, making them a great conversationalist."
+    },
+    "match_profile": {
+      "similar_user_traits": "A systems programmer with a strong interest in C++ and GPU programming.",
+      "conversation_starters": [
+        "What's your experience with GPU programming? How do you approach optimizing performance?",
+        "Can you walk me through your process for debugging complex issues in C++?",
+        "How do you stay up-to-date with the latest developments in Dear ImGui?"
+      ]
+    }
+  }
+}

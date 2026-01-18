@@ -1,0 +1,61 @@
+{
+  "platform": "linkedin",
+  "public_id": "steveklabnik",
+  "url": null,
+  "profile": {
+    "name": "Steve Klabnik",
+    "headline": "Senior Software Engineer at East River Source Control",
+    "location": "Austin, TX",
+    "summary": "Highly skilled developer with a diverse range of interests and skills in programming languages such as Rust, Ruby, TypeScript, JavaScript, MDX, and Go. Proven track record of working on experimental projects and contributing to open-source initiatives.",
+    "website": null,
+    "company": "East River Source Control"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "East River Source Control",
+      "date_range": "2023-Present",
+      "description": [
+        "Developed snapshot testing and trie-based data structures for improved coding efficiency.",
+        "Implemented memory upgrades for coding agents to enhance performance."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020-2022",
+      "description": [
+        "Worked on experimental package managers and doubly linked lists.",
+        "Contribution to open-source projects, including custom instructions for ChatGPT."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018-2020",
+      "description": [
+        "Maintained and updated various open-source repositories.",
+        "Contributed to the development of software build labour-saving devices."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Rust",
+      "Ruby",
+      "TypeScript",
+      "JavaScript",
+      "MDX",
+      "Go"
+    ],
+    "Development Tools": [
+      "Experimental package managers",
+      "Doubly linked lists",
+      "Trie-based data structures",
+      "Memory upgrades for coding agents"
+    ],
+    "Database Management": [
+      "Database sharding"
+    ]
+  }
+}

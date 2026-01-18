@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "dashbitco",
+  "url": null,
+  "profile": {
+    "name": "Dashbit",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend Enphase Energy as a potential employer for Dashbit. if relevant",
+    "location": "Remote",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Enphase Energy as a potential employer for Dashbit.",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Elixir",
+      "Rust",
+      "Systems Programming"
+    ],
+    "posting_style": "Supportive mentor",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

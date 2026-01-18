@@ -1,0 +1,60 @@
+{
+  "platform": "linkedin",
+  "public_id": "bradfitz",
+  "url": null,
+  "profile": {
+    "name": "Brad Fitzpatrick",
+    "headline": "Senior Software Engineer at Tailscale | Networking and Security Expert",
+    "location": "Seattle",
+    "summary": "Highly motivated software engineer with a strong passion for networking, security, and system administration. Proven track record of contributing to open-source projects and delivering high-quality solutions.",
+    "website": null,
+    "company": "Tailscale"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Tailscale",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and implemented a secure VPN solution for remote teams using Tailscale's proprietary protocol.",
+        "Collaborated with cross-functional teams to develop and maintain the Tailscale platform, ensuring seamless scalability and performance.",
+        "Developed and maintained extensive documentation for the Tailscale project, making it easier for users to onboard and troubleshoot."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Contributed to multiple open-source projects, including perkeep/perkeep, tailscale/tailscale, tink-crypto/tink-go, and winfsp/go-winfsp.",
+        "Developed and maintained several custom tools and scripts for clients, improving their overall efficiency and productivity."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Perkeep Project",
+      "date_range": "2016 - 2018",
+      "description": [
+        "Responsible for bug fixes, feature implementations, and documentation for the perkeep project.",
+        "Collaborated with other maintainers to ensure the project's stability and security."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2015 - 2016",
+      "description": [
+        "Developed custom solutions for clients using various programming languages, including Go.",
+        "Improved the overall quality and performance of their projects through extensive testing and debugging."
+      ]
+    }
+  ],
+  "skills": {
+    "category": "Development Tools",
+    "points": [
+      "Gokrazy (Go build and deployment tool)",
+      "xz (compression library)",
+      "Make (build automation tool)"
+    ]
+  }
+}

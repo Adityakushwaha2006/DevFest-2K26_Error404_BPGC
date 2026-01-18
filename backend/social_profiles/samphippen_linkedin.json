@@ -1,0 +1,68 @@
+{
+  "platform": "linkedin",
+  "public_id": "samphippen",
+  "url": null,
+  "profile": {
+    "name": null,
+    "headline": "Remote Software Engineer | Delivering innovative solutions with a passion for collaboration and continuous learning",
+    "location": "Remote",
+    "summary": "Results-driven software engineer with expertise in multiple programming languages, agile methodologies, and cloud-based technologies. Proven track record of delivering high-quality projects on time.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend:\n\nEvernote\n\nAs Evernote is a remote-friendly"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Evernote",
+      "company": "Evernote",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and developed scalable backend systems using Python, Django, and AWS",
+        "Collaborated with cross-functional teams to deliver feature-rich products on time",
+        "Improved code quality and reduced bugs by 30% through rigorous testing and refactoring"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed multiple web applications using React, Node.js, and MongoDB",
+        "Worked with clients to understand their requirements and deliver custom solutions"
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "GitHub",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to multiple open-source projects using Git, Python, and JavaScript",
+        "Improved code quality and added features through collaborative efforts"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Python",
+        "JavaScript",
+        "Django",
+        "React"
+      ]
+    },
+    {
+      "category": "Cloud Platforms",
+      "points": [
+        "AWS",
+        "Google Cloud"
+      ]
+    },
+    {
+      "category": "Agile Methodologies",
+      "points": [
+        "Scrum",
+        "Kanban"
+      ]
+    }
+  ]
+}

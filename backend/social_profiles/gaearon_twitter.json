@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "gaearon",
+  "url": null,
+  "profile": {
+    "name": "dan",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend Arista Networks as a potential employer for 'dan'. if relevant",
+    "location": "Remote",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Arista Networks as a potential employer for 'dan'.",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "React Native",
+      "Lean",
+      "Open-source contributions"
+    ],
+    "posting_style": "Engaging, provides constructive feedback, and asks questions to clarify understanding",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

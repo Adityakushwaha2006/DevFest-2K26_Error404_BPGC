@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "albinowax",
+  "url": null,
+  "profile": {
+    "name": "James Kettle",
+    "bio": "Expert in web security and penetration testing, passionate about helping others improve their skills.",
+    "location": "England",
+    "website": null,
+    "company": "PortSwigger Web Security",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Web Security",
+      "Penetration Testing"
+    ],
+    "posting_style": "Informative and supportive",
+    "common_arguments": "Detailed explanations of security concepts and best practices."
+  },
+  "audience_insight": null
+}

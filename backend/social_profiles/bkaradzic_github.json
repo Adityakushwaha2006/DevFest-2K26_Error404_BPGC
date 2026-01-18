@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Branimir Karad\u017ei\u0107",
+    "login": "bkaradzic",
+    "bio": "coder (gamedev, open source, ex-demoscene) \ud83c\udf40 author of bgfx open source rendering library",
+    "company": null,
+    "location": "Los Angeles, CA",
+    "email": null,
+    "twitter": "bkaradzic",
+    "followers": 1799,
+    "public_repos": 38
+  },
+  "analysis": {
+    "career_trajectory": "This developer has shown a wide range of skills and interests throughout their career, from working on various open-source projects to contributing to the development of several libraries and frameworks. They have demonstrated expertise in C++, Lua, and JavaScript, and have worked on projects related to graphics rendering, game development, and web development. Their experience with bgfx, a cross-platform graphics API agnostic library, suggests that they are familiar with modern graphics programming techniques.",
+    "technical_obsessions": [
+      {
+        "topic": "Graphics Programming",
+        "evidence": "Their work on bgfx and other graphics-related projects demonstrates their expertise in this area."
+      },
+      {
+        "topic": "Game Development",
+        "evidence": "Their involvement in projects like GENie and ImGuizmo suggests that they have experience with game development."
+      },
+      {
+        "topic": "Web Development",
+        "evidence": "Their work on the cirilizator browser extension and other web-related projects shows their interest in this area."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Graphics Programming",
+        "Game Development",
+        "Web Development"
+      ],
+      "communication_style": "This developer is known for being helpful and supportive in their comments, often providing detailed explanations and suggestions for improvement. They are also not afraid to ask questions or seek feedback from others."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about graphics programming and game development, with a strong background in C++ and experience working on open-source projects.",
+      "conversation_starters": [
+        "What are some of the most common pitfalls when implementing graphics rendering in a game engine?",
+        "How do you approach optimization for performance-critical code in a game development project?",
+        "Can you share any experiences or insights you've gained from contributing to open-source graphics libraries?"
+      ]
+    }
+  }
+}

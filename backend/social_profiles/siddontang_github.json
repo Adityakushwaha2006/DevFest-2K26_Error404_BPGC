@@ -1,0 +1,40 @@
+{
+  "profile": {
+    "name": "siddontang",
+    "login": "siddontang",
+    "bio": null,
+    "company": "PingCAP",
+    "location": "SunnyVale",
+    "email": "siddontang@gmail.com",
+    "twitter": null,
+    "followers": 2964,
+    "public_repos": 176
+  },
+  "analysis": {
+    "career_trajectory": "Started with JavaScript in 2022, exploring various projects such as Next.js demos, TiDB Cloud Serverless Tier, and Vercel demos. In late 2023, shifted focus to Rust systems programming with projects like TiKV gRPC protocols demo, sqlparser-rs, tidbparser-rs, shuttle-tidb-demo, and mini-redis. Also experimented with Go and C++ for RocksDB and DuckDB extensions.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "Pingcap/docs: ## Review Comments  ### Terminology Suggestion: Share-Everything \u2192 Shared-Storage"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "TiDB",
+        "Rust",
+        "Go",
+        "C++",
+        "Database Systems"
+      ],
+      "communication_style": "Asks deep architectural questions, provides constructive feedback on code style and terminology"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented and enjoys exploring new technologies, with a strong focus on systems programming.",
+      "conversation_starters": [
+        "What inspired you to explore Rust systems programming?",
+        "How do you approach database sharding in your projects?",
+        "Can you share an experience where you had to optimize performance in a complex system?"
+      ]
+    }
+  }
+}

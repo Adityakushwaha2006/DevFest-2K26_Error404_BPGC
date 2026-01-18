@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Yosh",
+    "login": "yoshuawuyts",
+    "bio": "WebAssembly and Rust @microsoft",
+    "company": null,
+    "location": "K\u00f8benhavn, Denmark",
+    "email": null,
+    "twitter": null,
+    "followers": 3245,
+    "public_repos": 852
+  },
+  "analysis": {
+    "career_trajectory": "Started with Rust in 2025, focusing on systems programming and WebAssembly development. Pivoted to exploring the Component Model and its applications in 2026. Demonstrated expertise in concurrency operations and async Rust.",
+    "technical_obsessions": [
+      {
+        "topic": "Component Model",
+        "evidence": "Comment on WebAssembly/component-model: It took a second for me to have this click, but I love this actually."
+      },
+      {
+        "topic": "Concurrency Operations",
+        "evidence": "Comment on yoshuawuyts/futures-concurrency: Thank you for running these benchmarks; these seem promising and support your thesis."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "WebAssembly",
+        "Component Model",
+        "Concurrency"
+      ],
+      "communication_style": "Engaging, insightful, and supportive. Often provides context and explanations to facilitate understanding."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about systems programming, WebAssembly development, and concurrency operations.",
+      "conversation_starters": [
+        "What are some of the most significant challenges you've faced while working with the Component Model?",
+        "How do you approach optimizing performance in concurrent systems?",
+        "Can you share an example of a project where you applied your knowledge of concurrency operations?"
+      ]
+    }
+  }
+}

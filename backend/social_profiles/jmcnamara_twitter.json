@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "jmcnamara",
+  "url": null,
+  "profile": {
+    "name": "John McNamara",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend the following employer for John McNamara:\nRingCentral if relevant",
+    "location": "Ireland",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for John McNamara:\n\nRingCentral",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Tag1",
+      "Tag2"
+    ],
+    "posting_style": "Tone description",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

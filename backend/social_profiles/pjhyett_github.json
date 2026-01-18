@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "PJ Hyett",
+    "login": "pjhyett",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "email": "pj@hyett.com",
+    "twitter": null,
+    "followers": 8373,
+    "public_repos": 8
+  },
+  "analysis": {
+    "career_trajectory": "Started with Ruby in 2008, exploring various web development frameworks and tools, including Mongrel, Rails, and JavaScript. Later shifted focus to pure Ruby implementations of Git daemon server functions and a buzzword-powered blackjack game. In 2010, worked on a rails-powered tumblelog, and by 2013, developed a plugin for automating migrations. Finally, in 2018, transitioned to working with GitHub services.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Git",
+        "Web Development",
+        "Ruby"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "Similar to a developer who is also interested in web development and Ruby, but with a focus on backend systems.",
+      "conversation_starters": [
+        "What challenges have you faced while working with Git?",
+        "How do you approach optimizing database performance in your Rails applications?",
+        "Can you share an experience where you had to troubleshoot a complex issue with a Ruby on Rails project?"
+      ]
+    }
+  }
+}

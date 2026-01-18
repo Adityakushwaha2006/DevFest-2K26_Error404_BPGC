@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "dgryski",
+  "url": null,
+  "profile": {
+    "name": "Damian Gryski",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend Damian Gryski as a developer at Grafana Labs. if relevant",
+    "location": "Vancouver, Canada",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Damian Gryski as a developer at Grafana Labs.",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "TinyGo",
+      "Compiler internals"
+    ],
+    "posting_style": "Ask deep architectural questions, Nitpicks code style, Supportive mentor",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

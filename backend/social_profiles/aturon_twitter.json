@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "aturon",
+  "url": null,
+  "profile": {
+    "name": "Aaron Turon",
+    "bio": "A developer passionate about networking and compiler design, with a focus on system architecture.",
+    "location": "Portland, OR, USA",
+    "website": null,
+    "company": "Fastly",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Networking",
+      "Compiler Design"
+    ],
+    "posting_style": "In-depth questions and constructive feedback",
+    "common_arguments": "Detailed summaries of debates around database sharding"
+  },
+  "audience_insight": null
+}

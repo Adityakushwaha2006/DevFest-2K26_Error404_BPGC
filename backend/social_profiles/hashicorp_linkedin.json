@@ -1,0 +1,81 @@
+{
+  "platform": "linkedin",
+  "public_id": "hashicorp",
+  "url": null,
+  "profile": {
+    "name": "HashiCorp",
+    "headline": "Senior Software Engineer at Robinhood | Infrastructure Management Expert",
+    "location": "San Francisco, CA",
+    "summary": "Results-driven software engineer with a passion for infrastructure management tools. Proven track record of delivering scalable and reliable solutions.",
+    "website": null,
+    "company": "Robinhood"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer, Robinhood",
+      "company": "Robinhood",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and implemented a microservices-based architecture for Nomad, resulting in a 30% increase in application performance.",
+        "Developed and maintained Consul clusters to ensure high availability and scalability of critical systems.",
+        "Collaborated with cross-functional teams to integrate Terraform into the company's CI/CD pipeline, streamlining deployment processes."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed and maintained open-source projects on GitHub, including a popular Terraform plugin.",
+        "Provided infrastructure consulting services to clients, helping them optimize their cloud infrastructure for cost savings and performance."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "HashiCorp",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Contributed to the development of Nomad, Consul, and Vault, ensuring the stability and security of these critical infrastructure tools.",
+        "Mentored junior developers on best practices for infrastructure management and automation."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Developed custom solutions using Terraform, Boundary, and Vault to meet the unique needs of clients.",
+        "Participated in hackathons and coding challenges to stay up-to-date with industry trends and best practices."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Infrastructure Management Tools"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Terraform",
+          "Nomad",
+          "Consul",
+          "Vault",
+          "Boundary"
+        ]
+      },
+      {
+        "category": "Infrastructure Management Tools",
+        "points": [
+          "Terraform",
+          "Nomad",
+          "Consul",
+          "Vault",
+          "Boundary",
+          "HashiCorp Stack"
+        ]
+      }
+    ]
+  }
+}

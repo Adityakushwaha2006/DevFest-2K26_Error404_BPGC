@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "rsc",
+  "url": null,
+  "profile": {
+    "name": "Russ Cox",
+    "bio": "A developer passionate about Go, C, and TypeScript, with a knack for insightful questions and code quality discussions.",
+    "location": "Cambridge, MA",
+    "website": null,
+    "company": "Google",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "Regular Expressions"
+    ],
+    "posting_style": "Engaging and informative",
+    "common_arguments": "Detailed explanations of technical concepts and best practices."
+  },
+  "audience_insight": null
+}

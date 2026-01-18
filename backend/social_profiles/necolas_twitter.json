@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "necolas",
+  "url": null,
+  "profile": {
+    "name": "Nicolas Gallagher",
+    "bio": "A punchy bio mentioning Meta if relevant",
+    "location": "San Francisco, CA",
+    "website": null,
+    "company": "Meta",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "TypeScript"
+    ],
+    "posting_style": "Technical, with a focus on asking deep architectural questions and nitpicking code style.",
+    "common_arguments": "Detailed summaries of debates around database sharding and TypeScript best practices."
+  },
+  "audience_insight": null
+}

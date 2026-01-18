@@ -1,0 +1,62 @@
+{
+  "platform": "linkedin",
+  "public_id": "jakevdp",
+  "url": null,
+  "profile": {
+    "name": "Jake Vanderplas",
+    "headline": "Senior Software Engineer at Google | Open Source Enthusiast",
+    "location": "Oakland CA",
+    "summary": "Highly motivated developer with expertise in JAX, NumPy, and Scipy. Passionate about contributing to open-source projects and driving innovation.",
+    "website": null,
+    "company": "Google"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Google",
+      "company": "Google",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained multiple high-performance machine learning models using JAX and its ecosystem.",
+        "Collaborated with cross-functional teams to integrate AI/ML capabilities into Google's products.",
+        "Mentored junior engineers on best practices for software development, testing, and deployment."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Contributed to open-source projects such as JAX, NumPy, and Scipy.",
+        "Developed and maintained personal projects like Pythonic Perambulations blog and Jupyter Notebook repository."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Maintained and updated various open-source projects, including JAX and NumPy.",
+        "Collaborated with other maintainers to resolve issues and improve code quality."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Python",
+      "JAX",
+      "NumPy"
+    ],
+    "Development Frameworks": [
+      "Scipy",
+      "Jupyter Notebook"
+    ],
+    "Machine Learning": [
+      "TensorFlow",
+      "PyTorch"
+    ],
+    "Version Control": [
+      "Git",
+      "Mercurial"
+    ]
+  }
+}

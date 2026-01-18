@@ -1,0 +1,59 @@
+{
+  "platform": "linkedin",
+  "public_id": "carllerche",
+  "url": null,
+  "profile": {
+    "name": "Carl Lerche",
+    "headline": "Senior Software Engineer | AWS | Portland, OR",
+    "location": "Portland, OR",
+    "summary": "Highly motivated software engineer with a passion for building scalable web applications. Proficient in Rust and experienced in database sharding.",
+    "website": null,
+    "company": "@aws"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer @aws",
+      "company": "@aws",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and implemented high-performance web applications using tower-lambda and hello-axum.",
+        "Developed and maintained the pidfile-rust tool for efficient process management."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Contributed to various Rust-related projects, including rustls and turbowish-mocks.",
+        "Maintained the tokio-serde-json library for efficient JSON serialization."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Worked on miri, an interpreter for Rust's mid-level intermediate representation.",
+        "Contributed to the development of the wg-async-foundations library."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Rust"
+    ],
+    "Frameworks and Libraries": [
+      "tower-lambda",
+      "hello-axum",
+      "tokio-serde-json"
+    ],
+    "Database Sharding": [
+      "Designed and implemented database sharding strategies for high-performance web applications."
+    ],
+    "Tools and Technologies": [
+      "protobuf libraries with buffoon",
+      "codegen"
+    ]
+  }
+}

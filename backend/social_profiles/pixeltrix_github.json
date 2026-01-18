@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Andrew White",
+    "login": "pixeltrix",
+    "bio": null,
+    "company": "Unboxed",
+    "location": "London, UK",
+    "email": null,
+    "twitter": "pixeltrix",
+    "followers": 350,
+    "public_repos": 115
+  },
+  "analysis": {
+    "career_trajectory": "Started with Ruby in 2018, working on various projects including textacular, delayed_job_active_record, thor, and rspec-rails. In 2020, they contributed to capybara and govuk-coronavirus-vulnerable-people-form. They continued to work on Rails-related projects, such as appsignal-ruby, vam-viewer, and globalize. In recent years, they have also worked with MySQL, Tailwind CSS, and JBuilder. Their most recent contributions include rails and ruby-advisory-db.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found in the provided comment history."
+      },
+      {
+        "topic": "Testing Frameworks",
+        "evidence": "Contributed to jasmine, a simple JavaScript testing framework for browsers and node.js."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Ruby on Rails",
+        "Database Management",
+        "Testing Frameworks"
+      ],
+      "communication_style": "Engaging with others through code reviews and discussions, often providing constructive feedback and suggestions."
+    },
+    "match_profile": {
+      "similar_user_traits": "A detail-oriented developer who is passionate about testing frameworks and database management.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing sharding in a database?",
+        "How do you approach testing complex API endpoints?",
+        "Can you share your experience with JBuilder and how it has impacted your development workflow?"
+      ]
+    }
+  }
+}

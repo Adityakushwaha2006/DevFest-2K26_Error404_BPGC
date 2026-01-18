@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "nicklockwood",
+  "url": null,
+  "profile": {
+    "name": "Nick Lockwood",
+    "bio": "UI Dev | Math whiz | 3D geometry enthusiast",
+    "location": "London",
+    "website": null,
+    "company": "Charcoal Design",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Declarative UI frameworks",
+      "Mathematical expression evaluation",
+      "3D geometry"
+    ],
+    "posting_style": "Engaging and helpful, with a willingness to provide explanations and examples.",
+    "common_arguments": "Detailed summaries of debates on the topics"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,73 @@
+{
+  "platform": "linkedin",
+  "public_id": "jonasschmedtmann",
+  "url": null,
+  "profile": {
+    "name": "Jonas Schmedtmann",
+    "headline": "Senior Software Engineer | MongoDB & Digital",
+    "location": "Faro, Portugal",
+    "summary": "Highly motivated and detail-oriented software engineer with a strong passion for database sharding, front-end development, and delivering high-quality solutions.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following companies:\n\n1. MongoDB\n2. Digital"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Digital",
+      "company": "Digital",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and developed scalable backend systems using Node.js, TypeScript, and MongoDB.",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions.",
+        "Improved code quality and reduced bugs through rigorous testing and refactoring."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed custom web applications using React, HTML, CSS, and JavaScript for various clients.",
+        "Managed multiple projects simultaneously while maintaining high-quality standards."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "MongoDB",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Contributed to the development and maintenance of MongoDB's open-source project.",
+        "Improved code quality, fixed bugs, and implemented new features."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Node.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "category": "Frameworks",
+        "points": [
+          "React",
+          "Express.js"
+        ]
+      },
+      {
+        "category": "Databases",
+        "points": [
+          "MongoDB",
+          "PostgreSQL"
+        ]
+      }
+    ]
+  }
+}

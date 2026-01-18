@@ -1,0 +1,64 @@
+{
+  "platform": "linkedin",
+  "public_id": null,
+  "url": null,
+  "profile": {
+    "name": null,
+    "headline": "Remote-Friendly Software Engineer | Delivering innovative solutions with Replit",
+    "location": "Remote",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for open-source development. Proficient in a range of programming languages and technologies.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend:\n\nReplit\n\nAs Replit is a remote-friendly"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Replit",
+      "company": "Replit",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and developed scalable backend infrastructure for the Replit platform.",
+        "Collaborated with cross-functional teams to deliver high-quality software products.",
+        "Mentored junior engineers and contributed to the growth of the team."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed custom software solutions for clients across various industries.",
+        "Worked on multiple projects simultaneously, managing competing deadlines and priorities."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to the development and maintenance of multiple open-source projects.",
+        "Collaborated with other maintainers to resolve issues and improve code quality."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript",
+      "Python",
+      "C++"
+    ],
+    "Development Frameworks": [
+      "React",
+      "Django",
+      "Spring Boot"
+    ],
+    "Database Management": [
+      "MySQL",
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "Agile Methodologies": [
+      "Scrum",
+      "Kanban"
+    ]
+  }
+}

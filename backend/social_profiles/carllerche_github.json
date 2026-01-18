@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Carl Lerche",
+    "login": "carllerche",
+    "bio": "I do stuff, I say stuff. It's serious business.",
+    "company": "@aws",
+    "location": "Portland, OR",
+    "email": "me@carllerche.com",
+    "twitter": "carllerche",
+    "followers": 2703,
+    "public_repos": 97
+  },
+  "analysis": {
+    "career_trajectory": "Started with Rust in 2019, focusing on various libraries and projects such as tokio-serde-json, tower-web, and wg-async-foundations. In 2020, they worked on miri, an interpreter for Rust's mid-level intermediate representation. They also contributed to other Rust-related projects like rustls and turbowish-mocks. In recent years, their work has shifted towards more web-focused projects like tower-lambda and hello-axum, as well as tools like pidfile-rust and mini-redis. Currently, they are exploring new areas such as protobuf libraries with buffoon and code generation with codegen.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "[2025-11-14] tokio-serde: None (Lang: Rust)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Async I/O",
+        "Web Development",
+        "Rust Libraries"
+      ],
+      "communication_style": "Engaging in discussions about async I/O and web development, often sharing their thoughts on the best practices for these areas. They also enjoy discussing Rust libraries and tools, sometimes providing feedback or suggestions for improvement."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about Rust and its ecosystem, with a focus on web development and async I/O.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing database sharding in a high-traffic application?",
+        "How do you approach optimizing the performance of an async web server?",
+        "Can you share your experience with using Rust libraries for building microservices?"
+      ]
+    }
+  }
+}

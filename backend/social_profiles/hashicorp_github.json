@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "HashiCorp",
+    "login": "hashicorp",
+    "bio": "Consistent workflows to provision, secure, connect, and run any infrastructure for any application.",
+    "company": null,
+    "location": "San Francisco, CA",
+    "email": "hello@hashicorp.com",
+    "twitter": null,
+    "followers": 9817,
+    "public_repos": 926
+  },
+  "analysis": {
+    "career_trajectory": "Started with Terraform in 2026, expanded to Nomad and Consul, then explored Vault and Boundary, demonstrating versatility in infrastructure management tools.",
+    "technical_obsessions": [
+      {
+        "topic": "Terraform",
+        "evidence": " terraform: Terraform enables you to safely and predictably create, change, and improve infrastructure."
+      },
+      {
+        "topic": "Nomad",
+        "evidence": " nomad: Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Terraform",
+        "Nomad",
+        "Consul"
+      ],
+      "communication_style": "Asks deep architectural questions"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who excels in infrastructure management and automation.",
+      "conversation_starters": [
+        "What are some common pitfalls when using Terraform for large-scale deployments?",
+        "How do you approach scaling Nomad clusters?",
+        "Can you share your experience with Consul's service discovery features?"
+      ]
+    }
+  }
+}

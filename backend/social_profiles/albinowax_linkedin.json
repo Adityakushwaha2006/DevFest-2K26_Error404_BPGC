@@ -1,0 +1,73 @@
+{
+  "platform": "linkedin",
+  "public_id": "albinowax",
+  "url": null,
+  "profile": {
+    "name": "James Kettle",
+    "headline": "Senior Software Engineer | PortSwigger Web Security",
+    "location": "England",
+    "summary": "Highly motivated and experienced software engineer with a passion for web security, leveraging expertise in Go, Python, Java, and database sharding.",
+    "website": null,
+    "company": "PortSwigger Web Security"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "PortSwigger Web Security",
+      "date_range": "2022-Present",
+      "description": [
+        "Developed Burp Suite plugins, including Param Miner and ActiveScan++",
+        "Collaborated with cross-functional teams to enhance the security of web applications"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020-2022",
+      "description": [
+        "Created a deprecated project called zgrab using Go",
+        "Maintained and updated open-source projects, including a Google Protobuf Decoder"
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018-2020",
+      "description": [
+        "Contributed to the development of Redis Python Client",
+        "Participated in code reviews and ensured high-quality code"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2014-2018",
+      "description": [
+        "Developed a Google Protobuf Decoder using Python",
+        "Worked on various projects, including Redis Python Client"
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Database Management"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Go",
+          "Python",
+          "Java"
+        ]
+      },
+      {
+        "category": "Database Management",
+        "points": [
+          "Database Sharding"
+        ]
+      }
+    ]
+  }
+}

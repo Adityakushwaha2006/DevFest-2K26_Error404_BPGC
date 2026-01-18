@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "diegohaz",
+  "url": null,
+  "profile": {
+    "name": "Haz",
+    "bio": "A passionate developer exploring the intersection of Ariakit, React, and JavaScript.",
+    "location": "Remote",
+    "website": null,
+    "company": "@ariakit",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "TypeScript"
+    ],
+    "posting_style": "In-depth explanations with a dash of curiosity",
+    "common_arguments": "Breaking down complex problems into manageable pieces"
+  },
+  "audience_insight": null
+}

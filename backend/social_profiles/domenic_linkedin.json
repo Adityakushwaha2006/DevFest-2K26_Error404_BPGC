@@ -1,0 +1,69 @@
+{
+  "platform": "linkedin",
+  "public_id": "domenic",
+  "url": null,
+  "profile": {
+    "name": "Domenic Denicola",
+    "headline": "Senior Software Engineer at [Company Name], Tokyo, Japan",
+    "location": "Tokyo, Japan",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for open-source development and collaboration.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for Domenic Denicola:"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "[Company Name]",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of multiple high-profile projects, resulting in significant revenue growth and improved customer satisfaction.",
+        "Collaborated with cross-functional teams to design and implement scalable software solutions.",
+        "Mentored junior engineers and provided guidance on best practices and coding standards."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed custom software solutions for clients across various industries, including e-commerce and finance.",
+        "Worked on multiple open-source projects, contributing to the development of popular libraries and frameworks."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to the development and maintenance of multiple open-source projects, including bug fixes and feature enhancements.",
+        "Collaborated with other maintainers and contributors to ensure project stability and security."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "JavaScript",
+        "Python",
+        "Java"
+      ]
+    },
+    {
+      "category": "Development Frameworks",
+      "points": [
+        "React",
+        "Django",
+        "Spring Boot"
+      ]
+    },
+    {
+      "category": "Database Management",
+      "points": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    }
+  ]
+}

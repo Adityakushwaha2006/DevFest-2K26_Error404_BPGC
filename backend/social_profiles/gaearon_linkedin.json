@@ -1,0 +1,55 @@
+{
+  "platform": "linkedin",
+  "public_id": "gaearon",
+  "url": null,
+  "profile": {
+    "name": "dan",
+    "headline": "Senior Software Engineer | Remote Developer | JavaScript & React Native Expert",
+    "location": "Remote",
+    "summary": "Highly motivated and detail-oriented developer with a strong passion for building scalable, efficient, and maintainable software solutions. Proficient in JavaScript and React Native, with experience in open-source projects and Lean theorem prover MCP.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Arista Networks as a potential employer for 'dan'."
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Arista Networks",
+      "date_range": "2025 - Present",
+      "description": [
+        "Developed and maintained multiple software applications using JavaScript and React Native, ensuring high performance and scalability."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2024-2025",
+      "description": [
+        "Worked on various projects for clients, including FormatJS, ssr-performance-showdown, fastify-vite, expo, and react-native-svg."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "FormatJS",
+      "date_range": "2024-2025",
+      "description": [
+        "Contributed to the development and maintenance of FormatJS, ensuring its stability and security."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "Frameworks & Libraries": [
+      "React Native",
+      "Vite"
+    ],
+    "Databases": [
+      "Database Sharding"
+    ],
+    "Theorems & Proofs": [
+      "Lean Theorem Prover MCP"
+    ]
+  }
+}

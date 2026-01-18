@@ -1,0 +1,58 @@
+{
+  "platform": "linkedin",
+  "public_id": "tenderlove",
+  "url": null,
+  "profile": {
+    "name": "Aaron Patterson",
+    "headline": "Senior Software Engineer | @Shopify",
+    "location": "Seattle",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for performance optimization, testing, and maintenance. Proficient in multiple programming languages and technologies.",
+    "website": null,
+    "company": "@Shopify"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "@Shopify",
+      "date_range": "2026 - Present",
+      "description": [
+        "Designed and implemented high-performance systems using Puma and Ruby on Rails.",
+        "Collaborated with cross-functional teams to optimize software development workflows and improve code quality."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2025",
+      "description": [
+        "Developed multiple Ruby gems, including net-http-persistent and bcrypt-ruby.",
+        "Worked on various C++ projects, such as esp8266aq."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to the development and maintenance of multiple open-source projects, including puma.",
+        "Participated in discussions on software development best practices and testing."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Ruby",
+      "C++"
+    ],
+    "Frameworks": [
+      "Puma",
+      "Ruby on Rails"
+    ],
+    "Testing and Maintenance": [
+      "Unit Testing",
+      "Integration Testing",
+      "Code Refactoring",
+      "Continuous Integration/Continuous Deployment (CI/CD)"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "name": "Alex Ellis",
+    "login": "alexellis",
+    "bio": "Founder @openfaas @inlets @self-actuated ",
+    "company": "@openfaas",
+    "location": "United Kingdom",
+    "email": "alexellis2@gmail.com",
+    "twitter": "alexellisuk",
+    "followers": 5081,
+    "public_repos": 454
+  },
+  "analysis": {
+    "career_trajectory": "This developer has demonstrated a strong interest in cloud computing and automation tools, starting with Go programming in 2025 and expanding to other languages such as Python, JavaScript, and TypeScript. They have also explored various projects related to Kubernetes, OpenFaaS, and Firecracker microVMs. Their experience spans from testing functions for autoscaling to developing their own CLI tools and contributing to open-source projects.",
+    "technical_obsessions": [
+      {
+        "topic": "Cloud Computing",
+        "evidence": "[2025-01-14] go-long: OpenFaaS sleep functions for testing timeouts / auto-scaling. (Lang: Python)"
+      },
+      {
+        "topic": "Automation Tools",
+        "evidence": "[2025-05-08] alexellis.io: alexellis.io (Lang: TypeScript)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Kubernetes",
+        "OpenFaaS",
+        "Firecracker microVMs"
+      ],
+      "communication_style": "This developer is known for being helpful and providing detailed explanations in their comments, often suggesting improvements to existing projects."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about cloud computing and automation tools, with a strong focus on collaboration and open-source contributions.",
+      "conversation_starters": [
+        "What are some of the most common challenges you face when deploying cloud-based applications?",
+        "How do you stay up-to-date with the latest developments in Kubernetes and OpenFaaS?"
+      ]
+    }
+  }
+}

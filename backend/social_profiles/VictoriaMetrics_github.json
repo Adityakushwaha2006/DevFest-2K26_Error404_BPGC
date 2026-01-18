@@ -1,0 +1,48 @@
+{
+  "profile": {
+    "name": "VictoriaMetrics",
+    "login": "VictoriaMetrics",
+    "bio": "Easy to use and fast monitoring solution",
+    "company": null,
+    "location": "United States of America",
+    "email": "info@victoriametrics.com",
+    "twitter": "VictoriaMetrics",
+    "followers": 661,
+    "public_repos": 38
+  },
+  "analysis": {
+    "career_trajectory": "Started with Python in 2020, pivoted to Rust systems programming in late 2023, and has been actively contributing to various open-source projects related to time series data, monitoring, and logging.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "['[2025-12-03] metricsql: Standalone PromQL and MetricsQL parser (Lang: Go)']"
+      },
+      {
+        "topic": "Kubernetes Operators",
+        "evidence": "['[2026-01-14] ansible-playbooks: Ansible Playbooks for Victoria Metrics monorepo (Lang: Makefile)', '[2026-01-17] operator: Kubernetes operator for Victoria Metrics (Lang: Go)']"
+      },
+      {
+        "topic": "Prometheus and Grafana",
+        "evidence": "['[2025-12-03] metricsql: Standalone PromQL and MetricsQL parser (Lang: Go)', '[2026-01-16] victoriametrics-datasource: Grafana datasource for VictoriaMetrics (Lang: TypeScript)']"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "time series data",
+        "monitoring",
+        "logging",
+        "Kubernetes",
+        "Prometheus"
+      ],
+      "communication_style": "Asks deep architectural questions, provides detailed explanations of technical concepts, and supports others in their work."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about systems programming, open-source contributions, and has a strong interest in monitoring and logging.",
+      "conversation_starters": [
+        "What are some common challenges you face when implementing sharding in your database?",
+        "How do you approach debugging complex issues with Kubernetes operators?",
+        "Can you walk me through your experience with Prometheus and Grafana?"
+      ]
+    }
+  }
+}

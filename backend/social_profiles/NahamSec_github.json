@@ -1,0 +1,37 @@
+{
+  "profile": {
+    "name": "Ben Sadeghipour",
+    "login": "nahamsec",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "email": null,
+    "twitter": null,
+    "followers": 8536,
+    "public_repos": 23
+  },
+  "analysis": {
+    "career_trajectory": "Started with Ruby in 2014, moved to Python for web application security assessment tools like burpy and SecLists, explored shell scripting with crtndstry and lazyrecon, worked on a Udemy course with PHP, and recently started exploring JavaScript with HTB-Test.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Bug Bounty Hunting",
+        "Web Application Security"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "A detail-oriented developer with experience in web application security and bug bounty hunting.",
+      "conversation_starters": [
+        "What inspired you to start exploring bug bounty hunting?",
+        "How do you approach database sharding in your projects?",
+        "Can you share any notable successes or failures from your bug bounty hunts?"
+      ]
+    }
+  }
+}

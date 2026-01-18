@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "S\u00e9bastien Eustace",
+    "login": "sdispater",
+    "bio": "\r\n    Software engineer, proud pythonista, open source lover. Creator of the Poetry package manager and the datetime library Pendulum.\r\n\r\n",
+    "company": null,
+    "location": "France",
+    "email": "sebastien@eustace.io",
+    "twitter": null,
+    "followers": 2247,
+    "public_repos": 30
+  },
+  "analysis": {
+    "career_trajectory": "Started with Python in 2013, exploring various libraries and tools such as redis-py, Orator ORM, pipenv, and Pytzdata. Showed interest in command line interfaces with CliKit and timezone management with pytzdata. Recently worked on metadata-updater and clikit projects.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "[2018-04-07] awesome-python: A curated list of awesome Python frameworks, libraries, software and resources (Lang: Python)"
+      },
+      {
+        "topic": "Command Line Interfaces",
+        "evidence": "[2023-08-20] clikit: CliKit is a group of utilities to build beautiful and testable command line interfaces. (Lang: Python)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "database management",
+        "command line tools",
+        "python libraries"
+      ],
+      "communication_style": "Asks deep architectural questions, Nitpicks code style, Supportive mentor."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented and interested in building robust command line interfaces.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing database sharding?",
+        "Can you share your experience with CliKit?",
+        "How do you approach testing command line interfaces?"
+      ]
+    }
+  }
+}

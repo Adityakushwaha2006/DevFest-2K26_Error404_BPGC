@@ -1,0 +1,68 @@
+{
+  "platform": "linkedin",
+  "public_id": "evanphx",
+  "url": null,
+  "profile": {
+    "name": "Evan Phoenix",
+    "headline": "@mirendev Senior Software Engineer | Developer & Tech Enthusiast",
+    "location": "Los Angeles, CA",
+    "summary": "Highly adaptable and curious developer with a passion for learning new technologies. Proficient in multiple programming languages, including Go, Ruby, HTML, Lua, and more.",
+    "website": null,
+    "company": "@mirendev "
+  },
+  "experience": [
+    {
+      "title": "@mirendev Senior Software Engineer",
+      "company": "@mirendev",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained multiple projects using Go tools and static GitOps, with a focus on scalability and reliability.",
+        "Collaborated with cross-functional teams to design and implement new features for the mirendev/runtime project.",
+        "Improved code quality and reduced bugs through rigorous testing and debugging practices."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed custom keyboard firmware for various clients, utilizing C and Lua.",
+        "Created PEG parser generators using Go and Ruby, with a focus on performance and efficiency."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open Source Projects",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to multiple open source projects, including Ruby and HTML libraries.",
+        "Improved code quality and reduced bugs through rigorous testing and debugging practices."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Development Frameworks"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Go",
+          "Ruby",
+          "HTML",
+          "Lua"
+        ]
+      },
+      {
+        "category": "Development Frameworks",
+        "points": [
+          "static GitOps",
+          "Consul",
+          "mirendev/runtime"
+        ]
+      }
+    ]
+  }
+}

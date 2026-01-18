@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "headius",
+  "url": null,
+  "profile": {
+    "name": "Charles Oliver Nutter",
+    "bio": "Highly communicative and collaborative developer with expertise in Performance Optimization, Bug Fixing, and Compatibility with Ruby Versions.",
+    "location": "Minneapolis",
+    "website": null,
+    "company": "Headius Enterprises",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Performance Optimization",
+      "Bug Fixing",
+      "Compatibility with Ruby Versions"
+    ],
+    "posting_style": "Technical and informative, with a focus on JRuby-related topics",
+    "common_arguments": "Detailed explanations of performance optimization techniques, bug fixes, and compatibility issues in JRuby"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Sebastian Raschka",
+    "login": "rasbt",
+    "bio": "AI Research Engineer working on LLMs.",
+    "company": null,
+    "location": null,
+    "email": null,
+    "twitter": "rasbt",
+    "followers": 34867,
+    "public_repos": 146
+  },
+  "analysis": {
+    "career_trajectory": "Started with Python in 2020, pivoted to Rust systems programming in late 2023. Developed expertise in machine learning and deep learning frameworks like PyTorch, Scikit-Learn, and Megatron. Contributed to open-source projects on GitHub, including rasbt/reasoning-from-scratch, rasbt/LLMs-from-scratch, and rasbt/mlxtend. Demonstrated ability to work with various programming languages, including Python, Jupyter Notebook, Swift, and Go.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "rasbt/reasoning-from-scratch: Chapters 6-7 implements GRPO to train reasoning models"
+      },
+      {
+        "topic": "Model Parallelism",
+        "evidence": "gpt-neox: An implementation of model parallel autoregressive transformers on GPUs, based on the Megatron and DeepSpeed libraries"
+      },
+      {
+        "topic": "Concurrent Programming",
+        "evidence": "rasbt/LLMs-from-scratch: Added original yarn configs from HF to layer debugger tool"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Machine Learning",
+        "Deep Learning",
+        "Concurrent Programming"
+      ],
+      "communication_style": "Engaging, detailed, and constructive. Provides feedback on code quality, suggests improvements, and acknowledges contributions."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented, enjoys working with machine learning frameworks, and values collaboration.",
+      "conversation_starters": [
+        "What's the most challenging part of implementing model parallelism in your current project?",
+        "How do you approach concurrent programming in your daily work?",
+        "Can you share an experience where you had to debug a complex issue in a machine learning model?"
+      ]
+    }
+  }
+}

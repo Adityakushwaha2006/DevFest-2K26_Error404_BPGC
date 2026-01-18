@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "romainguy",
+  "url": null,
+  "profile": {
+    "name": "Romain Guy",
+    "bio": "A passionate developer | Graphics Programming & Real-time Rendering expert | Square enthusiast",
+    "location": "California",
+    "website": null,
+    "company": "Square",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Graphics Programming",
+      "Real-time Rendering"
+    ],
+    "posting_style": "Technical",
+    "common_arguments": "In-depth explanations of code snippets and rendering techniques"
+  },
+  "audience_insight": null
+}

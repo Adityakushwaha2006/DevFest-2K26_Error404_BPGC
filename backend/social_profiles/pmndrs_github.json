@@ -1,0 +1,43 @@
+{
+  "profile": {
+    "name": "Poimandres",
+    "login": "pmndrs",
+    "bio": "Open source developer collective",
+    "company": null,
+    "location": "https://opencollective.com/pmndrs",
+    "email": null,
+    "twitter": "pmndrs",
+    "followers": 9469,
+    "public_repos": 89
+  },
+  "analysis": {
+    "career_trajectory": "Started with JavaScript in 2025, focusing on React Three Fiber projects, and gradually expanding to other libraries like Jotai, Zustand, and Valtio. They also explored VR/AR development with react-three-fiber and XR.",
+    "technical_obsessions": [
+      {
+        "topic": "Three.js",
+        "evidence": "Their extensive work on various Three.js-related projects, such as native, xr, and three-stdlib"
+      },
+      {
+        "topic": "State Management in React",
+        "evidence": "Their contributions to Jotai, Zustand, Valtio, and other state management libraries"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Three.js",
+        "React Three Fiber",
+        "Jotai",
+        "Zustand"
+      ],
+      "communication_style": "Asks in-depth questions about architecture and implementation details, provides constructive feedback on code style and suggestions for improvement"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented, passionate about state management, and has a strong background in Three.js and React Three Fiber.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing Jotai or Zustand in a large-scale application?",
+        "How do you approach optimizing performance in Three.js-based projects?",
+        "Can you share your experience with building complex VR/AR experiences using react-three-fiber?"
+      ]
+    }
+  }
+}

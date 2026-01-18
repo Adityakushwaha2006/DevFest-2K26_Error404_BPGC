@@ -1,0 +1,57 @@
+{
+  "platform": "linkedin",
+  "public_id": "wycats",
+  "url": null,
+  "profile": {
+    "name": "Yehuda Katz",
+    "headline": "Senior Software Engineer | Building scalable systems with Ember.js and Rust @heroku",
+    "location": "Portland, OR",
+    "summary": "Results-driven developer with a passion for open-source projects, leveraging expertise in Ember.js and Rust to drive innovation.",
+    "website": null,
+    "company": "@heroku"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "@heroku",
+      "date_range": "2024 - Present",
+      "description": [
+        "Designed and implemented scalable systems using Ember.js and Rust.",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2022 - 2024",
+      "description": [
+        "Developed and maintained multiple open-source projects, including Ember.js and Rust contributions.",
+        "Provided expert guidance to clients on software development best practices."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Projects",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Contributed to the growth and maintenance of open-source projects, including Ember.js and Rust.",
+        "Participated in code reviews and ensured high-quality software delivery."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Ember.js",
+      "Rust"
+    ],
+    "Development Frameworks": [
+      "Ember.js"
+    ],
+    "Operating Systems": [
+      "Linux"
+    ],
+    "Agile Methodologies": [
+      "Scrum"
+    ]
+  }
+}

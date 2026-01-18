@@ -1,0 +1,61 @@
+{
+  "platform": "linkedin",
+  "public_id": "diegohaz",
+  "url": null,
+  "profile": {
+    "name": "Haz",
+    "headline": "Senior Software Engineer | Building scalable web applications with Ariakit and React",
+    "location": "Remote",
+    "summary": "Highly motivated software engineer with a passion for building scalable web applications. With expertise in JavaScript, TypeScript, and various frameworks like Ariakit and React, I'm always looking to improve my skills and contribute to open-source projects.",
+    "website": null,
+    "company": "@ariakit"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer @ariakit",
+      "company": "@ariakit",
+      "date_range": "2025 - Present",
+      "description": [
+        "Designed and implemented REST API generator using Ariakit and MongoDB.",
+        "Developed Raycast extensions for improved user experience."
+      ]
+    },
+    {
+      "title": "Freelance Developer (2023-2024)",
+      "company": "Various clients",
+      "date_range": "2023 - 2024",
+      "description": [
+        "Contributed to open-source projects like Ariakit and React headless components.",
+        "Built REST API generator using JavaScript and MongoDB."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer (2022-2023)",
+      "company": "Ariakit and React",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Maintained Ariakit repository and ensured bug fixes and feature updates.",
+        "Contributed to React headless components project."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "Frameworks": [
+      "Ariakit",
+      "React"
+    ],
+    "Databases": [
+      "MongoDB"
+    ],
+    "API Generation": [
+      "REST API generator"
+    ],
+    "Extension Development": [
+      "Raycast extensions"
+    ]
+  }
+}

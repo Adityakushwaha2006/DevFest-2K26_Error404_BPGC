@@ -1,0 +1,77 @@
+{
+  "platform": "linkedin",
+  "public_id": "EricVillasenor",
+  "url": null,
+  "profile": {
+    "name": "Eric Villasenor",
+    "headline": "Senior Software Engineer at DigitalOcean, passionate about building scalable and efficient software solutions",
+    "location": "Oregon",
+    "summary": "Highly motivated and detail-oriented software engineer with a strong passion for delivering high-quality products. Proficient in a range of programming languages and technologies.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend DigitalOcean as a potential employer for Eric Villasenor"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at DigitalOcean",
+      "company": "DigitalOcean",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and developed scalable software solutions for high-traffic applications",
+        "Collaborated with cross-functional teams to identify and prioritize project requirements",
+        "Improved code quality and efficiency through the implementation of automated testing and deployment scripts"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed custom software solutions for clients across various industries",
+        "Managed multiple projects simultaneously, meeting tight deadlines and delivering high-quality results"
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open Source Projects",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to the development and maintenance of open-source projects",
+        "Collaborated with other maintainers to resolve issues and improve code quality"
+      ]
+    },
+    {
+      "title": "Software Engineer at ABC Company",
+      "company": "ABC Company",
+      "date_range": "2012 - 2015",
+      "description": [
+        "Developed software applications for various industries, including finance and healthcare",
+        "Participated in code reviews and contributed to the improvement of team processes"
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript",
+      "Python",
+      "Java"
+    ],
+    "Development Frameworks": [
+      "React",
+      "Django",
+      "Spring Boot"
+    ],
+    "Databases": [
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB"
+    ],
+    "Operating Systems": [
+      "Linux",
+      "Windows"
+    ],
+    "Agile Methodologies": [
+      "Scrum",
+      "Kanban"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Chip Huyen",
+    "login": "chiphuyen",
+    "bio": "AI x stuff",
+    "company": null,
+    "location": "San Francisco",
+    "email": null,
+    "twitter": "chipro",
+    "followers": 21400,
+    "public_repos": 30
+  },
+  "analysis": {
+    "career_trajectory": "Started with Python in 2016, working on various deep learning projects such as TensorFlow and fastText. Pivoted to more general machine learning topics like OpenSeq2Seq and Milano in 2018. Continued to explore different libraries and tools like AWD-LSTM-LM, transformer-xl, and lazynlp. Recently focused on feature stores with feathr and machine learning systems design. Also experimented with various programming languages including Jupyter Notebook.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Machine Learning",
+        "Deep Learning",
+        "Feature Stores"
+      ],
+      "communication_style": "Asks deep architectural questions, Nitpicks code style, Supportive mentor."
+    },
+    "match_profile": {
+      "similar_user_traits": "Research-oriented developer with a strong background in machine learning and deep learning.",
+      "conversation_starters": [
+        "What are some common pitfalls when designing feature stores?",
+        "How do you approach hyperparameter tuning for machine learning models?",
+        "Can you share an experience where you had to debug a complex machine learning model?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "davem330",
+  "url": null,
+  "profile": {
+    "name": "David S. Miller",
+    "bio": "A seasoned Linux kernel developer with a passion for networking, currently working at Red Hat Inc.",
+    "location": "London, UK",
+    "website": null,
+    "company": "Red Hat Inc.",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Linux Kernel Development",
+      "Networking"
+    ],
+    "posting_style": "Technical and informative, with code examples to illustrate complex concepts.",
+    "common_arguments": "Debates surrounding the best practices for kernel development and network optimization."
+  },
+  "audience_insight": null
+}

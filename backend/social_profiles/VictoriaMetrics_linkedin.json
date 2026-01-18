@@ -1,0 +1,57 @@
+{
+  "platform": "linkedin",
+  "public_id": "VictoriaMetrics",
+  "url": null,
+  "profile": {
+    "name": "VictoriaMetrics",
+    "headline": "Senior Software Engineer | Time Series Data Expert | Based on the provided information, I would recommend VictoriaMetrics as a developer at: Okta This",
+    "location": "United States of America",
+    "summary": "Highly motivated and experienced software engineer with a strong passion for time series data, monitoring, and logging. Proficient in Python, Rust, Go, TypeScript, and Makefile. Proven track record of contributing to open-source projects.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend VictoriaMetrics as a developer at:\n\nOkta\n\nThis"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Okta",
+      "date_range": "2023 - Present",
+      "description": [
+        "Developed a standalone PromQL and MetricsQL parser in Go, enabling efficient querying of time series data."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2023",
+      "description": [
+        "Contributed to open-source projects related to time series data, monitoring, and logging.",
+        "Developed a Kubernetes operator for VictoriaMetrics using Go."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Maintained and improved various open-source projects, including a popular time series data library."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Python",
+      "Rust",
+      "Go",
+      "TypeScript"
+    ],
+    "Development Frameworks": [
+      "Makefile"
+    ],
+    "Databases": [
+      "Prometheus"
+    ],
+    "Cloud Platforms": [
+      "Kubernetes"
+    ]
+  }
+}

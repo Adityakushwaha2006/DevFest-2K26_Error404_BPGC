@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "ThePrimeagen",
+  "url": null,
+  "profile": {
+    "name": "ThePrimeagen",
+    "bio": "A passionate developer dedicated to language development, text editor customization, and open-source contributions.",
+    "location": "9th Ring, Vim",
+    "website": null,
+    "company": "CEO Of TheStartup",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Language Development",
+      "Text Editor Customization"
+    ],
+    "posting_style": "Engaging and informative",
+    "common_arguments": "Explaining technical concepts in an approachable manner"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "brauner",
+  "url": null,
+  "profile": {
+    "name": "Christian Brauner",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend the following employer for Christian Brauner:\n\nVercel if relevant",
+    "location": "Berlin",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for Christian Brauner:\n\nVercel",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Linux Kernel Development",
+      "System Container Managers",
+      "FUSE Filesystems"
+    ],
+    "posting_style": "Informative and insightful",
+    "common_arguments": "Deep architectural questions, comments on kernel development and system design"
+  },
+  "audience_insight": null
+}

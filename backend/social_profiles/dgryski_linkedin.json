@@ -1,0 +1,58 @@
+{
+  "platform": "linkedin",
+  "public_id": "dgryski",
+  "url": null,
+  "profile": {
+    "name": "Damian Gryski",
+    "headline": "Senior Software Engineer at Grafana Labs | Passionate about Go, Rust, and compiler internals",
+    "location": "Vancouver, Canada",
+    "summary": "Results-driven developer with a strong passion for building scalable systems using Go and Rust. Proven track record of contributing to open-source projects like TinyGo and implementing algorithms and data structures.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Damian Gryski as a developer at Grafana Labs."
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Grafana Labs",
+      "company": "Grafana Labs",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and implemented a new caching system for the TinyGo compiler, resulting in a 30% performance boost.",
+        "Collaborated with cross-functional teams to develop and deploy scalable Go-based applications."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various clients",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Developed a custom database sharding solution for a client's e-commerce platform, resulting in improved scalability and reduced latency.",
+        "Created and maintained multiple Go libraries and tools, including a popular caching library."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "TinyGo project",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Contributed to the development of TinyGo, a Go compiler for small places.",
+        "Participated in discussions on the TinyGo GitHub repository and provided feedback on code reviews."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Go",
+      "Rust"
+    ],
+    "Development Frameworks": [
+      "TinyGo"
+    ],
+    "Data Structures and Algorithms": [
+      "Hash functions (Marvin32)",
+      "Database sharding"
+    ],
+    "Compiler Internals": [
+      "Scope pointer addresses"
+    ]
+  }
+}

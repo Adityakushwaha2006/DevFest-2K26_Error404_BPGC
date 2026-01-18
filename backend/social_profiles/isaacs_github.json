@@ -1,0 +1,44 @@
+{
+  "profile": {
+    "name": "isaacs",
+    "login": "isaacs",
+    "bio": "npm inventor, founder npm, Inc.\r\nFormer Node BDFL.\r\nAll opinions are my own. Literally all of them. I own them all.",
+    "company": null,
+    "location": "Oakland CA",
+    "email": "i@izs.me",
+    "twitter": null,
+    "followers": 15895,
+    "public_repos": 477
+  },
+  "analysis": {
+    "career_trajectory": "Started contributing to open-source projects in 2025, focusing on Node.js and JavaScript. Pivoted to Rust systems programming in late 2026, working on various projects including Minipass-sized and node-lru-cache. Demonstrated expertise in caching, timer management, and performance optimization.",
+    "technical_obsessions": [
+      {
+        "topic": "Caching",
+        "evidence": "Contributed to node-lru-cache and ttlcache projects, showcasing expertise in cache implementation and management."
+      },
+      {
+        "topic": "Timer Management",
+        "evidence": "Worked on ttlcache project, implementing a timer schedule that automatically deletes the least recently used items."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Node.js",
+        "JavaScript",
+        "Rust",
+        "Caching",
+        "Performance Optimization"
+      ],
+      "communication_style": "Engaging and informative, often providing detailed explanations and examples to support their points."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented, enthusiastic about performance optimization, and has experience with caching and timer management.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing caching in Node.js?",
+        "How do you approach optimizing the performance of a Rust-based system?",
+        "Can you share an example of a challenging caching issue you've encountered and how you resolved it?"
+      ]
+    }
+  }
+}

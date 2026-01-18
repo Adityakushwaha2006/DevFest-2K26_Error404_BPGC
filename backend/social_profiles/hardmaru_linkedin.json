@@ -1,0 +1,73 @@
+{
+  "platform": "linkedin",
+  "public_id": "hardmaru",
+  "url": null,
+  "profile": {
+    "name": "hardmaru",
+    "headline": "Senior Software Engineer at Netflix | Exploring AI and Machine Learning",
+    "location": "Tokyo",
+    "summary": "Highly motivated software engineer with a passion for artificial intelligence, machine learning, and deep learning. Proficient in multiple programming languages and frameworks. Experienced in open-source development and research.",
+    "website": null,
+    "company": "Netflix"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Netflix",
+      "company": "Netflix",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and deployed AI/ML models for various applications, including recommendation systems and content moderation.",
+        "Collaborated with cross-functional teams to design and implement new features and functionalities.",
+        "Conducted research in reinforcement learning, world models, and evolution strategies, publishing papers and contributing to open-source projects."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed AI/ML applications for clients across various industries.",
+        "Conducted research in deep learning frameworks, including PyTorch-NEAT and TensorFlow."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Maintained and contributed to open-source projects related to AI/ML, including cppn-gan-vae-tensorflow."
+      ]
+    },
+    {
+      "title": "Researcher",
+      "company": "",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Conducted research in reinforcement learning and deep learning frameworks, including Chainer RL and PyTorch-NEAT."
+      ]
+    }
+  ],
+  "skills": {
+    "Reinforcement Learning": [
+      "Chainerrl",
+      "OpenAI Baselines",
+      "Gym"
+    ],
+    "Generative Adversarial Networks (GANs)": [
+      "cppn-gan-vae-tensorflow",
+      "TensorFlow"
+    ],
+    "World Models": [
+      "WorldModelsExperiments"
+    ],
+    "Deep Learning Frameworks": [
+      "PyTorch-NEAT",
+      "TensorFlow",
+      "Chainer RL"
+    ],
+    "Programming Languages": [
+      "Python",
+      "C++"
+    ]
+  }
+}

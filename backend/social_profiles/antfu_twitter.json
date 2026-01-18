@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "antfu",
+  "url": null,
+  "profile": {
+    "name": "Anthony Fu",
+    "bio": "Testing enthusiast | Plugin dev | Browser dev | @vercel & @nuxt fan",
+    "location": "undefined",
+    "website": null,
+    "company": "@vercel / @nuxt",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Testing frameworks",
+      "Plugin development",
+      "Browser development"
+    ],
+    "posting_style": "Informative and engaging",
+    "common_arguments": "Sharing knowledge, experiences, and best practices in testing frameworks, plugin development, and browser development."
+  },
+  "audience_insight": null
+}

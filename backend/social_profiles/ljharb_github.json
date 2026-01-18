@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "name": "Jordan Harband",
+    "login": "ljharb",
+    "bio": "software engineer/nerd/teacher/will try anything once; surgeon with git rebase. @TC39 ex @Coinbase @Airbnb @Twitter @MobBase. Fav punctuation \u2e2e, scent petrichor",
+    "company": "@socketdev @tc39 ",
+    "location": "Hillsborough, CA",
+    "email": null,
+    "twitter": "LJHarb",
+    "followers": 7893,
+    "public_repos": 271
+  },
+  "analysis": {
+    "career_trajectory": "Started with JavaScript in 2026, focusing on various utility libraries and tools for development, including form-data/form-data, jsx-eslint/eslint-plugin-react, and npm/cli. Demonstrated expertise in security-related topics such as expressjs/security-wg and nodejs/node. Showcased ability to engage in discussions about proposals like tc39/proposal-composites and tc39/proposals.",
+    "technical_obsessions": [
+      {
+        "topic": "Security Best Practices",
+        "evidence": "Comment on form-data/form-data: If you have a tool that complains about a dependency's _dev_ dependencies, do not trust that tool, since it's broken."
+      },
+      {
+        "topic": "Proposal Development",
+        "evidence": "Comment on tc39/proposal-composites: @danieltroger you don't have the first item as a guarantee anyways - keys that are numeric indexes will be ordered differently when reserialized, because JS objects use a combination of sorting and insertion order."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "security",
+        "proposal development"
+      ],
+      "communication_style": "Engaging in discussions about security-related topics and proposal development, often providing insightful comments and evidence to support their points."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer with a strong focus on security and proposal development, who is not afraid to engage in discussions and provide constructive feedback.",
+      "conversation_starters": [
+        "What are some common security best practices for JavaScript projects?",
+        "How do you approach proposal development in the context of tc39/proposal-composites?",
+        "Can you share an example of a successful security-related project you've worked on?"
+      ]
+    }
+  }
+}
