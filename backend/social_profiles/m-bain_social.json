@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T16:52:05.388197",
+    "pipeline_version": "1.0",
+    "primary_identifier": "m-bain",
+    "data_sources": [
+      "github_live"
+    ]
+  },
+  "identity": {
+    "primary_name": "Max Bain",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "twitter",
+        "identifier": "maxhbain"
+      },
+      {
+        "platform": "website",
+        "identifier": "maxbain.com"
+      }
+    ]
+  },
+  "profiles": {
+    "github": {
+      "username": "m-bain",
+      "fetched_at": "2026-01-18T16:52:05.388197",
+      "profile": {
+        "login": "m-bain",
+        "id": 36994049,
+        "node_id": "MDQ6VXNlcjM2OTk0MDQ5",
+        "avatar_url": "https://avatars.githubusercontent.com/u/36994049?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/m-bain",
+        "html_url": "https://github.com/m-bain",
+        "followers_url": "https://api.github.com/users/m-bain/followers",
+        "following_url": "https://api.github.com/users/m-bain/following{/other_user}",
+        "gists_url": "https://api.github.com/users/m-bain/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/m-bain/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/m-bain/subscriptions",
+        "organizations_url": "https://api.github.com/users/m-bain/orgs",
+        "repos_url": "https://api.github.com/users/m-bain/repos",
+        "events_url": "https://api.github.com/users/m-bain/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/m-bain/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false,
+        "name": "Max Bain",
+        "company": null,
+        "blog": "maxbain.com",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": "idk",
+        "twitter_username": "maxhbain",
+        "public_repos": 31,
+        "public_gists": 0,
+        "followers": 738,
+        "following": 24,
+        "created_at": "2018-03-02T14:51:43Z",
+        "updated_at": "2026-01-04T21:53:03Z"
+      },
+      "repositories": [
+        {
+          "name": "whisperX",
+          "stars": 19690,
+          "language": "Python"
+        },
+        {
+          "name": "gemini-cli",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "reka-vibe-eval",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "webvid",
+          "stars": 674,
+          "language": "Python"
+        },
+        {
+          "name": "clip-hitchhiker",
+          "stars": 10,
+          "language": "Python"
+        },
+        {
+          "name": "transformers",
+          "stars": 0,
+          "language": "Python"
+        },
+        {
+          "name": "PaddleOCR",
+          "stars": 2,
+          "language": "Python"
+        },
+        {
+          "name": "video2dataset",
+          "stars": 1,
+          "language": "Python"
+        },
+        {
+          "name": "whisper-asr-webservice",
+          "stars": 2,
+          "language": "Python"
+        },
+        {
+          "name": "LAVIS",
+          "stars": 3,
+          "language": "Jupyter Notebook"
+        },
+        {
+          "name": "CLIP",
+          "stars": 1,
+          "language": "Jupyter Notebook"
+        },
+        {
+          "name": "meeteval",
+          "stars": 0,
+          "language": "Python"
+        },
+        {
+          "name": "SimpleDiarization",
+          "stars": 2,
+          "language": null
+        },
+        {
+          "name": "pyannote-audio",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "whisper",
+          "stars": 0,
+          "language": "Jupyter Notebook"
+        },
+        {
+          "name": "CondensedMovies",
+          "stars": 194,
+          "language": "Python"
+        },
+        {
+          "name": "CondensedMovies-chall",
+          "stars": 20,
+          "language": "Python"
+        },
+        {
+          "name": "video_features",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "frozen-in-time",
+          "stars": 379,
+          "language": "Python"
+        },
+        {
+          "name": "hydra",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "primate-behaviour-recognition",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "web-retrieval-demo",
+          "stars": 1,
+          "language": "Python"
+        },
+        {
+          "name": "chimp-detector",
+          "stars": 2,
+          "language": "Python"
+        },
+        {
+          "name": "conceptual-12m",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "video-transformers",
+          "stars": 24,
+          "language": "Python"
+        },
+        {
+          "name": "pytorch-image-models",
+          "stars": 1,
+          "language": "Python"
+        },
+        {
+          "name": "slurm_gpustat",
+          "stars": 1,
+          "language": "Python"
+        },
+        {
+          "name": "torchvggish",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "collaborative-experts",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "bert-as-service",
+          "stars": 0,
+          "language": null
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "comments": [],
+      "pull_requests": [],
+      "cross_references": [
+        {
+          "platform": "twitter",
+          "identifier": "maxhbain"
+        },
+        {
+          "platform": "website",
+          "identifier": "maxbain.com"
+        }
+      ]
+    }
+  },
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {
+    "github": {}
+  },
+  "summary": {
+    "name": "Max Bain",
+    "bio": "idk",
+    "location": null,
+    "company": null,
+    "top_languages": [],
+    "top_repos": []
+  }
+}

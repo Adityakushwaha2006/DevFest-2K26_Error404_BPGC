@@ -5,11 +5,50 @@ Main Application - Routes to Landing Page or Dashboard
 """
 
 import streamlit as st
+import subprocess
+import os
+import sys
 from logic.landing_page import render_landing_page
 from logic.dashboard import render_dashboard
 
 # Page config
 st.set_page_config(page_title="NEXUS", layout="wide", initial_sidebar_state="collapsed")
+
+
+def start_logistic_mind():
+    """
+    Start Logistic Mind backend as a subprocess (once per session).
+    Runs in background and watches chat logs for entity extraction.
+    """
+    if 'logistic_mind_started' not in st.session_state:
+        try:
+            # Get path to logistic_mind.py
+            backend_dir = os.path.join(
+                os.path.dirname(os.path.dirname(__file__)),
+                "backend"
+            )
+            logistic_mind_path = os.path.join(backend_dir, "logistic_mind.py")
+            
+            if os.path.exists(logistic_mind_path):
+                # Start as background subprocess
+                subprocess.Popen(
+                    [sys.executable, logistic_mind_path],
+                    cwd=backend_dir,
+                    stdout=subprocess.DEVNULL,
+                    stderr=subprocess.DEVNULL,
+                    creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
+                )
+                st.session_state.logistic_mind_started = True
+                print("✅ Logistic Mind auto-started in background")
+            else:
+                print(f"⚠️ Logistic Mind not found at: {logistic_mind_path}")
+        except Exception as e:
+            print(f"⚠️ Failed to start Logistic Mind: {e}")
+            st.session_state.logistic_mind_started = False
+
+
+# Auto-start Logistic Mind backend
+start_logistic_mind()
 
 # Check query parameters for navigation and mode
 query_params = st.query_params

@@ -403,9 +403,19 @@ When these are not available, request them before strategizing."""
         self.target_context = target_profile
         self.user_context["intent"] = intent
         
-        # Build context injection message for next prompt
-        context_injection = f"""
---- REAL-TIME CONTEXT INJECTION ---
+        # Check if we have REAL data or just empty/failed fetch
+        has_real_data = bool(
+            target_profile.get('skills') or 
+            target_profile.get('topics') or 
+            target_profile.get('bio') or
+            target_profile.get('recent_activity') or
+            (target_profile.get('last_activity_hours', 999) < 999)
+        )
+        
+        if has_real_data:
+            # Build context injection message with REAL data
+            context_injection = f"""
+--- REAL-TIME CONTEXT INJECTION (VERIFIED DATA) ---
 Target: {target_profile.get('name', 'Unknown')}
 Role: {target_profile.get('role', target_profile.get('bio', '')[:50])}
 GitHub: {target_profile.get('github_username', 'N/A')}
@@ -425,18 +435,42 @@ Recent Activity: {target_profile.get('last_activity_hours', 'Unknown')} hours ag
 Use this context to guide your recommendations.
 --- END CONTEXT ---
 """
+        else:
+            # CRITICAL: Warn about missing data to prevent hallucination
+            context_injection = f"""
+--- CONTEXT INJECTION (DATA FETCH INCOMPLETE) ---
+Target Username: {target_profile.get('github_username', target_profile.get('name', 'Unknown'))}
+
+⚠️ CRITICAL: Profile data fetch was incomplete or failed.
+DO NOT make up or hallucinate any details about this person's:
+- Repositories or projects
+- Technologies or skills  
+- Employment history
+- Activity patterns
+
+Instead, you MUST:
+1. Tell the user that you could not retrieve complete profile data
+2. Suggest they check the profile directly: https://github.com/{target_profile.get('github_username', '')}
+3. Ask if they want to provide any context about this person manually
+
+CIT Score: {cit_score.get('total', 0)}/100 (Low confidence due to missing data)
+--- END CONTEXT ---
+"""
         
         # Add as system message to history for context
         self.history.append({
             "role": "system",
             "content": context_injection,
             "timestamp": datetime.now().isoformat(),
-            "type": "context_injection"
+            "type": "context_injection",
+            "has_real_data": has_real_data
         })
         
         # Log the injection
         self._log_to_file()
-        print(f"✅ Context injected for: {target_profile.get('name', 'Unknown')} (CIT: {cit_score.get('total', 0)})")
+        data_status = "VERIFIED" if has_real_data else "INCOMPLETE"
+        print(f"✅ Context injected for: {target_profile.get('name', 'Unknown')} (CIT: {cit_score.get('total', 0)}, Data: {data_status})")
+
 
 
 def create_chat_engine(system_prompt: Optional[str] = None, session_id: Optional[str] = None) -> Optional[GeminiChatEngine]:

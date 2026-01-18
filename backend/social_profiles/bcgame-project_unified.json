@@ -1,0 +1,108 @@
+{
+  "name": "bcgame-project",
+  "generated_at": "2026-01-18T16:52:24.365353",
+  "identity": {
+    "primary_name": null,
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": []
+  },
+  "platforms": {
+    "github": {
+      "username": "bcgame-project",
+      "fetched_at": "2026-01-18T16:52:18.798576",
+      "profile": {
+        "login": "bcgame-project",
+        "id": 69304066,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjY5MzA0MDY2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/69304066?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/bcgame-project",
+        "html_url": "https://github.com/bcgame-project",
+        "followers_url": "https://api.github.com/users/bcgame-project/followers",
+        "following_url": "https://api.github.com/users/bcgame-project/following{/other_user}",
+        "gists_url": "https://api.github.com/users/bcgame-project/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/bcgame-project/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/bcgame-project/subscriptions",
+        "organizations_url": "https://api.github.com/users/bcgame-project/orgs",
+        "repos_url": "https://api.github.com/users/bcgame-project/repos",
+        "events_url": "https://api.github.com/users/bcgame-project/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/bcgame-project/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false,
+        "name": null,
+        "company": null,
+        "blog": "",
+        "location": null,
+        "email": null,
+        "hireable": null,
+        "bio": null,
+        "twitter_username": null,
+        "public_repos": 5,
+        "public_gists": 0,
+        "followers": 1272,
+        "following": 0,
+        "created_at": "2020-08-06T10:34:24Z",
+        "updated_at": "2020-08-06T11:00:01Z"
+      },
+      "repositories": [
+        {
+          "name": "verify",
+          "stars": 184,
+          "language": "HTML"
+        },
+        {
+          "name": "bcgame-crash",
+          "stars": 81,
+          "language": "HTML"
+        },
+        {
+          "name": "bcgame-roll",
+          "stars": 40,
+          "language": "HTML"
+        },
+        {
+          "name": "bcgame-blackjack",
+          "stars": 36,
+          "language": null
+        },
+        {
+          "name": "bcgame-roulette",
+          "stars": 36,
+          "language": "HTML"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "comments": [],
+      "pull_requests": [],
+      "cross_references": []
+    }
+  },
+  "expertise": {
+    "top_technologies": [],
+    "expertise_indicators": []
+  },
+  "content": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  },
+  "activity_timeline": [],
+  "recency_weighting": {
+    "social": {
+      "github": {}
+    }
+  }
+}

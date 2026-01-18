@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T17:04:26.470113",
+    "pipeline_version": "1.0",
+    "primary_identifier": "kaditya97",
+    "data_sources": [
+      "github_live"
+    ]
+  },
+  "identity": {
+    "primary_name": "Aditya Kushwaha",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "twitter",
+        "identifier": "kaditya97"
+      },
+      {
+        "platform": "website",
+        "identifier": "kaditya97.com.np"
+      }
+    ]
+  },
+  "profiles": {
+    "github": {
+      "username": "kaditya97",
+      "fetched_at": "2026-01-18T17:04:26.470113",
+      "profile": {
+        "login": "kaditya97",
+        "id": 50064160,
+        "node_id": "MDQ6VXNlcjUwMDY0MTYw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/50064160?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kaditya97",
+        "html_url": "https://github.com/kaditya97",
+        "followers_url": "https://api.github.com/users/kaditya97/followers",
+        "following_url": "https://api.github.com/users/kaditya97/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kaditya97/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kaditya97/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kaditya97/subscriptions",
+        "organizations_url": "https://api.github.com/users/kaditya97/orgs",
+        "repos_url": "https://api.github.com/users/kaditya97/repos",
+        "events_url": "https://api.github.com/users/kaditya97/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kaditya97/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false,
+        "name": "Aditya Kushwaha",
+        "company": "OpenGeoHub Foundation",
+        "blog": "kaditya97.com.np",
+        "location": "Doorwerth, Netherlands",
+        "email": null,
+        "hireable": null,
+        "bio": "Tech Lead, Full Stack Developer, Geomatics engineer, Web-GIS developer, Machine Learning and forever learner",
+        "twitter_username": "kaditya97",
+        "public_repos": 84,
+        "public_gists": 2,
+        "followers": 57,
+        "following": 57,
+        "created_at": "2019-04-28T02:59:59Z",
+        "updated_at": "2026-01-14T19:48:44Z"
+      },
+      "repositories": [
+        {
+          "name": "meme_generator_react",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "kaditya97",
+          "stars": 2,
+          "language": "Astro"
+        },
+        {
+          "name": "satellite-viewer",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "RiskChanges",
+          "stars": 0,
+          "language": "Python"
+        },
+        {
+          "name": "webgl-openlayers",
+          "stars": 0,
+          "language": "TypeScript"
+        },
+        {
+          "name": "maplibre-basemaps",
+          "stars": 9,
+          "language": "TypeScript"
+        },
+        {
+          "name": "maplibre-graticule",
+          "stars": 6,
+          "language": "TypeScript"
+        },
+        {
+          "name": "resources",
+          "stars": 0,
+          "language": "HTML"
+        },
+        {
+          "name": "llm-cpu",
+          "stars": 0,
+          "language": "HTML"
+        },
+        {
+          "name": "pmtiles-maplibre-example",
+          "stars": 0,
+          "language": "HTML"
+        },
+        {
+          "name": "jupyterlite",
+          "stars": 0,
+          "language": "Jupyter Notebook"
+        },
+        {
+          "name": "fastapi-minio",
+          "stars": 0,
+          "language": "Python"
+        },
+        {
+          "name": "tasking-manager",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "gesan-geodjango-training",
+          "stars": 1,
+          "language": "Python"
+        },
+        {
+          "name": "osm_query_app",
+          "stars": 1,
+          "language": "Dart"
+        },
+        {
+          "name": "gee_flask_backend",
+          "stars": 0,
+          "language": "Python"
+        },
+        {
+          "name": "maplibre_3d_tiles",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "sawp",
+          "stars": 2,
+          "language": "JavaScript"
+        },
+        {
+          "name": "electron_react_leaflet",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "electron_react_template",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "maplibre-search",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "python-for-geospatial-analysis",
+          "stars": 0,
+          "language": "Jupyter Notebook"
+        },
+        {
+          "name": "cesium-map",
+          "stars": 0,
+          "language": "TypeScript"
+        },
+        {
+          "name": "maplibre_flutter",
+          "stars": 0,
+          "language": "Dart"
+        },
+        {
+          "name": "nodejs-starter-template",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "django_react_leadmanager",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "django_react_template",
+          "stars": 0,
+          "language": "Python"
+        },
+        {
+          "name": "django_electron_weather_app",
+          "stars": 0,
+          "language": "Python"
+        },
+        {
+          "name": "electron_flask_calculator",
+          "stars": 0,
+          "language": "JavaScript"
+        },
+        {
+          "name": "gee_nasaspacechallenges",
+          "stars": 0,
+          "language": "JavaScript"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "comments": [],
+      "pull_requests": [],
+      "cross_references": [
+        {
+          "platform": "twitter",
+          "identifier": "kaditya97"
+        },
+        {
+          "platform": "website",
+          "identifier": "kaditya97.com.np"
+        }
+      ]
+    }
+  },
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {
+    "github": {}
+  },
+  "summary": {
+    "name": "Aditya Kushwaha",
+    "bio": "Tech Lead, Full Stack Developer, Geomatics engineer, Web-GIS developer, Machine Learning and forever learner",
+    "location": "Doorwerth, Netherlands",
+    "company": "OpenGeoHub Foundation",
+    "top_languages": [],
+    "top_repos": []
+  }
+}

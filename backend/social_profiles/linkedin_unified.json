@@ -1,0 +1,33 @@
+{
+  "name": "LinkedIn",
+  "generated_at": "2026-01-18T16:53:22.098770",
+  "identity": {
+    "primary_name": null,
+    "confidence_score": 0.5,
+    "verified_platforms": [],
+    "cross_references": []
+  },
+  "platforms": {},
+  "expertise": {
+    "top_technologies": [],
+    "expertise_indicators": []
+  },
+  "content": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  },
+  "activity_timeline": [],
+  "recency_weighting": {
+    "social": {}
+  },
+  "discovery_metadata": {
+    "platforms_discovered": [
+      "github",
+      "twitter",
+      "devto",
+      "medium"
+    ],
+    "search_status": "success"
+  }
+}

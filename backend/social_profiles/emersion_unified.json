@@ -1,0 +1,275 @@
+{
+  "name": "Simon Ser",
+  "generated_at": "2026-01-18T17:19:57.099084",
+  "identity": {
+    "primary_name": "Simon Ser",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "website",
+        "identifier": "https://emersion.fr"
+      }
+    ]
+  },
+  "platforms": {
+    "github": {
+      "username": "emersion",
+      "fetched_at": "2026-01-18T17:19:47.622253",
+      "profile": {
+        "login": "emersion",
+        "id": 506932,
+        "node_id": "MDQ6VXNlcjUwNjkzMg==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/506932?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/emersion",
+        "html_url": "https://github.com/emersion",
+        "followers_url": "https://api.github.com/users/emersion/followers",
+        "following_url": "https://api.github.com/users/emersion/following{/other_user}",
+        "gists_url": "https://api.github.com/users/emersion/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/emersion/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/emersion/subscriptions",
+        "organizations_url": "https://api.github.com/users/emersion/orgs",
+        "repos_url": "https://api.github.com/users/emersion/repos",
+        "events_url": "https://api.github.com/users/emersion/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/emersion/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false,
+        "name": "Simon Ser",
+        "company": null,
+        "blog": "https://emersion.fr",
+        "location": "France",
+        "email": "contact@emersion.fr",
+        "hireable": true,
+        "bio": "I work on open-source software. \r\n\r\nMost of my other contributions are on Codeberg and gitlab.freedesktop.org.",
+        "twitter_username": null,
+        "public_repos": 273,
+        "public_gists": 46,
+        "followers": 2080,
+        "following": 67,
+        "created_at": "2010-12-02T17:55:50Z",
+        "updated_at": "2025-10-23T21:38:16Z"
+      },
+      "repositories": [
+        {
+          "name": "flutter.widgets",
+          "stars": 0,
+          "language": "Dart"
+        },
+        {
+          "name": "hydroxide",
+          "stars": 1973,
+          "language": "Go"
+        },
+        {
+          "name": "xdg-desktop-portal-wlr",
+          "stars": 678,
+          "language": "C"
+        },
+        {
+          "name": "netzgrafik-editor-frontend",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "soju",
+          "stars": 177,
+          "language": "Go"
+        },
+        {
+          "name": "glslang",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "sway",
+          "stars": 2,
+          "language": "C"
+        },
+        {
+          "name": "ircv3-specifications",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "go-mls",
+          "stars": 26,
+          "language": "Go"
+        },
+        {
+          "name": "cage",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "i18next-typescript-parser",
+          "stars": 3,
+          "language": "TypeScript"
+        },
+        {
+          "name": "go-webdav",
+          "stars": 448,
+          "language": "Go"
+        },
+        {
+          "name": ".github",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "go-imap",
+          "stars": 2290,
+          "language": "Go"
+        },
+        {
+          "name": "mako",
+          "stars": 2910,
+          "language": "C"
+        },
+        {
+          "name": "go-varlink",
+          "stars": 8,
+          "language": "Go"
+        },
+        {
+          "name": "bakah",
+          "stars": 37,
+          "language": "Go"
+        },
+        {
+          "name": "slurp",
+          "stars": 1169,
+          "language": "C"
+        },
+        {
+          "name": "hottub",
+          "stars": 7,
+          "language": "Go"
+        },
+        {
+          "name": "webcrypto.dart",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "ircv3.github.io",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "rollup-plugins",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "wlhangul",
+          "stars": 26,
+          "language": "C"
+        },
+        {
+          "name": "gamescope",
+          "stars": 4,
+          "language": null
+        },
+        {
+          "name": "osrd-website",
+          "stars": 1,
+          "language": "JavaScript"
+        },
+        {
+          "name": "OpenRailAssociation-web-deployment-action",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "aml",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "ai.robots.txt",
+          "stars": 1,
+          "language": null
+        },
+        {
+          "name": "varlink.github.io",
+          "stars": 0,
+          "language": null
+        },
+        {
+          "name": "go-smtp",
+          "stars": 1990,
+          "language": "Go"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "comments": [],
+      "pull_requests": [],
+      "cross_references": [
+        {
+          "platform": "website",
+          "identifier": "https://emersion.fr"
+        }
+      ]
+    },
+    "stackoverflow": {
+      "platform": "stackoverflow",
+      "user_id": 3567989,
+      "profile": {
+        "badge_counts": {
+          "bronze": 11,
+          "silver": 5,
+          "gold": 0
+        },
+        "account_id": 4374652,
+        "is_employee": false,
+        "last_modified_date": 1611086228,
+        "last_access_date": 1768561178,
+        "reputation_change_year": 0,
+        "reputation_change_quarter": 0,
+        "reputation_change_month": 0,
+        "reputation_change_week": 0,
+        "reputation_change_day": 0,
+        "reputation": 453,
+        "creation_date": 1398329361,
+        "user_type": "registered",
+        "user_id": 3567989,
+        "website_url": "http://emersion.fr",
+        "link": "https://stackoverflow.com/users/3567989/emersion",
+        "profile_image": "https://www.gravatar.com/avatar/1ce071dd3264c7d9f5d9c0b7137faa6b?s=256&d=identicon&r=PG",
+        "display_name": "emersion"
+      },
+      "fetch_status": "success",
+      "top_tags": []
+    }
+  },
+  "expertise": {
+    "top_technologies": [],
+    "expertise_indicators": [
+      "Stack Overflow User"
+    ]
+  },
+  "content": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  },
+  "activity_timeline": [],
+  "recency_weighting": {
+    "social": {
+      "github": {}
+    }
+  }
+}
