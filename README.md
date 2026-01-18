@@ -1,125 +1,111 @@
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=50&duration=3000&pause=1000&color=EDEDED&center=true&vCenter=true&width=435&lines=N+E+X+U+S" alt="NEXUS" />
-</p>
-
-<h2 align="center">The Networking Tool That Tells You When <em>Not</em> To Reach Out</h2>
-
+<a id="the-pitch"></a>
 <p align="center">
   <img src="https://img.shields.io/badge/DevFest-5.0-FF6F00?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Team-Error404-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/BITS-Pilani_Goa-green?style=for-the-badge" />
-</p>
+  <img src=".\additional_assets\logo_banner.png" alt="NEXUS" style="border-radius: 40px 40px 40px 40px;"  />
+  <img src=".\additional_assets\image.png" alt="NEXUS" style="border-radius: 40px 40px 0 0;" />
+  <img src=" .\additional_assets\image copy.png" alt="NEXUS" />
+  <img src=".\additional_assets\image copy 2.png" alt="NEXUS" />
+  <img src=".\additional_assets\image copy 3.png" alt="NEXUS" />
+  <img src=".\additional_assets\image copy 5.png" alt="NEXUS" />
+  <img src=".\additional_assets\image copy 6.png" alt="NEXUS" />
+  <img src=".\additional_assets\image copy 7.png" alt="NEXUS" />
+  <img src=".\additional_assets\image copy 4.png" alt="NEXUS" style="border-radius: 0 0 40px 40px;" />
 
----
 
-<br/>
-
-## The Insight
-
-**Every networking tool answers:** *"Who should I connect with?"*
-
-**Nobody answers:**
-- **WHEN** is the right moment to reach out?
-- **WHY** would they respond to *me* specifically?
-- **HOW** should I approach based on their current mental state?
-
-<br/>
 
 <p align="center">
-  <strong>LinkedIn is a phonebook.</strong><br/>
-  <strong>NEXUS is a strategist.</strong>
+  <strong><a href="#the-pitch">THE PITCH</a></strong>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <strong><a href="#the-technical-depth--architecture-and-functioning">TECHNICAL DEPTH</a></strong>
+  &nbsp;&nbsp;|&nbsp;&nbsp;
+  <strong><a href="#demo-operations--see-nexus-in-operation">DEMO OPERATIONS</a></strong>
 </p>
 
-<br/>
+</p>
 
 ---
+# THE TECHNICAL DEPTH : ARCHITECTURE AND FUNCTIONING
 
-## What NEXUS Does
+NEXUS operates as a dual-process system: a **Streamlit UI** for the strategy console and a **Background Agent (Logistic Mind)** for autonomous intelligence.
 
-<br/>
+```mermaid
+graph TD
+    %% SUBGRAPH: USER INTERFACE (Top Level)
+    subgraph UI_Layer [User Interface]
+        direction TB
+        User([User]) <-->|Interacts| UI["Streamlit Dashboard<br/>(devfest_nexus/app.py)"]
+    end
 
-### 1. Three AI Advisors — Not One Generic Chatbot
+    %% SUBGRAPH: DATA STORES (Middle Layer - Left)
+    subgraph Data_Stores [State & Context]
+        direction TB
+        ChatLogs[("Chat Logs JSON")]
+        State[("Frontend State JSON")]
+        Context[("Active Context JSON")]
+    end
 
-Users select their context. Advice adapts accordingly.
+    %% SUBGRAPH: INTELLIGENCE (Middle Layer - Center)
+    subgraph Brain_Core [Logistic Mind Agent]
+        direction TB
+        LM["Logistic Mind<br/>(Background Process)"]
+        Gemini["Google Gemini 2.0 Flash<br/>(Reasoning Engine)"]
+        
+        LM <-->|Reasoning| Gemini
+    end
 
-<table align="center">
-<tr>
-<td align="center" width="33%">
-<h3>Student</h3>
-<em>Internships & Mentorship</em>
-<br/><br/>
-Alumni Networks<br/>
-Recruiters<br/>
-Career Mentors
-</td>
-<td align="center" width="33%">
-<h3>Founder</h3>
-<em>Funding & Talent</em>
-<br/><br/>
-Venture Capital<br/>
-Co-founder Matching<br/>
-Key Hires
-</td>
-<td align="center" width="33%">
-<h3>Researcher</h3>
-<em>Labs & Collaboration</em>
-<br/><br/>
-Lab Opportunities<br/>
-Citation Networks<br/>
-Conference Circles
-</td>
-</tr>
-</table>
+    %% SUBGRAPH: ORCHESTRATION (Middle Layer - Right)
+    subgraph Execution [Pipeline Execution]
+        direction TB
+        Orchestrator["Nexus Orchestrator"]
+        Discovery["Search Engine"]
+        SocialFetch["Social Fetchers"]
+    end
 
-<br/>
+    %% SUBGRAPH: EXTERNAL DATA (Bottom Layer)
+    subgraph External [External Platforms]
+        direction LR
+        GitHub[("GitHub")] ~~~ LinkedIn[("LinkedIn")] ~~~ Twitter[("Twitter/X")]
+    end
 
-> Each mode runs **different scoring algorithms**. Students receive alumni-weighted advice. Founders get signal-weighted intelligence. The AI speaks the user's language.
+    %% CONNECTIONS ==========================================
+    
+    %% User Flow
+    UI -->|Writes| ChatLogs
+    ChatLogs -->|Watches| LM
+    
+    %% Feedback Loop
+    LM -->|Updates| State
+    LM -->|Updates| Context
+    State -->|Reads| UI
+    Context -->|Reads| UI
 
-<br/>
+    %% Pipeline Logic
+    LM -->|Triggers| Orchestrator
+    Orchestrator -->|1. Find| Discovery
+    Orchestrator -->|2. Fetch| SocialFetch
+    
+    %% External Calls
+    Discovery -.->|Search| GitHub & LinkedIn & Twitter
+    SocialFetch <-->|API| GitHub & LinkedIn & Twitter
+    
+    %% Unification
+    SocialFetch -->|3. Merge| Unified["Unified Profile Builder"]
+    Unified -->|Save| ProfileJSON[("Unified_Profile.json")]
+    ProfileJSON -->|Hydrate| LM
 
----
+    %% STYLING ==============================================
+    classDef user fill:#1e293b,stroke:#3b82f6,stroke-width:2px,color:#fff;
+    classDef brain fill:#4c1d95,stroke:#8b5cf6,stroke-width:2px,color:#fff;
+    classDef data fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#fff;
+    classDef external fill:#000,stroke:#666,stroke-width:1px,color:#fff,stroke-dasharray: 5 5;
 
-### 2. Timing Intelligence — The System Tells You to WAIT
-
-Other tools: *"Here's the profile. Good luck."*
-
-NEXUS: *"Hold off. They just launched a product. Inbox is flooded. Try again in 72 hours."*
-
-<br/>
-
-<table align="center">
-<tr>
-<th>Score</th>
-<th>Verdict</th>
-<th>What It Means</th>
-</tr>
-<tr>
-<td align="center">90-100</td>
-<td><strong>GO NOW</strong></td>
-<td>Perfect window. Act immediately.</td>
-</tr>
-<tr>
-<td align="center">75-89</td>
-<td><strong>PROCEED</strong></td>
-<td>Good timing. Draft carefully.</td>
-</tr>
-<tr>
-<td align="center">55-74</td>
-<td><strong>CAUTION</strong></td>
-<td>Bad timing. Nurture first.</td>
-</tr>
-<tr>
-<td align="center">0-54</td>
-<td><strong>ABORT</strong></td>
-<td>Door is shut. Wait for a signal change.</td>
-</tr>
-</table>
-
-<br/>
-
-> NEXUS is the only tool that advises users **NOT** to act. That is the feature.
-
-<br/>
+    class UI,User user;
+    class LM,Gemini,Orchestrator,Discovery,SocialFetch,Unified brain;
+    class ChatLogs,State,Context,ProfileJSON data;
+    class GitHub,LinkedIn,Twitter external;
+```
 
 ---
 
@@ -214,65 +200,29 @@ sequenceDiagram
 
 ---
 
-## The Demo
+# DEMO OPERATIONS : SEE NEXUS IN OPERATION 
 
-```
-User: "I need to reach out to someone at Bain for consulting advice"
-
-NEXUS: "Got it. What's your background — business, tech, or something else?"
-
-User: "CS student at BITS"
-
-NEXUS: "Smart angle: BITS has strong consulting alumni. 3 BITS alumni 
-        currently at Bain identified. Best timing opportunity:
-        
-        → Priya Sharma (Associate, Mumbai)
-        → Last active: 6 hours ago on LinkedIn
-        → Score: 87 (PROCEED)
-        → She just posted about mentoring students. Perfect timing.
-        
-        Should I help draft your message?"
-```
-
+  <img src=".\additional_assets\demo\image copy 8.png" alt="NEXUS" style="border-radius: 40px" />
+  <br/>
+  <img src=".\additional_assets\demo\image copy 9.png" alt="NEXUS" style="border-radius: 40px" />
+  <br/>
+  <img src=".\additional_assets\demo\image.png" alt="NEXUS" style="border-radius: 40px 40px 0 0;" />
+  <img src=".\additional_assets\demo\image copy.png" alt="NEXUS" />
+  <img src=".\additional_assets\demo\image copy 2.png" alt="NEXUS" />
+  <img src=".\additional_assets\demo\image copy 3.png" alt="NEXUS" />
+  <img src=".\additional_assets\demo\image copy 4.png" alt="NEXUS" />
+  <img src=".\additional_assets\demo\image copy 5.png" alt="NEXUS" />
+  <img src=".\additional_assets\demo\image copy 6.png" alt="NEXUS" />
+  <img src=".\additional_assets\demo\image copy 7.png" alt="NEXUS"" style="border-radius: 0 0 40px 40px ; />
 <br/>
 
 ---
-
-## Built With
 
 <p align="center">
   <img src="https://img.shields.io/badge/Gemini_2.0-AI_Engine-4285F4?style=for-the-badge&logo=google" />
   <img src="https://img.shields.io/badge/Streamlit-UI-FF4B4B?style=for-the-badge&logo=streamlit" />
   <img src="https://img.shields.io/badge/GitHub_API-Data-181717?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/Python-Backend-3776AB?style=for-the-badge&logo=python" />
+  <img src="./additional_assets/image copy 8.png" style="border-radius: 40px;" />
 </p>
 
-<br/>
-
----
-
-## Team Error404
-
-<table align="center">
-<tr>
-<td align="center"><strong>Aditya Kushwaha</strong><br/><em>Backend & Scoring</em></td>
-<td align="center"><strong>Aditya Melinkeri</strong><br/><em>AI & Prompts</em></td>
-<td align="center"><strong>Aksh Shah</strong><br/><em>Data Pipeline</em></td>
-<td align="center"><strong>Bhuvanesh</strong><br/><em>Frontend & UX</em></td>
-</tr>
-</table>
-
-<br/>
-
----
-
-<br/>
-
-<h3 align="center">Other tools show profiles.</h3>
-<h2 align="center">NEXUS tells you when NOT to use them.</h2>
-
-<br/>
-
-<p align="center">
-  <em>DevFest 5.0 | BITS Pilani Goa | January 2026</em>
-</p>

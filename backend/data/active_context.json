@@ -1,0 +1,13 @@
+{
+  "discovery_mode": true,
+  "needs_clarification": true,
+  "user_intent": "unknown",
+  "extracted_signals": {},
+  "suggested_questions": [
+    "What's your goal? (mentorship, job opportunities, collaboration)",
+    "What field or industry are you interested in?"
+  ],
+  "signal_confirmations": [],
+  "guidance": "User wants to discover people but needs more context. Ask clarifying questions naturally.",
+  "timestamp": "2026-01-18T21:18:00.597786"
+}

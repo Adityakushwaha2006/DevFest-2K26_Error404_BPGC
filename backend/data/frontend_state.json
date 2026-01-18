@@ -1,0 +1,44 @@
+{
+  "active_person": {
+    "name": "davidkim",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=davidkim",
+    "role": "",
+    "github": "davidkim",
+    "twitter": "",
+    "linkedin": ""
+  },
+  "cit_score": {
+    "context": 50,
+    "intent": 60,
+    "timing": 10,
+    "total": 41,
+    "execution_state": "ABORT"
+  },
+  "focus_keywords": [],
+  "intent_classification": "collaboration",
+  "activity_stream": [
+    {
+      "time": "21:18",
+      "type": "signal",
+      "content": "Analyzed profile: davidkim"
+    }
+  ],
+  "tentative_strategy": [
+    {
+      "date": "WATCHLIST",
+      "action": "Monitor for activity signals"
+    },
+    {
+      "date": "TBD",
+      "action": "Revisit when timing improves"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "davidkim",
+      "person": "davidkim",
+      "preview": "CIT: 41/100 - ABORT"
+    }
+  ],
+  "last_updated": "2026-01-18T21:18:00.595623"
+}

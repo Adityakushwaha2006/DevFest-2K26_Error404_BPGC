@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T19:54:56.922324",
+    "pipeline_version": "1.0",
+    "primary_identifier": "Atharva-Kulkarni-694",
+    "data_sources": [
+      "github_live"
+    ]
+  },
+  "identity": {
+    "primary_name": "Atharva Kulkarni",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "website",
+        "identifier": "atharvakulkarniport.netlify.app"
+      }
+    ]
+  },
+  "profiles": {
+    "github": {
+      "username": "Atharva-Kulkarni-694",
+      "fetched_at": "2026-01-18T19:54:56.922324",
+      "profile": {
+        "login": "Atharva-Kulkarni-694",
+        "name": "Atharva Kulkarni",
+        "bio": "Learner | Developer | Communicator | AIML Enthusiast | Ex-Secretary, AICC | Public Speaker | Leader | Strategist | Mentor",
+        "location": "Pune",
+        "blog": "atharvakulkarniport.netlify.app",
+        "public_repos": 13,
+        "public_gists": 0,
+        "followers": 22,
+        "following": 5,
+        "created_at": "2023-04-06T12:00:46Z",
+        "updated_at": "2026-01-16T04:38:49Z"
+      },
+      "repositories": [
+        {
+          "name": "Atharva-Kulkarni-694",
+          "description": "Hello Everyone , This Repo Contains All My Portfolio.",
+          "stars": 0,
+          "forks": 2,
+          "language": null,
+          "updated_at": "2026-01-16T04:46:55Z"
+        },
+        {
+          "name": "portfolio-web",
+          "description": "My portfolio Website",
+          "stars": 0,
+          "forks": 0,
+          "language": "TypeScript",
+          "updated_at": "2026-01-03T16:20:58Z"
+        },
+        {
+          "name": "test-1",
+          "description": "Test Repo.",
+          "stars": 0,
+          "forks": 0,
+          "language": null,
+          "updated_at": "2025-11-16T06:51:50Z"
+        },
+        {
+          "name": "Social-Media-Automation",
+          "description": "This is My Dream Project Where I Can Keep Track Of All Of My Social Media Accounts.",
+          "stars": 0,
+          "forks": 0,
+          "language": "Python",
+          "updated_at": "2025-10-01T18:07:34Z"
+        },
+        {
+          "name": "Payment-Fraud-Detection",
+          "description": "It\u2019s a system that automatically catches suspicious transactions using AI, databases, and real-time streaming \u2014 just like Amazon or Google Pay would need.",
+          "stars": 0,
+          "forks": 0,
+          "language": "Python",
+          "updated_at": "2025-10-01T18:26:10Z"
+        },
+        {
+          "name": "RAG-Chatbot",
+          "description": "A modern RAG chatbot with an attractive frontend and smooth animations using Langchain And Flask. ",
+          "stars": 0,
+          "forks": 0,
+          "language": null,
+          "updated_at": "2025-09-24T08:52:52Z"
+        },
+        {
+          "name": "AICC-GitHub-Workshop",
+          "description": "This Repo Contains All Collaborated Codes During The Session.",
+          "stars": 0,
+          "forks": 17,
+          "language": "Python",
+          "updated_at": "2025-09-21T18:04:54Z"
+        },
+        {
+          "name": "github-pulse-emails",
+          "description": "A web application that allows you to connect your GitHub account and view a chronological timeline of public activity from the developers you follow.",
+          "stars": 0,
+          "forks": 0,
+          "language": "HTML",
+          "updated_at": "2025-09-20T11:56:46Z"
+        },
+        {
+          "name": "Machine-Learning-Concepts",
+          "description": "This Repo contains All ML concepts From Basic.",
+          "stars": 0,
+          "forks": 0,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-09-16T17:44:16Z"
+        },
+        {
+          "name": "ExpenseTracker-AI",
+          "description": "This is my First College Mini Project Where I built an Expense Tracker Using ML.",
+          "stars": 0,
+          "forks": 0,
+          "language": "Python",
+          "updated_at": "2025-06-18T06:32:46Z"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "cross_references": [
+        {
+          "platform": "website",
+          "identifier": "atharvakulkarniport.netlify.app"
+        }
+      ]
+    }
+  },
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {
+    "github": {}
+  },
+  "summary": {
+    "name": "Atharva Kulkarni",
+    "bio": "Learner | Developer | Communicator | AIML Enthusiast | Ex-Secretary, AICC | Public Speaker | Leader | Strategist | Mentor",
+    "location": "Pune",
+    "company": null,
+    "top_languages": [],
+    "top_repos": []
+  }
+}

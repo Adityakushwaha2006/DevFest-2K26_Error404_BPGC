@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T20:34:40.864930",
+    "pipeline_version": "1.0",
+    "primary_identifier": "justy",
+    "data_sources": [
+      "github_live"
+    ]
+  },
+  "identity": {
+    "primary_name": "Justy",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "website",
+        "identifier": "http://justy.me"
+      }
+    ]
+  },
+  "profiles": {
+    "github": {
+      "username": "justy",
+      "fetched_at": "2026-01-18T20:34:40.864930",
+      "profile": {
+        "login": "justy",
+        "name": "Justy",
+        "bio": "Full Stack Polymath, preferring Next.js, Node.js, Three.js, frameworks, the new hotness, et cetera.  Imperative at heart, functional by necessity.\r\n",
+        "company": "Cool Fusion",
+        "location": "Sydney, Australia",
+        "email": "justy256@gmail.com",
+        "hireable": true,
+        "blog": "http://justy.me",
+        "public_repos": 26,
+        "public_gists": 11,
+        "followers": 33,
+        "following": 39,
+        "created_at": "2010-02-25T04:12:22Z",
+        "updated_at": "2026-01-11T11:10:40Z"
+      },
+      "repositories": [
+        {
+          "name": "graphinator",
+          "description": null,
+          "stars": 0,
+          "forks": 0,
+          "language": "TypeScript",
+          "updated_at": "2025-09-29T22:37:57Z"
+        },
+        {
+          "name": "vscode-kickass-studio",
+          "description": "Extension for visual studio code for developing kickass assm c64 programs",
+          "stars": 0,
+          "forks": 0,
+          "language": "TypeScript",
+          "updated_at": "2023-04-28T03:18:27Z"
+        },
+        {
+          "name": "deck.gl",
+          "description": "WebGL2 powered visualization framework",
+          "stars": 0,
+          "forks": 0,
+          "language": "JavaScript",
+          "updated_at": "2021-10-22T00:03:41Z"
+        },
+        {
+          "name": "tedious",
+          "description": "Node TDS module for connecting to SQL Server databases.",
+          "stars": 0,
+          "forks": 0,
+          "language": "JavaScript",
+          "updated_at": "2018-02-13T04:54:36Z"
+        },
+        {
+          "name": "fortify-on-demand-uploader-plugin",
+          "description": "Fortify on Demand Uploader",
+          "stars": 0,
+          "forks": 0,
+          "language": "Java",
+          "updated_at": "2018-01-11T00:21:19Z"
+        },
+        {
+          "name": "jjc-hometrack-test",
+          "description": "Hometrack API Test",
+          "stars": 0,
+          "forks": 1,
+          "language": "JavaScript",
+          "updated_at": "2017-12-12T05:27:33Z"
+        },
+        {
+          "name": "jsonMapper",
+          "description": "simple json mapper",
+          "stars": 0,
+          "forks": 0,
+          "language": "JavaScript",
+          "updated_at": "2018-02-19T01:32:52Z"
+        },
+        {
+          "name": "PPM-Signal-Reader-ARDUINO",
+          "description": "Arduino PPM signal reader/decoder Library",
+          "stars": 0,
+          "forks": 0,
+          "language": "C++",
+          "updated_at": "2014-03-19T03:44:00Z"
+        },
+        {
+          "name": "daytime-driver",
+          "description": "A wrapper around a Sunset/Sunrise driver written by @andynix",
+          "stars": 0,
+          "forks": 0,
+          "language": "JavaScript",
+          "updated_at": "2013-12-10T05:40:15Z"
+        },
+        {
+          "name": "quickstarts-helloninja",
+          "description": "Hello World App that accompanies the 'Hello Ninja' quickstart.",
+          "stars": 0,
+          "forks": 3,
+          "language": "JavaScript",
+          "updated_at": "2013-05-23T01:32:13Z"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "cross_references": [
+        {
+          "platform": "website",
+          "identifier": "http://justy.me"
+        }
+      ]
+    }
+  },
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {
+    "github": {}
+  },
+  "summary": {
+    "name": "Justy",
+    "bio": "Full Stack Polymath, preferring Next.js, Node.js, Three.js, frameworks, the new hotness, et cetera.  Imperative at heart, functional by necessity.\r\n",
+    "location": "Sydney, Australia",
+    "company": "Cool Fusion",
+    "top_languages": [],
+    "top_repos": []
+  }
+}
