@@ -48,6 +48,15 @@ COMMUNICATION STYLE:
 CORE PURPOSE:
 To bridge the gap between professional intent and actionable opportunity. You provide data-driven strategy backed by practical execution frameworks. Your recommendations balance optimism about goals with honesty about challenges.
 
+CRITICAL DATA INTEGRITY RULE:
+You have access to a backend that fetches real profile data from GitHub and other sources. When you receive a "CONTEXT INJECTION" system message:
+- If it says "DATA FETCH INCOMPLETE" or "has_real_data: false" - you MUST NOT make up any details
+- NEVER invent technologies, commit counts, project names, institutions, or any other specific facts
+- If you do not have verified data, say clearly: "I was unable to retrieve complete profile data for this person"
+- Offer to guide the user to check the profile directly or ask them to provide context
+- DO NOT GUESS based on usernames or make assumptions about a person's background
+- This is non-negotiable. Hallucinated information destroys user trust.
+
 ---
 
 PART 1: USER CONTEXT PROTOCOL
@@ -187,7 +196,7 @@ The following variables may be available for analysis:
 
 When these are not available, request them before strategizing."""
 
-    def __init__(self, system_prompt: Optional[str] = None, model_name: str = "models/gemini-3-flash-preview", session_id: Optional[str] = None):
+    def __init__(self, system_prompt: Optional[str] = None, model_name: str = "models/gemini-2.0-flash", session_id: Optional[str] = None):
         """
         Initialize the Gemini chat engine.
         
@@ -313,16 +322,162 @@ When these are not available, request them before strategizing."""
                 "content": user_message,
                 "timestamp": datetime.now().isoformat()
             })
-            self._log_to_file()  # Log immediately
+            self._log_to_file()  # Log immediately so LogisticMind can see it
             
-            # Construct prompt with system context
-            full_prompt = f"{self.system_prompt}\n\nUser: {user_message}"
+            # --- PRE-FETCH PROFILE DATA ---
+            # If the message mentions a GitHub profile, fetch data DIRECTLY before responding
+            import re
+            import time
+            import sys
+            
+            # Add backend to path for imports
+            backend_path = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(__file__))), "backend")
+            if backend_path not in sys.path:
+                sys.path.insert(0, backend_path)
+            
+            # Extract GitHub username from message
+            github_match = re.search(r'github\.com/([a-zA-Z0-9_-]+)', user_message, re.IGNORECASE)
+            
+            if github_match:
+                github_username = github_match.group(1)
+                print(f"🚀 Pre-fetching profile for: {github_username}")
+                
+                try:
+                    # Import and run the pipeline directly
+                    from nexus_main import NexusOrchestrator
+                    
+                    orchestrator = NexusOrchestrator()
+                    result = orchestrator.process_person(
+                        name=github_username,
+                        github_username=github_username,
+                        auto_discover=False
+                    )
+                    
+                    if result and result.get("pipeline_status") in ["complete", "partial_success"]:
+                        unified = result.get("unified_profile", {})
+                        
+                        # Extract skills from GitHub repos
+                        skills = []
+                        github_profile = unified.get("platforms", {}).get("github", {})
+                        if github_profile:
+                            repos = github_profile.get("repositories", [])
+                            for repo in repos:
+                                lang = repo.get("language")
+                                if lang and lang not in skills:
+                                    skills.append(lang)
+                            
+                            profile_data = github_profile.get("profile", {})
+                            bio = profile_data.get("bio") or ""
+                            name = profile_data.get("name") or github_username
+                        else:
+                            bio = ""
+                            name = github_username
+                        
+                        # Build target profile for injection
+                        target_profile = {
+                            "name": name,
+                            "github_username": github_username,
+                            "bio": bio[:200],
+                            "skills": skills[:10],
+                            "topics": [],
+                            "recent_activity": [],
+                            "last_activity_hours": 999
+                        }
+                        
+                        # Compute simple CIT score
+                        cit_score = {
+                            "context": 60,
+                            "intent": 50,
+                            "timing": 30,
+                            "total": 47,
+                            "execution_state": "READY" if skills else "CAUTION"
+                        }
+                        
+                        # Inject context if we have real data
+                        if skills or bio:
+                            self.inject_context(cit_score, target_profile, "networking")
+                            print(f"✅ Pre-fetch complete: {name} with skills: {skills}")
+                        else:
+                            print(f"⚠️ Pre-fetch returned no skills/bio for {github_username}")
+                    else:
+                        print(f"⚠️ Pipeline returned status: {result.get('pipeline_status') if result else 'None'}")
+                        
+                except Exception as e:
+                    print(f"⚠️ Pre-fetch failed: {e}")
+                    # Fall back to waiting for LogisticMind
+                    pass
+            
+            # Also check for existing context from LogisticMind (extended wait time)
+            active_context_path = os.path.join(
+                os.path.dirname(self.log_file_path),
+                "active_context.json"
+            )
+            
+            # If no context was injected yet, wait for LogisticMind (up to 15 seconds)
+            if not any(msg.get("type") == "context_injection" and msg.get("has_real_data") for msg in self.history[-5:]):
+                print("🔄 Waiting for additional context from LogisticMind...")
+                max_wait = 15
+                start_time = time.time()
+                initial_mtime = os.path.getmtime(active_context_path) if os.path.exists(active_context_path) else 0
+                
+                while time.time() - start_time < max_wait:
+                    if os.path.exists(active_context_path):
+                        current_mtime = os.path.getmtime(active_context_path)
+                        if current_mtime > initial_mtime:
+                            try:
+                                with open(active_context_path, 'r', encoding='utf-8') as f:
+                                    context = json.load(f)
+                                    target = context.get('target_profile', {})
+                                    cit = context.get('cit_score', {})
+                                    intent = context.get('intent', '')
+                                    
+                                    if target.get('skills') or target.get('bio'):
+                                        self.inject_context(cit, target, intent)
+                                        print(f"✅ Context from LogisticMind: {target.get('name')}")
+                                        break
+                            except Exception as e:
+                                print(f"⚠️ Failed to load context: {e}")
+                    time.sleep(0.5)
+                else:
+                    print("⏱️ No additional context received")
+            
+            # Construct prompt with system context and any injected profile data
+            # Check for recent context injection in history
+            context_injection = ""
+            for msg in reversed(self.history[-5:]):  # Check last 5 messages
+                if msg.get("type") == "context_injection":
+                    context_injection = msg.get("content", "")
+                    break
+            
+            if context_injection:
+                full_prompt = f"{self.system_prompt}\n\n{context_injection}\n\nUser: {user_message}"
+            else:
+                full_prompt = f"{self.system_prompt}\n\nUser: {user_message}"
             
             # Send to Gemini
             response = self.chat.send_message(full_prompt)
             
-            # Extract response text
-            response_text = response.text
+            # Extract response text with proper error handling for empty responses
+            response_text = None
+            try:
+                # Try to get text from response
+                if hasattr(response, 'text') and response.text:
+                    response_text = response.text
+                elif hasattr(response, 'parts') and response.parts:
+                    # Try to extract from parts
+                    response_text = ''.join(part.text for part in response.parts if hasattr(part, 'text'))
+                elif hasattr(response, 'candidates') and response.candidates:
+                    # Try candidates
+                    for candidate in response.candidates:
+                        if hasattr(candidate, 'content') and candidate.content.parts:
+                            response_text = ''.join(p.text for p in candidate.content.parts if hasattr(p, 'text'))
+                            break
+            except Exception as text_error:
+                print(f"[WARN] Could not extract response text: {text_error}")
+            
+            # Fallback if no text could be extracted
+            if not response_text:
+                response_text = "I apologize, but I couldn't generate a response at the moment. Please try rephrasing your question or try again shortly."
             
             # Add assistant response to history
             self.history.append({
@@ -456,12 +611,17 @@ When these are not available, request them before strategizing."""
         )
         
         if has_real_data:
+            # Format recent activity for display
+            recent_activities_str = ""
+            for act in target_profile.get('recent_activity', [])[:3]:
+                recent_activities_str += f"\n  - [{act.get('platform', 'unknown')}] {act.get('content', '')[:60]}..."
+            
             # Build context injection message with REAL data
             context_injection = f"""
 --- REAL-TIME CONTEXT INJECTION (VERIFIED DATA) ---
 Target: {target_profile.get('name', 'Unknown')}
-Role: {target_profile.get('role', target_profile.get('bio', '')[:50])}
-GitHub: {target_profile.get('github_username', 'N/A')}
+GitHub Username: {target_profile.get('github_username', 'N/A')}
+Bio: {target_profile.get('bio', 'Not available')[:150]}
 
 CIT SCORE BREAKDOWN:
 - Context: {cit_score.get('context', 0)}/100 (Skill/interest overlap)
@@ -472,10 +632,11 @@ CIT SCORE BREAKDOWN:
 
 User's Inferred Intent: {intent}
 
-Skills/Topics: {', '.join(target_profile.get('skills', [])[:5]) or 'Unknown'}
-Recent Activity: {target_profile.get('last_activity_hours', 'Unknown')} hours ago
+VERIFIED TECHNOLOGIES/SKILLS: {', '.join(target_profile.get('skills', [])) or 'None detected'}
+Last Active: {target_profile.get('last_activity_hours', 'Unknown')} hours ago
+Recent Activity:{recent_activities_str or ' None recorded'}
 
-Use this context to guide your recommendations.
+IMPORTANT: Use ONLY this verified data when discussing this person.
 --- END CONTEXT ---
 """
         else:

@@ -1,6 +1,6 @@
 {
   "name": "Simon Ser",
-  "generated_at": "2026-01-18T17:19:57.099084",
+  "generated_at": "2026-01-18T19:10:58.718330",
   "identity": {
     "primary_name": "Simon Ser",
     "confidence_score": 0.5,
@@ -17,35 +17,15 @@
   "platforms": {
     "github": {
       "username": "emersion",
-      "fetched_at": "2026-01-18T17:19:47.622253",
+      "fetched_at": "2026-01-18T19:10:46.265506",
       "profile": {
         "login": "emersion",
-        "id": 506932,
-        "node_id": "MDQ6VXNlcjUwNjkzMg==",
-        "avatar_url": "https://avatars.githubusercontent.com/u/506932?v=4",
-        "gravatar_id": "",
-        "url": "https://api.github.com/users/emersion",
-        "html_url": "https://github.com/emersion",
-        "followers_url": "https://api.github.com/users/emersion/followers",
-        "following_url": "https://api.github.com/users/emersion/following{/other_user}",
-        "gists_url": "https://api.github.com/users/emersion/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/emersion/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/emersion/subscriptions",
-        "organizations_url": "https://api.github.com/users/emersion/orgs",
-        "repos_url": "https://api.github.com/users/emersion/repos",
-        "events_url": "https://api.github.com/users/emersion/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/emersion/received_events",
-        "type": "User",
-        "user_view_type": "public",
-        "site_admin": false,
         "name": "Simon Ser",
-        "company": null,
-        "blog": "https://emersion.fr",
+        "bio": "I work on open-source software. \r\n\r\nMost of my other contributions are on Codeberg and gitlab.freedesktop.org.",
         "location": "France",
         "email": "contact@emersion.fr",
         "hireable": true,
-        "bio": "I work on open-source software. \r\n\r\nMost of my other contributions are on Codeberg and gitlab.freedesktop.org.",
-        "twitter_username": null,
+        "blog": "https://emersion.fr",
         "public_repos": 273,
         "public_gists": 46,
         "followers": 2080,
@@ -56,153 +36,83 @@
       "repositories": [
         {
           "name": "flutter.widgets",
+          "description": null,
           "stars": 0,
-          "language": "Dart"
+          "forks": 0,
+          "language": "Dart",
+          "updated_at": "2026-01-15T18:37:43Z"
         },
         {
           "name": "hydroxide",
+          "description": "A third-party, open-source ProtonMail CardDAV, IMAP and SMTP bridge",
           "stars": 1973,
-          "language": "Go"
+          "forks": 138,
+          "language": "Go",
+          "updated_at": "2026-01-18T12:55:08Z"
         },
         {
           "name": "xdg-desktop-portal-wlr",
+          "description": "xdg-desktop-portal backend for wlroots",
           "stars": 678,
-          "language": "C"
+          "forks": 81,
+          "language": "C",
+          "updated_at": "2026-01-16T14:14:11Z"
         },
         {
           "name": "netzgrafik-editor-frontend",
+          "description": "The Netzgrafik-Editor is a powerful software that enables the creation, modification, and analysis of regular-interval timetable.",
           "stars": 0,
-          "language": null
+          "forks": 0,
+          "language": null,
+          "updated_at": "2025-08-06T11:08:41Z"
         },
         {
           "name": "soju",
+          "description": "IRC bouncer (mirror)",
           "stars": 177,
-          "language": "Go"
+          "forks": 24,
+          "language": "Go",
+          "updated_at": "2026-01-14T23:19:09Z"
         },
         {
           "name": "glslang",
+          "description": "Khronos-reference front end for GLSL/ESSL, partial front end for HLSL, and a SPIR-V generator.",
           "stars": 0,
-          "language": null
+          "forks": 0,
+          "language": null,
+          "updated_at": "2026-01-03T18:22:11Z"
         },
         {
           "name": "sway",
+          "description": "i3-compatible Wayland compositor",
           "stars": 2,
-          "language": "C"
+          "forks": 0,
+          "language": "C",
+          "updated_at": "2024-03-26T17:11:35Z"
         },
         {
           "name": "ircv3-specifications",
+          "description": "IRCv3 specifications | Roadmap: https://git.io/IRCv3-Roadmap | Code of conduct: http://ircv3.net/conduct.html",
           "stars": 1,
-          "language": null
+          "forks": 0,
+          "language": null,
+          "updated_at": "2021-11-03T05:51:48Z"
         },
         {
           "name": "go-mls",
+          "description": "A Go library for MLS",
           "stars": 26,
-          "language": "Go"
+          "forks": 7,
+          "language": "Go",
+          "updated_at": "2025-12-30T22:38:22Z"
         },
         {
           "name": "cage",
+          "description": "A Wayland kiosk",
           "stars": 0,
-          "language": null
-        },
-        {
-          "name": "i18next-typescript-parser",
-          "stars": 3,
-          "language": "TypeScript"
-        },
-        {
-          "name": "go-webdav",
-          "stars": 448,
-          "language": "Go"
-        },
-        {
-          "name": ".github",
-          "stars": 0,
-          "language": null
-        },
-        {
-          "name": "go-imap",
-          "stars": 2290,
-          "language": "Go"
-        },
-        {
-          "name": "mako",
-          "stars": 2910,
-          "language": "C"
-        },
-        {
-          "name": "go-varlink",
-          "stars": 8,
-          "language": "Go"
-        },
-        {
-          "name": "bakah",
-          "stars": 37,
-          "language": "Go"
-        },
-        {
-          "name": "slurp",
-          "stars": 1169,
-          "language": "C"
-        },
-        {
-          "name": "hottub",
-          "stars": 7,
-          "language": "Go"
-        },
-        {
-          "name": "webcrypto.dart",
-          "stars": 0,
-          "language": null
-        },
-        {
-          "name": "ircv3.github.io",
-          "stars": 0,
-          "language": null
-        },
-        {
-          "name": "rollup-plugins",
-          "stars": 1,
-          "language": null
-        },
-        {
-          "name": "wlhangul",
-          "stars": 26,
-          "language": "C"
-        },
-        {
-          "name": "gamescope",
-          "stars": 4,
-          "language": null
-        },
-        {
-          "name": "osrd-website",
-          "stars": 1,
-          "language": "JavaScript"
-        },
-        {
-          "name": "OpenRailAssociation-web-deployment-action",
-          "stars": 0,
-          "language": null
-        },
-        {
-          "name": "aml",
-          "stars": 1,
-          "language": null
-        },
-        {
-          "name": "ai.robots.txt",
-          "stars": 1,
-          "language": null
-        },
-        {
-          "name": "varlink.github.io",
-          "stars": 0,
-          "language": null
-        },
-        {
-          "name": "go-smtp",
-          "stars": 1990,
-          "language": "Go"
+          "forks": 1,
+          "language": null,
+          "updated_at": "2024-04-28T23:09:36Z"
         }
       ],
       "recency_metadata": {
@@ -215,8 +125,6 @@
       },
       "fetch_status": "success",
       "commits": [],
-      "comments": [],
-      "pull_requests": [],
       "cross_references": [
         {
           "platform": "website",

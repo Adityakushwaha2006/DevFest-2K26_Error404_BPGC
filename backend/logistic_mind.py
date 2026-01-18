@@ -410,15 +410,48 @@ Return ONLY a JSON object with this exact format:
             result = orchestrator.process_person(**kwargs)
             
             # Pipeline returns: pipeline_status, unified_profile
-            if result and result.get("pipeline_status") == "complete":
-                print(f"[OK] Pipeline complete for {entity.value}")
+            # Accept both "complete" and "partial_success" since GitHub data may be valid
+            if result and result.get("pipeline_status") in ["complete", "partial_success"]:
+                print(f"[OK] Pipeline {result.get('pipeline_status')} for {entity.value}")
                 # Return the unified_profile with some key fields promoted
                 unified = result.get("unified_profile", {})
                 # Add convenience fields for CIT scoring
                 unified["name"] = unified.get("name", entity.value)
                 unified["github_username"] = entity.value if entity.entity_type == "github" else ""
-                unified["skills"] = list(unified.get("expertise", {}).get("top_technologies", []))[:10]
+                
+                # Extract skills from GitHub repo languages (primary source)
+                skills = []
+                github_profile = unified.get("platforms", {}).get("github", {})
+                if github_profile:
+                    # Get languages from repositories
+                    repos = github_profile.get("repositories", [])
+                    for repo in repos:
+                        lang = repo.get("language")
+                        if lang and lang not in skills:
+                            skills.append(lang)
+                    
+                    # Also get profile bio
+                    profile_data = github_profile.get("profile", {})
+                    unified["bio"] = profile_data.get("bio") or ""
+                    unified["name"] = profile_data.get("name") or unified.get("name", entity.value)
+                
+                # Fallback to misc expertise if no GitHub skills found
+                if not skills:
+                    skills = list(unified.get("expertise", {}).get("top_technologies", []))
+                
+                unified["skills"] = skills[:10]
                 unified["topics"] = list(unified.get("expertise", {}).get("topics", []))[:10]
+                
+                # Get recent activity from timeline
+                recent_activity = []
+                for activity in unified.get("activity_timeline", [])[:5]:
+                    recent_activity.append({
+                        "type": activity.get("type", "unknown"),
+                        "content": activity.get("content", "")[:100],
+                        "platform": activity.get("platform", "unknown")
+                    })
+                unified["recent_activity"] = recent_activity
+                
                 unified["last_activity_hours"] = self._calculate_hours_since_last_activity(unified)
                 return unified
             else:
