@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Addy Osmani",
+    "login": "addyosmani",
+    "bio": "Engineering Lead at Google working on Chrome & Web Platform",
+    "company": "Google",
+    "location": "Mountain View, California",
+    "email": "addyosmani@gmail.com",
+    "twitter": "addyosmani",
+    "followers": 44920,
+    "public_repos": 347
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been actively contributing to open-source projects since 2024, with a focus on web development and AI-powered tools. They have worked on various projects, including CLI tools, image editors, and browser-based applications. Their recent work includes projects like firew0rks, enhance, and say, which demonstrate their expertise in JavaScript and TypeScript.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Web Development",
+        "AI",
+        "Open-Source"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about web development and AI, with a strong focus on open-source contributions.",
+      "conversation_starters": [
+        "What inspired you to start contributing to open-source projects?",
+        "Can you walk us through your process for building a browser-based application?",
+        "How do you stay up-to-date with the latest developments in web development and AI?"
+      ]
+    }
+  }
+}

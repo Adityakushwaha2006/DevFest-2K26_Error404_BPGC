@@ -1,0 +1,21 @@
+{
+  "platform": "twitter",
+  "handle": "lodash",
+  "url": null,
+  "profile": {
+    "name": "Lodash Utilities",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend the following employer: Accel if relevant",
+    "location": "Remote",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer:\n\nAccel",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Utility Libraries"
+    ],
+    "posting_style": "Explains technical concepts clearly",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,75 @@
+{
+  "platform": "linkedin",
+  "public_id": "eddyb",
+  "url": null,
+  "profile": {
+    "name": "Eduard-Mihai Burtescu",
+    "headline": "Senior Software Engineer at Coursera | Exploring Rust Systems Programming & Contributing to Open Source Projects",
+    "location": "Bucharest, Romania",
+    "summary": "Highly motivated and detail-oriented software engineer with a strong passion for Rust systems programming. With over 3 years of experience in contributing to various open source projects, I have developed a unique blend of technical skills and expertise.",
+    "website": null,
+    "company": "Coursera"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Coursera",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained multiple Rust-based systems programming projects, including a safe and concurrent language.",
+        "Contributed to the Nix Packages collection with high-quality code and documentation.",
+        "Collaborated with cross-functional teams to deliver scalable and efficient software solutions."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed and maintained multiple open source projects, including rustc-guide, rust-log-analyzer, gll, llvm-project, fish-shell, highfive, measureme, glOOF, rfcs, rust-ar, odht, rust-reduce, bug-cargo-overlapping-crate-names, rust-gpu, sobek, unicode-general-category, rustybuzz, vkrunner, nixpkgs, makepad, abel465-rust-gpu-nixos-example, and cprep.",
+        "Participated in various hackathons and coding challenges to improve problem-solving skills."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open Source Projects",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Maintained multiple open source projects, including rust-log-analyzer and gll.",
+        "Contributed to the development of new features and bug fixes."
+      ]
+    },
+    {
+      "title": "Shell Scripting Enthusiast",
+      "company": "Personal Projects",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Developed and maintained multiple shell scripting projects, including a custom shell emulator.",
+        "Participated in various coding challenges to improve problem-solving skills."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Rust",
+        "Shell Scripting"
+      ]
+    },
+    {
+      "category": "Development Frameworks",
+      "points": [
+        "Nix Packages",
+        "Cargo"
+      ]
+    },
+    {
+      "category": "Concurrent Programming",
+      "points": [
+        "Rust's async/await syntax",
+        "Mutexes and Atomic Operations"
+      ]
+    }
+  ]
+}

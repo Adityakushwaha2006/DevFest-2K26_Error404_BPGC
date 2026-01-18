@@ -1,0 +1,67 @@
+{
+  "platform": "linkedin",
+  "public_id": "yyx990803",
+  "url": null,
+  "profile": {
+    "name": "Evan You",
+    "headline": "Senior Software Engineer | Performance Optimization Expert | Vite & Vue.js Enthusiast",
+    "location": "Singapore",
+    "summary": "Highly motivated and detail-oriented software engineer with expertise in performance optimization, web development best practices, and modern JavaScript frameworks. Proficient in TypeScript, webpack, CircleCI, and various UI component libraries.",
+    "website": null,
+    "company": "VoidZero"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at VoidZero",
+      "company": "VoidZero",
+      "date_range": "2024-Present",
+      "description": [
+        "Developed high-performance web applications using Vite and Next.js with optimized caching mechanisms.",
+        "Collaborated with cross-functional teams to implement robust testing frameworks and automated deployment pipelines."
+      ]
+    },
+    {
+      "title": "Freelance Developer (2023-2024)",
+      "company": "",
+      "date_range": "2023-2024",
+      "description": [
+        "Worked on various web development projects, including a high-profile e-commerce platform using Vue.js and Next.js.",
+        "Utilized performance optimization techniques to improve application load times by 30%."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer (2023)",
+      "company": "",
+      "date_range": "2023",
+      "description": [
+        "Contributed to the development and maintenance of Radix-Vue, a Vue.js port of Radix UI Primitives.",
+        "Ensured compatibility with various browsers and devices."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Frameworks & Libraries"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "JavaScript",
+          "TypeScript"
+        ]
+      },
+      {
+        "category": "Frameworks & Libraries",
+        "points": [
+          "Vite",
+          "Next.js",
+          "Vue.js",
+          "webpack",
+          "CircleCI"
+        ]
+      }
+    ]
+  }
+}

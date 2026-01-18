@@ -1,0 +1,76 @@
+{
+  "platform": "linkedin",
+  "public_id": "jeremyevans",
+  "url": null,
+  "profile": {
+    "name": "Jeremy Evans",
+    "headline": "Senior Software Engineer | Ubicloud, Inc.",
+    "location": "Sacramento, California, USA",
+    "summary": "Results-driven software engineer with expertise in database development, web development, and library packaging. Proven track record of delivering high-quality projects on time.",
+    "website": null,
+    "company": "Ubicloud, Inc."
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Ubicloud, Inc.",
+      "date_range": "2023 - Present",
+      "description": [
+        "Developed and maintained multiple open-source projects, including Sequel and Roda.",
+        "Collaborated with cross-functional teams to design and implement scalable web applications.",
+        "Improved code quality and performance through rigorous testing and refactoring."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed custom software solutions for clients across various industries.",
+        "Utilized expertise in database development and web development to deliver high-quality projects on time."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to the development and maintenance of popular open-source projects, including Sequel and Roda.",
+        "Participated in code reviews and ensured adherence to best practices."
+      ]
+    },
+    {
+      "title": "Ruby Developer",
+      "company": "Various Clients",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Developed custom software solutions for clients using Ruby on Rails.",
+        "Utilized expertise in database development and web development to deliver high-quality projects on time."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Database Management"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Ruby",
+          "Rack",
+          "RubyGems"
+        ]
+      },
+      {
+        "category": "Database Management",
+        "points": [
+          "Sequel",
+          "PostgreSQL",
+          "Database Sharding"
+        ]
+      }
+    ]
+  }
+}

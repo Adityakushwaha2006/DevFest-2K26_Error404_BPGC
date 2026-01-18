@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Nicolas Gallagher",
+    "login": "necolas",
+    "bio": "Meta. Ex-Twitter",
+    "company": "Meta",
+    "location": "San Francisco, CA",
+    "email": null,
+    "twitter": null,
+    "followers": 11305,
+    "public_repos": 79
+  },
+  "analysis": {
+    "career_trajectory": "Started with JavaScript in 2016, working on various projects including React, Globalize, and Facebook JS utility libraries. Pivoted to TypeScript in 2024, contributing to lexical and normalize.css. Currently exploring React Native and styleQ.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": ""
+      },
+      {
+        "topic": "TypeScript",
+        "evidence": "lexical: Lexical is an extensible text editor framework that provides excellent reliability, accessibility and performance."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "React",
+        "TypeScript",
+        "JavaScript"
+      ],
+      "communication_style": "Asks deep architectural questions, Nitpicks code style"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about JavaScript and React, with a strong interest in learning new technologies like TypeScript.",
+      "conversation_starters": [
+        "What do you think about the current state of React Native?",
+        "How do you approach debugging complex JavaScript issues?",
+        "Can you share your experience with using TypeScript in a project?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Jake Vanderplas",
+    "login": "jakevdp",
+    "bio": "Python ML & Data Science",
+    "company": "Google",
+    "location": "Oakland CA",
+    "email": null,
+    "twitter": "jakevdp",
+    "followers": 18937,
+    "public_repos": 239
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been actively contributing to various open-source projects, including JAX, NumPy, and Scipy. They have also worked on several personal projects, such as a Pythonic Perambulations blog and a Jupyter Notebook repository. Their contributions demonstrate their expertise in programming languages like Python, JAX, and NumPy.",
+    "technical_obsessions": [
+      {
+        "topic": "JAX and its ecosystem",
+        "evidence": "Their extensive comment history on the JAX GitHub repository showcases their involvement in the project's development and maintenance."
+      },
+      {
+        "topic": "NumPy and scientific computing",
+        "evidence": "Their contributions to NumPy and Scipy repositories highlight their expertise in numerical computing and scientific programming."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "JAX",
+        "NumPy",
+        "Scipy"
+      ],
+      "communication_style": "This developer is known for being responsive, informative, and open to feedback. They often engage with others in the community, providing constructive criticism and suggestions for improvement."
+    },
+    "match_profile": {
+      "similar_user_traits": "A detail-oriented and analytical developer who excels at numerical computing and scientific programming.",
+      "conversation_starters": [
+        "What are some of your favorite projects you've worked on recently?",
+        "How do you approach optimization in your code?",
+        "Can you walk me through your thought process when debugging a complex issue?"
+      ]
+    }
+  }
+}

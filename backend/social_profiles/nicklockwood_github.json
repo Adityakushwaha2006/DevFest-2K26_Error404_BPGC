@@ -1,0 +1,49 @@
+{
+  "profile": {
+    "name": "Nick Lockwood",
+    "login": "nicklockwood",
+    "bio": null,
+    "company": "Charcoal Design",
+    "location": "London",
+    "email": null,
+    "twitter": null,
+    "followers": 6441,
+    "public_repos": 98
+  },
+  "analysis": {
+    "career_trajectory": "This developer has a diverse background in software development, with contributions to various open-source projects such as SVGPath, SwiftFormat, and Euclid. They have also worked on several iOS and macOS applications, including a retro first-person shooter game written in Swift. Their experience spans multiple programming languages, including Objective-C, C, JavaScript, and Ruby. They have demonstrated expertise in areas like concurrency, caching, and UI development.",
+    "technical_obsessions": [
+      {
+        "topic": "Declarative UI frameworks",
+        "evidence": "layout: A declarative UI framework for iOS (Lang: Swift)"
+      },
+      {
+        "topic": "Mathematical expression evaluation",
+        "evidence": "Expression: A cross-platform Swift library for evaluating mathematical expressions at runtime (Lang: Swift)"
+      },
+      {
+        "topic": "3D geometry and rendering",
+        "evidence": [
+          "Euclid: A Swift library for creating and manipulating 3D geometry (Lang: Swift)",
+          "GZIP: A simple NSData category for gzipping/unzipping data in iOS and Mac OS (Lang: Objective-C)"
+        ]
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "UI development",
+        "mathematical expression evaluation",
+        "3D geometry"
+      ],
+      "communication_style": "Engaging and helpful, with a willingness to provide explanations and examples to clarify complex concepts."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about UI development and has experience working on iOS and macOS applications.",
+      "conversation_starters": [
+        "What are some common challenges you face when implementing declarative UI frameworks?",
+        "How do you approach optimizing performance in 3D geometry rendering?",
+        "Can you share an example of a project where you had to evaluate mathematical expressions at runtime?"
+      ]
+    }
+  }
+}

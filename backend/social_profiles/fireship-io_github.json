@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Fireship",
+    "login": "fireship-io",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "email": "hello@fireship.io",
+    "twitter": null,
+    "followers": 8429,
+    "public_repos": 116
+  },
+  "analysis": {
+    "career_trajectory": "Started with JavaScript in 2023, explored various frameworks like React, Next.js, Flutter, and Firebase, also dabbled in WebRTC, Node.js, Deno, and Svelte, and has recently been learning TypeScript for software-as-a-service app development.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      },
+      {
+        "topic": "WebRTC",
+        "evidence": "None"
+      },
+      {
+        "topic": "Deno",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Deep architectural questions",
+        "Code style nitpicking",
+        "Supportive mentorship"
+      ],
+      "communication_style": "Asks technical questions, provides feedback on code quality and best practices."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented, enthusiastic about learning new technologies, and values constructive feedback.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing WebRTC in a production environment?",
+        "How do you approach debugging complex issues with Deno?",
+        "Can you share your experience with SvelteKit and how it compares to other frameworks?"
+      ]
+    }
+  }
+}

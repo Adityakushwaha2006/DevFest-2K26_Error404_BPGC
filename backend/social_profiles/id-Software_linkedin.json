@@ -1,0 +1,51 @@
+{
+  "platform": "linkedin",
+  "public_id": "id-Software",
+  "url": null,
+  "profile": {
+    "name": "id Software",
+    "headline": "Senior Software Engineer at Discord",
+    "location": "Richardson, TX",
+    "summary": "Dedicated game engine developer and open-source enthusiast with a passion for preserving gaming history.",
+    "website": null,
+    "company": "Discord"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Discord",
+      "company": "Discord",
+      "date_range": "2023-Present",
+      "description": [
+        "Developing and maintaining the Discord platform's game engine capabilities.",
+        "Collaborating with cross-functional teams to enhance user experience."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2015-2022",
+      "description": [
+        "Contributed to the open-source releases of classic games like Quake and Doom.",
+        "Worked on various game engine projects, including Wolfenstein 3D and DOOM."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Quake-2-Tools",
+      "date_range": "2012-2015",
+      "description": [
+        "Maintained the Quake-2-Tools repository, ensuring its continued development and stability.",
+        "Collaborated with other contributors to improve the overall quality of the project."
+      ]
+    }
+  ],
+  "skills": {
+    "Game Engine Development": [
+      "Contributed to the Quake-2-Tools repo on 2023-12-05",
+      "Worked with C++ in DOOM-3-BFG (2024-08-21)"
+    ],
+    "C Programming Language": [
+      "Worked with C++ in DOOM-3-BFG (2024-08-21)"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "bradfitz",
+  "url": null,
+  "profile": {
+    "name": "Brad Fitzpatrick",
+    "bio": "A punchy bio mentioning Tailscale if relevant",
+    "location": "Seattle",
+    "website": null,
+    "company": "Tailscale",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Networking",
+      "Security"
+    ],
+    "posting_style": "Technical and informative",
+    "common_arguments": "In-depth analysis of networking and security topics, with a focus on Go programming language."
+  },
+  "audience_insight": null
+}

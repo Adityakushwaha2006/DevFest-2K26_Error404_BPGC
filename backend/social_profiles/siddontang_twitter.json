@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "siddontang",
+  "url": null,
+  "profile": {
+    "name": "siddontang",
+    "bio": "Highly experienced Dev | TiDB & Rust expert | Database Systems enthusiast",
+    "location": "SunnyVale",
+    "website": null,
+    "company": "PingCAP",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "Database Systems"
+    ],
+    "posting_style": "In-depth, technical discussions with a focus on constructive feedback and deep architectural questions.",
+    "common_arguments": "Debates around optimal database design, sharding strategies, and the importance of shared storage."
+  },
+  "audience_insight": null
+}

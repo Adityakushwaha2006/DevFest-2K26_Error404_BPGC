@@ -1,0 +1,77 @@
+{
+  "platform": "linkedin",
+  "public_id": "mitsuhiko",
+  "url": null,
+  "profile": {
+    "name": "Armin Ronacher",
+    "headline": "Senior Software Engineer | Earendil",
+    "location": "Austria",
+    "summary": "Highly motivated and versatile software developer with a passion for open-source projects and technical innovation.",
+    "website": null,
+    "company": "Earendil"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Earendil",
+      "date_range": "December 2025 - Present",
+      "description": [
+        "Leading the development of pi-mono, a monorepo for pi packages, and actively contributing to its growth.",
+        "Exploring the use case of prompt generators and implementing a pure slop demo within the project."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "June 2025 - November 2025",
+      "description": [
+        "Developing Go and Python projects, including self-replace and insta-cmd utility libraries.",
+        "Collaborating with clients on various software development tasks."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "July 2025 - November 2025",
+      "description": [
+        "Contributing to the growth and maintenance of open-source projects such as gh-issue-sync and minijinja.",
+        "Participating in discussions and providing feedback on project development."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "June 2025 - July 2025",
+      "description": [
+        "Developing Rust and TypeScript projects, including agent-stuff utility libraries.",
+        "Delivering high-quality software solutions to clients."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Go",
+      "Python",
+      "Rust",
+      "TypeScript"
+    ],
+    "Development Frameworks": [
+      "pi-mono (monorepo)",
+      "gh-issue-sync",
+      "minijinja"
+    ],
+    "Database Management": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "On badlogic/pi-mono: I wonder if the right solution longer term is not to have some sort of keybind config."
+      },
+      {
+        "topic": "Queue Management",
+        "evidence": "On badlogic/pi-mono: Happens every time it launches."
+      }
+    ],
+    "Software Development Methodologies": [
+      "Agile Development"
+    ]
+  }
+}

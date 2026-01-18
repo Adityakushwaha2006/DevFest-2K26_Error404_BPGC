@@ -1,0 +1,71 @@
+{
+  "platform": "linkedin",
+  "public_id": "jcjohnson",
+  "url": null,
+  "profile": {
+    "name": "Justin Johnson",
+    "headline": "Senior Software Engineer | Driving Innovation at World Labs",
+    "location": "Remote",
+    "summary": "Highly motivated and experienced software engineer with a passion for AI, machine learning, and generative art. Skilled in PyTorch, C++, Python, and JavaScript.",
+    "website": null,
+    "company": "World Labs"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "World Labs",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of cutting-edge AI projects using PyTorch and its applications.",
+        "Collaborated with cross-functional teams to drive innovation and growth at World Labs."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed and maintained multiple open-source projects, including neural networks and computer vision applications.",
+        "Provided expert consulting services to clients in the AI and machine learning space."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to the development of popular open-source projects, including generative art and computer vision applications.",
+        "Mentored junior developers and provided guidance on best practices for open-source software development."
+      ]
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Academic Institution",
+      "date_range": "2015 - 2016",
+      "description": [
+        "Assisted in the development of research projects focused on neural networks and computer vision.",
+        "Presented research findings at academic conferences and published papers in top-tier journals."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "PyTorch",
+      "C++",
+      "Python",
+      "JavaScript"
+    ],
+    "Machine Learning": [
+      "Deep learning frameworks",
+      "Neural networks",
+      "Computer vision"
+    ],
+    "Artificial Intelligence": [
+      "Generative art",
+      "AI applications"
+    ],
+    "Database Management": [
+      "Database sharding"
+    ]
+  }
+}

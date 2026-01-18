@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "zloirock",
+  "url": null,
+  "profile": {
+    "name": "Denis Pushkarev",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend the following employer: Netlify. Reasoning: - if relevant",
+    "location": "Cyprus, Larnaca",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer:\n\nNetlify\n\nReasoning:\n-",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Polyfills",
+      "Performance optimization"
+    ],
+    "posting_style": "Supportive mentor",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,89 @@
+{
+  "platform": "linkedin",
+  "public_id": "derailed",
+  "url": null,
+  "profile": {
+    "name": "Fernand Galiana",
+    "headline": "Senior Software Engineer | Delivering scalable and secure software solutions at Imhotep Software",
+    "location": "Colorado, US",
+    "summary": "Highly motivated and detail-oriented developer with expertise in multiple programming languages, frameworks, and cloud computing platforms. Proven track record of building demo applications, contributing to open-source projects, and troubleshooting complex issues.",
+    "website": null,
+    "company": "Imhotep Software"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Imhotep Software",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and developed scalable software solutions using Elixir, Go, JavaScript, Ruby, and SCSS.",
+        "Collaborated with cross-functional teams to deliver high-quality products on time.",
+        "Mentored junior developers and provided code reviews to ensure best practices."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Built demo applications for clients using Angular2, Phoenix, and MongoDB.",
+        "Contributed to open-source projects like k9s and Cilium, demonstrating expertise in networking, security, and observability."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Maintained and updated open-source projects like k9s and Cilium.",
+        "Collaborated with other maintainers to resolve issues and improve code quality."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2016 - 2018",
+      "description": [
+        "Developed software solutions for clients using Ruby, SCSS, and MongoDB.",
+        "Troubleshot complex issues and provided updates on GitHub."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Elixir",
+        "Go",
+        "JavaScript",
+        "Ruby",
+        "SCSS"
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "points": [
+        "Angular2",
+        "Phoenix",
+        "Kubernetes",
+        "Helm"
+      ]
+    },
+    {
+      "category": "Cloud Computing",
+      "points": [
+        "Kubernetes",
+        "Helm",
+        "MongoDB clusters"
+      ]
+    },
+    {
+      "category": "Networking and Security",
+      "points": [
+        "Cilium",
+        "Networking",
+        "Security"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "platform": "linkedin",
+  "public_id": "jonleighton",
+  "url": null,
+  "profile": {
+    "name": "Jon Leighton",
+    "headline": "Senior Software Engineer | Elixir Expert with a passion for Database Sharding",
+    "location": "Australia",
+    "summary": "Highly motivated and experienced software engineer with a strong background in Elixir, Ruby, JavaScript, and Python. Proven track record of delivering high-quality projects on time.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Snowflake as a potential employer for Jon Leighton."
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Snowflake",
+      "company": "Snowflake",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and implemented scalable database solutions using Elixir and Phoenix.",
+        "Collaborated with cross-functional teams to deliver high-quality products on time.",
+        "Developed and maintained multiple Netlify plugins for seamless deployment."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Delivered high-quality projects on time, including Rubyzip and phonelib.",
+        "Worked with clients to understand their requirements and deliver tailored solutions."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Fava",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Maintained the Fava project, ensuring its stability and security.",
+        "Contributed to the development of new features and bug fixes."
+      ]
+    },
+    {
+      "title": "Elixir Developer",
+      "company": "Various Projects",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Developed multiple Elixir projects, including Phoenix and Selenium.",
+        "Collaborated with other developers to deliver high-quality solutions."
+      ]
+    },
+    {
+      "title": "Ruby Developer",
+      "company": "Various Projects",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Developed multiple Ruby projects, including base_x and good_job.",
+        "Worked on various tasks, including bug fixes and new feature development."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Elixir",
+      "Ruby",
+      "JavaScript",
+      "Python"
+    ],
+    "Frameworks": [
+      "Phoenix",
+      "React Native"
+    ],
+    "Databases": [
+      "Database Sharding"
+    ],
+    "Tools": [
+      "Netlify",
+      "Selenium"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Gabriele Mariotti",
+    "login": "gabrielemariotti",
+    "bio": null,
+    "company": null,
+    "location": "Ancona, Italy",
+    "email": "gabri.mariotti@gmail.com",
+    "twitter": "GabMarioPower",
+    "followers": 2700,
+    "public_repos": 27
+  },
+  "analysis": {
+    "career_trajectory": "Started with Java in 2013, worked on various Android-related projects, and later explored other languages like Ruby, JavaScript, and Python. Recently focused on Material Design UI components for Android.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      },
+      {
+        "topic": "Stetho Test",
+        "evidence": "StethoTest: A simple project with the Stetho tool (Lang: Java)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Design Patterns",
+        "Testing Frameworks",
+        "UI Components"
+      ],
+      "communication_style": "Asks technical questions, provides detailed explanations, and offers constructive feedback."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented, enthusiastic about learning new technologies, and values collaboration.",
+      "conversation_starters": [
+        "What inspired you to explore Material Design UI components for Android?",
+        "Can you share your experience with Stetho Test? How has it impacted your development workflow?",
+        "How do you stay up-to-date with the latest trends in Android development?"
+      ]
+    }
+  }
+}

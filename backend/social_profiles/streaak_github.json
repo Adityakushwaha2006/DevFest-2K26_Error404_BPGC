@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": null,
+    "login": "streaak",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "email": null,
+    "twitter": null,
+    "followers": 525,
+    "public_repos": 29
+  },
+  "analysis": {
+    "career_trajectory": "Started with web application security testing in 2014, pivoted to Python programming and various security tools and frameworks. Recently worked on bug bounty hunting, exploit development, and security research.",
+    "technical_obsessions": [
+      {
+        "topic": "Bug Bounty Hunting",
+        "evidence": "assetnote-poc: (Proof of concept) push notifications for passive DNS data"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "bugbounty-hunting",
+        "exploit-development",
+        "security-research"
+      ],
+      "communication_style": "Asks deep architectural questions, Nitpicks code style, Supportive mentor."
+    },
+    "match_profile": {
+      "similar_user_traits": "A detail-oriented developer with a strong focus on security and bug bounty hunting.",
+      "conversation_starters": [
+        "What's your approach to identifying vulnerabilities in web applications?",
+        "Can you walk me through your process for creating an effective bug bounty campaign?",
+        "How do you stay up-to-date with the latest security research and developments?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "platform": "linkedin",
+  "public_id": "dai-shi",
+  "url": null,
+  "profile": {
+    "name": "Daishi Kato",
+    "headline": "Senior Software Engineer | Freelancer | Tokyo",
+    "location": "Tokyo",
+    "summary": "Highly motivated and experienced software engineer with a passion for building scalable, performant, and maintainable applications. Proficient in a range of technologies including Node.js, React, Redux, and IPFS.",
+    "website": null,
+    "company": "Freelancer"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Freelancer",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and developed multiple high-performance applications using Node.js, React, and Redux.",
+        "Collaborated with clients to understand project requirements and delivered custom solutions.",
+        "Maintained and improved existing codebases to ensure scalability and maintainability."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed multiple web applications using React, Redux, and Node.js.",
+        "Worked on open-source projects such as IPFS Pubsub room and Excalidraw.",
+        "Participated in benchmarking Node.js performance and created a tool for Working From Home."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "IPFS Pubsub Room",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Maintained the IPFS Pubsub room repository and ensured its stability and security.",
+        "Contributed to discussions on GitHub and provided feedback on pull requests."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Developed multiple web applications using React, Redux, and Node.js.",
+        "Worked on benchmarking Node.js performance and created a tool for Working From Home."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "points": [
+        "React",
+        "Redux",
+        "Node.js"
+      ]
+    },
+    {
+      "category": "Databases",
+      "points": [
+        "IPFS"
+      ]
+    },
+    {
+      "category": "Development Tools",
+      "points": [
+        "Excalidraw",
+        "Comlink"
+      ]
+    }
+  ]
+}

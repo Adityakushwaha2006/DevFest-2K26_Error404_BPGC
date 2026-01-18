@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "jcjohnson",
+  "url": null,
+  "profile": {
+    "name": "Justin Johnson",
+    "bio": "Expert in AI & Creative Tech | Exploring the intersection of deep learning, computer vision, and generative art.",
+    "location": "Remote",
+    "website": null,
+    "company": "World Labs",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Deep Learning",
+      "Computer Vision",
+      "Generative Art"
+    ],
+    "posting_style": "Technical explanations with a touch of creativity",
+    "common_arguments": "In-depth analysis of AI applications in creative fields"
+  },
+  "audience_insight": null
+}

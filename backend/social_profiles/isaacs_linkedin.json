@@ -1,0 +1,57 @@
+{
+  "platform": "linkedin",
+  "public_id": "isaacs",
+  "url": null,
+  "profile": {
+    "name": "isaacs",
+    "headline": "Senior Software Engineer | Caching & Performance Optimization Expert",
+    "location": "Oakland CA",
+    "summary": "Results-driven software engineer with a passion for caching, timer management, and performance optimization. Proven track record of contributing to open-source projects and delivering high-quality solutions.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Heroku as a potential employer for 'isaacs'."
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Heroku",
+      "company": "Heroku",
+      "date_range": "2027 - Present",
+      "description": [
+        "Designed and implemented caching systems for high-performance applications",
+        "Developed and optimized timer management solutions for efficient resource utilization"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2025-2026",
+      "description": [
+        "Contributed to open-source projects, including node-lru-cache and ttlcache",
+        "Demonstrated expertise in caching, timer management, and performance optimization"
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2025",
+      "description": [
+        "Maintained and updated various open-source projects",
+        "Collaborated with the community to improve code quality and functionality"
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Caching & Performance Optimization",
+      "Open Source Development"
+    ],
+    "points": [
+      "Node.js",
+      "JavaScript",
+      "Rust",
+      "Caching (node-lru-cache, ttlcache)",
+      "Timer Management (ttlcache)",
+      "Performance Optimization (caching, timer management)"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "platform": "linkedin",
+  "public_id": "schacon",
+  "url": null,
+  "profile": {
+    "name": "Scott Chacon",
+    "headline": "Senior Software Engineer | @gitbutlerapp",
+    "location": "Berlin, Germany",
+    "summary": "Highly skilled developer with a passion for systems programming and scalable database solutions. Proficient in Rust, shell scripting, and C programming.",
+    "website": null,
+    "company": "@gitbutlerapp "
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "@gitbutlerapp",
+      "date_range": "2022-Present",
+      "description": [
+        "Led the development of GitButler, a popular version control tool for teams.",
+        "Designed and implemented scalable database solutions using PlanetScale.",
+        "Collaborated with cross-functional teams to deliver high-performance systems."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various",
+      "date_range": "2018-2022",
+      "description": [
+        "Developed and maintained multiple open-source projects, including a popular shell scripting framework.",
+        "Provided freelance services to clients in the tech industry, focusing on Ruby and C programming."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various",
+      "date_range": "2015-2018",
+      "description": [
+        "Contributed to multiple open-source projects, including a popular version control system.",
+        "Participated in code reviews and ensured the quality of the project's codebase."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Rust",
+      "C",
+      "Ruby"
+    ],
+    "Development Frameworks": [
+      "Tauri",
+      "Svelte"
+    ],
+    "Database Systems": [
+      "PlanetScale",
+      "PostgreSQL"
+    ],
+    "Operating Systems": [
+      "Linux",
+      "macOS"
+    ]
+  }
+}

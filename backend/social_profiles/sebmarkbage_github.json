@@ -1,0 +1,25 @@
+{
+  "profile": {
+    "name": null,
+    "login": null,
+    "bio": null,
+    "company": null,
+    "location": null,
+    "email": null,
+    "twitter": null,
+    "followers": null,
+    "public_repos": null
+  },
+  "analysis": {
+    "career_trajectory": "No notable projects or contributions yet.",
+    "technical_obsessions": [],
+    "comment_analytics": {
+      "primary_interests": [],
+      "communication_style": ""
+    },
+    "match_profile": {
+      "similar_user_traits": "",
+      "conversation_starters": []
+    }
+  }
+}

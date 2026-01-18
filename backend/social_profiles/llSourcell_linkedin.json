@@ -1,0 +1,86 @@
+{
+  "platform": "linkedin",
+  "public_id": "llSourcell",
+  "url": null,
+  "profile": {
+    "name": "Siraj Raval",
+    "headline": "Transforming Tech with AI & Machine Learning | Remote Senior Software Engineer at Accenture",
+    "location": "Remote",
+    "summary": "Highly adaptable and innovative developer with a passion for machine learning, open-source development, and quantum computing. Proven track record of delivering impactful projects and collaborating with cross-functional teams.",
+    "website": null,
+    "company": "Based on Siraj Raval's tech stack and location as \"Remote\", I would recommend Accenture"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Accenture (Remote)",
+      "company": "Accenture",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed AI-powered solutions for clients across various industries, leveraging Python, Jupyter Notebook, and TypeScript.",
+        "Collaborated with teams to design and implement machine learning models for predictive analytics and natural language processing.",
+        "Conducted code reviews and ensured adherence to best practices, contributing to the company's overall quality and efficiency."
+      ]
+    },
+    {
+      "title": "Freelance Developer (2020-2022)",
+      "company": "",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Worked on various open-source projects, including O1-nano, Veritas-AI-for-Compliance, and neuro-analyst-os.",
+        "Contributed to the development of AI-powered tools for music composition and scientific discovery."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer (2018-2020)",
+      "company": "",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Maintained and updated various open-source projects, ensuring their stability and security.",
+        "Collaborated with other developers to resolve issues and improve the overall quality of the codebase."
+      ]
+    },
+    {
+      "title": "Research Assistant (Summer 2017)",
+      "company": "",
+      "date_range": "Summer 2017",
+      "description": [
+        "Assisted in the development of AI-powered tools for scientific discovery, working closely with a team of researchers and engineers."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Machine Learning",
+      "Quantum Computing"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Python",
+          "Jupyter Notebook",
+          "TypeScript",
+          "Rust",
+          "HTML"
+        ]
+      },
+      {
+        "category": "Machine Learning",
+        "points": [
+          "Deep learning frameworks (TensorFlow, PyTorch)",
+          "Supervised and unsupervised learning algorithms (K-Means, PCA)",
+          "Natural language processing techniques (NLP, Text Analysis)"
+        ]
+      },
+      {
+        "category": "Quantum Computing",
+        "points": [
+          "Qiskit",
+          "Cirq",
+          "Quantum Circuit Learning"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "name": "Romain Guy",
+    "login": "romainguy",
+    "bio": null,
+    "company": "Square",
+    "location": "California",
+    "email": "romainguy@curious-creature.com",
+    "twitter": "romainguy",
+    "followers": 10276,
+    "public_repos": 22
+  },
+  "analysis": {
+    "career_trajectory": "Started with Java in 2014, exploring various Android development projects and tools. Pivoted to Kotlin in 2022, focusing on Jetpack Compose and graphics programming. Recently worked on Filament, a real-time physically based rendering engine.",
+    "technical_obsessions": [
+      {
+        "topic": "Graphics Programming",
+        "evidence": "[2025-12-07] pathway: A set of APIs to manipulate graphics paths on Android."
+      },
+      {
+        "topic": "Kotlin for Graphics",
+        "evidence": "[2025-11-29] shadow-pointer: Rendering high-quality shadow from the user's finger"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Graphics Programming",
+        "Real-time Rendering"
+      ],
+      "communication_style": "Asks technical questions about graphics programming and rendering, provides detailed explanations of their own code."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about graphics programming and real-time rendering.",
+      "conversation_starters": [
+        "What are some challenges you faced while implementing Filament?",
+        "How do you optimize performance for complex graphics scenes?",
+        "Can you share your experience with Kotlin's graphics APIs?"
+      ]
+    }
+  }
+}

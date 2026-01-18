@@ -1,0 +1,65 @@
+{
+  "platform": "linkedin",
+  "public_id": "teaborgs",
+  "url": null,
+  "profile": {
+    "name": null,
+    "headline": "Senior Software Engineer at GitLab",
+    "location": "Remote",
+    "summary": "Highly motivated and experienced software engineer with a passion for open-source development, leveraging expertise in Java and road-runner to drive innovation.",
+    "website": null,
+    "company": "GitLab"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "GitLab",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained multiple high-performance applications using Java and road-runner, ensuring scalability and reliability in a remote work environment.",
+        "Collaborated with cross-functional teams to design and implement new features, resulting in improved user experience and increased productivity.",
+        "Continuously contributed to the growth of open-source projects, including FTC Android Studio and road-runner quickstarts."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2021",
+      "description": [
+        "Developed custom applications for clients across various industries, utilizing Java and Android Studio to deliver high-quality solutions.",
+        "Maintained multiple open-source repositories on GitHub, including FTC Android Studio projects and road-runner quickstarts."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Acmerobotics",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Contributed to the development and maintenance of the FTC Android Studio project, ensuring its continued growth and adoption in the robotics community.",
+        "Participated in regular code reviews and provided feedback to improve the overall quality and stability of the project."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Development Frameworks"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Java",
+          "road-runner"
+        ]
+      },
+      {
+        "category": "Development Frameworks",
+        "points": [
+          "Android Studio",
+          "road-runner"
+        ]
+      }
+    ]
+  }
+}

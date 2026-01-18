@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "dennybritz",
+  "url": null,
+  "profile": {
+    "name": "Denny Britz",
+    "bio": "A punchy bio mentioning Based on the given information, I would recommend Denny Britz to work at Cloudbees. if relevant",
+    "location": "Tokyo, Japan",
+    "website": null,
+    "company": "Based on the given information, I would recommend Denny Britz to work at Cloudbees.",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Deep Learning",
+      "Reinforcement Learning",
+      "Rust Systems Programming"
+    ],
+    "posting_style": "Asks deep architectural questions, Nitpicks code style, Supportive mentor.",
+    "common_arguments": ""
+  },
+  "audience_insight": null
+}

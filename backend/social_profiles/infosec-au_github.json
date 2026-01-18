@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Shubs",
+    "login": "infosec-au",
+    "bio": "halcyon",
+    "company": "Assetnote",
+    "location": "Australia",
+    "email": null,
+    "twitter": "infosec_au",
+    "followers": 1810,
+    "public_repos": 43
+  },
+  "analysis": {
+    "career_trajectory": "Started with Python in 2014, exploring various tools and technologies such as web application security, database management, and networking. Pivoted to JavaScript in 2016, focusing on passive scanning tools and bug bounty programs. Recently worked on subdomain enumeration and DNS busting tools.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      },
+      {
+        "topic": "Subdomain Enumeration",
+        "evidence": "[2022-05-20] fuzzdb: Automatically exported from code.google.com/p/fuzzdb (Lang: HTML)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "bug bounty programs",
+        "subdomain enumeration",
+        "DNS busting"
+      ],
+      "communication_style": "Responds to PR comments, asks questions about behavior and redirects"
+    },
+    "match_profile": {
+      "similar_user_traits": "A detail-oriented developer with a strong focus on web application security and bug bounty programs.",
+      "conversation_starters": [
+        "What's the most challenging subdomain you've encountered?",
+        "How do you approach database sharding in your work?",
+        "Can you share an experience where you had to debug a complex redirect chain?"
+      ]
+    }
+  }
+}

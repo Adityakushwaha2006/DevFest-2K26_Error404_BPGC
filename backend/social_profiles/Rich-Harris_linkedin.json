@@ -1,0 +1,56 @@
+{
+  "platform": "linkedin",
+  "public_id": "Rich-Harris",
+  "url": null,
+  "profile": {
+    "name": "Rich Harris",
+    "headline": "Senior Software Engineer | Open Source Enthusiast | Performance Optimization Expert",
+    "location": "NYC",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for open-source development and performance optimization. Proficient in SvelteKit, JavaScript, and various frameworks.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend AMD as a realistic employer for Rich Harris.\n\nAMD is"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at AMD",
+      "company": "AMD",
+      "date_range": "2024 - Present",
+      "description": [
+        "Leading the development of high-performance web applications using SvelteKit and JavaScript.",
+        "Collaborating with cross-functional teams to optimize code performance and ensure seamless user experiences."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2022 - 2024",
+      "description": [
+        "Developing custom web applications for clients using various frameworks, including Nuxt and Vite.",
+        "Providing expert advice on performance optimization and code quality."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Contributing to open-source projects, including bug fixes and feature enhancements.",
+        "Participating in community discussions and providing guidance on best practices."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript",
+      "SvelteKit"
+    ],
+    "Frameworks": [
+      "Nuxt",
+      "Vite"
+    ],
+    "Performance Optimization": [
+      "Code profiling and optimization techniques",
+      "Caching and content delivery networks (CDNs)"
+    ]
+  }
+}

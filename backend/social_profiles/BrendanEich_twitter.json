@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "BrendanEich",
+  "url": null,
+  "profile": {
+    "name": "Brendan Eich",
+    "bio": "Expert in Language Design & Software Dev Best Practices | @brave",
+    "location": "Remote",
+    "website": null,
+    "company": "@brave ",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "Type Systems"
+    ],
+    "posting_style": "Thought-provoking questions and constructive feedback",
+    "common_arguments": "In-depth analysis of software development best practices"
+  },
+  "audience_insight": null
+}

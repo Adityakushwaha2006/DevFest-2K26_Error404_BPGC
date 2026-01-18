@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "gregkh",
+  "url": null,
+  "profile": {
+    "name": "Greg Kroah-Hartman",
+    "bio": "A seasoned DevOps engineer with a passion for Linux kernel and open source software, leveraging expertise to drive innovation in the field.",
+    "location": "Remote",
+    "website": null,
+    "company": "Okta",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "DevOps",
+      "Linux kernel"
+    ],
+    "posting_style": "Technical and in-depth",
+    "common_arguments": "Deep dives into database sharding, performance optimization, and code review."
+  },
+  "audience_insight": null
+}

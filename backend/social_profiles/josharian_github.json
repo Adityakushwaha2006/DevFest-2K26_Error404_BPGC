@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Josh Bleecher Snyder",
+    "login": "josharian",
+    "bio": null,
+    "company": "Startup",
+    "location": "Bay Area",
+    "email": "josharian@gmail.com",
+    "twitter": null,
+    "followers": 1222,
+    "public_repos": 187
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been actively contributing to various open-source projects, including boldsoftware/exe.dev and boldsoftware/shelley. They have also participated in discussions on golang/go, showcasing their expertise in the Go programming language. Additionally, they have worked on several personal projects, such as tailscale/tailscale, demonstrating their ability to tackle complex problems and collaborate with others.",
+    "technical_obsessions": [
+      {
+        "topic": "Go programming language",
+        "evidence": "Their participation in discussions on golang/go and contributions to boldsoftware/exe.dev demonstrate their expertise in Go."
+      },
+      {
+        "topic": "Open-source software development",
+        "evidence": "Their involvement in various open-source projects, such as boldsoftware/shelley and tailscale/tailscale, showcases their ability to collaborate with others and tackle complex problems."
+      },
+      {
+        "topic": "Software engineering",
+        "evidence": "Their comments on golang/go and boldsoftware/exe.dev highlight their attention to detail and expertise in software engineering."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Go programming language",
+        "Open-source software development",
+        "Software engineering"
+      ],
+      "communication_style": "This developer is known for being detailed, knowledgeable, and collaborative. They ask deep architectural questions, nitpick code style, and provide supportive mentorship."
+    },
+    "match_profile": {
+      "similar_user_traits": "A detail-oriented and experienced Go developer with a strong background in open-source software development.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing concurrent programming in Go?",
+        "How do you approach debugging complex issues in your own codebase?",
+        "Can you share an experience where you had to collaborate with others on a difficult technical problem?"
+      ]
+    }
+  }
+}

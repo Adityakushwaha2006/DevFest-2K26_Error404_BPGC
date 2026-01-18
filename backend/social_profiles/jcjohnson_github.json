@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Justin Johnson",
+    "login": "jcjohnson",
+    "bio": null,
+    "company": "World Labs",
+    "location": null,
+    "email": null,
+    "twitter": null,
+    "followers": 9435,
+    "public_repos": 35
+  },
+  "analysis": {
+    "career_trajectory": "Started with JavaScript in 2015, explored C++ and Python, worked on various projects including neural networks, computer vision, and generative art, and recently focused on PyTorch and its applications.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": ""
+      },
+      {
+        "topic": "Generative Art",
+        "evidence": "art-DCGAN"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Deep learning",
+        "Computer vision",
+        "Generative art"
+      ],
+      "communication_style": "Asks technical questions, provides detailed explanations, and supports others in their work."
+    },
+    "match_profile": {
+      "similar_user_traits": "Similar to a developer who is passionate about deep learning and computer vision, with experience in working on various projects involving neural networks and generative art.",
+      "conversation_starters": [
+        "What inspired you to explore generative art?",
+        "How do you approach the challenge of sharding databases for large-scale deep learning applications?",
+        "Can you share an example of a project where you applied your knowledge of computer vision techniques?"
+      ]
+    }
+  }
+}

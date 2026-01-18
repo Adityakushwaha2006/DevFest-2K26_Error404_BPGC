@@ -1,0 +1,83 @@
+{
+  "platform": "linkedin",
+  "public_id": "mitchellh",
+  "url": null,
+  "profile": {
+    "name": "Mitchell Hashimoto",
+    "headline": "Senior Software Engineer at Fortinet | Open Source Enthusiast",
+    "location": "Los Angeles, CA",
+    "summary": "Highly motivated and experienced software engineer with a strong background in systems programming, language development, and open-source contributions.",
+    "website": null,
+    "company": "Fortinet"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Fortinet",
+      "date_range": "Current - Present",
+      "description": [
+        "Designed and developed multiple high-performance software components for Fortinet's security solutions.",
+        "Collaborated with cross-functional teams to integrate new features and improve overall system efficiency.",
+        "Mentored junior engineers on best practices for software development, testing, and deployment."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed custom software solutions for clients in the finance, healthcare, and e-commerce industries.",
+        "Contributed to open-source projects such as ghostty-org/ghostty, providing bug fixes and feature enhancements."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Ghostty.org",
+      "date_range": "2016 - 2018",
+      "description": [
+        "Identified and fixed bugs in the ghostty project, including OutOfSpace issues.",
+        "Implemented fixes and enhancements as per community feedback."
+      ]
+    },
+    {
+      "title": "Contributor",
+      "company": "Zig Compiler",
+      "date_range": "2015 - 2016",
+      "description": [
+        "Contribution to the Zig compiler, including language bindings and feature implementations."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Zig",
+        "Go",
+        "Rust"
+      ]
+    },
+    {
+      "category": "Development Frameworks",
+      "points": [
+        "C++",
+        "Python",
+        "JavaScript"
+      ]
+    },
+    {
+      "category": "Memory Management",
+      "points": [
+        "Understanding of memory allocation and deallocation techniques.",
+        "Experience with memory management libraries such as malloc and free."
+      ]
+    },
+    {
+      "category": "Language Development",
+      "points": [
+        "Knowledge of language design principles and syntax.",
+        "Experience with compiler development and language bindings."
+      ]
+    }
+  ]
+}

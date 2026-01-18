@@ -1,0 +1,37 @@
+{
+  "profile": {
+    "name": "Hadley Wickham",
+    "login": "hadley",
+    "bio": "Chief Scientist at @posit-pbc",
+    "company": "@posit-pbc",
+    "location": "Houston, TX",
+    "email": "hadley@posit.co",
+    "twitter": null,
+    "followers": 26480,
+    "public_repos": 216
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been actively contributing to open-source projects since 2025. They started with R-based projects and gradually moved to other languages such as Swift and Go. Their work involves various aspects of software development, including data analysis, machine learning, and database management.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "In the comment history, there is a mention of `sql_expr_matches` function which handles SQL dialects, indicating an interest in database sharding."
+      },
+      {
+        "topic": "Machine Learning",
+        "evidence": "The developer has contributed to projects such as `time-will-tell` and `dbplyr`, which involve machine learning and data analysis tasks."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "data analysis",
+        "machine learning",
+        "database management"
+      ],
+      "talking_points": [
+        "The developer is interested in database sharding and has contributed to projects that involve it.",
+        "They have experience with various programming languages, including R, Swift, and Go."
+      ]
+    }
+  }
+}

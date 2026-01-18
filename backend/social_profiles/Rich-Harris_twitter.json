@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "Rich-Harris",
+  "url": null,
+  "profile": {
+    "name": "Rich Harris",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend AMD as a realistic employer for Rich Harris.\n\nAMD is if relevant",
+    "location": "NYC",
+    "website": null,
+    "company": "Based on the provided information, I would recommend AMD as a realistic employer for Rich Harris.\n\nAMD is",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "SvelteKit",
+      "JavaScript performance optimization"
+    ],
+    "posting_style": "Technical discussions with solutions",
+    "common_arguments": "Detailed explanations of technical concepts and problem-solving approaches"
+  },
+  "audience_insight": null
+}

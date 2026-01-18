@@ -1,0 +1,44 @@
+{
+  "platform": "linkedin",
+  "public_id": "gvanrossum",
+  "url": null,
+  "profile": {
+    "name": "Guido van Rossum",
+    "headline": "Senior Software Engineer at Microsoft | Database Sharding & Type Checking Expert",
+    "location": "San Francisco Bay Area",
+    "summary": "Results-driven software engineer with 8+ years of experience in developing scalable and maintainable software systems. Passionate about database sharding, type checking, and open-source contributions.",
+    "website": null,
+    "company": "Microsoft"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Microsoft",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed high-performance databases using Python and C++",
+        "Collaborated with cross-functional teams to design and implement scalable data architectures",
+        "Mentored junior engineers on best practices for database sharding and type checking"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2015 - 2022",
+      "description": [
+        "Contributed to various open-source projects, including cpython, pythonlabs, and abc-unix",
+        "Developed and maintained multiple Python libraries, such as asyncio and pytype"
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2015 - 2022",
+      "description": [
+        "Maintained and updated various open-source projects, including ballot-box and mirror-cwi-stdwin",
+        "Collaborated with other maintainers to resolve issues and improve code quality"
+      ]
+    }
+  ],
+  "skills": []
+}

@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Ray",
+    "login": "raysan5",
+    "bio": "I make tools and technology for videogames development. Available for technical consulting, courses teaching and conferences. Feel free to message me!",
+    "company": "@raylibtech",
+    "location": "Barcelona",
+    "email": "ray@raylib.com",
+    "twitter": "raysan5",
+    "followers": 4917,
+    "public_repos": 31
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been working on various projects related to videogames programming, including game project templates, Lua libraries, C libraries for physics and graphics, and a comprehensive list of custom game engines. They have also contributed to the development of raylib, a popular videogames library, and have reviewed pull requests from other developers.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "There is no direct evidence of database sharding in this developer's history. However, their experience with file system operations abstraction (e.g., `rres` and `GetDirectoryFileCount()`/`GetDirectoryFileCountEx()`) may be relevant to understanding the technical aspects of sharding."
+      },
+      {
+        "topic": "Immediate-Mode GUI",
+        "evidence": "The developer has worked on a simple and easy-to-use immediate-mode GUI library (raygui) and has reviewed pull requests related to GUI development (e.g., `rconpacker`)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Game Development",
+        "Videogames Programming",
+        "GUI Development"
+      ],
+      "communication_style": "This developer is known for being supportive and open to feedback, as evident from their responses to pull requests and issues raised by other developers."
+    },
+    "match_profile": {
+      "similar_user_traits": "This developer is most similar to a user who is also interested in videogames programming, game development, and GUI development.",
+      "conversation_starters": [
+        "What are some of the challenges you've faced while working on raylib?",
+        "How do you approach database sharding in your projects?",
+        "Can you share any experiences with immediate-mode GUI libraries?"
+      ]
+    }
+  }
+}

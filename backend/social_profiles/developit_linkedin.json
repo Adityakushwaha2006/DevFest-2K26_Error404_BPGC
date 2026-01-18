@@ -1,0 +1,63 @@
+{
+  "platform": "linkedin",
+  "public_id": "developit",
+  "url": null,
+  "profile": {
+    "name": "Jason Miller",
+    "headline": "Senior Software Engineer | Building scalable web applications at @Shopify",
+    "location": "Hamilton, Ontario, Canada",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for JavaScript, Web Workers, Preact, and React Router. Proven track record of delivering high-quality solutions in fast-paced environments.",
+    "website": null,
+    "company": "@Shopify"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "@Shopify",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and implemented a suite of microbundles using Webpack and Preact, resulting in improved application performance and scalability.",
+        "Developed and maintained high-performance tools using Rust, including a task worklet that increased processing efficiency by 30%.",
+        "Collaborated with cross-functional teams to build and deploy React Router-based applications, ensuring seamless user experiences."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed a RESTful Express API using ES6, showcasing expertise in modern JavaScript development.",
+        "Created and maintained multiple open-source projects on GitHub, including a popular blog built with Preact and Webpack."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to the development of several open-source projects on GitHub, including a popular database sharding library.",
+        "Participated in code reviews and ensured the quality and maintainability of the project's codebase."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript",
+      "Rust"
+    ],
+    "Frameworks": [
+      "Express.js",
+      "Preact",
+      "React Router"
+    ],
+    "Libraries": [
+      "Webpack",
+      "JSDOM",
+      "Jest"
+    ],
+    "Technologies": [
+      "Web Workers",
+      "Database Sharding"
+    ]
+  }
+}

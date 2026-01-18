@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "Manishearth",
+  "url": null,
+  "profile": {
+    "name": "Manish Goregaokar",
+    "bio": "Rust enthusiast | ICU4X & Temporal API advocate | Always up for a discussion!",
+    "location": "Berkeley, CA",
+    "website": null,
+    "company": "@google",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "ICU4X",
+      "Temporal API"
+    ],
+    "posting_style": "Informative and conversational",
+    "common_arguments": "Expert insights on Rust, ICU4X, and Temporal API, with a focus on community engagement and debate."
+  },
+  "audience_insight": null
+}

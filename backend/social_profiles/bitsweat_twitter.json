@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "BitSweat",
+  "url": null,
+  "profile": {
+    "name": "Neil Stanley",
+    "bio": "A brief, engaging bio that showcases expertise in cloud computing and data storage.",
+    "location": "Bellevue, Washington USA",
+    "website": null,
+    "company": "NetApp",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Cloud Computing",
+      "Data Storage"
+    ],
+    "posting_style": "Informative and conversational",
+    "common_arguments": "Explaining the benefits of NetApp's solutions for businesses"
+  },
+  "audience_insight": null
+}

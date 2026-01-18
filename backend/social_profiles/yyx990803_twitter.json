@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "yyx990803",
+  "url": null,
+  "profile": {
+    "name": "Evan You",
+    "bio": "High-performance web dev | Performance Optimization & Vue.js expert | Sharing insights on code style & architecture",
+    "location": "Singapore",
+    "website": null,
+    "company": "VoidZero",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Performance Optimization",
+      "Vue.js Framework"
+    ],
+    "posting_style": "Technical, with a focus on in-depth analysis and debate",
+    "common_arguments": "Detailed summaries of performance optimization techniques, code review, and architectural decisions"
+  },
+  "audience_insight": null
+}

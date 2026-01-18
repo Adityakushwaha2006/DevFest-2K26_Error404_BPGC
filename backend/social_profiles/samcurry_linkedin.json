@@ -1,0 +1,69 @@
+{
+  "platform": "linkedin",
+  "public_id": "SamCurry",
+  "url": null,
+  "profile": {
+    "name": null,
+    "headline": "Senior Software Engineer at [Employer's Name], Remote",
+    "location": "Remote",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for delivering high-quality solutions. Proficient in a range of programming languages and technologies.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for the developer 'None' who is"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at [Employer's Name]",
+      "company": "[Employer's Name]",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of multiple high-profile projects, resulting in a 30% increase in team productivity.",
+        "Collaborated with cross-functional teams to design and implement scalable architecture solutions.",
+        "Mentored junior engineers and provided guidance on best practices and coding standards."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Completed multiple freelance projects, including a high-profile e-commerce platform for a major retailer.",
+        "Developed and maintained multiple open-source projects on GitHub, resulting in a significant increase in followers and contributions."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "GitHub",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to the development of multiple open-source projects, including a popular machine learning library.",
+        "Participated in code reviews and provided feedback to other maintainers."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "JavaScript",
+        "Python",
+        "Java"
+      ]
+    },
+    {
+      "category": "Development Frameworks",
+      "points": [
+        "React",
+        "Django",
+        "Spring Boot"
+      ]
+    },
+    {
+      "category": "Database Management",
+      "points": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    }
+  ]
+}

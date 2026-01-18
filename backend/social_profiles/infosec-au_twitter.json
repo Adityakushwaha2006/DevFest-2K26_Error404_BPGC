@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "infosec-au",
+  "url": null,
+  "profile": {
+    "name": "Shubs",
+    "bio": "A developer passionate about bug bounty programs and subdomain enumeration, with a focus on DNS busting.",
+    "location": "Australia",
+    "website": null,
+    "company": "Assetnote",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Bug Bounty Programs",
+      "Subdomain Enumeration"
+    ],
+    "posting_style": "Informative and engaging, often providing evidence for claims",
+    "common_arguments": "Detailed explanations of techniques and tools used in bug bounty programs and subdomain enumeration"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "defunkt",
+  "url": null,
+  "profile": {
+    "name": "Chris Wanstrath",
+    "bio": "A supportive developer helping others with database design, web development, and gem development.",
+    "location": "Remote",
+    "website": null,
+    "company": "Stripe",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "Web Development"
+    ],
+    "posting_style": "Informative",
+    "common_arguments": "Detailed explanations of database sharding concepts and best practices."
+  },
+  "audience_insight": null
+}

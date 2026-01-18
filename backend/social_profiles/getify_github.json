@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Kyle Simpson",
+    "login": "getify",
+    "bio": "Kyle Simpson is a Human-Centric Technologist. He's fighting for the people behind the pixels.",
+    "company": "Getify Solutions",
+    "location": "Austin, TX",
+    "email": "getify@gmail.com",
+    "twitter": null,
+    "followers": 45007,
+    "public_repos": 75
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been actively contributing to open-source projects since 2022, with a focus on JavaScript and its ecosystem. They have worked on various libraries and tools, including FPO, CAF, and revocable-queue, showcasing their expertise in systems programming and async queue data structures. In recent months, they have also explored functional programming concepts through the use of Functional-Light-JS and FOI-lang. Their work has taken them across different repositories, from sourcenetwork/defradb to nodejs/node, demonstrating their adaptability and willingness to learn.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "The developer's contributions to sourcenetwork/defradb, including the discussion on whether a change constitutes a semver breaking change, demonstrate their interest in database optimization and sharding."
+      },
+      {
+        "topic": "Functional Programming",
+        "evidence": "Their exploration of Functional-Light-JS and FOI-lang suggests a strong interest in functional programming concepts and their application in JavaScript."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "WebAssembly",
+        "Cryptography",
+        "Database Optimization"
+      ],
+      "communication_style": "This developer is known for asking deep architectural questions, nitpicking code style, and providing supportive mentorship. They are also willing to engage in discussions on technical topics and provide helpful context for complex issues."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about systems programming, async queue data structures, and functional programming concepts.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing sharding in a database?",
+        "How do you approach optimizing the performance of an async queue data structure?",
+        "Can you share your experience with using WebAssembly in a JavaScript project?"
+      ]
+    }
+  }
+}

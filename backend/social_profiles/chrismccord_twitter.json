@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "chrismccord",
+  "url": null,
+  "profile": {
+    "name": "Chris McCord",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend GoFundMe as a potential employer for Chris McCord if relevant",
+    "location": "Charlotte, NC",
+    "website": null,
+    "company": "Based on the provided information, I would recommend GoFundMe as a potential employer for Chris McCord",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Elixir",
+      "Web Development"
+    ],
+    "posting_style": "Informative and supportive",
+    "common_arguments": "Database management and process registry management"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,62 @@
+{
+  "platform": "linkedin",
+  "public_id": "ocornut",
+  "url": null,
+  "profile": {
+    "name": "omar",
+    "headline": "Senior Software Engineer at Disco Hello / Lizardcube",
+    "location": "Paris, France",
+    "summary": "Highly motivated and detail-oriented C++ developer with a strong passion for creating high-performance applications. Proficient in various open-source libraries such as Dear ImGui, SDL, and stb.",
+    "website": null,
+    "company": "Disco Hello / Lizardcube"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Disco Hello / Lizardcube",
+      "company": "Disco Hello / Lizardcube",
+      "date_range": "2022-Present",
+      "description": [
+        "Led the development of multiple high-performance applications using C++ and Dear ImGui.",
+        "Collaborated with cross-functional teams to deliver projects on time and within budget.",
+        "Continuously improved code quality, performance, and maintainability through rigorous testing and refactoring."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Self-Employed",
+      "date_range": "2020-2021",
+      "description": [
+        "Developed multiple open-source projects using C++ and various libraries such as glfw, soloud, and stb.",
+        "Contributed to the Dear ImGui project by fixing issues and pushing new commits."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018-2020",
+      "description": [
+        "Maintained multiple open-source projects, including gpuvis, single_file_libs, and implot.",
+        "Ensured code quality, security, and compatibility across different platforms."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "C++",
+      "Dear ImGui"
+    ],
+    "Libraries and Frameworks": [
+      "SDL",
+      "stb",
+      "glfw"
+    ],
+    "Development Tools": [
+      "Git",
+      "GitHub"
+    ],
+    "Technical Skills": [
+      "Viewports and Focus",
+      "High-Performance Computing"
+    ]
+  }
+}

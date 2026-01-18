@@ -1,0 +1,59 @@
+{
+  "platform": "linkedin",
+  "public_id": "dashbitco",
+  "url": null,
+  "profile": {
+    "name": "Dashbit",
+    "headline": "Senior Software Engineer | Remote Developer | Passionate about Rust and Database Sharding",
+    "location": "Remote",
+    "summary": "Highly motivated software engineer with a strong background in Python and Rust systems programming. Currently exploring database sharding techniques to improve scalability and performance.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Enphase Energy as a potential employer for Dashbit."
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Enphase Energy",
+      "company": "Enphase Energy",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and implemented a scalable Rust-based system for data processing and analysis.",
+        "Collaborated with cross-functional teams to develop and deploy new features.",
+        "Improved code quality and reduced bugs through rigorous testing and refactoring."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2023",
+      "description": [
+        "Developed multiple Python-based projects for clients, including data analysis and machine learning applications.",
+        "Maintained open-source repositories on GitHub, contributing to the Rust community."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to multiple open-source projects, including bug fixes and feature enhancements.",
+        "Collaborated with other maintainers to ensure project stability and security."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Rust",
+      "Python"
+    ],
+    "Database Management": [
+      "Database Sharding"
+    ],
+    "Development Methodologies": [
+      "Agile Development"
+    ],
+    "Tools and Technologies": [
+      "Git",
+      "Docker"
+    ]
+  }
+}

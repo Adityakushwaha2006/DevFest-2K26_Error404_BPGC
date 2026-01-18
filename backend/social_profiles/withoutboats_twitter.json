@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "withoutboats",
+  "url": null,
+  "profile": {
+    "name": "srrrse",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend 'Dokkio' as a potential employer for if relevant",
+    "location": "Berlin",
+    "website": null,
+    "company": "Based on the provided information, I would recommend 'Dokkio' as a potential employer for",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "async programming",
+      "concurrency",
+      "parser generation"
+    ],
+    "posting_style": "Supportive mentor",
+    "common_arguments": "Detailed summary of debates."
+  },
+  "audience_insight": null
+}

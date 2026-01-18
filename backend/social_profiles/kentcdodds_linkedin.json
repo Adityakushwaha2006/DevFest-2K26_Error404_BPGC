@@ -1,0 +1,74 @@
+{
+  "platform": "linkedin",
+  "public_id": "kentcdodds",
+  "url": null,
+  "profile": {
+    "name": "Kent C. Dodds",
+    "headline": "Senior Software Engineer | Cloud-First Developer | Salt Lake City, Utah",
+    "location": "Salt Lake City, Utah, USA",
+    "summary": "Highly motivated and experienced software engineer with a strong focus on cloud-first development. Proficient in TypeScript and JavaScript, with expertise in CI/CD pipelines and open-source project management.",
+    "website": null,
+    "company": "@epicweb-dev "
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer @epicweb-dev",
+      "company": "@epicweb-dev",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained cloud-native applications using Cloudflare-related technologies, including cloudflare-fastmcp and agents.",
+        "Collaborated with cross-functional teams to design and implement CI/CD pipelines for seamless deployment and testing.",
+        "Provided code reviews and feedback to ensure high-quality software delivery."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Contributed to various open-source projects, including cloudflare-fastmcp and agents.",
+        "Developed and maintained multiple web applications using TypeScript and JavaScript."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Maintained and updated cloudflare-fastmcp, a popular open-source project.",
+        "Collaborated with other maintainers to resolve issues and improve the overall quality of the project."
+      ]
+    },
+    {
+      "title": "Cloudflare Engineer",
+      "company": "",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Developed and implemented cloud-native applications using Cloudflare-related technologies.",
+        "Worked closely with the Cloudflare team to ensure seamless integration of their services."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Cloud Platforms"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "TypeScript",
+          "JavaScript"
+        ]
+      },
+      {
+        "category": "Cloud Platforms",
+        "points": [
+          "Cloudflare",
+          "CI/CD Pipelines"
+        ]
+      }
+    ]
+  }
+}

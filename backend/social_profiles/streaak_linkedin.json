@@ -1,0 +1,70 @@
+{
+  "platform": "linkedin",
+  "public_id": "streaak",
+  "url": null,
+  "profile": {
+    "name": null,
+    "headline": "Senior Software Engineer | Bug Bounty Hunter & Security Researcher at Mattermost",
+    "location": "Remote",
+    "summary": "Highly skilled software engineer with a passion for web application security testing, Python programming, and various security tools and frameworks. Proven track record of delivering high-quality solutions while staying up-to-date with the latest security trends.",
+    "website": null,
+    "company": "Mattermost"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Mattermost",
+      "date_range": "Current - Present",
+      "description": [
+        "Develop and maintain secure software applications using Python and various security frameworks.",
+        "Collaborate with cross-functional teams to identify and prioritize security vulnerabilities.",
+        "Conduct regular security research and stay up-to-date with the latest threat intelligence."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed multiple web applications using Python, Django, and various security frameworks.",
+        "Conducted bug bounty hunting activities for clients to identify vulnerabilities in their software applications."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open Source Projects",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Maintained and contributed to multiple open source projects using Python and various security frameworks.",
+        "Collaborated with other developers to identify and fix security vulnerabilities in the codebase."
+      ]
+    },
+    {
+      "title": "Bug Bounty Hunter",
+      "company": "Various Clients",
+      "date_range": "2014 - 2018",
+      "description": [
+        "Identified and reported security vulnerabilities in software applications using various bug bounty platforms.",
+        "Conducted research to stay up-to-date with the latest threat intelligence and security trends."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Python",
+      "Django"
+    ],
+    "Security Frameworks": [
+      "OWASP ZAP",
+      "Burp Suite"
+    ],
+    "Bug Bounty Platforms": [
+      "HackerOne",
+      "Bugcrowd"
+    ],
+    "Security Tools": [
+      "Nmap",
+      "Metasploit"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "kees",
+  "url": null,
+  "profile": {
+    "name": "Kees Cook",
+    "bio": "A punchy bio mentioning HashiCorp if relevant",
+    "location": "Portland, OR, USA",
+    "website": null,
+    "company": "HashiCorp",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Compiler Optimization",
+      "Database Performance"
+    ],
+    "posting_style": "Engaging, technical, and constructive. Often asks deep questions and provides thoughtful feedback.",
+    "common_arguments": "Detailed summaries of debates on compiler optimization and database performance."
+  },
+  "audience_insight": null
+}

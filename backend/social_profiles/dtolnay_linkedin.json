@@ -1,0 +1,62 @@
+{
+  "platform": "linkedin",
+  "public_id": "dtolnay",
+  "url": null,
+  "profile": {
+    "name": "David Tolnay",
+    "headline": "Senior Software Engineer | Rust Compiler Development & Systems Programming",
+    "location": "Redwood City, California",
+    "summary": "Highly motivated and experienced software engineer with a strong focus on systems programming and compiler development. Proven track record of contributing to open-source projects, including the Rust compiler.",
+    "website": null,
+    "company": "0xF9BA143B95FF6D82"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at 0xF9BA143B95FF6D82",
+      "company": "0xF9BA143B95FF6D82",
+      "date_range": "2025 - Present",
+      "description": [
+        "Designed and implemented several key features for the Rust compiler, including improved error handling and performance optimizations.",
+        "Collaborated with cross-functional teams to develop and maintain the Rust language specification.",
+        "Developed and maintained various crates, including `typeid` and `threadbound`, showcasing expertise in systems programming."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2023 - 2025",
+      "description": [
+        "Developed and maintained multiple open-source projects, including the Rust compiler's `target-triple` crate.",
+        "Provided expert advice to clients on systems programming and compiler development best practices."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Rust Project",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Contributed to the Rust compiler's development, including bug fixes and feature enhancements.",
+        "Participated in community discussions and helped shape the language's direction."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Rust"
+    ],
+    "Development Frameworks": [
+      "C++"
+    ],
+    "Compiler Development": [
+      "LLVM",
+      "GCC"
+    ],
+    "Systems Programming": [
+      "POSIX",
+      "System V"
+    ],
+    "Version Control": [
+      "Git"
+    ]
+  }
+}

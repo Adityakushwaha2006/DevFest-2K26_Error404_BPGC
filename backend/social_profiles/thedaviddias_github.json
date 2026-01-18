@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "David Dias",
+    "login": "thedaviddias",
+    "bio": "Former Staff Frontend Engineer exploring multi-passionate career development. Creator of Front-End Checklist (72K+ \u2b50) and other tools serving 100K+ developers. ",
+    "company": "@DavidDiasDigital",
+    "location": "Toronto, Canada",
+    "email": null,
+    "twitter": "thedaviddias",
+    "followers": 4870,
+    "public_repos": 100
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been working on a wide range of projects, from Node.js CLI tools to self-hosted bookmark managers, blog CMSs, and ecommerce UI components. They have also explored various programming languages, including JavaScript, TypeScript, and Rust. Their work spans multiple years, indicating a commitment to continuous learning and growth.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found in the provided repo history."
+      },
+      {
+        "topic": "LLM Directives for Robots.txt",
+        "evidence": "[2025-03-09] llms-txt-robots-txt: LLMS Directives for Robots.txt: a Technical Proposal (Lang: None)"
+      },
+      {
+        "topic": "AI-ready documentation and tools",
+        "evidence": "[2026-01-15] mcp-llms-txt-explorer: MCP to explore websites with llms.txt files (Lang: JavaScript)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "LLM Directives for Robots.txt",
+        "AI-ready documentation and tools",
+        "Database Sharding"
+      ],
+      "communication_style": "This developer is likely to engage in technical discussions, asking deep architectural questions and nitpicking code style. They may also provide supportive mentorship to others."
+    },
+    "match_profile": {
+      "similar_user_traits": "A meticulous developer with a focus on performance optimization and AI-related projects.",
+      "conversation_starters": [
+        "What are some common pitfalls when implementing LLM Directives for Robots.txt?",
+        "How do you approach optimizing the performance of ecommerce UI components?",
+        "Can you share your experience with database sharding in a real-world project?"
+      ]
+    }
+  }
+}

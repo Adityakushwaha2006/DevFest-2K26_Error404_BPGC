@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "pnkfelix",
+  "url": null,
+  "profile": {
+    "name": "Felix S Klock II",
+    "bio": "A punchy bio mentioning GE HealthCare if relevant",
+    "location": "Massachusetts, USA",
+    "website": null,
+    "company": "GE HealthCare",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Concurrent Programming",
+      "Language Design"
+    ],
+    "posting_style": "Supportive mentor",
+    "common_arguments": "Detailed summaries of debates and discussions on Database Sharding and Concurrent Programming."
+  },
+  "audience_insight": null
+}

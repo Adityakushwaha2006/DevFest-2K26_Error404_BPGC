@@ -1,0 +1,38 @@
+{
+  "profile": {
+    "name": "Dave Cheney",
+    "login": "davecheney",
+    "bio": "Everything's Computer!",
+    "company": "GitHub",
+    "location": "Sydney, Australia",
+    "email": null,
+    "twitter": null,
+    "followers": 6734,
+    "public_repos": 166
+  },
+  "analysis": {
+    "career_trajectory": "Started with Python in 2020, pivoted to Rust systems programming in late 2023",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "None"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Go",
+        "C",
+        "Java"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "The developer is most similar to a systems programmer with experience in Go and C.",
+      "conversation_starters": [
+        "What inspired you to learn Rust?",
+        "How do you approach debugging complex system issues?",
+        "Can you share your experience with Go's concurrency model?"
+      ]
+    }
+  }
+}

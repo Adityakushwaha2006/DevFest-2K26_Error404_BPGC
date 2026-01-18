@@ -1,0 +1,63 @@
+{
+  "platform": "linkedin",
+  "public_id": "pixeltrix",
+  "url": null,
+  "profile": {
+    "name": "Andrew White",
+    "headline": "Senior Software Engineer | Delivering scalable and efficient software solutions at Unboxed",
+    "location": "London, UK",
+    "summary": "Results-driven software engineer with a passion for building high-quality, maintainable applications. With over 5 years of experience in Ruby on Rails development, I've worked on numerous projects, from open-source gems to enterprise-level applications.",
+    "website": null,
+    "company": "Unboxed"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Unboxed",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of multiple high-traffic web applications using Ruby on Rails and MySQL.",
+        "Collaborated with cross-functional teams to design and implement scalable architecture solutions.",
+        "Mentored junior engineers and contributed to the growth of the team."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed multiple web applications using Ruby on Rails, MySQL, and Tailwind CSS.",
+        "Contributed to open-source projects such as capybara and govuk-coronavirus-vulnerable-people-form."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Maintained multiple open-source gems, including textacular and delayed_job_active_record.",
+        "Contributed to the development of thor and rspec-rails."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Ruby",
+      "JavaScript"
+    ],
+    "Frameworks": [
+      "Rails",
+      "Jasmine"
+    ],
+    "Databases": [
+      "MySQL"
+    ],
+    "CSS Frameworks": [
+      "Tailwind CSS"
+    ],
+    "Testing Frameworks": [
+      "RSpec",
+      "Jasmine"
+    ]
+  }
+}

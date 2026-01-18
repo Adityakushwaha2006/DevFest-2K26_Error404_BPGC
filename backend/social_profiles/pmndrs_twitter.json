@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "pmndrs",
+  "url": null,
+  "profile": {
+    "name": "Poimandres",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend Cloudbees as a potential employer for Poimand if relevant",
+    "location": "https://opencollective.com/pmndrs",
+    "website": null,
+    "company": "Based on the provided information, I would recommend Cloudbees as a potential employer for Poimand",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Three.js",
+      "State Management in React"
+    ],
+    "posting_style": "In-depth questions and constructive feedback",
+    "common_arguments": "Architecture and implementation details"
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "getify",
+  "url": null,
+  "profile": {
+    "name": "Kyle Simpson",
+    "bio": "Expert in WebAssembly, Cryptography & Database Optimization | Helping developers build scalable & secure applications",
+    "location": "Austin, TX",
+    "website": null,
+    "company": "Getify Solutions",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "WebAssembly",
+      "Cryptography"
+    ],
+    "posting_style": "Technical & Educational",
+    "common_arguments": "In-depth analysis of technical concepts and their real-world applications"
+  },
+  "audience_insight": null
+}

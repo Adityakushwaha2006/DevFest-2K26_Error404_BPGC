@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Aaron Patterson",
+    "login": "tenderlove",
+    "bio": "\ud83d\udc98\ud83d\udc99\ud83d\udc9c\ud83d\udc97\ud83d\udc9a\u2764\ud83d\udc93\ud83d\udc9b\ud83d\udc9a\ud83d\udc97",
+    "company": "@Shopify",
+    "location": "Seattle",
+    "email": null,
+    "twitter": "tenderlove",
+    "followers": 9593,
+    "public_repos": 383
+  },
+  "analysis": {
+    "career_trajectory": "This developer has shown a diverse range of technical interests and skills. They started by working on various Ruby projects, including gems like net-http-persistent and bcrypt-ruby. They also experimented with other languages like C++ (esp8266aq) and JavaScript (profiler). In 2026, they began to focus more on performance optimization, as evident from their contributions to the puma project. Their comment history suggests that they are engaged in discussions about software development best practices, testing, and maintenance.",
+    "technical_obsessions": [
+      {
+        "topic": "Performance Optimization",
+        "evidence": "Their recent contributions to the puma project demonstrate their interest in improving performance."
+      },
+      {
+        "topic": "Testing and Maintenance",
+        "evidence": "Their comments on issues like testing, refactoring, and maintenance suggest that they are concerned with ensuring the quality and reliability of software."
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Performance Optimization",
+        "Testing",
+        "Maintenance"
+      ],
+      "communication_style": "Engaged and detail-oriented, often providing thoughtful comments on issues related to performance optimization, testing, and maintenance."
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about performance optimization and software development best practices.",
+      "conversation_starters": [
+        "What are some common pitfalls when optimizing performance in Ruby applications?",
+        "How do you approach refactoring legacy code to improve maintainability?",
+        "Can you share your experience with testing frameworks for Ruby?"
+      ]
+    }
+  }
+}

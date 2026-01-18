@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "steveklabnik",
+  "url": null,
+  "profile": {
+    "name": "Steve Klabnik",
+    "bio": "Meticulous developer | Database design & testing expert | East River Source Control advocate",
+    "location": "Austin, TX",
+    "website": null,
+    "company": "East River Source Control",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "Testing frameworks"
+    ],
+    "posting_style": "Technical",
+    "common_arguments": "In-depth analysis of database sharding strategies and testing framework comparisons."
+  },
+  "audience_insight": null
+}

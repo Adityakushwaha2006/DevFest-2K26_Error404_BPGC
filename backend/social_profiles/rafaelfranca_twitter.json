@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "rafaelfranca",
+  "url": null,
+  "profile": {
+    "name": "Rafael Mendon\u00e7a Fran\u00e7a",
+    "bio": "Expert DevOps engineer & advocate for efficient testing and containerization.",
+    "location": "Ottawa, ON",
+    "website": null,
+    "company": "Shopify",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Dev Containers",
+      "Testing Frameworks"
+    ],
+    "posting_style": "Informative and solution-focused, often with a dash of humor.",
+    "common_arguments": "The importance of adopting best practices in DevOps and testing to improve overall software quality."
+  },
+  "audience_insight": null
+}

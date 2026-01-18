@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "chrisbanes",
+  "url": null,
+  "profile": {
+    "name": "Chris Banes",
+    "bio": "A supportive Android Engineer sharing Kotlin & Compose insights | Static Code Analysis enthusiast",
+    "location": "Bath, UK",
+    "website": null,
+    "company": "Android Engineer",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding",
+      "Static Code Analysis"
+    ],
+    "posting_style": "Supportive mentor with a focus on explaining technical concepts",
+    "common_arguments": "Detailed summaries of debates and explanations of complex topics"
+  },
+  "audience_insight": null
+}

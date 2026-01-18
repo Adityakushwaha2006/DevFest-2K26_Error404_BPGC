@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Jonas Schmedtmann",
+    "login": "jonasschmedtmann",
+    "bio": "Developer. Designer. Online teacher.",
+    "company": null,
+    "location": "Faro, Portugal",
+    "email": "hello@jonas.io",
+    "twitter": "jonasschmedtman",
+    "followers": 28316,
+    "public_repos": 7
+  },
+  "analysis": {
+    "career_trajectory": "Started with R in 2019, transitioned to Node.js + TypeScript in 2023, and expanded into HTML, CSS, JavaScript, and React development through various courses.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": ""
+      },
+      {
+        "topic": "Front-end Development",
+        "evidence": ""
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Machine Learning",
+        "Web Development",
+        "JavaScript"
+      ],
+      "communication_style": "Supportive mentor"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is also interested in learning and teaching others, with a focus on web development.",
+      "conversation_starters": [
+        "What inspired you to learn React?",
+        "How do you approach debugging complex JavaScript issues?",
+        "Can you share any projects or experiences where you applied machine learning concepts?"
+      ]
+    }
+  }
+}

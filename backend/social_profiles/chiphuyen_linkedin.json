@@ -1,0 +1,71 @@
+{
+  "platform": "linkedin",
+  "public_id": "chiphuyen",
+  "url": null,
+  "profile": {
+    "name": "Chip Huyen",
+    "headline": "Senior Software Engineer | Remote at Rippling",
+    "location": "San Francisco",
+    "summary": "Highly motivated and experienced software engineer with a strong background in machine learning, deep learning, and feature stores. Proficient in multiple programming languages and libraries.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend:\n\nRippling\n\nAs Rippling is a remote"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Rippling",
+      "date_range": "Remote (2022 - Present)",
+      "description": [
+        "Designed and implemented machine learning systems for feature stores using feathr and lazynlp.",
+        "Collaborated with cross-functional teams to develop and deploy scalable software solutions."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed and maintained multiple open-source projects using Python, TensorFlow, and fastText.",
+        "Provided expert-level support for clients on various machine learning and deep learning projects."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to the development and maintenance of multiple open-source projects using Python, AWD-LSTM-LM, and transformer-xl.",
+        "Ensured code quality, security, and scalability for various projects."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2016 - 2018",
+      "description": [
+        "Developed and maintained multiple machine learning projects using Python, OpenSeq2Seq, and Milano.",
+        "Provided expert-level support for clients on various deep learning and machine learning projects."
+      ]
+    }
+  ],
+  "skills": {
+    "Machine Learning": [
+      "TensorFlow",
+      "fastText",
+      "OpenSeq2Seq",
+      "Milano"
+    ],
+    "Deep Learning": [
+      "AWD-LSTM-LM",
+      "transformer-xl"
+    ],
+    "Feature Stores": [
+      "feathr",
+      "lazynlp"
+    ],
+    "Programming Languages": [
+      "Python",
+      "Jupyter Notebook"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "mitchellh",
+  "url": null,
+  "profile": {
+    "name": "Mitchell Hashimoto",
+    "bio": "Highly experienced systems programmer with a passion for memory management and language development.",
+    "location": "Los Angeles, CA",
+    "website": null,
+    "company": "Fortinet",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Memory Management",
+      "Language Development"
+    ],
+    "posting_style": "Technical",
+    "common_arguments": "In-depth analysis of technical issues, code examples, and explanations of thought processes."
+  },
+  "audience_insight": null
+}

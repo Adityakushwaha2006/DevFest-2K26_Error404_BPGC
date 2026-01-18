@@ -1,0 +1,56 @@
+{
+  "platform": "linkedin",
+  "public_id": "pdelteil",
+  "url": null,
+  "profile": {
+    "name": "Philippe Delteil",
+    "headline": "Senior Software Engineer | INFO-SEC",
+    "location": "Remote",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for systems programming, bug bounty programs, and cybersecurity. Proficient in Rust, Python, and various tools and frameworks.",
+    "website": null,
+    "company": "INFO-SEC"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "INFO-SEC",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and developed secure systems using Rust and Python.",
+        "Participated in legitimate bug bounty programs to identify vulnerabilities and improve system security."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2023",
+      "description": [
+        "Developed custom software solutions for clients using Python and various frameworks.",
+        "Maintained open-source projects on GitHub, including bug fixes and feature enhancements."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2020 - 2023",
+      "description": [
+        "Contributed to multiple open-source projects, including code reviews and bug fixes.",
+        "Improved project documentation and user experience."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Rust",
+      "Python"
+    ],
+    "Tools and Frameworks": [
+      "Burp Suite",
+      "Postman",
+      "Nmap"
+    ],
+    "Bug Bounty Programs": [
+      "Participated in legitimate bug bounty programs like trusty-bbp and scammy-bbp."
+    ]
+  }
+}

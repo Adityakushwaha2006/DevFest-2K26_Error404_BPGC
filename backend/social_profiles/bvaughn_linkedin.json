@@ -1,0 +1,76 @@
+{
+  "platform": "linkedin",
+  "public_id": "bvaughn",
+  "url": null,
+  "profile": {
+    "name": "Brian Vaughn",
+    "headline": "Senior Software Engineer at Citadel | Brooklyn, NY",
+    "location": "Brooklyn, NY",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for open-source development. Proficient in a range of programming languages and technologies.",
+    "website": null,
+    "company": "Citadel"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Citadel",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of multiple high-traffic web applications using Node.js, Express, and MongoDB.",
+        "Collaborated with cross-functional teams to design and implement scalable architecture solutions.",
+        "Mentored junior engineers on best practices for coding, testing, and deployment."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed custom web applications using React, Redux, and GraphQL.",
+        "Worked with clients to understand their technical requirements and deliver tailored solutions."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Projects",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to the development of multiple open-source projects using Python, JavaScript, and C++.",
+        "Participated in code reviews and ensured adherence to best practices."
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "ABC Company",
+      "date_range": "2012 - 2015",
+      "description": [
+        "Developed software applications using Java, Spring, and Hibernate.",
+        "Collaborated with team members to design and implement new features."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript (ES6+)",
+      "Python (3.x)",
+      "Java (8.x)"
+    ],
+    "Frameworks": [
+      "React",
+      "Redux",
+      "Express.js"
+    ],
+    "Databases": [
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "Testing Frameworks": [
+      "Jest",
+      "Mocha"
+    ],
+    "Agile Methodologies": [
+      "Scrum",
+      "Kanban"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "platform": "linkedin",
+  "public_id": "withoutboats",
+  "url": null,
+  "profile": {
+    "name": "srrrse",
+    "headline": "Senior Software Engineer | Rust Enthusiast | Systems Programming Expert",
+    "location": "Berlin",
+    "summary": "Highly motivated software engineer with a passion for systems programming and concurrency. Proficient in Rust, with expertise in async programming, parser generation, and concurrent data structures.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend 'Dokkio' as a potential employer for"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Dokkio",
+      "company": "Dokkio",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and implemented high-performance systems using Rust's unique features, such as garbage collection with shifgrethor and exception handling without fehler.",
+        "Collaborated with cross-functional teams to develop scalable and concurrent data structures using dashmap."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2020 - 2023",
+      "description": [
+        "Developed multiple open-source projects, including a parser generator using lalrpop and concurrent data structures with dashmap.",
+        "Worked on various freelance projects, honing skills in async programming with async-std and async-h1."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Maintained multiple open-source repositories, including a Rust project that explored zero-cost futures and streams with futures-rs.",
+        "Contributed to the development of various libraries and frameworks, improving their performance and scalability."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Rust",
+      "JavaScript"
+    ],
+    "Concurrency Models": [
+      "Async programming with async-std and async-h1",
+      "Concurrent data structures with dashmap"
+    ],
+    "Parser Generation": [
+      "lalrpop"
+    ],
+    "Garbage Collection": [
+      "shifgrethor"
+    ],
+    "Exception Handling": [
+      "fehler"
+    ],
+    "Generators": [
+      "propane"
+    ]
+  }
+}

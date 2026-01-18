@@ -1,0 +1,21 @@
+{
+  "platform": "twitter",
+  "handle": "TheOdinProject",
+  "url": null,
+  "profile": {
+    "name": "The Odin Project",
+    "bio": "A supportive mentor sharing web dev insights & curriculum design expertise.",
+    "location": "Remote",
+    "website": null,
+    "company": "Sierra Ventures",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding"
+    ],
+    "posting_style": "Supportive and informative",
+    "common_arguments": "Detailed explanations of database sharding concepts"
+  },
+  "audience_insight": null
+}

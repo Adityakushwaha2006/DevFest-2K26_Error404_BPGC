@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "dan",
+    "login": "gaearon",
+    "bio": null,
+    "company": null,
+    "location": null,
+    "email": "dan.abramov@gmail.com",
+    "twitter": null,
+    "followers": 90266,
+    "public_repos": 293
+  },
+  "analysis": {
+    "career_trajectory": "This developer has been working on various projects since 2024, with a focus on JavaScript and React Native. They have contributed to several open-source projects, including FormatJS, ssr-performance-showdown, fastify-vite, expo, and react-native-svg. In 2025, they started exploring Lean and formalized their solutions for Tao's Analysis I. They also worked on the Bluesky Social application and created a tool for shared writing and social publishing.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "No specific evidence found in the provided comment history, but they have contributed to projects that involve data management (e.g., FormatJS, ssr-performance-showdown)"
+      },
+      {
+        "topic": "Lean Theorem Prover MCP",
+        "evidence": "They have worked on Lean-related projects and formalized their solutions for Tao's Analysis I"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "React Native",
+        "Lean",
+        "Open-source contributions"
+      ],
+      "communication_style": "Engaging, provides constructive feedback, and asks questions to clarify understanding"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is passionate about open-source contributions, React Native, and Lean.",
+      "conversation_starters": [
+        "What's your approach to optimizing the performance of React Native applications?",
+        "Can you share your experience with Lean theorem proving?",
+        "How do you stay up-to-date with the latest developments in React Native?"
+      ]
+    }
+  }
+}

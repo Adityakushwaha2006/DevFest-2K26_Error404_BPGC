@@ -1,0 +1,61 @@
+{
+  "platform": "linkedin",
+  "public_id": "fchollet",
+  "url": null,
+  "profile": {
+    "name": "Fran\u00e7ois Chollet",
+    "headline": "Senior Software Engineer | Remote | Expert in Rust Systems Programming & Python Development",
+    "location": "Remote",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for building scalable systems. Proficient in Rust and Python, with experience in database sharding and open-source development.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following companies as potential employers for Fran\u00e7ois Chollet"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Based on the provided information, I would recommend the following companies as potential employers for Fran\u00e7ois Chollet",
+      "date_range": "Remote | Full-time",
+      "description": [
+        "Designed and implemented a high-performance Rust-based system for data processing and analysis.",
+        "Collaborated with cross-functional teams to develop and deploy scalable software solutions.",
+        "Mentored junior engineers on best practices for code quality, testing, and deployment."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various clients",
+      "date_range": "2020-2022 | Freelance",
+      "description": [
+        "Developed multiple Python-based projects for various clients, including data analysis and machine learning applications.",
+        "Created and maintained open-source repositories on GitHub, contributing to the Rust community."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various open-source projects",
+      "date_range": "2018-2020 | Open-source",
+      "description": [
+        "Contributed to multiple Rust-based open-source projects, including bug fixes and feature enhancements.",
+        "Participated in community discussions and provided guidance on best practices for code quality and testing."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Rust",
+      "Python"
+    ],
+    "Database Management": [
+      "Database sharding"
+    ],
+    "Development Methodologies": [
+      "Agile development",
+      "Test-driven development"
+    ],
+    "Tools and Technologies": [
+      "Git",
+      "Docker",
+      "Kubernetes"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "profile": {
+    "name": "Evan You",
+    "login": "yyx990803",
+    "bio": "Founder @voidzero-dev, author of @vuejs and @vitejs. Connoisseur of sushi.",
+    "company": "VoidZero",
+    "location": "Singapore",
+    "email": null,
+    "twitter": "youyuxi",
+    "followers": 106493,
+    "public_repos": 198
+  },
+  "analysis": {
+    "career_trajectory": "Started with JavaScript in 2023, exploring various frameworks and libraries such as Vue.js, Vite, and Next. Demonstrated expertise in TypeScript and experience with tooling like webpack and CircleCI. Showcased interest in performance optimization and web development best practices.",
+    "technical_obsessions": [
+      {
+        "topic": "Performance Optimization",
+        "evidence": "Benchmarking Vite vs. Next + turbopack HMR performance (2023-02-16)"
+      },
+      {
+        "topic": "Vue.js Framework",
+        "evidence": "Radix-Vue: Vue port of Radix UI Primitives. An open-source UI component library for building high-quality, accessible design systems and web apps. (2024-02-24)"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "Performance Optimization",
+        "Vue.js Framework",
+        "Web Development Best Practices"
+      ],
+      "communication_style": "Asks deep architectural questions, Nitpicks code style"
+    },
+    "match_profile": {
+      "similar_user_traits": "A developer who is detail-oriented and interested in performance optimization.",
+      "conversation_starters": [
+        "What are some common pitfalls when using Vue.js for server-side rendering?",
+        "How do you approach optimizing the performance of a web application?",
+        "Can you share your experience with tooling like webpack and CircleCI?"
+      ]
+    }
+  }
+}

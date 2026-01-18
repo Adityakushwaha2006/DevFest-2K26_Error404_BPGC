@@ -1,0 +1,58 @@
+{
+  "platform": "linkedin",
+  "public_id": "aturon",
+  "url": null,
+  "profile": {
+    "name": "Aaron Turon",
+    "headline": "Senior Software Engineer | Fastly",
+    "location": "Portland, OR, USA",
+    "summary": "Highly skilled software engineer with expertise in networking, web development, and compiler design. Proven track record of contributing to open-source projects and driving technical innovation.",
+    "website": null,
+    "company": "Fastly"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Fastly",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of a high-performance caching system for Fastly's edge network.",
+        "Collaborated with cross-functional teams to design and implement new features, resulting in significant performance improvements."
+      ]
+    },
+    {
+      "title": "Core Contributor, Rust Language Project",
+      "company": "Rust Language Project",
+      "date_range": "2019 - 2022",
+      "description": [
+        "Contributed to the development of the Rust compiler and runtime.",
+        "Worked closely with other contributors to ensure stability and performance of the language."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Developed multiple Rust projects, including a popular crate for networking.",
+        "Collaborated with clients to understand their needs and deliver high-quality solutions."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2017 - 2018",
+      "description": [
+        "Maintained multiple Rust projects, including a popular crate for networking.",
+        "Ensured the stability and security of these projects through regular updates and bug fixes."
+      ]
+    }
+  ],
+  "skills": {
+    "category": "Programming Languages",
+    "points": [
+      "Rust",
+      "Python"
+    ]
+  }
+}

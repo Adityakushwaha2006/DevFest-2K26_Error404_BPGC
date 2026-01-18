@@ -1,0 +1,65 @@
+{
+  "platform": "linkedin",
+  "public_id": "antirez",
+  "url": null,
+  "profile": {
+    "name": "Salvatore Sanfilippo",
+    "headline": "Senior Software Engineer | Redis Labs",
+    "location": "Catania, Sicily, Italy",
+    "summary": "Highly skilled developer with a passion for open-source projects and technical innovation. Proven track record of delivering high-quality solutions and collaborating with cross-functional teams.",
+    "website": null,
+    "company": "Redis Labs"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Redis Labs",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained MicroPython drivers for various sensors and displays, including FT6x06 capacitive touch sensor, vl53l0x TOF sensor, UC8151 / IL0373 MicroPython e-paper display driver, and BMA423 accelerometer driver.",
+        "Contributed to the development of compression algorithms, text drawing libraries, and an emulator for the ZX Spectrum.",
+        "Collaborated with the Redis Labs team to integrate MicroPython into the Redis platform."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed and maintained various open-source projects, including a Telegram bot framework.",
+        "Contributed to the development of C programming libraries and tools, such as SMAZ2 compression algorithm and hping network tool."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Maintained and updated various open-source projects, including MicroPython drivers for different sensors and displays.",
+        "Contributed to the development of text drawing libraries and other technical projects."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "C",
+      "MicroPython"
+    ],
+    "Development Frameworks": [
+      "Telegram Bot Framework"
+    ],
+    "Libraries and Tools": [
+      "SMAZ2 compression algorithm",
+      "hping network tool",
+      "ST77xx-pure-MP driver"
+    ],
+    "Operating Systems": [
+      "Linux"
+    ],
+    "Other Skills": [
+      "Emulator development (ZX Spectrum)",
+      "Text drawing libraries",
+      "Compression algorithms"
+    ]
+  }
+}

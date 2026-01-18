@@ -1,0 +1,75 @@
+{
+  "platform": "linkedin",
+  "public_id": "Moya",
+  "url": null,
+  "profile": {
+    "name": "Moya",
+    "headline": "Senior Software Engineer | Contributing to Moya and Workato",
+    "location": "Remote",
+    "summary": "Highly motivated software engineer with a passion for open-source development, database sharding, and technical innovation.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for Moya:\n\nWorkato\n\nThis"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Workato",
+      "company": "Workato",
+      "date_range": "Remote",
+      "description": [
+        "Designed and implemented scalable database solutions using Ruby on Rails."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Moya Organization",
+      "date_range": "2018-2020",
+      "description": [
+        "Contributed to the development of Moya, a popular open-source project.",
+        "Created documentation for moya.github.io."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Moya Organization",
+      "date_range": "2020-2022",
+      "description": [
+        "Maintained and updated the Moya repository, ensuring its continued stability and security.",
+        "Experimented with TypeScript and Swift in 2022."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Moya Organization",
+      "date_range": "2022-2024",
+      "description": [
+        "Continued to contribute to Moya, exploring new technologies and techniques.",
+        "Experimented with Swift in 2024."
+      ]
+    }
+  ],
+  "skills": {
+    "Technical Skills": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Ruby",
+          "TypeScript",
+          "Swift"
+        ]
+      },
+      {
+        "category": "Frameworks and Libraries",
+        "points": [
+          "ReactiveSwift",
+          "Ruby on Rails"
+        ]
+      },
+      {
+        "category": "Database Management",
+        "points": [
+          "Database Sharding"
+        ]
+      }
+    ]
+  }
+}

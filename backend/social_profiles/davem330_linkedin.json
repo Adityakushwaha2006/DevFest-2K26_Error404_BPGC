@@ -1,0 +1,50 @@
+{
+  "platform": "linkedin",
+  "public_id": "davem330",
+  "url": null,
+  "profile": {
+    "name": "David S. Miller",
+    "headline": "Senior Software Engineer at Red Hat Inc.",
+    "location": "London, UK",
+    "summary": "Results-driven software engineer with over a decade of experience in Linux kernel development and networking. Proven track record of delivering high-quality solutions on time.",
+    "website": null,
+    "company": "Red Hat Inc."
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Red Hat Inc.",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of a new Linux kernel feature for improved networking performance.",
+        "Collaborated with cross-functional teams to deliver high-quality software products on time and within budget."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2015 - 2022",
+      "description": [
+        "Developed and maintained multiple open-source projects, including a popular Linux kernel component.",
+        "Provided expert-level support to clients on various Linux-related topics."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Projects",
+      "date_range": "2011 - 2015",
+      "description": [
+        "Maintained and contributed to multiple open-source projects, including a popular networking component.",
+        "Collaborated with other maintainers to ensure the smooth operation of these projects."
+      ]
+    }
+  ],
+  "skills": {
+    "category": "Technical Skills",
+    "points": [
+      "Linux Kernel Development (C)",
+      "Networking (C)",
+      "Sparc Architecture"
+    ]
+  }
+}

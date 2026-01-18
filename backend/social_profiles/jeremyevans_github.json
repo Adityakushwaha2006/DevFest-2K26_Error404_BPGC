@@ -1,0 +1,46 @@
+{
+  "profile": {
+    "name": "Jeremy Evans",
+    "login": "jeremyevans",
+    "bio": "Principal Software Engineer at @ubicloud. Ruby Committer. Author of \"Polished Ruby Programming\". Maintainer of many ruby gems. OpenBSD ruby ports maintainer.",
+    "company": "Ubicloud, Inc.",
+    "location": "Sacramento, California, USA",
+    "email": "code@jeremyevans.net",
+    "twitter": "jeremyevans0",
+    "followers": 1711,
+    "public_repos": 233
+  },
+  "analysis": {
+    "career_trajectory": "Started with Ruby in 2025 and continued working on various projects, including Sequel, Roda, Rack, and RubyGems. Demonstrated expertise in database development, web development, and library packaging.",
+    "technical_obsessions": [
+      {
+        "topic": "Database Sharding",
+        "evidence": "sequel_postgresql_triggers: Database enforced timestamps, immutable columns, and counter/sum caches (Lang: Ruby)"
+      },
+      {
+        "topic": "API Design",
+        "evidence": "On ubicloud/ubicloud: This is failing because the instead of a passing `[{\"key\": \"CONFIG-NAME\", \"value\": \"CONFIG-VALUE\"}, ...]` to the API, you are passing `{\"CONFIG-NAME\": \"CONFIG-VALUE\", ...}`. `committee` (the OpenAPI validation layer) rejects this."
+      },
+      {
+        "topic": "Testing Frameworks",
+        "evidence": "On jeremyevans/minitest-hooks: The first hunk in the 8.1.1 -> 8.1.2 diff is that minitest 6 is required in Rails's Gemfile, even though the activesupport gemspec still allows minitest 5.1+"
+      }
+    ],
+    "comment_analytics": {
+      "primary_interests": [
+        "API Design",
+        "Testing Frameworks",
+        "Database Development"
+      ],
+      "communication_style": "Asks deep architectural questions, provides detailed explanations, and offers constructive feedback."
+    },
+    "match_profile": {
+      "similar_user_traits": "Similar to a developer who is passionate about database development, API design, and testing frameworks.",
+      "conversation_starters": [
+        "What are some common pitfalls when designing APIs?",
+        "How do you approach testing complex database queries?",
+        "Can you share an experience where you had to optimize database performance?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "platform": "linkedin",
+  "public_id": "HenrikJoreteg",
+  "url": null,
+  "profile": {
+    "name": "Henrik Joreteg",
+    "headline": "Senior Software Engineer at Xchart, Inc.",
+    "location": "Spokane, WA",
+    "summary": "Results-driven software engineer with expertise in building scalable and maintainable applications using JavaScript, React, Redux, and IndexedDB. Passionate about database sharding and exploring new technologies to improve efficiency and performance.",
+    "website": null,
+    "company": "Xchart, Inc."
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer at Xchart, Inc.",
+      "company": "Xchart, Inc.",
+      "date_range": "2025 - Present",
+      "description": [
+        "Designed and implemented a modular Redux store architecture for efficient state management in complex applications."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2022 - 2024",
+      "description": [
+        "Developed and maintained multiple open-source projects, including idb-keyval, tiny-object-hash, and feather-app."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2021 - 2022",
+      "description": [
+        "Contributed to the development and maintenance of several open-source projects, including redux-bundler-react and redux-bundler-example."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2021",
+      "description": [
+        "Built small utility libraries using JavaScript, including idb-keyval and tiny-object-hash."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Frameworks",
+      "Databases"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "JavaScript"
+        ]
+      },
+      {
+        "category": "Frameworks",
+        "points": [
+          "React",
+          "Redux"
+        ]
+      },
+      {
+        "category": "Databases",
+        "points": [
+          "IndexedDB"
+        ]
+      }
+    ]
+  }
+}

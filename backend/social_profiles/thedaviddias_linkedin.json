@@ -1,0 +1,61 @@
+{
+  "platform": "linkedin",
+  "public_id": "thedaviddias",
+  "url": null,
+  "profile": {
+    "name": "David Dias",
+    "headline": "@DavidDiasDigital | Senior Software Engineer | Toronto, Canada",
+    "location": "Toronto, Canada",
+    "summary": "Results-driven software engineer with a passion for building scalable and maintainable applications. Proficient in a range of programming languages and technologies.",
+    "website": null,
+    "company": "@DavidDiasDigital"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer @DavidDiasDigital",
+      "company": "@DavidDiasDigital",
+      "date_range": "2022-Present",
+      "description": [
+        "Designed and developed multiple Node.js CLI tools for efficient data management and automation.",
+        "Built a self-hosted bookmark manager with robust security features and user-friendly interface.",
+        "Created an ecommerce UI component library using TypeScript, ensuring seamless integration with existing applications."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020-2021",
+      "description": [
+        "Developed a blog CMS using JavaScript and Node.js for a client-based project.",
+        "Created an open-source repository for a Node.js CLI tool, contributing to its growth and community engagement."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2018-2020",
+      "description": [
+        "Maintained and updated multiple open-source repositories for various projects, ensuring their continued relevance and quality."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript",
+      "TypeScript",
+      "Rust"
+    ],
+    "Development Frameworks": [
+      "Node.js",
+      "Express.js"
+    ],
+    "Database Management": [
+      "MongoDB",
+      "PostgreSQL"
+    ],
+    "Web Development": [
+      "HTML/CSS",
+      "React.js"
+    ]
+  }
+}

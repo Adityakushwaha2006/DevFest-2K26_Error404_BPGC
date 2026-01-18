@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "matklad",
+  "url": null,
+  "profile": {
+    "name": "Alex Kladov",
+    "bio": "High-quality software engineer | Database design & testing expert | @tigerbeetle",
+    "location": "Lisbon",
+    "website": null,
+    "company": "@tigerbeetle",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Design",
+      "Testing and Validation"
+    ],
+    "posting_style": "In-depth analysis and discussion",
+    "common_arguments": "Architectural insights, code reviews, and debate summaries"
+  },
+  "audience_insight": null
+}

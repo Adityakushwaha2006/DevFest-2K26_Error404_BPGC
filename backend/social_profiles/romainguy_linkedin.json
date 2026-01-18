@@ -1,0 +1,62 @@
+{
+  "platform": "linkedin",
+  "public_id": "romainguy",
+  "url": null,
+  "profile": {
+    "name": "Romain Guy",
+    "headline": "Senior Software Engineer at Square | Graphics Programming Expert",
+    "location": "California",
+    "summary": "Highly motivated software engineer with a passion for graphics programming and Android development. Proficient in Kotlin, Java, and various tools and technologies.",
+    "website": null,
+    "company": "Square"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Square",
+      "date_range": "2023 - Present",
+      "description": [
+        "Developed and maintained Filament, a real-time physically based rendering engine for Android."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "",
+      "date_range": "2022-2023",
+      "description": [
+        "Worked on various Android development projects and tools, including Kotlin and Jetpack Compose."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "",
+      "date_range": "2018-2022",
+      "description": [
+        "Maintained and contributed to multiple open-source projects on GitHub."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Kotlin",
+        "Java"
+      ]
+    },
+    {
+      "category": "Development Tools",
+      "points": [
+        "Jetpack Compose",
+        "Filament"
+      ]
+    },
+    {
+      "category": "Graphics Programming",
+      "points": [
+        "pathway: A set of APIs to manipulate graphics paths on Android.",
+        "shadow-pointer: Rendering high-quality shadow from the user's finger."
+      ]
+    }
+  ]
+}

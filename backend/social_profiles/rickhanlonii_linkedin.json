@@ -1,0 +1,59 @@
+{
+  "platform": "linkedin",
+  "public_id": "rickhanlonii",
+  "url": null,
+  "profile": {
+    "name": "Ricky",
+    "headline": "Senior Software Engineer | Contributing to @facebook and Open-Source Projects",
+    "location": "EST. AKRON",
+    "summary": "Results-driven developer with expertise in JavaScript, TypeScript, and React Native. Proven track record of collaborating on open-source projects and addressing complex technical challenges.",
+    "website": null,
+    "company": "@facebook "
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "@facebook",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained multiple React Native applications, ensuring high performance and scalability.",
+        "Collaborated with cross-functional teams to design and implement new features.",
+        "Conducted code reviews and ensured adherence to best practices."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed multiple web applications using React, Node.js, and MongoDB.",
+        "Worked on open-source projects such as async-react and React Query."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Contributed to the development of multiple open-source projects, including React Native and React.",
+        "Participated in discussions on GitHub and Facebook's React issues tracker."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "JavaScript",
+      "TypeScript"
+    ],
+    "Frameworks": [
+      "React",
+      "React Native"
+    ],
+    "Databases": [
+      "MongoDB"
+    ],
+    "Async Programming": [
+      "async/await syntax"
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "platform": "linkedin",
+  "public_id": "ThePrimeagen",
+  "url": null,
+  "profile": {
+    "name": "ThePrimeagen",
+    "headline": "Transforming Code into Reality as CEO at TheStartup",
+    "location": "9th Ring, Vim",
+    "summary": "Results-driven developer with a passion for open-source projects and a knack for customizing tools like Neovim. Proven track record of delivering high-quality solutions while driving innovation.",
+    "website": null,
+    "company": "CEO Of TheStartup"
+  },
+  "experience": [
+    {
+      "title": "CEO Of TheStartup",
+      "company": "TheStartup",
+      "date_range": "2023 - Present",
+      "description": [
+        "Led the development and launch of multiple projects, including cockpit and harpoon.",
+        "Developed and implemented a custom Neovim configuration for enhanced productivity."
+      ]
+    },
+    {
+      "title": "Senior Software Engineer",
+      "company": "TheStartup",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Contributed to the development of cockpit, a cutting-edge project that showcases innovative software engineering.",
+        "Collaborated with cross-functional teams to deliver high-quality solutions."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Independent",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed and maintained multiple open-source projects, including harpoon and the-topshelf-project-of-the-century.",
+        "Provided expert consulting services to clients across various industries."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Contributed to the development and maintenance of multiple open-source projects, including cockpit.",
+        "Participated in community-driven initiatives to improve code quality and adoption."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Lua",
+      "JavaScript",
+      "C++",
+      "Go"
+    ],
+    "Text Editors": [
+      "Neovim"
+    ],
+    "Database Management": [
+      "Database Sharding"
+    ],
+    "Tools and Plugins": [
+      "vim-be-good",
+      "neovim AI agent",
+      "lua_fmt"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "platform": "twitter",
+  "handle": "benawad",
+  "url": null,
+  "profile": {
+    "name": "Ben Awad",
+    "bio": "A supportive developer sharing GraphQL, React Native, and TypeScript expertise.",
+    "location": "San Francisco, CA",
+    "website": null,
+    "company": "Voidpet",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Database Sharding"
+    ],
+    "posting_style": "Informative",
+    "common_arguments": "Detailed explanations of database sharding concepts."
+  },
+  "audience_insight": null
+}

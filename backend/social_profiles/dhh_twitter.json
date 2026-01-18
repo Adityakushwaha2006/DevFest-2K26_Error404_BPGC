@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "dhh",
+  "url": null,
+  "profile": {
+    "name": "David Heinemeier Hansson",
+    "bio": "Expert developer | Custom config files & Omarchy enthusiast",
+    "location": "Remote",
+    "website": null,
+    "company": "37signals",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Custom themed config files",
+      "Omarchy installation",
+      "Hyprland"
+    ],
+    "posting_style": "Engaging, provides detailed explanations and examples",
+    "common_arguments": "Detailed summaries of debates and discussions"
+  },
+  "audience_insight": null
+}

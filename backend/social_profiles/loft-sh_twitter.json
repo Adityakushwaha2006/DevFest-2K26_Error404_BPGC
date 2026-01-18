@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "loft-sh",
+  "url": null,
+  "profile": {
+    "name": "vCluster",
+    "bio": "A punchy bio mentioning Based on the provided information, I recommend: Accenture",
+    "location": "Your Kubernetes Cluster",
+    "website": null,
+    "company": "Based on the provided information, I recommend:\n\nAccenture\n\nAs Accenture is a global consulting firm",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Kubernetes",
+      "Terraform",
+      "Go programming"
+    ],
+    "posting_style": "Technical/Architectural",
+    "common_arguments": "Deep architectural questions and nitpicking code style."
+  },
+  "audience_insight": null
+}

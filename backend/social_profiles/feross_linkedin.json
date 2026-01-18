@@ -1,0 +1,76 @@
+{
+  "platform": "linkedin",
+  "public_id": "feross",
+  "url": null,
+  "profile": {
+    "name": "Feross Aboukhadijeh",
+    "headline": "Senior Software Engineer | @SocketDev, @WebTorrent, @Standard",
+    "location": "Stanford, CA",
+    "summary": "Highly skilled software engineer with expertise in JavaScript and TypeScript. Passionate about exploring new libraries and tools to improve developer productivity.",
+    "website": null,
+    "company": "@SocketDev, @WebTorrent, @Standard"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "@SocketDev, @WebTorrent, @Standard",
+      "date_range": "2024 - Present",
+      "description": [
+        "Led the development of Signal-Desktop using TypeScript and WebRTC.",
+        "Collaborated with cross-functional teams to integrate new features and improve overall performance."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2023 - 2024",
+      "description": [
+        "Developed multiple utility libraries and tools, including run-series, speakeasyjs.com, simple-get, git-pull-or-clone, safe-buffer, thanks, simple-sha256, yt-player, drag-drop, hyperscript-attribute-to-property, queue-microtask, TheAnnoyingSite.com, chrome-dgram, chrome-net, timidity, cross-zip, arch, express-sitemap-xml, simple-peer, connectivity, bitmidi.com",
+        "Maintained and updated open-source projects, including Signal-Desktop."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2023 - 2024",
+      "description": [
+        "Contributed to the development of various utility libraries and tools.",
+        "Ensured code quality, security, and maintainability."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2022 - 2023",
+      "description": [
+        "Developed multiple projects using JavaScript and Node.js.",
+        "Collaborated with clients to understand project requirements and deliver high-quality solutions."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "JavaScript",
+        "TypeScript"
+      ]
+    },
+    {
+      "category": "Libraries and Frameworks",
+      "points": [
+        "WebRTC",
+        "MIDI",
+        "Node.js utilities"
+      ]
+    },
+    {
+      "category": "Development Tools",
+      "points": [
+        "Git",
+        "npm",
+        "yarn"
+      ]
+    }
+  ]
+}

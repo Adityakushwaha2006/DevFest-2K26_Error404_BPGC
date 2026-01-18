@@ -1,0 +1,60 @@
+{
+  "platform": "linkedin",
+  "public_id": "JakeWharton",
+  "url": null,
+  "profile": {
+    "name": "Jake Wharton",
+    "headline": "Senior Software Engineer | Delivering innovative software solutions at Atlassian",
+    "location": "Pittsburgh, PA, USA",
+    "summary": "Highly motivated and versatile developer with a passion for open-source projects. Proven track record of contributing to multiple programming languages and domains, including Android logging utilities and Kotlin compiler plugins.",
+    "website": null,
+    "company": "Atlassian"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Atlassian",
+      "date_range": "2023 - Present",
+      "description": [
+        "Designed and developed scalable software solutions for Atlassian's flagship products.",
+        "Collaborated with cross-functional teams to drive innovation and improve customer experience.",
+        "Mentored junior engineers and contributed to the growth of the company's technical talent pool."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed custom software solutions for clients across multiple industries.",
+        "Worked on a wide range of projects, including Android logging utilities and Kotlin compiler plugins."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Contributed to the development and maintenance of multiple open-source projects, including Retrofit and MoSHI.",
+        "Participated in code reviews and ensured high-quality standards were met."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Kotlin",
+      "Java"
+    ],
+    "Development Frameworks": [
+      "Android",
+      "Jetpack Compose"
+    ],
+    "Database Management": [
+      "Database Sharding"
+    ],
+    "Tools and Technologies": [
+      "Retrofit",
+      "MoSHI"
+    ]
+  }
+}

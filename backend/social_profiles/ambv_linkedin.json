@@ -1,0 +1,73 @@
+{
+  "platform": "linkedin",
+  "public_id": "ambv",
+  "url": null,
+  "profile": {
+    "name": "\u0141ukasz Langa",
+    "headline": "@psf Senior Software Engineer | Open Source Enthusiast | Pozna\u0144, Poland",
+    "location": "Pozna\u0144, Poland",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for open-source development. Proficient in building tools for various platforms, including macOS/iOS and Node.js. Strong interest in exploring new technologies like WebAssembly and Foreign Function Interface packages.",
+    "website": null,
+    "company": "@psf"
+  },
+  "experience": [
+    {
+      "title": "@psf Senior Software Engineer",
+      "company": "@psf",
+      "date_range": "2022-Present",
+      "description": [
+        "Designed and implemented a high-performance caching system for a large-scale web application.",
+        "Collaborated with cross-functional teams to develop and maintain multiple open-source projects, including Python and C libraries.",
+        "Developed and maintained tools for automating testing and deployment processes."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Open-Source Projects",
+      "date_range": "2020-2022",
+      "description": [
+        "Contributed to the development of multiple open-source projects, including Python and C libraries.",
+        "Provided detailed explanations of fixes and acknowledged contributions from others in the comment history."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018-2020",
+      "description": [
+        "Developed custom software solutions for various clients, including web applications and mobile apps.",
+        "Collaborated with clients to understand their requirements and deliver high-quality solutions."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Development Frameworks",
+      "Databases"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "Python",
+          "C"
+        ]
+      },
+      {
+        "category": "Development Frameworks",
+        "points": [
+          "Node.js",
+          "macOS/iOS"
+        ]
+      },
+      {
+        "category": "Databases",
+        "points": [
+          "WebAssembly",
+          "Foreign Function Interface packages (cffi)"
+        ]
+      }
+    ]
+  }
+}

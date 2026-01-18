@@ -1,0 +1,65 @@
+{
+  "platform": "linkedin",
+  "public_id": "schneems",
+  "url": null,
+  "profile": {
+    "name": "Richard Schneeman",
+    "headline": "@schneems Senior Software Engineer | Cloud Native Buildpacks & Puma Expert",
+    "location": "Austin, Tx",
+    "summary": "Highly skilled developer with a passion for open-source projects and cloud-native technologies. Proven track record of contributing to Heroku's Cloud Native Buildpacks and Puma, with expertise in Ruby and Rust.",
+    "website": null,
+    "company": "@schneems "
+  },
+  "experience": [
+    {
+      "title": "@schneems Senior Software Engineer",
+      "company": "@schneems",
+      "date_range": "2022 - Present",
+      "description": [
+        "Fixed critical issues in Cloud Native Buildpacks",
+        "Implemented new features for Puma's development and testing processes"
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Heroku's Cloud Native Buildpacks",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Contributed to the project's development and maintenance",
+        "Collaborated with other maintainers on bug fixes and feature implementations"
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various clients",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Developed custom solutions for clients using Ruby and Rust",
+        "Provided expertise on bundler and sqlite3 issues"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Ruby",
+        "Rust"
+      ]
+    },
+    {
+      "category": "Cloud Native Technologies",
+      "points": [
+        "Heroku's Cloud Native Buildpacks",
+        "Puma"
+      ]
+    },
+    {
+      "category": "Development Tools",
+      "points": [
+        "Bundler",
+        "sqlite3"
+      ]
+    }
+  ]
+}

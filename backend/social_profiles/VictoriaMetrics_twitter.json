@@ -1,0 +1,25 @@
+{
+  "platform": "twitter",
+  "handle": "VictoriaMetrics",
+  "url": null,
+  "profile": {
+    "name": "VictoriaMetrics",
+    "bio": "A punchy bio mentioning Based on the provided information, I would recommend VictoriaMetrics as a developer at:OktaThis if relevant",
+    "location": "United States of America",
+    "website": null,
+    "company": "Based on the provided information, I would recommend VictoriaMetrics as a developer at:\n\nOkta\n\nThis",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "time series data",
+      "monitoring",
+      "logging",
+      "Kubernetes",
+      "Prometheus"
+    ],
+    "posting_style": "Technical explanations and deep architectural questions",
+    "common_arguments": "Detailed summaries of technical concepts and supporting others in their work"
+  },
+  "audience_insight": null
+}

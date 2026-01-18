@@ -1,0 +1,79 @@
+{
+  "platform": "linkedin",
+  "public_id": "nahamsec",
+  "url": null,
+  "profile": {
+    "name": "Ben Sadeghipour",
+    "headline": "Senior Software Engineer | Web Application Security Expert | Remote",
+    "location": "Remote",
+    "summary": "Highly motivated and experienced software engineer with a passion for web application security. Skilled in multiple programming languages, including Python, Ruby, PHP, and JavaScript. Proven track record of delivering high-quality solutions while maintaining a strong focus on security.",
+    "website": null,
+    "company": "Hasura"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Hasura",
+      "date_range": "2022 - Present",
+      "description": [
+        "Developed and maintained multiple web application security tools using Python, including burpy and SecLists.",
+        "Collaborated with cross-functional teams to design and implement secure software solutions.",
+        "Conducted regular security assessments and penetration testing to identify vulnerabilities."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed multiple web applications using Ruby, PHP, and JavaScript.",
+        "Conducted security assessments for clients' web applications using burpy and SecLists."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "HTB-Test",
+      "date_range": "2019 - 2021",
+      "description": [
+        "Maintained and updated the HTB-Test framework for web application security testing.",
+        "Contributed to the development of new features and bug fixes."
+      ]
+    },
+    {
+      "title": "Udemy Course Developer",
+      "company": "Udemy",
+      "date_range": "2018",
+      "description": [
+        "Developed a comprehensive Udemy course on PHP web application security.",
+        "Created engaging video content and accompanying study materials."
+      ]
+    },
+    {
+      "title": "Shell Scripting Enthusiast",
+      "company": "Various Projects",
+      "date_range": "2017 - 2018",
+      "description": [
+        "Developed shell scripts using crtndstry and lazyrecon for automation tasks.",
+        "Experimented with different scripting languages and techniques."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "Python",
+      "Ruby",
+      "PHP",
+      "JavaScript"
+    ],
+    "Web Application Security": [
+      "Burpy",
+      "SecLists",
+      "Penetration Testing",
+      "Security Assessments"
+    ],
+    "Shell Scripting": [
+      "crtndstry",
+      "lazyrecon"
+    ]
+  }
+}

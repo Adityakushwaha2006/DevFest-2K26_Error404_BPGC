@@ -1,0 +1,23 @@
+{
+  "platform": "twitter",
+  "handle": "llSourcell",
+  "url": null,
+  "profile": {
+    "name": "Siraj Raval",
+    "bio": "A punchy bio mentioning Based on Siraj Raval's tech stack and location as \"Remote\", I would recommend Accenture if relevant",
+    "location": "Remote",
+    "website": null,
+    "company": "Based on Siraj Raval's tech stack and location as \"Remote\", I would recommend Accenture",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Machine Learning",
+      "Open-Source Development",
+      "Quantum Computing"
+    ],
+    "posting_style": "In-depth analysis with supporting evidence, often including code snippets or explanations of complex concepts.",
+    "common_arguments": "The developer provides detailed summaries of debates and discussions related to their areas of interest, showcasing their expertise and encouraging collaboration."
+  },
+  "audience_insight": null
+}

@@ -1,0 +1,79 @@
+{
+  "platform": "linkedin",
+  "public_id": "carlosantoniodasilva",
+  "url": null,
+  "profile": {
+    "name": "Carlos Antonio da Silva",
+    "headline": "Senior Software Engineer at Atlassian | Contributing to Open-Source Projects",
+    "location": "Rio do Sul, SC, Brasil",
+    "summary": "Highly motivated and experienced software engineer with a passion for web development, open-source contributions, and collaboration.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer:\n\nAtlassian\n\nReasons:\n1"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Atlassian",
+      "date_range": "2022 - Present",
+      "description": [
+        "Designed and implemented new features for the Portal Game on Elixir, utilizing database sharding techniques.",
+        "Collaborated with cross-functional teams to resolve complex bugs and improve overall system performance."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Developed a personal website using Ruby on Rails, showcasing expertise in web development and design.",
+        "Contributed to open-source projects such as Heartcombo/Devise and Judoscale/Judoscale-python."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Heartcombo/Devise",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Maintained and updated the Heartcombo/Devise gem, ensuring compatibility with various Ruby versions."
+      ]
+    },
+    {
+      "title": "Concurrent-Ruby Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2019",
+      "description": [
+        "Developed concurrent-ruby, a library for concurrent programming in Ruby.",
+        "Collaborated with other developers to improve the library's performance and stability."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Ruby",
+        "Elixir"
+      ]
+    },
+    {
+      "category": "Web Development Frameworks",
+      "points": [
+        "Ruby on Rails",
+        "Phoenix"
+      ]
+    },
+    {
+      "category": "Database Management",
+      "points": [
+        "Database Sharding"
+      ]
+    },
+    {
+      "category": "Concurrency and Parallelism",
+      "points": [
+        "Concurrent-Ruby",
+        "Sidekiq"
+      ]
+    }
+  ]
+}

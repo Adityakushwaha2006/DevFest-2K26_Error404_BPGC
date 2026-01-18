@@ -1,0 +1,62 @@
+{
+  "platform": "linkedin",
+  "public_id": "Jarred-Sumner",
+  "url": null,
+  "profile": {
+    "name": "Jarred Sumner",
+    "headline": "Senior Software Engineer | Open Source Enthusiast | Database Sharding Expert",
+    "location": "San Francisco, CA",
+    "summary": "Highly motivated and detail-oriented software engineer with a passion for open-source development. Proficient in multiple programming languages, including TypeScript, Zig, and C++. Proven expertise in testing and debugging, with a strong focus on delivering high-quality solutions.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend the following employer for Jarred Sumner:\n\nAuth0"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Auth0",
+      "date_range": "2022 - Present",
+      "description": [
+        "Led the development of multiple open-source projects, including Bun and tree-sitter-typescript.",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions.",
+        "Developed and maintained a robust testing framework for Bun's test suite."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Worked on multiple projects, including node-tree-sitter and expo.",
+        "Demonstrated expertise in testing and debugging for various clients."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Bun Project",
+      "date_range": "2019 - 2020",
+      "description": [
+        "Contributed to the development of Bun, a Rust-based package manager for JavaScript.",
+        "Participated in code reviews and ensured high-quality code standards."
+      ]
+    }
+  ],
+  "skills": {
+    "Programming Languages": [
+      "TypeScript",
+      "Zig",
+      "C++"
+    ],
+    "Testing Frameworks": [
+      "Jest",
+      "Mocha"
+    ],
+    "Database Sharding": [
+      "Tree-sitter-typescript",
+      "Node-tree-sitter"
+    ],
+    "Debugging Tools": [
+      "Chrome DevTools",
+      "Visual Studio Code"
+    ]
+  }
+}

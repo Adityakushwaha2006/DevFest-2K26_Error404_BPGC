@@ -1,0 +1,82 @@
+{
+  "platform": "linkedin",
+  "public_id": "gabrielemariotti",
+  "url": null,
+  "profile": {
+    "name": "Gabriele Mariotti",
+    "headline": "Senior Software Engineer | Gong.io (Remote) | Expert in Android Development and Material Design UI",
+    "location": "Ancona, Italy",
+    "summary": "Highly motivated software engineer with a passion for innovative technologies. Skilled in Java, Ruby, JavaScript, Python, and Android development. Proficient in database sharding and Stetho testing.",
+    "website": null,
+    "company": "Based on the provided information, I would recommend:\n\nGong.io\n\nAs Gong.io is a remote"
+  },
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "Gong.io",
+      "date_range": "2022 - Present (Remote)",
+      "description": [
+        "Designed and developed multiple Android applications using Material Design UI components.",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions.",
+        "Improved code quality and performance through rigorous testing and refactoring."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2018 - 2022",
+      "description": [
+        "Developed multiple Android applications for various clients.",
+        "Worked on open-source projects, including [repo name]."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Open Source Project",
+      "date_range": "2015 - 2018",
+      "description": [
+        "Maintained and updated the project's codebase.",
+        "Contributed to the project's documentation and community engagement."
+      ]
+    },
+    {
+      "title": "Java Developer",
+      "company": "Company X",
+      "date_range": "2013 - 2015",
+      "description": [
+        "Developed multiple Android applications using Java.",
+        "Collaborated with cross-functional teams to deliver high-quality software solutions."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "points": [
+        "Java",
+        "Ruby",
+        "JavaScript",
+        "Python"
+      ]
+    },
+    {
+      "category": "Development Frameworks",
+      "points": [
+        "Android SDK",
+        "Material Design UI"
+      ]
+    },
+    {
+      "category": "Testing Tools",
+      "points": [
+        "Stetho Test"
+      ]
+    },
+    {
+      "category": "Database Management",
+      "points": [
+        "Database Sharding"
+      ]
+    }
+  ]
+}

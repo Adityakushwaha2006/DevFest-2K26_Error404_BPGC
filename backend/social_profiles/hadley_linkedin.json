@@ -1,0 +1,76 @@
+{
+  "platform": "linkedin",
+  "public_id": "hadley",
+  "url": null,
+  "profile": {
+    "name": "Hadley Wickham",
+    "headline": "@posit-pbc Senior Software Engineer | Data Analysis & Machine Learning Expert",
+    "location": "Houston, TX",
+    "summary": "Highly motivated and detail-oriented software developer with a passion for open-source projects. Proficient in R, Swift, and Go, with expertise in data analysis, machine learning, and database management.",
+    "website": null,
+    "company": "@posit-pbc"
+  },
+  "experience": [
+    {
+      "title": "@posit-pbc Senior Software Engineer",
+      "company": "@posit-pbc",
+      "date_range": "2023 - Present",
+      "description": [
+        "Developed and maintained multiple open-source projects using R, Swift, and Go.",
+        "Collaborated with cross-functional teams to design and implement data analysis pipelines.",
+        "Improved database performance by 30% through sharding and indexing techniques."
+      ]
+    },
+    {
+      "title": "Freelance Developer",
+      "company": "Various Clients",
+      "date_range": "2020 - 2022",
+      "description": [
+        "Worked on multiple projects for various clients, including data analysis and machine learning tasks.",
+        "Developed a custom R package for data visualization using D3.js."
+      ]
+    },
+    {
+      "title": "Open Source Maintainer",
+      "company": "Various Repositories",
+      "date_range": "2018 - 2020",
+      "description": [
+        "Contributed to multiple open-source projects, including data analysis and machine learning tasks.",
+        "Improved code quality and documentation for several repositories."
+      ]
+    }
+  ],
+  "skills": {
+    "categories": [
+      "Programming Languages",
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "points": [
+      {
+        "category": "Programming Languages",
+        "points": [
+          "R",
+          "Swift",
+          "Go"
+        ]
+      },
+      {
+        "category": "Data Analysis",
+        "points": [
+          "D3.js",
+          "ggplot2",
+          "Shiny"
+        ]
+      },
+      {
+        "category": "Machine Learning",
+        "points": [
+          "Scikit-learn",
+          "TensorFlow",
+          "PyTorch"
+        ]
+      }
+    ]
+  }
+}

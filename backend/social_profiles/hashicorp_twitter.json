@@ -1,0 +1,22 @@
+{
+  "platform": "twitter",
+  "handle": "hashicorp",
+  "url": null,
+  "profile": {
+    "name": "HashiCorp",
+    "bio": "Expert in Terraform, Nomad, and Consul. Helping you build scalable infrastructure with ease.",
+    "location": "San Francisco, CA",
+    "website": null,
+    "company": "Robinhood",
+    "verified": false
+  },
+  "content_analysis": {
+    "primary_topics": [
+      "Infrastructure as Code",
+      "Cloud-Native Applications"
+    ],
+    "posting_style": "In-depth explanations and real-world examples",
+    "common_arguments": "The importance of automation in DevOps and the benefits of using Terraform for stateless applications."
+  },
+  "audience_insight": null
+}
