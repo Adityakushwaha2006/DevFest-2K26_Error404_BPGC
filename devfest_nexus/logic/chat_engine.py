@@ -368,6 +368,49 @@ When these are not available, request them before strategizing."""
             }
         ]
     
+    def reset(self):
+        """
+        Reset the chat engine for a new session.
+        Creates a new session ID and clears history.
+        """
+        import uuid
+        # Generate new session ID
+        self.session_id = str(uuid.uuid4())[:8]
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        self.log_file_path = os.path.join(self.conversations_dir, f"chat_{timestamp}_{self.session_id}.json")
+        
+        # Reset chat with fresh history
+        self.chat = self.model.start_chat(history=[])
+        self.history = []
+        self.context_data = {}
+        self.target_context = {}
+        
+        # Log the new session
+        self._log_to_file()
+    
+    def load_history(self, messages: list):
+        """
+        Load a conversation history into the engine.
+        Used when switching between sessions.
+        
+        Args:
+            messages: List of message dicts with 'role' and 'content'
+        """
+        self.history = messages.copy() if messages else []
+        
+        # Reconstruct Gemini-compatible history
+        gemini_history = []
+        for msg in self.history:
+            if msg.get("role") in ["user", "assistant"]:
+                role = "user" if msg["role"] == "user" else "model"
+                gemini_history.append({
+                    "role": role,
+                    "parts": [msg.get("content", "")]
+                })
+        
+        # Restart chat with loaded history
+        self.chat = self.model.start_chat(history=gemini_history)
+    
     def set_context(self, context_data: Dict):
         """
         Set context data for more informed responses.

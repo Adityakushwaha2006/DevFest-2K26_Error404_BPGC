@@ -146,11 +146,11 @@ class LogisticMind:
             genai.configure(api_key=api_key)
             self.model = genai.GenerativeModel("models/gemini-2.0-flash")
             self.gemini_enabled = True
-            print("✅ Logistic Mind: Gemini initialized")
+            print("[OK] Logistic Mind: Gemini initialized")
         else:
             self.model = None
             self.gemini_enabled = False
-            print("⚠️ Logistic Mind: Running without Gemini (entity extraction limited)")
+            print("[WARNING] Logistic Mind: Running without Gemini (entity extraction limited)")
     
     
     def extract_entities_regex(self, text: str) -> List[ExtractedEntity]:
@@ -207,20 +207,20 @@ Extract:
 4. DISCOVERY INTENT - Distinguish between SPECIFIC and VAGUE:
 
    SPECIFIC discovery_intent (ready to search):
-   - "find me mentors in ML" → discovery_intent: "ML mentors"
-   - "suggest blockchain engineers" → discovery_intent: "blockchain engineers"
-   - "who works on AI at Google" → discovery_intent: "AI engineers Google"
+   - "find me mentors in ML" -> discovery_intent: "ML mentors"
+   - "suggest blockchain engineers" -> discovery_intent: "blockchain engineers"
+   - "who works on AI at Google" -> discovery_intent: "AI engineers Google"
    
    VAGUE discovery_needs_context (needs more info):
-   - "I don't know who to contact" → discovery_needs_context: "general"
-   - "who should I talk to?" → discovery_needs_context: "unknown"
-   - "help me find someone" → discovery_needs_context: "unspecified"
-   - "I need to network" → discovery_needs_context: "networking"
+   - "I don't know who to contact" -> discovery_needs_context: "general"
+   - "who should I talk to?" -> discovery_needs_context: "unknown"
+   - "help me find someone" -> discovery_needs_context: "unspecified"
+   - "I need to network" -> discovery_needs_context: "networking"
 
 5. USER CONTEXT SIGNALS from conversation (if any):
-   - College/university mentions → user_context: "college:BITS Pilani"
-   - Skills mentioned → user_context: "skills:Python,ML"
-   - Goals → user_context: "goal:mentorship"
+   - College/university mentions -> user_context: "college:BITS Pilani"
+   - Skills mentioned -> user_context: "skills:Python,ML"
+   - Goals -> user_context: "goal:mentorship"
 
 Return JSON array only:
 [{{"type": "person_name|github|twitter|linkedin|discovery_intent|discovery_needs_context|user_context", "value": "extracted_value", "confidence": 0.0-1.0}}]
@@ -249,7 +249,7 @@ If no entities found, return: []"""
                 if e.get("value")
             ]
         except Exception as e:
-            print(f"⚠️ Gemini entity extraction failed: {e}")
+            print(f"[WARNING] Gemini entity extraction failed: {e}")
             return []
     
     
@@ -272,7 +272,7 @@ If no entities found, return: []"""
         
         # If Gemini not available, fall back to basic defaults
         if not self.gemini_enabled:
-            print("⚠️ Gemini not available for CIT scoring, using defaults")
+            print("[WARNING] Gemini not available for CIT scoring, using defaults")
             score.context = 50
             score.intent = 50
             score.timing = 50
@@ -305,7 +305,7 @@ Return ONLY a JSON object with this exact format:
 """
         
         try:
-            response = self.gemini_model.generate_content(prompt)
+            response = self.model.generate_content(prompt)
             response_text = response.text.strip()
             
             # Clean markdown if present
@@ -323,15 +323,15 @@ Return ONLY a JSON object with this exact format:
             # Log the reasoning
             reasoning = result.get("reasoning", "")
             if reasoning:
-                print(f"🧠 CIT Reasoning: {reasoning}")
+                print(f"[BRAIN] CIT Reasoning: {reasoning}")
             
             score.calculate_total()
-            print(f"✅ Gemini CIT Score: C={score.context}, I={score.intent}, T={score.timing} → {score.total}/100 ({score.execution_state})")
+            print(f"[OK] Gemini CIT Score: C={score.context}, I={score.intent}, T={score.timing} -> {score.total}/100 ({score.execution_state})")
             
             return score
             
         except Exception as e:
-            print(f"⚠️ Gemini CIT scoring failed: {e}")
+            print(f"[WARNING] Gemini CIT scoring failed: {e}")
             # Fallback to basic algorithm
             score.context = 50
             score.intent = 70 if conversation_intent in ["mentorship", "hiring", "collaboration"] else 50
@@ -382,7 +382,7 @@ Return ONLY a JSON object with this exact format:
         Returns:
             Consolidated profile dict, or None if failed
         """
-        print(f"🔄 Triggering pipeline for: {entity.entity_type}/{entity.value}")
+        print(f"[REFRESH] Triggering pipeline for: {entity.entity_type}/{entity.value}")
         
         try:
             # Import pipeline orchestrator from new architecture
@@ -403,7 +403,7 @@ Return ONLY a JSON object with this exact format:
                 kwargs["linkedin_id"] = entity.value
                 kwargs["name"] = entity.value
             else:
-                print(f"⚠️ Unsupported entity type: {entity.entity_type}")
+                print(f"[WARNING] Unsupported entity type: {entity.entity_type}")
                 return None
             
             # Run pipeline
@@ -411,7 +411,7 @@ Return ONLY a JSON object with this exact format:
             
             # Pipeline returns: pipeline_status, unified_profile
             if result and result.get("pipeline_status") == "complete":
-                print(f"✅ Pipeline complete for {entity.value}")
+                print(f"[OK] Pipeline complete for {entity.value}")
                 # Return the unified_profile with some key fields promoted
                 unified = result.get("unified_profile", {})
                 # Add convenience fields for CIT scoring
@@ -422,14 +422,14 @@ Return ONLY a JSON object with this exact format:
                 unified["last_activity_hours"] = self._calculate_hours_since_last_activity(unified)
                 return unified
             else:
-                print(f"⚠️ Pipeline returned no data for {entity.value}")
+                print(f"[WARNING] Pipeline returned no data for {entity.value}")
                 return None
                 
         except ImportError as e:
-            print(f"⚠️ Could not import pipeline: {e}")
+            print(f"[WARNING] Could not import pipeline: {e}")
             return None
         except Exception as e:
-            print(f"❌ Pipeline error: {e}")
+            print(f"[ERROR] Pipeline error: {e}")
             return None
     
     
@@ -444,7 +444,7 @@ Return ONLY a JSON object with this exact format:
         Returns:
             List of ExtractedEntity objects for discovered profiles
         """
-        print(f"🔍 Searching for profiles: {name}")
+        print(f"[SEARCH] Searching for profiles: {name}")
         
         try:
             from nexus_search import get_search_engine
@@ -469,20 +469,20 @@ Return ONLY a JSON object with this exact format:
                                 confidence=confidence,
                                 source_message=f"Discovered via search for '{name}'"
                             ))
-                            print(f"   ✅ Discovered {platform}: {identifier} (confidence: {confidence:.0%})")
+                            print(f"   [OK] Discovered {platform}: {identifier} (confidence: {confidence:.0%})")
                 
                 if not entities:
-                    print(f"   ⚠️ No high-confidence profiles found for: {name}")
+                    print(f"   [WARNING] No high-confidence profiles found for: {name}")
             else:
-                print(f"   ❌ Search failed: {result.get('error', 'Unknown error')}")
+                print(f"   [ERROR] Search failed: {result.get('error', 'Unknown error')}")
             
             return entities
             
         except ImportError as e:
-            print(f"⚠️ Could not import search engine: {e}")
+            print(f"[WARNING] Could not import search engine: {e}")
             return []
         except Exception as e:
-            print(f"❌ Profile discovery error: {e}")
+            print(f"[ERROR] Profile discovery error: {e}")
             return []
     
     
@@ -498,7 +498,7 @@ Return ONLY a JSON object with this exact format:
         Returns:
             List of discovered people with basic profiles
         """
-        print(f"\n🔎 Discovery Mode: Finding people for '{goal}'")
+        print(f"\n[ICON] Discovery Mode: Finding people for '{goal}'")
         
         try:
             from search_engine import GitHubSearchEngine
@@ -532,7 +532,7 @@ Return ONLY a JSON object with this exact format:
             )
             
             if not results:
-                print(f"   ⚠️ No GitHub users found for: {keywords}")
+                print(f"   [WARNING] No GitHub users found for: {keywords}")
                 return []
             
             print(f"   Found {len(results)} potential matches")
@@ -552,15 +552,15 @@ Return ONLY a JSON object with this exact format:
                     "discovery_source": "github_search",
                     "discovery_goal": goal
                 })
-                print(f"   → {username}")
+                print(f"   -> {username}")
             
             return people
             
         except ImportError as e:
-            print(f"⚠️ Could not import GitHub search: {e}")
+            print(f"[WARNING] Could not import GitHub search: {e}")
             return []
         except Exception as e:
-            print(f"❌ Discovery error: {e}")
+            print(f"[ERROR] Discovery error: {e}")
             return []
     
     
@@ -622,9 +622,9 @@ Return ONLY a JSON object with this exact format:
         try:
             with open(self.state_file, "w", encoding="utf-8") as f:
                 json.dump(asdict(self.current_state), f, indent=2, ensure_ascii=False)
-            print(f"✅ Frontend state updated: {self.state_file}")
+            print(f"[OK] Frontend state updated: {self.state_file}")
         except Exception as e:
-            print(f"❌ Failed to write state file: {e}")
+            print(f"[ERROR] Failed to write state file: {e}")
         
         # --- WRITE ACTIVE CONTEXT FOR CHAT INJECTION ---
         # This file is read by the dashboard to inject into the chat engine
@@ -656,9 +656,9 @@ Return ONLY a JSON object with this exact format:
         try:
             with open(active_context_file, "w", encoding="utf-8") as f:
                 json.dump(chat_context, f, indent=2, ensure_ascii=False)
-            print(f"✅ Chat context written: {active_context_file}")
+            print(f"[OK] Chat context written: {active_context_file}")
         except Exception as e:
-            print(f"❌ Failed to write chat context: {e}")
+            print(f"[ERROR] Failed to write chat context: {e}")
     
     
     def _calculate_hours_since_last_activity(self, profile: Dict) -> int:
@@ -736,9 +736,9 @@ Return ONLY a JSON object with this exact format:
         try:
             with open(active_context_file, "w", encoding="utf-8") as f:
                 json.dump(discovery_context, f, indent=2, ensure_ascii=False)
-            print(f"✅ Discovery guidance written: {active_context_file}")
+            print(f"[OK] Discovery guidance written: {active_context_file}")
         except Exception as e:
-            print(f"❌ Failed to write discovery guidance: {e}")
+            print(f"[ERROR] Failed to write discovery guidance: {e}")
     
     
     def _check_profile_refresh(self):
@@ -762,7 +762,7 @@ Return ONLY a JSON object with this exact format:
             if hours_since < self.REFRESH_INTERVAL_HOURS:
                 return  # Not stale yet
             
-            print(f"\n🔄 Profile refresh check: {self.active_target.get('github_username')} ({hours_since:.1f}h old)")
+            print(f"\n[REFRESH] Profile refresh check: {self.active_target.get('github_username')} ({hours_since:.1f}h old)")
             
             # Re-run pipeline
             github_username = self.active_target.get("github_username")
@@ -779,7 +779,7 @@ Return ONLY a JSON object with this exact format:
             new_profile = self.trigger_backend_pipeline(entity)
             
             if not new_profile:
-                print(f"   ⚠️ Refresh failed for {github_username}")
+                print(f"   [WARNING] Refresh failed for {github_username}")
                 return
             
             # Compare with old profile
@@ -787,19 +787,19 @@ Return ONLY a JSON object with this exact format:
             has_changes, changes = self._has_profile_changed(old_profile, new_profile)
             
             if has_changes:
-                print(f"   ✅ Changes detected: {changes}")
+                print(f"   [OK] Changes detected: {changes}")
                 self._inject_profile_update(changes, new_profile)
                 
                 # Update tracking
                 self.active_target["old_profile"] = new_profile
                 self.active_target["last_fetched"] = now.isoformat()
             else:
-                print(f"   → No changes (silent)")
+                print(f"   -> No changes (silent)")
                 # Just update timestamp
                 self.active_target["last_fetched"] = now.isoformat()
                 
         except Exception as e:
-            print(f"⚠️ Profile refresh error: {e}")
+            print(f"[WARNING] Profile refresh error: {e}")
     
     
     def _has_profile_changed(self, old: Dict, new: Dict) -> tuple:
@@ -863,9 +863,9 @@ Return ONLY a JSON object with this exact format:
         try:
             with open(active_context_file, "w", encoding="utf-8") as f:
                 json.dump(update_context, f, indent=2, ensure_ascii=False)
-            print(f"✅ Profile update injected: {change_summary}")
+            print(f"[OK] Profile update injected: {change_summary}")
         except Exception as e:
-            print(f"❌ Failed to write profile update: {e}")
+            print(f"[ERROR] Failed to write profile update: {e}")
     
     
     def _generate_strategy(self, cit_score: CITScore) -> List[Dict]:
@@ -958,7 +958,7 @@ Return ONLY a JSON object with this exact format:
                 data = json.load(f)
             return (latest_file, data)
         except Exception as e:
-            print(f"⚠️ Failed to read chat log: {e}")
+            print(f"[WARNING] Failed to read chat log: {e}")
             return None
     
     
@@ -982,21 +982,21 @@ Return ONLY a JSON object with this exact format:
         if not entities:
             return False
         
-        print(f"📍 Found {len(entities)} new entities in {os.path.basename(filepath)}")
+        print(f"[ICON] Found {len(entities)} new entities in {os.path.basename(filepath)}")
         
         # Process each entity
         for entity in entities:
-            print(f"  → {entity.entity_type}: {entity.value} (confidence: {entity.confidence})")
+            print(f"  -> {entity.entity_type}: {entity.value} (confidence: {entity.confidence})")
             
             # Handle person_name entities - discover their profiles via Google Search
             if entity.entity_type == "person_name":
-                print(f"  🔍 Person name detected, searching for profiles...")
+                print(f"  [SEARCH] Person name detected, searching for profiles...")
                 discovered_entities = self.discover_profiles_from_name(entity.value)
                 
                 if discovered_entities:
                     # Use the discovered entities instead
                     for discovered in discovered_entities:
-                        print(f"     → Discovered {discovered.entity_type}: {discovered.value}")
+                        print(f"     -> Discovered {discovered.entity_type}: {discovered.value}")
                         
                         # Trigger pipeline for discovered profile
                         profile = self.trigger_backend_pipeline(discovered)
@@ -1011,7 +1011,7 @@ Return ONLY a JSON object with this exact format:
                             self.update_frontend_state(profile, cit_score, intent, focus)
                             break  # Use first successful discovery
                 else:
-                    print(f"  ⚠️ Could not discover profiles for: {entity.value}")
+                    print(f"  [WARNING] Could not discover profiles for: {entity.value}")
             
             # Only trigger pipeline for high-confidence social links
             elif entity.entity_type in ["github", "twitter", "linkedin"] and entity.confidence >= 0.8:
@@ -1041,11 +1041,11 @@ Return ONLY a JSON object with this exact format:
                             "last_fetched": datetime.now().isoformat(),
                             "old_profile": profile
                         }
-                        print(f"  📌 Tracking active target: {entity.value}")
+                        print(f"  [ICON] Tracking active target: {entity.value}")
             
             # Handle discovery_intent - find people based on goals
             elif entity.entity_type == "discovery_intent":
-                print(f"  🔎 Discovery intent detected: {entity.value}")
+                print(f"  [ICON] Discovery intent detected: {entity.value}")
                 
                 # Build user context from conversation
                 user_context = {
@@ -1057,7 +1057,7 @@ Return ONLY a JSON object with this exact format:
                 discovered_people = self.discover_people(entity.value, user_context, max_results=5)
                 
                 if discovered_people:
-                    print(f"  ✅ Found {len(discovered_people)} people matching '{entity.value}'")
+                    print(f"  [OK] Found {len(discovered_people)} people matching '{entity.value}'")
                     
                     # Process first discovered person through full pipeline
                     for person in discovered_people[:1]:  # Start with top match
@@ -1079,12 +1079,12 @@ Return ONLY a JSON object with this exact format:
                             focus = [entity.value] + profile.get("skills", [])[:2]
                             self.update_frontend_state(profile, cit_score, intent, focus)
                 else:
-                    print(f"  ⚠️ No people found for: {entity.value}")
+                    print(f"  [WARNING] No people found for: {entity.value}")
             
             # Handle vague discovery - needs clarification, don't search yet
             elif entity.entity_type == "discovery_needs_context":
-                print(f"  💬 Vague discovery intent: {entity.value}")
-                print(f"     → Injecting clarification guidance into chat context")
+                print(f"  [ICON] Vague discovery intent: {entity.value}")
+                print(f"     -> Injecting clarification guidance into chat context")
                 
                 # Collect any user context signals from this extraction
                 user_signals = {}
@@ -1100,7 +1100,7 @@ Return ONLY a JSON object with this exact format:
             
             # Handle user_context signals - store for future use
             elif entity.entity_type == "user_context":
-                print(f"  📝 User context signal: {entity.value}")
+                print(f"  [ICON] User context signal: {entity.value}")
                 # These are already processed above in discovery_needs_context handler
         
         return True
@@ -1113,9 +1113,9 @@ Return ONLY a JSON object with this exact format:
         print("=" * 60)
         print("NEXUS Logistic Mind - Starting")
         print("=" * 60)
-        print(f"📁 Watching: {self.conversations_dir}")
-        print(f"📊 State file: {self.state_file}")
-        print(f"⏱️  Poll interval: {self.poll_interval}s")
+        print(f"[DIR] Watching: {self.conversations_dir}")
+        print(f"[FILE] State file: {self.state_file}")
+        print(f"[TIMER] Poll interval: {self.poll_interval}s")
         print("-" * 60)
         
         try:
@@ -1123,7 +1123,7 @@ Return ONLY a JSON object with this exact format:
                 self.run_once()
                 time.sleep(self.poll_interval)
         except KeyboardInterrupt:
-            print("\n🛑 Logistic Mind stopped")
+            print("\n[STOP] Logistic Mind stopped")
 
 
 def generate_search_keywords(name: str, hints: Dict[str, str]) -> str:
