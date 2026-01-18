@@ -30,29 +30,12 @@ def load_frontend_state() -> dict:
     )
     
     default_state = {
-        "active_person": {
-            "name": "Aditya Kushwaha",
-            "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Aditya",
-            "role": "Software Engineer",
-            "github": ""
-        },
-        "cit_score": {
-            "context": 85,
-            "intent": 72,
-            "timing": 91,
-            "total": 83,
-            "execution_state": "PROCEED"
-        },
-        "focus_keywords": ["Optimization", "Machine Learning"],
-        "intent_classification": "Mentorship",
-        "activity_stream": [
-            {"time": "14:00", "type": "signal", "content": "Signal Detected: GitHub"},
-            {"time": "NOW", "type": "action", "content": "Drafting Outreach"}
-        ],
-        "tentative_strategy": [
-            {"date": "JAN 19", "action": "Schedule Follow-up Call"},
-            {"date": "JAN 21", "action": "Share Research Notes"}
-        ],
+        "active_person": None,  # No placeholder - empty until real data
+        "cit_score": None,
+        "focus_keywords": [],
+        "intent_classification": "",
+        "activity_stream": [],
+        "tentative_strategy": [],
         "conversations": []
     }
     
@@ -98,8 +81,121 @@ def initialize_chat():
                     "role": "assistant",
                     "content": f"⚠️ Chat initialization failed: {str(e)}"
                 }
-            ]
+                ]
 
+
+def init_chat_sessions():
+    """Initialize chat session management in session state."""
+    if 'chat_sessions' not in st.session_state:
+        st.session_state.chat_sessions = {}
+        st.session_state.active_session_id = None
+        st.session_state.session_counter = 0
+
+
+def create_new_session(title: str = None) -> str:
+    """
+    Create a new chat session.
+    
+    Args:
+        title: Optional title for the session (auto-generated if not provided)
+        
+    Returns:
+        New session ID
+    """
+    from datetime import datetime
+    import uuid
+    
+    init_chat_sessions()  # Ensure initialized
+    
+    # Save current session if exists
+    if st.session_state.active_session_id:
+        save_current_session()
+    
+    # Create new session
+    st.session_state.session_counter += 1
+    session_id = f"session_{uuid.uuid4().hex[:8]}"
+    
+    st.session_state.chat_sessions[session_id] = {
+        "id": session_id,
+        "title": title or f"Chat {st.session_state.session_counter}",
+        "created_at": datetime.now().isoformat(),
+        "messages": [],
+        "context": {}
+    }
+    
+    # Reset chat engine for new session
+    if 'chat_engine' in st.session_state and st.session_state.chat_engine:
+        st.session_state.chat_engine.reset()
+        st.session_state.chat_history = st.session_state.chat_engine.get_history()
+    else:
+        st.session_state.chat_history = []
+    
+    st.session_state.active_session_id = session_id
+    return session_id
+
+
+def save_current_session():
+    """Save current chat history to active session."""
+    if not st.session_state.get('active_session_id'):
+        return
+    
+    session_id = st.session_state.active_session_id
+    if session_id in st.session_state.chat_sessions:
+        st.session_state.chat_sessions[session_id]["messages"] = st.session_state.get('chat_history', [])
+
+
+def switch_to_session(session_id: str):
+    """
+    Switch to a different chat session.
+    
+    Args:
+        session_id: ID of session to switch to
+    """
+    if session_id not in st.session_state.chat_sessions:
+        return
+    
+    # Save current session first
+    save_current_session()
+    
+    # Load target session
+    session = st.session_state.chat_sessions[session_id]
+    st.session_state.chat_history = session.get("messages", [])
+    st.session_state.active_session_id = session_id
+    
+    # Reload chat engine with session history if possible
+    if 'chat_engine' in st.session_state and st.session_state.chat_engine:
+        st.session_state.chat_engine.load_history(session.get("messages", []))
+
+
+def update_session_title(title: str, session_id: str = None):
+    """
+    Update the title of a session (usually from detected context).
+    
+    Args:
+        title: New title
+        session_id: Session to update (defaults to active)
+    """
+    session_id = session_id or st.session_state.get('active_session_id')
+    if session_id and session_id in st.session_state.chat_sessions:
+        # Only update if it's still a generic title
+        current_title = st.session_state.chat_sessions[session_id].get("title", "")
+        if current_title.startswith("Chat ") or not current_title:
+            st.session_state.chat_sessions[session_id]["title"] = title[:30]
+
+
+def get_session_list():
+    """Get list of all sessions for sidebar display."""
+    init_chat_sessions()
+    sessions = []
+    for session_id, session in st.session_state.chat_sessions.items():
+        sessions.append({
+            "id": session_id,
+            "title": session.get("title", "Untitled"),
+            "message_count": len(session.get("messages", [])),
+            "is_active": session_id == st.session_state.active_session_id
+        })
+    # Sort by creation time (newest first based on session counter in id)
+    return sorted(sessions, key=lambda x: x["id"], reverse=True)
 
 
 def _mode_to_intent(mode: str) -> str:
@@ -128,6 +224,29 @@ def render_dashboard():
     Uses fullscreen overlay hack to bypass Streamlit layout.
     Includes auto-refresh mechanism for real-time updates.
     """
+    
+    # --- INITIALIZE SESSION MANAGEMENT ---
+    init_chat_sessions()
+    
+    # Create initial session if none exists
+    if not st.session_state.active_session_id:
+        create_new_session()
+    
+    # --- HANDLE SESSION SWITCHING/CREATION VIA QUERY PARAMS ---
+    query_params = st.query_params
+    
+    # Handle session switch request
+    if 'switch_session' in query_params:
+        target_session = query_params['switch_session']
+        if target_session in st.session_state.chat_sessions:
+            switch_to_session(target_session)
+        # Clear the query param
+        del st.query_params['switch_session']
+    
+    # Handle new session request
+    if 'new_session' in query_params:
+        create_new_session()
+        del st.query_params['new_session']
     
     # --- AUTO-REFRESH MECHANISM ---
     # Check if frontend_state.json has been updated since last render
@@ -210,6 +329,11 @@ DO NOT run a search yet. The backend will search once the user provides more spe
                     # Inject into chat context
                     if hasattr(st.session_state.chat_engine, 'context_data'):
                         st.session_state.chat_engine.context_data = clarification_context
+                    
+                    # Update session title with discovery intent
+                    if discovery_context['user_intent'] and discovery_context['user_intent'] != "general":
+                        update_session_title(f"🔎 {discovery_context['user_intent'][:25]}")
+                    
                     print(f"✅ Discovery guidance injected into chat")
                 else:
                     # Standard target profile injection
@@ -223,6 +347,12 @@ DO NOT run a search yet. The backend will search once the user provides more spe
                         target_profile=target_profile,
                         intent=intent
                     )
+                    
+                    # Update session title with target name
+                    target_name = target_profile.get("name", "")
+                    if target_name:
+                        update_session_title(target_name)
+                    
                     print(f"✅ Context injected into chat: {target_profile.get('name', 'Unknown')}")
     except Exception as e:
         print(f"⚠️ Context injection error: {e}")
@@ -233,36 +363,41 @@ DO NOT run a search yet. The backend will search once the user provides more spe
     # Load dynamic state from Logistic Mind, with fallback to defaults
     frontend_state = load_frontend_state()
     
-    # Extract data from state
-    active_person = frontend_state.get("active_person", {})
-    cit_score = frontend_state.get("cit_score", {})
+    # Extract data from state (handle None values)
+    active_person = frontend_state.get("active_person") or {}
+    cit_score = frontend_state.get("cit_score") or {}
+    
+    # Check if we have actual data or just empty state
+    has_target = bool(active_person and active_person.get("name"))
     
     # Map execution state to status label and color
-    exec_state = cit_score.get("execution_state", "PROCEED")
+    exec_state = cit_score.get("execution_state", "WAITING") if cit_score else "WAITING"
     status_map = {
         "STRONG_GO": ("STRONG GO", "neon-green"),
         "PROCEED": ("PROCEED", "neon-blue"),
         "CAUTION": ("CAUTION", "neon-purple"),
-        "ABORT": ("WATCHLIST", "neon-red")
+        "ABORT": ("WATCHLIST", "neon-red"),
+        "WAITING": ("AWAITING TARGET", "neon-purple")
     }
-    status_label, status_color = status_map.get(exec_state, ("UNKNOWN", "neon-blue"))
+    status_label, status_color = status_map.get(exec_state, ("AWAITING TARGET", "neon-purple"))
     
     data = {
         "selected_mode": st.session_state.get('selected_mode', 'Student / Intern'),
-        "target_name": active_person.get("name", "Unknown Target"),
-        "target_role": active_person.get("role", ""),
-        "target_avatar": active_person.get("avatar", "https://api.dicebear.com/7.x/avataaars/svg?seed=User"),
+        "target_name": active_person.get("name", "") if has_target else "",
+        "target_role": active_person.get("role", "") if has_target else "",
+        "target_avatar": active_person.get("avatar", "https://api.dicebear.com/7.x/avataaars/svg?seed=User") if has_target else "",
         "status_label": status_label,
         "status_color": status_color,
-        "readiness_score": cit_score.get("total", 0),
-        "current_intent": frontend_state.get("intent_classification", "Exploration"),
-        "focus_area": (frontend_state.get("focus_keywords", ["General"]) or ["General"])[0],
-        "last_active": "Recent",
-        "signal_source": "GitHub" if active_person.get("github") else "Social",
-        "ai_insight": f"CIT Score: C={cit_score.get('context', 0)} I={cit_score.get('intent', 0)} T={cit_score.get('timing', 0)}",
+        "readiness_score": cit_score.get("total", 0) if has_target else 0,
+        "current_intent": frontend_state.get("intent_classification", "") if has_target else "",
+        "focus_area": (frontend_state.get("focus_keywords", []) or [""])[0] if has_target else "",
+        "last_active": "Recent" if has_target else "",
+        "signal_source": "GitHub" if active_person.get("github") else ("" if not has_target else "Social"),
+        "ai_insight": f"CIT Score: C={cit_score.get('context', 0)} I={cit_score.get('intent', 0)} T={cit_score.get('timing', 0)}" if has_target else "",
         "activity_stream": frontend_state.get("activity_stream", []),
         "tentative_strategy": frontend_state.get("tentative_strategy", []),
-        "conversations": frontend_state.get("conversations", [])
+        "conversations": frontend_state.get("conversations", []),
+        "has_target": has_target  # Flag for conditionally rendering sidebar
     }
     
     
@@ -321,21 +456,28 @@ DO NOT run a search yet. The backend will search once the user provides more spe
                             <div class="tl-content future">{item.get('action', '')}</div>
                         </div>"""
     
-    # Generate sidebar conversations HTML
-    sidebar_conversations_html = ""
-    for conv in data.get("conversations", [])[:5]:
-        # Generate initials from person name
-        name = conv.get("person", "UN")
-        initials = "".join([word[0].upper() for word in name.split()[:2]]) if name else "?"
-        preview = conv.get("preview", "")[:30]
-        sidebar_conversations_html += f"""
-                <div class="signal-item">
+    # Generate sidebar sessions HTML (chat containers)
+    sidebar_sessions_html = ""
+    sessions = get_session_list()
+    for session in sessions[:10]:  # Max 10 sessions shown
+        initials = session.get("title", "?")[:2].upper()
+        title = session.get("title", "Untitled")[:20]
+        msg_count = session.get("message_count", 0)
+        is_active = session.get("is_active", False)
+        active_class = "active-session" if is_active else ""
+        session_id = session.get("id", "")
+        
+        sidebar_sessions_html += f"""
+                <div class="signal-item {active_class}" data-session-id="{session_id}" onclick="switchSession('{session_id}')">
                     <div class="monogram">{initials}</div>
                     <div class="sig-info">
-                        <h4 class="sig-name">{name}</h4>
-                        <div class="sig-meta">{preview}</div>
+                        <h4 class="sig-name">{title}</h4>
+                        <div class="sig-meta">{msg_count} messages</div>
                     </div>
                 </div>"""
+    
+    # Also keep conversations for backward compatibility
+    sidebar_conversations_html = sidebar_sessions_html
 
 
     # --- 2. THE FRONTEND (HTML/CSS/JS) ---
@@ -626,6 +768,20 @@ DO NOT run a search yet. The backend will search once the user provides more spe
             
             window.addEventListener('resize', function(){{ init(); }});
             init(); animate();
+            
+            // --- Session Management (communicate with Streamlit) ---
+            function switchSession(sessionId) {{
+                // Use URL query params to communicate with Streamlit
+                const url = new URL(window.location.href);
+                url.searchParams.set('switch_session', sessionId);
+                window.parent.location.href = url.toString();
+            }}
+            
+            function createNewChat() {{
+                const url = new URL(window.location.href);
+                url.searchParams.set('new_session', 'true');
+                window.parent.location.href = url.toString();
+            }}
         </script>
     </body>
     </html>
