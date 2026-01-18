@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T23:34:43.215985",
+    "target_name": "activity",
+    "sources_attempted": [
+      "stack_overflow"
+    ],
+    "sources_successful": [
+      "stack_overflow"
+    ]
+  },
+  "stack_overflow": {
+    "platform": "stackoverflow",
+    "user_id": 2874194,
+    "profile": {
+      "badge_counts": {
+        "bronze": 82,
+        "silver": 47,
+        "gold": 11
+      },
+      "account_id": 3429276,
+      "is_employee": false,
+      "last_modified_date": 1691758500,
+      "last_access_date": 1720015059,
+      "reputation_change_year": 0,
+      "reputation_change_quarter": 0,
+      "reputation_change_month": 0,
+      "reputation_change_week": 0,
+      "reputation_change_day": 0,
+      "reputation": 2788,
+      "creation_date": 1381587915,
+      "user_type": "registered",
+      "user_id": 2874194,
+      "accept_rate": 79,
+      "link": "https://stackoverflow.com/users/2874194/radical-activity",
+      "profile_image": "https://www.gravatar.com/avatar/89401f4c4bb8e4da38e0319a55fc673e?s=256&d=identicon&r=PG&f=y&so-version=2",
+      "display_name": "Radical_Activity"
+    },
+    "fetch_status": "success",
+    "top_tags": []
+  },
+  "blog": null,
+  "medium": null,
+  "hackernews": null,
+  "expertise_summary": {
+    "top_technologies": [],
+    "expertise_indicators": [
+      "Stack Overflow User"
+    ]
+  },
+  "content_summary": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T23:06:54.877900",
+    "pipeline_version": "1.0",
+    "primary_identifier": "AcademySoftwareFoundation",
+    "data_sources": [
+      "github_live"
+    ]
+  },
+  "identity": {
+    "primary_name": "Academy Software Foundation",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "twitter",
+        "identifier": "AcademySwf"
+      },
+      {
+        "platform": "website",
+        "identifier": "https://www.aswf.io/"
+      }
+    ]
+  },
+  "profiles": {
+    "github": {
+      "username": "AcademySoftwareFoundation",
+      "fetched_at": "2026-01-18T23:06:54.877912",
+      "profile": {
+        "login": "AcademySoftwareFoundation",
+        "name": "Academy Software Foundation",
+        "bio": "Home for technical activities hosted by the Academy Software Foundation (ASWF).",
+        "email": "info@aswf.io",
+        "twitter_username": "AcademySwf",
+        "blog": "https://www.aswf.io/",
+        "public_repos": 51,
+        "public_gists": 0,
+        "followers": 1449,
+        "following": 0,
+        "created_at": "2018-07-03T20:44:23Z",
+        "updated_at": "2025-12-30T18:40:30Z"
+      },
+      "repositories": [
+        {
+          "name": "OpenShadingLanguage",
+          "description": "Advanced shading language for production GI renderers",
+          "stars": 2257,
+          "forks": 397,
+          "language": "C++",
+          "updated_at": "2026-01-18T01:22:19Z"
+        },
+        {
+          "name": "OpenImageIO",
+          "description": "Reading, writing, and processing images in a wide variety of file formats, using a format-agnostic API, aimed at VFX applications.",
+          "stars": 2227,
+          "forks": 653,
+          "language": "C++",
+          "updated_at": "2026-01-18T17:24:15Z"
+        },
+        {
+          "name": "rawtoaces",
+          "description": "RAW to ACES Utility",
+          "stars": 168,
+          "forks": 58,
+          "language": "C++",
+          "updated_at": "2026-01-17T21:14:40Z"
+        },
+        {
+          "name": "OpenCue",
+          "description": "A render management system you can deploy for visual effects and animation productions.",
+          "stars": 902,
+          "forks": 236,
+          "language": "Python",
+          "updated_at": "2026-01-17T05:23:26Z"
+        },
+        {
+          "name": "openapv",
+          "description": "OpenAPV",
+          "stars": 168,
+          "forks": 30,
+          "language": "C",
+          "updated_at": "2026-01-18T17:14:09Z"
+        },
+        {
+          "name": "openvdb",
+          "description": "OpenVDB - Sparse volume data structure and tools",
+          "stars": 3174,
+          "forks": 733,
+          "language": "C++",
+          "updated_at": "2026-01-18T12:13:46Z"
+        },
+        {
+          "name": "tac",
+          "description": "Materials and meeting notes for the ASWF Technical Advisory Council (TAC)",
+          "stars": 99,
+          "forks": 29,
+          "language": "HTML",
+          "updated_at": "2026-01-16T14:26:18Z"
+        },
+        {
+          "name": "OpenRV",
+          "description": "Open source version of RV, the Sci-Tech award-winning media review and playback software.",
+          "stars": 693,
+          "forks": 200,
+          "language": "C++",
+          "updated_at": "2026-01-16T13:19:17Z"
+        },
+        {
+          "name": "MaterialX",
+          "description": "MaterialX is an open standard for the exchange of rich material and look-development content across applications and renderers.",
+          "stars": 2112,
+          "forks": 406,
+          "language": "C++",
+          "updated_at": "2026-01-16T20:08:54Z"
+        },
+        {
+          "name": "OpenTimelineIO",
+          "description": "Open Source API and interchange format for editorial timeline information.",
+          "stars": 1746,
+          "forks": 317,
+          "language": "C++",
+          "updated_at": "2026-01-18T11:23:13Z"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "cross_references": [
+        {
+          "platform": "twitter",
+          "identifier": "AcademySwf"
+        },
+        {
+          "platform": "website",
+          "identifier": "https://www.aswf.io/"
+        }
+      ]
+    }
+  },
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {
+    "github": {}
+  },
+  "summary": {
+    "name": "Academy Software Foundation",
+    "bio": "Home for technical activities hosted by the Academy Software Foundation (ASWF).",
+    "location": null,
+    "company": null,
+    "top_languages": [],
+    "top_repos": []
+  }
+}

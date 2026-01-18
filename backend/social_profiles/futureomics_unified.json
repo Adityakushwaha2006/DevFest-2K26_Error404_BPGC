@@ -1,0 +1,150 @@
+{
+  "name": "Dr.Nilofer",
+  "generated_at": "2026-01-18T23:34:07.028798",
+  "identity": {
+    "primary_name": "Dr.Nilofer",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "website",
+        "identifier": "futureomics.wixsite.com/home"
+      }
+    ]
+  },
+  "platforms": {
+    "github": {
+      "username": "futureomics",
+      "fetched_at": "2026-01-18T23:34:03.062989",
+      "profile": {
+        "login": "futureomics",
+        "name": "Dr.Nilofer",
+        "bio": "With a passion for unravelling the complexities of multi-omics biology data my research spans across various biological domains using a bioinformatics approach.",
+        "company": "futureomics",
+        "location": "Pune",
+        "blog": "futureomics.wixsite.com/home",
+        "public_repos": 52,
+        "public_gists": 0,
+        "followers": 208,
+        "following": 0,
+        "created_at": "2021-07-01T10:44:42Z",
+        "updated_at": "2025-12-08T08:52:42Z"
+      },
+      "repositories": [
+        {
+          "name": "Mining-Drug-Data-From-ChEMBL-Database-For-Drug-Discovery-",
+          "description": "Mining Drug Data From ChEMBL Database For Drug Discovery ",
+          "stars": 3,
+          "forks": 0,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-12-17T16:38:00Z"
+        },
+        {
+          "name": "Gene-Expression-analysis-with-DEGs-Significant-DEGs-and-Functional-Enrichment-Analysis",
+          "description": "End to End Gene Expression analysis with DEGs, Significant DEGs and Functional Enrichment Analysis",
+          "stars": 6,
+          "forks": 1,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-10-17T11:28:22Z"
+        },
+        {
+          "name": "Deep_learning_Model_for_Drug_Discovery",
+          "description": "Deep learning Model for Drug Discovery",
+          "stars": 8,
+          "forks": 2,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-12-01T02:52:53Z"
+        },
+        {
+          "name": "Download-the-Reference-Genome-FASTA-GTF-via-NCBI-Ensembl",
+          "description": "Download the Reference Genome FASTA & GTF via NCBI & Ensembl using Python",
+          "stars": 1,
+          "forks": 0,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-09-17T03:20:53Z"
+        },
+        {
+          "name": "GEO-query-and-DEG-analysis-using-Python",
+          "description": "GEO query and DEG analysis using Python",
+          "stars": 11,
+          "forks": 3,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-09-22T15:54:11Z"
+        },
+        {
+          "name": "Gene-Expression-Omnibus-GEO-analysis-using-Python",
+          "description": "Gene Expression Omnibus (GEO) analysis using Python",
+          "stars": 2,
+          "forks": 1,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-10-22T08:22:27Z"
+        },
+        {
+          "name": "-Automated-Biological-Data-EDA-Exploratory-Data-Analysis-Streamlit-App-",
+          "description": "\ud83e\uddec Automated Biological Data EDA (Exploratory Data Analysis) (Streamlit App). Explore the generated plots and insights interactively.",
+          "stars": 0,
+          "forks": 0,
+          "language": "Python",
+          "updated_at": "2025-09-06T13:32:05Z"
+        },
+        {
+          "name": "Machine-Learning-Regression-Modeling-for-Gene-Expression-Predicting-logFC-or-B-",
+          "description": "Regression model for predicting a binary class (significant vs not), and predict a continuous value either logFC (fold change in gene expression) or B (log-odds of differential expression). Multiple regression models to predict these values from gene expression statistics.",
+          "stars": 0,
+          "forks": 0,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-09-04T16:58:41Z"
+        },
+        {
+          "name": "Machine-Learning-Modeling-for-Differential-Gene-Expression",
+          "description": "Machine Learning (ML) modeling for Differential Gene Expression_Significant genes",
+          "stars": 1,
+          "forks": 0,
+          "language": "Jupyter Notebook",
+          "updated_at": "2025-10-22T08:28:50Z"
+        },
+        {
+          "name": "Biomedical-and-Bioinformatics-Research-Paper-Search-Streamlit-app",
+          "description": "Future Omics Bioinformatics Research Paper Search_an open source for scientific metadata to search research papers",
+          "stars": 4,
+          "forks": 0,
+          "language": "Python",
+          "updated_at": "2025-07-29T08:50:57Z"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "cross_references": [
+        {
+          "platform": "website",
+          "identifier": "futureomics.wixsite.com/home"
+        }
+      ]
+    }
+  },
+  "expertise": {
+    "top_technologies": [],
+    "expertise_indicators": []
+  },
+  "content": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  },
+  "activity_timeline": [],
+  "recency_weighting": {
+    "social": {
+      "github": {}
+    }
+  }
+}

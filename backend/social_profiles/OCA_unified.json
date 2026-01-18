@@ -1,0 +1,192 @@
+{
+  "name": "Odoo Community Association",
+  "generated_at": "2026-01-18T22:49:39.225071",
+  "identity": {
+    "primary_name": "Odoo Community Association",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "twitter",
+        "identifier": "OdooCommunity"
+      },
+      {
+        "platform": "website",
+        "identifier": "http://odoo-community.org"
+      }
+    ]
+  },
+  "platforms": {
+    "github": {
+      "username": "OCA",
+      "fetched_at": "2026-01-18T22:49:30.984779",
+      "profile": {
+        "login": "OCA",
+        "name": "Odoo Community Association",
+        "bio": "The GitHub repos for all Open Source work around Odoo",
+        "location": "Lausanne, Switzerland",
+        "twitter_username": "OdooCommunity",
+        "blog": "http://odoo-community.org",
+        "public_repos": 257,
+        "public_gists": 0,
+        "followers": 4147,
+        "following": 0,
+        "created_at": "2014-05-16T07:52:36Z",
+        "updated_at": "2026-01-07T12:42:42Z"
+      },
+      "repositories": [
+        {
+          "name": "oca-weblate-deployment",
+          "description": null,
+          "stars": 8,
+          "forks": 12,
+          "language": "Python",
+          "updated_at": "2026-01-18T16:52:36Z"
+        },
+        {
+          "name": "account-financial-reporting",
+          "description": "Financial reports for Odoo",
+          "stars": 274,
+          "forks": 680,
+          "language": "Python",
+          "updated_at": "2026-01-18T16:46:07Z"
+        },
+        {
+          "name": "pos",
+          "description": null,
+          "stars": 324,
+          "forks": 670,
+          "language": "HTML",
+          "updated_at": "2025-12-22T03:07:55Z"
+        },
+        {
+          "name": "l10n-spain",
+          "description": "Odoo Spain Localization",
+          "stars": 440,
+          "forks": 575,
+          "language": "Python",
+          "updated_at": "2026-01-18T16:21:40Z"
+        },
+        {
+          "name": "management-system",
+          "description": "Odoo for Management Systems (ISO, IEC, BS)",
+          "stars": 218,
+          "forks": 336,
+          "language": "HTML",
+          "updated_at": "2026-01-03T23:02:06Z"
+        },
+        {
+          "name": "web",
+          "description": "Odoo web client UI related addons",
+          "stars": 1130,
+          "forks": 2053,
+          "language": "JavaScript",
+          "updated_at": "2026-01-18T16:27:48Z"
+        },
+        {
+          "name": "OCB",
+          "description": "Odoo Community Backports",
+          "stars": 361,
+          "forks": 437,
+          "language": "Python",
+          "updated_at": "2026-01-17T23:30:55Z"
+        },
+        {
+          "name": "odoo-pre-commit-hooks",
+          "description": "Linters of Odoo addons that complement pylint-odoo",
+          "stars": 20,
+          "forks": 17,
+          "language": "Python",
+          "updated_at": "2026-01-17T20:05:22Z"
+        },
+        {
+          "name": "server-brand",
+          "description": null,
+          "stars": 78,
+          "forks": 181,
+          "language": "HTML",
+          "updated_at": "2026-01-10T12:46:22Z"
+        },
+        {
+          "name": "module-composition-analysis",
+          "description": "Collect and explore data from Odoo modules repositories",
+          "stars": 10,
+          "forks": 4,
+          "language": "Python",
+          "updated_at": "2026-01-17T12:45:30Z"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "cross_references": [
+        {
+          "platform": "twitter",
+          "identifier": "OdooCommunity"
+        },
+        {
+          "platform": "website",
+          "identifier": "http://odoo-community.org"
+        }
+      ]
+    },
+    "stackoverflow": {
+      "platform": "stackoverflow",
+      "user_id": 3434,
+      "profile": {
+        "badge_counts": {
+          "bronze": 158,
+          "silver": 109,
+          "gold": 8
+        },
+        "account_id": 2466,
+        "is_employee": false,
+        "last_modified_date": 1748613000,
+        "last_access_date": 1768678223,
+        "reputation_change_year": 10,
+        "reputation_change_quarter": 10,
+        "reputation_change_month": 10,
+        "reputation_change_week": 0,
+        "reputation_change_day": 0,
+        "reputation": 35096,
+        "creation_date": 1219935982,
+        "user_type": "registered",
+        "user_id": 3434,
+        "accept_rate": 90,
+        "location": "Boston, MA",
+        "website_url": "http://blog.higher-order.com",
+        "link": "https://stackoverflow.com/users/3434/apocalisp",
+        "profile_image": "https://www.gravatar.com/avatar/5a484dc0812eb4542ee718d969513f66?s=256&d=identicon&r=PG",
+        "display_name": "Apocalisp"
+      },
+      "fetch_status": "success",
+      "top_tags": []
+    }
+  },
+  "expertise": {
+    "top_technologies": [],
+    "expertise_indicators": [
+      "Stack Overflow User"
+    ]
+  },
+  "content": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  },
+  "activity_timeline": [],
+  "recency_weighting": {
+    "social": {
+      "github": {}
+    }
+  }
+}

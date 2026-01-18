@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T23:34:40.952990",
+    "pipeline_version": "1.0",
+    "primary_identifier": "activity",
+    "data_sources": [
+      "github_live"
+    ]
+  },
+  "identity": {
+    "primary_name": null,
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": []
+  },
+  "profiles": {
+    "github": {
+      "username": "activity",
+      "fetched_at": "2026-01-18T23:34:40.953002",
+      "profile": {
+        "login": "activity",
+        "blog": "",
+        "public_repos": 0,
+        "public_gists": 0,
+        "followers": 6,
+        "following": 0,
+        "created_at": "2014-06-19T18:12:41Z",
+        "updated_at": "2022-06-22T18:54:39Z"
+      },
+      "repositories": [],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "cross_references": []
+    }
+  },
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {
+    "github": {}
+  },
+  "summary": {
+    "name": null,
+    "bio": null,
+    "location": null,
+    "company": null,
+    "top_languages": [],
+    "top_repos": []
+  }
+}

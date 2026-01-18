@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T23:20:04.301782",
+    "pipeline_version": "1.0",
+    "primary_identifier": "Aditya Kushwawa's GitHub",
+    "data_sources": [],
+    "errors": [
+      "github_fetch_failed"
+    ]
+  },
+  "identity": {
+    "primary_name": null,
+    "confidence_score": 0.5,
+    "verified_platforms": [],
+    "cross_references": []
+  },
+  "profiles": {},
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {},
+  "summary": {
+    "name": null,
+    "bio": null,
+    "location": null,
+    "company": null,
+    "top_languages": [],
+    "top_repos": []
+  }
+}

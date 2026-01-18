@@ -19,12 +19,29 @@ import glob
 from datetime import datetime
 from typing import Dict, List, Optional, Tuple, Any
 from dataclasses import dataclass, field, asdict
+from enum import Enum
 from dotenv import load_dotenv
 
 # For Gemini inference
 import google.generativeai as genai
 
 load_dotenv()
+
+
+# --- Action Flags for Agentic Orchestration ---
+
+class ActionFlag(Enum):
+    """
+    Action flags that the LLM can output to trigger backend functions.
+    The orchestrator parses these from the LLM response and dispatches actions.
+    """
+    FETCH_GITHUB = "FETCH_GITHUB"           # Fetch GitHub profile data
+    FETCH_SOCIALS = "FETCH_SOCIALS"         # Fetch Twitter/LinkedIn data
+    SEARCH_USERS = "SEARCH_USERS"           # Search for users matching criteria
+    COMPUTE_CIT = "COMPUTE_CIT"             # Compute CIT score for target
+    UPDATE_DASHBOARD = "UPDATE_DASHBOARD"   # Push data to frontend state
+    REQUEST_CLARIFICATION = "REQUEST_CLARIFICATION"  # Ask user for more info
+    NO_ACTION = "NO_ACTION"                 # Just respond, no backend action
 
 
 # --- Data Classes ---
@@ -74,6 +91,9 @@ class FrontendState:
     tentative_strategy: List[Dict] = field(default_factory=list)
     conversations: List[Dict] = field(default_factory=list)
     last_updated: str = ""
+    # New: Dynamic readiness tracking
+    readiness_score: int = 0  # 0-100, updated based on context
+    pending_flags: List[str] = field(default_factory=list)  # Current action flags
 
 
 # --- Entity Extraction Patterns ---
@@ -98,6 +118,169 @@ SOCIAL_PATTERNS = {
         r"([\w.-]+@[\w.-]+\.\w+)",
     ]
 }
+
+
+# --- Flag Parsing Functions ---
+
+def parse_action_flags(text: str) -> List[ActionFlag]:
+    """
+    Parse FLAGS: line from LLM output.
+    
+    Looks for patterns like:
+    - "FLAGS: FETCH_GITHUB, COMPUTE_CIT"
+    - "FLAG: SEARCH_USERS"
+    
+    Args:
+        text: LLM response text
+        
+    Returns:
+        List of ActionFlag enums
+    """
+    pattern = r"FLAGS?:\s*([A-Z_,\s]+)"
+    match = re.search(pattern, text, re.IGNORECASE)
+    if not match:
+        return []
+    
+    flag_str = match.group(1).strip()
+    flag_names = [f.strip().upper() for f in flag_str.split(",")]
+    
+    flags = []
+    for name in flag_names:
+        if not name:
+            continue
+        try:
+            flags.append(ActionFlag[name])
+        except KeyError:
+            print(f"[WARNING] Unknown action flag: {name}")
+    
+    return flags
+
+
+def extract_flag_context(text: str) -> Dict[str, Any]:
+    """
+    Extract contextual data that accompanies flags.
+    
+    Looks for patterns like:
+    - "GITHUB_USER: username"
+    - "SEARCH_GOAL: ML engineers"
+    
+    Args:
+        text: LLM output with context
+        
+    Returns:
+        Dict with extracted context values
+    """
+    context = {}
+    
+    # GitHub username
+    github_match = re.search(r"GITHUB_USER:\s*([a-zA-Z0-9_-]+)", text, re.IGNORECASE)
+    if github_match:
+        context["github_username"] = github_match.group(1)
+    
+    # Search goal
+    goal_match = re.search(r"SEARCH_GOAL:\s*(.+?)(?:\n|$)", text, re.IGNORECASE)
+    if goal_match:
+        context["search_goal"] = goal_match.group(1).strip()
+    
+    # Intent
+    intent_match = re.search(r"INTENT:\s*(\w+)", text, re.IGNORECASE)
+    if intent_match:
+        context["intent"] = intent_match.group(1).lower()
+    
+    return context
+
+
+def analyze_chat_for_actions(chat_history: List[Dict], current_message: str) -> Dict[str, Any]:
+    """
+    Use LLM to analyze the full chat context and determine what actions to take.
+    
+    This is the core agentic decision-making function:
+    - Analyzes the full conversation history + current message
+    - Determines if there's sufficient context to act
+    - Outputs specific flags and extracted entities
+    
+    Args:
+        chat_history: List of chat messages with 'role' and 'content'
+        current_message: The latest user message
+        
+    Returns:
+        Dict with: flags, entities, needs_clarification, clarification_prompt
+    """
+    import google.generativeai as genai
+    from dotenv import load_dotenv
+    import os
+    import json
+    
+    load_dotenv()
+    api_key = os.getenv("GEMINI_API_KEY")
+    
+    if not api_key:
+        print("[LLM_ANALYZE] No API key, using regex fallback")
+        return {"flags": [], "entities": {}, "needs_clarification": False}
+    
+    try:
+        genai.configure(api_key=api_key)
+        model = genai.GenerativeModel("models/gemini-2.0-flash")
+        
+        # Build conversation context (last 10 messages max)
+        context_messages = []
+        for msg in chat_history[-10:]:
+            role = msg.get("role", "user")
+            content = msg.get("content", "")[:500]  # Truncate long messages
+            if role in ["user", "assistant"] and content:
+                context_messages.append(f"{role.upper()}: {content}")
+        
+        conversation_context = "\n".join(context_messages) if context_messages else "No prior context"
+        
+        prompt = f"""Analyze this conversation and determine what action to take.
+
+CONVERSATION HISTORY:
+{conversation_context}
+
+CURRENT MESSAGE:
+{current_message}
+
+AVAILABLE ACTIONS (FLAGS):
+- FETCH_GITHUB: User wants info about a specific GitHub user (needs username)
+- FETCH_SOCIALS: User wants Twitter/LinkedIn data (needs handle)
+- SEARCH_USERS: User wants to discover/find people matching criteria (needs search goal)
+- REQUEST_CLARIFICATION: Not enough info to act, need to ask user
+- NO_ACTION: Just conversational, no backend action needed
+
+INSTRUCTIONS:
+1. Analyze if the user has given EXPLICIT signals for an action (mention of GitHub, name lookup, finding people, etc.)
+2. If a username/name is mentioned, extract it
+3. If context is INSUFFICIENT to act, set needs_clarification=true and provide a clarification_prompt
+4. Be conservative - only set action flags when there's clear intent
+
+Return ONLY valid JSON (no markdown):
+{{
+    "flags": ["FLAG1", "FLAG2"],
+    "entities": {{
+        "github_username": "extracted_username_or_null",
+        "person_name": "extracted_name_or_null", 
+        "search_goal": "what_user_wants_to_find_or_null"
+    }},
+    "needs_clarification": false,
+    "clarification_prompt": "question to ask user if needs_clarification is true",
+    "reasoning": "brief explanation of decision"
+}}"""
+
+        response = model.generate_content(prompt)
+        response_text = response.text.strip()
+        
+        # Clean up response
+        if response_text.startswith("```"):
+            response_text = re.sub(r"```\w*\n?", "", response_text).strip()
+        
+        result = json.loads(response_text)
+        print(f"[LLM_ANALYZE] Flags: {result.get('flags')} | Entities: {result.get('entities')} | Reasoning: {result.get('reasoning', 'N/A')[:50]}")
+        
+        return result
+        
+    except Exception as e:
+        print(f"[LLM_ANALYZE] Error: {e}")
+        return {"flags": [], "entities": {}, "needs_clarification": False}
 
 
 class LogisticMind:
@@ -251,6 +434,149 @@ If no entities found, return: []"""
         except Exception as e:
             print(f"[WARNING] Gemini entity extraction failed: {e}")
             return []
+    
+    
+    def dispatch_actions(self, flags: List[ActionFlag], context: Dict) -> Dict[str, Any]:
+        """
+        Execute actions based on parsed flags.
+        
+        This is the core of the agentic system - it maps flags to function calls
+        and executes them in priority order.
+        
+        Args:
+            flags: List of ActionFlag enums to execute
+            context: Dict with context data (github_username, search_goal, intent, etc.)
+            
+        Returns:
+            Dict with aggregated results from all actions
+        """
+        results = {
+            "flags_executed": [],
+            "profile": None,
+            "cit_score": None,
+            "discovered_users": [],
+            "errors": []
+        }
+        
+        print(f"[DISPATCH] Executing {len(flags)} action(s): {[f.value for f in flags]}")
+        
+        for flag in flags:
+            try:
+                if flag == ActionFlag.FETCH_GITHUB:
+                    username = context.get("github_username")
+                    if username:
+                        print(f"  -> FETCH_GITHUB: {username}")
+                        entity = ExtractedEntity(
+                            entity_type="github",
+                            value=username,
+                            confidence=1.0,
+                            source_message="Flag dispatch"
+                        )
+                        results["profile"] = self.trigger_backend_pipeline(entity)
+                        results["flags_executed"].append("FETCH_GITHUB")
+                    else:
+                        results["errors"].append("FETCH_GITHUB: No username provided")
+                
+                elif flag == ActionFlag.FETCH_SOCIALS:
+                    # Fetch Twitter/LinkedIn if available
+                    print("  -> FETCH_SOCIALS: Fetching social profiles")
+                    twitter = context.get("twitter_handle")
+                    linkedin = context.get("linkedin_id")
+                    
+                    if twitter:
+                        entity = ExtractedEntity("twitter", twitter, 1.0)
+                        self.trigger_backend_pipeline(entity)
+                    if linkedin:
+                        entity = ExtractedEntity("linkedin", linkedin, 1.0)
+                        self.trigger_backend_pipeline(entity)
+                    
+                    results["flags_executed"].append("FETCH_SOCIALS")
+                
+                elif flag == ActionFlag.SEARCH_USERS:
+                    goal = context.get("search_goal", "")
+                    if goal:
+                        print(f"  -> SEARCH_USERS: {goal}")
+                        user_context = context.get("user_context", {})
+                        discovered = self.discover_people(goal, user_context, max_results=5)
+                        results["discovered_users"] = discovered
+                        results["flags_executed"].append("SEARCH_USERS")
+                    else:
+                        results["errors"].append("SEARCH_USERS: No search goal provided")
+                
+                elif flag == ActionFlag.COMPUTE_CIT:
+                    if results.get("profile"):
+                        print("  -> COMPUTE_CIT: Computing score")
+                        intent = context.get("intent", "networking")
+                        user_ctx = context.get("user_context", {"mode": "Student", "skills": []})
+                        cit = self.compute_cit_score(user_ctx, results["profile"], intent)
+                        results["cit_score"] = asdict(cit)
+                        results["flags_executed"].append("COMPUTE_CIT")
+                    else:
+                        results["errors"].append("COMPUTE_CIT: No profile available")
+                
+                elif flag == ActionFlag.UPDATE_DASHBOARD:
+                    profile = results.get("profile")
+                    cit_dict = results.get("cit_score")
+                    if profile and cit_dict:
+                        print("  -> UPDATE_DASHBOARD: Pushing to frontend")
+                        # Reconstruct CITScore from dict
+                        cit = CITScore(
+                            context=cit_dict.get("context", 50),
+                            intent=cit_dict.get("intent", 50),
+                            timing=cit_dict.get("timing", 50),
+                            total=cit_dict.get("total", 50),
+                            execution_state=cit_dict.get("execution_state", "UNKNOWN")
+                        )
+                        focus = profile.get("topics", []) or profile.get("skills", [])[:3]
+                        self.update_frontend_state(
+                            profile, cit,
+                            context.get("intent", "networking"),
+                            focus
+                        )
+                        results["flags_executed"].append("UPDATE_DASHBOARD")
+                
+                elif flag == ActionFlag.REQUEST_CLARIFICATION:
+                    print("  -> REQUEST_CLARIFICATION: Needs more info")
+                    # Inject clarification guidance
+                    self._inject_discovery_guidance(
+                        context.get("intent", "general"),
+                        context.get("user_signals", {})
+                    )
+                    results["flags_executed"].append("REQUEST_CLARIFICATION")
+                
+                elif flag == ActionFlag.NO_ACTION:
+                    print("  -> NO_ACTION: Skipping backend actions")
+                    results["flags_executed"].append("NO_ACTION")
+                    
+            except Exception as e:
+                error_msg = f"{flag.value}: {str(e)}"
+                print(f"  [ERROR] {error_msg}")
+                results["errors"].append(error_msg)
+        
+        # Update readiness score based on results
+        self._update_readiness_score(results)
+        
+        return results
+    
+    
+    def _update_readiness_score(self, action_results: Dict):
+        """
+        Update the readiness score based on action results.
+        Higher score = more ready to take action
+        """
+        score = 0
+        
+        if action_results.get("profile"):
+            score += 40  # Have target profile
+        if action_results.get("cit_score"):
+            cit_total = action_results["cit_score"].get("total", 0)
+            score += int(cit_total * 0.4)  # CIT contributes 40%
+        if action_results.get("discovered_users"):
+            score += 20  # Have discovery results
+        
+        # Update frontend state with new readiness score
+        self.current_state.readiness_score = min(100, score)
+        self.current_state.pending_flags = action_results.get("flags_executed", [])
     
     
     def compute_cit_score(self, 
@@ -655,7 +981,8 @@ Return ONLY a JSON object with this exact format:
         try:
             with open(self.state_file, "w", encoding="utf-8") as f:
                 json.dump(asdict(self.current_state), f, indent=2, ensure_ascii=False)
-            print(f"[OK] Frontend state updated: {self.state_file}")
+            print(f"[FRONTEND_STATE] Updated: {person.get('name')} | CIT: {cit_score.total}/100 | Intent: {intent}")
+            print(f"[FRONTEND_STATE] Focus: {focus_keywords[:5]} | Strategy: {len(self.current_state.tentative_strategy)} steps")
         except Exception as e:
             print(f"[ERROR] Failed to write state file: {e}")
         
@@ -666,18 +993,58 @@ Return ONLY a JSON object with this exact format:
             "active_context.json"
         )
         
+        # Try to load the full unified JSON for detailed context
+        github_username = person.get("github_username", "")
+        detailed_profile = None
+        repositories = []
+        
+        if github_username:
+            unified_json_path = os.path.join(
+                os.path.dirname(self.state_file),
+                "social_profiles",
+                f"{github_username.lower()}_unified.json"
+            )
+            print(f"[CONTEXT] Looking for unified JSON: {unified_json_path}")
+            
+            if os.path.exists(unified_json_path):
+                try:
+                    with open(unified_json_path, 'r', encoding='utf-8') as f:
+                        detailed_profile = json.load(f)
+                    
+                    # Extract repositories with descriptions
+                    github_data = detailed_profile.get("platforms", {}).get("github", {})
+                    repositories = github_data.get("repositories", [])
+                    print(f"[CONTEXT] Loaded {len(repositories)} repositories from unified JSON")
+                except Exception as e:
+                    print(f"[WARNING] Failed to load unified JSON: {e}")
+        
+        # Format repositories for chat context
+        repos_summary = []
+        for repo in repositories[:10]:  # Top 10 repos
+            repos_summary.append({
+                "name": repo.get("name", ""),
+                "description": repo.get("description", "") or "No description",
+                "language": repo.get("language", "Unknown"),
+                "stars": repo.get("stars", 0),
+                "updated": repo.get("updated_at", "")[:10] if repo.get("updated_at") else ""
+            })
+        
         chat_context = {
             "target_profile": {
                 "name": person.get("name", "Unknown"),
                 "role": person.get("role", person.get("bio", "")[:100]),
-                "github_username": person.get("github_username", ""),
+                "github_username": github_username,
                 "twitter_handle": person.get("twitter_handle", ""),
                 "linkedin_id": person.get("linkedin_id", ""),
                 "skills": person.get("skills", [])[:10],
                 "topics": person.get("topics", [])[:10],
                 "last_activity_hours": person.get("last_activity_hours", 999),
                 "recent_activity": person.get("recent_activity", [])[:5],
-                "bio": person.get("bio", "")[:200]
+                "bio": person.get("bio", "")[:500],
+                # NEW: Detailed repository data
+                "repositories": repos_summary,
+                "total_public_repos": detailed_profile.get("platforms", {}).get("github", {}).get("profile", {}).get("public_repos", 0) if detailed_profile else 0,
+                "followers": detailed_profile.get("platforms", {}).get("github", {}).get("profile", {}).get("followers", 0) if detailed_profile else 0,
             },
             "cit_score": asdict(cit_score),
             "intent": intent,
@@ -689,7 +1056,7 @@ Return ONLY a JSON object with this exact format:
         try:
             with open(active_context_file, "w", encoding="utf-8") as f:
                 json.dump(chat_context, f, indent=2, ensure_ascii=False)
-            print(f"[OK] Chat context written: {active_context_file}")
+            print(f"[ACTIVE_CONTEXT] Written for chat: {person.get('name')} | skills={len(person.get('skills', []))} | repos={len(repos_summary)}")
         except Exception as e:
             print(f"[ERROR] Failed to write chat context: {e}")
     

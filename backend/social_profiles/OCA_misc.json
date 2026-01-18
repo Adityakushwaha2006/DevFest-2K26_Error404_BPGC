@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T22:49:37.208022",
+    "target_name": "OCA",
+    "sources_attempted": [
+      "stack_overflow"
+    ],
+    "sources_successful": [
+      "stack_overflow"
+    ]
+  },
+  "stack_overflow": {
+    "platform": "stackoverflow",
+    "user_id": 3434,
+    "profile": {
+      "badge_counts": {
+        "bronze": 158,
+        "silver": 109,
+        "gold": 8
+      },
+      "account_id": 2466,
+      "is_employee": false,
+      "last_modified_date": 1748613000,
+      "last_access_date": 1768678223,
+      "reputation_change_year": 10,
+      "reputation_change_quarter": 10,
+      "reputation_change_month": 10,
+      "reputation_change_week": 0,
+      "reputation_change_day": 0,
+      "reputation": 35096,
+      "creation_date": 1219935982,
+      "user_type": "registered",
+      "user_id": 3434,
+      "accept_rate": 90,
+      "location": "Boston, MA",
+      "website_url": "http://blog.higher-order.com",
+      "link": "https://stackoverflow.com/users/3434/apocalisp",
+      "profile_image": "https://www.gravatar.com/avatar/5a484dc0812eb4542ee718d969513f66?s=256&d=identicon&r=PG",
+      "display_name": "Apocalisp"
+    },
+    "fetch_status": "success",
+    "top_tags": []
+  },
+  "blog": null,
+  "medium": null,
+  "hackernews": null,
+  "expertise_summary": {
+    "top_technologies": [],
+    "expertise_indicators": [
+      "Stack Overflow User"
+    ]
+  },
+  "content_summary": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  }
+}

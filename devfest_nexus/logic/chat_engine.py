@@ -324,8 +324,8 @@ When these are not available, request them before strategizing."""
             })
             self._log_to_file()  # Log immediately so LogisticMind can see it
             
-            # --- PRE-FETCH PROFILE DATA ---
-            # If the message mentions a GitHub profile, fetch data DIRECTLY before responding
+            # --- FLAG-BASED ACTION DISPATCH ---
+            # Use LLM to analyze full chat context and determine actions
             import re
             import time
             import sys
@@ -335,88 +335,95 @@ When these are not available, request them before strategizing."""
             if backend_path not in sys.path:
                 sys.path.insert(0, backend_path)
             
-            # Extract GitHub username from message
-            github_match = re.search(r'github\.com/([a-zA-Z0-9_-]+)', user_message, re.IGNORECASE)
+            print(f"\n{'='*50}")
+            print(f"[CHAT] Processing message: {user_message[:80]}...")
             
-            if github_match:
-                github_username = github_match.group(1)
-                print(f"🚀 Pre-fetching profile for: {github_username}")
-                
+            # Import flag-related modules
+            from logistic_mind import ActionFlag, analyze_chat_for_actions
+            
+            # Use LLM to analyze full conversation context and determine actions
+            print("[LLM] Analyzing chat context for actions...")
+            analysis = analyze_chat_for_actions(self.history, user_message)
+            
+            # Parse LLM analysis results
+            llm_flags = analysis.get("flags", [])
+            entities = analysis.get("entities", {})
+            needs_clarification = analysis.get("needs_clarification", False)
+            clarification_prompt = analysis.get("clarification_prompt", "")
+            
+            print(f"[LLM] Result: flags={llm_flags} entities={entities} needs_clarification={needs_clarification}")
+            
+            # Build action context from LLM-extracted entities
+            action_context = {
+                "github_username": entities.get("github_username"),
+                "person_name": entities.get("person_name"),
+                "search_goal": entities.get("search_goal"),
+                "intent": "networking"
+            }
+            
+            # Also check for GitHub URLs as fallback (very reliable detection)
+            github_match = re.search(r'github\.com/([a-zA-Z0-9_-]+)', user_message, re.IGNORECASE)
+            if github_match and not action_context.get("github_username"):
+                action_context["github_username"] = github_match.group(1)
+                if "FETCH_GITHUB" not in llm_flags:
+                    llm_flags.append("FETCH_GITHUB")
+            
+            # Convert string flags to ActionFlag enums
+            detected_flags = []
+            for flag_name in llm_flags:
                 try:
-                    # Import and run the pipeline directly
-                    from nexus_main import NexusOrchestrator
+                    detected_flags.append(ActionFlag[flag_name])
+                except KeyError:
+                    print(f"[WARNING] Unknown flag from LLM: {flag_name}")
+            
+            # If FETCH_GITHUB is set, also add COMPUTE_CIT and UPDATE_DASHBOARD
+            if ActionFlag.FETCH_GITHUB in detected_flags:
+                if ActionFlag.COMPUTE_CIT not in detected_flags:
+                    detected_flags.append(ActionFlag.COMPUTE_CIT)
+                if ActionFlag.UPDATE_DASHBOARD not in detected_flags:
+                    detected_flags.append(ActionFlag.UPDATE_DASHBOARD)
+            
+            print(f"[FLAGS] Final: {[f.value for f in detected_flags] if detected_flags else 'None'}")
+            
+            # Execute flags through LogisticMind dispatcher if we have actions
+            dispatch_results = None
+            if detected_flags:
+                try:
+                    from logistic_mind import LogisticMind
+                    print("[DISPATCH] Initializing LogisticMind...")
+                    mind = LogisticMind()
+                    dispatch_results = mind.dispatch_actions(detected_flags, action_context)
                     
-                    orchestrator = NexusOrchestrator()
-                    result = orchestrator.process_person(
-                        name=github_username,
-                        github_username=github_username,
-                        auto_discover=False
-                    )
+                    print(f"[DISPATCH] Results: executed={dispatch_results.get('flags_executed')}, errors={dispatch_results.get('errors')}")
                     
-                    if result and result.get("pipeline_status") in ["complete", "partial_success"]:
-                        unified = result.get("unified_profile", {})
-                        
-                        # Extract skills from GitHub repos
-                        skills = []
-                        github_profile = unified.get("platforms", {}).get("github", {})
-                        if github_profile:
-                            repos = github_profile.get("repositories", [])
-                            for repo in repos:
-                                lang = repo.get("language")
-                                if lang and lang not in skills:
-                                    skills.append(lang)
-                            
-                            profile_data = github_profile.get("profile", {})
-                            bio = profile_data.get("bio") or ""
-                            name = profile_data.get("name") or github_username
-                        else:
-                            bio = ""
-                            name = github_username
-                        
-                        # Build target profile for injection
-                        target_profile = {
-                            "name": name,
-                            "github_username": github_username,
-                            "bio": bio[:200],
-                            "skills": skills[:10],
-                            "topics": [],
-                            "recent_activity": [],
-                            "last_activity_hours": 999
-                        }
-                        
-                        # Compute simple CIT score
-                        cit_score = {
-                            "context": 60,
-                            "intent": 50,
-                            "timing": 30,
-                            "total": 47,
-                            "execution_state": "READY" if skills else "CAUTION"
-                        }
-                        
-                        # Inject context if we have real data
-                        if skills or bio:
-                            self.inject_context(cit_score, target_profile, "networking")
-                            print(f"✅ Pre-fetch complete: {name} with skills: {skills}")
-                        else:
-                            print(f"⚠️ Pre-fetch returned no skills/bio for {github_username}")
-                    else:
-                        print(f"⚠️ Pipeline returned status: {result.get('pipeline_status') if result else 'None'}")
+                    # Inject results into context for the chat response
+                    if dispatch_results.get("profile"):
+                        profile = dispatch_results["profile"]
+                        cit = dispatch_results.get("cit_score", {})
+                        print(f"[INJECT] Profile: {profile.get('name', 'Unknown')}, CIT: {cit.get('total', 0)}/100")
+                        self.inject_context(cit, profile, action_context.get("intent", "networking"))
+                        print(f"✅ Flag dispatch complete: {dispatch_results['flags_executed']}")
+                    elif dispatch_results.get("discovered_users"):
+                        # User discovery completed
+                        users = dispatch_results["discovered_users"]
+                        print(f"✅ Discovered {len(users)} users: {[u.get('name', u.get('github_username')) for u in users[:3]]}")
                         
                 except Exception as e:
-                    print(f"⚠️ Pre-fetch failed: {e}")
-                    # Fall back to waiting for LogisticMind
-                    pass
+                    print(f"⚠️ Flag dispatch error: {e}")
+                    import traceback
+                    traceback.print_exc()
+                    # Continue without dispatch results
             
-            # Also check for existing context from LogisticMind (extended wait time)
+            # Also check for existing context from LogisticMind (INCREASED wait time to 30s)
             active_context_path = os.path.join(
                 os.path.dirname(self.log_file_path),
                 "active_context.json"
             )
             
-            # If no context was injected yet, wait for LogisticMind (up to 15 seconds)
+            # If no context was injected yet, wait for LogisticMind
             if not any(msg.get("type") == "context_injection" and msg.get("has_real_data") for msg in self.history[-5:]):
-                print("🔄 Waiting for additional context from LogisticMind...")
-                max_wait = 15
+                print("[WAIT] Waiting for additional context from LogisticMind (30s max)...")
+                max_wait = 30  # INCREASED from 15 to 30 seconds
                 start_time = time.time()
                 initial_mtime = os.path.getmtime(active_context_path) if os.path.exists(active_context_path) else 0
                 
@@ -431,15 +438,19 @@ When these are not available, request them before strategizing."""
                                     cit = context.get('cit_score', {})
                                     intent = context.get('intent', '')
                                     
+                                    print(f"[CONTEXT] Loaded: target={target.get('name')}, CIT={cit.get('total', 0)}")
+                                    
                                     if target.get('skills') or target.get('bio'):
                                         self.inject_context(cit, target, intent)
-                                        print(f"✅ Context from LogisticMind: {target.get('name')}")
+                                        print(f"✅ Context from LogisticMind: {target.get('name')} (CIT: {cit.get('total', 0)}/100)")
                                         break
                             except Exception as e:
                                 print(f"⚠️ Failed to load context: {e}")
                     time.sleep(0.5)
                 else:
-                    print("⏱️ No additional context received")
+                    print("⏱️ No additional context received within 30s")
+            
+            print(f"{'='*50}\n")
             
             # Construct prompt with system context and any injected profile data
             # Check for recent context injection in history
@@ -616,12 +627,24 @@ When these are not available, request them before strategizing."""
             for act in target_profile.get('recent_activity', [])[:3]:
                 recent_activities_str += f"\n  - [{act.get('platform', 'unknown')}] {act.get('content', '')[:60]}..."
             
+            # Format repositories for display
+            repos_str = ""
+            repos = target_profile.get('repositories', [])
+            if repos:
+                repos_str = "\n\nREPOSITORIES (Open Source Contributions):"
+                for repo in repos[:10]:
+                    name = repo.get('name', 'Unknown')
+                    desc = repo.get('description', 'No description')[:80]
+                    lang = repo.get('language', 'Unknown')
+                    stars = repo.get('stars', 0)
+                    repos_str += f"\n  - {name} ({lang}) ★{stars}: {desc}"
+            
             # Build context injection message with REAL data
             context_injection = f"""
 --- REAL-TIME CONTEXT INJECTION (VERIFIED DATA) ---
 Target: {target_profile.get('name', 'Unknown')}
 GitHub Username: {target_profile.get('github_username', 'N/A')}
-Bio: {target_profile.get('bio', 'Not available')[:150]}
+Bio: {target_profile.get('bio', 'Not available')[:300]}
 
 CIT SCORE BREAKDOWN:
 - Context: {cit_score.get('context', 0)}/100 (Skill/interest overlap)
@@ -633,10 +656,13 @@ CIT SCORE BREAKDOWN:
 User's Inferred Intent: {intent}
 
 VERIFIED TECHNOLOGIES/SKILLS: {', '.join(target_profile.get('skills', [])) or 'None detected'}
+Total Public Repos: {target_profile.get('total_public_repos', 'Unknown')}
+Followers: {target_profile.get('followers', 'Unknown')}
 Last Active: {target_profile.get('last_activity_hours', 'Unknown')} hours ago
 Recent Activity:{recent_activities_str or ' None recorded'}
+{repos_str}
 
-IMPORTANT: Use ONLY this verified data when discussing this person.
+IMPORTANT: Use ONLY this verified data when discussing this person. Reference specific repositories when asked about their contributions.
 --- END CONTEXT ---
 """
         else:

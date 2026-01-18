@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T23:20:08.708084",
+    "target_name": "Aditya Kushwaha",
+    "sources_attempted": [
+      "stack_overflow"
+    ],
+    "sources_successful": [
+      "stack_overflow"
+    ]
+  },
+  "stack_overflow": {
+    "platform": "stackoverflow",
+    "user_id": 1724697,
+    "profile": {
+      "badge_counts": {
+        "bronze": 12,
+        "silver": 6,
+        "gold": 0
+      },
+      "account_id": 1910847,
+      "is_employee": false,
+      "last_modified_date": 1740660600,
+      "last_access_date": 1612951461,
+      "reputation_change_year": 0,
+      "reputation_change_quarter": 0,
+      "reputation_change_month": 0,
+      "reputation_change_week": 0,
+      "reputation_change_day": 0,
+      "reputation": 837,
+      "creation_date": 1349507784,
+      "user_type": "registered",
+      "user_id": 1724697,
+      "location": "Munich, Germany",
+      "website_url": "http://www.kushwaha.tech",
+      "link": "https://stackoverflow.com/users/1724697/aditya-kushwaha",
+      "profile_image": "https://i.sstatic.net/Pu1BB.jpg?s=256",
+      "display_name": "Aditya Kushwaha"
+    },
+    "fetch_status": "success",
+    "top_tags": []
+  },
+  "blog": null,
+  "medium": null,
+  "hackernews": null,
+  "expertise_summary": {
+    "top_technologies": [],
+    "expertise_indicators": [
+      "Stack Overflow User"
+    ]
+  },
+  "content_summary": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  }
+}

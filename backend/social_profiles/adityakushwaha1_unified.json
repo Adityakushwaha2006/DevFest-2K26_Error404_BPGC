@@ -1,0 +1,64 @@
+{
+  "name": "adityakushwaha1",
+  "generated_at": "2026-01-18T23:32:57.464759",
+  "identity": {
+    "primary_name": null,
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": []
+  },
+  "platforms": {
+    "github": {
+      "username": "adityakushwaha1",
+      "fetched_at": "2026-01-18T23:32:54.109501",
+      "profile": {
+        "login": "Adityakushwaha1",
+        "blog": "",
+        "public_repos": 1,
+        "public_gists": 0,
+        "followers": 0,
+        "following": 0,
+        "created_at": "2022-07-21T16:49:38Z",
+        "updated_at": "2022-07-22T03:57:04Z"
+      },
+      "repositories": [
+        {
+          "name": "Adityakushwaha1",
+          "description": "Config files for my GitHub profile.",
+          "stars": 0,
+          "forks": 0,
+          "language": null,
+          "updated_at": "2022-07-22T03:57:03Z"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "cross_references": []
+    }
+  },
+  "expertise": {
+    "top_technologies": [],
+    "expertise_indicators": []
+  },
+  "content": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  },
+  "activity_timeline": [],
+  "recency_weighting": {
+    "social": {
+      "github": {}
+    }
+  }
+}

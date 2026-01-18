@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T23:36:21.672886",
+    "pipeline_version": "1.0",
+    "primary_identifier": "chrismccord",
+    "data_sources": [
+      "github_live"
+    ]
+  },
+  "identity": {
+    "primary_name": "Chris McCord",
+    "confidence_score": 0.5,
+    "verified_platforms": [
+      "github"
+    ],
+    "cross_references": [
+      {
+        "platform": "website",
+        "identifier": "chrismccord.com"
+      }
+    ]
+  },
+  "profiles": {
+    "github": {
+      "username": "chrismccord",
+      "fetched_at": "2026-01-18T23:36:21.672931",
+      "profile": {
+        "login": "chrismccord",
+        "name": "Chris McCord",
+        "location": "Charlotte, NC",
+        "blog": "chrismccord.com",
+        "public_repos": 126,
+        "public_gists": 50,
+        "followers": 3608,
+        "following": 32,
+        "created_at": "2011-01-21T16:12:29Z",
+        "updated_at": "2025-10-14T17:34:22Z"
+      },
+      "repositories": [
+        {
+          "name": "fly_deploy",
+          "description": null,
+          "stars": 81,
+          "forks": 3,
+          "language": "Elixir",
+          "updated_at": "2026-01-16T22:09:02Z"
+        },
+        {
+          "name": "syn",
+          "description": "A scalable global Process Registry and Process Group manager for Erlang and Elixir.",
+          "stars": 1,
+          "forks": 1,
+          "language": "Erlang",
+          "updated_at": "2026-01-15T04:45:59Z"
+        },
+        {
+          "name": "webtmux",
+          "description": "Web-based terminal with tmux-specific features",
+          "stars": 92,
+          "forks": 19,
+          "language": "Go",
+          "updated_at": "2026-01-18T14:59:16Z"
+        },
+        {
+          "name": "dev_setup",
+          "description": null,
+          "stars": 5,
+          "forks": 0,
+          "language": "Lua",
+          "updated_at": "2026-01-10T04:07:46Z"
+        },
+        {
+          "name": "litestream",
+          "description": "Streaming replication for SQLite.",
+          "stars": 0,
+          "forks": 0,
+          "language": null,
+          "updated_at": "2026-01-03T23:48:59Z"
+        },
+        {
+          "name": "plug",
+          "description": "A specification and conveniences for composable modules in between web applications",
+          "stars": 2,
+          "forks": 0,
+          "language": "Elixir",
+          "updated_at": "2025-04-25T08:18:23Z"
+        },
+        {
+          "name": "web",
+          "description": null,
+          "stars": 187,
+          "forks": 15,
+          "language": "Go",
+          "updated_at": "2026-01-15T03:57:39Z"
+        },
+        {
+          "name": "reverse_it",
+          "description": null,
+          "stars": 17,
+          "forks": 1,
+          "language": "Elixir",
+          "updated_at": "2026-01-13T03:04:12Z"
+        },
+        {
+          "name": "go-phx-channels",
+          "description": null,
+          "stars": 25,
+          "forks": 2,
+          "language": "Go",
+          "updated_at": "2025-11-14T15:23:29Z"
+        },
+        {
+          "name": "plug_crypto",
+          "description": "Crypto-related functionality for web applications, used by Plug.",
+          "stars": 1,
+          "forks": 0,
+          "language": null,
+          "updated_at": "2025-09-17T06:32:05Z"
+        }
+      ],
+      "recency_metadata": {
+        "weights": {
+          "last_week": 1.0,
+          "last_month": 0.8,
+          "last_3_months": 0.5
+        },
+        "activity_by_recency": {}
+      },
+      "fetch_status": "success",
+      "commits": [],
+      "cross_references": [
+        {
+          "platform": "website",
+          "identifier": "chrismccord.com"
+        }
+      ]
+    }
+  },
+  "activity_timeline": [],
+  "contribution_patterns": {},
+  "engagement_metrics": {
+    "combined": {}
+  },
+  "recency_summary": {
+    "github": {}
+  },
+  "summary": {
+    "name": "Chris McCord",
+    "bio": null,
+    "location": "Charlotte, NC",
+    "company": null,
+    "top_languages": [],
+    "top_repos": []
+  }
+}

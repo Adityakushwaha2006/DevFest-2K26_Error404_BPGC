@@ -1,0 +1,46 @@
+{
+  "target_profile": {
+    "name": "Chris McCord",
+    "role": "",
+    "github_username": "chrismccord",
+    "twitter_handle": "",
+    "linkedin_id": "",
+    "skills": [
+      "Elixir",
+      "Erlang",
+      "Go",
+      "Lua"
+    ],
+    "topics": [],
+    "last_activity_hours": 999,
+    "recent_activity": [],
+    "bio": "",
+    "repositories": [],
+    "total_public_repos": 0,
+    "followers": 0
+  },
+  "cit_score": {
+    "context": 40,
+    "intent": 50,
+    "timing": 10,
+    "total": 34,
+    "execution_state": "ABORT"
+  },
+  "intent": "networking",
+  "focus_keywords": [
+    "Elixir",
+    "Erlang",
+    "Go"
+  ],
+  "strategy": [
+    {
+      "date": "WATCHLIST",
+      "action": "Monitor for activity signals"
+    },
+    {
+      "date": "TBD",
+      "action": "Revisit when timing improves"
+    }
+  ],
+  "timestamp": "2026-01-18T23:36:27.554056"
+}

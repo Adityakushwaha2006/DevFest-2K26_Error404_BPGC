@@ -1,0 +1,24 @@
+{
+  "name": "his github repo",
+  "generated_at": "2026-01-18T23:02:43.095622",
+  "identity": {
+    "primary_name": null,
+    "confidence_score": 0.5,
+    "verified_platforms": [],
+    "cross_references": []
+  },
+  "platforms": {},
+  "expertise": {
+    "top_technologies": [],
+    "expertise_indicators": []
+  },
+  "content": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  },
+  "activity_timeline": [],
+  "recency_weighting": {
+    "social": {}
+  }
+}

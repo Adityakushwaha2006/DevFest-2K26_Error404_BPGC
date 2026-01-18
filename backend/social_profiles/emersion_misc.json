@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "generated_at": "2026-01-18T23:30:57.126958",
+    "target_name": "emersion",
+    "sources_attempted": [
+      "stack_overflow"
+    ],
+    "sources_successful": [
+      "stack_overflow"
+    ]
+  },
+  "stack_overflow": {
+    "platform": "stackoverflow",
+    "user_id": 3567989,
+    "profile": {
+      "badge_counts": {
+        "bronze": 11,
+        "silver": 5,
+        "gold": 0
+      },
+      "account_id": 4374652,
+      "is_employee": false,
+      "last_modified_date": 1611086228,
+      "last_access_date": 1768561178,
+      "reputation_change_year": 0,
+      "reputation_change_quarter": 0,
+      "reputation_change_month": 0,
+      "reputation_change_week": 0,
+      "reputation_change_day": 0,
+      "reputation": 453,
+      "creation_date": 1398329361,
+      "user_type": "registered",
+      "user_id": 3567989,
+      "website_url": "http://emersion.fr",
+      "link": "https://stackoverflow.com/users/3567989/emersion",
+      "profile_image": "https://www.gravatar.com/avatar/1ce071dd3264c7d9f5d9c0b7137faa6b?s=256&d=identicon&r=PG",
+      "display_name": "emersion"
+    },
+    "fetch_status": "success",
+    "top_tags": []
+  },
+  "blog": null,
+  "medium": null,
+  "hackernews": null,
+  "expertise_summary": {
+    "top_technologies": [],
+    "expertise_indicators": [
+      "Stack Overflow User"
+    ]
+  },
+  "content_summary": {
+    "total_blog_posts": 0,
+    "total_so_answers": 0,
+    "total_hn_submissions": 0
+  }
+}
