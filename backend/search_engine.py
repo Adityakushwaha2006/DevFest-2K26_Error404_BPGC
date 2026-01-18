@@ -52,7 +52,7 @@ class GitHubSearchEngine:
             # Find ML researchers
             search_users("machine learning research", min_followers=50)
         """
-        # Build search query
+        # Build search query - use spaces, requests lib handles encoding
         search_parts = [query]
         
         if location:
@@ -67,7 +67,7 @@ class GitHubSearchEngine:
         if min_repos > 0:
             search_parts.append(f"repos:>={min_repos}")
         
-        search_query = "+".join(search_parts)
+        search_query = " ".join(search_parts)  # Use spaces, not +
         
         # Make API request
         url = f"{self.base_url}/search/users"

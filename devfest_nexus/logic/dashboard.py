@@ -182,18 +182,48 @@ def render_dashboard():
                 with open(active_context_file, "r", encoding="utf-8") as f:
                     context_data = json.load(f)
                 
-                # Extract components from context
-                target_profile = context_data.get("target_profile", {})
-                cit_score = context_data.get("cit_score", {})
-                intent = context_data.get("intent", "networking")
-                
-                # Call inject_context on chat engine
-                st.session_state.chat_engine.inject_context(
-                    cit_score=cit_score,
-                    target_profile=target_profile,
-                    intent=intent
-                )
-                print(f"✅ Context injected into chat: {target_profile.get('name', 'Unknown')}")
+                # Check if this is discovery mode needing clarification
+                if context_data.get("discovery_mode") and context_data.get("needs_clarification"):
+                    # Inject discovery guidance into chat
+                    discovery_context = {
+                        "discovery_mode": True,
+                        "user_intent": context_data.get("user_intent", "general"),
+                        "extracted_signals": context_data.get("extracted_signals", {}),
+                        "suggested_questions": context_data.get("suggested_questions", []),
+                        "signal_confirmations": context_data.get("signal_confirmations", []),
+                        "guidance": context_data.get("guidance", "")
+                    }
+                    
+                    # Build clarification message for chat engine
+                    clarification_context = f"""[DISCOVERY MODE ACTIVE]
+The user wants to discover people to connect with but hasn't provided enough context.
+
+User's vague intent: {discovery_context['user_intent']}
+Detected context: {discovery_context.get('extracted_signals', {})}
+
+Your task: Ask 1-2 clarifying questions NATURALLY (don't list them robotically).
+Suggested questions: {discovery_context['suggested_questions']}
+{f"Also mention: {discovery_context['signal_confirmations'][0]}" if discovery_context.get('signal_confirmations') else ""}
+
+DO NOT run a search yet. The backend will search once the user provides more specifics."""
+                    
+                    # Inject into chat context
+                    if hasattr(st.session_state.chat_engine, 'context_data'):
+                        st.session_state.chat_engine.context_data = clarification_context
+                    print(f"✅ Discovery guidance injected into chat")
+                else:
+                    # Standard target profile injection
+                    target_profile = context_data.get("target_profile", {})
+                    cit_score = context_data.get("cit_score", {})
+                    intent = context_data.get("intent", "networking")
+                    
+                    # Call inject_context on chat engine
+                    st.session_state.chat_engine.inject_context(
+                        cit_score=cit_score,
+                        target_profile=target_profile,
+                        intent=intent
+                    )
+                    print(f"✅ Context injected into chat: {target_profile.get('name', 'Unknown')}")
     except Exception as e:
         print(f"⚠️ Context injection error: {e}")
     

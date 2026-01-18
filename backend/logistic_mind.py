@@ -136,6 +136,10 @@ class LogisticMind:
         self.current_state = FrontendState()
         self.detected_persons: Dict[str, Dict] = {}  # person_id -> data
         
+        # Active target tracking for real-time updates
+        self.active_target: Optional[Dict] = None  # {github_username, last_fetched, old_profile}
+        self.REFRESH_INTERVAL_HOURS = 6  # Re-scrape if profile is older than this
+        
         # Initialize Gemini for entity extraction and scoring
         api_key = os.getenv("GEMINI_API_KEY")
         if api_key and api_key != "your_gemini_api_key_here":
@@ -178,19 +182,19 @@ class LogisticMind:
     
     def extract_entities_gemini(self, text: str, conversation_context: str = "") -> List[ExtractedEntity]:
         """
-        Use Gemini to extract person names and implicit references.
+        Use Gemini to extract person names, discovery intents, and implicit references.
         
         Args:
             text: Current message
             conversation_context: Recent conversation history
             
         Returns:
-            List of extracted entities including inferred person names
+            List of extracted entities including inferred person names and discovery intents
         """
         if not self.gemini_enabled:
             return []
         
-        prompt = f"""Analyze this message and extract any person references.
+        prompt = f"""Analyze this message and extract entities.
 
 MESSAGE: {text}
 
@@ -200,9 +204,26 @@ Extract:
 1. Any explicitly mentioned person names
 2. Any social platform usernames (GitHub, Twitter, LinkedIn)
 3. Any implied person references ("that engineer", "my friend at Google")
+4. DISCOVERY INTENT - Distinguish between SPECIFIC and VAGUE:
+
+   SPECIFIC discovery_intent (ready to search):
+   - "find me mentors in ML" → discovery_intent: "ML mentors"
+   - "suggest blockchain engineers" → discovery_intent: "blockchain engineers"
+   - "who works on AI at Google" → discovery_intent: "AI engineers Google"
+   
+   VAGUE discovery_needs_context (needs more info):
+   - "I don't know who to contact" → discovery_needs_context: "general"
+   - "who should I talk to?" → discovery_needs_context: "unknown"
+   - "help me find someone" → discovery_needs_context: "unspecified"
+   - "I need to network" → discovery_needs_context: "networking"
+
+5. USER CONTEXT SIGNALS from conversation (if any):
+   - College/university mentions → user_context: "college:BITS Pilani"
+   - Skills mentioned → user_context: "skills:Python,ML"
+   - Goals → user_context: "goal:mentorship"
 
 Return JSON array only:
-[{{"type": "person_name|github|twitter|linkedin", "value": "extracted_value", "confidence": 0.0-1.0}}]
+[{{"type": "person_name|github|twitter|linkedin|discovery_intent|discovery_needs_context|user_context", "value": "extracted_value", "confidence": 0.0-1.0}}]
 
 If no entities found, return: []"""
 
@@ -412,6 +433,137 @@ Return ONLY a JSON object with this exact format:
             return None
     
     
+    def discover_profiles_from_name(self, name: str, context: str = "") -> List[ExtractedEntity]:
+        """
+        Use Google Search to discover social profiles from a person's name.
+        
+        Args:
+            name: Person's name (e.g., "Aditya Melinkeri")
+            context: Additional context (company, role)
+            
+        Returns:
+            List of ExtractedEntity objects for discovered profiles
+        """
+        print(f"🔍 Searching for profiles: {name}")
+        
+        try:
+            from nexus_search import get_search_engine
+            
+            search_engine = get_search_engine()
+            result = search_engine.discover_profiles(name, context)
+            
+            entities = []
+            
+            if result.get("search_status") in ["success", "mock"]:
+                discovered = result.get("discovered_profiles", {})
+                
+                for platform, profile_data in discovered.items():
+                    # Only use high-confidence matches
+                    confidence = profile_data.get("confidence", 0.5)
+                    if platform in ["github", "twitter", "linkedin"] and confidence >= 0.5:
+                        identifier = profile_data.get("identifier", "")
+                        if identifier:
+                            entities.append(ExtractedEntity(
+                                entity_type=platform,
+                                value=identifier,
+                                confidence=confidence,
+                                source_message=f"Discovered via search for '{name}'"
+                            ))
+                            print(f"   ✅ Discovered {platform}: {identifier} (confidence: {confidence:.0%})")
+                
+                if not entities:
+                    print(f"   ⚠️ No high-confidence profiles found for: {name}")
+            else:
+                print(f"   ❌ Search failed: {result.get('error', 'Unknown error')}")
+            
+            return entities
+            
+        except ImportError as e:
+            print(f"⚠️ Could not import search engine: {e}")
+            return []
+        except Exception as e:
+            print(f"❌ Profile discovery error: {e}")
+            return []
+    
+    
+    def discover_people(self, goal: str, user_context: Dict, max_results: int = 5) -> List[Dict]:
+        """
+        Discover people based on user's goal/keywords using GitHub Search.
+        
+        Args:
+            goal: What user is looking for (e.g., "ML mentors", "blockchain experts")
+            user_context: User's mode, skills, intent
+            max_results: Maximum number of people to return
+            
+        Returns:
+            List of discovered people with basic profiles
+        """
+        print(f"\n🔎 Discovery Mode: Finding people for '{goal}'")
+        
+        try:
+            from search_engine import GitHubSearchEngine
+            
+            github_search = GitHubSearchEngine()
+            
+            # Build search keywords from goal + user context
+            keywords = goal
+            user_mode = user_context.get('mode', 'Student')
+            user_skills = user_context.get('skills', [])
+            
+            # Add relevant language filter based on user skills
+            language = None
+            for skill in user_skills:
+                if skill.lower() in ['python', 'javascript', 'java', 'go', 'rust', 'c++']:
+                    language = skill
+                    break
+            
+            print(f"   Keywords: {keywords}")
+            print(f"   User mode: {user_mode}")
+            if language:
+                print(f"   Language filter: {language}")
+            
+            # Search GitHub users
+            results = github_search.search_users(
+                query=keywords,
+                language=language,
+                min_followers=10,  # Lower threshold for better results
+                min_repos=3,
+                max_results=max_results * 2  # Get more to filter
+            )
+            
+            if not results:
+                print(f"   ⚠️ No GitHub users found for: {keywords}")
+                return []
+            
+            print(f"   Found {len(results)} potential matches")
+            
+            # Convert to our format - search_users returns 'username' not 'login'
+            people = []
+            for user in results[:max_results]:
+                username = user.get("username", "")  # GitHubSearchEngine returns 'username'
+                people.append({
+                    "name": username,  # Will be replaced by real name from profile
+                    "github_username": username,
+                    "bio": "",  # Not available from search API
+                    "role": "",
+                    "location": "",
+                    "profile_url": user.get("profile_url", ""),
+                    "avatar_url": user.get("avatar_url", ""),
+                    "discovery_source": "github_search",
+                    "discovery_goal": goal
+                })
+                print(f"   → {username}")
+            
+            return people
+            
+        except ImportError as e:
+            print(f"⚠️ Could not import GitHub search: {e}")
+            return []
+        except Exception as e:
+            print(f"❌ Discovery error: {e}")
+            return []
+    
+    
     def update_frontend_state(self, 
                                person: Dict,
                                cit_score: CITScore,
@@ -540,6 +692,182 @@ Return ONLY a JSON object with this exact format:
         return 168  # Default to 1 week if can't parse
     
     
+    def _inject_discovery_guidance(self, intent_value: str, user_signals: Dict):
+        """
+        Write discovery clarification guidance to active_context.json.
+        NEXUS chat will read this and ask clarifying questions.
+        
+        Args:
+            intent_value: What user wants (e.g., "general", "unknown")
+            user_signals: Extracted context like {college: "BITS Pilani", skills: "Python"}
+        """
+        active_context_file = os.path.join(
+            os.path.dirname(self.state_file), 
+            "active_context.json"
+        )
+        
+        # Build suggested questions based on available signals
+        questions = []
+        if not user_signals.get("goal"):
+            questions.append("What's your goal? (mentorship, job opportunities, collaboration)")
+        if not user_signals.get("industry"):
+            questions.append("What field or industry are you interested in?")
+        if not user_signals.get("skills"):
+            questions.append("What are your main skills or areas of expertise?")
+        
+        # Build confirmation prompt for detected signals
+        confirmations = []
+        if user_signals.get("college"):
+            confirmations.append(f"I noticed you mentioned {user_signals['college']} - should I prioritize alumni connections?")
+        if user_signals.get("skills"):
+            confirmations.append(f"Should I search for people with similar skills in {user_signals['skills']}?")
+        
+        discovery_context = {
+            "discovery_mode": True,
+            "needs_clarification": True,
+            "user_intent": intent_value,
+            "extracted_signals": user_signals,
+            "suggested_questions": questions[:2],  # Limit to 2 questions
+            "signal_confirmations": confirmations[:1],  # Limit to 1 confirmation
+            "guidance": "User wants to discover people but needs more context. Ask clarifying questions naturally.",
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        try:
+            with open(active_context_file, "w", encoding="utf-8") as f:
+                json.dump(discovery_context, f, indent=2, ensure_ascii=False)
+            print(f"✅ Discovery guidance written: {active_context_file}")
+        except Exception as e:
+            print(f"❌ Failed to write discovery guidance: {e}")
+    
+    
+    def _check_profile_refresh(self):
+        """
+        Check if active target's profile needs refresh (>6 hours old).
+        If changes detected, inject update into chat. Silent if no changes.
+        """
+        if not self.active_target:
+            return
+        
+        now = datetime.now()
+        last_fetched_str = self.active_target.get("last_fetched")
+        
+        if not last_fetched_str:
+            return
+        
+        try:
+            last_fetched = datetime.fromisoformat(last_fetched_str)
+            hours_since = (now - last_fetched).total_seconds() / 3600
+            
+            if hours_since < self.REFRESH_INTERVAL_HOURS:
+                return  # Not stale yet
+            
+            print(f"\n🔄 Profile refresh check: {self.active_target.get('github_username')} ({hours_since:.1f}h old)")
+            
+            # Re-run pipeline
+            github_username = self.active_target.get("github_username")
+            if not github_username:
+                return
+            
+            entity = ExtractedEntity(
+                entity_type="github",
+                value=github_username,
+                confidence=1.0,
+                source_message="Profile refresh"
+            )
+            
+            new_profile = self.trigger_backend_pipeline(entity)
+            
+            if not new_profile:
+                print(f"   ⚠️ Refresh failed for {github_username}")
+                return
+            
+            # Compare with old profile
+            old_profile = self.active_target.get("old_profile", {})
+            has_changes, changes = self._has_profile_changed(old_profile, new_profile)
+            
+            if has_changes:
+                print(f"   ✅ Changes detected: {changes}")
+                self._inject_profile_update(changes, new_profile)
+                
+                # Update tracking
+                self.active_target["old_profile"] = new_profile
+                self.active_target["last_fetched"] = now.isoformat()
+            else:
+                print(f"   → No changes (silent)")
+                # Just update timestamp
+                self.active_target["last_fetched"] = now.isoformat()
+                
+        except Exception as e:
+            print(f"⚠️ Profile refresh error: {e}")
+    
+    
+    def _has_profile_changed(self, old: Dict, new: Dict) -> tuple:
+        """
+        Compare old and new profiles to detect meaningful changes.
+        
+        Returns:
+            (has_changes: bool, changes: List[str])
+        """
+        changes = []
+        
+        # Check recent activity (most important)
+        old_timeline = old.get("activity_timeline", [])
+        new_timeline = new.get("activity_timeline", [])
+        
+        if new_timeline and len(new_timeline) > len(old_timeline):
+            # New activity items
+            new_activity = new_timeline[0] if new_timeline else {}
+            activity_type = new_activity.get("type", "activity")
+            activity_desc = new_activity.get("description", "new activity")[:50]
+            changes.append(f"new_{activity_type}: {activity_desc}")
+        
+        # Check repo count
+        old_repos = old.get("public_repos", 0) or old.get("github_stats", {}).get("total_repos", 0)
+        new_repos = new.get("public_repos", 0) or new.get("github_stats", {}).get("total_repos", 0)
+        if new_repos > old_repos:
+            changes.append(f"new_repos: +{new_repos - old_repos}")
+        
+        # Check followers
+        old_followers = old.get("followers", 0) or old.get("github_stats", {}).get("followers", 0)
+        new_followers = new.get("followers", 0) or new.get("github_stats", {}).get("followers", 0)
+        if new_followers > old_followers + 5:  # Threshold to avoid noise
+            changes.append(f"followers: +{new_followers - old_followers}")
+        
+        return (len(changes) > 0, changes)
+    
+    
+    def _inject_profile_update(self, changes: List[str], new_profile: Dict):
+        """
+        Inject profile update notification into chat context.
+        Only called when changes are detected.
+        """
+        active_context_file = os.path.join(
+            os.path.dirname(self.state_file), 
+            "active_context.json"
+        )
+        
+        # Build human-readable summary
+        change_summary = ", ".join(changes[:3])  # Limit to 3 changes
+        person_name = new_profile.get("name", "Target")
+        
+        update_context = {
+            "profile_update": True,
+            "target_name": person_name,
+            "changes": changes,
+            "summary": f"New activity from {person_name}: {change_summary}",
+            "guidance": f"Mention this update naturally in conversation. The user might want to reference this recent activity in their outreach.",
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        try:
+            with open(active_context_file, "w", encoding="utf-8") as f:
+                json.dump(update_context, f, indent=2, ensure_ascii=False)
+            print(f"✅ Profile update injected: {change_summary}")
+        except Exception as e:
+            print(f"❌ Failed to write profile update: {e}")
+    
+    
     def _generate_strategy(self, cit_score: CITScore) -> List[Dict]:
         """Generate tentative strategy based on CIT score"""
         from datetime import timedelta
@@ -641,6 +969,9 @@ Return ONLY a JSON object with this exact format:
         Returns:
             True if new entities were processed
         """
+        # Check if active target needs refresh (>6 hours old)
+        self._check_profile_refresh()
+        
         result = self.get_latest_chat_log()
         if not result:
             return False
@@ -657,8 +988,33 @@ Return ONLY a JSON object with this exact format:
         for entity in entities:
             print(f"  → {entity.entity_type}: {entity.value} (confidence: {entity.confidence})")
             
+            # Handle person_name entities - discover their profiles via Google Search
+            if entity.entity_type == "person_name":
+                print(f"  🔍 Person name detected, searching for profiles...")
+                discovered_entities = self.discover_profiles_from_name(entity.value)
+                
+                if discovered_entities:
+                    # Use the discovered entities instead
+                    for discovered in discovered_entities:
+                        print(f"     → Discovered {discovered.entity_type}: {discovered.value}")
+                        
+                        # Trigger pipeline for discovered profile
+                        profile = self.trigger_backend_pipeline(discovered)
+                        if profile:
+                            intent = self.infer_intent(chat_log.get("messages", []))
+                            user_context = {
+                                "skills": profile.get("user_skills", []),
+                                "mode": profile.get("user_mode", "Student")
+                            }
+                            cit_score = self.compute_cit_score(user_context, profile, intent)
+                            focus = profile.get("topics", []) or profile.get("skills", [])[:3]
+                            self.update_frontend_state(profile, cit_score, intent, focus)
+                            break  # Use first successful discovery
+                else:
+                    print(f"  ⚠️ Could not discover profiles for: {entity.value}")
+            
             # Only trigger pipeline for high-confidence social links
-            if entity.entity_type in ["github", "twitter", "linkedin"] and entity.confidence >= 0.8:
+            elif entity.entity_type in ["github", "twitter", "linkedin"] and entity.confidence >= 0.8:
                 profile = self.trigger_backend_pipeline(entity)
                 
                 if profile:
@@ -677,6 +1033,75 @@ Return ONLY a JSON object with this exact format:
                     
                     # Update frontend state
                     self.update_frontend_state(profile, cit_score, intent, focus)
+                    
+                    # Track as active target for real-time updates
+                    if entity.entity_type == "github":
+                        self.active_target = {
+                            "github_username": entity.value,
+                            "last_fetched": datetime.now().isoformat(),
+                            "old_profile": profile
+                        }
+                        print(f"  📌 Tracking active target: {entity.value}")
+            
+            # Handle discovery_intent - find people based on goals
+            elif entity.entity_type == "discovery_intent":
+                print(f"  🔎 Discovery intent detected: {entity.value}")
+                
+                # Build user context from conversation
+                user_context = {
+                    "skills": [],  # Could extract from user profile
+                    "mode": "Student"  # Default, ideally from session
+                }
+                
+                # Discover people matching the goal
+                discovered_people = self.discover_people(entity.value, user_context, max_results=5)
+                
+                if discovered_people:
+                    print(f"  ✅ Found {len(discovered_people)} people matching '{entity.value}'")
+                    
+                    # Process first discovered person through full pipeline
+                    for person in discovered_people[:1]:  # Start with top match
+                        github_entity = ExtractedEntity(
+                            entity_type="github",
+                            value=person.get("github_username", ""),
+                            confidence=0.9,
+                            source_message=f"Discovered for: {entity.value}"
+                        )
+                        
+                        profile = self.trigger_backend_pipeline(github_entity)
+                        if profile:
+                            # Add discovery metadata
+                            profile["discovery_goal"] = entity.value
+                            profile["discovery_results"] = discovered_people
+                            
+                            intent = self.infer_intent(chat_log.get("messages", []))
+                            cit_score = self.compute_cit_score(user_context, profile, intent)
+                            focus = [entity.value] + profile.get("skills", [])[:2]
+                            self.update_frontend_state(profile, cit_score, intent, focus)
+                else:
+                    print(f"  ⚠️ No people found for: {entity.value}")
+            
+            # Handle vague discovery - needs clarification, don't search yet
+            elif entity.entity_type == "discovery_needs_context":
+                print(f"  💬 Vague discovery intent: {entity.value}")
+                print(f"     → Injecting clarification guidance into chat context")
+                
+                # Collect any user context signals from this extraction
+                user_signals = {}
+                for e in entities:
+                    if e.entity_type == "user_context":
+                        # Parse "college:BITS Pilani" format
+                        if ":" in e.value:
+                            key, val = e.value.split(":", 1)
+                            user_signals[key.strip()] = val.strip()
+                
+                # Write discovery guidance to active_context.json
+                self._inject_discovery_guidance(entity.value, user_signals)
+            
+            # Handle user_context signals - store for future use
+            elif entity.entity_type == "user_context":
+                print(f"  📝 User context signal: {entity.value}")
+                # These are already processed above in discovery_needs_context handler
         
         return True
     
