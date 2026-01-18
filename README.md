@@ -1,8 +1,12 @@
 <a id="the-pitch"></a>
 <p align="center">
+  <a href="https://nexus-devfest-2k26.streamlit.app"><img src="https://img.shields.io/badge/🚀_Live_Demo-NEXUS-FF6F00?style=for-the-badge" /></a>
+  <br/>
   <img src="https://img.shields.io/badge/DevFest-5.0-FF6F00?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Team-Error404-blue?style=for-the-badge" />
   <img src="https://img.shields.io/badge/BITS-Pilani_Goa-green?style=for-the-badge" />
+
+ 
   <img src=".\additional_assets\logo_banner.png" alt="NEXUS" style="border-radius: 40px 40px 40px 40px;"  />
   <img src=".\additional_assets\image.png" alt="NEXUS" style="border-radius: 40px 40px 0 0;" />
   <img src=".\additional_assets\image copy.png" alt="NEXUS" />
@@ -151,13 +155,13 @@ flowchart LR
 
 <br/>
 
-| Activity Observed | Psychological State | System Response |
-|:-----------------:|:-------------------:|:---------------:|
-| Coding at 2 AM | Flow State — focused, open to tech talk | **+15 to score** |
-| Just shipped a launch | Ego High — inbox flooded | **Wait 72 hours** |
-| Friday 6 PM | Dead Zone — checked out for weekend | **-40 to score** |
-| Tuesday 3 PM | Dopamine Window — open to serendipity | **+10 to score** |
-| Ranting on Twitter | High Cortisol — defensive | **ABORT** |
+|   Activity Observed   |           Psychological State           |  System Response  |
+| :-------------------: | :-------------------------------------: | :---------------: |
+|    Coding at 2 AM     | Flow State — focused, open to tech talk | **+15 to score**  |
+| Just shipped a launch |        Ego High — inbox flooded         | **Wait 72 hours** |
+|      Friday 6 PM      |   Dead Zone — checked out for weekend   | **-40 to score**  |
+|     Tuesday 3 PM      |  Dopamine Window — open to serendipity  | **+10 to score**  |
+|  Ranting on Twitter   |        High Cortisol — defensive        |     **ABORT**     |
 
 <br/>
 
@@ -201,6 +205,17 @@ sequenceDiagram
 ---
 
 # DEMO OPERATIONS : SEE NEXUS IN OPERATION 
+
+> **📌 Note on Data Sources:**
+> 
+> Some platform data is **simulated** in this demo due to API restrictions:
+> - **LinkedIn**: Scraping violates Terms of Service
+> - **Twitter/X**: API access requires paid enterprise subscription
+> - **GitHub**: Fully functional with live API
+>
+> For platforms where live data isn't accessible, we use GitHub profile data to simulate corresponding LinkedIn/Twitter information. This demonstrates that **multi-source data compilation and identity verification works as designed**.
+>
+> In a production deployment with funding, paid API access would enable full real-time data retrieval across all platforms. 
 
   <img src=".\additional_assets\demo\image copy 8.png" alt="NEXUS" style="border-radius: 40px" />
   <br/>
