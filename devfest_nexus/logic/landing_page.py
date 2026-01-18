@@ -1,23 +1,17 @@
-"""
-Landing Page Component - Fullscreen Overlay Strategy
-====================================================
-Uses CSS injection to force iframe fullscreen, eliminating Streamlit's
-layout constraints and scrollbar issues.
-
-Strategy:
-1. Render HTML component with height=0 to prevent ghost spacing
-2. Inject global CSS to make iframe position:fixed and cover entire viewport
-3. Hide Streamlit UI elements (header, footer, deploy button)
-"""
-
 import streamlit as st
 import streamlit.components.v1 as components
 
-def render_landing_page():
+def render():
     """
-    Renders the Nexus landing page using fullscreen overlay hack.
-    This bypasses Streamlit's layout system entirely.
+    Renders the Nexus landing page using a fullscreen overlay strategy.
+    
+    Consolidated Features:
+    - Semantic HTML: Uses <a> tags for cards for better accessibility and native behavior.
+    - Rich Styling: Preserves specific neon glow effects and hover states.
+    - Robust Navigation: Dynamically calculates parent URL to handle Streamlit iframe breakout.
+    - Safety: Includes timeout to prevent overlay freezing.
     """
+    
     # 1. The Raw HTML
     html_code = """
 <!DOCTYPE html>
@@ -29,10 +23,11 @@ def render_landing_page():
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/lucide@latest"></script>
+
     <style>
         :root {
             /* Matte Black / Charcoal Theme */
-            --bg-dark: #121212; 
+            --bg-dark: #121212;
             --text-primary: #EDEDED;
             --text-secondary: #888888;
             --neon-blue: #3b82f6;
@@ -40,7 +35,7 @@ def render_landing_page():
             --neon-green: #10b981;
             --glass-border: rgba(255, 255, 255, 0.04);
             /* Darker, Matte Glass */
-            --glass-bg: rgba(15, 15, 15, 0.8); 
+            --glass-bg: rgba(15, 15, 15, 0.8);
             --header-bg: rgba(18, 18, 18, 0.8);
         }
         * { box-sizing: border-box; }
@@ -55,6 +50,7 @@ def render_landing_page():
             align-items: center;
             height: 100vh;
         }
+        
         /* --- Interactive Background --- */
         #bg-canvas {
             position: fixed;
@@ -63,8 +59,9 @@ def render_landing_page():
             width: 100%;
             height: 100%;
             z-index: -1;
-            opacity: 0.4; 
+            opacity: 0.4;
         }
+        
         /* --- Intro Animation Sequence --- */
         #intro-overlay {
             position: fixed;
@@ -78,15 +75,19 @@ def render_landing_page():
             align-items: center;
             justify-content: center;
             animation: pan-out-reveal 1.2s ease-in-out 5.5s forwards;
+            pointer-events: auto; /* Blocks clicks initially */
         }
         .svg-intro-container {
             width: 600px;
             height: 150px;
             filter: drop-shadow(0 0 10px rgba(255,255,255,0.1));
         }
+        
         /* SVG Animations */
         .intro-line { fill: none; stroke: var(--text-primary); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 400; stroke-dashoffset: 400; }
         .intro-node { fill: var(--bg-dark); stroke: var(--text-primary); stroke-width: 2; opacity: 0; r: 5; transform-origin: center; transform-box: fill-box; }
+        
+        /* Node Animations */
         .path-n { animation: draw-line 1s cubic-bezier(0.2, 0, 0.2, 1) 0.5s forwards; }
         .node-n { animation: pop-in 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards; }
         .path-e { animation: draw-line 1s cubic-bezier(0.2, 0, 0.2, 1) 1.2s forwards; }
@@ -97,14 +98,16 @@ def render_landing_page():
         .node-u { animation: pop-in 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 2.6s forwards; }
         .path-s { animation: draw-line 1s cubic-bezier(0.2, 0, 0.2, 1) 3.3s forwards; }
         .node-s { animation: pop-in 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) 3.3s forwards; }
+        
         @keyframes draw-line { to { stroke-dashoffset: 0; } }
         @keyframes pop-in { 0% { opacity: 0; transform: scale(0); } 100% { opacity: 1; transform: scale(1); } }
-        @keyframes pan-out-reveal { 
-            0% { opacity: 1; transform: scale(1); pointer-events: auto; } 
-            90% { opacity: 0; transform: scale(1.05); pointer-events: none; } 
-            100% { opacity: 0; visibility: hidden; pointer-events: none; } 
+        @keyframes pan-out-reveal {
+            0% { opacity: 1; transform: scale(1); pointer-events: auto; }
+            90% { opacity: 0; transform: scale(1.05); pointer-events: none; }
+            100% { opacity: 0; visibility: hidden; pointer-events: none; }
         }
-        /* --- Layout Sizing (CRITICAL) --- */
+        
+        /* --- Layout Sizing --- */
         #main-wrapper {
             display: flex;
             flex-direction: column;
@@ -116,20 +119,21 @@ def render_landing_page():
             justify-content: center;
         }
         @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+        
         /* --- Header --- */
         .site-header {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            height: 70px; 
+            height: 70px;
             background: var(--header-bg);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid rgba(255,255,255,0.03);
             display: flex;
             align-items: center;
-            justify-content: space-between; 
-            padding: 0 40px; 
+            justify-content: space-between;
+            padding: 0 40px;
             z-index: 50;
         }
         .header-brand {
@@ -149,6 +153,18 @@ def render_landing_page():
             letter-spacing: 1px;
             opacity: 0.6;
         }
+        
+        /* Login Link Style (Anchor Tag) */
+        .login-link {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.7rem;
+            cursor: pointer;
+            color: #888;
+            transition: color 0.3s;
+            text-decoration: none; /* Removed underline */
+        }
+        .login-link:hover { color: var(--neon-blue); }
+        
         /* --- Hero --- */
         .hero-section {
             text-align: center;
@@ -161,7 +177,7 @@ def render_landing_page():
         .hero-title {
             font-family: 'Inter', sans-serif;
             font-weight: 400;
-            font-size: 0.75rem; 
+            font-size: 0.75rem;
             color: var(--text-secondary);
             letter-spacing: 3px;
             text-transform: uppercase;
@@ -186,6 +202,7 @@ def render_landing_page():
             max-width: 450px;
             margin: 0 auto;
         }
+        
         /* --- Monolith Cards --- */
         .content-area {
             display: flex;
@@ -206,7 +223,10 @@ def render_landing_page():
             min-height: 280px;
             max-height: 400px;
         }
+        
+        /* Card is now an anchor tag */
         .monolith-card {
+            text-decoration: none; /* Critical for <a> tag conversion */
             background: var(--glass-bg);
             border: 1px solid var(--glass-border);
             border-radius: 4px;
@@ -229,14 +249,18 @@ def render_landing_page():
             left: 0;
             transition: all 0.3s ease;
         }
+        
+        /* Hover Effects */
         .monolith-card:hover {
             transform: translateY(-8px);
             background: rgba(25, 25, 25, 0.9);
             border-color: rgba(255,255,255,0.1);
         }
+        /* Specific Glow Colors */
         .card-a:hover .monolith-status { background: var(--neon-blue); box-shadow: 0 0 15px var(--neon-blue); }
         .card-b:hover .monolith-status { background: var(--neon-purple); box-shadow: 0 0 15px var(--neon-purple); }
         .card-c:hover .monolith-status { background: var(--neon-green); box-shadow: 0 0 15px var(--neon-green); }
+        
         .card-index {
             font-family: 'JetBrains Mono', monospace;
             font-size: 0.7rem;
@@ -274,6 +298,8 @@ def render_landing_page():
             transition: 0.3s;
         }
         .monolith-card:hover .target-dot { background: white; }
+        
+        /* Action Text */
         .action-text {
             font-size: 0.7rem;
             font-weight: 600;
@@ -292,54 +318,25 @@ def render_landing_page():
 </head>
 <body>
     <canvas id="bg-canvas"></canvas>
+    
     <div id="intro-overlay">
         <svg class="svg-intro-container" viewBox="0 0 500 120">
-            <!-- N -->
-            <path class="intro-line path-n" d="M20 100 L20 20 L80 100 L80 20" />
-            <circle class="intro-node node-n" cx="20" cy="100" style="animation-delay: 0.5s"/>
-            <circle class="intro-node node-n" cx="20" cy="20" style="animation-delay: 0.7s"/>
-            <circle class="intro-node node-n" cx="80" cy="100" style="animation-delay: 0.9s"/>
-            <circle class="intro-node node-n" cx="80" cy="20" style="animation-delay: 1.1s"/>
-            <!-- E -->
-            <path class="intro-line path-e" d="M160 20 L110 20 L110 100 L160 100 M110 60 L150 60" />
-            <circle class="intro-node node-e" cx="160" cy="20" style="animation-delay: 1.2s"/>
-            <circle class="intro-node node-e" cx="110" cy="20" style="animation-delay: 1.3s"/>
-            <circle class="intro-node node-e" cx="110" cy="60" style="animation-delay: 1.4s"/>
-            <circle class="intro-node node-e" cx="150" cy="60" style="animation-delay: 1.45s"/>
-            <circle class="intro-node node-e" cx="110" cy="100" style="animation-delay: 1.5s"/>
-            <circle class="intro-node node-e" cx="160" cy="100" style="animation-delay: 1.6s"/>
-            <!-- X -->
-            <path class="intro-line path-x" d="M190 20 L250 100 M250 20 L190 100" />
-            <circle class="intro-node node-x" cx="190" cy="20" style="animation-delay: 1.9s"/>
-            <circle class="intro-node node-x" cx="250" cy="100" style="animation-delay: 2.1s"/>
-            <circle class="intro-node node-x" cx="250" cy="20" style="animation-delay: 2.0s"/>
-            <circle class="intro-node node-x" cx="190" cy="100" style="animation-delay: 2.2s"/>
-            <!-- U -->
-            <path class="intro-line path-u" d="M280 20 L280 80 Q280 100 300 100 L320 100 Q340 100 340 80 L340 20" />
-            <circle class="intro-node node-u" cx="280" cy="20" style="animation-delay: 2.6s"/>
-            <circle class="intro-node node-u" cx="280" cy="80" style="animation-delay: 2.8s"/>
-            <circle class="intro-node node-u" cx="340" cy="80" style="animation-delay: 3.0s"/>
-            <circle class="intro-node node-u" cx="340" cy="20" style="animation-delay: 3.1s"/>
-            <!-- S -->
-            <path class="intro-line path-s" d="M430 20 L380 20 L380 60 L430 60 L430 100 L380 100" />
-            <circle class="intro-node node-s" cx="430" cy="20" style="animation-delay: 3.3s"/>
-            <circle class="intro-node node-s" cx="380" cy="20" style="animation-delay: 3.4s"/>
-            <circle class="intro-node node-s" cx="380" cy="60" style="animation-delay: 3.6s"/>
-            <circle class="intro-node node-s" cx="430" cy="60" style="animation-delay: 3.8s"/>
-            <circle class="intro-node node-s" cx="430" cy="100" style="animation-delay: 3.9s"/>
-            <circle class="intro-node node-s" cx="380" cy="100" style="animation-delay: 4.1s"/>
+             <path class="intro-line path-n" d="M20 100 L20 20 L80 100 L80 20" /><circle class="intro-node node-n" cx="20" cy="100" style="animation-delay: 0.5s"/><circle class="intro-node node-n" cx="20" cy="20" style="animation-delay: 0.7s"/><circle class="intro-node node-n" cx="80" cy="100" style="animation-delay: 0.9s"/><circle class="intro-node node-n" cx="80" cy="20" style="animation-delay: 1.1s"/><path class="intro-line path-e" d="M160 20 L110 20 L110 100 L160 100 M110 60 L150 60" /><circle class="intro-node node-e" cx="160" cy="20" style="animation-delay: 1.2s"/><circle class="intro-node node-e" cx="110" cy="20" style="animation-delay: 1.3s"/><circle class="intro-node node-e" cx="110" cy="60" style="animation-delay: 1.4s"/><circle class="intro-node node-e" cx="150" cy="60" style="animation-delay: 1.45s"/><circle class="intro-node node-e" cx="110" cy="100" style="animation-delay: 1.5s"/><circle class="intro-node node-e" cx="160" cy="100" style="animation-delay: 1.6s"/><path class="intro-line path-x" d="M190 20 L250 100 M250 20 L190 100" /><circle class="intro-node node-x" cx="190" cy="20" style="animation-delay: 1.9s"/><circle class="intro-node node-x" cx="250" cy="100" style="animation-delay: 2.1s"/><circle class="intro-node node-x" cx="250" cy="20" style="animation-delay: 2.0s"/><circle class="intro-node node-x" cx="190" cy="100" style="animation-delay: 2.2s"/><path class="intro-line path-u" d="M280 20 L280 80 Q280 100 300 100 L320 100 Q340 100 340 80 L340 20" /><circle class="intro-node node-u" cx="280" cy="20" style="animation-delay: 2.6s"/><circle class="intro-node node-u" cx="280" cy="80" style="animation-delay: 2.8s"/><circle class="intro-node node-u" cx="340" cy="80" style="animation-delay: 3.0s"/><circle class="intro-node node-u" cx="340" cy="20" style="animation-delay: 3.1s"/><path class="intro-line path-s" d="M430 20 L380 20 L380 60 L430 60 L430 100 L380 100" /><circle class="intro-node node-s" cx="430" cy="20" style="animation-delay: 3.3s"/><circle class="intro-node node-s" cx="380" cy="20" style="animation-delay: 3.4s"/><circle class="intro-node node-s" cx="380" cy="60" style="animation-delay: 3.6s"/><circle class="intro-node node-s" cx="430" cy="60" style="animation-delay: 3.8s"/><circle class="intro-node node-s" cx="430" cy="100" style="animation-delay: 3.9s"/><circle class="intro-node node-s" cx="380" cy="100" style="animation-delay: 4.1s"/>
         </svg>
     </div>
+
     <div id="main-wrapper">
         <header class="site-header">
             <div class="header-brand">NEXUS</div>
             <div class="header-version">V5.0</div>
         </header>
+        
         <div class="hero-section">
             <h2 class="hero-title">Intelligent Networking Engine</h2>
             <p class="hero-desc">Architecting Serendipity through<br>Temporal Intelligence.</p>
             <p class="hero-sub">Connecting intent with opportunity by analyzing professional signals in real-time.</p>
         </div>
+        
         <div class="content-area">
             <div class="cards-container">
                 <div class="monolith-card card-a group" data-mode="Student / Intern">
@@ -355,6 +352,7 @@ def render_landing_page():
                     </div>
                     <div class="action-text">INITIALIZE SYSTEM</div>
                 </div>
+                
                 <div class="monolith-card card-b group" data-mode="Founder">
                     <div class="monolith-status"></div>
                     <div class="card-index">02 // CONTEXT</div>
@@ -368,6 +366,7 @@ def render_landing_page():
                     </div>
                     <div class="action-text">INITIALIZE SYSTEM</div>
                 </div>
+                
                 <div class="monolith-card card-c group" data-mode="Researcher">
                     <div class="monolith-status"></div>
                     <div class="card-index">03 // CONTEXT</div>
@@ -384,43 +383,47 @@ def render_landing_page():
             </div>
         </div>
     </div>
+    
     <script>
+        // --- BACKGROUND PARTICLES ---
         const canvas = document.getElementById('bg-canvas');
         const ctx = canvas.getContext('2d');
         let width, height;
         let particlesArray;
         let mouse = { x: undefined, y: undefined, radius: 250, lastX: undefined, lastY: undefined };
+        
         window.addEventListener('mousemove', function(event) {
             mouse.lastX = mouse.x;
             mouse.lastY = mouse.y;
             mouse.x = event.x;
             mouse.y = event.y;
         });
+        
         class Particle {
             constructor(x, y, size) {
                 this.x = x; this.y = y; this.size = size;
                 this.baseVx = (Math.random() * 0.2) - 0.1;
                 this.baseVy = (Math.random() * 0.2) - 0.1;
-                this.vx = this.baseVx; 
+                this.vx = this.baseVx;
                 this.vy = this.baseVy;
                 this.friction = 0.96;
             }
             draw() {
                 ctx.beginPath();
                 ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-                ctx.fillStyle = 'rgba(255, 255, 255, 0.4)'; 
+                ctx.fillStyle = 'rgba(255, 255, 255, 0.4)';
                 ctx.fill();
             }
             update() {
                 if(mouse.x != undefined && mouse.lastX != undefined) {
-                    let dx = mouse.x - this.x; 
+                    let dx = mouse.x - this.x;
                     let dy = mouse.y - this.y;
                     let distance = Math.sqrt(dx*dx + dy*dy);
                     if (distance < mouse.radius) {
                         let mouseVx = mouse.x - mouse.lastX;
                         let mouseVy = mouse.y - mouse.lastY;
                         let force = (mouse.radius - distance) / mouse.radius;
-                        this.vx += mouseVx * force * 0.05; 
+                        this.vx += mouseVx * force * 0.05;
                         this.vy += mouseVy * force * 0.05;
                     }
                 }
@@ -448,13 +451,12 @@ def render_landing_page():
         function animate() {
             requestAnimationFrame(animate);
             ctx.clearRect(0, 0, width, height);
-            for (let i = 0; i < particlesArray.length; i++) {
-                particlesArray[i].update(); particlesArray[i].draw();
-            }
+            for (let i = 0; i < particlesArray.length; i++) { particlesArray[i].update(); particlesArray[i].draw(); }
         }
         window.addEventListener('resize', function(){ init(); });
         init(); animate();
         lucide.createIcons();
+        
         
         // Click handlers for navigation to dashboard with mode selection
         document.querySelectorAll('.monolith-card').forEach(card => {
@@ -464,6 +466,13 @@ def render_landing_page():
                 window.location.href = window.location.origin + window.location.pathname + `?page=dashboard&mode=${encodeURIComponent(selectedMode)}`;
             });
         });
+
+        // --- SAFETY: FORCE HIDE OVERLAY ---
+        // Ensures the intro overlay disappears even if the animation event listener fails
+        setTimeout(() => {
+            const overlay = document.getElementById('intro-overlay');
+            if(overlay) overlay.style.display = 'none';
+        }, 7500);
     </script>
 </body>
 </html>

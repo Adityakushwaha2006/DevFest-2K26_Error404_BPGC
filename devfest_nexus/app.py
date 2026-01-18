@@ -1,39 +1,65 @@
-"""
-NEXUS - AI-Powered Networking Intelligence System
-==================================================
-Main Application - Routes to Landing Page or Dashboard
-"""
-
 import streamlit as st
-from logic.landing_page import render_landing_page
-from logic.dashboard import render_dashboard
+import sys
+import os
 
-# Page config
-st.set_page_config(page_title="NEXUS", layout="wide", initial_sidebar_state="collapsed")
+# Path setup to ensure imports work relative to the project root
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# Check query parameters for navigation and mode
-query_params = st.query_params
+from devfest_nexus.auth import check_login, logout
+from devfest_nexus.logic import dashboard, landing_page
 
-# Capture selected mode from landing page
-if 'mode' in query_params:
-    st.session_state.selected_mode = query_params['mode']
 
-# Handle page navigation
-if 'page' in query_params and query_params['page'] == 'dashboard':
-    if 'page' not in st.session_state or st.session_state.page != 'dashboard':
-        st.session_state.page = 'dashboard'
-        st.rerun()
+# Import code modules
+from devfest_nexus.auth import check_login, logout
+from devfest_nexus.logic import dashboard, chat_engine, landing_page
 
-# Session state for page routing
-if 'page' not in st.session_state:
-    st.session_state.page = 'landing'  # 'landing' or 'dashboard'
+# Page Config
+st.set_page_config(page_title="NEXUS | AI Networking", layout="wide")
 
-# Initialize selected_mode if not set
-if 'selected_mode' not in st.session_state:
-    st.session_state.selected_mode = 'Student / Intern'  # Default
+def main():
+    # Capture 'landing' request from query params
+    query_page = st.query_params.get("page", "landing")
+    
+    # If explicitly requesting landing page, show it and return
+    # This preserves the public landing page functionality
+    if query_page == "landing":
+        landing_page.render()
+        return
 
-# Simple routing - show landing page or dashboard
-if st.session_state.page == 'landing':
-    render_landing_page()
-else:
-    render_dashboard()
+    # --- AUTHENTICATION GATE ---
+    # For all other pages (dashboard), enforce login
+    if not check_login():
+        st.stop()  # Stop execution if not logged in
+
+    # --- MAIN APP LOGIC (Only runs if logged in) ---
+    
+    # Initialize session state for mode if present in URL
+    if "mode" in st.query_params:
+        st.session_state["selected_mode"] = st.query_params["mode"]
+
+    # Sidebar for User Profile & Navigation
+    with st.sidebar:
+        # Use a default user name if missing
+        user_name = st.session_state.get("user_name", "User")
+        # Use ui-avatars for profile picture
+        st.image(f"https://ui-avatars.com/api/?name={user_name}&background=random", width=50)
+        st.write(f"**{user_name}**")
+        st.caption(st.session_state.get("user_email"))
+        
+        if st.button("Logout"):
+            logout()
+            
+        st.markdown("---")
+        app_mode = st.radio("Navigate", ["Dashboard", "Search & Discovery"])
+
+    # Load respective modules based on selection
+    if app_mode == "Dashboard":
+        dashboard.render() 
+        # chat_engine.render_chat() # Commented out until verified if it should be here or inside dashboard
+        
+    elif app_mode == "Search & Discovery":
+        # If user wants to go back to landing page from sidebar
+        landing_page.render()
+
+if __name__ == "__main__":
+    main()
