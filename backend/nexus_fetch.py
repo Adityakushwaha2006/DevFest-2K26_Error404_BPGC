@@ -188,7 +188,7 @@ class ExtendedGitHubFetcher:
         }
         try:
             result["profile"] = self._fetch_profile(username)
-            result["repositories"] = self._fetch_repositories(username)
+            result["repositories"] = self._fetch_repositories(username, limit=10)
             events = self._fetch_events(username)
             result.update(events)
             result["cross_references"] = self._extract_cross_references(result["profile"])
@@ -199,44 +199,76 @@ class ExtendedGitHubFetcher:
             print(f"[x] Failed to fetch GitHub data: {e}")
         return result
     
+    def _clean_profile_data(self, profile: Dict) -> Dict:
+        """Remove unnecessary URLs and IDs, keeping only useful personal information."""
+        useful_fields = {
+            "login": profile.get("login"),
+            "name": profile.get("name"),
+            "bio": profile.get("bio"),
+            "company": profile.get("company"),
+            "location": profile.get("location"),
+            "email": profile.get("email"),
+            "hireable": profile.get("hireable"),
+            "twitter_username": profile.get("twitter_username"),
+            "blog": profile.get("blog"),
+            "public_repos": profile.get("public_repos"),
+            "public_gists": profile.get("public_gists"),
+            "followers": profile.get("followers"),
+            "following": profile.get("following"),
+            "created_at": profile.get("created_at"),
+            "updated_at": profile.get("updated_at"),
+        }
+        # Remove None values
+        return {k: v for k, v in useful_fields.items() if v is not None}
+    
     def _fetch_profile(self, username: str) -> Dict:
         url = f"{self.base_url}/users/{username}"
         response = requests.get(url, headers=self.headers)
         if response.status_code != 200: raise Exception(f"HTTP {response.status_code}")
-        return response.json()
+        return self._clean_profile_data(response.json())
     
-    def _fetch_repositories(self, username: str, limit: int = 30) -> List[Dict]:
+    def _fetch_repositories(self, username: str, limit: int = 10) -> List[Dict]:
         url = f"{self.base_url}/users/{username}/repos"
         params = {"sort": "pushed", "per_page": min(limit, 100)}
         response = requests.get(url, headers=self.headers, params=params)
         repos = []
         if response.status_code == 200:
-            for repo in response.json():
+            for repo in response.json()[:limit]:
                 repos.append({
                     "name": repo.get("name"),
+                    "description": repo.get("description"),
                     "stars": repo.get("stargazers_count", 0),
-                    "language": repo.get("language")
+                    "forks": repo.get("forks_count", 0),
+                    "language": repo.get("language"),
+                    "updated_at": repo.get("updated_at")
                 })
         return repos
     
-    def _fetch_events(self, username: str) -> Dict[str, List]:
+    def _fetch_events(self, username: str, max_commits: int = 20) -> Dict[str, List]:
         commits = []
-        for page in range(1, 4):
+        # Limit to 2 pages to reduce API calls
+        for page in range(1, 3):
+            if len(commits) >= max_commits:
+                break
             url = f"{self.base_url}/users/{username}/events/public"
             params = {"per_page": 100, "page": page}
             response = requests.get(url, headers=self.headers, params=params)
             if response.status_code != 200: break
             for event in response.json():
+                if len(commits) >= max_commits:
+                    break
                 created_at = datetime.fromisoformat(event["created_at"].replace("Z", "+00:00"))
                 if created_at.replace(tzinfo=None) < self.three_months_ago: continue
                 if event["type"] == "PushEvent":
                     for commit in event.get("payload", {}).get("commits", []):
+                        if len(commits) >= max_commits:
+                            break
                         commits.append({
                             "message": commit.get("message"),
                             "timestamp": created_at.isoformat(),
-                            "url": f"https://github.com/{event['repo']['name']}/commit/{commit['sha']}" if 'repo' in event else None
+                            "repo": event.get('repo', {}).get('name')
                         })
-        return {"commits": commits, "comments": [], "pull_requests": []}
+        return {"commits": commits}
 
     def _extract_cross_references(self, profile: Dict) -> List[Dict]:
         refs = []
@@ -251,7 +283,8 @@ class ExtendedGitHubFetcher:
         node.data = data["profile"]
         node.fetch_status = data["fetch_status"]
         node.confidence_score = 1.0 if data["fetch_status"] == "success" else 0.0
-        for commit in data.get("commits", [])[:30]:
+        # Limit to 20 commits to reduce processing overhead
+        for commit in data.get("commits", [])[:20]:
             activity = ActivityEvent(
                 Platform.GITHUB, "commit", commit.get("message", ""),
                 datetime.fromisoformat(commit["timestamp"].replace("Z", "+00:00"))
